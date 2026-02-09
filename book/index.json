@@ -1,1 +1,46 @@
+{
+  "version": "2026-02-09T00:00:00Z",
+  "owner": "lks87454255",
+  "repo": "jeongganview-asset",
+  "branch": "main",
+  "categories": [
+    {
+      "name": "5관청",
+      "files": [
+        { "name": "5관청", "fileName": "5관청.pdf", "path": "book/5관청/5관청.pdf", "type": "pdf" }
+      ]
+    },
+    {
+      "name": "영산회사상",
+      "files": [
+        { "name": "피리", "fileName": "피리.pdf", "path": "book/영산회사상/피리.pdf", "type": "pdf" },
+        { "name": "대금", "fileName": "대금.pdf", "path": "book/영산회사상/대금.pdf", "type": "pdf" },
+        { "name": "해금", "fileName": "해금.pdf", "path": "book/영산회사상/해금.pdf", "type": "pdf" },
+        { "name": "가야금", "fileName": "가야금.pdf", "path": "book/영산회사상/가야금.pdf", "type": "pdf" },
+        { "name": "거문고", "fileName": "거문고.pdf", "path": "book/영산회사상/거문고.pdf", "type": "pdf" }
+      ]
+    },
+    {
+      "name": "대금정악보",
+      "files": [
+        { "name": "취타", "fileName": "취타.pdf", "path": "book/대금정악보/취타.pdf", "type": "pdf" },
+        { "name": "해령", "fileName": "해령.pdf", "path": "book/대금정악보/해령.pdf", "type": "pdf" },
+        { "name": "도드리", "fileName": "도드리.pdf", "path": "book/대금정악보/도드리.pdf", "type": "pdf" },
+        { "name": "동동", "fileName": "동동.pdf", "path": "book/대금정악보/동동.pdf", "type": "pdf" },
+        { "name": "보허자", "fileName": "보허자.pdf", "path": "book/대금정악보/보허자.pdf", "type": "pdf" },
+        { "name": "수제천", "fileName": "수제천.pdf", "path": "book/대금정악보/수제천.pdf", "type": "pdf" },
+        { "name": "독주곡 헌천수", "fileName": "독주곡 헌천수.pdf", "path": "book/대금정악보/독주곡 헌천수.pdf", "type": "pdf" },
+        { "name": "독주곡 상령산", "fileName": "독주곡 상령산.pdf", "path": "book/대금정악보/독주곡 상령산.pdf", "type": "pdf" },
+        { "name": "독주곡 청성자진한잎", "fileName": "독주곡 청성자진한잎.pdf", "path": "book/대금정악보/독주곡 청성자진한잎.pdf", "type": "pdf" },
+        { "name": "여민락", "fileName": "여민락.pdf", "path": "book/대금정악보/여민락.pdf", "type": "pdf" },
+        { "name": "평조회상", "fileName": "평조회상.pdf", "path": "book/대금정악보/평조회상.pdf", "type": "pdf" },
+        { "name": "현악취타", "fileName": "현악취타.pdf", "path": "book/대금정악보/현악취타.pdf", "type": "pdf" },
+        { "name": "영산회사상", "fileName": "여산회상.pdf", "path": "book/대금정악보/여산회상.pdf", "type": "pdf" },
+        { "name": "자진한잎", "fileName": "자진한잎.pdf", "path": "book/대금정악보/자진한잎.pdf", "type": "pdf" },
+        { "name": "천년만세", "fileName": "천년만세.pdf", "path": "book/대금정악보/천년만세.pdf", "type": "pdf" },
+        { "name": "관악영산회사상", "fileName": "관악영산회상.pdf", "path": "book/대금정악보/관악영산회상.pdf", "type": "pdf" }
+      ]
+    }
+  ]
+}
 
