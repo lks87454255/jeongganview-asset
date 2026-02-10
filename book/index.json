@@ -23,9 +23,9 @@
     {
       "directory": "대금정악보",
       "items": [
-        { "displayName": "독주곡 헌천수", "fileName": "독주곡 헌천수.pdf", "path": "book/대금정악보/독주곡-헌천수.pdf", "type": "pdf" },
-        { "displayName": "독주곡 상령산", "fileName": "독주곡 상령산.pdf", "path": "book/대금정악보/독주곡-상령산.pdf", "type": "pdf" },
-        { "displayName": "독주곡 청성자진한잎", "fileName": "독주곡 청성자진한잎.pdf", "path": "book/대금정악보/독주곡-청성자진한잎.pdf", "type": "pdf" },
+        { "displayName": "독주곡 헌천수", "fileName": "독주곡-헌천수.pdf", "path": "book/대금정악보/독주곡-헌천수.pdf", "type": "pdf" },
+        { "displayName": "독주곡 상령산", "fileName": "독주곡-상령산.pdf", "path": "book/대금정악보/독주곡-상령산.pdf", "type": "pdf" },
+        { "displayName": "독주곡 청성자진한잎", "fileName": "독주곡-청성자진한잎.pdf", "path": "book/대금정악보/독주곡-청성자진한잎.pdf", "type": "pdf" },
         { "displayName": "취타", "fileName": "취타.pdf", "path": "book/대금정악보/취타.pdf", "type": "pdf" },
         { "displayName": "해령", "fileName": "해령.pdf", "path": "book/대금정악보/해령.pdf", "type": "pdf" },
         { "displayName": "도드리", "fileName": "도드리.pdf", "path": "book/대금정악보/도드리.pdf", "type": "pdf" },
