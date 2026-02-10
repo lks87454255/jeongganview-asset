@@ -29,15 +29,15 @@
         { "displayName": "동동", "fileName": "동동.pdf", "path": "book/대금정악보/동동.pdf", "type": "pdf" },
         { "displayName": "보허자", "fileName": "보허자.pdf", "path": "book/대금정악보/보허자.pdf", "type": "pdf" },
         { "displayName": "수제천", "fileName": "수제천.pdf", "path": "book/대금정악보/수제천.pdf", "type": "pdf" },
-        { "displayName": "독주곡 헌천수", "fileName": "독주곡 헌천수.pdf", "path": "book/대금정악보/독주곡 헌천수.pdf", "type": "pdf" },
-        { "displayName": "독주곡 상령산", "fileName": "독주곡 상령산.pdf", "path": "book/대금정악보/독주곡 상령산.pdf", "type": "pdf" },
-        { "displayName": "독주곡 청성자진한잎", "fileName": "독주곡 청성자진한잎.pdf", "path": "book/대금정악보/독주곡 청성자진한잎.pdf", "type": "pdf" },
         { "displayName": "여민락", "fileName": "여민락.pdf", "path": "book/대금정악보/여민락.pdf", "type": "pdf" },
         { "displayName": "평조회상", "fileName": "평조회상.pdf", "path": "book/대금정악보/평조회상.pdf", "type": "pdf" },
         { "displayName": "현악취타", "fileName": "현악취타.pdf", "path": "book/대금정악보/현악취타.pdf", "type": "pdf" },
         { "displayName": "영산회사상", "fileName": "여산회상.pdf", "path": "book/대금정악보/여산회상.pdf", "type": "pdf" },
         { "displayName": "자진한잎", "fileName": "자진한잎.pdf", "path": "book/대금정악보/자진한잎.pdf", "type": "pdf" },
         { "displayName": "천년만세", "fileName": "천년만세.pdf", "path": "book/대금정악보/천년만세.pdf", "type": "pdf" },
+        { "displayName": "독주곡 헌천수", "fileName": "독주곡 헌천수.pdf", "path": "book/대금정악보/독주곡 헌천수.pdf", "type": "pdf" },
+        { "displayName": "독주곡 상령산", "fileName": "독주곡 상령산.pdf", "path": "book/대금정악보/독주곡 상령산.pdf", "type": "pdf" },
+        { "displayName": "독주곡 청성자진한잎", "fileName": "독주곡 청성자진한잎.pdf", "path": "book/대금정악보/독주곡 청성자진한잎.pdf", "type": "pdf" },
         { "displayName": "관악영산회사상", "fileName": "관악영산회상.pdf", "path": "book/대금정악보/관악영산회상.pdf", "type": "pdf" }
       ]
     }
