@@ -81,18 +81,6 @@
       ]
     },
     {
-      "directory": "청성곡",
-      "items": [
-        { "displayName": "청성곡-010", "fileName": "청성곡-010.wav", "path": "audio/청성곡/청성곡-010.wav", "type": "wav" },
-        { "displayName": "청성곡-020", "fileName": "청성곡-020.wav", "path": "audio/청성곡/청성곡-020.wav", "type": "wav" },
-        { "displayName": "청성곡-030", "fileName": "청성곡-030.wav", "path": "audio/청성곡/청성곡-030.wav", "type": "wav" },
-        { "displayName": "청성곡-040", "fileName": "청성곡-040.wav", "path": "audio/청성곡/청성곡-040.wav", "type": "wav" },
-        { "displayName": "청성곡-050", "fileName": "청성곡-050.wav", "path": "audio/청성곡/청성곡-050.wav", "type": "wav" },
-        { "displayName": "청성곡-060", "fileName": "청성곡-060.wav", "path": "audio/청성곡/청성곡-060.wav", "type": "wav" },
-        { "displayName": "청성곡-070", "fileName": "청성곡-070.wav", "path": "audio/청성곡/청성곡-070.wav", "type": "wav" }
-      ]
-    },
-    {
       "directory": "중중모리",
       "items": [
         { "displayName": "중중모리-034", "fileName": "중중모리-034.wav", "path": "audio/중중모리/중중모리-034.wav", "type": "wav" },
@@ -110,6 +98,18 @@
         { "displayName": "중중모리-046", "fileName": "중중모리-046.wav", "path": "audio/중중모리/중중모리-046.wav", "type": "wav" },
         { "displayName": "중중모리-047", "fileName": "중중모리-047.wav", "path": "audio/중중모리/중중모리-047.wav", "type": "wav" },
         { "displayName": "중중모리-048", "fileName": "중중모리-048.wav", "path": "audio/중중모리/중중모리-048.wav", "type": "wav" }
+      ]
+    },
+    {
+           "directory": "청성곡",
+      "items": [
+        { "displayName": "청성곡-010", "fileName": "청성곡-010.wav", "path": "audio/청성곡/청성곡-010.wav", "type": "wav" },
+        { "displayName": "청성곡-020", "fileName": "청성곡-020.wav", "path": "audio/청성곡/청성곡-020.wav", "type": "wav" },
+        { "displayName": "청성곡-030", "fileName": "청성곡-030.wav", "path": "audio/청성곡/청성곡-030.wav", "type": "wav" },
+        { "displayName": "청성곡-040", "fileName": "청성곡-040.wav", "path": "audio/청성곡/청성곡-040.wav", "type": "wav" },
+        { "displayName": "청성곡-050", "fileName": "청성곡-050.wav", "path": "audio/청성곡/청성곡-050.wav", "type": "wav" },
+        { "displayName": "청성곡-060", "fileName": "청성곡-060.wav", "path": "audio/청성곡/청성곡-060.wav", "type": "wav" },
+        { "displayName": "청성곡-070", "fileName": "청성곡-070.wav", "path": "audio/청성곡/청성곡-070.wav", "type": "wav" }
       ]
     }
   ]
