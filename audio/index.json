@@ -23,16 +23,7 @@
         { "displayName": "진양-014", "fileName": "진양-014.wav", "path": "audio/진양/진양-014.wav", "type": "wav" }
       ]
     },
-    {
-      "directory": "엇모리",
-      "items": [
-        { "displayName": "엇모리-029", "fileName": "엇모리-029.wav", "path": "audio/엇모리/엇모리-029.wav", "type": "wav" },
-        { "displayName": "엇모리-030", "fileName": "엇모리-030.wav", "path": "audio/엇모리/엇모리-030.wav", "type": "wav" },
-        { "displayName": "엇모리-031", "fileName": "엇모리-031.wav", "path": "audio/엇모리/엇모리-031.wav", "type": "wav" },
-        { "displayName": "엇모리-032", "fileName": "엇모리-032.wav", "path": "audio/엇모리/엇모리-032.wav", "type": "wav" },
-        { "displayName": "엇모리-033", "fileName": "엇모리-033.wav", "path": "audio/엇모리/엇모리-033.wav", "type": "wav" }
-      ]
-    },
+
     {
       "directory": "중모리",
       "items": [
@@ -100,7 +91,16 @@
         { "displayName": "자진모리-071", "fileName": "자진모리-071.wav", "path": "audio/자진모리/자진모리-071.wav", "type": "wav" }
       ]
     },
-
+    {
+      "directory": "엇모리",
+      "items": [
+        { "displayName": "엇모리-029", "fileName": "엇모리-029.wav", "path": "audio/엇모리/엇모리-029.wav", "type": "wav" },
+        { "displayName": "엇모리-030", "fileName": "엇모리-030.wav", "path": "audio/엇모리/엇모리-030.wav", "type": "wav" },
+        { "displayName": "엇모리-031", "fileName": "엇모리-031.wav", "path": "audio/엇모리/엇모리-031.wav", "type": "wav" },
+        { "displayName": "엇모리-032", "fileName": "엇모리-032.wav", "path": "audio/엇모리/엇모리-032.wav", "type": "wav" },
+        { "displayName": "엇모리-033", "fileName": "엇모리-033.wav", "path": "audio/엇모리/엇모리-033.wav", "type": "wav" }
+      ]
+    },
     {
            "directory": "청성곡",
       "items": [
