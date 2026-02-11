@@ -52,6 +52,26 @@
         { "displayName": "중모리-028", "fileName": "중모리-028.wav", "path": "audio/중모리/중모리-028.wav", "type": "wav" }
       ]
     },
+        {
+      "directory": "중중모리",
+      "items": [
+        { "displayName": "중중모리-034", "fileName": "중중모리-034.wav", "path": "audio/중중모리/중중모리-034.wav", "type": "wav" },
+        { "displayName": "중중모리-035", "fileName": "중중모리-035.wav", "path": "audio/중중모리/중중모리-035.wav", "type": "wav" },
+        { "displayName": "중중모리-036", "fileName": "중중모리-036.wav", "path": "audio/중중모리/중중모리-036.wav", "type": "wav" },
+        { "displayName": "중중모리-037", "fileName": "중중모리-037.wav", "path": "audio/중중모리/중중모리-037.wav", "type": "wav" },
+        { "displayName": "중중모리-038", "fileName": "중중모리-038.wav", "path": "audio/중중모리/중중모리-038.wav", "type": "wav" },
+        { "displayName": "중중모리-039", "fileName": "중중모리-039.wav", "path": "audio/중중모리/중중모리-039.wav", "type": "wav" },
+        { "displayName": "중중모리-040", "fileName": "중중모리-040.wav", "path": "audio/중중모리/중중모리-040.wav", "type": "wav" },
+        { "displayName": "중중모리-041", "fileName": "중중모리-041.wav", "path": "audio/중중모리/중중모리-041.wav", "type": "wav" },
+        { "displayName": "중중모리-042", "fileName": "중중모리-042.wav", "path": "audio/중중모리/중중모리-042.wav", "type": "wav" },
+        { "displayName": "중중모리-043", "fileName": "중중모리-043.wav", "path": "audio/중중모리/중중모리-043.wav", "type": "wav" },
+        { "displayName": "중중모리-044", "fileName": "중중모리-044.wav", "path": "audio/중중모리/중중모리-044.wav", "type": "wav" },
+        { "displayName": "중중모리-045", "fileName": "중중모리-045.wav", "path": "audio/중중모리/중중모리-045.wav", "type": "wav" },
+        { "displayName": "중중모리-046", "fileName": "중중모리-046.wav", "path": "audio/중중모리/중중모리-046.wav", "type": "wav" },
+        { "displayName": "중중모리-047", "fileName": "중중모리-047.wav", "path": "audio/중중모리/중중모리-047.wav", "type": "wav" },
+        { "displayName": "중중모리-048", "fileName": "중중모리-048.wav", "path": "audio/중중모리/중중모리-048.wav", "type": "wav" }
+      ]
+    },
     {
       "directory": "자진모리",
       "items": [
@@ -80,26 +100,7 @@
         { "displayName": "자진모리-071", "fileName": "자진모리-071.wav", "path": "audio/자진모리/자진모리-071.wav", "type": "wav" }
       ]
     },
-    {
-      "directory": "중중모리",
-      "items": [
-        { "displayName": "중중모리-034", "fileName": "중중모리-034.wav", "path": "audio/중중모리/중중모리-034.wav", "type": "wav" },
-        { "displayName": "중중모리-035", "fileName": "중중모리-035.wav", "path": "audio/중중모리/중중모리-035.wav", "type": "wav" },
-        { "displayName": "중중모리-036", "fileName": "중중모리-036.wav", "path": "audio/중중모리/중중모리-036.wav", "type": "wav" },
-        { "displayName": "중중모리-037", "fileName": "중중모리-037.wav", "path": "audio/중중모리/중중모리-037.wav", "type": "wav" },
-        { "displayName": "중중모리-038", "fileName": "중중모리-038.wav", "path": "audio/중중모리/중중모리-038.wav", "type": "wav" },
-        { "displayName": "중중모리-039", "fileName": "중중모리-039.wav", "path": "audio/중중모리/중중모리-039.wav", "type": "wav" },
-        { "displayName": "중중모리-040", "fileName": "중중모리-040.wav", "path": "audio/중중모리/중중모리-040.wav", "type": "wav" },
-        { "displayName": "중중모리-041", "fileName": "중중모리-041.wav", "path": "audio/중중모리/중중모리-041.wav", "type": "wav" },
-        { "displayName": "중중모리-042", "fileName": "중중모리-042.wav", "path": "audio/중중모리/중중모리-042.wav", "type": "wav" },
-        { "displayName": "중중모리-043", "fileName": "중중모리-043.wav", "path": "audio/중중모리/중중모리-043.wav", "type": "wav" },
-        { "displayName": "중중모리-044", "fileName": "중중모리-044.wav", "path": "audio/중중모리/중중모리-044.wav", "type": "wav" },
-        { "displayName": "중중모리-045", "fileName": "중중모리-045.wav", "path": "audio/중중모리/중중모리-045.wav", "type": "wav" },
-        { "displayName": "중중모리-046", "fileName": "중중모리-046.wav", "path": "audio/중중모리/중중모리-046.wav", "type": "wav" },
-        { "displayName": "중중모리-047", "fileName": "중중모리-047.wav", "path": "audio/중중모리/중중모리-047.wav", "type": "wav" },
-        { "displayName": "중중모리-048", "fileName": "중중모리-048.wav", "path": "audio/중중모리/중중모리-048.wav", "type": "wav" }
-      ]
-    },
+
     {
            "directory": "청성곡",
       "items": [
