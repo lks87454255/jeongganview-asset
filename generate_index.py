@@ -17,6 +17,7 @@ raw.githubusercontent.com 에서 단 1회 요청으로 전체 목록을 가져�
   Python: urllib.parse.quote(name, safe="")   ← 완전 동일
 """
 
+
 import os
 import json
 import unicodedata
