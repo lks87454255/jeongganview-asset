@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "generated": "2026-03-26T01:14:56Z",
+  "owner": "lks87454255",
+  "repo": "jeongganview-asset",
+  "branch": "main",
+  "categories": [
+    {
+      "name": "대금-산조",
+      "videos": [
+        {
+          "displayName": "친구여-Bb",
+          "fileName": "친구여-Bb.mp4",
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/video/%EB%8C%80%EA%B8%88-%EC%82%B0%EC%A1%B0/%EC%B9%9C%EA%B5%AC%EC%97%AC-Bb.mp4",
+          "sizeBytes": 20825277
+        }
+      ]
+    },
+    {
+      "name": "대금-정악",
+      "videos": [
+        {
+          "displayName": "친구여-Bb-정악대금",
+          "fileName": "친구여-Bb-정악대금.mp4",
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/video/%EB%8C%80%EA%B8%88-%EC%A0%95%EC%95%85/%EC%B9%9C%EA%B5%AC%EC%97%AC-Bb-%EC%A0%95%EC%95%85%EB%8C%80%EA%B8%88.mp4",
+          "sizeBytes": 20825277
+        }
+      ]
+    }
+  ],
+  "_total": {
+    "categories": 2,
+    "videos": 2
+  }
+}
