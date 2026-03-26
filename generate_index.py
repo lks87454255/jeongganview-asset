@@ -3,9 +3,10 @@
 """
 generate_index.py
 =================
-로컬 audio/ 및 book/ 디렉토리를 스캔하여
+로컬 audio/ , book/ , video/ 디렉토리를 스캔하여
   - audio-index.json  (음원 카테고리/트랙 목록)
   - book-index.json   (정간보 카테고리/파일 목록)
+  - video-index.json  (동영상 카테고리/파일 목록)
 을 생성합니다.
 
 생성 후 git push 하면 앱이 GitHub API 없이
@@ -33,6 +34,7 @@ BASE   = f"https://raw.githubusercontent.com/{OWNER}/{REPO}/{BRANCH}"
 # ── 지원 확장자 ─────────────────────────────────────────────────
 AUDIO_EXTS = {".mp3", ".wav", ".m4a", ".flac", ".ogg", ".aac", ".opus"}
 BOOK_EXTS  = {".pdf"}
+VIDEO_EXTS = {".mp4", ".webm", ".mkv", ".avi", ".mov"}
 
 # 무시할 파일/디렉토리 패턴
 IGNORE = {".DS_Store", ".gitkeep", ".gitignore", "Thumbs.db"}
@@ -155,13 +157,65 @@ def scan_book(book_dir: str) -> dict:
     }
 
 
+# ── video-index.json 생성 ──────────────────────────────────────
+def scan_video(video_dir: str) -> dict:
+    categories = []
+
+    cat_names = sorted(
+        n for n in os.listdir(video_dir)
+        if os.path.isdir(os.path.join(video_dir, n)) and not is_ignored(n)
+    )
+
+    for cat_name in cat_names:
+        cat_path = os.path.join(video_dir, cat_name)
+        videos = []
+
+        for file_name in sorted(os.listdir(cat_path)):
+            if is_ignored(file_name):
+                continue
+            ext = os.path.splitext(file_name)[1].lower()
+            if ext not in VIDEO_EXTS:
+                continue
+
+            display_name = os.path.splitext(file_name)[0]  # 확장자 제거
+            asset_path   = raw_url("video", cat_name, file_name)
+            size_bytes   = os.path.getsize(os.path.join(cat_path, file_name))
+
+            videos.append({
+                "displayName": display_name,
+                "fileName":    file_name,
+                "assetPath":   asset_path,
+                "sizeBytes":   size_bytes,
+            })
+
+        if videos:
+            categories.append({"name": cat_name, "videos": videos})
+            total_mb = sum(v["sizeBytes"] for v in videos) / 1_048_576
+            print(f"  🎬 [{cat_name}]  {len(videos)}개 파일  ({total_mb:.1f} MB)")
+        else:
+            print(f"  ⚠️  [{cat_name}]  동영상 파일 없음 — 건너뜀")
+
+    total_videos = sum(len(c["videos"]) for c in categories)
+    return {
+        "version":    1,
+        "generated":  datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+        "owner":      OWNER,
+        "repo":       REPO,
+        "branch":     BRANCH,
+        "categories": categories,
+        "_total":     {"categories": len(categories), "videos": total_videos},
+    }
+
+
 # ── 메인 ──────────────────────────────────────────────────────
 def main():
     base_dir   = os.path.dirname(os.path.abspath(__file__))
     audio_dir  = os.path.join(base_dir, "audio")
     book_dir   = os.path.join(base_dir, "book")
+    video_dir  = os.path.join(base_dir, "video")
     audio_out  = os.path.join(base_dir, "audio-index.json")
     book_out   = os.path.join(base_dir, "book-index.json")
+    video_out  = os.path.join(base_dir, "video-index.json")
 
     print(f"📁 레포 경로: {base_dir}")
     print(f"🔗 Base URL : {BASE}\n")
@@ -188,13 +242,25 @@ def main():
     else:
         print(f"⚠️  book/ 디렉토리 없음: {book_dir}\n")
 
+    # ── video ──
+    if os.path.isdir(video_dir):
+        print("🎬 video/ 스캔 중...")
+        video_data = scan_video(video_dir)
+        with open(video_out, "w", encoding="utf-8") as f:
+            json.dump(video_data, f, ensure_ascii=False, indent=2)
+        t = video_data["_total"]
+        print(f"✅ video-index.json  {t['categories']}개 카테고리 / {t['videos']}개 파일\n")
+    else:
+        print(f"⚠️  video/ 디렉토리 없음: {video_dir}\n")
+
     print("📄 생성된 파일:")
     print(f"   {audio_out}")
     print(f"   {book_out}")
+    print(f"   {video_out}")
     print()
     print("다음 단계:")
-    print("  git add audio-index.json book-index.json")
-    print("  git commit -m 'chore: update audio/book index'")
+    print("  git add audio-index.json book-index.json video-index.json")
+    print("  git commit -m 'chore: update audio/book/video index'")
     print("  git push")
 
 
