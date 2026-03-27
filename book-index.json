@@ -1,10 +1,29 @@
 {
   "version": 1,
-  "generated": "2026-03-26T06:08:19Z",
+  "generated": "2026-03-27T07:42:05Z",
   "owner": "lks87454255",
   "repo": "jeongganview-asset",
   "branch": "main",
   "categories": [
+    {
+      "name": "대금",
+      "files": [
+        {
+          "name": "대금-황야의 무법자-Cm",
+          "fileName": "대금-황야의 무법자-Cm.pdf",
+          "path": "book/대금/대금-황야의 무법자-Cm.pdf",
+          "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EB%8C%80%EA%B8%88/%EB%8C%80%EA%B8%88-%ED%99%A9%EC%95%BC%EC%9D%98%20%EB%AC%B4%EB%B2%95%EC%9E%90-Cm.pdf",
+          "sizeBytes": 74516
+        },
+        {
+          "name": "대금-황야의 무법자-Dm",
+          "fileName": "대금-황야의 무법자-Dm.pdf",
+          "path": "book/대금/대금-황야의 무법자-Dm.pdf",
+          "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EB%8C%80%EA%B8%88/%EB%8C%80%EA%B8%88-%ED%99%A9%EC%95%BC%EC%9D%98%20%EB%AC%B4%EB%B2%95%EC%9E%90-Dm.pdf",
+          "sizeBytes": 81350
+        }
+      ]
+    },
     {
       "name": "대금정악",
       "files": [
@@ -190,7 +209,7 @@
     }
   ],
   "_total": {
-    "categories": 3,
-    "files": 24
+    "categories": 4,
+    "files": 26
   }
 }
