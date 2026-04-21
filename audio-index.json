@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-03-27T13:13:06Z",
+  "generated": "2026-04-21T04:11:43Z",
   "owner": "lks87454255",
   "repo": "jeongganview-asset",
   "branch": "main",
@@ -11,22 +11,34 @@
         {
           "displayName": "가락더리-010",
           "fileName": "가락더리-010.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B0%80%EB%9D%BD%EB%8D%94%EB%A6%AC/%EA%B0%80%EB%9D%BD%EB%8D%94%EB%A6%AC-010.wav"
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B0%80%EB%9D%BD%EB%8D%94%EB%A6%AC/%EA%B0%80%EB%9D%BD%EB%8D%94%EB%A6%AC-010.wav",
+          "durationMs": 16667,
+          "durationSeconds": 16,
+          "sizeBytes": 2205156
         },
         {
           "displayName": "가락더리-020",
           "fileName": "가락더리-020.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B0%80%EB%9D%BD%EB%8D%94%EB%A6%AC/%EA%B0%80%EB%9D%BD%EB%8D%94%EB%A6%AC-020.wav"
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B0%80%EB%9D%BD%EB%8D%94%EB%A6%AC/%EA%B0%80%EB%9D%BD%EB%8D%94%EB%A6%AC-020.wav",
+          "durationMs": 25000,
+          "durationSeconds": 25,
+          "sizeBytes": 3307580
         },
         {
           "displayName": "가락더리-030",
           "fileName": "가락더리-030.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B0%80%EB%9D%BD%EB%8D%94%EB%A6%AC/%EA%B0%80%EB%9D%BD%EB%8D%94%EB%A6%AC-030.wav"
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B0%80%EB%9D%BD%EB%8D%94%EB%A6%AC/%EA%B0%80%EB%9D%BD%EB%8D%94%EB%A6%AC-030.wav",
+          "durationMs": 16667,
+          "durationSeconds": 16,
+          "sizeBytes": 2205080
         },
         {
           "displayName": "가락더리-040",
           "fileName": "가락더리-040.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B0%80%EB%9D%BD%EB%8D%94%EB%A6%AC/%EA%B0%80%EB%9D%BD%EB%8D%94%EB%A6%AC-040.wav"
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B0%80%EB%9D%BD%EB%8D%94%EB%A6%AC/%EA%B0%80%EB%9D%BD%EB%8D%94%EB%A6%AC-040.wav",
+          "durationMs": 11667,
+          "durationSeconds": 11,
+          "sizeBytes": 1543580
         }
       ]
     },
@@ -34,29 +46,44 @@
       "name": "거문고-엇모리",
       "tracks": [
         {
-          "displayName": "거문고-엇모리-029",
-          "fileName": "거문고-엇모리-029.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%97%87%EB%AA%A8%EB%A6%AC/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%97%87%EB%AA%A8%EB%A6%AC-029.wav"
+          "displayName": "거문고-엇모리-029g",
+          "fileName": "거문고-엇모리-029g.wav",
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%97%87%EB%AA%A8%EB%A6%AC/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%97%87%EB%AA%A8%EB%A6%AC-029g.wav",
+          "durationMs": 8000,
+          "durationSeconds": 8,
+          "sizeBytes": 2116880
         },
         {
-          "displayName": "거문고-엇모리-030",
-          "fileName": "거문고-엇모리-030.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%97%87%EB%AA%A8%EB%A6%AC/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%97%87%EB%AA%A8%EB%A6%AC-030.wav"
+          "displayName": "거문고-엇모리-030g",
+          "fileName": "거문고-엇모리-030g.wav",
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%97%87%EB%AA%A8%EB%A6%AC/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%97%87%EB%AA%A8%EB%A6%AC-030g.wav",
+          "durationMs": 8000,
+          "durationSeconds": 8,
+          "sizeBytes": 2116880
         },
         {
-          "displayName": "거문고-엇모리-031",
-          "fileName": "거문고-엇모리-031.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%97%87%EB%AA%A8%EB%A6%AC/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%97%87%EB%AA%A8%EB%A6%AC-031.wav"
+          "displayName": "거문고-엇모리-031g",
+          "fileName": "거문고-엇모리-031g.wav",
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%97%87%EB%AA%A8%EB%A6%AC/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%97%87%EB%AA%A8%EB%A6%AC-031g.wav",
+          "durationMs": 8000,
+          "durationSeconds": 8,
+          "sizeBytes": 2116886
         },
         {
-          "displayName": "거문고-엇모리-032",
-          "fileName": "거문고-엇모리-032.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%97%87%EB%AA%A8%EB%A6%AC/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%97%87%EB%AA%A8%EB%A6%AC-032.wav"
+          "displayName": "거문고-엇모리-032g",
+          "fileName": "거문고-엇모리-032g.wav",
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%97%87%EB%AA%A8%EB%A6%AC/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%97%87%EB%AA%A8%EB%A6%AC-032g.wav",
+          "durationMs": 8000,
+          "durationSeconds": 8,
+          "sizeBytes": 2116880
         },
         {
-          "displayName": "거문고-엇모리-033",
-          "fileName": "거문고-엇모리-033.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%97%87%EB%AA%A8%EB%A6%AC/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%97%87%EB%AA%A8%EB%A6%AC-033.wav"
+          "displayName": "거문고-엇모리-033g",
+          "fileName": "거문고-엇모리-033g.wav",
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%97%87%EB%AA%A8%EB%A6%AC/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%97%87%EB%AA%A8%EB%A6%AC-033g.wav",
+          "durationMs": 12000,
+          "durationSeconds": 12,
+          "sizeBytes": 3175280
         }
       ]
     },
@@ -64,119 +91,188 @@
       "name": "거문고-자진모리",
       "tracks": [
         {
-          "displayName": "거문고-자진모리-049",
-          "fileName": "거문고-자진모리-049.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC-049.wav"
+          "displayName": "거문고-자진모리-049g",
+          "fileName": "거문고-자진모리-049g.wav",
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC-049g.wav",
+          "durationMs": 7385,
+          "durationSeconds": 7,
+          "sizeBytes": 1954178
         },
         {
-          "displayName": "거문고-자진모리-050",
-          "fileName": "거문고-자진모리-050.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC-050.wav"
+          "displayName": "거문고-자진모리-050g",
+          "fileName": "거문고-자진모리-050g.wav",
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC-050g.wav",
+          "durationMs": 6857,
+          "durationSeconds": 6,
+          "sizeBytes": 1814480
         },
         {
-          "displayName": "거문고-자진모리-051",
-          "fileName": "거문고-자진모리-051.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC-051.wav"
+          "displayName": "거문고-자진모리-051g",
+          "fileName": "거문고-자진모리-051g.wav",
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC-051g.wav",
+          "durationMs": 6857,
+          "durationSeconds": 6,
+          "sizeBytes": 1814480
         },
         {
-          "displayName": "거문고-자진모리-052",
-          "fileName": "거문고-자진모리-052.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC-052.wav"
+          "displayName": "거문고-자진모리-052g",
+          "fileName": "거문고-자진모리-052g.wav",
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC-052g.wav",
+          "durationMs": 6857,
+          "durationSeconds": 6,
+          "sizeBytes": 1814480
         },
         {
-          "displayName": "거문고-자진모리-053",
-          "fileName": "거문고-자진모리-053.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC-053.wav"
+          "displayName": "거문고-자진모리-053g",
+          "fileName": "거문고-자진모리-053g.wav",
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC-053g.wav",
+          "durationMs": 6857,
+          "durationSeconds": 6,
+          "sizeBytes": 1814480
         },
         {
-          "displayName": "거문고-자진모리-054",
-          "fileName": "거문고-자진모리-054.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC-054.wav"
+          "displayName": "거문고-자진모리-054g",
+          "fileName": "거문고-자진모리-054g.wav",
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC-054g.wav",
+          "durationMs": 6857,
+          "durationSeconds": 6,
+          "sizeBytes": 1814480
         },
         {
-          "displayName": "거문고-자진모리-055",
-          "fileName": "거문고-자진모리-055.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC-055.wav"
+          "displayName": "거문고-자진모리-055g",
+          "fileName": "거문고-자진모리-055g.wav",
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC-055g.wav",
+          "durationMs": 6857,
+          "durationSeconds": 6,
+          "sizeBytes": 1814480
         },
         {
-          "displayName": "거문고-자진모리-056",
-          "fileName": "거문고-자진모리-056.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC-056.wav"
+          "displayName": "거문고-자진모리-056g",
+          "fileName": "거문고-자진모리-056g.wav",
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC-056g.wav",
+          "durationMs": 6857,
+          "durationSeconds": 6,
+          "sizeBytes": 1814480
         },
         {
-          "displayName": "거문고-자진모리-057",
-          "fileName": "거문고-자진모리-057.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC-057.wav"
+          "displayName": "거문고-자진모리-057g",
+          "fileName": "거문고-자진모리-057g.wav",
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC-057g.wav",
+          "durationMs": 6857,
+          "durationSeconds": 6,
+          "sizeBytes": 1814480
         },
         {
-          "displayName": "거문고-자진모리-058",
-          "fileName": "거문고-자진모리-058.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC-058.wav"
+          "displayName": "거문고-자진모리-058g",
+          "fileName": "거문고-자진모리-058g.wav",
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC-058g.wav",
+          "durationMs": 6857,
+          "durationSeconds": 6,
+          "sizeBytes": 1814480
         },
         {
-          "displayName": "거문고-자진모리-059",
-          "fileName": "거문고-자진모리-059.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC-059.wav"
+          "displayName": "거문고-자진모리-059g",
+          "fileName": "거문고-자진모리-059g.wav",
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC-059g.wav",
+          "durationMs": 6857,
+          "durationSeconds": 6,
+          "sizeBytes": 1814480
         },
         {
-          "displayName": "거문고-자진모리-060",
-          "fileName": "거문고-자진모리-060.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC-060.wav"
+          "displayName": "거문고-자진모리-060g",
+          "fileName": "거문고-자진모리-060g.wav",
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC-060g.wav",
+          "durationMs": 12000,
+          "durationSeconds": 12,
+          "sizeBytes": 3175280
         },
         {
-          "displayName": "거문고-자진모리-061",
-          "fileName": "거문고-자진모리-061.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC-061.wav"
+          "displayName": "거문고-자진모리-061g",
+          "fileName": "거문고-자진모리-061g.wav",
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC-061g.wav",
+          "durationMs": 6000,
+          "durationSeconds": 6,
+          "sizeBytes": 1587680
         },
         {
-          "displayName": "거문고-자진모리-062",
-          "fileName": "거문고-자진모리-062.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC-062.wav"
+          "displayName": "거문고-자진모리-062g",
+          "fileName": "거문고-자진모리-062g.wav",
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC-062g.wav",
+          "durationMs": 12000,
+          "durationSeconds": 12,
+          "sizeBytes": 3175280
         },
         {
-          "displayName": "거문고-자진모리-063",
-          "fileName": "거문고-자진모리-063.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC-063.wav"
+          "displayName": "거문고-자진모리-063g",
+          "fileName": "거문고-자진모리-063g.wav",
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC-063g.wav",
+          "durationMs": 6000,
+          "durationSeconds": 6,
+          "sizeBytes": 1587680
         },
         {
-          "displayName": "거문고-자진모리-064",
-          "fileName": "거문고-자진모리-064.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC-064.wav"
+          "displayName": "거문고-자진모리-064g",
+          "fileName": "거문고-자진모리-064g.wav",
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC-064g.wav",
+          "durationMs": 12000,
+          "durationSeconds": 12,
+          "sizeBytes": 3175280
         },
         {
-          "displayName": "거문고-자진모리-065",
-          "fileName": "거문고-자진모리-065.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC-065.wav"
+          "displayName": "거문고-자진모리-065g",
+          "fileName": "거문고-자진모리-065g.wav",
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC-065g.wav",
+          "durationMs": 12000,
+          "durationSeconds": 12,
+          "sizeBytes": 3175280
         },
         {
-          "displayName": "거문고-자진모리-066",
-          "fileName": "거문고-자진모리-066.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC-066.wav"
+          "displayName": "거문고-자진모리-066g",
+          "fileName": "거문고-자진모리-066g.wav",
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC-066g.wav",
+          "durationMs": 6000,
+          "durationSeconds": 6,
+          "sizeBytes": 1587680
         },
         {
-          "displayName": "거문고-자진모리-067",
-          "fileName": "거문고-자진모리-067.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC-067.wav"
+          "displayName": "거문고-자진모리-067g",
+          "fileName": "거문고-자진모리-067g.wav",
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC-067g.wav",
+          "durationMs": 6000,
+          "durationSeconds": 6,
+          "sizeBytes": 1587680
         },
         {
-          "displayName": "거문고-자진모리-068",
-          "fileName": "거문고-자진모리-068.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC-068.wav"
+          "displayName": "거문고-자진모리-068g",
+          "fileName": "거문고-자진모리-068g.wav",
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC-068g.wav",
+          "durationMs": 12000,
+          "durationSeconds": 12,
+          "sizeBytes": 3175280
         },
         {
-          "displayName": "거문고-자진모리-069",
-          "fileName": "거문고-자진모리-069.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC-069.wav"
+          "displayName": "거문고-자진모리-069g",
+          "fileName": "거문고-자진모리-069g.wav",
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC-069g.wav",
+          "durationMs": 5647,
+          "durationSeconds": 5,
+          "sizeBytes": 1494350
         },
         {
-          "displayName": "거문고-자진모리-070",
-          "fileName": "거문고-자진모리-070.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC-070.wav"
+          "displayName": "거문고-자진모리-070g",
+          "fileName": "거문고-자진모리-070g.wav",
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC-070g.wav",
+          "durationMs": 5647,
+          "durationSeconds": 5,
+          "sizeBytes": 1494380
         },
         {
-          "displayName": "거문고-자진모리-071",
-          "fileName": "거문고-자진모리-071.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC-071.wav"
+          "displayName": "거문고-자진모리-071g",
+          "fileName": "거문고-자진모리-071g.wav",
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC-071g.wav",
+          "durationMs": 5647,
+          "durationSeconds": 5,
+          "sizeBytes": 1494362
         }
       ]
     },
@@ -184,74 +280,116 @@
       "name": "거문고-중모리",
       "tracks": [
         {
-          "displayName": "거문고-중모리-015",
-          "fileName": "거문고-중모리-015.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A4%91%EB%AA%A8%EB%A6%AC/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A4%91%EB%AA%A8%EB%A6%AC-015.wav"
+          "displayName": "거문고-중모리-015g",
+          "fileName": "거문고-중모리-015g.wav",
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A4%91%EB%AA%A8%EB%A6%AC/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A4%91%EB%AA%A8%EB%A6%AC-015g.wav",
+          "durationMs": 12000,
+          "durationSeconds": 12,
+          "sizeBytes": 3175280
         },
         {
-          "displayName": "거문고-중모리-016",
-          "fileName": "거문고-중모리-016.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A4%91%EB%AA%A8%EB%A6%AC/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A4%91%EB%AA%A8%EB%A6%AC-016.wav"
+          "displayName": "거문고-중모리-016g",
+          "fileName": "거문고-중모리-016g.wav",
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A4%91%EB%AA%A8%EB%A6%AC/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A4%91%EB%AA%A8%EB%A6%AC-016g.wav",
+          "durationMs": 24000,
+          "durationSeconds": 24,
+          "sizeBytes": 6350480
         },
         {
-          "displayName": "거문고-중모리-017",
-          "fileName": "거문고-중모리-017.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A4%91%EB%AA%A8%EB%A6%AC/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A4%91%EB%AA%A8%EB%A6%AC-017.wav"
+          "displayName": "거문고-중모리-017g",
+          "fileName": "거문고-중모리-017g.wav",
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A4%91%EB%AA%A8%EB%A6%AC/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A4%91%EB%AA%A8%EB%A6%AC-017g.wav",
+          "durationMs": 12000,
+          "durationSeconds": 12,
+          "sizeBytes": 3175280
         },
         {
-          "displayName": "거문고-중모리-018",
-          "fileName": "거문고-중모리-018.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A4%91%EB%AA%A8%EB%A6%AC/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A4%91%EB%AA%A8%EB%A6%AC-018.wav"
+          "displayName": "거문고-중모리-018g",
+          "fileName": "거문고-중모리-018g.wav",
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A4%91%EB%AA%A8%EB%A6%AC/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A4%91%EB%AA%A8%EB%A6%AC-018g.wav",
+          "durationMs": 12000,
+          "durationSeconds": 12,
+          "sizeBytes": 3175280
         },
         {
-          "displayName": "거문고-중모리-019",
-          "fileName": "거문고-중모리-019.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A4%91%EB%AA%A8%EB%A6%AC/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A4%91%EB%AA%A8%EB%A6%AC-019.wav"
+          "displayName": "거문고-중모리-019g",
+          "fileName": "거문고-중모리-019g.wav",
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A4%91%EB%AA%A8%EB%A6%AC/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A4%91%EB%AA%A8%EB%A6%AC-019g.wav",
+          "durationMs": 12000,
+          "durationSeconds": 12,
+          "sizeBytes": 3175280
         },
         {
-          "displayName": "거문고-중모리-020",
-          "fileName": "거문고-중모리-020.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A4%91%EB%AA%A8%EB%A6%AC/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A4%91%EB%AA%A8%EB%A6%AC-020.wav"
+          "displayName": "거문고-중모리-020g",
+          "fileName": "거문고-중모리-020g.wav",
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A4%91%EB%AA%A8%EB%A6%AC/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A4%91%EB%AA%A8%EB%A6%AC-020g.wav",
+          "durationMs": 12000,
+          "durationSeconds": 12,
+          "sizeBytes": 3175280
         },
         {
-          "displayName": "거문고-중모리-021",
-          "fileName": "거문고-중모리-021.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A4%91%EB%AA%A8%EB%A6%AC/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A4%91%EB%AA%A8%EB%A6%AC-021.wav"
+          "displayName": "거문고-중모리-021g",
+          "fileName": "거문고-중모리-021g.wav",
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A4%91%EB%AA%A8%EB%A6%AC/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A4%91%EB%AA%A8%EB%A6%AC-021g.wav",
+          "durationMs": 12000,
+          "durationSeconds": 12,
+          "sizeBytes": 3175280
         },
         {
-          "displayName": "거문고-중모리-022",
-          "fileName": "거문고-중모리-022.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A4%91%EB%AA%A8%EB%A6%AC/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A4%91%EB%AA%A8%EB%A6%AC-022.wav"
+          "displayName": "거문고-중모리-022g",
+          "fileName": "거문고-중모리-022g.wav",
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A4%91%EB%AA%A8%EB%A6%AC/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A4%91%EB%AA%A8%EB%A6%AC-022g.wav",
+          "durationMs": 12000,
+          "durationSeconds": 12,
+          "sizeBytes": 3175280
         },
         {
-          "displayName": "거문고-중모리-023",
-          "fileName": "거문고-중모리-023.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A4%91%EB%AA%A8%EB%A6%AC/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A4%91%EB%AA%A8%EB%A6%AC-023.wav"
+          "displayName": "거문고-중모리-023g",
+          "fileName": "거문고-중모리-023g.wav",
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A4%91%EB%AA%A8%EB%A6%AC/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A4%91%EB%AA%A8%EB%A6%AC-023g.wav",
+          "durationMs": 12000,
+          "durationSeconds": 12,
+          "sizeBytes": 3175280
         },
         {
-          "displayName": "거문고-중모리-024",
-          "fileName": "거문고-중모리-024.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A4%91%EB%AA%A8%EB%A6%AC/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A4%91%EB%AA%A8%EB%A6%AC-024.wav"
+          "displayName": "거문고-중모리-024g",
+          "fileName": "거문고-중모리-024g.wav",
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A4%91%EB%AA%A8%EB%A6%AC/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A4%91%EB%AA%A8%EB%A6%AC-024g.wav",
+          "durationMs": 12000,
+          "durationSeconds": 12,
+          "sizeBytes": 3175280
         },
         {
-          "displayName": "거문고-중모리-025",
-          "fileName": "거문고-중모리-025.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A4%91%EB%AA%A8%EB%A6%AC/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A4%91%EB%AA%A8%EB%A6%AC-025.wav"
+          "displayName": "거문고-중모리-025g",
+          "fileName": "거문고-중모리-025g.wav",
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A4%91%EB%AA%A8%EB%A6%AC/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A4%91%EB%AA%A8%EB%A6%AC-025g.wav",
+          "durationMs": 12000,
+          "durationSeconds": 12,
+          "sizeBytes": 3175280
         },
         {
-          "displayName": "거문고-중모리-026",
-          "fileName": "거문고-중모리-026.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A4%91%EB%AA%A8%EB%A6%AC/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A4%91%EB%AA%A8%EB%A6%AC-026.wav"
+          "displayName": "거문고-중모리-026g",
+          "fileName": "거문고-중모리-026g.wav",
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A4%91%EB%AA%A8%EB%A6%AC/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A4%91%EB%AA%A8%EB%A6%AC-026g.wav",
+          "durationMs": 12000,
+          "durationSeconds": 12,
+          "sizeBytes": 3175280
         },
         {
-          "displayName": "거문고-중모리-027",
-          "fileName": "거문고-중모리-027.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A4%91%EB%AA%A8%EB%A6%AC/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A4%91%EB%AA%A8%EB%A6%AC-027.wav"
+          "displayName": "거문고-중모리-027g",
+          "fileName": "거문고-중모리-027g.wav",
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A4%91%EB%AA%A8%EB%A6%AC/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A4%91%EB%AA%A8%EB%A6%AC-027g.wav",
+          "durationMs": 12000,
+          "durationSeconds": 12,
+          "sizeBytes": 3175280
         },
         {
-          "displayName": "거문고-중모리-028",
-          "fileName": "거문고-중모리-028.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A4%91%EB%AA%A8%EB%A6%AC/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A4%91%EB%AA%A8%EB%A6%AC-028.wav"
+          "displayName": "거문고-중모리-028g",
+          "fileName": "거문고-중모리-028g.wav",
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A4%91%EB%AA%A8%EB%A6%AC/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A4%91%EB%AA%A8%EB%A6%AC-028g.wav",
+          "durationMs": 12000,
+          "durationSeconds": 12,
+          "sizeBytes": 3175280
         }
       ]
     },
@@ -259,79 +397,124 @@
       "name": "거문고-중중모리",
       "tracks": [
         {
-          "displayName": "거문고-중중모리-034",
-          "fileName": "거문고-중중모리-034.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A4%91%EC%A4%91%EB%AA%A8%EB%A6%AC/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A4%91%EC%A4%91%EB%AA%A8%EB%A6%AC-034.wav"
+          "displayName": "거문고-중중모리-034g",
+          "fileName": "거문고-중중모리-034g.wav",
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A4%91%EC%A4%91%EB%AA%A8%EB%A6%AC/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A4%91%EC%A4%91%EB%AA%A8%EB%A6%AC-034g.wav",
+          "durationMs": 6000,
+          "durationSeconds": 6,
+          "sizeBytes": 1587680
         },
         {
-          "displayName": "거문고-중중모리-035",
-          "fileName": "거문고-중중모리-035.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A4%91%EC%A4%91%EB%AA%A8%EB%A6%AC/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A4%91%EC%A4%91%EB%AA%A8%EB%A6%AC-035.wav"
+          "displayName": "거문고-중중모리-035g",
+          "fileName": "거문고-중중모리-035g.wav",
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A4%91%EC%A4%91%EB%AA%A8%EB%A6%AC/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A4%91%EC%A4%91%EB%AA%A8%EB%A6%AC-035g.wav",
+          "durationMs": 6000,
+          "durationSeconds": 6,
+          "sizeBytes": 1587746
         },
         {
-          "displayName": "거문고-중중모리-036",
-          "fileName": "거문고-중중모리-036.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A4%91%EC%A4%91%EB%AA%A8%EB%A6%AC/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A4%91%EC%A4%91%EB%AA%A8%EB%A6%AC-036.wav"
+          "displayName": "거문고-중중모리-036g",
+          "fileName": "거문고-중중모리-036g.wav",
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A4%91%EC%A4%91%EB%AA%A8%EB%A6%AC/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A4%91%EC%A4%91%EB%AA%A8%EB%A6%AC-036g.wav",
+          "durationMs": 6000,
+          "durationSeconds": 6,
+          "sizeBytes": 1587680
         },
         {
-          "displayName": "거문고-중중모리-037",
-          "fileName": "거문고-중중모리-037.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A4%91%EC%A4%91%EB%AA%A8%EB%A6%AC/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A4%91%EC%A4%91%EB%AA%A8%EB%A6%AC-037.wav"
+          "displayName": "거문고-중중모리-037g",
+          "fileName": "거문고-중중모리-037g.wav",
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A4%91%EC%A4%91%EB%AA%A8%EB%A6%AC/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A4%91%EC%A4%91%EB%AA%A8%EB%A6%AC-037g.wav",
+          "durationMs": 6000,
+          "durationSeconds": 6,
+          "sizeBytes": 1587680
         },
         {
-          "displayName": "거문고-중중모리-038",
-          "fileName": "거문고-중중모리-038.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A4%91%EC%A4%91%EB%AA%A8%EB%A6%AC/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A4%91%EC%A4%91%EB%AA%A8%EB%A6%AC-038.wav"
+          "displayName": "거문고-중중모리-038g",
+          "fileName": "거문고-중중모리-038g.wav",
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A4%91%EC%A4%91%EB%AA%A8%EB%A6%AC/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A4%91%EC%A4%91%EB%AA%A8%EB%A6%AC-038g.wav",
+          "durationMs": 6000,
+          "durationSeconds": 6,
+          "sizeBytes": 1587680
         },
         {
-          "displayName": "거문고-중중모리-039",
-          "fileName": "거문고-중중모리-039.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A4%91%EC%A4%91%EB%AA%A8%EB%A6%AC/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A4%91%EC%A4%91%EB%AA%A8%EB%A6%AC-039.wav"
+          "displayName": "거문고-중중모리-039g",
+          "fileName": "거문고-중중모리-039g.wav",
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A4%91%EC%A4%91%EB%AA%A8%EB%A6%AC/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A4%91%EC%A4%91%EB%AA%A8%EB%A6%AC-039g.wav",
+          "durationMs": 6000,
+          "durationSeconds": 6,
+          "sizeBytes": 1587680
         },
         {
-          "displayName": "거문고-중중모리-040",
-          "fileName": "거문고-중중모리-040.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A4%91%EC%A4%91%EB%AA%A8%EB%A6%AC/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A4%91%EC%A4%91%EB%AA%A8%EB%A6%AC-040.wav"
+          "displayName": "거문고-중중모리-040g",
+          "fileName": "거문고-중중모리-040g.wav",
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A4%91%EC%A4%91%EB%AA%A8%EB%A6%AC/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A4%91%EC%A4%91%EB%AA%A8%EB%A6%AC-040g.wav",
+          "durationMs": 5721,
+          "durationSeconds": 5,
+          "sizeBytes": 1513790
         },
         {
-          "displayName": "거문고-중중모리-041",
-          "fileName": "거문고-중중모리-041.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A4%91%EC%A4%91%EB%AA%A8%EB%A6%AC/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A4%91%EC%A4%91%EB%AA%A8%EB%A6%AC-041.wav"
+          "displayName": "거문고-중중모리-041g",
+          "fileName": "거문고-중중모리-041g.wav",
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A4%91%EC%A4%91%EB%AA%A8%EB%A6%AC/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A4%91%EC%A4%91%EB%AA%A8%EB%A6%AC-041g.wav",
+          "durationMs": 6000,
+          "durationSeconds": 6,
+          "sizeBytes": 1587680
         },
         {
-          "displayName": "거문고-중중모리-042",
-          "fileName": "거문고-중중모리-042.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A4%91%EC%A4%91%EB%AA%A8%EB%A6%AC/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A4%91%EC%A4%91%EB%AA%A8%EB%A6%AC-042.wav"
+          "displayName": "거문고-중중모리-042g",
+          "fileName": "거문고-중중모리-042g.wav",
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A4%91%EC%A4%91%EB%AA%A8%EB%A6%AC/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A4%91%EC%A4%91%EB%AA%A8%EB%A6%AC-042g.wav",
+          "durationMs": 6000,
+          "durationSeconds": 6,
+          "sizeBytes": 1587680
         },
         {
-          "displayName": "거문고-중중모리-043",
-          "fileName": "거문고-중중모리-043.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A4%91%EC%A4%91%EB%AA%A8%EB%A6%AC/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A4%91%EC%A4%91%EB%AA%A8%EB%A6%AC-043.wav"
+          "displayName": "거문고-중중모리-043g",
+          "fileName": "거문고-중중모리-043g.wav",
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A4%91%EC%A4%91%EB%AA%A8%EB%A6%AC/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A4%91%EC%A4%91%EB%AA%A8%EB%A6%AC-043g.wav",
+          "durationMs": 6000,
+          "durationSeconds": 6,
+          "sizeBytes": 1587680
         },
         {
-          "displayName": "거문고-중중모리-044",
-          "fileName": "거문고-중중모리-044.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A4%91%EC%A4%91%EB%AA%A8%EB%A6%AC/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A4%91%EC%A4%91%EB%AA%A8%EB%A6%AC-044.wav"
+          "displayName": "거문고-중중모리-044g",
+          "fileName": "거문고-중중모리-044g.wav",
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A4%91%EC%A4%91%EB%AA%A8%EB%A6%AC/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A4%91%EC%A4%91%EB%AA%A8%EB%A6%AC-044g.wav",
+          "durationMs": 6000,
+          "durationSeconds": 6,
+          "sizeBytes": 1587680
         },
         {
-          "displayName": "거문고-중중모리-045",
-          "fileName": "거문고-중중모리-045.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A4%91%EC%A4%91%EB%AA%A8%EB%A6%AC/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A4%91%EC%A4%91%EB%AA%A8%EB%A6%AC-045.wav"
+          "displayName": "거문고-중중모리-045g",
+          "fileName": "거문고-중중모리-045g.wav",
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A4%91%EC%A4%91%EB%AA%A8%EB%A6%AC/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A4%91%EC%A4%91%EB%AA%A8%EB%A6%AC-045g.wav",
+          "durationMs": 6000,
+          "durationSeconds": 6,
+          "sizeBytes": 1587680
         },
         {
-          "displayName": "거문고-중중모리-046",
-          "fileName": "거문고-중중모리-046.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A4%91%EC%A4%91%EB%AA%A8%EB%A6%AC/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A4%91%EC%A4%91%EB%AA%A8%EB%A6%AC-046.wav"
+          "displayName": "거문고-중중모리-046g",
+          "fileName": "거문고-중중모리-046g.wav",
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A4%91%EC%A4%91%EB%AA%A8%EB%A6%AC/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A4%91%EC%A4%91%EB%AA%A8%EB%A6%AC-046g.wav",
+          "durationMs": 6000,
+          "durationSeconds": 6,
+          "sizeBytes": 1587680
         },
         {
-          "displayName": "거문고-중중모리-047",
-          "fileName": "거문고-중중모리-047.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A4%91%EC%A4%91%EB%AA%A8%EB%A6%AC/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A4%91%EC%A4%91%EB%AA%A8%EB%A6%AC-047.wav"
+          "displayName": "거문고-중중모리-047g",
+          "fileName": "거문고-중중모리-047g.wav",
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A4%91%EC%A4%91%EB%AA%A8%EB%A6%AC/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A4%91%EC%A4%91%EB%AA%A8%EB%A6%AC-047g.wav",
+          "durationMs": 6000,
+          "durationSeconds": 6,
+          "sizeBytes": 1587680
         },
         {
-          "displayName": "거문고-중중모리-048",
-          "fileName": "거문고-중중모리-048.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A4%91%EC%A4%91%EB%AA%A8%EB%A6%AC/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A4%91%EC%A4%91%EB%AA%A8%EB%A6%AC-048.wav"
+          "displayName": "거문고-중중모리-048g",
+          "fileName": "거문고-중중모리-048g.wav",
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A4%91%EC%A4%91%EB%AA%A8%EB%A6%AC/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A4%91%EC%A4%91%EB%AA%A8%EB%A6%AC-048g.wav",
+          "durationMs": 6000,
+          "durationSeconds": 6,
+          "sizeBytes": 1587680
         }
       ]
     },
@@ -339,74 +522,116 @@
       "name": "거문고-진양조",
       "tracks": [
         {
-          "displayName": "거문고-진양조-001",
-          "fileName": "거문고-진양조-001.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A7%84%EC%96%91%EC%A1%B0/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A7%84%EC%96%91%EC%A1%B0-001.wav"
+          "displayName": "거문고-진양조-001g",
+          "fileName": "거문고-진양조-001g.wav",
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A7%84%EC%96%91%EC%A1%B0/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A7%84%EC%96%91%EC%A1%B0-001g.wav",
+          "durationMs": 15430,
+          "durationSeconds": 15,
+          "sizeBytes": 4082786
         },
         {
-          "displayName": "거문고-진양조-002",
-          "fileName": "거문고-진양조-002.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A7%84%EC%96%91%EC%A1%B0/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A7%84%EC%96%91%EC%A1%B0-002.wav"
+          "displayName": "거문고-진양조-002g",
+          "fileName": "거문고-진양조-002g.wav",
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A7%84%EC%96%91%EC%A1%B0/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A7%84%EC%96%91%EC%A1%B0-002g.wav",
+          "durationMs": 15429,
+          "durationSeconds": 15,
+          "sizeBytes": 4082480
         },
         {
-          "displayName": "거문고-진양조-003",
-          "fileName": "거문고-진양조-003.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A7%84%EC%96%91%EC%A1%B0/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A7%84%EC%96%91%EC%A1%B0-003.wav"
+          "displayName": "거문고-진양조-003g",
+          "fileName": "거문고-진양조-003g.wav",
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A7%84%EC%96%91%EC%A1%B0/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A7%84%EC%96%91%EC%A1%B0-003g.wav",
+          "durationMs": 15429,
+          "durationSeconds": 15,
+          "sizeBytes": 4082480
         },
         {
-          "displayName": "거문고-진양조-004",
-          "fileName": "거문고-진양조-004.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A7%84%EC%96%91%EC%A1%B0/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A7%84%EC%96%91%EC%A1%B0-004.wav"
+          "displayName": "거문고-진양조-004g",
+          "fileName": "거문고-진양조-004g.wav",
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A7%84%EC%96%91%EC%A1%B0/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A7%84%EC%96%91%EC%A1%B0-004g.wav",
+          "durationMs": 15429,
+          "durationSeconds": 15,
+          "sizeBytes": 4082480
         },
         {
-          "displayName": "거문고-진양조-005",
-          "fileName": "거문고-진양조-005.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A7%84%EC%96%91%EC%A1%B0/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A7%84%EC%96%91%EC%A1%B0-005.wav"
+          "displayName": "거문고-진양조-005g",
+          "fileName": "거문고-진양조-005g.wav",
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A7%84%EC%96%91%EC%A1%B0/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A7%84%EC%96%91%EC%A1%B0-005g.wav",
+          "durationMs": 15429,
+          "durationSeconds": 15,
+          "sizeBytes": 4082480
         },
         {
-          "displayName": "거문고-진양조-006",
-          "fileName": "거문고-진양조-006.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A7%84%EC%96%91%EC%A1%B0/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A7%84%EC%96%91%EC%A1%B0-006.wav"
+          "displayName": "거문고-진양조-006g",
+          "fileName": "거문고-진양조-006g.wav",
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A7%84%EC%96%91%EC%A1%B0/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A7%84%EC%96%91%EC%A1%B0-006g.wav",
+          "durationMs": 15429,
+          "durationSeconds": 15,
+          "sizeBytes": 4082480
         },
         {
-          "displayName": "거문고-진양조-007",
-          "fileName": "거문고-진양조-007.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A7%84%EC%96%91%EC%A1%B0/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A7%84%EC%96%91%EC%A1%B0-007.wav"
+          "displayName": "거문고-진양조-007g",
+          "fileName": "거문고-진양조-007g.wav",
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A7%84%EC%96%91%EC%A1%B0/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A7%84%EC%96%91%EC%A1%B0-007g.wav",
+          "durationMs": 15429,
+          "durationSeconds": 15,
+          "sizeBytes": 4082480
         },
         {
-          "displayName": "거문고-진양조-008",
-          "fileName": "거문고-진양조-008.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A7%84%EC%96%91%EC%A1%B0/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A7%84%EC%96%91%EC%A1%B0-008.wav"
+          "displayName": "거문고-진양조-008g",
+          "fileName": "거문고-진양조-008g.wav",
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A7%84%EC%96%91%EC%A1%B0/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A7%84%EC%96%91%EC%A1%B0-008g.wav",
+          "durationMs": 15429,
+          "durationSeconds": 15,
+          "sizeBytes": 4082480
         },
         {
-          "displayName": "거문고-진양조-009",
-          "fileName": "거문고-진양조-009.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A7%84%EC%96%91%EC%A1%B0/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A7%84%EC%96%91%EC%A1%B0-009.wav"
+          "displayName": "거문고-진양조-009g",
+          "fileName": "거문고-진양조-009g.wav",
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A7%84%EC%96%91%EC%A1%B0/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A7%84%EC%96%91%EC%A1%B0-009g.wav",
+          "durationMs": 14400,
+          "durationSeconds": 14,
+          "sizeBytes": 3810320
         },
         {
-          "displayName": "거문고-진양조-010",
-          "fileName": "거문고-진양조-010.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A7%84%EC%96%91%EC%A1%B0/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A7%84%EC%96%91%EC%A1%B0-010.wav"
+          "displayName": "거문고-진양조-010g",
+          "fileName": "거문고-진양조-010g.wav",
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A7%84%EC%96%91%EC%A1%B0/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A7%84%EC%96%91%EC%A1%B0-010g.wav",
+          "durationMs": 14400,
+          "durationSeconds": 14,
+          "sizeBytes": 3810320
         },
         {
-          "displayName": "거문고-진양조-011",
-          "fileName": "거문고-진양조-011.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A7%84%EC%96%91%EC%A1%B0/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A7%84%EC%96%91%EC%A1%B0-011.wav"
+          "displayName": "거문고-진양조-011g",
+          "fileName": "거문고-진양조-011g.wav",
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A7%84%EC%96%91%EC%A1%B0/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A7%84%EC%96%91%EC%A1%B0-011g.wav",
+          "durationMs": 14400,
+          "durationSeconds": 14,
+          "sizeBytes": 3810320
         },
         {
-          "displayName": "거문고-진양조-012",
-          "fileName": "거문고-진양조-012.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A7%84%EC%96%91%EC%A1%B0/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A7%84%EC%96%91%EC%A1%B0-012.wav"
+          "displayName": "거문고-진양조-012g",
+          "fileName": "거문고-진양조-012g.wav",
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A7%84%EC%96%91%EC%A1%B0/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A7%84%EC%96%91%EC%A1%B0-012g.wav",
+          "durationMs": 14400,
+          "durationSeconds": 14,
+          "sizeBytes": 3810320
         },
         {
-          "displayName": "거문고-진양조-013",
-          "fileName": "거문고-진양조-013.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A7%84%EC%96%91%EC%A1%B0/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A7%84%EC%96%91%EC%A1%B0-013.wav"
+          "displayName": "거문고-진양조-013g",
+          "fileName": "거문고-진양조-013g.wav",
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A7%84%EC%96%91%EC%A1%B0/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A7%84%EC%96%91%EC%A1%B0-013g.wav",
+          "durationMs": 14400,
+          "durationSeconds": 14,
+          "sizeBytes": 3810320
         },
         {
-          "displayName": "거문고-진양조-014",
-          "fileName": "거문고-진양조-014.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A7%84%EC%96%91%EC%A1%B0/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A7%84%EC%96%91%EC%A1%B0-014.wav"
+          "displayName": "거문고-진양조-014g",
+          "fileName": "거문고-진양조-014g.wav",
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A7%84%EC%96%91%EC%A1%B0/%EA%B1%B0%EB%AC%B8%EA%B3%A0-%EC%A7%84%EC%96%91%EC%A1%B0-014g.wav",
+          "durationMs": 13500,
+          "durationSeconds": 13,
+          "sizeBytes": 3572180
         }
       ]
     },
@@ -416,42 +641,66 @@
         {
           "displayName": "군악-010",
           "fileName": "군악-010.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B5%B0%EC%95%85/%EA%B5%B0%EC%95%85-010.wav"
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B5%B0%EC%95%85/%EA%B5%B0%EC%95%85-010.wav",
+          "durationMs": 13091,
+          "durationSeconds": 13,
+          "sizeBytes": 1732007
         },
         {
           "displayName": "군악-020",
           "fileName": "군악-020.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B5%B0%EC%95%85/%EA%B5%B0%EC%95%85-020.wav"
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B5%B0%EC%95%85/%EA%B5%B0%EC%95%85-020.wav",
+          "durationMs": 13091,
+          "durationSeconds": 13,
+          "sizeBytes": 1732007
         },
         {
           "displayName": "군악-030",
           "fileName": "군악-030.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B5%B0%EC%95%85/%EA%B5%B0%EC%95%85-030.wav"
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B5%B0%EC%95%85/%EA%B5%B0%EC%95%85-030.wav",
+          "durationMs": 13091,
+          "durationSeconds": 13,
+          "sizeBytes": 1732007
         },
         {
           "displayName": "군악-040",
           "fileName": "군악-040.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B5%B0%EC%95%85/%EA%B5%B0%EC%95%85-040.wav"
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B5%B0%EC%95%85/%EA%B5%B0%EC%95%85-040.wav",
+          "durationMs": 19636,
+          "durationSeconds": 19,
+          "sizeBytes": 2597969
         },
         {
           "displayName": "군악-050",
           "fileName": "군악-050.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B5%B0%EC%95%85/%EA%B5%B0%EC%95%85-050.wav"
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B5%B0%EC%95%85/%EA%B5%B0%EC%95%85-050.wav",
+          "durationMs": 6545,
+          "durationSeconds": 6,
+          "sizeBytes": 866042
         },
         {
           "displayName": "군악-060",
           "fileName": "군악-060.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B5%B0%EC%95%85/%EA%B5%B0%EC%95%85-060.wav"
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B5%B0%EC%95%85/%EA%B5%B0%EC%95%85-060.wav",
+          "durationMs": 6545,
+          "durationSeconds": 6,
+          "sizeBytes": 866042
         },
         {
           "displayName": "군악-070",
           "fileName": "군악-070.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B5%B0%EC%95%85/%EA%B5%B0%EC%95%85-070.wav"
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B5%B0%EC%95%85/%EA%B5%B0%EC%95%85-070.wav",
+          "durationMs": 6545,
+          "durationSeconds": 6,
+          "sizeBytes": 866042
         },
         {
           "displayName": "군악-080",
           "fileName": "군악-080.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B5%B0%EC%95%85/%EA%B5%B0%EC%95%85-080.wav"
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EA%B5%B0%EC%95%85/%EA%B5%B0%EC%95%85-080.wav",
+          "durationMs": 13091,
+          "durationSeconds": 13,
+          "sizeBytes": 1732007
         }
       ]
     },
@@ -461,97 +710,154 @@
         {
           "displayName": "자진모리-01",
           "fileName": "자진모리-01.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EB%8C%80%EA%B8%88-%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC/%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC-01.wav"
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EB%8C%80%EA%B8%88-%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC/%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC-01.wav",
+          "durationMs": 6000,
+          "durationSeconds": 6,
+          "sizeBytes": 793880
         },
         {
           "displayName": "자진모리-02",
           "fileName": "자진모리-02.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EB%8C%80%EA%B8%88-%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC/%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC-02.wav"
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EB%8C%80%EA%B8%88-%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC/%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC-02.wav",
+          "durationMs": 6000,
+          "durationSeconds": 6,
+          "sizeBytes": 793880
         },
         {
           "displayName": "자진모리-03",
           "fileName": "자진모리-03.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EB%8C%80%EA%B8%88-%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC/%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC-03.wav"
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EB%8C%80%EA%B8%88-%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC/%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC-03.wav",
+          "durationMs": 6000,
+          "durationSeconds": 6,
+          "sizeBytes": 793880
         },
         {
           "displayName": "자진모리-04",
           "fileName": "자진모리-04.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EB%8C%80%EA%B8%88-%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC/%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC-04.wav"
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EB%8C%80%EA%B8%88-%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC/%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC-04.wav",
+          "durationMs": 6000,
+          "durationSeconds": 6,
+          "sizeBytes": 793880
         },
         {
           "displayName": "자진모리-05",
           "fileName": "자진모리-05.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EB%8C%80%EA%B8%88-%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC/%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC-05.wav"
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EB%8C%80%EA%B8%88-%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC/%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC-05.wav",
+          "durationMs": 6000,
+          "durationSeconds": 6,
+          "sizeBytes": 793880
         },
         {
           "displayName": "자진모리-06",
           "fileName": "자진모리-06.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EB%8C%80%EA%B8%88-%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC/%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC-06.wav"
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EB%8C%80%EA%B8%88-%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC/%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC-06.wav",
+          "durationMs": 6000,
+          "durationSeconds": 6,
+          "sizeBytes": 793880
         },
         {
           "displayName": "자진모리-07",
           "fileName": "자진모리-07.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EB%8C%80%EA%B8%88-%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC/%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC-07.wav"
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EB%8C%80%EA%B8%88-%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC/%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC-07.wav",
+          "durationMs": 6000,
+          "durationSeconds": 6,
+          "sizeBytes": 793880
         },
         {
           "displayName": "자진모리-08",
           "fileName": "자진모리-08.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EB%8C%80%EA%B8%88-%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC/%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC-08.wav"
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EB%8C%80%EA%B8%88-%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC/%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC-08.wav",
+          "durationMs": 5106,
+          "durationSeconds": 5,
+          "sizeBytes": 675653
         },
         {
           "displayName": "자진모리-09",
           "fileName": "자진모리-09.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EB%8C%80%EA%B8%88-%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC/%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC-09.wav"
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EB%8C%80%EA%B8%88-%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC/%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC-09.wav",
+          "durationMs": 5106,
+          "durationSeconds": 5,
+          "sizeBytes": 675653
         },
         {
           "displayName": "자진모리-10",
           "fileName": "자진모리-10.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EB%8C%80%EA%B8%88-%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC/%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC-10.wav"
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EB%8C%80%EA%B8%88-%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC/%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC-10.wav",
+          "durationMs": 7660,
+          "durationSeconds": 7,
+          "sizeBytes": 1013441
         },
         {
           "displayName": "자진모리-11",
           "fileName": "자진모리-11.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EB%8C%80%EA%B8%88-%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC/%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC-11.wav"
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EB%8C%80%EA%B8%88-%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC/%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC-11.wav",
+          "durationMs": 5106,
+          "durationSeconds": 5,
+          "sizeBytes": 675653
         },
         {
           "displayName": "자진모리-12",
           "fileName": "자진모리-12.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EB%8C%80%EA%B8%88-%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC/%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC-12.wav"
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EB%8C%80%EA%B8%88-%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC/%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC-12.wav",
+          "durationMs": 5106,
+          "durationSeconds": 5,
+          "sizeBytes": 675653
         },
         {
           "displayName": "자진모리-13",
           "fileName": "자진모리-13.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EB%8C%80%EA%B8%88-%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC/%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC-13.wav"
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EB%8C%80%EA%B8%88-%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC/%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC-13.wav",
+          "durationMs": 7059,
+          "durationSeconds": 7,
+          "sizeBytes": 933962
         },
         {
           "displayName": "자진모리-14",
           "fileName": "자진모리-14.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EB%8C%80%EA%B8%88-%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC/%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC-14.wav"
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EB%8C%80%EA%B8%88-%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC/%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC-14.wav",
+          "durationMs": 4706,
+          "durationSeconds": 4,
+          "sizeBytes": 622667
         },
         {
           "displayName": "자진모리-15",
           "fileName": "자진모리-15.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EB%8C%80%EA%B8%88-%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC/%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC-15.wav"
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EB%8C%80%EA%B8%88-%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC/%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC-15.wav",
+          "durationMs": 9412,
+          "durationSeconds": 9,
+          "sizeBytes": 1245257
         },
         {
           "displayName": "자진모리-16",
           "fileName": "자진모리-16.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EB%8C%80%EA%B8%88-%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC/%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC-16.wav"
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EB%8C%80%EA%B8%88-%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC/%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC-16.wav",
+          "durationMs": 9412,
+          "durationSeconds": 9,
+          "sizeBytes": 1245257
         },
         {
           "displayName": "자진모리-17",
           "fileName": "자진모리-17.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EB%8C%80%EA%B8%88-%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC/%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC-17.wav"
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EB%8C%80%EA%B8%88-%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC/%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC-17.wav",
+          "durationMs": 4706,
+          "durationSeconds": 4,
+          "sizeBytes": 622670
         },
         {
           "displayName": "자진모리-18",
           "fileName": "자진모리-18.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EB%8C%80%EA%B8%88-%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC/%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC-18.wav"
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EB%8C%80%EA%B8%88-%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC/%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC-18.wav",
+          "durationMs": 4706,
+          "durationSeconds": 4,
+          "sizeBytes": 622667
         },
         {
           "displayName": "자진모리-19",
           "fileName": "자진모리-19.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EB%8C%80%EA%B8%88-%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC/%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC-19.wav"
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EB%8C%80%EA%B8%88-%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC/%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC-19.wav",
+          "durationMs": 4706,
+          "durationSeconds": 4,
+          "sizeBytes": 622667
         }
       ]
     },
@@ -561,77 +867,122 @@
         {
           "displayName": "중모리-01",
           "fileName": "중모리-01.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EB%8C%80%EA%B8%88-%EC%A4%91%EB%AA%A8%EB%A6%AC/%EC%A4%91%EB%AA%A8%EB%A6%AC-01.wav"
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EB%8C%80%EA%B8%88-%EC%A4%91%EB%AA%A8%EB%A6%AC/%EC%A4%91%EB%AA%A8%EB%A6%AC-01.wav",
+          "durationMs": 12000,
+          "durationSeconds": 12,
+          "sizeBytes": 1587680
         },
         {
           "displayName": "중모리-02",
           "fileName": "중모리-02.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EB%8C%80%EA%B8%88-%EC%A4%91%EB%AA%A8%EB%A6%AC/%EC%A4%91%EB%AA%A8%EB%A6%AC-02.wav"
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EB%8C%80%EA%B8%88-%EC%A4%91%EB%AA%A8%EB%A6%AC/%EC%A4%91%EB%AA%A8%EB%A6%AC-02.wav",
+          "durationMs": 12000,
+          "durationSeconds": 12,
+          "sizeBytes": 1587680
         },
         {
           "displayName": "중모리-03",
           "fileName": "중모리-03.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EB%8C%80%EA%B8%88-%EC%A4%91%EB%AA%A8%EB%A6%AC/%EC%A4%91%EB%AA%A8%EB%A6%AC-03.wav"
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EB%8C%80%EA%B8%88-%EC%A4%91%EB%AA%A8%EB%A6%AC/%EC%A4%91%EB%AA%A8%EB%A6%AC-03.wav",
+          "durationMs": 24000,
+          "durationSeconds": 24,
+          "sizeBytes": 3175280
         },
         {
           "displayName": "중모리-04",
           "fileName": "중모리-04.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EB%8C%80%EA%B8%88-%EC%A4%91%EB%AA%A8%EB%A6%AC/%EC%A4%91%EB%AA%A8%EB%A6%AC-04.wav"
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EB%8C%80%EA%B8%88-%EC%A4%91%EB%AA%A8%EB%A6%AC/%EC%A4%91%EB%AA%A8%EB%A6%AC-04.wav",
+          "durationMs": 11250,
+          "durationSeconds": 11,
+          "sizeBytes": 1488455
         },
         {
           "displayName": "중모리-05",
           "fileName": "중모리-05.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EB%8C%80%EA%B8%88-%EC%A4%91%EB%AA%A8%EB%A6%AC/%EC%A4%91%EB%AA%A8%EB%A6%AC-05.wav"
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EB%8C%80%EA%B8%88-%EC%A4%91%EB%AA%A8%EB%A6%AC/%EC%A4%91%EB%AA%A8%EB%A6%AC-05.wav",
+          "durationMs": 11250,
+          "durationSeconds": 11,
+          "sizeBytes": 1488455
         },
         {
           "displayName": "중모리-06",
           "fileName": "중모리-06.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EB%8C%80%EA%B8%88-%EC%A4%91%EB%AA%A8%EB%A6%AC/%EC%A4%91%EB%AA%A8%EB%A6%AC-06.wav"
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EB%8C%80%EA%B8%88-%EC%A4%91%EB%AA%A8%EB%A6%AC/%EC%A4%91%EB%AA%A8%EB%A6%AC-06.wav",
+          "durationMs": 11250,
+          "durationSeconds": 11,
+          "sizeBytes": 1488455
         },
         {
           "displayName": "중모리-07",
           "fileName": "중모리-07.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EB%8C%80%EA%B8%88-%EC%A4%91%EB%AA%A8%EB%A6%AC/%EC%A4%91%EB%AA%A8%EB%A6%AC-07.wav"
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EB%8C%80%EA%B8%88-%EC%A4%91%EB%AA%A8%EB%A6%AC/%EC%A4%91%EB%AA%A8%EB%A6%AC-07.wav",
+          "durationMs": 11250,
+          "durationSeconds": 11,
+          "sizeBytes": 1488455
         },
         {
           "displayName": "중모리-08",
           "fileName": "중모리-08.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EB%8C%80%EA%B8%88-%EC%A4%91%EB%AA%A8%EB%A6%AC/%EC%A4%91%EB%AA%A8%EB%A6%AC-08.wav"
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EB%8C%80%EA%B8%88-%EC%A4%91%EB%AA%A8%EB%A6%AC/%EC%A4%91%EB%AA%A8%EB%A6%AC-08.wav",
+          "durationMs": 11250,
+          "durationSeconds": 11,
+          "sizeBytes": 1488455
         },
         {
           "displayName": "중모리-09",
           "fileName": "중모리-09.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EB%8C%80%EA%B8%88-%EC%A4%91%EB%AA%A8%EB%A6%AC/%EC%A4%91%EB%AA%A8%EB%A6%AC-09.wav"
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EB%8C%80%EA%B8%88-%EC%A4%91%EB%AA%A8%EB%A6%AC/%EC%A4%91%EB%AA%A8%EB%A6%AC-09.wav",
+          "durationMs": 10909,
+          "durationSeconds": 10,
+          "sizeBytes": 1443350
         },
         {
           "displayName": "중모리-10",
           "fileName": "중모리-10.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EB%8C%80%EA%B8%88-%EC%A4%91%EB%AA%A8%EB%A6%AC/%EC%A4%91%EB%AA%A8%EB%A6%AC-10.wav"
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EB%8C%80%EA%B8%88-%EC%A4%91%EB%AA%A8%EB%A6%AC/%EC%A4%91%EB%AA%A8%EB%A6%AC-10.wav",
+          "durationMs": 10909,
+          "durationSeconds": 10,
+          "sizeBytes": 1443350
         },
         {
           "displayName": "중모리-11",
           "fileName": "중모리-11.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EB%8C%80%EA%B8%88-%EC%A4%91%EB%AA%A8%EB%A6%AC/%EC%A4%91%EB%AA%A8%EB%A6%AC-11.wav"
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EB%8C%80%EA%B8%88-%EC%A4%91%EB%AA%A8%EB%A6%AC/%EC%A4%91%EB%AA%A8%EB%A6%AC-11.wav",
+          "durationMs": 10909,
+          "durationSeconds": 10,
+          "sizeBytes": 1443353
         },
         {
           "displayName": "중모리-12",
           "fileName": "중모리-12.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EB%8C%80%EA%B8%88-%EC%A4%91%EB%AA%A8%EB%A6%AC/%EC%A4%91%EB%AA%A8%EB%A6%AC-12.wav"
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EB%8C%80%EA%B8%88-%EC%A4%91%EB%AA%A8%EB%A6%AC/%EC%A4%91%EB%AA%A8%EB%A6%AC-12.wav",
+          "durationMs": 10909,
+          "durationSeconds": 10,
+          "sizeBytes": 1443350
         },
         {
           "displayName": "중모리-13",
           "fileName": "중모리-13.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EB%8C%80%EA%B8%88-%EC%A4%91%EB%AA%A8%EB%A6%AC/%EC%A4%91%EB%AA%A8%EB%A6%AC-13.wav"
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EB%8C%80%EA%B8%88-%EC%A4%91%EB%AA%A8%EB%A6%AC/%EC%A4%91%EB%AA%A8%EB%A6%AC-13.wav",
+          "durationMs": 10909,
+          "durationSeconds": 10,
+          "sizeBytes": 1443353
         },
         {
           "displayName": "중모리-14",
           "fileName": "중모리-14.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EB%8C%80%EA%B8%88-%EC%A4%91%EB%AA%A8%EB%A6%AC/%EC%A4%91%EB%AA%A8%EB%A6%AC-14.wav"
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EB%8C%80%EA%B8%88-%EC%A4%91%EB%AA%A8%EB%A6%AC/%EC%A4%91%EB%AA%A8%EB%A6%AC-14.wav",
+          "durationMs": 10909,
+          "durationSeconds": 10,
+          "sizeBytes": 1443350
         },
         {
           "displayName": "중모리-15",
           "fileName": "중모리-15.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EB%8C%80%EA%B8%88-%EC%A4%91%EB%AA%A8%EB%A6%AC/%EC%A4%91%EB%AA%A8%EB%A6%AC-15.wav"
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EB%8C%80%EA%B8%88-%EC%A4%91%EB%AA%A8%EB%A6%AC/%EC%A4%91%EB%AA%A8%EB%A6%AC-15.wav",
+          "durationMs": 10909,
+          "durationSeconds": 10,
+          "sizeBytes": 1443350
         }
       ]
     },
@@ -641,92 +992,146 @@
         {
           "displayName": "중중모리-01",
           "fileName": "중중모리-01.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EB%8C%80%EA%B8%88-%EC%A4%91%EC%A4%91%EB%AA%A8%EB%A6%AC/%EC%A4%91%EC%A4%91%EB%AA%A8%EB%A6%AC-01.wav"
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EB%8C%80%EA%B8%88-%EC%A4%91%EC%A4%91%EB%AA%A8%EB%A6%AC/%EC%A4%91%EC%A4%91%EB%AA%A8%EB%A6%AC-01.wav",
+          "durationMs": 5000,
+          "durationSeconds": 5,
+          "sizeBytes": 661580
         },
         {
           "displayName": "중중모리-02",
           "fileName": "중중모리-02.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EB%8C%80%EA%B8%88-%EC%A4%91%EC%A4%91%EB%AA%A8%EB%A6%AC/%EC%A4%91%EC%A4%91%EB%AA%A8%EB%A6%AC-02.wav"
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EB%8C%80%EA%B8%88-%EC%A4%91%EC%A4%91%EB%AA%A8%EB%A6%AC/%EC%A4%91%EC%A4%91%EB%AA%A8%EB%A6%AC-02.wav",
+          "durationMs": 5000,
+          "durationSeconds": 5,
+          "sizeBytes": 661580
         },
         {
           "displayName": "중중모리-03",
           "fileName": "중중모리-03.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EB%8C%80%EA%B8%88-%EC%A4%91%EC%A4%91%EB%AA%A8%EB%A6%AC/%EC%A4%91%EC%A4%91%EB%AA%A8%EB%A6%AC-03.wav"
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EB%8C%80%EA%B8%88-%EC%A4%91%EC%A4%91%EB%AA%A8%EB%A6%AC/%EC%A4%91%EC%A4%91%EB%AA%A8%EB%A6%AC-03.wav",
+          "durationMs": 5000,
+          "durationSeconds": 5,
+          "sizeBytes": 661580
         },
         {
           "displayName": "중중모리-04",
           "fileName": "중중모리-04.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EB%8C%80%EA%B8%88-%EC%A4%91%EC%A4%91%EB%AA%A8%EB%A6%AC/%EC%A4%91%EC%A4%91%EB%AA%A8%EB%A6%AC-04.wav"
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EB%8C%80%EA%B8%88-%EC%A4%91%EC%A4%91%EB%AA%A8%EB%A6%AC/%EC%A4%91%EC%A4%91%EB%AA%A8%EB%A6%AC-04.wav",
+          "durationMs": 5000,
+          "durationSeconds": 5,
+          "sizeBytes": 661580
         },
         {
           "displayName": "중중모리-05",
           "fileName": "중중모리-05.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EB%8C%80%EA%B8%88-%EC%A4%91%EC%A4%91%EB%AA%A8%EB%A6%AC/%EC%A4%91%EC%A4%91%EB%AA%A8%EB%A6%AC-05.wav"
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EB%8C%80%EA%B8%88-%EC%A4%91%EC%A4%91%EB%AA%A8%EB%A6%AC/%EC%A4%91%EC%A4%91%EB%AA%A8%EB%A6%AC-05.wav",
+          "durationMs": 5000,
+          "durationSeconds": 5,
+          "sizeBytes": 661580
         },
         {
           "displayName": "중중모리-06",
           "fileName": "중중모리-06.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EB%8C%80%EA%B8%88-%EC%A4%91%EC%A4%91%EB%AA%A8%EB%A6%AC/%EC%A4%91%EC%A4%91%EB%AA%A8%EB%A6%AC-06.wav"
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EB%8C%80%EA%B8%88-%EC%A4%91%EC%A4%91%EB%AA%A8%EB%A6%AC/%EC%A4%91%EC%A4%91%EB%AA%A8%EB%A6%AC-06.wav",
+          "durationMs": 5000,
+          "durationSeconds": 5,
+          "sizeBytes": 661580
         },
         {
           "displayName": "중중모리-07",
           "fileName": "중중모리-07.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EB%8C%80%EA%B8%88-%EC%A4%91%EC%A4%91%EB%AA%A8%EB%A6%AC/%EC%A4%91%EC%A4%91%EB%AA%A8%EB%A6%AC-07.wav"
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EB%8C%80%EA%B8%88-%EC%A4%91%EC%A4%91%EB%AA%A8%EB%A6%AC/%EC%A4%91%EC%A4%91%EB%AA%A8%EB%A6%AC-07.wav",
+          "durationMs": 10000,
+          "durationSeconds": 10,
+          "sizeBytes": 1323080
         },
         {
           "displayName": "중중모리-08",
           "fileName": "중중모리-08.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EB%8C%80%EA%B8%88-%EC%A4%91%EC%A4%91%EB%AA%A8%EB%A6%AC/%EC%A4%91%EC%A4%91%EB%AA%A8%EB%A6%AC-08.wav"
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EB%8C%80%EA%B8%88-%EC%A4%91%EC%A4%91%EB%AA%A8%EB%A6%AC/%EC%A4%91%EC%A4%91%EB%AA%A8%EB%A6%AC-08.wav",
+          "durationMs": 4865,
+          "durationSeconds": 4,
+          "sizeBytes": 643703
         },
         {
           "displayName": "중중모리-09",
           "fileName": "중중모리-09.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EB%8C%80%EA%B8%88-%EC%A4%91%EC%A4%91%EB%AA%A8%EB%A6%AC/%EC%A4%91%EC%A4%91%EB%AA%A8%EB%A6%AC-09.wav"
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EB%8C%80%EA%B8%88-%EC%A4%91%EC%A4%91%EB%AA%A8%EB%A6%AC/%EC%A4%91%EC%A4%91%EB%AA%A8%EB%A6%AC-09.wav",
+          "durationMs": 4865,
+          "durationSeconds": 4,
+          "sizeBytes": 643700
         },
         {
           "displayName": "중중모리-10",
           "fileName": "중중모리-10.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EB%8C%80%EA%B8%88-%EC%A4%91%EC%A4%91%EB%AA%A8%EB%A6%AC/%EC%A4%91%EC%A4%91%EB%AA%A8%EB%A6%AC-10.wav"
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EB%8C%80%EA%B8%88-%EC%A4%91%EC%A4%91%EB%AA%A8%EB%A6%AC/%EC%A4%91%EC%A4%91%EB%AA%A8%EB%A6%AC-10.wav",
+          "durationMs": 4865,
+          "durationSeconds": 4,
+          "sizeBytes": 643700
         },
         {
           "displayName": "중중모리-11",
           "fileName": "중중모리-11.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EB%8C%80%EA%B8%88-%EC%A4%91%EC%A4%91%EB%AA%A8%EB%A6%AC/%EC%A4%91%EC%A4%91%EB%AA%A8%EB%A6%AC-11.wav"
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EB%8C%80%EA%B8%88-%EC%A4%91%EC%A4%91%EB%AA%A8%EB%A6%AC/%EC%A4%91%EC%A4%91%EB%AA%A8%EB%A6%AC-11.wav",
+          "durationMs": 4865,
+          "durationSeconds": 4,
+          "sizeBytes": 643703
         },
         {
           "displayName": "중중모리-12",
           "fileName": "중중모리-12.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EB%8C%80%EA%B8%88-%EC%A4%91%EC%A4%91%EB%AA%A8%EB%A6%AC/%EC%A4%91%EC%A4%91%EB%AA%A8%EB%A6%AC-12.wav"
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EB%8C%80%EA%B8%88-%EC%A4%91%EC%A4%91%EB%AA%A8%EB%A6%AC/%EC%A4%91%EC%A4%91%EB%AA%A8%EB%A6%AC-12.wav",
+          "durationMs": 19459,
+          "durationSeconds": 19,
+          "sizeBytes": 2574563
         },
         {
           "displayName": "중중모리-13",
           "fileName": "중중모리-13.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EB%8C%80%EA%B8%88-%EC%A4%91%EC%A4%91%EB%AA%A8%EB%A6%AC/%EC%A4%91%EC%A4%91%EB%AA%A8%EB%A6%AC-13.wav"
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EB%8C%80%EA%B8%88-%EC%A4%91%EC%A4%91%EB%AA%A8%EB%A6%AC/%EC%A4%91%EC%A4%91%EB%AA%A8%EB%A6%AC-13.wav",
+          "durationMs": 4557,
+          "durationSeconds": 4,
+          "sizeBytes": 602966
         },
         {
           "displayName": "중중모리-14",
           "fileName": "중중모리-14.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EB%8C%80%EA%B8%88-%EC%A4%91%EC%A4%91%EB%AA%A8%EB%A6%AC/%EC%A4%91%EC%A4%91%EB%AA%A8%EB%A6%AC-14.wav"
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EB%8C%80%EA%B8%88-%EC%A4%91%EC%A4%91%EB%AA%A8%EB%A6%AC/%EC%A4%91%EC%A4%91%EB%AA%A8%EB%A6%AC-14.wav",
+          "durationMs": 4557,
+          "durationSeconds": 4,
+          "sizeBytes": 602966
         },
         {
           "displayName": "중중모리-15",
           "fileName": "중중모리-15.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EB%8C%80%EA%B8%88-%EC%A4%91%EC%A4%91%EB%AA%A8%EB%A6%AC/%EC%A4%91%EC%A4%91%EB%AA%A8%EB%A6%AC-15.wav"
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EB%8C%80%EA%B8%88-%EC%A4%91%EC%A4%91%EB%AA%A8%EB%A6%AC/%EC%A4%91%EC%A4%91%EB%AA%A8%EB%A6%AC-15.wav",
+          "durationMs": 4557,
+          "durationSeconds": 4,
+          "sizeBytes": 602966
         },
         {
           "displayName": "중중모리-16",
           "fileName": "중중모리-16.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EB%8C%80%EA%B8%88-%EC%A4%91%EC%A4%91%EB%AA%A8%EB%A6%AC/%EC%A4%91%EC%A4%91%EB%AA%A8%EB%A6%AC-16.wav"
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EB%8C%80%EA%B8%88-%EC%A4%91%EC%A4%91%EB%AA%A8%EB%A6%AC/%EC%A4%91%EC%A4%91%EB%AA%A8%EB%A6%AC-16.wav",
+          "durationMs": 4557,
+          "durationSeconds": 4,
+          "sizeBytes": 602966
         },
         {
           "displayName": "중중모리-17",
           "fileName": "중중모리-17.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EB%8C%80%EA%B8%88-%EC%A4%91%EC%A4%91%EB%AA%A8%EB%A6%AC/%EC%A4%91%EC%A4%91%EB%AA%A8%EB%A6%AC-17.wav"
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EB%8C%80%EA%B8%88-%EC%A4%91%EC%A4%91%EB%AA%A8%EB%A6%AC/%EC%A4%91%EC%A4%91%EB%AA%A8%EB%A6%AC-17.wav",
+          "durationMs": 9114,
+          "durationSeconds": 9,
+          "sizeBytes": 1205849
         },
         {
           "displayName": "중중모리-18",
           "fileName": "중중모리-18.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EB%8C%80%EA%B8%88-%EC%A4%91%EC%A4%91%EB%AA%A8%EB%A6%AC/%EC%A4%91%EC%A4%91%EB%AA%A8%EB%A6%AC-18.wav"
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EB%8C%80%EA%B8%88-%EC%A4%91%EC%A4%91%EB%AA%A8%EB%A6%AC/%EC%A4%91%EC%A4%91%EB%AA%A8%EB%A6%AC-18.wav",
+          "durationMs": 4557,
+          "durationSeconds": 4,
+          "sizeBytes": 602966
         }
       ]
     },
@@ -736,47 +1141,74 @@
         {
           "displayName": "진양조-01",
           "fileName": "진양조-01.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EB%8C%80%EA%B8%88-%EC%A7%84%EC%96%91%EC%A1%B0/%EC%A7%84%EC%96%91%EC%A1%B0-01.wav"
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EB%8C%80%EA%B8%88-%EC%A7%84%EC%96%91%EC%A1%B0/%EC%A7%84%EC%96%91%EC%A1%B0-01.wav",
+          "durationMs": 11250,
+          "durationSeconds": 11,
+          "sizeBytes": 1488455
         },
         {
           "displayName": "진양조-02",
           "fileName": "진양조-02.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EB%8C%80%EA%B8%88-%EC%A7%84%EC%96%91%EC%A1%B0/%EC%A7%84%EC%96%91%EC%A1%B0-02.wav"
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EB%8C%80%EA%B8%88-%EC%A7%84%EC%96%91%EC%A1%B0/%EC%A7%84%EC%96%91%EC%A1%B0-02.wav",
+          "durationMs": 11250,
+          "durationSeconds": 11,
+          "sizeBytes": 1488455
         },
         {
           "displayName": "진양조-03",
           "fileName": "진양조-03.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EB%8C%80%EA%B8%88-%EC%A7%84%EC%96%91%EC%A1%B0/%EC%A7%84%EC%96%91%EC%A1%B0-03.wav"
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EB%8C%80%EA%B8%88-%EC%A7%84%EC%96%91%EC%A1%B0/%EC%A7%84%EC%96%91%EC%A1%B0-03.wav",
+          "durationMs": 11250,
+          "durationSeconds": 11,
+          "sizeBytes": 1488455
         },
         {
           "displayName": "진양조-04",
           "fileName": "진양조-04.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EB%8C%80%EA%B8%88-%EC%A7%84%EC%96%91%EC%A1%B0/%EC%A7%84%EC%96%91%EC%A1%B0-04.wav"
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EB%8C%80%EA%B8%88-%EC%A7%84%EC%96%91%EC%A1%B0/%EC%A7%84%EC%96%91%EC%A1%B0-04.wav",
+          "durationMs": 11250,
+          "durationSeconds": 11,
+          "sizeBytes": 1488455
         },
         {
           "displayName": "진양조-05",
           "fileName": "진양조-05.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EB%8C%80%EA%B8%88-%EC%A7%84%EC%96%91%EC%A1%B0/%EC%A7%84%EC%96%91%EC%A1%B0-05.wav"
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EB%8C%80%EA%B8%88-%EC%A7%84%EC%96%91%EC%A1%B0/%EC%A7%84%EC%96%91%EC%A1%B0-05.wav",
+          "durationMs": 11250,
+          "durationSeconds": 11,
+          "sizeBytes": 1488455
         },
         {
           "displayName": "진양조-06",
           "fileName": "진양조-06.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EB%8C%80%EA%B8%88-%EC%A7%84%EC%96%91%EC%A1%B0/%EC%A7%84%EC%96%91%EC%A1%B0-06.wav"
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EB%8C%80%EA%B8%88-%EC%A7%84%EC%96%91%EC%A1%B0/%EC%A7%84%EC%96%91%EC%A1%B0-06.wav",
+          "durationMs": 11250,
+          "durationSeconds": 11,
+          "sizeBytes": 1488455
         },
         {
           "displayName": "진양조-07",
           "fileName": "진양조-07.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EB%8C%80%EA%B8%88-%EC%A7%84%EC%96%91%EC%A1%B0/%EC%A7%84%EC%96%91%EC%A1%B0-07.wav"
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EB%8C%80%EA%B8%88-%EC%A7%84%EC%96%91%EC%A1%B0/%EC%A7%84%EC%96%91%EC%A1%B0-07.wav",
+          "durationMs": 11250,
+          "durationSeconds": 11,
+          "sizeBytes": 1488455
         },
         {
           "displayName": "진양조-08",
           "fileName": "진양조-08.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EB%8C%80%EA%B8%88-%EC%A7%84%EC%96%91%EC%A1%B0/%EC%A7%84%EC%96%91%EC%A1%B0-08.wav"
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EB%8C%80%EA%B8%88-%EC%A7%84%EC%96%91%EC%A1%B0/%EC%A7%84%EC%96%91%EC%A1%B0-08.wav",
+          "durationMs": 11250,
+          "durationSeconds": 11,
+          "sizeBytes": 1488455
         },
         {
           "displayName": "진양조-09",
           "fileName": "진양조-09.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EB%8C%80%EA%B8%88-%EC%A7%84%EC%96%91%EC%A1%B0/%EC%A7%84%EC%96%91%EC%A1%B0-09.wav"
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EB%8C%80%EA%B8%88-%EC%A7%84%EC%96%91%EC%A1%B0/%EC%A7%84%EC%96%91%EC%A1%B0-09.wav",
+          "durationMs": 11250,
+          "durationSeconds": 11,
+          "sizeBytes": 1488455
         }
       ]
     },
@@ -786,12 +1218,18 @@
         {
           "displayName": "삼현도드리-010",
           "fileName": "삼현도드리-010.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EC%82%BC%ED%98%84%EB%8F%84%EB%93%9C%EB%A6%AC/%EC%82%BC%ED%98%84%EB%8F%84%EB%93%9C%EB%A6%AC-010.wav"
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EC%82%BC%ED%98%84%EB%8F%84%EB%93%9C%EB%A6%AC/%EC%82%BC%ED%98%84%EB%8F%84%EB%93%9C%EB%A6%AC-010.wav",
+          "durationMs": 23478,
+          "durationSeconds": 23,
+          "sizeBytes": 3106253
         },
         {
           "displayName": "삼현도드리-020",
           "fileName": "삼현도드리-020.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EC%82%BC%ED%98%84%EB%8F%84%EB%93%9C%EB%A6%AC/%EC%82%BC%ED%98%84%EB%8F%84%EB%93%9C%EB%A6%AC-020.wav"
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EC%82%BC%ED%98%84%EB%8F%84%EB%93%9C%EB%A6%AC/%EC%82%BC%ED%98%84%EB%8F%84%EB%93%9C%EB%A6%AC-020.wav",
+          "durationMs": 31304,
+          "durationSeconds": 31,
+          "sizeBytes": 4141646
         }
       ]
     },
@@ -801,17 +1239,26 @@
         {
           "displayName": "상영산-010",
           "fileName": "상영산-010.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EC%83%81%EB%A0%B9%EC%82%B0/%EC%83%81%EC%98%81%EC%82%B0-010.wav"
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EC%83%81%EB%A0%B9%EC%82%B0/%EC%83%81%EC%98%81%EC%82%B0-010.wav",
+          "durationMs": 30000,
+          "durationSeconds": 30,
+          "sizeBytes": 3969080
         },
         {
           "displayName": "상영산-020",
           "fileName": "상영산-020.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EC%83%81%EB%A0%B9%EC%82%B0/%EC%83%81%EC%98%81%EC%82%B0-020.wav"
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EC%83%81%EB%A0%B9%EC%82%B0/%EC%83%81%EC%98%81%EC%82%B0-020.wav",
+          "durationMs": 42000,
+          "durationSeconds": 42,
+          "sizeBytes": 5556680
         },
         {
           "displayName": "상영산-030",
           "fileName": "상영산-030.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EC%83%81%EB%A0%B9%EC%82%B0/%EC%83%81%EC%98%81%EC%82%B0-030.wav"
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EC%83%81%EB%A0%B9%EC%82%B0/%EC%83%81%EC%98%81%EC%82%B0-030.wav",
+          "durationMs": 42000,
+          "durationSeconds": 42,
+          "sizeBytes": 5556680
         }
       ]
     },
@@ -821,22 +1268,34 @@
         {
           "displayName": "세령산-010",
           "fileName": "세령산-010.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EC%84%B8%EB%A0%B9%EC%82%B0/%EC%84%B8%EB%A0%B9%EC%82%B0-010.wav"
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EC%84%B8%EB%A0%B9%EC%82%B0/%EC%84%B8%EB%A0%B9%EC%82%B0-010.wav",
+          "durationMs": 16667,
+          "durationSeconds": 16,
+          "sizeBytes": 2205080
         },
         {
           "displayName": "세령산-020",
           "fileName": "세령산-020.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EC%84%B8%EB%A0%B9%EC%82%B0/%EC%84%B8%EB%A0%B9%EC%82%B0-020.wav"
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EC%84%B8%EB%A0%B9%EC%82%B0/%EC%84%B8%EB%A0%B9%EC%82%B0-020.wav",
+          "durationMs": 18333,
+          "durationSeconds": 18,
+          "sizeBytes": 2425580
         },
         {
           "displayName": "세령산-030",
           "fileName": "세령산-030.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EC%84%B8%EB%A0%B9%EC%82%B0/%EC%84%B8%EB%A0%B9%EC%82%B0-030.wav"
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EC%84%B8%EB%A0%B9%EC%82%B0/%EC%84%B8%EB%A0%B9%EC%82%B0-030.wav",
+          "durationMs": 20000,
+          "durationSeconds": 20,
+          "sizeBytes": 2646080
         },
         {
           "displayName": "세령산-040",
           "fileName": "세령산-040.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EC%84%B8%EB%A0%B9%EC%82%B0/%EC%84%B8%EB%A0%B9%EC%82%B0-040.wav"
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EC%84%B8%EB%A0%B9%EC%82%B0/%EC%84%B8%EB%A0%B9%EC%82%B0-040.wav",
+          "durationMs": 30000,
+          "durationSeconds": 30,
+          "sizeBytes": 3969156
         }
       ]
     },
@@ -846,32 +1305,50 @@
         {
           "displayName": "염불도드리-010",
           "fileName": "염불도드리-010.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EC%97%BC%EB%B6%88%EB%8F%84%EB%93%9C%EB%A6%AC/%EC%97%BC%EB%B6%88%EB%8F%84%EB%93%9C%EB%A6%AC-010.wav"
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EC%97%BC%EB%B6%88%EB%8F%84%EB%93%9C%EB%A6%AC/%EC%97%BC%EB%B6%88%EB%8F%84%EB%93%9C%EB%A6%AC-010.wav",
+          "durationMs": 14400,
+          "durationSeconds": 14,
+          "sizeBytes": 1905200
         },
         {
           "displayName": "염불도드리-020",
           "fileName": "염불도드리-020.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EC%97%BC%EB%B6%88%EB%8F%84%EB%93%9C%EB%A6%AC/%EC%97%BC%EB%B6%88%EB%8F%84%EB%93%9C%EB%A6%AC-020.wav"
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EC%97%BC%EB%B6%88%EB%8F%84%EB%93%9C%EB%A6%AC/%EC%97%BC%EB%B6%88%EB%8F%84%EB%93%9C%EB%A6%AC-020.wav",
+          "durationMs": 25200,
+          "durationSeconds": 25,
+          "sizeBytes": 3334040
         },
         {
           "displayName": "염불도드리-030",
           "fileName": "염불도드리-030.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EC%97%BC%EB%B6%88%EB%8F%84%EB%93%9C%EB%A6%AC/%EC%97%BC%EB%B6%88%EB%8F%84%EB%93%9C%EB%A6%AC-030.wav"
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EC%97%BC%EB%B6%88%EB%8F%84%EB%93%9C%EB%A6%AC/%EC%97%BC%EB%B6%88%EB%8F%84%EB%93%9C%EB%A6%AC-030.wav",
+          "durationMs": 14400,
+          "durationSeconds": 14,
+          "sizeBytes": 1905200
         },
         {
           "displayName": "염불도드리-040",
           "fileName": "염불도드리-040.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EC%97%BC%EB%B6%88%EB%8F%84%EB%93%9C%EB%A6%AC/%EC%97%BC%EB%B6%88%EB%8F%84%EB%93%9C%EB%A6%AC-040.wav"
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EC%97%BC%EB%B6%88%EB%8F%84%EB%93%9C%EB%A6%AC/%EC%97%BC%EB%B6%88%EB%8F%84%EB%93%9C%EB%A6%AC-040.wav",
+          "durationMs": 14400,
+          "durationSeconds": 14,
+          "sizeBytes": 1905200
         },
         {
           "displayName": "염불도드리-050",
           "fileName": "염불도드리-050.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EC%97%BC%EB%B6%88%EB%8F%84%EB%93%9C%EB%A6%AC/%EC%97%BC%EB%B6%88%EB%8F%84%EB%93%9C%EB%A6%AC-050.wav"
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EC%97%BC%EB%B6%88%EB%8F%84%EB%93%9C%EB%A6%AC/%EC%97%BC%EB%B6%88%EB%8F%84%EB%93%9C%EB%A6%AC-050.wav",
+          "durationMs": 10286,
+          "durationSeconds": 10,
+          "sizeBytes": 1360880
         },
         {
           "displayName": "염불도드리-060",
           "fileName": "염불도드리-060.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EC%97%BC%EB%B6%88%EB%8F%84%EB%93%9C%EB%A6%AC/%EC%97%BC%EB%B6%88%EB%8F%84%EB%93%9C%EB%A6%AC-060.wav"
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EC%97%BC%EB%B6%88%EB%8F%84%EB%93%9C%EB%A6%AC/%EC%97%BC%EB%B6%88%EB%8F%84%EB%93%9C%EB%A6%AC-060.wav",
+          "durationMs": 20571,
+          "durationSeconds": 20,
+          "sizeBytes": 2721680
         }
       ]
     },
@@ -881,7 +1358,10 @@
         {
           "displayName": "중영산-010",
           "fileName": "중영산-010.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EC%A4%91%EB%A0%B9%EC%82%B0/%EC%A4%91%EC%98%81%EC%82%B0-010.wav"
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EC%A4%91%EB%A0%B9%EC%82%B0/%EC%A4%91%EC%98%81%EC%82%B0-010.wav",
+          "durationMs": 30857,
+          "durationSeconds": 30,
+          "sizeBytes": 4082480
         }
       ]
     },
@@ -891,37 +1371,58 @@
         {
           "displayName": "청성곡-010",
           "fileName": "청성곡-010.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EC%B2%AD%EC%84%B1%EA%B3%A1/%EC%B2%AD%EC%84%B1%EA%B3%A1-010.wav"
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EC%B2%AD%EC%84%B1%EA%B3%A1/%EC%B2%AD%EC%84%B1%EA%B3%A1-010.wav",
+          "durationMs": 12314,
+          "durationSeconds": 12,
+          "sizeBytes": 1629242
         },
         {
           "displayName": "청성곡-020",
           "fileName": "청성곡-020.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EC%B2%AD%EC%84%B1%EA%B3%A1/%EC%B2%AD%EC%84%B1%EA%B3%A1-020.wav"
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EC%B2%AD%EC%84%B1%EA%B3%A1/%EC%B2%AD%EC%84%B1%EA%B3%A1-020.wav",
+          "durationMs": 11387,
+          "durationSeconds": 11,
+          "sizeBytes": 1506644
         },
         {
           "displayName": "청성곡-030",
           "fileName": "청성곡-030.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EC%B2%AD%EC%84%B1%EA%B3%A1/%EC%B2%AD%EC%84%B1%EA%B3%A1-030.wav"
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EC%B2%AD%EC%84%B1%EA%B3%A1/%EC%B2%AD%EC%84%B1%EA%B3%A1-030.wav",
+          "durationMs": 13809,
+          "durationSeconds": 13,
+          "sizeBytes": 1826972
         },
         {
           "displayName": "청성곡-040",
           "fileName": "청성곡-040.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EC%B2%AD%EC%84%B1%EA%B3%A1/%EC%B2%AD%EC%84%B1%EA%B3%A1-040.wav"
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EC%B2%AD%EC%84%B1%EA%B3%A1/%EC%B2%AD%EC%84%B1%EA%B3%A1-040.wav",
+          "durationMs": 17977,
+          "durationSeconds": 17,
+          "sizeBytes": 2378444
         },
         {
           "displayName": "청성곡-050",
           "fileName": "청성곡-050.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EC%B2%AD%EC%84%B1%EA%B3%A1/%EC%B2%AD%EC%84%B1%EA%B3%A1-050.wav"
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EC%B2%AD%EC%84%B1%EA%B3%A1/%EC%B2%AD%EC%84%B1%EA%B3%A1-050.wav",
+          "durationMs": 25893,
+          "durationSeconds": 25,
+          "sizeBytes": 3425723
         },
         {
           "displayName": "청성곡-060",
           "fileName": "청성곡-060.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EC%B2%AD%EC%84%B1%EA%B3%A1/%EC%B2%AD%EC%84%B1%EA%B3%A1-060.wav"
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EC%B2%AD%EC%84%B1%EA%B3%A1/%EC%B2%AD%EC%84%B1%EA%B3%A1-060.wav",
+          "durationMs": 10479,
+          "durationSeconds": 10,
+          "sizeBytes": 1386509
         },
         {
           "displayName": "청성곡-070",
           "fileName": "청성곡-070.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EC%B2%AD%EC%84%B1%EA%B3%A1/%EC%B2%AD%EC%84%B1%EA%B3%A1-070.wav"
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%EC%B2%AD%EC%84%B1%EA%B3%A1/%EC%B2%AD%EC%84%B1%EA%B3%A1-070.wav",
+          "durationMs": 17392,
+          "durationSeconds": 17,
+          "sizeBytes": 2301047
         }
       ]
     },
@@ -931,42 +1432,66 @@
         {
           "displayName": "타령-010",
           "fileName": "타령-010.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%ED%83%80%EB%A0%B9/%ED%83%80%EB%A0%B9-010.wav"
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%ED%83%80%EB%A0%B9/%ED%83%80%EB%A0%B9-010.wav",
+          "durationMs": 7826,
+          "durationSeconds": 7,
+          "sizeBytes": 1035470
         },
         {
           "displayName": "타령-020",
           "fileName": "타령-020.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%ED%83%80%EB%A0%B9/%ED%83%80%EB%A0%B9-020.wav"
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%ED%83%80%EB%A0%B9/%ED%83%80%EB%A0%B9-020.wav",
+          "durationMs": 7826,
+          "durationSeconds": 7,
+          "sizeBytes": 1035470
         },
         {
           "displayName": "타령-030",
           "fileName": "타령-030.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%ED%83%80%EB%A0%B9/%ED%83%80%EB%A0%B9-030.wav"
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%ED%83%80%EB%A0%B9/%ED%83%80%EB%A0%B9-030.wav",
+          "durationMs": 7826,
+          "durationSeconds": 7,
+          "sizeBytes": 1035470
         },
         {
           "displayName": "타령-040",
           "fileName": "타령-040.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%ED%83%80%EB%A0%B9/%ED%83%80%EB%A0%B9-040.wav"
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%ED%83%80%EB%A0%B9/%ED%83%80%EB%A0%B9-040.wav",
+          "durationMs": 7826,
+          "durationSeconds": 7,
+          "sizeBytes": 1035470
         },
         {
           "displayName": "타령-050",
           "fileName": "타령-050.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%ED%83%80%EB%A0%B9/%ED%83%80%EB%A0%B9-050.wav"
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%ED%83%80%EB%A0%B9/%ED%83%80%EB%A0%B9-050.wav",
+          "durationMs": 7826,
+          "durationSeconds": 7,
+          "sizeBytes": 1035470
         },
         {
           "displayName": "타령-060",
           "fileName": "타령-060.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%ED%83%80%EB%A0%B9/%ED%83%80%EB%A0%B9-060.wav"
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%ED%83%80%EB%A0%B9/%ED%83%80%EB%A0%B9-060.wav",
+          "durationMs": 7826,
+          "durationSeconds": 7,
+          "sizeBytes": 1035470
         },
         {
           "displayName": "타령-070",
           "fileName": "타령-070.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%ED%83%80%EB%A0%B9/%ED%83%80%EB%A0%B9-070.wav"
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%ED%83%80%EB%A0%B9/%ED%83%80%EB%A0%B9-070.wav",
+          "durationMs": 7826,
+          "durationSeconds": 7,
+          "sizeBytes": 1035470
         },
         {
           "displayName": "타령-080",
           "fileName": "타령-080.wav",
-          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%ED%83%80%EB%A0%B9/%ED%83%80%EB%A0%B9-080.wav"
+          "assetPath": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/audio/%ED%83%80%EB%A0%B9/%ED%83%80%EB%A0%B9-080.wav",
+          "durationMs": 11739,
+          "durationSeconds": 11,
+          "sizeBytes": 1553165
         }
       ]
     }
