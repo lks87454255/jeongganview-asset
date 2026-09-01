@@ -408,6 +408,16 @@
             "colIndex": 6,
             "startRow": 1,
             "endRow": 6
+          },
+          {
+            "colIndex": 7,
+            "startRow": 1,
+            "endRow": 6
+          },
+          {
+            "colIndex": 8,
+            "startRow": 1,
+            "endRow": 6
           }
         ],
         "x": 0.1227,
