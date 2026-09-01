@@ -3,9 +3,9 @@
   "totalPages": 16,
   "pageData": {
     "3": [
-      {
+       {
         "gridId": 1,
-        "cols": 7,
+        "cols": 6,
         "columnConfigs": [
           {
             "colIndex": 1,
@@ -36,17 +36,12 @@
             "colIndex": 6,
             "startRow": 1,
             "endRow": 20
-          },
-          {
-            "colIndex": 7,
-            "startRow": 1,
-            "endRow": 20
           }
         ],
-        "x": 0.1196,
-        "y": 0.1584,
-        "width": 0.5583,
-        "height": 0.777
+        "x": 0.1215,
+        "y": 0.1592,
+        "width": 0.558,
+        "height": 0.778
       }
     ],
     "4": [
