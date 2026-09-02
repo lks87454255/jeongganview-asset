@@ -6,6 +6,7 @@
       {
         "gridId": 1,
         "cols": 7,
+        "rows": 20,
         "columnConfigs": [
           {
             "colIndex": 1,
@@ -53,6 +54,7 @@
       {
         "gridId": 1,
         "cols": 7,
+        "rows": 20,
         "columnConfigs": [
           {
             "colIndex": 1,
@@ -100,6 +102,7 @@
       {
         "gridId": 1,
         "cols": 8,
+        "rows": 20,
         "columnConfigs": [
           {
             "colIndex": 1,
@@ -152,6 +155,7 @@
       {
         "gridId": 1,
         "cols": 10,
+        "rows": 20,
         "columnConfigs": [
           {
             "colIndex": 1,
@@ -214,6 +218,7 @@
       {
         "gridId": 1,
         "cols": 7,
+        "rows": 10,
         "columnConfigs": [
           {
             "colIndex": 1,
@@ -259,6 +264,7 @@
       {
         "gridId": 2,
         "cols": 7,
+        "rows": 10,
         "columnConfigs": [
           {
             "colIndex": 1,
@@ -306,6 +312,7 @@
       {
         "gridId": 1,
         "cols": 5,
+        "rows": 10,
         "columnConfigs": [
           {
             "colIndex": 1,
@@ -341,6 +348,7 @@
       {
         "gridId": 2,
         "cols": 5,
+        "rows": 10,
         "columnConfigs": [
           {
             "colIndex": 1,
@@ -378,6 +386,7 @@
       {
         "gridId": 1,
         "cols": 8,
+        "rows": 6,
         "columnConfigs": [
           {
             "colIndex": 1,
@@ -428,6 +437,7 @@
       {
         "gridId": 2,
         "cols": 9,
+        "rows": 6,
         "columnConfigs": [
           {
             "colIndex": 1,
@@ -483,6 +493,7 @@
       {
         "gridId": 3,
         "cols": 9,
+        "rows": 6,
         "columnConfigs": [
           {
             "colIndex": 1,
@@ -540,6 +551,7 @@
        {
         "gridId": 1,
         "cols": 3,
+        "rows": 6,
         "columnConfigs": [
           {
             "colIndex": 1,
@@ -565,6 +577,7 @@
       {
         "gridId": 2,
         "cols": 3,
+        "rows": 6,
         "columnConfigs": [
           {
             "colIndex": 1,
@@ -590,6 +603,7 @@
       {
         "gridId": 3,
         "cols": 3,
+        "rows": 6,
         "columnConfigs": [
           {
             "colIndex": 1,
@@ -615,6 +629,7 @@
       {
         "gridId": 4,
         "cols": 6,
+        "rows": 6,
         "columnConfigs": [
           {
             "colIndex": 1,
@@ -655,6 +670,7 @@
       {
         "gridId": 5,
         "cols": 6,
+        "rows": 6,
         "columnConfigs": [
           {
             "colIndex": 1,
@@ -695,6 +711,7 @@
       {
         "gridId": 6,
         "cols": 6,
+        "rows": 6,
         "columnConfigs": [
           {
             "colIndex": 1,
@@ -737,6 +754,7 @@
       {
         "gridId": 1,
         "cols": 10,
+        "rows": 6,
         "columnConfigs": [
           {
             "colIndex": 1,
@@ -797,6 +815,7 @@
       {
         "gridId": 2,
         "cols": 10,
+        "rows": 6,
         "columnConfigs": [
           {
             "colIndex": 1,
@@ -857,6 +876,7 @@
       {
         "gridId": 3,
         "cols": 10,
+        "rows": 6,
         "columnConfigs": [
           {
             "colIndex": 1,
@@ -919,6 +939,7 @@
       {
         "gridId": 1,
         "cols": 2,
+        "rows": 6,
         "columnConfigs": [
           {
             "colIndex": 1,
@@ -939,6 +960,7 @@
       {
         "gridId": 2,
         "cols": 2,
+        "rows": 6,
         "columnConfigs": [
           {
             "colIndex": 1,
@@ -959,6 +981,7 @@
       {
         "gridId": 3,
         "cols": 6,
+        "rows": 12,
         "columnConfigs": [
           {
             "colIndex": 1,
@@ -999,6 +1022,7 @@
       {
         "gridId": 4,
         "cols": 7,
+        "rows": 12,
         "columnConfigs": [
           {
             "colIndex": 1,
@@ -1046,6 +1070,7 @@
       {
         "gridId": 1,
         "cols": 7,
+        "rows": 12,
         "columnConfigs": [
           {
             "colIndex": 1,
@@ -1091,6 +1116,7 @@
       {
         "gridId": 2,
         "cols": 6,
+        "rows": 12,
         "columnConfigs": [
           {
             "colIndex": 1,
@@ -1133,6 +1159,7 @@
       {
         "gridId": 1,
         "cols": 8,
+        "rows": 12,
         "columnConfigs": [
           {
             "colIndex": 1,
@@ -1183,6 +1210,7 @@
       {
         "gridId": 2,
         "cols": 9,
+        "rows": 12,
         "columnConfigs": [
           {
             "colIndex": 1,
@@ -1240,6 +1268,7 @@
       {
         "gridId": 1,
         "cols": 10,
+        "rows": 12,
         "columnConfigs": [
           {
             "colIndex": 1,
@@ -1300,6 +1329,7 @@
       {
         "gridId": 2,
         "cols": 10,
+        "rows": 12,
         "columnConfigs": [
           {
             "colIndex": 1,
@@ -1362,6 +1392,7 @@
       {
         "gridId": 1,
         "cols": 6,
+        "rows": 12,
         "columnConfigs": [
           {
             "colIndex": 1,
@@ -1402,6 +1433,7 @@
       {
         "gridId": 2,
         "cols": 5,
+        "rows": 12,
         "columnConfigs": [
           {
             "colIndex": 1,
