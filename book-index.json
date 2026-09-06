@@ -163,28 +163,14 @@
       ]
     },
     {
-      "name": "춤산조",
+      "name": "산조",
       "files": [
         {
-          "name": "춤산조-잦은모리",
-          "fileName": "춤산조-잦은모리.pdf",
-          "path": "book/춤산조/춤산조-잦은모리.pdf",
-          "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EC%B6%A4%EC%82%B0%EC%A1%B0/%EC%B6%A4%EC%82%B0%EC%A1%B0-%EC%9E%A6%EC%9D%80%EB%AA%A8%EB%A6%AC.pdf",
+          "name": "춤산조",
+          "fileName": "춤산조.pdf",
+          "path": "book/산조/춤산조.pdf",
+          "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/산조/춤산조.pdf",
           "sizeBytes": 574377
-        },
-        {
-          "name": "춤산조-중중모리",
-          "fileName": "춤산조-중중모리.pdf",
-          "path": "book/춤산조/춤산조-중중모리.pdf",
-          "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EC%B6%A4%EC%82%B0%EC%A1%B0/%EC%B6%A4%EC%82%B0%EC%A1%B0-%EC%A4%91%EC%A4%91%EB%AA%A8%EB%A6%AC.pdf",
-          "sizeBytes": 505575
-        },
-        {
-          "name": "춤산조-진양-중모리",
-          "fileName": "춤산조-진양-중모리.pdf",
-          "path": "book/춤산조/춤산조-진양-중모리.pdf",
-          "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EC%B6%A4%EC%82%B0%EC%A1%B0/%EC%B6%A4%EC%82%B0%EC%A1%B0-%EC%A7%84%EC%96%91-%EC%A4%91%EB%AA%A8%EB%A6%AC.pdf",
-          "sizeBytes": 491550
         }
       ]
     }
