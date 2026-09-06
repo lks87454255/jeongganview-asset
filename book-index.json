@@ -165,13 +165,13 @@
     {
       "name": "산조",
       "files": [
-{
-  "name": "춤산조",
-  "fileName": "춤산조.pdf",
-  "path": "book/산조/춤산조.pdf",
-  "url": "https://github.com/lks87454255/jeongganview-asset/blob/main/book/%EC%82%B0%EC%A1%B0/%E1%84%8E%E1%85%AE%E1%86%B7%E1%84%89%E1%85%A1%E1%86%AB%E1%84%8C%E1%85%A9.pdf",
-  "sizeBytes": 574377
-}
+        {
+          "name": "춤산조",
+          "fileName": "춤산조.pdf",
+          "path": "book/산조/춤산조.pdf",
+          "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EC%82%B0%EC%A1%B0/%EC%B6%A4%EC%82%B0%EC%A1%B0.pdf",
+          "sizeBytes": 936658
+        }
       ]
     }
   ],
