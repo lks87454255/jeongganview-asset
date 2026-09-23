@@ -175,27 +175,32 @@
       ]
     },
     {
-      "name": "정간보",
+      "name": "조재수 대금교본",
       "files": [
         {
-          "name": "대금-황야의 무법자-Cm",
-          "fileName": "대금-황야의 무법자-Cm.pdf",
-          "path": "book/정간보/대금-황야의 무법자-Cm.pdf",
-          "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EC%A0%95%EA%B0%84%EB%B3%B4/%EB%8C%80%EA%B8%88-%ED%99%A9%EC%95%BC%EC%9D%98%20%EB%AC%B4%EB%B2%95%EC%9E%90-Cm.pdf",
-          "sizeBytes": 74516
-        },
+          "name": "조재수 대금교본",
+          "fileName": "조재수 대금교본.pdf",
+          "path": "book/조재수 대금교본/조재수 대금교본.pdf",
+          "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EC%A1%B0%EC%9E%AC%EC%88%98%20%EB%8C%80%EA%B8%88%EA%B5%90%EB%B3%B8/%EC%A1%B0%EC%9E%AC%EC%88%98%20%EB%8C%80%EA%B8%88%EA%B5%90%EB%B3%B8.pdf",
+          "sizeBytes": 10204015
+        }
+      ]
+    },
+    {
+      "name": "국악이 꽃피는 나무",
+      "files": [
         {
-          "name": "대금-황야의 무법자-Dm",
-          "fileName": "대금-황야의 무법자-Dm.pdf",
-          "path": "book/정간보/대금-황야의 무법자-Dm.pdf",
-          "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EC%A0%95%EA%B0%84%EB%B3%B4/%EB%8C%80%EA%B8%88-%ED%99%A9%EC%95%BC%EC%9D%98%20%EB%AC%B4%EB%B2%95%EC%9E%90-Dm.pdf",
-          "sizeBytes": 81350
+          "name": "국악이 꽃피는 나무",
+          "fileName": "국악이 꽃피는 나무.pdf",
+          "path": "book/국악이 꽃피는 나무/국악이 꽃피는 나무.pdf",
+          "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EA%B5%AD%EC%95%85%EC%9D%B4%20%EA%BD%83%ED%94%BC%EB%8A%94%20%EB%82%98%EB%AC%B4/%EA%B5%AD%EC%95%85%EC%9D%B4%20%EA%BD%83%ED%94%BC%EB%8A%94%20%EB%82%98%EB%AC%B4.pdf",
+          "sizeBytes": 3692971
         }
       ]
     }
   ],
   "_total": {
-    "categories": 4,
+    "categories": 5,
     "files": 24
   }
 }
