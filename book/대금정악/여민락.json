@@ -6,7 +6,7 @@
       {
         "gridId": 1,
         "cols": 8,
-        "rows": 20,
+        "rows": 12,
         "columnConfigs": [
           {
             "colIndex": 1,
@@ -49,10 +49,10 @@
             "endRow": 20
           }
         ],
-        "x": 0.1197,
+        "x": 0.1215,
         "y": 0.1579,
-        "width": 0.6832,
-        "height": 0.78
+        "width": 0.6354,
+        "height": 0.7773
       }
     ],
     "4": [
