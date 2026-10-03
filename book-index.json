@@ -5,18 +5,7 @@
   "repo": "jeongganview-asset",
   "branch": "main",
   "categories": [
-    {
-      "name": "국악이 꽃피는 나무",
-      "files": [
-        {
-          "name": "국악이 꽃피는 나무",
-          "fileName": "국악이 꽃피는 나무.pdf",
-          "path": "book/국악이 꽃피는 나무/국악이 꽃피는 나무.pdf",
-          "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EA%B5%AD%EC%95%85%EC%9D%B4%20%EA%BD%83%ED%94%BC%EB%8A%94%20%EB%82%98%EB%AC%B4/%EA%B5%AD%EC%95%85%EC%9D%B4%20%EA%BD%83%ED%94%BC%EB%8A%94%20%EB%82%98%EB%AC%B4.pdf",
-          "sizeBytes": 3610028
-        }
-      ]
-    },
+
     {
       "name": "대금정악",
       "files": [
@@ -183,6 +172,18 @@
           "path": "book/영산회상/해금.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EC%98%81%EC%82%B0%ED%9A%8C%EC%83%81/%ED%95%B4%EA%B8%88.pdf",
           "sizeBytes": 7216643
+        }
+      ]
+    },
+        {
+      "name": "국악이 꽃피는 나무",
+      "files": [
+        {
+          "name": "국악이 꽃피는 나무",
+          "fileName": "국악이 꽃피는 나무.pdf",
+          "path": "book/국악이 꽃피는 나무/국악이 꽃피는 나무.pdf",
+          "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EA%B5%AD%EC%95%85%EC%9D%B4%20%EA%BD%83%ED%94%BC%EB%8A%94%20%EB%82%98%EB%AC%B4/%EA%B5%AD%EC%95%85%EC%9D%B4%20%EA%BD%83%ED%94%BC%EB%8A%94%20%EB%82%98%EB%AC%B4.pdf",
+          "sizeBytes": 3610028
         }
       ]
     },
