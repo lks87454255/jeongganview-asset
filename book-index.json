@@ -1,10 +1,22 @@
 {
   "version": 1,
-  "generated": "2026-09-06T11:06:32Z",
+  "generated": "2026-10-03T14:17:40Z",
   "owner": "lks87454255",
   "repo": "jeongganview-asset",
   "branch": "main",
   "categories": [
+    {
+      "name": "국악이 꽃피는 나무",
+      "files": [
+        {
+          "name": "국악이 꽃피는 나무",
+          "fileName": "국악이 꽃피는 나무.pdf",
+          "path": "book/국악이 꽃피는 나무/국악이 꽃피는 나무.pdf",
+          "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EA%B5%AD%EC%95%85%EC%9D%B4%20%EA%BD%83%ED%94%BC%EB%8A%94%20%EB%82%98%EB%AC%B4/%EA%B5%AD%EC%95%85%EC%9D%B4%20%EA%BD%83%ED%94%BC%EB%8A%94%20%EB%82%98%EB%AC%B4.pdf",
+          "sizeBytes": 3610028
+        }
+      ]
+    },
     {
       "name": "대금정악",
       "files": [
@@ -37,10 +49,10 @@
           "sizeBytes": 681776
         },
         {
-          "name": "독주곡-한천수",
-          "fileName": "독주곡-한천수.pdf",
-          "path": "book/대금정악/독주곡-한천수.pdf",
-          "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EB%8C%80%EA%B8%88%EC%A0%95%EC%95%85/%EB%8F%85%EC%A3%BC%EA%B3%A1-%ED%95%9C%EC%B2%9C%EC%88%98.pdf",
+          "name": "독주곡-헌천수",
+          "fileName": "독주곡-헌천수.pdf",
+          "path": "book/대금정악/독주곡-헌천수.pdf",
+          "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EB%8C%80%EA%B8%88%EC%A0%95%EC%95%85/%EB%8F%85%EC%A3%BC%EA%B3%A1-%ED%97%8C%EC%B2%9C%EC%88%98.pdf",
           "sizeBytes": 427825
         },
         {
@@ -183,18 +195,6 @@
           "path": "book/조재수 대금교본/조재수 대금교본.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EC%A1%B0%EC%9E%AC%EC%88%98%20%EB%8C%80%EA%B8%88%EA%B5%90%EB%B3%B8/%EC%A1%B0%EC%9E%AC%EC%88%98%20%EB%8C%80%EA%B8%88%EA%B5%90%EB%B3%B8.pdf",
           "sizeBytes": 10204015
-        }
-      ]
-    },
-    {
-      "name": "국악이 꽃피는 나무",
-      "files": [
-        {
-          "name": "국악이 꽃피는 나무",
-          "fileName": "국악이 꽃피는 나무.pdf",
-          "path": "book/국악이 꽃피는 나무/국악이 꽃피는 나무.pdf",
-          "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EA%B5%AD%EC%95%85%EC%9D%B4%20%EA%BD%83%ED%94%BC%EB%8A%94%20%EB%82%98%EB%AC%B4/%EA%B5%AD%EC%95%85%EC%9D%B4%20%EA%BD%83%ED%94%BC%EB%8A%94%20%EB%82%98%EB%AC%B4.pdf",
-          "sizeBytes": 3610028
         }
       ]
     }
