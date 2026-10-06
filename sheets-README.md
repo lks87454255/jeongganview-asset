@@ -1,15 +1,18 @@
-# jeongganview-sheets
+# sheets (정간보 CSV)
 
 정간뷰(JeongGanView) 앱의 **정간보 만들기**에서 불러올 수 있는 정간보 CSV 모음입니다.
 엑셀·구글시트에서 바로 열고 고칠 수 있습니다.
 
 ```
+sheets-index.json          ← generate_sheets_index.py 가 만드는 목록 (앱은 이 파일 하나만 받음)
+generate_sheets_index.py
 sheets/
-  민요/            ← 카테고리 = 폴더
+  민요/                    ← 카테고리 = 폴더 (바로 아래 *.csv 만 목록에 들어감)
     풍년가 (채보1).csv
     …
-sheets-index.json  ← generate_index.py 가 만드는 목록 (앱은 이 파일 하나만 받음)
-generate_index.py
+    원본/민요채보-1~3/     ← 채보 스캔 이미지 (CSV `원본` 행은 이 폴더 기준 경로)
+    검수/                  ← 곡별 검수 xlsx, _목록.xlsx
+    _작업/                 ← 판독 TSV, build_all.ps1, 판독규격.md
 ```
 
 ## CSV 형식 (v2)
@@ -36,7 +39,7 @@ generate_index.py
 ## 올리는 순서
 
 ```
-python3 generate_index.py          # 검사 + sheets-index.json 생성 (오류 있으면 종료 코드 1)
+python3 generate_sheets_index.py   # 검사 + sheets-index.json 생성 (오류 있으면 종료 코드 1)
 git add sheets sheets-index.json
 git commit -m "chore: update sheets index"
 git push
@@ -44,5 +47,5 @@ git push
 
 ## 민요 채보 출처·상태
 
-`sheets/민요/` 는 손 채보 스캔 이미지(민요채보-1~3)를 판독한 **초안**입니다. 각 CSV의 `상태` 행과
+`sheets/민요/*.csv` 는 손 채보 스캔 이미지(`sheets/민요/원본/민요채보-1~3`)를 판독한 **초안**입니다. 각 CSV의 `상태` 행과
 `원본` 행을 참고하고, 원본과 대조해 고친 뒤 `상태` 값을 바꿔 주세요.

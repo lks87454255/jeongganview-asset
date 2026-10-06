@@ -1,13 +1,15 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-generate_index.py  (jeongganview-sheets)
-=======================================
+generate_sheets_index.py  (jeongganview-asset)
+=============================================
 sheets/<카테고리>/*.csv (정간보 CSV v2) 를 스캔해 sheets-index.json 을 만들고,
 앱 불러오기 규칙(util/JeongganCsv.kt)대로 모든 CSV 를 검사합니다.
 
-    python3 generate_index.py          # 검사 + 목록 생성
-    python3 generate_index.py --check  # 검사만 (파일 변경 없음)
+    python3 generate_sheets_index.py          # 검사 + 목록 생성
+    python3 generate_sheets_index.py --check  # 검사만 (파일 변경 없음)
+
+카테고리 폴더 바로 아래의 *.csv 만 목록에 넣는다. 하위 폴더(원본/ 검수/ _작업/ 등 작업 자료)는 읽지 않는다.
 
 오류(ERROR)가 하나라도 있으면 종료 코드 1 — 고친 뒤 push 하세요.
   ERROR : 파일명 NFC 아님 · UTF-8 아님 · "정간번호" 행 없음 · 행수/페이지 블록 불일치 ·
@@ -33,7 +35,8 @@ REPO = "jeongganview-asset"
 BRANCH = "main"
 BASE = f"https://raw.githubusercontent.com/{OWNER}/{REPO}/{BRANCH}"
 IGNORE = {".DS_Store", ".gitkeep", ".gitignore", "Thumbs.db"}
-# 작업 자료 폴더 — CSV 가 들어가도 앱 목록(카테고리)에 넣지 않음. "_" 로 시작하는 폴더도 제외.
+# sheets/ 바로 아래에 이 이름(또는 "_" 로 시작하는) 폴더가 있으면 카테고리로 보지 않음.
+# (현재 작업 자료는 sheets/<카테고리>/원본·검수·_작업 에 있고, 카테고리 하위 폴더는 원래 스캔하지 않음)
 WORK_DIRS = {"원본", "검수"}
 COLUMNS = 20
 

@@ -1,11 +1,14 @@
 ﻿<#
   민요채보 생성 스크립트 (Windows PowerShell 5.1, UTF-8 BOM 으로 저장할 것)
 
-  입력 : D:\민요채보\_작업\tsv\*.tsv          (판독규격.md 의 TSV v2)
-  출력 : D:\민요채보\검수\{곡}.xlsx            곡별 검수 엑셀 (정보 / 정간목록 / 악보 1..N)
-         D:\민요채보\검수\_목록.xlsx            전체 목록 / 이미지별 / 확인 필요 글자
-         D:\민요채보\jeongganview-sheets\sheets\민요\{곡}.csv   앱 CSV v2 (util/JeongganCsv.kt)
-         D:\민요채보\_작업\생성리포트.txt
+  폴더 구조 (jeongganview-asset 레포):
+    sheets-index.json                    ← 앱 목록 (generate_sheets_index.py 로 다시 만드는 것을 권장)
+    sheets\민요\                         ← $Root (기본값: 이 스크립트의 상위 폴더)
+      {곡}.csv                           ← 앱 CSV v2 (util/JeongganCsv.kt)
+      원본\민요채보-1~3\*.png|jpg         ← 채보 스캔 (CSV '원본' 행은 원본\ 기준 상대 경로)
+      검수\{곡}.xlsx, 검수\_목록.xlsx      ← 검수 엑셀
+      _작업\tsv\*.tsv                     ← 입력 (판독규격.md 의 TSV v2)
+      _작업\생성리포트.txt
 
   규칙
    - #이어짐 으로 연결된 이미지들은 한 곡(한 문서)의 연속 페이지.
@@ -16,15 +19,15 @@
 
   사용 : powershell -NoProfile -ExecutionPolicy Bypass -File build_all.ps1
 #>
-param([string]$Root = 'D:\민요채보')
+param([string]$Root = (Split-Path -Parent $PSScriptRoot))   # sheets\민요
 $ErrorActionPreference = 'Stop'
 Add-Type -AssemblyName System.IO.Compression
 $utf8 = New-Object System.Text.UTF8Encoding($false)
 
 $TsvDir     = Join-Path $Root '_작업\tsv'
 $ReviewDir  = Join-Path $Root '검수'
-$RepoDir    = Join-Path $Root 'jeongganview-sheets'
-$CsvDir     = Join-Path $RepoDir 'sheets\민요'
+$RepoDir    = Split-Path -Parent (Split-Path -Parent $Root)   # jeongganview-asset
+$CsvDir     = $Root
 $ReportPath = Join-Path $Root '_작업\생성리포트.txt'
 $Category   = '민요'
 $MaxLinesPerPage = 10
@@ -637,7 +640,7 @@ function JStr([string]$s) {
   }
   [void]$sb.Append('"'); return $sb.ToString()
 }
-$Owner = 'lks87454255'; $Repo = 'jeongganview-sheets'; $Branch = 'main'
+$Owner = 'lks87454255'; $Repo = 'jeongganview-asset'; $Branch = 'main'
 $base = "https://raw.githubusercontent.com/$Owner/$Repo/$Branch"
 $sha = [System.Security.Cryptography.SHA256]::Create()
 $entries = foreach ($d in $docs) {
