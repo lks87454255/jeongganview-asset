@@ -1,17 +1,21 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-xlsx_to_csv.py — 검수 엑셀의 '악보 N' 시트를 앱 CSV(v2)에 반영
+xlsx_to_csv.py — 검수 엑셀의 '악보' 시트를 앱 CSV(v2)에 반영
 =================================================================
-    sheets/민요/검수/{곡}.xlsx  ─(악보 1..N 시트)→  sheets/민요/csv/{곡}.csv
+    sheets/민요/검수/{곡}.xlsx  ─(악보 시트)→    sheets/민요/csv/{곡}.csv
 
     python3 xlsx_to_csv.py                  # 바뀐 곡만 CSV 갱신
     python3 xlsx_to_csv.py --check          # 바뀔 곡만 출력 (파일 변경 없음)
     python3 xlsx_to_csv.py "강강술래" ...   # 특정 곡만 (xlsx 파일명, 확장자 생략 가능)
 
 규칙
-  - 고칠 곳은 '악보 N' 시트뿐이다. '악보 N' = CSV '페이지,N' 블록.
-    A열 = 정간 번호, 그 오른쪽은 'k줄'(율명) · '가사' 쌍 → CSV k열(대) · k열(소).
+  - 고칠 곳은 '악보' 시트뿐이다. 가로로 병합된 제목 행이 나올 때마다 한 페이지
+    (위에서부터 CSV '페이지,1', '페이지,2' …). 1행·A열(여백)·페이지 사이 빈 행은 무시한다.
+  - 제목 행 아래 n번째 행 = 정간 n (정간 번호 열·머리 행 없음). 행을 지우거나 끼워 넣으면 밀리므로 칸만 고칠 것.
+  - 열: 제목 병합 범위의 오른쪽 끝 두 열 = 1줄(율명, 가사), 그 왼쪽 두 열 = 2줄 … → CSV k열(대) · k열(소).
+    제목 병합을 풀거나 폭을 바꾸면 열 위치를 알 수 없으니 그대로 둘 것.
+  - 구형('k줄' 머리 행 있음, A열 '정간' 번호 열, '악보 1' · '악보 2' … 시트)도 읽는다.
     (11줄 이상 이어지는 시트는 11줄 → 1열, 12줄 → 2열 …)
   - 한 칸에 여러 음은 칸 안 줄바꿈(Alt+Enter / Option+Enter).
   - CSV 머리 정보(타이틀·박자·행수·원본·상태 …)는 CSV 쪽 값을 그대로 둔다.
@@ -57,6 +61,15 @@ def _col_index(ref: str) -> int:
     return n                                        # A=1
 
 
+class Cells(dict):
+    """{(행, 열): 문자열} + merges: [(r1, c1, r2, c2)] (병합 셀)"""
+    merges: list
+
+
+def _ref(ref: str):
+    return int(re.search(r"\d+", ref).group(0)), _col_index(ref)
+
+
 def read_sheets(path: str) -> dict:
     """{시트 이름: {(행, 열): 문자열}}"""
     z = zipfile.ZipFile(path)
@@ -68,8 +81,13 @@ def read_sheets(path: str) -> dict:
     for sh in ET.fromstring(z.read("xl/workbook.xml")).find("m:sheets", NS):
         target = rels[sh.get(f"{{{NS['r']}}}id")].lstrip("/")
         target = target if target.startswith("xl/") else "xl/" + target
-        cells = {}
-        for c in ET.fromstring(z.read(target)).iter(f"{{{NS['m']}}}c"):
+        ws = ET.fromstring(z.read(target))
+        cells = Cells()
+        cells.merges = []
+        for mc in ws.iter(f"{{{NS['m']}}}mergeCell"):
+            a, _, b = mc.get("ref").partition(":")
+            cells.merges.append((*_ref(a), *_ref(b or a)))
+        for c in ws.iter(f"{{{NS['m']}}}c"):
             t, v = c.get("t"), c.find("m:v", NS)
             if t == "inlineStr":
                 val = _text(c.find("m:is", NS))
@@ -88,41 +106,104 @@ def read_sheets(path: str) -> dict:
     return out
 
 
-def score_pages(sheets: dict, path: str) -> list:
-    """'악보 N' 시트 → [ {정간: {k줄: (율명, 가사)}} ... ] (페이지 순)"""
-    pages = sorted(((int(m.group(1)), name) for name in sheets
-                    if (m := re.fullmatch(r"악보\s*(\d+)", name))), key=lambda x: x[0])
-    if not pages:
-        raise ValueError(f"'악보 N' 시트가 없음: {path}")
-    if [p for p, _ in pages] != list(range(1, len(pages) + 1)):
-        raise ValueError(f"'악보' 시트 번호가 1부터 연속이 아님: {[p for p, _ in pages]}")
-    result = []
-    for _, name in pages:
-        cells = sheets[name]
-        # 머리 행: A열이 '정간' 인 행
-        head = next((r for (r, c), v in cells.items() if c == 1 and v.strip() == "정간"), None)
-        if head is None:
-            raise ValueError(f"[{name}] '정간' 머리 행을 찾을 수 없음")
-        line_cols = {}                              # k줄 → (율명 열, 가사 열)
+LINE_RE = re.compile(r"(\d+)\s*줄")
+
+
+def _parse_block(cells: dict, head: int, end: int, nrows: int, label: str) -> dict:
+    """head 행('k줄 | 가사 …') 아래 ~ end 행 전까지 → {정간: {페이지 안 열: (율명, 가사)}}
+
+    - A열이 '정간' 인 형식(구형): A열 숫자 = 정간 번호.
+    - 정간 번호 열이 없는 형식(현재): 머리 행 아래 n번째 행 = 정간 n.
+    """
+    line_cols = {}                                  # k줄 → (율명 열, 가사 열)
+    for (r, c), v in cells.items():
+        if r == head and (m := LINE_RE.fullmatch(v.strip())):
+            line_cols[int(m.group(1))] = (c, c + 1)
+    # 한 이미지가 10줄을 넘으면 다음 페이지는 11줄부터 → 페이지 안 열 = (k-1) % 10 + 1
+    base = (min(line_cols) - 1) // MAX_LINES * MAX_LINES
+    if max(line_cols) - base > MAX_LINES:
+        raise ValueError(f"[{label}] 한 페이지에 {MAX_LINES}줄 초과: {sorted(line_cols)}")
+    line_cols = {k - base: cols for k, cols in line_cols.items()}
+
+    def row_of(r):
+        return {k: (cells.get((r, yc), ""), cells.get((r, gc), "")) for k, (yc, gc) in line_cols.items()}
+
+    page = {}
+    if cells.get((head, 1), "").strip() == "정간":
         for (r, c), v in cells.items():
-            if r == head and (m := re.fullmatch(r"(\d+)\s*줄", v.strip())):
-                line_cols[int(m.group(1))] = (c, c + 1)
-        if not line_cols:
-            raise ValueError(f"[{name}] 'k줄' 머리가 없음")
-        # 한 이미지가 10줄을 넘으면 다음 페이지는 11줄부터 → 페이지 안 열 = (k-1) % 10 + 1
-        base = (min(line_cols) - 1) // MAX_LINES * MAX_LINES
-        if max(line_cols) - base > MAX_LINES:
-            raise ValueError(f"[{name}] 한 시트에 {MAX_LINES}줄 초과: {sorted(line_cols)}")
-        line_cols = {k - base: cols for k, cols in line_cols.items()}
-        page = {}
-        for (r, c), v in cells.items():
-            if r <= head or c != 1 or not v.strip():
+            # A열이 숫자인 행만 정간 행. 빈 행·다음 페이지 제목 행은 건너뜀
+            if not head < r < end or c != 1 or not v.strip().isdigit():
                 continue
-            if not v.strip().isdigit():
-                raise ValueError(f"[{name}] {r}행 A열 정간 번호가 숫자가 아님: {v!r}")
             jg = int(v.strip())
-            page[jg] = {k: (cells.get((r, yc), ""), cells.get((r, gc), "")) for k, (yc, gc) in line_cols.items()}
-        result.append(page)
+            if jg in page:
+                raise ValueError(f"[{label}] 정간 {jg} 이(가) 두 번 나옴 ({r}행)")
+            page[jg] = row_of(r)
+        return page
+    # 정간 번호 열 없음: 다음 페이지는 [빈 행][제목 행][머리 행] 이므로 head+nrows 는 end-2 보다 위여야 함
+    if end < 10 ** 9 and head + nrows > end - 2:
+        raise ValueError(f"[{label}] 정간 행이 행수 {nrows} 보다 적음 — 행을 지웠는지 확인 ({head + 1}~{end - 2}행)")
+    for jg in range(1, nrows + 1):
+        page[jg] = row_of(head + jg)
+    return page
+
+
+def _parse_titled(cells: "Cells", nrows: int, name: str) -> list:
+    """현재 형식: 머리 행 없음. 한 행 전체 폭 병합 칸 = 제목 행, 그 아래 n번째 행 = 정간 n.
+
+    병합 범위 [c1..c2] 가 악보 폭: 오른쪽 끝 두 열 = 1줄(율명, 가사), 그 왼쪽 두 열 = 2줄 …
+    """
+    titles = sorted((r1, c1, c2) for r1, c1, r2, c2 in cells.merges if r1 == r2 and c2 > c1)
+    if not titles:
+        raise ValueError(f"[{name}] 제목 행(가로 병합 칸)도 'k줄' 머리 행도 없음")
+    pages = []
+    for i, (t, c1, c2) in enumerate(titles, 1):
+        label = f"{name} {i}번째 페이지"
+        if (c2 - c1 + 1) % 2:
+            raise ValueError(f"[{label}] 제목 병합 폭 {c2 - c1 + 1}열이 짝수가 아님 (율명·가사 쌍)")
+        nlines = (c2 - c1 + 1) // 2
+        if nlines > MAX_LINES:
+            raise ValueError(f"[{label}] 한 페이지에 {MAX_LINES}줄 초과: {nlines}줄")
+        if i < len(titles) and t + nrows >= titles[i][0]:
+            raise ValueError(f"[{label}] 정간 행이 행수 {nrows} 보다 적음 — 행을 지웠는지 확인 ({t + 1}행~)")
+        page = {}
+        for jg in range(1, nrows + 1):
+            r = t + jg
+            page[jg] = {k: (cells.get((r, c2 - 2 * k + 1), ""), cells.get((r, c2 - 2 * k + 2), ""))
+                        for k in range(1, nlines + 1)}
+        pages.append(page)
+    return pages
+
+
+def score_pages(sheets: dict, path: str, nrows: int) -> list:
+    """악보 시트 → [ {정간: {열: (율명, 가사)}} ... ] (페이지 순)
+
+    - '악보' 한 시트: 'k줄' 칸이 있는 머리 행마다 한 페이지 (위→아래 순서). 페이지 사이 빈 행/제목 행은 무시.
+    - (구형) '악보 1' · '악보 2' … 시트: 시트 번호 순서대로 위와 같이 읽음.
+    """
+    named = []
+    for name in sheets:
+        if name.strip() == "악보":
+            named.append((0, name))
+        elif m := re.fullmatch(r"악보\s*(\d+)", name):
+            named.append((int(m.group(1)), name))
+    if not named:
+        raise ValueError(f"'악보' 시트가 없음: {path}")
+    if any(n == 0 for n, _ in named) and len(named) > 1:
+        raise ValueError(f"'악보' 와 '악보 N' 시트가 함께 있음 — 하나만 남기세요: {[x for _, x in named]}")
+    nums = sorted(n for n, _ in named)
+    if nums != [0] and nums != list(range(1, len(nums) + 1)):
+        raise ValueError(f"'악보 N' 시트 번호가 1부터 연속이 아님: {nums}")
+    result = []
+    for _, name in sorted(named):
+        cells = sheets[name]
+        heads = sorted({r for (r, c), v in cells.items() if LINE_RE.fullmatch(v.strip())})
+        if not heads:
+            result.extend(_parse_titled(cells, nrows, name))
+            continue
+        ends = heads[1:] + [10 ** 9]
+        for i, (h, e) in enumerate(zip(heads, ends), 1):
+            label = f"{name} {i}번째 페이지" if len(heads) > 1 else name
+            result.append(_parse_block(cells, h, e, nrows, label))
     return result
 
 
@@ -141,7 +222,7 @@ def field(v: str) -> str:
     return v
 
 
-def build_csv(csv_path: str, pages: list) -> str:
+def build_csv(csv_path: str, xlsx_path: str) -> str:
     raw = open(csv_path, "rb").read().decode("utf-8-sig")
     records = list(csv.reader(io.StringIO(raw, newline="")))
     meta = []
@@ -153,6 +234,7 @@ def build_csv(csv_path: str, pages: list) -> str:
     if not rows_meta.strip().isdigit():
         raise ValueError(f"CSV '행수' 행이 없음: {csv_path}")
     nrows = int(rows_meta)
+    pages = score_pages(read_sheets(xlsx_path), xlsx_path, nrows)
     header = ["정간번호"] + [f"{k}열({s})" for k in range(MAX_LINES, 0, -1) for s in ("대", "소")]
     lines = [",".join(field(c) for c in r) for r in meta]
     for i, page in enumerate(pages, 1):
@@ -192,7 +274,7 @@ def main():
         try:
             if not os.path.exists(csv_path):
                 raise ValueError(f"짝이 되는 CSV 없음: csv/{name}.csv")
-            new = build_csv(csv_path, score_pages(read_sheets(xlsx), xlsx))
+            new = build_csv(csv_path, xlsx)
         except Exception as e:                     # noqa: BLE001 — 곡 단위로 보고하고 계속
             errors.append(f"{name}: {e}")
             continue

@@ -361,15 +361,19 @@ function Test-Csv($d, [string]$text) {
 $STYLES = @'
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <styleSheet xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main">
-<fonts count="2"><font><sz val="11"/><name val="맑은 고딕"/><family val="2"/></font><font><b/><sz val="11"/><name val="맑은 고딕"/><family val="2"/></font></fonts>
+<fonts count="4"><font><sz val="11"/><name val="맑은 고딕"/><family val="2"/></font><font><b/><sz val="11"/><name val="맑은 고딕"/><family val="2"/></font><font><b/><sz val="14"/><name val="맑은 고딕"/><family val="2"/></font><font><sz val="22"/><name val="맑은 고딕"/><family val="2"/></font></fonts>
 <fills count="5"><fill><patternFill patternType="none"/></fill><fill><patternFill patternType="gray125"/></fill>
 <fill><patternFill patternType="solid"><fgColor rgb="FFD9D9D9"/><bgColor indexed="64"/></patternFill></fill>
 <fill><patternFill patternType="solid"><fgColor rgb="FFFFF2CC"/><bgColor indexed="64"/></patternFill></fill>
 <fill><patternFill patternType="solid"><fgColor rgb="FFF8CBAD"/><bgColor indexed="64"/></patternFill></fill></fills>
-<borders count="2"><border><left/><right/><top/><bottom/><diagonal/></border>
-<border><left style="thin"><color auto="1"/></left><right style="thin"><color auto="1"/></right><top style="thin"><color auto="1"/></top><bottom style="thin"><color auto="1"/></bottom><diagonal/></border></borders>
+<borders count="5"><border><left/><right/><top/><bottom/><diagonal/></border>
+<border><left style="thin"><color auto="1"/></left><right style="thin"><color auto="1"/></right><top style="thin"><color auto="1"/></top><bottom style="thin"><color auto="1"/></bottom><diagonal/></border>
+<!-- 2~4: 박 묶음 가사 칸 (2 = 묶음 첫 칸: 아래 흰색, 3 = 가운데: 위·아래 흰색, 4 = 마지막: 위 흰색) -->
+<border><left style="thin"><color auto="1"/></left><right style="thin"><color auto="1"/></right><top style="thin"><color auto="1"/></top><bottom style="thin"><color rgb="FFFFFFFF"/></bottom><diagonal/></border>
+<border><left style="thin"><color auto="1"/></left><right style="thin"><color auto="1"/></right><top style="thin"><color rgb="FFFFFFFF"/></top><bottom style="thin"><color rgb="FFFFFFFF"/></bottom><diagonal/></border>
+<border><left style="thin"><color auto="1"/></left><right style="thin"><color auto="1"/></right><top style="thin"><color rgb="FFFFFFFF"/></top><bottom style="thin"><color auto="1"/></bottom><diagonal/></border></borders>
 <cellStyleXfs count="1"><xf numFmtId="0" fontId="0" fillId="0" borderId="0"/></cellStyleXfs>
-<cellXfs count="7">
+<cellXfs count="20">
 <xf numFmtId="0" fontId="0" fillId="0" borderId="0" xfId="0"/>
 <xf numFmtId="0" fontId="1" fillId="2" borderId="1" xfId="0" applyFont="1" applyFill="1" applyBorder="1" applyAlignment="1"><alignment horizontal="center" vertical="center" wrapText="1"/></xf>
 <xf numFmtId="0" fontId="0" fillId="0" borderId="1" xfId="0" applyBorder="1" applyAlignment="1"><alignment horizontal="center" vertical="center" wrapText="1"/></xf>
@@ -377,12 +381,41 @@ $STYLES = @'
 <xf numFmtId="0" fontId="0" fillId="0" borderId="1" xfId="0" applyBorder="1" applyAlignment="1"><alignment horizontal="left" vertical="center" wrapText="1"/></xf>
 <xf numFmtId="0" fontId="0" fillId="4" borderId="1" xfId="0" applyFill="1" applyBorder="1" applyAlignment="1"><alignment horizontal="center" vertical="center" wrapText="1"/></xf>
 <xf numFmtId="0" fontId="1" fillId="0" borderId="0" xfId="0" applyFont="1" applyAlignment="1"><alignment horizontal="left" vertical="center"/></xf>
+<xf numFmtId="0" fontId="2" fillId="0" borderId="1" xfId="0" applyFont="1" applyBorder="1" applyAlignment="1"><alignment horizontal="center" vertical="center"/></xf>
+<!-- 8~16: 박 묶음 가사 칸 = (일반 8~10 · 비고 11~13 · 팔레트 외 14~16) × (첫 · 가운데 · 마지막) -->
+<xf numFmtId="0" fontId="0" fillId="0" borderId="2" xfId="0" applyBorder="1" applyAlignment="1"><alignment horizontal="center" vertical="center" wrapText="1"/></xf>
+<xf numFmtId="0" fontId="0" fillId="0" borderId="3" xfId="0" applyBorder="1" applyAlignment="1"><alignment horizontal="center" vertical="center" wrapText="1"/></xf>
+<xf numFmtId="0" fontId="0" fillId="0" borderId="4" xfId="0" applyBorder="1" applyAlignment="1"><alignment horizontal="center" vertical="center" wrapText="1"/></xf>
+<xf numFmtId="0" fontId="0" fillId="3" borderId="2" xfId="0" applyFill="1" applyBorder="1" applyAlignment="1"><alignment horizontal="center" vertical="center" wrapText="1"/></xf>
+<xf numFmtId="0" fontId="0" fillId="3" borderId="3" xfId="0" applyFill="1" applyBorder="1" applyAlignment="1"><alignment horizontal="center" vertical="center" wrapText="1"/></xf>
+<xf numFmtId="0" fontId="0" fillId="3" borderId="4" xfId="0" applyFill="1" applyBorder="1" applyAlignment="1"><alignment horizontal="center" vertical="center" wrapText="1"/></xf>
+<xf numFmtId="0" fontId="0" fillId="4" borderId="2" xfId="0" applyFill="1" applyBorder="1" applyAlignment="1"><alignment horizontal="center" vertical="center" wrapText="1"/></xf>
+<xf numFmtId="0" fontId="0" fillId="4" borderId="3" xfId="0" applyFill="1" applyBorder="1" applyAlignment="1"><alignment horizontal="center" vertical="center" wrapText="1"/></xf>
+<xf numFmtId="0" fontId="0" fillId="4" borderId="4" xfId="0" applyFill="1" applyBorder="1" applyAlignment="1"><alignment horizontal="center" vertical="center" wrapText="1"/></xf>
+<!-- 17~19: 악보 율명 칸 22pt (가사 11pt 의 두 배) = 일반 · 비고 · 팔레트 외 -->
+<xf numFmtId="0" fontId="3" fillId="0" borderId="1" xfId="0" applyFont="1" applyBorder="1" applyAlignment="1"><alignment horizontal="center" vertical="center" wrapText="1"/></xf>
+<xf numFmtId="0" fontId="3" fillId="3" borderId="1" xfId="0" applyFont="1" applyFill="1" applyBorder="1" applyAlignment="1"><alignment horizontal="center" vertical="center" wrapText="1"/></xf>
+<xf numFmtId="0" fontId="3" fillId="4" borderId="1" xfId="0" applyFont="1" applyFill="1" applyBorder="1" applyAlignment="1"><alignment horizontal="center" vertical="center" wrapText="1"/></xf>
 </cellXfs>
 <cellStyles count="1"><cellStyle name="Normal" xfId="0" builtinId="0"/></cellStyles>
 </styleSheet>
 '@
 # 스타일 번호
-$S_HEAD = 1; $S_CELL = 2; $S_NOTE = 3; $S_LEFT = 4; $S_BAD = 5; $S_TITLE = 6
+$S_HEAD = 1; $S_CELL = 2; $S_NOTE = 3; $S_LEFT = 4; $S_BAD = 5; $S_TITLE = 6; $S_TITLEC = 7
+# 박자별 묶음(정간 수): 악보 시트 가사 열은 묶음 안쪽 가로선을 흰색으로 (박 단위로 한 칸처럼 보임)
+$BeatGroup = @{ '3/4' = 3; '4/4' = 4 }
+function Pitch-Style([int]$st) { switch ($st) { $S_CELL { 17 } $S_NOTE { 18 } $S_BAD { 19 } default { $st } } }   # 율명 22pt
+$ROW_HT = 30; $TITLE_HT = $ROW_HT * 2; $CONTENT_HT = 56                # 정간 행 기본 · 제목 행(두 배) · 내용 행(줄 수 무관 고정)
+$PRINT_W = 595 - 0.8 * 72; $PRINT_H = 842 - 1.0 * 72 - 20                  # A4 세로 인쇄 영역(pt)
+function Beat-Style([int]$st, [int]$jg, [int]$rows, [int]$g) {
+  if (-not $g) { return $st }
+  $base = $(switch ($st) { $S_CELL { 8 } $S_NOTE { 11 } $S_BAD { 14 } default { -1 } })
+  if ($base -lt 0) { return $st }
+  $pos = ($jg - 1) % $g
+  if ($pos -eq 0) { $off = 0 } elseif ($pos -eq $g - 1 -or $jg -eq $rows) { $off = 2 } else { $off = 1 }
+  if ($pos -eq 0 -and ($g -eq 1 -or $jg -eq $rows)) { return $st }   # 한 칸짜리 묶음은 그대로
+  return $base + $off
+}
 
 function Esc([string]$s) {
   if ($null -eq $s) { return '' }
@@ -392,7 +425,7 @@ function Esc([string]$s) {
 function ColName([int]$n) { $s = ''; while ($n -gt 0) { $m = ($n - 1) % 26; $s = [char](65 + $m) + $s; $n = [int][math]::Floor(($n - 1) / 26) }; $s }
 
 function New-Sheet([string]$name) {
-  [pscustomobject]@{ Name = $name; Rows = (New-Object System.Collections.Generic.List[object]); Widths = @{}; Merges = (New-Object System.Collections.Generic.List[string]); FreezeRows = 0; FreezeCols = 0; Heights = @{}; Filter = $null }
+  [pscustomobject]@{ Name = $name; Rows = (New-Object System.Collections.Generic.List[object]); Widths = @{}; Merges = (New-Object System.Collections.Generic.List[string]); FreezeRows = 0; FreezeCols = 0; Heights = @{}; Filter = $null; Print = $false; Scale = 100; Breaks = (New-Object System.Collections.Generic.List[int]) }
 }
 # 행 추가: 값 배열 + 스타일(하나 또는 배열)
 function Add-Row($sheet, [object[]]$values, $style = $S_CELL) {
@@ -440,6 +473,16 @@ function Sheet-Xml($sh) {
     foreach ($m in $sh.Merges) { [void]$sb.Append("<mergeCell ref=`"$m`"/>") }
     [void]$sb.Append('</mergeCells>')
   }
+  if ($sh.Print) {
+    [void]$sb.Append('<printOptions horizontalCentered="1"/>')
+    [void]$sb.Append('<pageMargins left="0.4" right="0.4" top="0.5" bottom="0.5" header="0.3" footer="0.3"/>')
+    [void]$sb.Append("<pageSetup paperSize=`"9`" orientation=`"portrait`" scale=`"$($sh.Scale)`"/>")   # A4 세로, 배율 고정 (맞춤 인쇄는 엑셀이 페이지 나누기를 무시)
+  }
+  if ($sh.Breaks.Count) {
+    [void]$sb.Append("<rowBreaks count=`"$($sh.Breaks.Count)`" manualBreakCount=`"$($sh.Breaks.Count)`">")
+    foreach ($b in $sh.Breaks) { [void]$sb.Append("<brk id=`"$b`" max=`"16383`" man=`"1`"/>") }   # id = 이 행(0부터) 위에서 나눔
+    [void]$sb.Append('</rowBreaks>')
+  }
   [void]$sb.Append('</worksheet>')
   return $sb.ToString()
 }
@@ -483,7 +526,7 @@ function Build-ReviewBook($d) {
   $info = New-Sheet '정보'; $info.Widths[1] = 16; $info.Widths[2] = 90
   Add-Row $info @($d.Title, '') $S_TITLE
   $kv = @(
-    @('CSV 파일', "sheets/$Category/$($d.Name).csv"), @('부제', $d.Sub), @('키', $d.Key), @('쪽', $d.PageNo),
+    @('CSV 파일', "sheets/$Category/csv/$($d.Name).csv"), @('부제', $d.Sub), @('키', $d.Key), @('쪽', $d.PageNo),
     @('박자 / 행수', "$($d.Beat) / $($d.RowCount)정간"), @('페이지', "$($d.Pages.Count)"),
     @('정간 수', "$($d.CellCount)"), @('비고(노란 칸)', "$($d.NoteCount)"), @('팔레트 외 글자(주황 칸)', "$($d.UnknownCount)"),
     @('판독 신뢰도', $d.Grade), @('확인 필요', $d.Reasons))
@@ -494,12 +537,12 @@ function Build-ReviewBook($d) {
   Add-Row $info @('', '') 0
   Add-Row $info @('범례', '') $S_TITLE
   foreach ($x in @(
-      @('줄 순서', '원본처럼 오른쪽이 1줄. 악보 시트도 같은 배치. 한 장이 10줄을 넘으면 10줄씩 다음 페이지'),
+      @('줄 순서', '원본처럼 오른쪽이 1줄. 악보 시트도 같은 배치. 여러 페이지는 악보 시트 아래쪽으로 이어짐(빈 행 1개, 인쇄 시 페이지마다 새 종이). 1줄은 항상 맨 오른쪽 두 열(율명, 가사). 3/4 박자는 3정간, 4/4 박자는 4정간마다 가사 칸 가로선을 묶음. 율명 글자는 가사의 두 배. 인쇄는 A4 세로, 원본 한 페이지 = 종이 한 장. 정간 번호 열·머리 행 없음 — 제목 행 아래 n번째 행이 정간 n이므로 행을 지우거나 끼워 넣지 말고, 제목 병합도 풀지 말 것. 한 장이 10줄을 넘으면 10줄씩 다음 페이지'),
       @('율명 칸', '정간 안에서 위→아래 순서, 칸 안 줄바꿈으로 구분 (앱과 같음)'),
       @('기호', '― 연음 · △ 쉼 · 점 · ○ 동그라미 · ⁚ 두 점 · ‹ 정간 경계 표시 · ／ 사선 (· ○ ⁚ ‹ ／ 는 화면 표시 전용)'),
       @('노란 칸', '판독자가 비고를 단 칸 — 원본과 대조 필요'),
       @('주황 칸', '율명·기호표에 없는 글자 (? 포함) — 반드시 수정'),
-      @('수정 방법', 'CSV를 엑셀/구글시트로 열어 고친 뒤 CSV(UTF-8)로 저장. 이 엑셀은 검수용 보기'))) {
+      @('수정 방법', '악보 시트를 고쳐 .xlsx 로 저장한 뒤 _작업/xlsx_to_csv.py 실행 → csv 반영. 정보·정간목록 시트는 반영 안 됨'))) {
     Add-Row $info @($x[0], $x[1]) @($S_HEAD, $S_LEFT)
   }
   $sheets.Add($info)
@@ -521,39 +564,51 @@ function Build-ReviewBook($d) {
   $ls.Filter = "A1:K$($ls.Rows.Count)"
   $sheets.Add($ls)
 
-  # 악보 1..N (원본 배치: 오른쪽 = 1줄)
+  # 악보 (한 시트, 인쇄용 겸 편집용)
+  #   1행·A열 = 여백(비움). 악보는 B열부터, 정간보는 오른쪽 → 왼쪽: 1줄이 항상 맨 오른쪽 두 열(율명, 가사).
+  #   페이지마다 [빈 행(여백)][제목 행: 전체 폭 병합·가운데·곡 제목만·테두리][정간 1..행수 (위→아래)·악보 폭 전체 테두리],
+  #   다음 페이지는 빈 행 위에서 인쇄 페이지 나눔. 정간 번호 열·'k줄' 머리 행 없음 — 제목 행 아래 n번째 행 = 정간 n.
+  #   xlsx_to_csv.py 는 가로 병합된 제목 행을 페이지 시작으로, 병합 범위 오른쪽 끝을 1줄로 읽는다.
+  $sh = New-Sheet '악보'; $sh.Print = $true
+  $maxL = ($d.Pages | ForEach-Object { $_.Lines } | Measure-Object -Maximum).Maximum
+  $W = $maxL * 2                                                            # 악보 폭(열 수), B열부터
+  $C0 = 2                                                                   # 악보 첫 열 = B (A = 여백)
+  $sh.Widths[1] = 2
+  for ($i = 1; $i -le $W; $i++) { $sh.Widths[$C0 + $i - 1] = $(if ($i % 2 -eq 1) { 9 } else { 6 }) }   # 홀수 = 율명, 짝수 = 가사
+  $lastCol = ColName ($C0 + $W - 1)
   for ($p = 0; $p -lt $d.Pages.Count; $p++) {
     $pg = $d.Pages[$p]; $L = $pg.Lines
-    $sh = New-Sheet "악보 $($p + 1)"; $sh.FreezeRows = 2; $sh.FreezeCols = 1
-    $sh.Widths[1] = 6
-    for ($k = 1; $k -le $L; $k++) { $pc = 2 + ($L - $k) * 2; $sh.Widths[$pc] = 9; $sh.Widths[$pc + 1] = 6 }
-    $title = "$($d.Title) — $($pg.Image.Source)$(if ($pg.Parts -gt 1) { " ($($pg.Part)/$($pg.Parts))" })"
-    $r1 = @($title) + @(1..($L * 2) | ForEach-Object { '' })
-    $r2 = @('정간') + @(1..($L * 2) | ForEach-Object { '' })
-    $s2 = @($S_HEAD) + @(1..($L * 2) | ForEach-Object { $S_HEAD })
-    for ($k = 1; $k -le $L; $k++) {
-      $pc = 2 + ($L - $k) * 2
-      $r2[$pc - 1] = "$(($pg.Part - 1) * $MaxLinesPerPage + $k)줄"; $r2[$pc] = '가사'
-    }
-    Add-Row $sh $r1 $S_TITLE
-    Add-Row $sh $r2 $s2
+    Add-Row $sh @('') 0                                                     # 1행 여백 / 페이지 사이 빈 행
+    if ($p -gt 0) { $sh.Breaks.Add($sh.Rows.Count - 1) }                    # 이 빈 행(0부터) 위에서 인쇄 나눔
+    Add-Row $sh (@('') + @($d.Title) + @(2..$W | ForEach-Object { '' })) (@(0) + @(1..$W | ForEach-Object { $S_TITLEC }))
+    $tr = $sh.Rows.Count; $sh.Merges.Add("B${tr}:${lastCol}${tr}"); $sh.Heights[$tr] = $TITLE_HT   # 제목 행 = 일반 행 두 배
     $idx = @{}; foreach ($it in $pg.Items) { $idx["$($it.Local)-$($it.Cell.Jg)"] = $it.Cell }
     for ($jg = 1; $jg -le $d.RowCount; $jg++) {
-      $vals = @($jg) + @(1..($L * 2) | ForEach-Object { '' })
-      $sts = @($S_HEAD) + @(1..($L * 2) | ForEach-Object { $S_CELL })
-      $maxLines = 1
+      $vals = @(1..($W + 1) | ForEach-Object { '' })                        # [0] = A열 여백
+      $sts = @(0) + @(1..$W | ForEach-Object { $S_CELL })                   # A열 여백, 악보 폭 전체 테두리 (줄이 덜 채워진 페이지도)
       for ($k = 1; $k -le $L; $k++) {
+        $pc = $W - 2 * $k + 1                                               # 악보 안 k줄 율명 열 (1부터) → 배열 [pc] (A열 몫 +1, 0부터 -1)
         $c = $idx["$k-$jg"]; if (-not $c) { continue }
-        $pc = 2 + ($L - $k) * 2
-        $vals[$pc - 1] = $c.Pitch; $vals[$pc] = $c.Lyric
-        $st = Cell-Style $c; $sts[$pc - 1] = $st; $sts[$pc] = $st
-        $maxLines = [math]::Max($maxLines, @($c.Pitch -split "`n").Count)
+        $vals[$pc] = $c.Pitch; $vals[$pc + 1] = $c.Lyric
+        $st = Cell-Style $c; $sts[$pc] = $st; $sts[$pc + 1] = $st
       }
+      for ($k = 1; $k -le $maxL; $k++) { $pi = $W - 2 * $k + 1; $sts[$pi] = Pitch-Style $sts[$pi] }   # 율명 열 22pt
+      $g = $BeatGroup[$d.Beat]
+      for ($k = 1; $k -le $maxL; $k++) { $gi = $W - 2 * $k + 2; $sts[$gi] = Beat-Style $sts[$gi] $jg $d.RowCount $g }   # 가사 열 (페이지 폭 전체)
       Add-Row $sh $vals $sts
-      $sh.Heights[$jg + 2] = [math]::Max(30, 16 * $maxLines)
+      $sh.Heights[$sh.Rows.Count] = $CONTENT_HT   # 방금 추가한 행 (1부터) — 줄 수와 무관하게 고정
     }
-    $sheets.Add($sh)
   }
+  # 인쇄 배율: 가장 넓은 폭·가장 긴 페이지가 A4 세로 한 장에 들어가게
+  $wpt = 0; foreach ($k in $sh.Widths.Keys) { $wpt += ($sh.Widths[$k] * 7 + 5) * 0.75 }
+  $hmax = 0; $hcur = 0
+  for ($r = 1; $r -le $sh.Rows.Count; $r++) {
+    if ($r -gt 1 -and $sh.Breaks.Contains($r - 1)) { $hmax = [math]::Max($hmax, $hcur); $hcur = 0 }
+    $hcur += $(if ($sh.Heights.ContainsKey($r)) { $sh.Heights[$r] } else { 15 })
+  }
+  $hmax = [math]::Max($hmax, $hcur)
+  $sh.Scale = [int][math]::Max(10, [math]::Floor([math]::Min(100, [math]::Min($PRINT_W / $wpt * 100, $PRINT_H / $hmax * 100))))
+  $sheets.Add($sh)
   Save-Xlsx (Join-Path $ReviewDir "$($d.Name).xlsx") $sheets
 }
 
