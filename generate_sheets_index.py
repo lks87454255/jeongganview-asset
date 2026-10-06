@@ -3,13 +3,15 @@
 """
 generate_sheets_index.py  (jeongganview-asset)
 =============================================
-sheets/<카테고리>/*.csv (정간보 CSV v2) 를 스캔해 sheets-index.json 을 만들고,
+sheets/<카테고리>/csv/*.csv (정간보 CSV v2) 를 스캔해 sheets-index.json 을 만들고,
 앱 불러오기 규칙(util/JeongganCsv.kt)대로 모든 CSV 를 검사합니다.
 
     python3 generate_sheets_index.py          # 검사 + 목록 생성
     python3 generate_sheets_index.py --check  # 검사만 (파일 변경 없음)
 
-카테고리 폴더 바로 아래의 *.csv 만 목록에 넣는다. 하위 폴더(원본/ 검수/ _작업/ 등 작업 자료)는 읽지 않는다.
+폴더 구조:
+    sheets/<카테고리>/csv/*.csv   ← 앱 목록에 들어가는 CSV (csv/ 가 없으면 카테고리 폴더 바로 아래 *.csv)
+    sheets/<카테고리>/원본/ 검수/ _작업/   ← 작업 자료, 읽지 않음
 
 오류(ERROR)가 하나라도 있으면 종료 코드 1 — 고친 뒤 push 하세요.
   ERROR : 파일명 NFC 아님 · UTF-8 아님 · "정간번호" 행 없음 · 행수/페이지 블록 불일치 ·
@@ -38,6 +40,7 @@ IGNORE = {".DS_Store", ".gitkeep", ".gitignore", "Thumbs.db"}
 # sheets/ 바로 아래에 이 이름(또는 "_" 로 시작하는) 폴더가 있으면 카테고리로 보지 않음.
 # (현재 작업 자료는 sheets/<카테고리>/원본·검수·_작업 에 있고, 카테고리 하위 폴더는 원래 스캔하지 않음)
 WORK_DIRS = {"원본", "검수"}
+CSV_SUBDIR = "csv"  # 카테고리 안 CSV 폴더 이름
 COLUMNS = 20
 
 # 앱 Yulmyeong.NAMES + JeongganSymbols.MARKS 와 동일
@@ -122,13 +125,16 @@ def scan(sheets_dir: str):
     for cat in sorted(n for n in os.listdir(sheets_dir) if os.path.isdir(os.path.join(sheets_dir, n))
                       and n not in IGNORE and nfc(n) not in WORK_DIRS and not n.startswith(("_", "."))):
         files = []
-        for fn in sorted(os.listdir(os.path.join(sheets_dir, cat))):
+        # sheets/<cat>/csv/ 가 있으면 거기, 없으면 sheets/<cat>/ 바로 아래
+        sub = [CSV_SUBDIR] if os.path.isdir(os.path.join(sheets_dir, cat, CSV_SUBDIR)) else []
+        csv_dir = os.path.join(sheets_dir, cat, *sub)
+        for fn in sorted(os.listdir(csv_dir)):
             if fn in IGNORE or fn.startswith(".") or not fn.lower().endswith(".csv"):
                 continue
-            rel = f"sheets/{cat}/{fn}"
+            rel = "/".join(["sheets", cat, *sub, fn])
             if fn != nfc(fn) or cat != nfc(cat):
                 errors.append(f"파일명이 NFC(완성형)가 아님 — 앱 URL 과 달라 404: {rel}")
-            path = os.path.join(sheets_dir, cat, fn)
+            path = os.path.join(csv_dir, fn)
             info = check_csv(path, rel, errors, warns)
             data = open(path, "rb").read()
             files.append({
@@ -136,7 +142,7 @@ def scan(sheets_dir: str):
                 "title": info["title"],
                 "fileName": fn,
                 "path": rel,
-                "url": raw_url("sheets", cat, fn),
+                "url": raw_url("sheets", cat, *sub, fn),
                 "sizeBytes": len(data),
                 "beat": info["beat"],
                 "rows": info["rows"],

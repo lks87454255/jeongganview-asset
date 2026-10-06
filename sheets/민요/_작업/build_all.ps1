@@ -4,7 +4,7 @@
   폴더 구조 (jeongganview-asset 레포):
     sheets-index.json                    ← 앱 목록 (generate_sheets_index.py 로 다시 만드는 것을 권장)
     sheets\민요\                         ← $Root (기본값: 이 스크립트의 상위 폴더)
-      {곡}.csv                           ← 앱 CSV v2 (util/JeongganCsv.kt)
+      csv\{곡}.csv                       ← 앱 CSV v2 (util/JeongganCsv.kt)
       원본\민요채보-1~3\*.png|jpg         ← 채보 스캔 (CSV '원본' 행은 원본\ 기준 상대 경로)
       검수\{곡}.xlsx, 검수\_목록.xlsx      ← 검수 엑셀
       _작업\tsv\*.tsv                     ← 입력 (판독규격.md 의 TSV v2)
@@ -27,7 +27,7 @@ $utf8 = New-Object System.Text.UTF8Encoding($false)
 $TsvDir     = Join-Path $Root '_작업\tsv'
 $ReviewDir  = Join-Path $Root '검수'
 $RepoDir    = Split-Path -Parent (Split-Path -Parent $Root)   # jeongganview-asset
-$CsvDir     = $Root
+$CsvDir     = Join-Path $Root 'csv'
 $ReportPath = Join-Path $Root '_작업\생성리포트.txt'
 $Category   = '민요'
 $MaxLinesPerPage = 10
@@ -647,8 +647,8 @@ $entries = foreach ($d in $docs) {
   $fn = "$($d.Name).csv"; $full = Join-Path $CsvDir $fn
   $bytes = [IO.File]::ReadAllBytes($full)
   $hash = -join ($sha.ComputeHash($bytes) | ForEach-Object { $_.ToString('x2') })
-  $url = "$base/" + ((@('sheets', $Category, $fn) | ForEach-Object { [Uri]::EscapeDataString($_.Normalize([Text.NormalizationForm]::FormC)) }) -join '/')
-  "        {`n          `"name`": $(JStr $d.Name),`n          `"title`": $(JStr $d.Title),`n          `"fileName`": $(JStr $fn),`n          `"path`": $(JStr "sheets/$Category/$fn"),`n          `"url`": $(JStr $url),`n          `"sizeBytes`": $($bytes.Length),`n          `"beat`": $(JStr $d.Beat),`n          `"rows`": $($d.RowCount),`n          `"pages`": $($d.Pages.Count),`n          `"sha256`": $(JStr $hash)`n        }"
+  $url = "$base/" + ((@('sheets', $Category, 'csv', $fn) | ForEach-Object { [Uri]::EscapeDataString($_.Normalize([Text.NormalizationForm]::FormC)) }) -join '/')
+  "        {`n          `"name`": $(JStr $d.Name),`n          `"title`": $(JStr $d.Title),`n          `"fileName`": $(JStr $fn),`n          `"path`": $(JStr "sheets/$Category/csv/$fn"),`n          `"url`": $(JStr $url),`n          `"sizeBytes`": $($bytes.Length),`n          `"beat`": $(JStr $d.Beat),`n          `"rows`": $($d.RowCount),`n          `"pages`": $($d.Pages.Count),`n          `"sha256`": $(JStr $hash)`n        }"
 }
 $json = "{`n  `"version`": 1,`n  `"generated`": $(JStr ((Get-Date).ToUniversalTime().ToString('yyyy-MM-ddTHH:mm:ssZ'))),`n  `"owner`": $(JStr $Owner),`n  `"repo`": $(JStr $Repo),`n  `"branch`": $(JStr $Branch),`n  `"categories`": [`n    {`n      `"name`": $(JStr $Category),`n      `"files`": [`n" + ($entries -join ",`n") + "`n      ]`n    }`n  ],`n  `"_total`": { `"categories`": 1, `"files`": $($docs.Count) }`n}`n"
 [IO.File]::WriteAllText((Join-Path $RepoDir 'sheets-index.json'), $json, $utf8)
