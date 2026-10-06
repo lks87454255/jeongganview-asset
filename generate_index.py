@@ -44,6 +44,11 @@ VIDEO_EXTS = {".mp4", ".webm", ".mkv", ".avi", ".mov"}
 # 무시할 파일/디렉토리 패턴
 IGNORE = {".DS_Store", ".gitkeep", ".gitignore", "Thumbs.db"}
 
+# 레포에는 두지만 book-index.json 에 넣지 않는 PDF (레포 기준 상대 경로, 그리드 JSON 도 만들지 않음)
+BOOK_EXCLUDE = {
+    "book/대금정악/여민락_p20_디지털.pdf",   # 여민락 p20 디지털 판독 참고본 (작업 자료)
+}
+
 
 def nfc(s: str) -> str:
     """한글 조합형 → 완성형(NFC) 정규화 (앱과 동일)"""
@@ -128,6 +133,9 @@ def scan_book(book_dir: str) -> dict:
                 continue
             ext = os.path.splitext(file_name)[1].lower()
             if ext not in BOOK_EXTS:
+                continue
+            if nfc(f"book/{cat_name}/{file_name}") in BOOK_EXCLUDE:
+                print(f"  ⏭️  제외(BOOK_EXCLUDE): book/{cat_name}/{file_name}")
                 continue
 
             display_name = os.path.splitext(file_name)[0]  # 확장자 제거
@@ -230,6 +238,8 @@ def check_book_pairs(book_dir: str):
             if fn != nfc(fn):
                 errors.append(f"파일명이 NFC(완성형)가 아님 — 앱 URL 과 달라 404: {rel}")
             stem, ext = os.path.splitext(nfc(rel))
+            if nfc(rel).replace(os.sep, "/") in BOOK_EXCLUDE:
+                continue
             if ext.lower() == ".pdf":
                 pdfs[stem] = os.path.join(root, fn)
             elif ext.lower() == ".json":
