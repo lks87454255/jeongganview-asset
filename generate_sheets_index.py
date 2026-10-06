@@ -33,6 +33,8 @@ REPO = "jeongganview-asset"
 BRANCH = "main"
 BASE = f"https://raw.githubusercontent.com/{OWNER}/{REPO}/{BRANCH}"
 IGNORE = {".DS_Store", ".gitkeep", ".gitignore", "Thumbs.db"}
+# 작업 자료 폴더 — CSV 가 들어가도 앱 목록(카테고리)에 넣지 않음. "_" 로 시작하는 폴더도 제외.
+WORK_DIRS = {"원본", "검수"}
 COLUMNS = 20
 
 # 앱 Yulmyeong.NAMES + JeongganSymbols.MARKS 와 동일
@@ -114,7 +116,8 @@ def check_csv(path: str, rel: str, errors: list, warns: list) -> dict:
 
 def scan(sheets_dir: str):
     errors, warns, categories = [], [], []
-    for cat in sorted(n for n in os.listdir(sheets_dir) if os.path.isdir(os.path.join(sheets_dir, n)) and n not in IGNORE):
+    for cat in sorted(n for n in os.listdir(sheets_dir) if os.path.isdir(os.path.join(sheets_dir, n))
+                      and n not in IGNORE and nfc(n) not in WORK_DIRS and not n.startswith(("_", "."))):
         files = []
         for fn in sorted(os.listdir(os.path.join(sheets_dir, cat))):
             if fn in IGNORE or fn.startswith(".") or not fn.lower().endswith(".csv"):
