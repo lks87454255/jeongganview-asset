@@ -12,14 +12,19 @@ xlsx_to_csv.py — 검수 엑셀의 '악보' 시트를 앱 CSV(v2)에 반영
 규칙
   - 고칠 곳은 '악보' 시트뿐이다. 가로로 병합된 제목 행이 나올 때마다 한 페이지
     (위에서부터 CSV '페이지,1', '페이지,2' …). 1행·A열(여백)·페이지 사이 빈 행은 무시한다.
-  - 제목 행 아래 n번째 행 = 정간 n (정간 번호 열·머리 행 없음). 행을 지우거나 끼워 넣으면 밀리므로 칸만 고칠 것.
+  - 제목 행 아래 n번째 행 = 정간 n (정간 번호 열·머리 행 없음).
+    행을 끼워 넣거나 지워도 되지만, 페이지마다 정간 행 수는 '행수'와 같아야 한다
+    (끼워 넣었으면 맨 아래 빈 행을 지우고, 지웠으면 빈 행을 넣는다). 행수 아래로 밀려난 내용은 오류로 알려 준다.
+  - 행수 자체를 바꾸려면 '정보' 시트 '박자 / 행수' 칸을 고친다 (예: 3/4 / 12정간 → 4/4 / 16정간).
+    CSV 박자·행수도 그 값으로 바뀐다. 지원: 3/4=12, 4/4=16, 2/4=16, 정악=20.
   - 열: 제목 병합 범위의 오른쪽 끝 두 열 = 1줄(율명, 가사), 그 왼쪽 두 열 = 2줄 … → CSV k열(대) · k열(소).
-    제목 병합을 풀거나 폭을 바꾸면 열 위치를 알 수 없으니 그대로 둘 것.
+    줄을 늘리거나 줄이려면 제목 병합 안쪽에서 열 2개(율명·가사)를 함께 끼워 넣거나 지운다(최대 10줄).
+    병합 밖에 쓴 내용은 오류.
   - 구형('k줄' 머리 행 있음, A열 '정간' 번호 열, '악보 1' · '악보 2' … 시트)도 읽는다.
     (11줄 이상 이어지는 시트는 11줄 → 1열, 12줄 → 2열 …)
   - 한 칸에 여러 음은 칸 안 줄바꿈(Alt+Enter / Option+Enter).
-  - CSV 머리 정보(타이틀·박자·행수·원본·상태 …)는 CSV 쪽 값을 그대로 둔다.
-  - '정보' · '정간목록' 시트는 읽지 않는다(고쳐도 반영 안 됨).
+  - CSV 머리 정보(타이틀·원본·상태 …)는 CSV 쪽 값을 그대로 둔다 (박자·행수만 정보 시트를 따름).
+  - '정보' 시트는 '박자 / 행수' 칸만, '정간목록' 시트는 읽지 않는다.
   - 표준 라이브러리만 사용 (openpyxl 불필요). 엑셀·Numbers·구글시트에서 .xlsx 로 저장한 파일 지원.
 
 반영 후 레포 루트에서:  python3 generate_sheets_index.py   (sha256·크기 갱신)
@@ -164,7 +169,19 @@ def _parse_titled(cells: "Cells", nrows: int, name: str) -> list:
         if nlines > MAX_LINES:
             raise ValueError(f"[{label}] 한 페이지에 {MAX_LINES}줄 초과: {nlines}줄")
         if i < len(titles) and t + nrows >= titles[i][0]:
-            raise ValueError(f"[{label}] 정간 행이 행수 {nrows} 보다 적음 — 행을 지웠는지 확인 ({t + 1}행~)")
+            raise ValueError(f"[{label}] 정간 행이 행수 {nrows} 보다 적음 — 행을 지웠다면 정보 시트 '박자 / 행수'도 "
+                             f"바꾸거나 빈 행을 넣어 {nrows}행을 맞추세요 ({t + 1}행~)")
+        # 행을 끼워 넣어 행수보다 아래로 밀려난 내용이 있으면 조용히 버리지 않고 오류
+        stop = titles[i][0] if i < len(titles) else 10 ** 9
+        over = sorted({r for (r, c), v in cells.items() if t + nrows < r < stop and v.strip()})
+        if over:
+            raise ValueError(f"[{label}] 행수 {nrows} 아래({over[0]}행)에도 내용이 있음 — 행을 끼워 넣었다면 "
+                             f"맨 아래 빈 행을 지우거나 정보 시트 '박자 / 행수'를 바꾸세요")
+        # 제목 병합 폭 밖(왼쪽·오른쪽)에 쓴 내용도 오류 — 줄을 늘렸다면 열을 병합 안쪽에 끼워 넣을 것
+        outside = sorted({c for (r, c), v in cells.items() if t < r <= t + nrows and v.strip() and not c1 <= c <= c2})
+        if outside:
+            raise ValueError(f"[{label}] 제목 병합 범위 밖 열({outside})에 내용이 있음 — 줄을 늘리려면 "
+                             f"제목 병합 안쪽에서 열 2개(율명·가사)를 끼워 넣으세요")
         page = {}
         for jg in range(1, nrows + 1):
             r = t + jg
@@ -207,6 +224,28 @@ def score_pages(sheets: dict, path: str, nrows: int) -> list:
     return result
 
 
+BEAT_ROWS = {"3/4": {12}, "4/4": {16}, "2/4": {16}, "정악": {20}}   # 앱이 지원하는 조합
+
+
+def info_beat_rows(sheets: dict):
+    """정보 시트 '박자 / 행수' 칸 → (박자, 행수). 칸이 없으면 None (CSV 값 유지)."""
+    cells = sheets.get("정보")
+    if not cells:
+        return None
+    for (r, c), v in cells.items():
+        if c == 1 and v.strip() == "박자 / 행수":
+            raw = cells.get((r, 2), "").strip()
+            m = re.fullmatch(r"(3/4|4/4|2/4|정악)\s*/\s*(\d+)\s*(?:정간)?", raw)
+            if not m:
+                raise ValueError(f"정보 시트 '박자 / 행수' 값 '{raw}' 를 읽을 수 없음 — 예: 3/4 / 12정간, 4/4 / 16정간")
+            beat, rows = m.group(1), int(m.group(2))
+            if rows not in BEAT_ROWS[beat]:
+                raise ValueError(f"정보 시트 '박자 / 행수' {beat} 인데 {rows}정간 — "
+                                 f"3/4=12, 4/4=16, 2/4=16, 정악=20 만 지원")
+            return beat, rows
+    return None
+
+
 # ───────────────────────────── CSV 쓰기 ─────────────────────────────
 def guard(v: str) -> str:
     """엑셀 수식 위험 방지 — build_all.ps1 / generate_sheets_index.py 규칙과 동일."""
@@ -234,7 +273,17 @@ def build_csv(csv_path: str, xlsx_path: str) -> str:
     if not rows_meta.strip().isdigit():
         raise ValueError(f"CSV '행수' 행이 없음: {csv_path}")
     nrows = int(rows_meta)
-    pages = score_pages(read_sheets(xlsx_path), xlsx_path, nrows)
+    sheets = read_sheets(xlsx_path)
+    # 정보 시트 '박자 / 행수'(예: "4/4 / 16정간")를 고치면 CSV 박자·행수도 바꾼다
+    info = info_beat_rows(sheets)
+    if info:
+        beat, nrows = info
+        for r in meta:
+            if r and r[0].strip() == "박자" and len(r) > 1:
+                r[1] = f"{beat}박자"
+            elif r and r[0].strip() == "행수" and len(r) > 1:
+                r[1] = str(nrows)
+    pages = score_pages(sheets, xlsx_path, nrows)
     header = ["정간번호"] + [f"{k}열({s})" for k in range(MAX_LINES, 0, -1) for s in ("대", "소")]
     lines = [",".join(field(c) for c in r) for r in meta]
     for i, page in enumerate(pages, 1):
