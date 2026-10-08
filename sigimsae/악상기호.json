@@ -6,8 +6,10 @@
     "note": "glyph 는 화면 확인용 근사 문자이다(원본 부호는 대부분 유니코드에 없음). 근사 문자도 없는 부호는 사용자 정의 영역(\uE001 …) 문자로 두고 앱이 직접 그린다. steps 는 대금 기본 평조 5음(黃·太·仲·林·南) 위에서 본음 기준 단계(+1 = 하나 위음, 예: 黃+2 = 仲, 太-1 = 黃). example.printed 는 원본 인쇄 그대로, example.corrected 는 원본 오기를 바로잡은 값."
   },
   "symbols": [
-
-
+    { "id": "yeoneum", "category": "BUHO", "page": 10, "glyph": "—", "name": "연음",
+      "description": "한 정간에서 — 표 자리까지 같은 소리의 연속을 알리는 표이다.",
+      "effect": { "type": "CONTINUE" } },
+    
     { "id": "no", "category": "BUHO", "page": 10, "glyph": "ㄱ", "name": "노",
       "description": "한음 아래 음을 시가만큼 연주하라는 표이다.",
       "expansion": { "placement": "SLOT", "steps": [-1], "timing": "EVEN" },
