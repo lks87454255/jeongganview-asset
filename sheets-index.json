@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-10-09T14:12:23Z",
+  "generated": "2026-10-09T15:19:54Z",
   "owner": "lks87454255",
   "repo": "jeongganview-asset",
   "branch": "main",
@@ -50,11 +50,11 @@
           "fileName": "거스러미 돈돈날이.csv",
           "path": "sheets/민요/csv/거스러미 돈돈날이.csv",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/sheets/%EB%AF%BC%EC%9A%94/csv/%EA%B1%B0%EC%8A%A4%EB%9F%AC%EB%AF%B8%20%EB%8F%88%EB%8F%88%EB%82%A0%EC%9D%B4.csv",
-          "sizeBytes": 2417,
-          "beat": "3/4",
-          "rows": 12,
-          "pages": 2,
-          "sha256": "06cbf0a485e082ae2eecb55e14723b4108eb07d77027f8f4daf402cd9f88b32b"
+          "sizeBytes": 2237,
+          "beat": "4/4",
+          "rows": 16,
+          "pages": 1,
+          "sha256": "dc86f09613be5eb91da476775cc04f44f8d5f3d1e9270cf4b6bd2eafb9bd5937"
         },
         {
           "name": "구 아리랑",
