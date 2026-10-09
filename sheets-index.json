@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-10-09T13:58:55Z",
+  "generated": "2026-10-09T14:01:06Z",
   "owner": "lks87454255",
   "repo": "jeongganview-asset",
   "branch": "main",
@@ -206,11 +206,11 @@
           "fileName": "노들강변.csv",
           "path": "sheets/민요/csv/노들강변.csv",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/sheets/%EB%AF%BC%EC%9A%94/csv/%EB%85%B8%EB%93%A4%EA%B0%95%EB%B3%80.csv",
-          "sizeBytes": 1059,
+          "sizeBytes": 1013,
           "beat": "3/4",
           "rows": 12,
           "pages": 1,
-          "sha256": "3d7d116364fe57fe8b510b60121d806ca44dfe740fb8f1c56d48a7f03c2a0a6b"
+          "sha256": "c63fa5018d8fe0afff84adbf20ed865a42be4e8da6fd7493a3c5b397c69379a1"
         },
         {
           "name": "노래가락 (채보3) 노래가락-1",
@@ -230,11 +230,11 @@
           "fileName": "노래가락 (채보3) 노래가락.csv",
           "path": "sheets/민요/csv/노래가락 (채보3) 노래가락.csv",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/sheets/%EB%AF%BC%EC%9A%94/csv/%EB%85%B8%EB%9E%98%EA%B0%80%EB%9D%BD%20%28%EC%B1%84%EB%B3%B43%29%20%EB%85%B8%EB%9E%98%EA%B0%80%EB%9D%BD.csv",
-          "sizeBytes": 1433,
+          "sizeBytes": 1410,
           "beat": "4/4",
           "rows": 16,
           "pages": 1,
-          "sha256": "3ac2f3b1d1196c24d2dcf0ec475898f7f7f2cafef6ce1a737ba9061bf0e28625"
+          "sha256": "0feaec3089a66661d85de974660bdaff93b47e76a24d9080edf3e3dcb6ef94b2"
         },
         {
           "name": "농부가",
@@ -734,11 +734,11 @@
           "fileName": "이별가.csv",
           "path": "sheets/민요/csv/이별가.csv",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/sheets/%EB%AF%BC%EC%9A%94/csv/%EC%9D%B4%EB%B3%84%EA%B0%80.csv",
-          "sizeBytes": 1060,
+          "sizeBytes": 1014,
           "beat": "4/4",
           "rows": 16,
           "pages": 1,
-          "sha256": "450596b0287b99ec1af26c8d5dcc09d90e0d518173527eddeff0128bd6bf2757"
+          "sha256": "b5c366f5b640425519e48dedb10e58e4fefb8003a0ef7fafa74067b515027e64"
         },
         {
           "name": "잦은 뱃노리",
@@ -914,11 +914,11 @@
           "fileName": "쾌지나 칭칭.csv",
           "path": "sheets/민요/csv/쾌지나 칭칭.csv",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/sheets/%EB%AF%BC%EC%9A%94/csv/%EC%BE%8C%EC%A7%80%EB%82%98%20%EC%B9%AD%EC%B9%AD.csv",
-          "sizeBytes": 786,
+          "sizeBytes": 651,
           "beat": "3/4",
           "rows": 12,
           "pages": 1,
-          "sha256": "b1791cba4484b269bc211b0d7bee076e03e8f5a5de39d55f64a1a1f599321d69"
+          "sha256": "69951c2dd2baca767437ffc4b7eb10831a88764825309eaca18f3949b22ac488"
         },
         {
           "name": "태평가",
