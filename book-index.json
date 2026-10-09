@@ -1,11 +1,10 @@
 {
   "version": 1,
-  "generated": "2026-10-03T14:17:40Z",
+  "generated": "2026-10-09T17:14:17Z",
   "owner": "lks87454255",
   "repo": "jeongganview-asset",
   "branch": "main",
   "categories": [
-
     {
       "name": "대금정악",
       "files": [
@@ -175,7 +174,7 @@
         }
       ]
     },
-        {
+    {
       "name": "국악이 꽃피는 나무",
       "files": [
         {
@@ -198,10 +197,29 @@
           "sizeBytes": 10204015
         }
       ]
+    },
+    {
+      "name": "대금율보",
+      "files": [
+        {
+          "name": "대금율보 1",
+          "fileName": "대금율보 1.pdf",
+          "path": "book/대금율보/대금율보 1.pdf",
+          "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EB%8C%80%EA%B8%88%EC%9C%A8%EB%B3%B4/%EB%8C%80%EA%B8%88%EC%9C%A8%EB%B3%B4%201.pdf",
+          "sizeBytes": 43478636
+        },
+        {
+          "name": "대금율보 2",
+          "fileName": "대금율보 2.pdf",
+          "path": "book/대금율보/대금율보 2.pdf",
+          "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EB%8C%80%EA%B8%88%EC%9C%A8%EB%B3%B4/%EB%8C%80%EA%B8%88%EC%9C%A8%EB%B3%B4%202.pdf",
+          "sizeBytes": 28537443
+        }
+      ]
     }
   ],
   "_total": {
-    "categories": 5,
-    "files": 24
+    "categories": 6,
+    "files": 26
   }
 }
