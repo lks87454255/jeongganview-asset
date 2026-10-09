@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-10-09T14:01:55Z",
+  "generated": "2026-10-09T14:12:23Z",
   "owner": "lks87454255",
   "repo": "jeongganview-asset",
   "branch": "main",
@@ -38,11 +38,11 @@
           "fileName": "강원도 아리랑.csv",
           "path": "sheets/민요/csv/강원도 아리랑.csv",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/sheets/%EB%AF%BC%EC%9A%94/csv/%EA%B0%95%EC%9B%90%EB%8F%84%20%EC%95%84%EB%A6%AC%EB%9E%91.csv",
-          "sizeBytes": 951,
+          "sizeBytes": 1062,
           "beat": "2/4",
           "rows": 16,
           "pages": 1,
-          "sha256": "2fb8ba72f8b0fecd40f1e63cd3d7f80de7c1923f0a9f80c260542cd3deac457b"
+          "sha256": "2131fa00d6cba3f1a886a1ea07383d81201aed3ea3a4fba7eff532ec29a59b0a"
         },
         {
           "name": "거스러미 돈돈날이",
