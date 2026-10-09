@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-10-09T12:19:33Z",
+  "generated": "2026-10-09T13:29:57Z",
   "owner": "lks87454255",
   "repo": "jeongganview-asset",
   "branch": "main",
@@ -14,11 +14,11 @@
           "fileName": "각설이 타령.csv",
           "path": "sheets/민요/csv/각설이 타령.csv",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/sheets/%EB%AF%BC%EC%9A%94/csv/%EA%B0%81%EC%84%A4%EC%9D%B4%20%ED%83%80%EB%A0%B9.csv",
-          "sizeBytes": 2046,
+          "sizeBytes": 2037,
           "beat": "4/4",
           "rows": 16,
           "pages": 1,
-          "sha256": "6d7df95e664cc882613c79709169f095a04cf7efc3128b55486168c7b4db05f5"
+          "sha256": "1c9a51f81952b732ebbf1b68031360cb9a92cf9b4d7e10142fd17901071a3ce6"
         },
         {
           "name": "강강술래",
