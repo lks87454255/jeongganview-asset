@@ -13,8 +13,8 @@ xlsx_to_csv.py — 검수 엑셀의 '악보' 시트를 앱 CSV(v2)에 반영
   - 고칠 곳은 '악보' 시트뿐이다. 가로로 병합된 제목 행이 나올 때마다 한 페이지
     (위에서부터 CSV '페이지,1', '페이지,2' …). 1행·A열(여백)·페이지 사이 빈 행은 무시한다.
   - 제목 행 아래 n번째 행 = 정간 n (정간 번호 열·머리 행 없음).
-    행을 끼워 넣거나 지워도 되지만, 페이지마다 정간 행 수는 '행수'와 같아야 한다
-    (끼워 넣었으면 맨 아래 빈 행을 지우고, 지웠으면 빈 행을 넣는다). 행수 아래로 밀려난 내용은 오류로 알려 준다.
+    CSV 에는 엑셀에 실제로 있는 행만 쓴다 (마지막으로 내용이 있는 행까지, 행수만큼 빈 행으로 채우지 않음).
+    행을 끼워 넣거나 지워도 되지만, 한 페이지가 '행수'를 넘으면 안 된다 — 행수 아래로 밀려난 내용은 오류로 알려 준다.
   - 행수 자체를 바꾸려면 '정보' 시트 '박자 / 행수' 칸을 고친다 (예: 3/4 / 12정간 → 4/4 / 16정간).
     CSV 박자·행수도 그 값으로 바뀐다. 지원: 3/4=12, 4/4=16, 2/4=16, 정악=20.
   - 열: 제목 병합 범위의 오른쪽 끝 두 열 = 1줄(율명, 가사), 그 왼쪽 두 열 = 2줄 … → CSV k열(대) · k열(소).
@@ -144,10 +144,9 @@ def _parse_block(cells: dict, head: int, end: int, nrows: int, label: str) -> di
                 raise ValueError(f"[{label}] 정간 {jg} 이(가) 두 번 나옴 ({r}행)")
             page[jg] = row_of(r)
         return page
-    # 정간 번호 열 없음: 다음 페이지는 [빈 행][제목 행][머리 행] 이므로 head+nrows 는 end-2 보다 위여야 함
-    if end < 10 ** 9 and head + nrows > end - 2:
-        raise ValueError(f"[{label}] 정간 행이 행수 {nrows} 보다 적음 — 행을 지웠는지 확인 ({head + 1}~{end - 2}행)")
-    for jg in range(1, nrows + 1):
+    # 정간 번호 열 없음: 다음 페이지는 [빈 행][제목 행][머리 행] 이므로 end-2 행 앞까지만 읽는다
+    # (행수보다 적은 건 허용 — CSV 에는 엑셀에 실제로 있는 행만 쓴다)
+    for jg in range(1, min(nrows, end - 3 - head) + 1):
         page[jg] = row_of(head + jg)
     return page
 
@@ -168,10 +167,8 @@ def _parse_titled(cells: "Cells", nrows: int, name: str) -> list:
         nlines = (c2 - c1 + 1) // 2
         if nlines > MAX_LINES:
             raise ValueError(f"[{label}] 한 페이지에 {MAX_LINES}줄 초과: {nlines}줄")
-        if i < len(titles) and t + nrows >= titles[i][0]:
-            raise ValueError(f"[{label}] 정간 행이 행수 {nrows} 보다 적음 — 행을 지웠다면 정보 시트 '박자 / 행수'도 "
-                             f"바꾸거나 빈 행을 넣어 {nrows}행을 맞추세요 ({t + 1}행~)")
         # 행을 끼워 넣어 행수보다 아래로 밀려난 내용이 있으면 조용히 버리지 않고 오류
+        # (행수보다 적은 건 허용 — CSV 에는 엑셀에 실제로 있는 행만 쓴다. build_csv 참고)
         stop = titles[i][0] if i < len(titles) else 10 ** 9
         over = sorted({r for (r, c), v in cells.items() if t + nrows < r < stop and v.strip()})
         if over:
@@ -183,7 +180,7 @@ def _parse_titled(cells: "Cells", nrows: int, name: str) -> list:
             raise ValueError(f"[{label}] 제목 병합 범위 밖 열({outside})에 내용이 있음 — 줄을 늘리려면 "
                              f"제목 병합 안쪽에서 열 2개(율명·가사)를 끼워 넣으세요")
         page = {}
-        for jg in range(1, nrows + 1):
+        for jg in range(1, min(nrows, stop - 1 - t) + 1):   # 다음 제목 행 앞까지만
             r = t + jg
             page[jg] = {k: (cells.get((r, c2 - 2 * k + 1), ""), cells.get((r, c2 - 2 * k + 2), ""))
                         for k in range(1, nlines + 1)}
@@ -292,7 +289,10 @@ def build_csv(csv_path: str, xlsx_path: str) -> str:
             raise ValueError(f"악보 {i}: 정간 번호 {extra} 가 행수 {nrows} 범위를 벗어남")
         lines.append(f"페이지,{i}")
         lines.append(",".join(header))
-        for jg in range(1, nrows + 1):
+        # 엑셀에 실제로 있는 행만: 마지막으로 내용이 있는 정간까지 (행수만큼 빈 행으로 채우지 않음)
+        last = max((jg for jg, cols in page.items() if any(y.strip() or g.strip() for y, g in cols.values())),
+                   default=0)
+        for jg in range(1, last + 1):
             row = [str(jg)]
             for k in range(MAX_LINES, 0, -1):
                 y, g = page.get(jg, {}).get(k, ("", ""))

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-10-08T14:06:56Z",
+  "generated": "2026-10-09T12:19:33Z",
   "owner": "lks87454255",
   "repo": "jeongganview-asset",
   "branch": "main",
@@ -26,11 +26,11 @@
           "fileName": "강강술래.csv",
           "path": "sheets/민요/csv/강강술래.csv",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/sheets/%EB%AF%BC%EC%9A%94/csv/%EA%B0%95%EA%B0%95%EC%88%A0%EB%9E%98.csv",
-          "sizeBytes": 1521,
+          "sizeBytes": 1338,
           "beat": "4/4",
           "rows": 16,
           "pages": 1,
-          "sha256": "f65fc18fb9a0c323d51ab357734e44383288fb984ac024e3127b9d34347696e5"
+          "sha256": "5092e72086a34d98f6affa19e64e549750bfa884714ad3744c06f7ff7be8e415"
         },
         {
           "name": "강원도 아리랑",
