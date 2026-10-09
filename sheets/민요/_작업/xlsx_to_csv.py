@@ -245,8 +245,9 @@ def info_beat_rows(sheets: dict):
 
 # ───────────────────────────── CSV 쓰기 ─────────────────────────────
 def guard(v: str) -> str:
-    """엑셀 수식 위험 방지 — build_all.ps1 / generate_sheets_index.py 규칙과 동일."""
-    v = nfc(v.replace("\r\n", "\n").replace("\r", "\n"))
+    """엑셀 수식 위험 방지 — build_all.ps1 / generate_sheets_index.py 규칙과 동일.
+    검수 xlsx 의 짧은 '–'(U+2013, xlsx_dash.py) 는 CSV 에서 원래 연음 기호 '―'(U+2015) 로 되돌린다."""
+    v = nfc(v.replace("\r\n", "\n").replace("\r", "\n")).replace("\u2013", "\u2015")
     if v and (v[0] in "=+-@" or (len(v) > 1 and v[0] == "'" and v[1] in "=+-@'")):
         v = "'" + v
     return v
