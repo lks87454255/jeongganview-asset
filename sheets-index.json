@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-10-09T15:19:54Z",
+  "generated": "2026-10-09T15:47:52Z",
   "owner": "lks87454255",
   "repo": "jeongganview-asset",
   "branch": "main",
@@ -415,6 +415,18 @@
           "rows": 12,
           "pages": 1,
           "sha256": "ea6bad110d7b06d103bcb69cbaaec46352007b71f4fc5ff3a507cd20020ce49f"
+        },
+        {
+          "name": "봄철나비",
+          "title": "봄철나비",
+          "fileName": "봄철나비.csv",
+          "path": "sheets/민요/csv/봄철나비.csv",
+          "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/sheets/%EB%AF%BC%EC%9A%94/csv/%EB%B4%84%EC%B2%A0%EB%82%98%EB%B9%84.csv",
+          "sizeBytes": 1555,
+          "beat": "4/4",
+          "rows": 16,
+          "pages": 1,
+          "sha256": "56c6bf2de6f5c0dbc8cb1638f1e18e1e92b2fd21d61c39f13dd88f3840df734e"
         },
         {
           "name": "북간도 아리랑",
@@ -1045,6 +1057,6 @@
   ],
   "_total": {
     "categories": 1,
-    "files": 86
+    "files": 87
   }
 }
