@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-10-10T13:56:31Z",
+  "generated": "2026-10-10T14:00:41Z",
   "owner": "lks87454255",
   "repo": "jeongganview-asset",
   "branch": "main",
@@ -154,11 +154,11 @@
           "fileName": "꼭두각시.csv",
           "path": "sheets/민요/csv/꼭두각시.csv",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/sheets/%EB%AF%BC%EC%9A%94/csv/%EA%BC%AD%EB%91%90%EA%B0%81%EC%8B%9C.csv",
-          "sizeBytes": 1950,
+          "sizeBytes": 1954,
           "beat": "4/4",
           "rows": 16,
           "pages": 1,
-          "sha256": "e25bd1e898a94d7c47d1ca464a6940055199f78bb5618c8c615e391e704ef92a",
+          "sha256": "adf0e52c3651ba00cc278abdf2a1c8bd2b49985869b139e1b18d782e6bdad370",
           "status": "판독 초안(검수 전)"
         },
         {
