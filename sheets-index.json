@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-10-10T14:44:58Z",
+  "generated": "2026-10-10T15:02:52Z",
   "owner": "lks87454255",
   "repo": "jeongganview-asset",
   "branch": "main",
@@ -193,11 +193,11 @@
           "fileName": "꽃이 피었네.csv",
           "path": "sheets/민요/csv/꽃이 피었네.csv",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/sheets/%EB%AF%BC%EC%9A%94/csv/%EA%BD%83%EC%9D%B4%20%ED%94%BC%EC%97%88%EB%84%A4.csv",
-          "sizeBytes": 1413,
+          "sizeBytes": 1273,
           "beat": "4/4",
           "rows": 16,
           "pages": 1,
-          "sha256": "dd70a70c011df62a5ec65cd1d29df7bf3ddc0905ba0fcdb923456f488a7946c6",
+          "sha256": "54372878e2fb84950185131a44d12dd50e09e92417fdfd6c54c4744314b08612",
           "status": "판독 초안(검수 전)"
         },
         {
