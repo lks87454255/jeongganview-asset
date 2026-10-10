@@ -6,8 +6,9 @@ xlsx_layout.py — 검수 xlsx '악보' 시트 모양 일괄 정리
     python3 xlsx_layout.py 강강술래 ...    # 특정 곡만
     python3 xlsx_layout.py --check         # 무엇이 바뀔지만 보기 (파일 변경 없음)
 
-'악보' 시트에만 적용한다 (정보·정간목록 시트는 그대로).
+'악보' 시트에 적용한다 (정보 시트 설명 글은 그대로).
   1) 칸 글자 '·' → '–' (xlsx_to_csv.py 가 CSV 로 옮길 때 '–' → '―' 로 바꾼다)
+     율명 칸의 '‹' '⁚' 는 지운다 (그 기호만 있던 줄도 없앰). 정간목록 시트 율명·확인 필요 글자 열도 같이.
   2) 열 너비: 정간보는 오른쪽 → 왼쪽으로 읽으므로 제목 병합 [c1..c2] 의 오른쪽 끝부터
      홀수 번째 = 가사, 짝수 번째 = 율명. 율명 열 너비 = 바로 오른쪽 가사 열 너비 × 2 (가사 열은 그대로)
   3) 행 높이: 율명이 있는 행을 LibreOffice '최적 행 높이'(자동 높이)로 맞췄을 때 가장 큰 값을
@@ -16,6 +17,7 @@ xlsx_layout.py — 검수 xlsx '악보' 시트 모양 일괄 정리
 LibreOffice(/Applications/LibreOffice.app) 필요 — 자동 높이 측정에만 쓰고, 파일은 xml 만 고쳐서 저장한다.
 """
 import csv
+import html
 import io
 import json
 import os
@@ -26,11 +28,12 @@ import sys
 import tempfile
 import zipfile
 import xml.etree.ElementTree as ET
+from xml.sax.saxutils import escape as xml_escape
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
 import xlsx_to_csv as X  # noqa: E402
-from xlsx_font import CELL_RE, COL_RE, FULL_CELL_RE, SI_RE, nfc, roles, set_attr  # noqa: E402
+from xlsx_font import CELL_RE, COL_RE, FULL_CELL_RE, SI_RE, nfc, role_of, roles, set_attr  # noqa: E402
 
 LO_PY = "/Applications/LibreOffice.app/Contents/Resources/python"
 SRC, DST = "\u00b7", "\u2013"                       # '·' → '–'
@@ -101,6 +104,93 @@ def replace_dots(sheet: str, ss: str):
         nh = set_attr(head, "uniqueCount", len(sis) + len(added)) if "uniqueCount=" in head else head
         ss = ss.replace(head, nh, 1)
     return new_sheet, ss, n
+
+
+# ───────────────────── 1-2) 손 채보 기호 '‹' '⁚' 지우기 ─────────────────────
+STRIP = "\u2039\u205a"                                    # ‹ ⁚
+T_RE = re.compile(r"(<t\b[^>]*>)(.*?)(</t>)", re.S)
+
+
+def strip_marks(xml: str, seps: str) -> str:
+    """<si>/<is> 안 <t> 들의 글자에서 STRIP 기호를 지우고, 그 때문에 빈 줄(구분자 seps 사이가 빈 것)이 생기면
+    그 구분자도 지운다. 리치 텍스트 조각(<r>)의 서식은 그대로."""
+    parts = T_RE.findall(xml)
+    if not parts or not any(ch in html.unescape(p[1]) for p in parts for ch in STRIP):
+        return xml
+    chars = [(ch, i) for i, p in enumerate(parts) for ch in html.unescape(p[1]) if ch not in STRIP]
+    out = []
+    for ch, i in chars:                                    # 맨 앞 / 연속 구분자 버림
+        if ch in seps and (not out or out[-1][0] in seps):
+            continue
+        out.append((ch, i))
+    while out and out[-1][0] in seps:                      # 맨 끝 구분자 버림
+        out.pop()
+    texts = ["".join(ch for ch, j in out if j == i) for i in range(len(parts))]
+    it = iter(texts)
+
+    def sub_t(m):
+        t = next(it)
+        head = m.group(1)
+        if ("\n" in t or t != t.strip()) and "xml:space" not in head:
+            head = head[:-1] + ' xml:space="preserve">'
+        return head + xml_escape(t) + m.group(3)
+    return T_RE.sub(sub_t, xml)
+
+
+def edit_cells(sheet: str, ss: str, pick, seps: str):
+    """pick(r, c) 가 참인 칸에 strip_marks 적용. (새 sheet, 새 sharedStrings, 바꾼 칸 수)"""
+    sis = SI_RE.findall(ss) if ss else []
+    added, n = [], 0
+
+    def sub_cell(m):
+        nonlocal n
+        whole = m.group(0)
+        tag = CELL_RE.match(whole).group(0)
+        ref = re.search(r'\br="([A-Z]+\d+)"', tag)
+        if not ref or not pick(*X._ref(ref.group(1))):
+            return whole
+        body = whole[len(tag):]
+        if 't="s"' in tag:
+            v = re.search(r"<v>(\d+)</v>", body)
+            if not v:
+                return whole
+            new_si = strip_marks(sis[int(v.group(1))], seps)
+            if new_si == sis[int(v.group(1))]:
+                return whole
+            all_si = sis + added
+            if new_si in all_si:
+                idx = all_si.index(new_si)
+            else:
+                added.append(new_si)
+                idx = len(sis) + len(added) - 1
+            n += 1
+            return tag + body.replace(v.group(0), f"<v>{idx}</v>", 1)
+        new_body = strip_marks(body, seps) if "<is>" in body else body
+        if new_body != body:
+            n += 1
+        return tag + new_body
+
+    sd = sheet.find("<sheetData")
+    new_sheet = sheet[:sd] + FULL_CELL_RE.sub(sub_cell, sheet[sd:])
+    if added:
+        end = ss.rindex("</sst>")
+        ss = ss[:end] + "".join(added) + ss[end:]
+        head = re.search(r"<sst\b[^>]*>", ss).group(0)
+        nh = set_attr(head, "uniqueCount", len(sis) + len(added)) if "uniqueCount=" in head else head
+        ss = ss.replace(head, nh, 1)
+    return new_sheet, ss, n
+
+
+def list_target(data: dict) -> str:
+    rels = {r.get("Id"): r.get("Target") for r in ET.fromstring(data["xl/_rels/workbook.xml.rels"])}
+    for sh in ET.fromstring(data["xl/workbook.xml"]).find("m:sheets", X.NS):
+        if nfc(sh.get("name")).strip() == "정간목록":
+            t = rels[sh.get(f"{{{X.NS['r']}}}id")].lstrip("/")
+            return t if t.startswith("xl/") else "xl/" + t
+    return ""
+
+
+LIST_COLS = ("율명(판독)", "율명(앱)", "확인 필요 글자")         # 정간목록 시트에서 기호를 지울 열 (비고 등 설명 글은 그대로)
 
 
 # ───────────────────── 2) 율명 열 = 가사 열 × 2 ─────────────────────
@@ -232,14 +322,23 @@ def main():
                     raise ValueError("율명이 있는 행이 없음")
                 ss = data.get("xl/sharedStrings.xml", b"").decode("utf-8")
                 sheet, ss, ndot = replace_dots(data[target].decode("utf-8"), ss)
+                yul_cells = {k for k, v in cells.items() if role_of(pages, *k) == "yul"}
+                sheet, ss, nmark = edit_cells(sheet, ss, lambda r, c: (r, c) in yul_cells, "\n")
+                new_data = {}
+                lt = list_target(data)
+                if lt and (lcells := next((v for k, v in sheets.items() if nfc(k).strip() == "정간목록"), None)):
+                    cols = {c for (r, c), v in lcells.items() if r == 1 and v.strip() in LIST_COLS}
+                    lsheet, ss, nl = edit_cells(data[lt].decode("utf-8"), ss, lambda r, c: r > 1 and c in cols, "\n|")
+                    nmark += nl
+                    new_data[lt] = lsheet.encode("utf-8")
                 sheet = fix_widths(sheet, pages)
-                new_data = {target: sheet.encode("utf-8")}
+                new_data[target] = sheet.encode("utf-8")
                 if ss:
                     new_data["xl/sharedStrings.xml"] = ss.encode("utf-8")
                 tmp = os.path.join(tmpdir, f"{len(work)}.xlsx")
                 write_zip(path, items, new_data, tmp)
                 work.append(dict(name=name, path=path, tmp=tmp, items=items, data=data, target=target,
-                                 new=new_data, yul=yul, rows=rows, ndot=ndot))
+                                 new=new_data, yul=yul, rows=rows, ndot=ndot, nmark=nmark))
             except Exception as e:  # noqa: BLE001
                 errors += 1
                 print(f"  ❌ {name}: {e}")
@@ -254,7 +353,7 @@ def main():
             sheet = set_heights(w["new"][w["target"]].decode("utf-8"), w["rows"], ht)
             w["new"][w["target"]] = sheet.encode("utf-8")
             diff = any(w["data"].get(k) != v for k, v in w["new"].items())
-            print(f"  {'✏️ ' if diff else '  '} {w['name']}: 행 높이 {fmt(ht)}pt × {len(w['rows'])}행, '·'→'–' {w['ndot']}칸")
+            print(f"  {'✏️ ' if diff else '  '} {w['name']}: 행 높이 {fmt(ht)}pt × {len(w['rows'])}행, '·'→'–' {w['ndot']}칸, '‹⁚' 지움 {w['nmark']}칸")
             if diff:
                 changed += 1
                 if not check:
