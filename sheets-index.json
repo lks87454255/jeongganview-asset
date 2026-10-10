@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-10-10T14:00:41Z",
+  "generated": "2026-10-10T14:44:58Z",
   "owner": "lks87454255",
   "repo": "jeongganview-asset",
   "branch": "main",
@@ -162,16 +162,16 @@
           "status": "판독 초안(검수 전)"
         },
         {
-          "name": "꽃 타령 (꽃은 모리)",
-          "title": "꽃 타령",
-          "fileName": "꽃 타령 (꽃은 모리).csv",
-          "path": "sheets/민요/csv/꽃 타령 (꽃은 모리).csv",
-          "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/sheets/%EB%AF%BC%EC%9A%94/csv/%EA%BD%83%20%ED%83%80%EB%A0%B9%20%28%EA%BD%83%EC%9D%80%20%EB%AA%A8%EB%A6%AC%29.csv",
-          "sizeBytes": 2058,
+          "name": "꽃 타령 (자진모리)-2",
+          "title": "꽃 타령-2",
+          "fileName": "꽃 타령 (자진모리)-2.csv",
+          "path": "sheets/민요/csv/꽃 타령 (자진모리)-2.csv",
+          "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/sheets/%EB%AF%BC%EC%9A%94/csv/%EA%BD%83%20%ED%83%80%EB%A0%B9%20%28%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC%29-2.csv",
+          "sizeBytes": 2402,
           "beat": "4/4",
           "rows": 16,
           "pages": 1,
-          "sha256": "f63e5c3295191d707f64d14dec5704b433717ce9ede6c84057e7353516afed98",
+          "sha256": "9c41a8ec80b4a841dbdc2b19ae2d7df6703003538096d51a5081206ba29fbb23",
           "status": "판독 초안(검수 전)"
         },
         {
