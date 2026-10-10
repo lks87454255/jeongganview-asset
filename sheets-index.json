@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-10-10T12:19:44Z",
+  "generated": "2026-10-10T12:27:05Z",
   "owner": "lks87454255",
   "repo": "jeongganview-asset",
   "branch": "main",
@@ -76,11 +76,11 @@
           "fileName": "구 아리랑.csv",
           "path": "sheets/민요/csv/구 아리랑.csv",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/sheets/%EB%AF%BC%EC%9A%94/csv/%EA%B5%AC%20%EC%95%84%EB%A6%AC%EB%9E%91.csv",
-          "sizeBytes": 1144,
+          "sizeBytes": 1208,
           "beat": "3/4",
           "rows": 12,
           "pages": 1,
-          "sha256": "6918c96829085448c5e985767399b794f5f6fd2ba8b95f9fbb8a0e7717ca860a",
+          "sha256": "19afafcece395572644d0f1f966074c607adb63725b00ff9effaf04e7c306c54",
           "status": "판독 초안(검수 전)"
         },
         {
