@@ -10,6 +10,7 @@ xlsx_layout.py — 검수 xlsx '악보' 시트 모양 일괄 정리
   1) 칸 글자 '·' → '–' (xlsx_to_csv.py 가 CSV 로 옮길 때 '–' → '―' 로 바꾼다)
      율명·가사 칸의 '‹' '⁚' '○' 는 지운다 (율명 칸은 그 기호만 있던 줄도 없앰, 가사 칸은 줄 그대로).
      정간목록 시트 율명·가사·확인 필요 글자 열도 같이.
+  1-3) 가사 칸은 한 줄에 한 글자 ('좌우' → '좌⏎우', 공백 지움, 이미 있는 빈 줄은 그대로)
   2) 열 너비: 정간보는 오른쪽 → 왼쪽으로 읽으므로 제목 병합 [c1..c2] 의 오른쪽 끝부터
      홀수 번째 = 가사, 짝수 번째 = 율명. 율명 열 너비 = 바로 오른쪽 가사 열 너비 × 2 (가사 열은 그대로)
   3) 행 높이: 율명이 있는 행을 LibreOffice '최적 행 높이'(자동 높이)로 맞췄을 때 가장 큰 값을
@@ -138,8 +139,36 @@ def strip_marks(xml: str, seps: str) -> str:
     return T_RE.sub(sub_t, xml)
 
 
-def edit_cells(sheet: str, ss: str, pick, seps: str):
-    """pick(r, c) 가 참인 칸에 strip_marks 적용. (새 sheet, 새 sharedStrings, 바꾼 칸 수)"""
+def one_char_lines(xml: str) -> str:
+    """가사 칸: 한 줄에 한 글자 (공백은 지우고, 이미 있는 빈 줄은 그대로). 리치 텍스트 조각 서식은 그대로."""
+    parts = T_RE.findall(xml)
+    if not parts:
+        return xml
+    out = []
+    for i, p in enumerate(parts):
+        for ch in html.unescape(p[1]):
+            if ch != "\n" and ch.isspace():
+                continue
+            if ch != "\n" and out and out[-1][0] != "\n":
+                out.append(("\n", i))
+            out.append((ch, i))
+    texts = ["".join(ch for ch, j in out if j == i) for i in range(len(parts))]
+    if texts == [html.unescape(p[1]) for p in parts]:
+        return xml
+    it = iter(texts)
+
+    def sub_t(m):
+        t = next(it)
+        head = m.group(1)
+        if ("\n" in t or t != t.strip()) and "xml:space" not in head:
+            head = head[:-1] + ' xml:space="preserve">'
+        return head + xml_escape(t) + m.group(3)
+    return T_RE.sub(sub_t, xml)
+
+
+def edit_cells(sheet: str, ss: str, pick, seps: str, fn=None):
+    """pick(r, c) 가 참인 칸에 fn(기본 strip_marks(xml, seps)) 적용. (새 sheet, 새 sharedStrings, 바꾼 칸 수)"""
+    fn = fn or (lambda x: strip_marks(x, seps))
     sis = SI_RE.findall(ss) if ss else []
     added, n = [], 0
 
@@ -155,7 +184,7 @@ def edit_cells(sheet: str, ss: str, pick, seps: str):
             v = re.search(r"<v>(\d+)</v>", body)
             if not v:
                 return whole
-            new_si = strip_marks(sis[int(v.group(1))], seps)
+            new_si = fn(sis[int(v.group(1))])
             if new_si == sis[int(v.group(1))]:
                 return whole
             all_si = sis + added
@@ -166,7 +195,7 @@ def edit_cells(sheet: str, ss: str, pick, seps: str):
                 idx = len(sis) + len(added) - 1
             n += 1
             return tag + body.replace(v.group(0), f"<v>{idx}</v>", 1)
-        new_body = strip_marks(body, seps) if "<is>" in body else body
+        new_body = fn(body) if "<is>" in body else body
         if new_body != body:
             n += 1
         return tag + new_body
@@ -328,6 +357,7 @@ def main():
                 lyric_cells = {k for k in cells if role_of(pages, *k) == "lyric"}   # 가사 칸: 빈 줄은 일부러 둔 것 → 줄은 그대로
                 sheet, ss, nl = edit_cells(sheet, ss, lambda r, c: (r, c) in lyric_cells, "")
                 nmark += nl
+                sheet, ss, nsplit = edit_cells(sheet, ss, lambda r, c: (r, c) in lyric_cells, "", one_char_lines)
                 new_data = {}
                 lt = list_target(data)
                 if lt and (lcells := next((v for k, v in sheets.items() if nfc(k).strip() == "정간목록"), None)):
@@ -345,7 +375,7 @@ def main():
                 tmp = os.path.join(tmpdir, f"{len(work)}.xlsx")
                 write_zip(path, items, new_data, tmp)
                 work.append(dict(name=name, path=path, tmp=tmp, items=items, data=data, target=target,
-                                 new=new_data, yul=yul, rows=rows, ndot=ndot, nmark=nmark))
+                                 new=new_data, yul=yul, rows=rows, ndot=ndot, nmark=nmark, nsplit=nsplit))
             except Exception as e:  # noqa: BLE001
                 errors += 1
                 print(f"  ❌ {name}: {e}")
@@ -360,7 +390,7 @@ def main():
             sheet = set_heights(w["new"][w["target"]].decode("utf-8"), w["rows"], ht)
             w["new"][w["target"]] = sheet.encode("utf-8")
             diff = any(w["data"].get(k) != v for k, v in w["new"].items())
-            print(f"  {'✏️ ' if diff else '  '} {w['name']}: 행 높이 {fmt(ht)}pt × {len(w['rows'])}행, '·'→'–' {w['ndot']}칸, '‹⁚○' 지움 {w['nmark']}칸")
+            print(f"  {'✏️ ' if diff else '  '} {w['name']}: 행 높이 {fmt(ht)}pt × {len(w['rows'])}행, '·'→'–' {w['ndot']}칸, '‹⁚○' 지움 {w['nmark']}칸, 가사 한 글자씩 {w['nsplit']}칸")
             if diff:
                 changed += 1
                 if not check:
