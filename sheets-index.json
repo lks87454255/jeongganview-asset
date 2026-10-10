@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-10-10T12:27:05Z",
+  "generated": "2026-10-10T12:54:49Z",
   "owner": "lks87454255",
   "repo": "jeongganview-asset",
   "branch": "main",
@@ -89,11 +89,11 @@
           "fileName": "군밤타령 옹헤야.csv",
           "path": "sheets/민요/csv/군밤타령 옹헤야.csv",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/sheets/%EB%AF%BC%EC%9A%94/csv/%EA%B5%B0%EB%B0%A4%ED%83%80%EB%A0%B9%20%EC%98%B9%ED%97%A4%EC%95%BC.csv",
-          "sizeBytes": 1656,
+          "sizeBytes": 1653,
           "beat": "4/4",
           "rows": 16,
           "pages": 1,
-          "sha256": "0366c17086a8d30ec6eb9276acee67eb0ca546b479e585687b97754c2b5d8caa",
+          "sha256": "c4412a755e28e93afec6d0698693de70a00dca39d74ff4594774b65014f03eec",
           "status": "판독 초안(검수 전)"
         },
         {
@@ -167,11 +167,11 @@
           "fileName": "꽃 타령 (꽃은 모리).csv",
           "path": "sheets/민요/csv/꽃 타령 (꽃은 모리).csv",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/sheets/%EB%AF%BC%EC%9A%94/csv/%EA%BD%83%20%ED%83%80%EB%A0%B9%20%28%EA%BD%83%EC%9D%80%20%EB%AA%A8%EB%A6%AC%29.csv",
-          "sizeBytes": 1963,
+          "sizeBytes": 1960,
           "beat": "4/4",
           "rows": 16,
           "pages": 1,
-          "sha256": "e438ca071c3b3028399b7671856325c299720ceade1a7abe64fe8d53866a62c9",
+          "sha256": "07c0c96a86eeb2557905115d66ee711a00bc00d99e7316974f8427d0286cf6a9",
           "status": "판독 초안(검수 전)"
         },
         {
@@ -349,11 +349,11 @@
           "fileName": "돈 타령.csv",
           "path": "sheets/민요/csv/돈 타령.csv",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/sheets/%EB%AF%BC%EC%9A%94/csv/%EB%8F%88%20%ED%83%80%EB%A0%B9.csv",
-          "sizeBytes": 1732,
+          "sizeBytes": 1672,
           "beat": "3/4",
           "rows": 12,
           "pages": 1,
-          "sha256": "37150118b1a4b93b07fcd3eed2e73d52585e79987b6254d09862231f768147f7",
+          "sha256": "5efe600da3544d68538eb6d5e0ae9c7629fc351cdfa491f5fe303d5be3c7c8a0",
           "status": "판독 초안(검수 전)"
         },
         {
@@ -362,11 +362,11 @@
           "fileName": "매화 타령.csv",
           "path": "sheets/민요/csv/매화 타령.csv",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/sheets/%EB%AF%BC%EC%9A%94/csv/%EB%A7%A4%ED%99%94%20%ED%83%80%EB%A0%B9.csv",
-          "sizeBytes": 1829,
+          "sizeBytes": 1820,
           "beat": "4/4",
           "rows": 16,
           "pages": 1,
-          "sha256": "4cc1dfd3838f04e52bcba464b140214461b0905382f09cbf2deb42bd6aa080a6",
+          "sha256": "32254bc4721cdcd9b9a4f3395a4a2b4283a3bff10329bc2bb066e8ed28df1ae0",
           "status": "판독 초안(검수 전)"
         },
         {
@@ -375,11 +375,11 @@
           "fileName": "몽금포 타령.csv",
           "path": "sheets/민요/csv/몽금포 타령.csv",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/sheets/%EB%AF%BC%EC%9A%94/csv/%EB%AA%BD%EA%B8%88%ED%8F%AC%20%ED%83%80%EB%A0%B9.csv",
-          "sizeBytes": 1122,
+          "sizeBytes": 1116,
           "beat": "3/4",
           "rows": 12,
           "pages": 1,
-          "sha256": "84acacc2871c545c0ff0bfd43e1646708c0666a92d17ca3e7b05dadcf38ef6fb",
+          "sha256": "dcb2167f7167a263139f75e170a9e4d75d82a0b5150445ada6186630f3650478",
           "status": "판독 초안(검수 전)"
         },
         {
@@ -518,11 +518,11 @@
           "fileName": "사철가 (채보2).csv",
           "path": "sheets/민요/csv/사철가 (채보2).csv",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/sheets/%EB%AF%BC%EC%9A%94/csv/%EC%82%AC%EC%B2%A0%EA%B0%80%20%28%EC%B1%84%EB%B3%B42%29.csv",
-          "sizeBytes": 1435,
+          "sizeBytes": 1429,
           "beat": "2/4",
           "rows": 16,
           "pages": 1,
-          "sha256": "957eabc59fa64e6ca419a2f4f195dc1e8e9c7a6e115d7ba76b299b5fa8137420",
+          "sha256": "8c01b01e2ad47088ff5ba5829934caa0082568daf0e0078e039b12d63c3dbcfe",
           "status": "판독 초안(검수 전)"
         },
         {
@@ -531,11 +531,11 @@
           "fileName": "상사 천리몽.csv",
           "path": "sheets/민요/csv/상사 천리몽.csv",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/sheets/%EB%AF%BC%EC%9A%94/csv/%EC%83%81%EC%82%AC%20%EC%B2%9C%EB%A6%AC%EB%AA%BD.csv",
-          "sizeBytes": 1462,
+          "sizeBytes": 1431,
           "beat": "2/4",
           "rows": 16,
           "pages": 1,
-          "sha256": "5d1d38d61dddc8eabb159363b40bb3116e10abc556dba08161bc2d5b0974127a",
+          "sha256": "77fbd6bea8dda5ccb0a180cac0a75c59dad3dcf54d6d3de1af466d2ef278de5e",
           "status": "판독 초안(검수 전)"
         },
         {
@@ -544,11 +544,11 @@
           "fileName": "상주 모심기.csv",
           "path": "sheets/민요/csv/상주 모심기.csv",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/sheets/%EB%AF%BC%EC%9A%94/csv/%EC%83%81%EC%A3%BC%20%EB%AA%A8%EC%8B%AC%EA%B8%B0.csv",
-          "sizeBytes": 1111,
+          "sizeBytes": 1099,
           "beat": "3/4",
           "rows": 12,
           "pages": 1,
-          "sha256": "d6b449e74154d33985e0e4e39df4420c1d905bae63a8931c1a2571767feaac95",
+          "sha256": "7dfb7e9be409730f94f372904c49c95fed3c3ad7c68896f0f89ead8038c15b28",
           "status": "판독 초안(검수 전)"
         },
         {
@@ -583,11 +583,11 @@
           "fileName": "석별가.csv",
           "path": "sheets/민요/csv/석별가.csv",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/sheets/%EB%AF%BC%EC%9A%94/csv/%EC%84%9D%EB%B3%84%EA%B0%80.csv",
-          "sizeBytes": 1056,
+          "sizeBytes": 1050,
           "beat": "3/4",
           "rows": 12,
           "pages": 1,
-          "sha256": "3919d3af4223128b31c8444ec8c7fd1d5a163eca2ee5d4d9ea7e1ac305131f57",
+          "sha256": "574940df75576e109fbbf3ec25b0b4c63c7fbfec806a9e41e59b62f1fea4a17a",
           "status": "판독 초안(검수 전)"
         },
         {
@@ -609,11 +609,11 @@
           "fileName": "신 만고강산.csv",
           "path": "sheets/민요/csv/신 만고강산.csv",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/sheets/%EB%AF%BC%EC%9A%94/csv/%EC%8B%A0%20%EB%A7%8C%EA%B3%A0%EA%B0%95%EC%82%B0.csv",
-          "sizeBytes": 1307,
+          "sizeBytes": 1283,
           "beat": "4/4",
           "rows": 16,
           "pages": 1,
-          "sha256": "60ed47c651ed1f3e36bf9e630130e8636d3448eedb6ce1fba9226aeba0167631",
+          "sha256": "c3573290068080a901383fe449fec13bc6974294afd0f6f3bb8f445796725f8a",
           "status": "판독 초안(검수 전)"
         },
         {
@@ -713,11 +713,11 @@
           "fileName": "야월삼경.csv",
           "path": "sheets/민요/csv/야월삼경.csv",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/sheets/%EB%AF%BC%EC%9A%94/csv/%EC%95%BC%EC%9B%94%EC%82%BC%EA%B2%BD.csv",
-          "sizeBytes": 1449,
+          "sizeBytes": 1445,
           "beat": "3/4",
           "rows": 12,
           "pages": 1,
-          "sha256": "7d687b5e2ad45df832c38b569125ecab51876e79dbb1786be0abf81b3cc658c6",
+          "sha256": "fe04425c150f806f9f30b1fd3cce9da4eabbd51390c7336a1c61691db4b9472d",
           "status": "판독 초안(검수 전)"
         },
         {
@@ -739,11 +739,11 @@
           "fileName": "양류가 (채보3).csv",
           "path": "sheets/민요/csv/양류가 (채보3).csv",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/sheets/%EB%AF%BC%EC%9A%94/csv/%EC%96%91%EB%A5%98%EA%B0%80%20%28%EC%B1%84%EB%B3%B43%29.csv",
-          "sizeBytes": 2108,
+          "sizeBytes": 2093,
           "beat": "3/4",
           "rows": 12,
           "pages": 2,
-          "sha256": "ae1d97a694918fafdcefd26a22ee2c3bf48d59011641bb1a7fea1f7c21321be3",
+          "sha256": "1e95c1b71ccb0c41880c75d52ab5834e2eb6be9c792ae9a335082e4b41d692c8",
           "status": "판독 초안(검수 전)"
         },
         {
@@ -765,11 +765,11 @@
           "fileName": "영천 아리랑.csv",
           "path": "sheets/민요/csv/영천 아리랑.csv",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/sheets/%EB%AF%BC%EC%9A%94/csv/%EC%98%81%EC%B2%9C%20%EC%95%84%EB%A6%AC%EB%9E%91.csv",
-          "sizeBytes": 1531,
+          "sizeBytes": 1525,
           "beat": "3/4",
           "rows": 12,
           "pages": 1,
-          "sha256": "58b00fb062310791004bee5944bc0b71ee92eab04745b77537baf44baa1c8e77",
+          "sha256": "eb6532b479ae423b32fe0f005e17f9c4b4a590f28e29d0ae438650ec3fd1ecc4",
           "status": "판독 초안(검수 전)"
         },
         {
@@ -778,11 +778,11 @@
           "fileName": "오봉산 타령.csv",
           "path": "sheets/민요/csv/오봉산 타령.csv",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/sheets/%EB%AF%BC%EC%9A%94/csv/%EC%98%A4%EB%B4%89%EC%82%B0%20%ED%83%80%EB%A0%B9.csv",
-          "sizeBytes": 2237,
+          "sizeBytes": 2219,
           "beat": "3/4",
           "rows": 12,
           "pages": 2,
-          "sha256": "df2ddf41e0f70b1e5b339e899dcacbd93729ca8a5c2a18b6759c5c6cbd719195",
+          "sha256": "285d596009027d611833ea312bae93b1cb9acc5d632c6451e9989b9041e088ed",
           "status": "판독 초안(검수 전)"
         },
         {
@@ -908,11 +908,11 @@
           "fileName": "창부타령 (채보1) 창부 타령-2.csv",
           "path": "sheets/민요/csv/창부타령 (채보1) 창부 타령-2.csv",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/sheets/%EB%AF%BC%EC%9A%94/csv/%EC%B0%BD%EB%B6%80%ED%83%80%EB%A0%B9%20%28%EC%B1%84%EB%B3%B41%29%20%EC%B0%BD%EB%B6%80%20%ED%83%80%EB%A0%B9-2.csv",
-          "sizeBytes": 1570,
+          "sizeBytes": 1540,
           "beat": "3/4",
           "rows": 12,
           "pages": 1,
-          "sha256": "b0b1d1f7b5655dc707b5aea1c22144b11808447d01247884d74c52d3dd0bc43e",
+          "sha256": "1f1b22d36cb959d5215c2032af0688cf013ceaac9de955e783d3675e8816c6cc",
           "status": "판독 초안(검수 전)"
         },
         {
@@ -1064,11 +1064,11 @@
           "fileName": "풍년가 (채보1).csv",
           "path": "sheets/민요/csv/풍년가 (채보1).csv",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/sheets/%EB%AF%BC%EC%9A%94/csv/%ED%92%8D%EB%85%84%EA%B0%80%20%28%EC%B1%84%EB%B3%B41%29.csv",
-          "sizeBytes": 1284,
+          "sizeBytes": 1278,
           "beat": "3/4",
           "rows": 12,
           "pages": 1,
-          "sha256": "575b8caa0a564191cbc483f2c4c51e0337b8ebb31e51b9586009f2bc6afe468b",
+          "sha256": "75f558d341099d925d4f4bb457b82e0c48471beb759b6539ddb5afa5a033d374",
           "status": "판독 초안(검수 전)"
         },
         {
@@ -1077,11 +1077,11 @@
           "fileName": "풍년가 (채보2).csv",
           "path": "sheets/민요/csv/풍년가 (채보2).csv",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/sheets/%EB%AF%BC%EC%9A%94/csv/%ED%92%8D%EB%85%84%EA%B0%80%20%28%EC%B1%84%EB%B3%B42%29.csv",
-          "sizeBytes": 1286,
+          "sizeBytes": 1280,
           "beat": "3/4",
           "rows": 12,
           "pages": 1,
-          "sha256": "755b4a3c131b1f46cc2060d742d68fcb4be83f6fe6e864320552b7a9fb30a590",
+          "sha256": "eb0598542123543ac31d2cae4565d819db58dc1147a2ffcb2af2318dc197bd08",
           "status": "판독 초안(검수 전)"
         },
         {

@@ -8,7 +8,8 @@ xlsx_layout.py — 검수 xlsx '악보' 시트 모양 일괄 정리
 
 '악보' 시트에 적용한다 (정보 시트 설명 글은 그대로).
   1) 칸 글자 '·' → '–' (xlsx_to_csv.py 가 CSV 로 옮길 때 '–' → '―' 로 바꾼다)
-     율명 칸의 '‹' '⁚' 는 지운다 (그 기호만 있던 줄도 없앰). 정간목록 시트 율명·확인 필요 글자 열도 같이.
+     율명·가사 칸의 '‹' '⁚' '○' 는 지운다 (율명 칸은 그 기호만 있던 줄도 없앰, 가사 칸은 줄 그대로).
+     정간목록 시트 율명·가사·확인 필요 글자 열도 같이.
   2) 열 너비: 정간보는 오른쪽 → 왼쪽으로 읽으므로 제목 병합 [c1..c2] 의 오른쪽 끝부터
      홀수 번째 = 가사, 짝수 번째 = 율명. 율명 열 너비 = 바로 오른쪽 가사 열 너비 × 2 (가사 열은 그대로)
   3) 행 높이: 율명이 있는 행을 LibreOffice '최적 행 높이'(자동 높이)로 맞췄을 때 가장 큰 값을
@@ -107,7 +108,7 @@ def replace_dots(sheet: str, ss: str):
 
 
 # ───────────────────── 1-2) 손 채보 기호 '‹' '⁚' 지우기 ─────────────────────
-STRIP = "\u2039\u205a"                                    # ‹ ⁚
+STRIP = "\u2039\u205a\u25cb"                              # ‹ ⁚ ○
 T_RE = re.compile(r"(<t\b[^>]*>)(.*?)(</t>)", re.S)
 
 
@@ -324,11 +325,17 @@ def main():
                 sheet, ss, ndot = replace_dots(data[target].decode("utf-8"), ss)
                 yul_cells = {k for k, v in cells.items() if role_of(pages, *k) == "yul"}
                 sheet, ss, nmark = edit_cells(sheet, ss, lambda r, c: (r, c) in yul_cells, "\n")
+                lyric_cells = {k for k in cells if role_of(pages, *k) == "lyric"}   # 가사 칸: 빈 줄은 일부러 둔 것 → 줄은 그대로
+                sheet, ss, nl = edit_cells(sheet, ss, lambda r, c: (r, c) in lyric_cells, "")
+                nmark += nl
                 new_data = {}
                 lt = list_target(data)
                 if lt and (lcells := next((v for k, v in sheets.items() if nfc(k).strip() == "정간목록"), None)):
                     cols = {c for (r, c), v in lcells.items() if r == 1 and v.strip() in LIST_COLS}
                     lsheet, ss, nl = edit_cells(data[lt].decode("utf-8"), ss, lambda r, c: r > 1 and c in cols, "\n|")
+                    nmark += nl
+                    lyr = {c for (r, c), v in lcells.items() if r == 1 and v.strip() == "가사"}
+                    lsheet, ss, nl = edit_cells(lsheet, ss, lambda r, c: r > 1 and c in lyr, "")
                     nmark += nl
                     new_data[lt] = lsheet.encode("utf-8")
                 sheet = fix_widths(sheet, pages)
@@ -353,7 +360,7 @@ def main():
             sheet = set_heights(w["new"][w["target"]].decode("utf-8"), w["rows"], ht)
             w["new"][w["target"]] = sheet.encode("utf-8")
             diff = any(w["data"].get(k) != v for k, v in w["new"].items())
-            print(f"  {'✏️ ' if diff else '  '} {w['name']}: 행 높이 {fmt(ht)}pt × {len(w['rows'])}행, '·'→'–' {w['ndot']}칸, '‹⁚' 지움 {w['nmark']}칸")
+            print(f"  {'✏️ ' if diff else '  '} {w['name']}: 행 높이 {fmt(ht)}pt × {len(w['rows'])}행, '·'→'–' {w['ndot']}칸, '‹⁚○' 지움 {w['nmark']}칸")
             if diff:
                 changed += 1
                 if not check:
