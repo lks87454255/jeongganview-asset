@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-10-10T13:11:50Z",
+  "generated": "2026-10-10T13:38:43Z",
   "owner": "lks87454255",
   "repo": "jeongganview-asset",
   "branch": "main",
@@ -97,16 +97,16 @@
           "status": "판독 초안(검수 전)"
         },
         {
-          "name": "궁초댕기 신고산 타령",
-          "title": "궁초댕기 신고산 타령",
-          "fileName": "궁초댕기 신고산 타령.csv",
-          "path": "sheets/민요/csv/궁초댕기 신고산 타령.csv",
-          "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/sheets/%EB%AF%BC%EC%9A%94/csv/%EA%B6%81%EC%B4%88%EB%8C%95%EA%B8%B0%20%EC%8B%A0%EA%B3%A0%EC%82%B0%20%ED%83%80%EB%A0%B9.csv",
-          "sizeBytes": 2144,
+          "name": "궁초댕기-2",
+          "title": "궁초댕기-2",
+          "fileName": "궁초댕기-2.csv",
+          "path": "sheets/민요/csv/궁초댕기-2.csv",
+          "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/sheets/%EB%AF%BC%EC%9A%94/csv/%EA%B6%81%EC%B4%88%EB%8C%95%EA%B8%B0-2.csv",
+          "sizeBytes": 1647,
           "beat": "4/4",
           "rows": 16,
           "pages": 1,
-          "sha256": "0e668d02a96db0353b22cd4f18025d05451398806e42d5321086f5e3baebdcb1",
+          "sha256": "b0e337266336f988621e3a694483dccc06f1cc9df444d0937058ce652750a442",
           "status": "판독 초안(검수 전)"
         },
         {
@@ -115,11 +115,11 @@
           "fileName": "궁초댕기.csv",
           "path": "sheets/민요/csv/궁초댕기.csv",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/sheets/%EB%AF%BC%EC%9A%94/csv/%EA%B6%81%EC%B4%88%EB%8C%95%EA%B8%B0.csv",
-          "sizeBytes": 1425,
+          "sizeBytes": 1224,
           "beat": "4/4",
           "rows": 16,
           "pages": 1,
-          "sha256": "1189e40cb35faf646db5afa1a4fb8204800eb60d58cf2afbe465d3e49a9325bb",
+          "sha256": "f9a0b7a09da687f870e31a9a10238da1140f6299671cffe124787db5695b876a",
           "status": "판독 초안(검수 전)"
         },
         {
@@ -627,6 +627,19 @@
           "rows": 16,
           "pages": 1,
           "sha256": "1b7de68477ff21b817600286b38f76d89f8bbe8109aface6e6e31e5c16cee884",
+          "status": "판독 초안(검수 전)"
+        },
+        {
+          "name": "신고산 타령-2",
+          "title": "신고산 타령-2",
+          "fileName": "신고산 타령-2.csv",
+          "path": "sheets/민요/csv/신고산 타령-2.csv",
+          "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/sheets/%EB%AF%BC%EC%9A%94/csv/%EC%8B%A0%EA%B3%A0%EC%82%B0%20%ED%83%80%EB%A0%B9-2.csv",
+          "sizeBytes": 1265,
+          "beat": "4/4",
+          "rows": 16,
+          "pages": 1,
+          "sha256": "155bf9ab02cc9043992f3ac17b8c5b8aefe4629da4e50fbcaead95151e80a410",
           "status": "판독 초안(검수 전)"
         },
         {
@@ -1321,6 +1334,6 @@
   ],
   "_total": {
     "categories": 3,
-    "files": 98
+    "files": 99
   }
 }
