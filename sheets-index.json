@@ -1,12 +1,22 @@
 {
   "version": 1,
-  "generated": "2026-10-09T15:47:52Z",
+  "generated": "2026-10-10T11:26:43Z",
   "owner": "lks87454255",
   "repo": "jeongganview-asset",
   "branch": "main",
+  "groups": [
+    {
+      "name": "민요"
+    },
+    {
+      "name": "대금 악보"
+    }
+  ],
   "categories": [
     {
       "name": "민요",
+      "group": "민요",
+      "label": "민요",
       "files": [
         {
           "name": "각설이 타령",
@@ -18,7 +28,8 @@
           "beat": "4/4",
           "rows": 16,
           "pages": 1,
-          "sha256": "1c9a51f81952b732ebbf1b68031360cb9a92cf9b4d7e10142fd17901071a3ce6"
+          "sha256": "1c9a51f81952b732ebbf1b68031360cb9a92cf9b4d7e10142fd17901071a3ce6",
+          "status": "판독 초안(검수 전)"
         },
         {
           "name": "강강술래",
@@ -30,7 +41,8 @@
           "beat": "4/4",
           "rows": 16,
           "pages": 1,
-          "sha256": "5092e72086a34d98f6affa19e64e549750bfa884714ad3744c06f7ff7be8e415"
+          "sha256": "5092e72086a34d98f6affa19e64e549750bfa884714ad3744c06f7ff7be8e415",
+          "status": "판독 초안(검수 전)"
         },
         {
           "name": "강원도 아리랑",
@@ -42,7 +54,8 @@
           "beat": "2/4",
           "rows": 16,
           "pages": 1,
-          "sha256": "2131fa00d6cba3f1a886a1ea07383d81201aed3ea3a4fba7eff532ec29a59b0a"
+          "sha256": "2131fa00d6cba3f1a886a1ea07383d81201aed3ea3a4fba7eff532ec29a59b0a",
+          "status": "판독 초안(검수 전)"
         },
         {
           "name": "거스러미 돈돈날이",
@@ -54,7 +67,8 @@
           "beat": "4/4",
           "rows": 16,
           "pages": 1,
-          "sha256": "dc86f09613be5eb91da476775cc04f44f8d5f3d1e9270cf4b6bd2eafb9bd5937"
+          "sha256": "dc86f09613be5eb91da476775cc04f44f8d5f3d1e9270cf4b6bd2eafb9bd5937",
+          "status": "판독 초안(검수 전)"
         },
         {
           "name": "구 아리랑",
@@ -66,7 +80,8 @@
           "beat": "3/4",
           "rows": 12,
           "pages": 1,
-          "sha256": "49e9e8f39670bf9bc87f45b0951144230b1650374772b39c720a877dd149cf88"
+          "sha256": "49e9e8f39670bf9bc87f45b0951144230b1650374772b39c720a877dd149cf88",
+          "status": "판독 초안(검수 전)"
         },
         {
           "name": "군밤타령 옹헤야",
@@ -78,7 +93,8 @@
           "beat": "4/4",
           "rows": 16,
           "pages": 1,
-          "sha256": "0366c17086a8d30ec6eb9276acee67eb0ca546b479e585687b97754c2b5d8caa"
+          "sha256": "0366c17086a8d30ec6eb9276acee67eb0ca546b479e585687b97754c2b5d8caa",
+          "status": "판독 초안(검수 전)"
         },
         {
           "name": "궁초댕기 신고산 타령",
@@ -90,7 +106,8 @@
           "beat": "4/4",
           "rows": 16,
           "pages": 1,
-          "sha256": "7692503f1770d613c90fb564347efd319faf02965ba4912a128b1e01c8c0014e"
+          "sha256": "7692503f1770d613c90fb564347efd319faf02965ba4912a128b1e01c8c0014e",
+          "status": "판독 초안(검수 전)"
         },
         {
           "name": "궁초댕기",
@@ -102,7 +119,8 @@
           "beat": "4/4",
           "rows": 16,
           "pages": 1,
-          "sha256": "f0c3b5e9a68b873e5e3e6ea82c7368360df214c92b47d11c247e194f9b0d11fd"
+          "sha256": "f0c3b5e9a68b873e5e3e6ea82c7368360df214c92b47d11c247e194f9b0d11fd",
+          "status": "판독 초안(검수 전)"
         },
         {
           "name": "긴 아리랑 (늦중모리)",
@@ -114,7 +132,8 @@
           "beat": "3/4",
           "rows": 12,
           "pages": 1,
-          "sha256": "01397a328dc699ece00fc40f43b83e34e7b3f86948891ef5df9f29af089e7d7d"
+          "sha256": "01397a328dc699ece00fc40f43b83e34e7b3f86948891ef5df9f29af089e7d7d",
+          "status": "판독 초안(검수 전)"
         },
         {
           "name": "긴 아리랑 (채보3)",
@@ -126,7 +145,8 @@
           "beat": "3/4",
           "rows": 12,
           "pages": 1,
-          "sha256": "1ab21ff7945369a6438b41ab0fe589afcc446ba535399bb44ca04f7df53b724a"
+          "sha256": "1ab21ff7945369a6438b41ab0fe589afcc446ba535399bb44ca04f7df53b724a",
+          "status": "판독 초안(검수 전)"
         },
         {
           "name": "꼭두각시",
@@ -138,7 +158,8 @@
           "beat": "4/4",
           "rows": 16,
           "pages": 1,
-          "sha256": "8f6a413f07c0fb0ba67a6f18e4b0f5410ad42bbd9ada2cf226b88bf5d0e76c18"
+          "sha256": "8f6a413f07c0fb0ba67a6f18e4b0f5410ad42bbd9ada2cf226b88bf5d0e76c18",
+          "status": "판독 초안(검수 전)"
         },
         {
           "name": "꽃 타령 (꽃은 모리)",
@@ -150,7 +171,8 @@
           "beat": "4/4",
           "rows": 16,
           "pages": 1,
-          "sha256": "a7e2046d0ba57fa0b091d1da369f43f9ce230682e562ea70c510d67de68d84aa"
+          "sha256": "a7e2046d0ba57fa0b091d1da369f43f9ce230682e562ea70c510d67de68d84aa",
+          "status": "판독 초안(검수 전)"
         },
         {
           "name": "꽃 타령 (자진모리)",
@@ -162,7 +184,8 @@
           "beat": "4/4",
           "rows": 16,
           "pages": 1,
-          "sha256": "9ca222d345c7a4627d091035861145c454de2e51888936679ada3c5e9b7efd78"
+          "sha256": "9ca222d345c7a4627d091035861145c454de2e51888936679ada3c5e9b7efd78",
+          "status": "판독 초안(검수 전)"
         },
         {
           "name": "꽃이 피었네",
@@ -174,7 +197,8 @@
           "beat": "4/4",
           "rows": 16,
           "pages": 1,
-          "sha256": "aa276d7bafbeab4f1c68e63dfbeda6102ea5241338e4ed7d37e16d2a556e0134"
+          "sha256": "aa276d7bafbeab4f1c68e63dfbeda6102ea5241338e4ed7d37e16d2a556e0134",
+          "status": "판독 초안(검수 전)"
         },
         {
           "name": "남원산성",
@@ -186,7 +210,8 @@
           "beat": "4/4",
           "rows": 16,
           "pages": 1,
-          "sha256": "5303c1395ed8cd205a7232f2b7b8ccda33ea5babf4a575230ae4581538ba865c"
+          "sha256": "5303c1395ed8cd205a7232f2b7b8ccda33ea5babf4a575230ae4581538ba865c",
+          "status": "판독 초안(검수 전)"
         },
         {
           "name": "낭낭 십팔세",
@@ -198,7 +223,8 @@
           "beat": "4/4",
           "rows": 16,
           "pages": 1,
-          "sha256": "8253316791c22b33399afe365f232cf7fbe25aec383e5814c63039678de7f21d"
+          "sha256": "8253316791c22b33399afe365f232cf7fbe25aec383e5814c63039678de7f21d",
+          "status": "판독 초안(검수 전)"
         },
         {
           "name": "노들강변",
@@ -210,7 +236,8 @@
           "beat": "3/4",
           "rows": 12,
           "pages": 1,
-          "sha256": "c63fa5018d8fe0afff84adbf20ed865a42be4e8da6fd7493a3c5b397c69379a1"
+          "sha256": "c63fa5018d8fe0afff84adbf20ed865a42be4e8da6fd7493a3c5b397c69379a1",
+          "status": "판독 초안(검수 전)"
         },
         {
           "name": "노래가락 (채보3) 노래가락-1",
@@ -222,7 +249,8 @@
           "beat": "4/4",
           "rows": 16,
           "pages": 1,
-          "sha256": "8b22e96c8f92ab622c0b4a9511b8c817f466f8c3764eafeec7a41db8111dc062"
+          "sha256": "8b22e96c8f92ab622c0b4a9511b8c817f466f8c3764eafeec7a41db8111dc062",
+          "status": "판독 초안(검수 전)"
         },
         {
           "name": "노래가락 (채보3) 노래가락",
@@ -234,7 +262,8 @@
           "beat": "4/4",
           "rows": 16,
           "pages": 1,
-          "sha256": "0feaec3089a66661d85de974660bdaff93b47e76a24d9080edf3e3dcb6ef94b2"
+          "sha256": "0feaec3089a66661d85de974660bdaff93b47e76a24d9080edf3e3dcb6ef94b2",
+          "status": "판독 초안(검수 전)"
         },
         {
           "name": "농부가",
@@ -246,7 +275,8 @@
           "beat": "3/4",
           "rows": 12,
           "pages": 1,
-          "sha256": "10f68d876e9d65f9df8f5a94ef22f9e9fb1f641c61ef25dc843ac7cb6d33b42d"
+          "sha256": "10f68d876e9d65f9df8f5a94ef22f9e9fb1f641c61ef25dc843ac7cb6d33b42d",
+          "status": "판독 초안(검수 전)"
         },
         {
           "name": "는실 타령",
@@ -258,7 +288,8 @@
           "beat": "3/4",
           "rows": 12,
           "pages": 1,
-          "sha256": "542a6df0c94de77c656ee10223cd3b5a41c3bb2e35210e8f94f8b89774910819"
+          "sha256": "542a6df0c94de77c656ee10223cd3b5a41c3bb2e35210e8f94f8b89774910819",
+          "status": "판독 초안(검수 전)"
         },
         {
           "name": "능계가락",
@@ -270,7 +301,8 @@
           "beat": "2/4",
           "rows": 16,
           "pages": 1,
-          "sha256": "071b9a2aa29d2076ed5dcda8fdce2d90cf34d16540a0109117f05814402043c2"
+          "sha256": "071b9a2aa29d2076ed5dcda8fdce2d90cf34d16540a0109117f05814402043c2",
+          "status": "판독 초안(검수 전)"
         },
         {
           "name": "님타령",
@@ -282,7 +314,8 @@
           "beat": "4/4",
           "rows": 16,
           "pages": 1,
-          "sha256": "f17f3ff87169b5f7cfe51016ebee1efb939d64266bc7266b1ee446142a8fc74f"
+          "sha256": "f17f3ff87169b5f7cfe51016ebee1efb939d64266bc7266b1ee446142a8fc74f",
+          "status": "판독 초안(검수 전)"
         },
         {
           "name": "담바귀 타령",
@@ -294,7 +327,8 @@
           "beat": "3/4",
           "rows": 12,
           "pages": 1,
-          "sha256": "df709945b63593fa57bd850c82bfe376e7a85cfc6d642187230afde26746a24f"
+          "sha256": "df709945b63593fa57bd850c82bfe376e7a85cfc6d642187230afde26746a24f",
+          "status": "판독 초안(검수 전)"
         },
         {
           "name": "도라지 타령",
@@ -306,7 +340,8 @@
           "beat": "3/4",
           "rows": 12,
           "pages": 1,
-          "sha256": "c4a33dce3428458fc9f60319efb9ed0e46bfc9307156e7b4e2d7e5ec8c352ad6"
+          "sha256": "c4a33dce3428458fc9f60319efb9ed0e46bfc9307156e7b4e2d7e5ec8c352ad6",
+          "status": "판독 초안(검수 전)"
         },
         {
           "name": "돈 타령",
@@ -318,7 +353,8 @@
           "beat": "3/4",
           "rows": 12,
           "pages": 1,
-          "sha256": "4964e1c1170fd2c8f1c52635f0f74876cd36aaa2d699d573b23f509a9f1350f4"
+          "sha256": "4964e1c1170fd2c8f1c52635f0f74876cd36aaa2d699d573b23f509a9f1350f4",
+          "status": "판독 초안(검수 전)"
         },
         {
           "name": "매화 타령",
@@ -330,7 +366,8 @@
           "beat": "4/4",
           "rows": 16,
           "pages": 1,
-          "sha256": "620d7faf2ba9d7a52c9fad590e426bf84fd0ac5fe6f64f3bd3f7fc6105aac799"
+          "sha256": "620d7faf2ba9d7a52c9fad590e426bf84fd0ac5fe6f64f3bd3f7fc6105aac799",
+          "status": "판독 초안(검수 전)"
         },
         {
           "name": "몽금포 타령",
@@ -342,7 +379,8 @@
           "beat": "3/4",
           "rows": 12,
           "pages": 1,
-          "sha256": "0e0d40d1d07859422f49543723325eb6f467ba5914125d66b20dcb5ad8c15250"
+          "sha256": "0e0d40d1d07859422f49543723325eb6f467ba5914125d66b20dcb5ad8c15250",
+          "status": "판독 초안(검수 전)"
         },
         {
           "name": "물레타령",
@@ -354,7 +392,8 @@
           "beat": "3/4",
           "rows": 12,
           "pages": 1,
-          "sha256": "984572dcb4a3a3a0ec7613cb1e9e94f6d7489032b6ff22330e7ef601fd3174b1"
+          "sha256": "984572dcb4a3a3a0ec7613cb1e9e94f6d7489032b6ff22330e7ef601fd3174b1",
+          "status": "판독 초안(검수 전)"
         },
         {
           "name": "밀양 아리랑",
@@ -366,7 +405,8 @@
           "beat": "3/4",
           "rows": 12,
           "pages": 1,
-          "sha256": "a0eee17d4a359c7b0be0e4e3a76efc6ecf78a069f314ef39ed7110715d70b942"
+          "sha256": "a0eee17d4a359c7b0be0e4e3a76efc6ecf78a069f314ef39ed7110715d70b942",
+          "status": "판독 초안(검수 전)"
         },
         {
           "name": "박연폭포 (굿거리)",
@@ -378,7 +418,8 @@
           "beat": "4/4",
           "rows": 16,
           "pages": 1,
-          "sha256": "b6f024924e5924dbbf5411494b5324fc5694b0379997dcd8075895aa4a00f682"
+          "sha256": "b6f024924e5924dbbf5411494b5324fc5694b0379997dcd8075895aa4a00f682",
+          "status": "판독 초안(검수 전)"
         },
         {
           "name": "박연폭포 (느리게)",
@@ -390,7 +431,8 @@
           "beat": "4/4",
           "rows": 16,
           "pages": 1,
-          "sha256": "617cc12a8e44fa8e15b2d463872e76607ca6364a8df53e8a392cceb534bb595b"
+          "sha256": "617cc12a8e44fa8e15b2d463872e76607ca6364a8df53e8a392cceb534bb595b",
+          "status": "판독 초안(검수 전)"
         },
         {
           "name": "뱃노래",
@@ -402,7 +444,8 @@
           "beat": "3/4",
           "rows": 12,
           "pages": 1,
-          "sha256": "700fa04c05b6842795016e32937aacf11b10b371835d2430890c7dedc9b30aec"
+          "sha256": "700fa04c05b6842795016e32937aacf11b10b371835d2430890c7dedc9b30aec",
+          "status": "판독 초안(검수 전)"
         },
         {
           "name": "베틀가",
@@ -414,7 +457,8 @@
           "beat": "3/4",
           "rows": 12,
           "pages": 1,
-          "sha256": "ea6bad110d7b06d103bcb69cbaaec46352007b71f4fc5ff3a507cd20020ce49f"
+          "sha256": "ea6bad110d7b06d103bcb69cbaaec46352007b71f4fc5ff3a507cd20020ce49f",
+          "status": "판독 초안(검수 전)"
         },
         {
           "name": "봄철나비",
@@ -426,7 +470,8 @@
           "beat": "4/4",
           "rows": 16,
           "pages": 1,
-          "sha256": "56c6bf2de6f5c0dbc8cb1638f1e18e1e92b2fd21d61c39f13dd88f3840df734e"
+          "sha256": "56c6bf2de6f5c0dbc8cb1638f1e18e1e92b2fd21d61c39f13dd88f3840df734e",
+          "status": "검수 xlsx 직접 입력"
         },
         {
           "name": "북간도 아리랑",
@@ -438,7 +483,8 @@
           "beat": "3/4",
           "rows": 12,
           "pages": 1,
-          "sha256": "396addfe08fb765c44e5342cd8859b43de596144a4f6911908e318b73c11e2bb"
+          "sha256": "396addfe08fb765c44e5342cd8859b43de596144a4f6911908e318b73c11e2bb",
+          "status": "판독 초안(검수 전)"
         },
         {
           "name": "사발가",
@@ -450,7 +496,8 @@
           "beat": "2/4",
           "rows": 16,
           "pages": 1,
-          "sha256": "097d59db149b4e89ac1ac25e813dac365e406b963800fea13cec649f7b10878d"
+          "sha256": "097d59db149b4e89ac1ac25e813dac365e406b963800fea13cec649f7b10878d",
+          "status": "판독 초안(검수 전)"
         },
         {
           "name": "사철가 (채보1)",
@@ -462,7 +509,8 @@
           "beat": "3/4",
           "rows": 12,
           "pages": 1,
-          "sha256": "ff5a9d2f7e740a8dee2a249d2aeeb63bd1a2890e1546a2cc0d8e1403f2bfb8d6"
+          "sha256": "ff5a9d2f7e740a8dee2a249d2aeeb63bd1a2890e1546a2cc0d8e1403f2bfb8d6",
+          "status": "판독 초안(검수 전)"
         },
         {
           "name": "사철가 (채보2)",
@@ -474,7 +522,8 @@
           "beat": "2/4",
           "rows": 16,
           "pages": 1,
-          "sha256": "007cb64d8cb742211d64b84fe4ce69b78ed60b0f9a6909cf60ecbe2ccb34acd2"
+          "sha256": "007cb64d8cb742211d64b84fe4ce69b78ed60b0f9a6909cf60ecbe2ccb34acd2",
+          "status": "판독 초안(검수 전)"
         },
         {
           "name": "상사 천리몽",
@@ -486,7 +535,8 @@
           "beat": "2/4",
           "rows": 16,
           "pages": 1,
-          "sha256": "52020fc4db25391eb7c56dd48b1a0660182722b2e68bf6ecba5d1534c8773bd1"
+          "sha256": "52020fc4db25391eb7c56dd48b1a0660182722b2e68bf6ecba5d1534c8773bd1",
+          "status": "판독 초안(검수 전)"
         },
         {
           "name": "상주 모심기",
@@ -498,7 +548,8 @@
           "beat": "3/4",
           "rows": 12,
           "pages": 1,
-          "sha256": "1ae2b4dd5efa24f7db86f1ec7a0d15fb27a53794b728a0879e59cc5ea08e2f03"
+          "sha256": "1ae2b4dd5efa24f7db86f1ec7a0d15fb27a53794b728a0879e59cc5ea08e2f03",
+          "status": "판독 초안(검수 전)"
         },
         {
           "name": "새 타령-2",
@@ -510,7 +561,8 @@
           "beat": "3/4",
           "rows": 12,
           "pages": 2,
-          "sha256": "f8e9fa4a604e44f2a565ee093fafe956cb0305cfeef34628a41a8d282a7c372b"
+          "sha256": "f8e9fa4a604e44f2a565ee093fafe956cb0305cfeef34628a41a8d282a7c372b",
+          "status": "판독 초안(검수 전)"
         },
         {
           "name": "새 타령",
@@ -522,7 +574,8 @@
           "beat": "3/4",
           "rows": 12,
           "pages": 1,
-          "sha256": "d22e49f8980bf55e2d026673277d908af020515dd63e3aab75b60200e0ceafb1"
+          "sha256": "d22e49f8980bf55e2d026673277d908af020515dd63e3aab75b60200e0ceafb1",
+          "status": "판독 초안(검수 전)"
         },
         {
           "name": "석별가",
@@ -534,7 +587,8 @@
           "beat": "3/4",
           "rows": 12,
           "pages": 1,
-          "sha256": "175d00a1833f034d184b7695990925542d1f36ac603e5cc243a4280a9888699f"
+          "sha256": "175d00a1833f034d184b7695990925542d1f36ac603e5cc243a4280a9888699f",
+          "status": "판독 초안(검수 전)"
         },
         {
           "name": "선화공주",
@@ -546,7 +600,8 @@
           "beat": "4/4",
           "rows": 16,
           "pages": 1,
-          "sha256": "38a98b5fd6f20afe56bc9292b42282e48015c6d98bfe0ae1aaf1d035299ba269"
+          "sha256": "38a98b5fd6f20afe56bc9292b42282e48015c6d98bfe0ae1aaf1d035299ba269",
+          "status": "판독 초안(검수 전)"
         },
         {
           "name": "신 만고강산",
@@ -558,7 +613,8 @@
           "beat": "4/4",
           "rows": 16,
           "pages": 1,
-          "sha256": "166bccf572e35bdd7d7b7f262dfe821b3a1fc62d7373ef420de456fe075532e5"
+          "sha256": "166bccf572e35bdd7d7b7f262dfe821b3a1fc62d7373ef420de456fe075532e5",
+          "status": "판독 초안(검수 전)"
         },
         {
           "name": "신 천안 삼거리",
@@ -570,7 +626,8 @@
           "beat": "4/4",
           "rows": 16,
           "pages": 1,
-          "sha256": "b3cbeee10050c284f9ffcef16f7d21cfb060d6a7233d886d2edf0e397a673fde"
+          "sha256": "b3cbeee10050c284f9ffcef16f7d21cfb060d6a7233d886d2edf0e397a673fde",
+          "status": "판독 초안(검수 전)"
         },
         {
           "name": "신고산 타령",
@@ -582,7 +639,8 @@
           "beat": "4/4",
           "rows": 16,
           "pages": 1,
-          "sha256": "ce66677aa5ca781e923cac98450384f4ccfebd464cabd2b24e1aca012a58d295"
+          "sha256": "ce66677aa5ca781e923cac98450384f4ccfebd464cabd2b24e1aca012a58d295",
+          "status": "판독 초안(검수 전)"
         },
         {
           "name": "쑥대머리 (단가 중모리)",
@@ -594,7 +652,8 @@
           "beat": "3/4",
           "rows": 12,
           "pages": 1,
-          "sha256": "290e06d4b934e6b834f3a3afc90d62c2a8127ecc136585ee819873550e85f8a3"
+          "sha256": "290e06d4b934e6b834f3a3afc90d62c2a8127ecc136585ee819873550e85f8a3",
+          "status": "판독 초안(검수 전)"
         },
         {
           "name": "쑥대머리 (중모리)",
@@ -606,7 +665,8 @@
           "beat": "3/4",
           "rows": 12,
           "pages": 1,
-          "sha256": "99978b757fdf69d182297c8062c5d9a6ad87eb8fe6185ed40edb0ce1c0a3d359"
+          "sha256": "99978b757fdf69d182297c8062c5d9a6ad87eb8fe6185ed40edb0ce1c0a3d359",
+          "status": "판독 초안(검수 전)"
         },
         {
           "name": "아리랑 낭낭",
@@ -618,7 +678,8 @@
           "beat": "4/4",
           "rows": 16,
           "pages": 1,
-          "sha256": "26d6bb3d5d57ce66690c57485e89b17c5e72b0a9cdd13c391415e1b60fcf2827"
+          "sha256": "26d6bb3d5d57ce66690c57485e89b17c5e72b0a9cdd13c391415e1b60fcf2827",
+          "status": "판독 초안(검수 전)"
         },
         {
           "name": "아리랑 목동",
@@ -630,7 +691,8 @@
           "beat": "4/4",
           "rows": 16,
           "pages": 1,
-          "sha256": "1d83613fcc82c7d3e73e227b310edb1b7dd68aff96de935316ef6437fe71f4b4"
+          "sha256": "1d83613fcc82c7d3e73e227b310edb1b7dd68aff96de935316ef6437fe71f4b4",
+          "status": "판독 초안(검수 전)"
         },
         {
           "name": "애수의 가을밤",
@@ -642,7 +704,8 @@
           "beat": "4/4",
           "rows": 16,
           "pages": 1,
-          "sha256": "ce647658641b8dfa4b2d64d7d66b82749b21a421c0d069fcd8a08ccae1e83ff4"
+          "sha256": "ce647658641b8dfa4b2d64d7d66b82749b21a421c0d069fcd8a08ccae1e83ff4",
+          "status": "판독 초안(검수 전)"
         },
         {
           "name": "야월삼경",
@@ -654,7 +717,8 @@
           "beat": "3/4",
           "rows": 12,
           "pages": 1,
-          "sha256": "b779873950de76cecb3513f2eaf8e65e7306f681e3335ca3186d123f069c112a"
+          "sha256": "b779873950de76cecb3513f2eaf8e65e7306f681e3335ca3186d123f069c112a",
+          "status": "판독 초안(검수 전)"
         },
         {
           "name": "양류가 (채보1)",
@@ -666,7 +730,8 @@
           "beat": "3/4",
           "rows": 12,
           "pages": 1,
-          "sha256": "865947420dd6907b616178d5e68d21c69bc1158f75db7b7bfae42b07fc9e0dd2"
+          "sha256": "865947420dd6907b616178d5e68d21c69bc1158f75db7b7bfae42b07fc9e0dd2",
+          "status": "판독 초안(검수 전)"
         },
         {
           "name": "양류가 (채보3)",
@@ -678,7 +743,8 @@
           "beat": "3/4",
           "rows": 12,
           "pages": 2,
-          "sha256": "40fc29c4029747b3cd8223d17fe1c6aebbc5799b7a6b14cb192a575e707fc8e6"
+          "sha256": "40fc29c4029747b3cd8223d17fe1c6aebbc5799b7a6b14cb192a575e707fc8e6",
+          "status": "판독 초안(검수 전)"
         },
         {
           "name": "양산도",
@@ -690,7 +756,8 @@
           "beat": "3/4",
           "rows": 12,
           "pages": 1,
-          "sha256": "ac7b51051e1d59a6605620a790cb3a72a0fd27d48b8299c0571cd5088a3d687f"
+          "sha256": "ac7b51051e1d59a6605620a790cb3a72a0fd27d48b8299c0571cd5088a3d687f",
+          "status": "판독 초안(검수 전)"
         },
         {
           "name": "영천 아리랑",
@@ -702,7 +769,8 @@
           "beat": "3/4",
           "rows": 12,
           "pages": 1,
-          "sha256": "c91278a3f37c1c8cedd468aacf79a0b65b289d08977bb70d0f404afcfba971f2"
+          "sha256": "c91278a3f37c1c8cedd468aacf79a0b65b289d08977bb70d0f404afcfba971f2",
+          "status": "판독 초안(검수 전)"
         },
         {
           "name": "오봉산 타령",
@@ -714,7 +782,8 @@
           "beat": "3/4",
           "rows": 12,
           "pages": 2,
-          "sha256": "14a8161c84a777f570fc5a32a7d05e661593104bdc38ae4c5e81cc48f87addf3"
+          "sha256": "14a8161c84a777f570fc5a32a7d05e661593104bdc38ae4c5e81cc48f87addf3",
+          "status": "판독 초안(검수 전)"
         },
         {
           "name": "옹이",
@@ -726,7 +795,8 @@
           "beat": "3/4",
           "rows": 12,
           "pages": 1,
-          "sha256": "c5a23dbe1add73b3a27c9de1c4fbda29d1d6b9b79e5d1d134526d6ea646116e2"
+          "sha256": "c5a23dbe1add73b3a27c9de1c4fbda29d1d6b9b79e5d1d134526d6ea646116e2",
+          "status": "판독 초안(검수 전)"
         },
         {
           "name": "울산 아가씨",
@@ -738,7 +808,8 @@
           "beat": "3/4",
           "rows": 12,
           "pages": 1,
-          "sha256": "95e6a78c3848bfb0dce27bc3afdeb78d2206179e24ac06fb9c93d10cf1e550db"
+          "sha256": "95e6a78c3848bfb0dce27bc3afdeb78d2206179e24ac06fb9c93d10cf1e550db",
+          "status": "판독 초안(검수 전)"
         },
         {
           "name": "이별가",
@@ -750,7 +821,8 @@
           "beat": "4/4",
           "rows": 16,
           "pages": 1,
-          "sha256": "b5c366f5b640425519e48dedb10e58e4fefb8003a0ef7fafa74067b515027e64"
+          "sha256": "b5c366f5b640425519e48dedb10e58e4fefb8003a0ef7fafa74067b515027e64",
+          "status": "판독 초안(검수 전)"
         },
         {
           "name": "잦은 뱃노리",
@@ -762,7 +834,8 @@
           "beat": "3/4",
           "rows": 12,
           "pages": 1,
-          "sha256": "427ce06609c055a1919f9ea2e24148fe32026daa7103a846490f195b8432e86a"
+          "sha256": "427ce06609c055a1919f9ea2e24148fe32026daa7103a846490f195b8432e86a",
+          "status": "판독 초안(검수 전)"
         },
         {
           "name": "전라도 산타령",
@@ -774,7 +847,8 @@
           "beat": "3/4",
           "rows": 12,
           "pages": 1,
-          "sha256": "cab4950d7f973835b56537a694c4ee84cfade22006a3440390782407f4e2d331"
+          "sha256": "cab4950d7f973835b56537a694c4ee84cfade22006a3440390782407f4e2d331",
+          "status": "판독 초안(검수 전)"
         },
         {
           "name": "제목없음 (이미지 (28))",
@@ -786,7 +860,8 @@
           "beat": "3/4",
           "rows": 12,
           "pages": 1,
-          "sha256": "909c9e3e7834823aa729b6f15249bcdf1187d6fa7c6b29de8f451e00a1b97e25"
+          "sha256": "909c9e3e7834823aa729b6f15249bcdf1187d6fa7c6b29de8f451e00a1b97e25",
+          "status": "판독 초안(검수 전)"
         },
         {
           "name": "제주도 타령 닐리리야",
@@ -798,7 +873,8 @@
           "beat": "3/4",
           "rows": 12,
           "pages": 1,
-          "sha256": "9e5a91ce8b68f0b549433c72f7390a8ce219e2b87a82ecb79350857a70104740"
+          "sha256": "9e5a91ce8b68f0b549433c72f7390a8ce219e2b87a82ecb79350857a70104740",
+          "status": "판독 초안(검수 전)"
         },
         {
           "name": "제주도 타령 담바귀 타령",
@@ -810,7 +886,8 @@
           "beat": "3/4",
           "rows": 12,
           "pages": 1,
-          "sha256": "0d035247d26f7517d889977cc4756cd2c3ad911b98838f3a4f2dd40f552675f9"
+          "sha256": "0d035247d26f7517d889977cc4756cd2c3ad911b98838f3a4f2dd40f552675f9",
+          "status": "판독 초안(검수 전)"
         },
         {
           "name": "창부타령 (멜로디버전)",
@@ -822,7 +899,8 @@
           "beat": "3/4",
           "rows": 12,
           "pages": 1,
-          "sha256": "82e97cc7d68b82fb0974fa7f4d54c799b972cf2b5af5c0b79568cc117dfa0861"
+          "sha256": "82e97cc7d68b82fb0974fa7f4d54c799b972cf2b5af5c0b79568cc117dfa0861",
+          "status": "판독 초안(검수 전)"
         },
         {
           "name": "창부타령 (채보1) 창부 타령-2",
@@ -834,7 +912,8 @@
           "beat": "3/4",
           "rows": 12,
           "pages": 1,
-          "sha256": "2fd71ae217c9c33696557f25218cd8678641900350226cbd7255825fce93211c"
+          "sha256": "2fd71ae217c9c33696557f25218cd8678641900350226cbd7255825fce93211c",
+          "status": "판독 초안(검수 전)"
         },
         {
           "name": "창부타령 (채보1) 창부 타령-3",
@@ -846,7 +925,8 @@
           "beat": "4/4",
           "rows": 16,
           "pages": 1,
-          "sha256": "ce1a7d5b6bfd2c61f1d3e67d29624d645caaab3fbdebd928099ca56ef201d436"
+          "sha256": "ce1a7d5b6bfd2c61f1d3e67d29624d645caaab3fbdebd928099ca56ef201d436",
+          "status": "판독 초안(검수 전)"
         },
         {
           "name": "창부타령 (채보1) 창부 타령.jpg",
@@ -858,7 +938,8 @@
           "beat": "3/4",
           "rows": 12,
           "pages": 1,
-          "sha256": "e509a9737b4777caef0dc608934f1fb60c476f4b30518548f3e50a033c770f56"
+          "sha256": "e509a9737b4777caef0dc608934f1fb60c476f4b30518548f3e50a033c770f56",
+          "status": "판독 초안(검수 전)"
         },
         {
           "name": "창부타령 1",
@@ -870,7 +951,8 @@
           "beat": "4/4",
           "rows": 16,
           "pages": 1,
-          "sha256": "e7cdbb18fc89b74654d08a116100b4fadbb8fe3cb1102abe5951e4e837a85c08"
+          "sha256": "e7cdbb18fc89b74654d08a116100b4fadbb8fe3cb1102abe5951e4e837a85c08",
+          "status": "판독 초안(검수 전)"
         },
         {
           "name": "창부타령 2",
@@ -882,7 +964,8 @@
           "beat": "4/4",
           "rows": 16,
           "pages": 1,
-          "sha256": "fbf473f166997e2ab19f45249efb1d80d6b2b1e33ad0500f70b2f749012b5d83"
+          "sha256": "fbf473f166997e2ab19f45249efb1d80d6b2b1e33ad0500f70b2f749012b5d83",
+          "status": "판독 초안(검수 전)"
         },
         {
           "name": "천안 삼거리 (굿거리)",
@@ -894,7 +977,8 @@
           "beat": "3/4",
           "rows": 12,
           "pages": 1,
-          "sha256": "6c19dbb0cf0387a3a3b48b24b506c520da6f98744a038b288ba3dc1d5708d386"
+          "sha256": "6c19dbb0cf0387a3a3b48b24b506c520da6f98744a038b288ba3dc1d5708d386",
+          "status": "판독 초안(검수 전)"
         },
         {
           "name": "천안 삼거리 (채보1)",
@@ -906,7 +990,8 @@
           "beat": "4/4",
           "rows": 16,
           "pages": 1,
-          "sha256": "5f6d98466934cb2f0611a9a5b6090421ff2c5f7ec946bfa4ccc0894f206ebf7c"
+          "sha256": "5f6d98466934cb2f0611a9a5b6090421ff2c5f7ec946bfa4ccc0894f206ebf7c",
+          "status": "판독 초안(검수 전)"
         },
         {
           "name": "청춘가",
@@ -918,7 +1003,8 @@
           "beat": "3/4",
           "rows": 12,
           "pages": 1,
-          "sha256": "79a18625f23d9ce39f5b342aefee9cc15df060a6d285e521bc39567f9e145a13"
+          "sha256": "79a18625f23d9ce39f5b342aefee9cc15df060a6d285e521bc39567f9e145a13",
+          "status": "판독 초안(검수 전)"
         },
         {
           "name": "쾌지나 칭칭",
@@ -930,7 +1016,8 @@
           "beat": "3/4",
           "rows": 12,
           "pages": 1,
-          "sha256": "69951c2dd2baca767437ffc4b7eb10831a88764825309eaca18f3949b22ac488"
+          "sha256": "69951c2dd2baca767437ffc4b7eb10831a88764825309eaca18f3949b22ac488",
+          "status": "판독 초안(검수 전)"
         },
         {
           "name": "태평가",
@@ -942,7 +1029,8 @@
           "beat": "3/4",
           "rows": 12,
           "pages": 1,
-          "sha256": "02baaf5b1709a6d4ee0d0ffd44d9734a8ca4992ff4ed6748b362b3af0209803d"
+          "sha256": "02baaf5b1709a6d4ee0d0ffd44d9734a8ca4992ff4ed6748b362b3af0209803d",
+          "status": "판독 초안(검수 전)"
         },
         {
           "name": "통영 개타령",
@@ -954,7 +1042,8 @@
           "beat": "4/4",
           "rows": 16,
           "pages": 1,
-          "sha256": "0791e3789252f904daca69b4afb9e9614331e6c18b4c1d39a4d3ba5f030bee3c"
+          "sha256": "0791e3789252f904daca69b4afb9e9614331e6c18b4c1d39a4d3ba5f030bee3c",
+          "status": "판독 초안(검수 전)"
         },
         {
           "name": "풍년 노래",
@@ -966,7 +1055,8 @@
           "beat": "4/4",
           "rows": 16,
           "pages": 1,
-          "sha256": "5bd730c32a8081c77d4d81c553a900d0917d0daf0d0eb7c53419e1d1f7f217d6"
+          "sha256": "5bd730c32a8081c77d4d81c553a900d0917d0daf0d0eb7c53419e1d1f7f217d6",
+          "status": "판독 초안(검수 전)"
         },
         {
           "name": "풍년가 (채보1)",
@@ -978,7 +1068,8 @@
           "beat": "3/4",
           "rows": 12,
           "pages": 1,
-          "sha256": "4b624b2d85e4a8e6ea4049fd58f479fcb08a5b89f4e31fd1c4465daeb3a50020"
+          "sha256": "4b624b2d85e4a8e6ea4049fd58f479fcb08a5b89f4e31fd1c4465daeb3a50020",
+          "status": "판독 초안(검수 전)"
         },
         {
           "name": "풍년가 (채보2)",
@@ -990,7 +1081,8 @@
           "beat": "3/4",
           "rows": 12,
           "pages": 1,
-          "sha256": "05f5dca4eb1818cd3e190057ca70c4cf68e773478770a93a3d4c977a0d453e36"
+          "sha256": "05f5dca4eb1818cd3e190057ca70c4cf68e773478770a93a3d4c977a0d453e36",
+          "status": "판독 초안(검수 전)"
         },
         {
           "name": "한강수 타령",
@@ -1002,7 +1094,8 @@
           "beat": "3/4",
           "rows": 12,
           "pages": 1,
-          "sha256": "77f6bc8441d55d53bcf67f3c91b58edd1fd2e320fd36e8a30ca20be623a7c6a0"
+          "sha256": "77f6bc8441d55d53bcf67f3c91b58edd1fd2e320fd36e8a30ca20be623a7c6a0",
+          "status": "판독 초안(검수 전)"
         },
         {
           "name": "함양 양잠가",
@@ -1014,7 +1107,8 @@
           "beat": "2/4",
           "rows": 16,
           "pages": 1,
-          "sha256": "41087540b0b4a3039202eeb46acf835dfab6101e2f346fa5a4e908468e6d42f9"
+          "sha256": "41087540b0b4a3039202eeb46acf835dfab6101e2f346fa5a4e908468e6d42f9",
+          "status": "판독 초안(검수 전)"
         },
         {
           "name": "흥 타령 (늦중모리)",
@@ -1026,7 +1120,8 @@
           "beat": "3/4",
           "rows": 12,
           "pages": 1,
-          "sha256": "e0ebc8a90a236f5a51c709653fb71af9b904918a20d0804c5f0382a5bfe1a313"
+          "sha256": "e0ebc8a90a236f5a51c709653fb71af9b904918a20d0804c5f0382a5bfe1a313",
+          "status": "판독 초안(검수 전)"
         },
         {
           "name": "흥 타령 (채보3)",
@@ -1038,7 +1133,8 @@
           "beat": "3/4",
           "rows": 12,
           "pages": 1,
-          "sha256": "775a8f299665ef24022f05b36b39398d4f2f1f4700132f2b0c04b99808eb2126"
+          "sha256": "775a8f299665ef24022f05b36b39398d4f2f1f4700132f2b0c04b99808eb2126",
+          "status": "판독 초안(검수 전)"
         },
         {
           "name": "희망가",
@@ -1050,13 +1146,168 @@
           "beat": "3/4",
           "rows": 12,
           "pages": 1,
-          "sha256": "cd678dbb52782e7e64354cac70d9f5fd55f2f3ff11364274edc81e31c3f55f0a"
+          "sha256": "cd678dbb52782e7e64354cac70d9f5fd55f2f3ff11364274edc81e31c3f55f0a",
+          "status": "판독 초안(검수 전)"
+        }
+      ]
+    },
+    {
+      "name": "가요",
+      "group": "대금 악보",
+      "label": "가요",
+      "files": [
+        {
+          "name": "그리움은 가슴마다",
+          "title": "그리움은 가슴마다",
+          "fileName": "그리움은 가슴마다.csv",
+          "path": "sheets/대금율보/csv/가요/그리움은 가슴마다.csv",
+          "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/sheets/%EB%8C%80%EA%B8%88%EC%9C%A8%EB%B3%B4/csv/%EA%B0%80%EC%9A%94/%EA%B7%B8%EB%A6%AC%EC%9B%80%EC%9D%80%20%EA%B0%80%EC%8A%B4%EB%A7%88%EB%8B%A4.csv",
+          "sizeBytes": 1415,
+          "beat": "4/4",
+          "rows": 16,
+          "pages": 1,
+          "sha256": "4a8b557144d01c7c5017ba9c65f372f5328244b5140925dbd531289526db9162",
+          "status": "판독 초안(검수 전)",
+          "source": "2권 229쪽"
+        }
+      ]
+    },
+    {
+      "name": "동요·쉬운곡",
+      "group": "대금 악보",
+      "label": "동요·쉬운곡",
+      "files": [
+        {
+          "name": "개나리",
+          "title": "개나리",
+          "fileName": "개나리.csv",
+          "path": "sheets/대금율보/csv/동요·쉬운곡/개나리.csv",
+          "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/sheets/%EB%8C%80%EA%B8%88%EC%9C%A8%EB%B3%B4/csv/%EB%8F%99%EC%9A%94%C2%B7%EC%89%AC%EC%9A%B4%EA%B3%A1/%EA%B0%9C%EB%82%98%EB%A6%AC.csv",
+          "sizeBytes": 933,
+          "beat": "4/4",
+          "rows": 16,
+          "pages": 1,
+          "sha256": "77e74dfddcd796400568f6c417dccc1b88c9760c303e4c07b1e307b847e58dd8",
+          "status": "판독 초안(검수 전)",
+          "source": "2권 11쪽"
+        },
+        {
+          "name": "기다리는 마음",
+          "title": "기다리는 마음",
+          "fileName": "기다리는 마음.csv",
+          "path": "sheets/대금율보/csv/동요·쉬운곡/기다리는 마음.csv",
+          "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/sheets/%EB%8C%80%EA%B8%88%EC%9C%A8%EB%B3%B4/csv/%EB%8F%99%EC%9A%94%C2%B7%EC%89%AC%EC%9A%B4%EA%B3%A1/%EA%B8%B0%EB%8B%A4%EB%A6%AC%EB%8A%94%20%EB%A7%88%EC%9D%8C.csv",
+          "sizeBytes": 1037,
+          "beat": "3/4",
+          "rows": 12,
+          "pages": 1,
+          "sha256": "e825de28d6d500da53f8d3b78e66b670a176e40652601eb58e3eb7163caceb73",
+          "status": "판독 초안(검수 전)",
+          "source": "2권 14쪽"
+        },
+        {
+          "name": "바다",
+          "title": "바다",
+          "fileName": "바다.csv",
+          "path": "sheets/대금율보/csv/동요·쉬운곡/바다.csv",
+          "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/sheets/%EB%8C%80%EA%B8%88%EC%9C%A8%EB%B3%B4/csv/%EB%8F%99%EC%9A%94%C2%B7%EC%89%AC%EC%9A%B4%EA%B3%A1/%EB%B0%94%EB%8B%A4.csv",
+          "sizeBytes": 997,
+          "beat": "3/4",
+          "rows": 12,
+          "pages": 1,
+          "sha256": "a1dfb5ca3d1aef99986b71895638fa3f9586d446c5aefca09b32addf6f274bfe",
+          "status": "판독 초안(검수 전)",
+          "source": "2권 14쪽"
+        },
+        {
+          "name": "비행기",
+          "title": "비행기",
+          "fileName": "비행기.csv",
+          "path": "sheets/대금율보/csv/동요·쉬운곡/비행기.csv",
+          "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/sheets/%EB%8C%80%EA%B8%88%EC%9C%A8%EB%B3%B4/csv/%EB%8F%99%EC%9A%94%C2%B7%EC%89%AC%EC%9A%B4%EA%B3%A1/%EB%B9%84%ED%96%89%EA%B8%B0.csv",
+          "sizeBytes": 927,
+          "beat": "4/4",
+          "rows": 16,
+          "pages": 1,
+          "sha256": "50b4b09f5234854e91fef3a7d82a73fabcc1e047430de167915ac16025cce84d",
+          "status": "판독 초안(검수 전)",
+          "source": "2권 11쪽"
+        },
+        {
+          "name": "생일 축하합니다",
+          "title": "생일 축하합니다",
+          "fileName": "생일 축하합니다.csv",
+          "path": "sheets/대금율보/csv/동요·쉬운곡/생일 축하합니다.csv",
+          "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/sheets/%EB%8C%80%EA%B8%88%EC%9C%A8%EB%B3%B4/csv/%EB%8F%99%EC%9A%94%C2%B7%EC%89%AC%EC%9A%B4%EA%B3%A1/%EC%83%9D%EC%9D%BC%20%EC%B6%95%ED%95%98%ED%95%A9%EB%8B%88%EB%8B%A4.csv",
+          "sizeBytes": 887,
+          "beat": "3/4",
+          "rows": 12,
+          "pages": 1,
+          "sha256": "e85e8ef6f58e93e5eb83abb5085aa69d663fd3aa3165d65df81506da28401243",
+          "status": "판독 초안(검수 전)",
+          "source": "2권 14쪽"
+        },
+        {
+          "name": "소금장수",
+          "title": "소금장수",
+          "fileName": "소금장수.csv",
+          "path": "sheets/대금율보/csv/동요·쉬운곡/소금장수.csv",
+          "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/sheets/%EB%8C%80%EA%B8%88%EC%9C%A8%EB%B3%B4/csv/%EB%8F%99%EC%9A%94%C2%B7%EC%89%AC%EC%9A%B4%EA%B3%A1/%EC%86%8C%EA%B8%88%EC%9E%A5%EC%88%98.csv",
+          "sizeBytes": 2886,
+          "beat": "4/4",
+          "rows": 16,
+          "pages": 2,
+          "sha256": "95b2f146007a46044f0a2a476b1668a03f680a9a2ac78ef129c66d619471873e",
+          "status": "판독 초안(검수 전)",
+          "source": "2권 22쪽"
+        },
+        {
+          "name": "어린송아지",
+          "title": "어린송아지",
+          "fileName": "어린송아지.csv",
+          "path": "sheets/대금율보/csv/동요·쉬운곡/어린송아지.csv",
+          "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/sheets/%EB%8C%80%EA%B8%88%EC%9C%A8%EB%B3%B4/csv/%EB%8F%99%EC%9A%94%C2%B7%EC%89%AC%EC%9A%B4%EA%B3%A1/%EC%96%B4%EB%A6%B0%EC%86%A1%EC%95%84%EC%A7%80.csv",
+          "sizeBytes": 969,
+          "beat": "4/4",
+          "rows": 16,
+          "pages": 1,
+          "sha256": "6bda5d805e101d36e2bd9b33f91711774bb4edaa8b0c87df8ab2d5c13e74bbbc",
+          "status": "판독 초안(검수 전)",
+          "source": "2권 11쪽"
+        },
+        {
+          "name": "탄일종",
+          "title": "탄일종",
+          "fileName": "탄일종.csv",
+          "path": "sheets/대금율보/csv/동요·쉬운곡/탄일종.csv",
+          "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/sheets/%EB%8C%80%EA%B8%88%EC%9C%A8%EB%B3%B4/csv/%EB%8F%99%EC%9A%94%C2%B7%EC%89%AC%EC%9A%B4%EA%B3%A1/%ED%83%84%EC%9D%BC%EC%A2%85.csv",
+          "sizeBytes": 999,
+          "beat": "4/4",
+          "rows": 16,
+          "pages": 1,
+          "sha256": "d5ce8e42b9091ebd9e5d9ac5faa5a435a82cce4d475eca9d14ec17ccd4ff0928",
+          "status": "판독 초안(검수 전)",
+          "source": "2권 11쪽"
+        },
+        {
+          "name": "학교종",
+          "title": "학교종",
+          "fileName": "학교종.csv",
+          "path": "sheets/대금율보/csv/동요·쉬운곡/학교종.csv",
+          "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/sheets/%EB%8C%80%EA%B8%88%EC%9C%A8%EB%B3%B4/csv/%EB%8F%99%EC%9A%94%C2%B7%EC%89%AC%EC%9A%B4%EA%B3%A1/%ED%95%99%EA%B5%90%EC%A2%85.csv",
+          "sizeBytes": 897,
+          "beat": "4/4",
+          "rows": 16,
+          "pages": 1,
+          "sha256": "597bbf4862a8502accdb92780bdf96347754bfd21a8fa6ad3c37451e10ee109d",
+          "status": "판독 초안(검수 전)",
+          "source": "2권 11쪽"
         }
       ]
     }
   ],
   "_total": {
-    "categories": 1,
-    "files": 87
+    "categories": 3,
+    "files": 97
   }
 }

@@ -9,9 +9,21 @@ sheets/<카테고리>/csv/*.csv (정간보 CSV v2) 를 스캔해 sheets-index.js
     python3 generate_sheets_index.py          # 검사 + 목록 생성
     python3 generate_sheets_index.py --check  # 검사만 (파일 변경 없음)
 
-폴더 구조:
-    sheets/<카테고리>/csv/*.csv   ← 앱 목록에 들어가는 CSV (csv/ 가 없으면 카테고리 폴더 바로 아래 *.csv)
-    sheets/<카테고리>/원본/ 검수/ _작업/   ← 작업 자료, 읽지 않음
+폴더 구조 (그룹 › 카테고리 2단):
+    sheets/<그룹>/csv/*.csv          ← 그룹 안 카테고리 하나 (카테고리 이름 = 그룹 표시 이름). 예: sheets/민요/csv/
+    sheets/<그룹>/csv/<분류>/*.csv   ← 분류마다 카테고리 하나. 예: sheets/대금율보/csv/동요·쉬운곡/
+    (csv/ 가 없으면 그룹 폴더 바로 아래 *.csv)
+    sheets/<그룹>/원본/ 검수/ _작업/   ← 작업 자료, 읽지 않음
+
+앱에 보이는 이름:
+    폴더 이름은 관리용이다. 그룹 표시 이름은 GROUP_LABELS 로 바꿀 수 있고, HIDDEN_WORDS 의 단어는
+    앱에 보이는 어떤 값(그룹·카테고리 이름, 곡 제목·파일명, CSV 내용)에도 있으면 ERROR.
+
+sheets-index.json (하위 호환 확장)
+    groups[]            {"name": 그룹 표시 이름}  (표시 순서)
+    categories[].group  그룹 표시 이름 · .label 그룹 안 카테고리 표시 이름
+    categories[].name   전체에서 유일 (구버전 앱은 이것만 보고 평평한 목록으로 보여 줌)
+    files[].status      CSV '상태' 행 · .source CSV '출처' 행
 
 오류(ERROR)가 하나라도 있으면 종료 코드 1 — 고친 뒤 push 하세요.
   ERROR : 파일명 NFC 아님 · UTF-8 아님 · "정간번호" 행 없음 · 행수/페이지 블록 불일치 ·
@@ -42,12 +54,26 @@ IGNORE = {".DS_Store", ".gitkeep", ".gitignore", "Thumbs.db"}
 WORK_DIRS = {"원본", "검수"}
 CSV_SUBDIR = "csv"  # 카테고리 안 CSV 폴더 이름
 COLUMNS = 20
+# 그룹 폴더 → 앱 표시 이름. 없으면 폴더 이름 그대로.
+GROUP_LABELS = {"대금율보": "대금 악보"}
+# 그룹 표시 순서 (없는 그룹은 뒤에 가나다 순)
+GROUP_ORDER = ["민요", "대금율보"]
+# 관리용 단어 — 앱에 보이는 값에 있으면 ERROR
+HIDDEN_WORDS = ["대금율보"]
 
 # 앱 Yulmyeong.NAMES + JeongganSymbols.MARKS 와 동일
 YUL = list("㣴㣕㣖㣣㣨㣡㣸㣩") + ["𢓡"] + list("㣮㣳㣹僙㐲㑀俠㑬㑖") + ["𠐭"] + list(
     "㑣侇㑲㒇㒣黃大太夾姑仲㽔林夷南無應潢汏汰浹㴌㳞㶋淋洟湳潕㶐㶂") + ["𣴘"] + list("㳲㴺㵈㴢㶙㵉㴣㵜㶃㶝")
 MARKS = ["―", "△", "И", "ﾉ", "^", "⌝", "ㅋ", "⌞", "է", "⊏", "⊔", "·", "○", "⁚", "‹", "／"]
-KNOWN = set(YUL) | set(MARKS)
+# 앱 JeongganSymbols.CATALOG_MARKS (악상기호 카탈로그 glyph, 팔레트 둘째 줄) — 여러 코드포인트 glyph 포함
+CATALOG_MARKS = [
+    "ㄱ", "ㄴ", "Z", "h", "μ", "ʒ", "ʒ̵", "⌙", "┘", "ㄹ", "∾", "∽", "∞",
+    "∧", "ㅅ", "ㅅ̷", "フ", "ヲ", "∼", "∼̊", "ϟ", "ϡ", "ㄷ", "ʊ", "I", "H", "ㄷ⊔",
+    "▾", "∨", "ㅂㅂ", "ㅣ", "ㅍ", "ᄌᆫ", "ᄌᆺ",
+    "(", "⸨", ")", "⸩", "c", "⌇", "ʃ", "メ", "メ̸", "s", "〃",
+]
+# 검사는 코드포인트 단위 (앱 isKnown 과 같음)
+KNOWN = set(YUL) | {ch for m in MARKS + CATALOG_MARKS for ch in m}
 assert len(YUL) == 60, len(YUL)
 
 
@@ -65,13 +91,16 @@ def unguard(v: str) -> str:
 
 def check_csv(path: str, rel: str, errors: list, warns: list) -> dict:
     """CSV v2 를 앱과 같은 규칙으로 읽어 메타 정보를 돌려준다."""
-    info = {"title": "", "beat": "", "rows": 0, "pages": 0}
+    info = {"title": "", "beat": "", "rows": 0, "pages": 0, "status": "", "source": ""}
     raw = open(path, "rb").read()
     try:
         text = raw.decode("utf-8-sig")
     except UnicodeDecodeError:
         errors.append(f"UTF-8 아님: {rel}")
         return info
+    for w in HIDDEN_WORDS:
+        if w in nfc(text):
+            errors.append(f"관리용 단어 '{w}' 가 CSV 내용에 있음 (앱에 보임): {rel}")
     records = [r for r in csv.reader(io.StringIO(text, newline="")) if any(c for c in r)]
     if not any(r and r[0].strip() == "정간번호" for r in records):
         errors.append(f"'정간번호' 행 없음: {rel}")
@@ -85,6 +114,10 @@ def check_csv(path: str, rel: str, errors: list, warns: list) -> dict:
                 errors.append(f"수식으로 해석될 칸 '{c[:10]}': {rel}")
         if key == "타이틀":
             info["title"] = val.strip()
+        elif key == "상태":
+            info["status"] = val.strip()
+        elif key == "출처":
+            info["source"] = val.strip()
         elif key == "박자":
             info["beat"] = val.strip().removesuffix("박자").strip()
         elif key == "행수":
@@ -120,39 +153,85 @@ def check_csv(path: str, rel: str, errors: list, warns: list) -> dict:
     return info
 
 
+def scan_csv_dir(csv_dir: str, rel_parts: list, errors: list, warns: list) -> list:
+    files = []
+    for fn in sorted(os.listdir(csv_dir)):
+        if fn in IGNORE or fn.startswith(".") or not fn.lower().endswith(".csv"):
+            continue
+        if not os.path.isfile(os.path.join(csv_dir, fn)):
+            continue
+        rel = "/".join(["sheets", *rel_parts, fn])
+        if fn != nfc(fn) or any(p != nfc(p) for p in rel_parts):
+            errors.append(f"파일명이 NFC(완성형)가 아님 — 앱 URL 과 달라 404: {rel}")
+        path = os.path.join(csv_dir, fn)
+        info = check_csv(path, rel, errors, warns)
+        data = open(path, "rb").read()
+        f = {
+            "name": os.path.splitext(fn)[0],
+            "title": info["title"],
+            "fileName": fn,
+            "path": rel,
+            "url": raw_url("sheets", *rel_parts, fn),
+            "sizeBytes": len(data),
+            "beat": info["beat"],
+            "rows": info["rows"],
+            "pages": info["pages"],
+            "sha256": hashlib.sha256(data).hexdigest(),
+        }
+        if info["status"]:
+            f["status"] = info["status"]
+        if info["source"]:
+            f["source"] = info["source"]
+        files.append(f)
+    return files
+
+
 def scan(sheets_dir: str):
-    errors, warns, categories = [], [], []
-    for cat in sorted(n for n in os.listdir(sheets_dir) if os.path.isdir(os.path.join(sheets_dir, n))
-                      and n not in IGNORE and nfc(n) not in WORK_DIRS and not n.startswith(("_", "."))):
-        files = []
-        # sheets/<cat>/csv/ 가 있으면 거기, 없으면 sheets/<cat>/ 바로 아래
-        sub = [CSV_SUBDIR] if os.path.isdir(os.path.join(sheets_dir, cat, CSV_SUBDIR)) else []
-        csv_dir = os.path.join(sheets_dir, cat, *sub)
-        for fn in sorted(os.listdir(csv_dir)):
-            if fn in IGNORE or fn.startswith(".") or not fn.lower().endswith(".csv"):
-                continue
-            rel = "/".join(["sheets", cat, *sub, fn])
-            if fn != nfc(fn) or cat != nfc(cat):
-                errors.append(f"파일명이 NFC(완성형)가 아님 — 앱 URL 과 달라 404: {rel}")
-            path = os.path.join(csv_dir, fn)
-            info = check_csv(path, rel, errors, warns)
-            data = open(path, "rb").read()
-            files.append({
-                "name": os.path.splitext(fn)[0],
-                "title": info["title"],
-                "fileName": fn,
-                "path": rel,
-                "url": raw_url("sheets", cat, *sub, fn),
-                "sizeBytes": len(data),
-                "beat": info["beat"],
-                "rows": info["rows"],
-                "pages": info["pages"],
-                "sha256": hashlib.sha256(data).hexdigest(),
-            })
-        if files:
-            categories.append({"name": cat, "files": files})
-            print(f"  📄 [{cat}] {len(files)}곡")
-    return categories, errors, warns
+    errors, warns, categories, groups = [], [], [], []
+    folders = [n for n in os.listdir(sheets_dir) if os.path.isdir(os.path.join(sheets_dir, n))
+               and n not in IGNORE and nfc(n) not in WORK_DIRS and not n.startswith(("_", "."))]
+    order = {g: i for i, g in enumerate(GROUP_ORDER)}
+    folders.sort(key=lambda n: (order.get(nfc(n), len(order)), nfc(n)))
+    for gdir in folders:
+        glabel = GROUP_LABELS.get(nfc(gdir), nfc(gdir))
+        # sheets/<그룹>/csv/ 가 있으면 거기, 없으면 sheets/<그룹>/ 바로 아래
+        sub = [CSV_SUBDIR] if os.path.isdir(os.path.join(sheets_dir, gdir, CSV_SUBDIR)) else []
+        csv_dir = os.path.join(sheets_dir, gdir, *sub)
+        found = []  # (label, files)
+        top = scan_csv_dir(csv_dir, [gdir, *sub], errors, warns)
+        if top:
+            found.append((glabel, top))
+        if sub:
+            for cdir in sorted((n for n in os.listdir(csv_dir) if os.path.isdir(os.path.join(csv_dir, n))
+                                and not n.startswith(("_", "."))), key=nfc):
+                files = scan_csv_dir(os.path.join(csv_dir, cdir), [gdir, *sub, cdir], errors, warns)
+                if files:
+                    found.append((nfc(cdir), files))
+        if not found:
+            continue
+        groups.append({"name": glabel})
+        for label, files in found:
+            categories.append({"name": label, "group": glabel, "label": label, "files": files})
+            print(f"  📄 [{glabel} › {label}] {len(files)}곡")
+    # name 은 전체에서 유일하게 (구버전 앱 목록 제목·키). 겹치면 "분류 (그룹)"
+    count = {}
+    for c in categories:
+        count[c["name"]] = count.get(c["name"], 0) + 1
+    for c in categories:
+        if count[c["name"]] > 1 and c["label"] != c["group"]:
+            c["name"] = f"{c['label']} ({c['group']})"
+    names = [c["name"] for c in categories]
+    for n in sorted({n for n in names if names.count(n) > 1}):
+        errors.append(f"카테고리 이름 중복: {n}")
+    # 앱에 보이는 값에 관리용 단어 금지
+    for c in categories:
+        shown = [c["name"], c["group"], c["label"]] + [v for f in c["files"]
+                                                       for v in (f["name"], f["title"], f["fileName"], f.get("status", ""), f.get("source", ""))]
+        for w in HIDDEN_WORDS:
+            for v in shown:
+                if w in v:
+                    errors.append(f"관리용 단어 '{w}' 가 앱 표시 값에 있음: [{c['name']}] {v}")
+    return groups, categories, errors, warns
 
 
 def main():
@@ -160,7 +239,7 @@ def main():
     sheets_dir = os.path.join(base_dir, "sheets")
     out = os.path.join(base_dir, "sheets-index.json")
     print(f"📁 레포 경로: {base_dir}\n🔗 Base URL : {BASE}\n")
-    categories, errors, warns = scan(sheets_dir)
+    groups, categories, errors, warns = scan(sheets_dir)
     for w in warns:
         print(f"  ⚠️ {w}")
     for e in errors:
@@ -172,6 +251,7 @@ def main():
         "version": 1,
         "generated": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
         "owner": OWNER, "repo": REPO, "branch": BRANCH,
+        "groups": groups,
         "categories": categories,
         "_total": {"categories": len(categories), "files": sum(len(c["files"]) for c in categories)},
     }
