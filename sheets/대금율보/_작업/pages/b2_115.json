@@ -1,0 +1,41 @@
+{
+  "book": 2,
+  "pdfPage": 115,
+  "printedPage": 113,
+  "confirmed": true,
+  "songs": [
+    {
+      "id": "b2_113_1",
+      "title": "님타령",
+      "parts": [
+        {
+          "box": [
+            0.157,
+            0.128,
+            0.648,
+            0.372
+          ],
+          "lines": 9,
+          "rows": 12
+        },
+        {
+          "box": [
+            0.157,
+            0.515,
+            0.648,
+            0.371
+          ],
+          "lines": 9,
+          "rows": 12
+        }
+      ],
+      "beat": "3/4",
+      "jangdan": "굿거리",
+      "tempo": "",
+      "sections": "",
+      "repeat": "",
+      "memo": "제목 오른쪽 세로쓰기. 위 단 9줄 → 아래 단 9줄",
+      "genre": "민요"
+    }
+  ]
+}

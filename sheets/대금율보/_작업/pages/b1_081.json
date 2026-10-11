@@ -1,0 +1,38 @@
+{
+  "book": 1,
+  "pdfPage": 81,
+  "printedPage": 75,
+  "confirmed": true,
+  "songs": [
+    {
+      "id": "b1_075_1",
+      "title": "L'IMMENSITA",
+      "titleBox": [0.428, 0.118, 0.473, 0.032],
+      "parts": [
+        {"box": [0.428, 0.15, 0.473, 0.794], "lines": 8, "rows": 16}
+      ],
+      "beat": "4/4",
+      "jangdan": "",
+      "tempo": "♩=70",
+      "sections": "",
+      "repeat": "",
+      "memo": "배정 이름 '눈물속에 핀꽃'. 본문 제목 LIMMENSITA(L'IMMENSITA). 가사 없음. 원본 빠르기 □=70",
+      "genre": "외국곡·창작곡"
+    },
+    {
+      "id": "b1_075_2",
+      "title": "기타구니노 하루",
+      "titleBox": [0.075, 0.118, 0.353, 0.032],
+      "parts": [
+        {"box": [0.075, 0.15, 0.353, 0.794], "lines": 5, "rows": 16}
+      ],
+      "beat": "4/4",
+      "jangdan": "",
+      "tempo": "♩=70",
+      "sections": "",
+      "repeat": "",
+      "memo": "일본곡(北国の春) 가사 한글 음역. 원본 빠르기 □=70",
+      "genre": "외국곡·창작곡"
+    }
+  ]
+}

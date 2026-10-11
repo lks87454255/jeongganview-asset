@@ -1,0 +1,17 @@
+{
+  "book": 2,
+  "pdfPage": 107,
+  "printedPage": 105,
+  "confirmed": true,
+  "songs": [
+    {"id": "b2_105_1", "title": "사발가",
+     "parts": [{"box": [0.352, 0.119, 0.474, 0.378], "lines": 7, "rows": 12}],
+     "beat": "3/4", "jangdan": "굿거리", "tempo": "", "sections": "", "repeat": "",
+     "memo": "제목 오른쪽 세로쓰기(0.83–0.87)", "genre": "민요"},
+    {"id": "b2_105_2", "title": "신풍년가",
+     "parts": [{"box": [0.128, 0.119, 0.086, 0.378], "lines": 1, "rows": 12},
+               {"box": [0.128, 0.503, 0.758, 0.382], "lines": 11, "rows": 12}],
+     "beat": "3/4", "jangdan": "굿거리", "tempo": "", "sections": "", "repeat": "",
+     "memo": "위 단 왼쪽 1줄 → 아래 단 11줄로 이어짐. 제목 위 단 세로쓰기(0.21–0.29)", "genre": "민요"}
+  ]
+}

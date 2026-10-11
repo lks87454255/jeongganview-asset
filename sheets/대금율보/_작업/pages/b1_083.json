@@ -1,0 +1,23 @@
+{
+  "book": 1,
+  "pdfPage": 83,
+  "printedPage": 77,
+  "confirmed": true,
+  "songs": [
+    {
+      "id": "b1_077_1",
+      "title": "이사도라",
+      "titleBox": [0.108, 0.125, 0.753, 0.042],
+      "parts": [
+        {"box": [0.108, 0.165, 0.753, 0.76], "lines": 9, "rows": 12}
+      ],
+      "beat": "3/4",
+      "jangdan": "",
+      "tempo": "♩=30",
+      "sections": "",
+      "repeat": "",
+      "memo": "원본 '오관청'·빠르기 □=30. 가사 없음(기악). 한 줄 12정간. 쪽이 약간 기울어 있음",
+      "genre": "외국곡·창작곡"
+    }
+  ]
+}

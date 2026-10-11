@@ -1,0 +1,24 @@
+{
+  "book": 2,
+  "pdfPage": 237,
+  "printedPage": 235,
+  "confirmed": true,
+  "songs": [
+    {
+      "id": "b2_235_1",
+      "title": "용두산 엘레지",
+      "parts": [{"box": [0.515, 0.103, 0.31, 0.778], "lines": 4, "rows": 16}],
+      "beat": "4/4", "jangdan": "", "tempo": "", "sections": "", "repeat": "",
+      "memo": "제목 오른쪽 세로쓰기(0.825–0.872)",
+      "genre": "가요"
+    },
+    {
+      "id": "b2_235_2",
+      "title": "해운대 엘레지",
+      "parts": [{"box": [0.163, 0.103, 0.305, 0.778], "lines": 4, "rows": 16}],
+      "beat": "4/4", "jangdan": "", "tempo": "", "sections": "", "repeat": "",
+      "memo": "제목 오른쪽 세로쓰기(0.468–0.515)",
+      "genre": "가요"
+    }
+  ]
+}

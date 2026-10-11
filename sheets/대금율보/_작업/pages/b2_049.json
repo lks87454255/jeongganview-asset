@@ -1,0 +1,54 @@
+{
+  "book": 2,
+  "pdfPage": 49,
+  "printedPage": 47,
+  "confirmed": true,
+  "songs": [
+    {
+      "id": "b2_047_1",
+      "title": "사랑가",
+      "parts": [
+        {
+          "box": [
+            0.111,
+            0.118,
+            0.743,
+            0.375
+          ],
+          "lines": 11,
+          "rows": 12
+        }
+      ],
+      "beat": "3/4",
+      "jangdan": "굿거리",
+      "tempo": "",
+      "sections": "",
+      "repeat": "",
+      "memo": "제목 오른쪽 세로쓰기",
+      "genre": "민요"
+    },
+    {
+      "id": "b2_047_2",
+      "title": "햇님달님",
+      "parts": [
+        {
+          "box": [
+            0.107,
+            0.509,
+            0.746,
+            0.375
+          ],
+          "lines": 11,
+          "rows": 12
+        }
+      ],
+      "beat": "3/4",
+      "jangdan": "굿거리",
+      "tempo": "",
+      "sections": "",
+      "repeat": "",
+      "memo": "제목 오른쪽 세로쓰기",
+      "genre": "가요"
+    }
+  ]
+}

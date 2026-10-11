@@ -1,0 +1,38 @@
+{
+  "book": 1,
+  "pdfPage": 243,
+  "printedPage": 237,
+  "confirmed": true,
+  "songs": [
+    {
+      "id": "b1_237_1",
+      "title": "해운대 연가",
+      "titleBox": [
+        0.453,
+        0.088,
+        0.485,
+        0.025
+      ],
+      "parts": [
+        {
+          "box": [
+            0.453,
+            0.113,
+            0.485,
+            0.829
+          ],
+          "lines": 6,
+          "rows": 20
+        }
+      ],
+      "beat": "4/4",
+      "jangdan": "",
+      "tempo": "□=60",
+      "sections": "",
+      "repeat": "",
+      "memo": "",
+      "genre": "가요"
+    }
+  ],
+  "memo": "왼쪽 곡 '해운대 엘레지'는 배정 밖이라 넣지 않음"
+}

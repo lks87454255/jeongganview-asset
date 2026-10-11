@@ -1,0 +1,24 @@
+{
+  "book": 1,
+  "pdfPage": 235,
+  "printedPage": 229,
+  "confirmed": true,
+  "songs": [
+    {
+      "id": "b1_229_1",
+      "title": "사모곡",
+      "titleBox": [0.057, 0.076, 0.457, 0.028],
+      "parts": [
+        {"box": [0.057, 0.104, 0.457, 0.834], "lines": 6, "rows": 24}
+      ],
+      "beat": "4/4",
+      "jangdan": "",
+      "tempo": "□=70",
+      "sections": "",
+      "repeat": "",
+      "memo": "",
+      "genre": "가요"
+    }
+  ],
+  "memo": "오른쪽 곡 '삼천포 아가씨'는 배정 밖이라 넣지 않음"
+}

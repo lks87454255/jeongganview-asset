@@ -1,0 +1,16 @@
+{
+  "book": 2,
+  "pdfPage": 108,
+  "printedPage": 106,
+  "confirmed": true,
+  "songs": [
+    {"id": "b2_106_1", "title": "한강수타령",
+     "parts": [{"box": [0.114, 0.116, 0.696, 0.376], "lines": 8, "rows": 12}],
+     "beat": "3/4", "jangdan": "굿거리", "tempo": "", "sections": "", "repeat": "",
+     "memo": "제목 오른쪽 세로쓰기(0.81–0.86)", "genre": "민요"},
+    {"id": "b2_106_2", "title": "청춘가",
+     "parts": [{"box": [0.112, 0.504, 0.698, 0.376], "lines": 8, "rows": 12}],
+     "beat": "3/4", "jangdan": "굿거리", "tempo": "", "sections": "", "repeat": "",
+     "memo": "제목 오른쪽 세로쓰기(0.81–0.86)", "genre": "민요"}
+  ]
+}

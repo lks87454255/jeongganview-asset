@@ -1,0 +1,17 @@
+{
+  "book": 1,
+  "pdfPage": 72,
+  "printedPage": 66,
+  "confirmed": true,
+  "memo": "",
+  "songs": [
+    {
+      "id": "b1_066_1",
+      "title": "해후",
+      "parts": [{"box": [0.059, 0.156, 0.824, 0.745], "lines": 11, "rows": 16}],
+      "beat": "4/4", "jangdan": "", "tempo": "□=60", "sections": "1-2:전주 3-11:노래", "repeat": "",
+      "memo": "제목 오른쪽 세로쓰기(0.88–0.92), □=60 그 아래. 1줄 가사 칸 머리에 '전주'. 가사 칸은 율명 오른쪽",
+      "genre": "가요"
+    }
+  ]
+}

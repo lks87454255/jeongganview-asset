@@ -1,0 +1,24 @@
+{
+  "book": 2,
+  "pdfPage": 236,
+  "printedPage": 234,
+  "confirmed": true,
+  "songs": [
+    {
+      "id": "b2_234_1",
+      "title": "잃어버린 30년",
+      "parts": [{"box": [0.49, 0.097, 0.308, 0.78], "lines": 4, "rows": 16}],
+      "beat": "4/4", "jangdan": "", "tempo": "", "sections": "", "repeat": "",
+      "memo": "제목 오른쪽 세로쓰기(0.798–0.849)",
+      "genre": "가요"
+    },
+    {
+      "id": "b2_234_2",
+      "title": "무정 부르스",
+      "parts": [{"box": [0.135, 0.097, 0.308, 0.78], "lines": 4, "rows": 16}],
+      "beat": "4/4", "jangdan": "", "tempo": "", "sections": "", "repeat": "",
+      "memo": "제목 오른쪽 세로쓰기(0.443–0.49)",
+      "genre": "가요"
+    }
+  ]
+}

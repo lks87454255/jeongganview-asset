@@ -1,0 +1,54 @@
+{
+  "book": 2,
+  "pdfPage": 47,
+  "printedPage": 45,
+  "confirmed": true,
+  "songs": [
+    {
+      "id": "b2_045_1",
+      "title": "꽃의동화",
+      "parts": [
+        {
+          "box": [
+            0.106,
+            0.119,
+            0.679,
+            0.375
+          ],
+          "lines": 10,
+          "rows": 12
+        }
+      ],
+      "beat": "3/4",
+      "jangdan": "굿거리",
+      "tempo": "",
+      "sections": "",
+      "repeat": "",
+      "memo": "제목 오른쪽 세로쓰기. 가사 없음. 오른쪽 위·왼쪽 아래에 점 두 개(도돌이?) 표시",
+      "genre": "가요"
+    },
+    {
+      "id": "b2_045_2",
+      "title": "허허바다",
+      "parts": [
+        {
+          "box": [
+            0.106,
+            0.51,
+            0.672,
+            0.372
+          ],
+          "lines": 10,
+          "rows": 12
+        }
+      ],
+      "beat": "3/4",
+      "jangdan": "중모리",
+      "tempo": "",
+      "sections": "",
+      "repeat": "",
+      "memo": "제목 오른쪽 세로쓰기. 6줄 위에 'Fine' 표기",
+      "genre": "가요"
+    }
+  ]
+}

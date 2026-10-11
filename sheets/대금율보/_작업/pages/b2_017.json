@@ -1,0 +1,24 @@
+{
+  "book": 2,
+  "pdfPage": 17,
+  "printedPage": 15,
+  "confirmed": true,
+  "songs": [
+    {
+      "id": "b2_015_1",
+      "title": "섬집아기",
+      "parts": [{"box": [0.127, 0.123, 0.683, 0.373], "lines": 8, "rows": 12}],
+      "beat": "3/4", "jangdan": "", "tempo": "", "sections": "", "repeat": "",
+      "genre": "동요·쉬운곡",
+      "memo": "위 단. 제목 오른쪽 세로쓰기(0.81–0.896)"
+    },
+    {
+      "id": "b2_015_2",
+      "title": "반달",
+      "parts": [{"box": [0.125, 0.515, 0.685, 0.372], "lines": 8, "rows": 12}],
+      "beat": "3/4", "jangdan": "", "tempo": "", "sections": "", "repeat": "",
+      "genre": "동요·쉬운곡",
+      "memo": "아래 단. 제목 오른쪽 세로쓰기(0.81–0.896)"
+    }
+  ]
+}

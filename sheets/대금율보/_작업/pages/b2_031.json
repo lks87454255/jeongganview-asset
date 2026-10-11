@@ -1,0 +1,24 @@
+{
+  "book": 2,
+  "pdfPage": 31,
+  "printedPage": 29,
+  "confirmed": true,
+  "songs": [
+    {
+      "id": "b2_029_1",
+      "title": "낭랑십팔세",
+      "parts": [{"box": [0.556, 0.134, 0.292, 0.745], "lines": 4, "rows": 16}],
+      "beat": "4/4", "jangdan": "동살풀이", "tempo": "", "sections": "", "repeat": "",
+      "genre": "가요",
+      "memo": "오른쪽. 제목 오른쪽 세로쓰기(0.848–0.891) 아래 '동살풀이'"
+    },
+    {
+      "id": "b2_029_2",
+      "title": "아리랑목동",
+      "parts": [{"box": [0.145, 0.134, 0.36, 0.745], "lines": 5, "rows": 16}],
+      "beat": "4/4", "jangdan": "동살풀이", "tempo": "", "sections": "", "repeat": "",
+      "genre": "가요",
+      "memo": "왼쪽. 제목 오른쪽 세로쓰기(0.505–0.556) 아래 '동살풀이'"
+    }
+  ]
+}

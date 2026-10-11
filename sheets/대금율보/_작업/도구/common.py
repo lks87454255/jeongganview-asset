@@ -72,8 +72,11 @@ def all_maps():
         return out
     for fn in sorted(os.listdir(PAGES_DIR)):
         if fn.endswith(".json"):
-            with open(os.path.join(PAGES_DIR, fn), encoding="utf-8") as f:
-                out.append(json.load(f))
+            try:
+                with open(os.path.join(PAGES_DIR, fn), encoding="utf-8") as f:
+                    out.append(json.load(f))
+            except (ValueError, OSError) as e:   # 다른 작업이 쓰는 중일 수 있음
+                print(f"경고: {fn} 읽기 실패 ({e}) — 건너뜀")
     return out
 
 

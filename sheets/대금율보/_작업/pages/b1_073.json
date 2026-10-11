@@ -1,0 +1,23 @@
+{
+  "book": 1,
+  "pdfPage": 73,
+  "printedPage": 67,
+  "confirmed": true,
+  "songs": [
+    {
+      "id": "b1_067_1",
+      "title": "꽃길",
+      "titleBox": [0.075, 0.068, 0.835, 0.03],
+      "parts": [
+        {"box": [0.075, 0.098, 0.835, 0.81], "lines": 11, "rows": 16}
+      ],
+      "beat": "4/4",
+      "jangdan": "",
+      "tempo": "",
+      "sections": "",
+      "repeat": "",
+      "memo": "",
+      "genre": "가요"
+    }
+  ]
+}

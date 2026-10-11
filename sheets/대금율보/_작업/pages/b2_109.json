@@ -1,0 +1,16 @@
+{
+  "book": 2,
+  "pdfPage": 109,
+  "printedPage": 107,
+  "confirmed": true,
+  "songs": [
+    {"id": "b2_107_1", "title": "태평가",
+     "parts": [{"box": [0.224, 0.119, 0.607, 0.378], "lines": 9, "rows": 12}],
+     "beat": "3/4", "jangdan": "굿거리", "tempo": "", "sections": "", "repeat": "",
+     "memo": "제목 오른쪽 세로쓰기(0.83–0.87). 위 단 맨 왼쪽(0.155–0.224) 빈 줄", "genre": "민요"},
+    {"id": "b2_107_2", "title": "창부타령",
+     "parts": [{"box": [0.134, 0.511, 0.694, 0.376], "lines": 10, "rows": 12}],
+     "beat": "3/4", "jangdan": "굿거리", "tempo": "", "sections": "", "repeat": "",
+     "memo": "가사 칸 없음(율명만). 제목 오른쪽 세로쓰기(0.83–0.87)", "genre": "민요"}
+  ]
+}

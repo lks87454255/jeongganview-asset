@@ -1,0 +1,38 @@
+{
+  "book": 1,
+  "pdfPage": 93,
+  "printedPage": 87,
+  "confirmed": true,
+  "songs": [
+    {
+      "id": "b1_087_1",
+      "title": "폴로네이즈",
+      "titleBox": [0.366, 0.118, 0.534, 0.042],
+      "parts": [
+        {"box": [0.366, 0.16, 0.534, 0.703], "lines": 6, "rows": 18}
+      ],
+      "beat": "3/4",
+      "jangdan": "",
+      "tempo": "",
+      "sections": "",
+      "repeat": "",
+      "memo": "원본 제목 'Polonaise(폴로네이즈)'. 한 줄 18정간. 가사 없음",
+      "genre": "외국곡·창작곡"
+    },
+    {
+      "id": "b1_087_2",
+      "title": "엘리제를 위하여",
+      "titleBox": [0.078, 0.118, 0.288, 0.042],
+      "parts": [
+        {"box": [0.078, 0.16, 0.288, 0.625], "lines": 5, "rows": 16}
+      ],
+      "beat": "3/4",
+      "jangdan": "",
+      "tempo": "",
+      "sections": "",
+      "repeat": "",
+      "memo": "가사 없음",
+      "genre": "외국곡·창작곡"
+    }
+  ]
+}

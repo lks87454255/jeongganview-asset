@@ -1,0 +1,23 @@
+{
+  "book": 1,
+  "pdfPage": 76,
+  "printedPage": 70,
+  "confirmed": true,
+  "songs": [
+    {
+      "id": "b1_070_1",
+      "title": "별이 빛나는 밤에",
+      "titleBox": [0.087, 0.09, 0.841, 0.029],
+      "parts": [
+        {"box": [0.087, 0.119, 0.841, 0.79], "lines": 12, "rows": 16}
+      ],
+      "beat": "4/4",
+      "jangdan": "",
+      "tempo": "♩=70",
+      "sections": "",
+      "repeat": "",
+      "memo": "원본 빠르기 □=70",
+      "genre": "가요"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "book": 1,
+  "pdfPage": 96,
+  "printedPage": 90,
+  "confirmed": true,
+  "songs": [
+    {
+      "id": "b1_090_1",
+      "title": "배띄워라",
+      "parts": [
+        {"box": [0.075, 0.111, 0.792, 0.768], "lines": 11, "rows": 16}
+      ],
+      "beat": "4/4",
+      "jangdan": "동살푸리",
+      "tempo": "",
+      "sections": "",
+      "repeat": "",
+      "memo": "제목·장단 오른쪽 세로쓰기(0.867–0.91). 가사 칸은 율명 오른쪽",
+      "genre": "민요"
+    }
+  ]
+}

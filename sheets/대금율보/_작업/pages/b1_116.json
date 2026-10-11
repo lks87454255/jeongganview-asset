@@ -1,0 +1,24 @@
+{
+  "book": 1,
+  "pdfPage": 116,
+  "printedPage": 110,
+  "confirmed": true,
+  "songs": [
+    {
+      "id": "b1_110_1",
+      "title": "밀양아리랑",
+      "titleBox": [0.413, 0.18, 0.05, 0.7],
+      "parts": [
+        {"box": [0.089, 0.118, 0.324, 0.76], "lines": 4, "rows": 12}
+      ],
+      "beat": "3/4",
+      "jangdan": "세마치",
+      "tempo": "",
+      "sections": "",
+      "repeat": "",
+      "memo": "제목 오른쪽 세로쓰기 + 세마치",
+      "genre": "민요"
+    }
+  ],
+  "memo": "오른쪽 곡 '아리랑'(세마치)은 배정 밖이라 넣지 않음"
+}

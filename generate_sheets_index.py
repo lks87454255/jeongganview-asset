@@ -58,6 +58,8 @@ COLUMNS = 20
 GROUP_LABELS = {"대금율보": "대금 악보"}
 # 그룹 표시 순서 (없는 그룹은 뒤에 가나다 순)
 GROUP_ORDER = ["민요", "대금율보"]
+# 그룹 안 카테고리(분류 폴더) 표시 순서 (없는 것은 뒤에 가나다 순)
+CATEGORY_ORDER = ["동요·쉬운곡", "민요", "정악", "시조·가사", "산조·시나위", "찬불가", "찬송가·성가", "가요", "외국곡·창작곡"]
 # 관리용 단어 — 앱에 보이는 값에 있으면 ERROR
 HIDDEN_WORDS = ["대금율보"]
 
@@ -203,7 +205,8 @@ def scan(sheets_dir: str):
             found.append((glabel, top))
         if sub:
             for cdir in sorted((n for n in os.listdir(csv_dir) if os.path.isdir(os.path.join(csv_dir, n))
-                                and not n.startswith(("_", "."))), key=nfc):
+                                and not n.startswith(("_", "."))),
+                              key=lambda n: (CATEGORY_ORDER.index(nfc(n)) if nfc(n) in CATEGORY_ORDER else len(CATEGORY_ORDER), nfc(n))):
                 files = scan_csv_dir(os.path.join(csv_dir, cdir), [gdir, *sub, cdir], errors, warns)
                 if files:
                     found.append((nfc(cdir), files))

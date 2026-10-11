@@ -1,0 +1,31 @@
+{
+  "book": 2,
+  "pdfPage": 61,
+  "printedPage": 59,
+  "confirmed": true,
+  "songs": [
+    {
+      "id": "b2_059_1",
+      "title": "그날",
+      "parts": [
+        {
+          "box": [
+            0.153,
+            0.138,
+            0.683,
+            0.732
+          ],
+          "lines": 9,
+          "rows": 16
+        }
+      ],
+      "beat": "4/4",
+      "jangdan": "",
+      "tempo": "♩=70",
+      "sections": "",
+      "repeat": "",
+      "memo": "제목 오른쪽 세로쓰기. 빠르기 원본 □=70",
+      "genre": "가요"
+    }
+  ]
+}

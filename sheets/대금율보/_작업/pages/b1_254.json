@@ -1,0 +1,39 @@
+{
+  "book": 1,
+  "pdfPage": 254,
+  "printedPage": 248,
+  "confirmed": true,
+  "songs": [
+    {
+      "id": "b1_248_1",
+      "title": "내가 바보야",
+      "titleBox": [0.453, 0.059, 0.447, 0.022],
+      "parts": [
+        {"box": [0.453, 0.081, 0.447, 0.857], "lines": 6, "rows": 24}
+      ],
+      "beat": "4/4",
+      "jangdan": "",
+      "tempo": "□=65",
+      "sections": "",
+      "repeat": "",
+      "memo": "",
+      "genre": "가요"
+    },
+    {
+      "id": "b1_248_2",
+      "title": "잘있거라 황진이",
+      "titleBox": [0.084, 0.059, 0.369, 0.022],
+      "parts": [
+        {"box": [0.084, 0.081, 0.369, 0.857], "lines": 5, "rows": 24}
+      ],
+      "beat": "4/4",
+      "jangdan": "",
+      "tempo": "□=60",
+      "sections": "",
+      "repeat": "",
+      "memo": "",
+      "genre": "가요"
+    }
+  ],
+  "memo": ""
+}

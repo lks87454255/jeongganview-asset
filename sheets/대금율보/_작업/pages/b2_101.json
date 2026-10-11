@@ -1,0 +1,31 @@
+{
+  "book": 2,
+  "pdfPage": 101,
+  "printedPage": 99,
+  "confirmed": true,
+  "songs": [
+    {
+      "id": "b2_099_1",
+      "title": "꽃타령",
+      "parts": [
+        {
+          "box": [
+            0.12,
+            0.137,
+            0.732,
+            0.745
+          ],
+          "lines": 10,
+          "rows": 16
+        }
+      ],
+      "beat": "4/4",
+      "jangdan": "잦은모리",
+      "tempo": "",
+      "sections": "",
+      "repeat": "",
+      "memo": "제목 오른쪽 세로쓰기(0.852–0.895)",
+      "genre": "민요"
+    }
+  ]
+}

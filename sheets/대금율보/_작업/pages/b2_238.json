@@ -1,0 +1,24 @@
+{
+  "book": 2,
+  "pdfPage": 238,
+  "printedPage": 236,
+  "confirmed": true,
+  "songs": [
+    {
+      "id": "b2_236_1",
+      "title": "미워하지 않으리",
+      "parts": [{"box": [0.495, 0.102, 0.306, 0.776], "lines": 4, "rows": 16}],
+      "beat": "4/4", "jangdan": "", "tempo": "", "sections": "", "repeat": "",
+      "memo": "제목 오른쪽 세로쓰기(0.801–0.851)",
+      "genre": "가요"
+    },
+    {
+      "id": "b2_236_2",
+      "title": "그냥 가세요",
+      "parts": [{"box": [0.143, 0.102, 0.304, 0.776], "lines": 4, "rows": 16}],
+      "beat": "4/4", "jangdan": "", "tempo": "", "sections": "", "repeat": "",
+      "memo": "제목 오른쪽 세로쓰기(0.447–0.495)",
+      "genre": "가요"
+    }
+  ]
+}

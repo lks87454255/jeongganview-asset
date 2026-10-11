@@ -1,0 +1,37 @@
+{
+  "book": 2,
+  "pdfPage": 240,
+  "printedPage": 238,
+  "confirmed": true,
+  "songs": [
+    {
+      "id": "b2_238_1",
+      "title": "사랑을 위하여",
+      "titleBox": [
+        0.775,
+        0.32,
+        0.05,
+        0.2
+      ],
+      "parts": [
+        {
+          "box": [
+            0.124,
+            0.128,
+            0.65,
+            0.737
+          ],
+          "lines": 8,
+          "rows": 16
+        }
+      ],
+      "beat": "4/4",
+      "jangdan": "",
+      "tempo": "",
+      "sections": "",
+      "repeat": "𝄋 5줄 1정간 / fine 6줄 16정간 / D.S 8줄",
+      "genre": "가요",
+      "memo": "제목 오른쪽 세로쓰기. 위에 𝄋 표 · 아래 D.S. · Fine 표기"
+    }
+  ]
+}

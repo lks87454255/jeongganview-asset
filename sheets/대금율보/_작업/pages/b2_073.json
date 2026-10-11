@@ -1,0 +1,32 @@
+{
+  "book": 2,
+  "pdfPage": 73,
+  "printedPage": 71,
+  "confirmed": true,
+  "songs": [
+    {
+      "id": "b2_071_1",
+      "title": "일체수월",
+      "parts": [{"box": [0.136, 0.126, 0.68, 0.377], "lines": 10, "rows": 12}],
+      "beat": "3/4",
+      "jangdan": "중모리",
+      "tempo": "",
+      "sections": "",
+      "repeat": "",
+      "memo": "제목·장단 오른쪽 세로쓰기. 가사 없음",
+      "genre": "찬불가"
+    },
+    {
+      "id": "b2_071_2",
+      "title": "천년의 세월",
+      "parts": [{"box": [0.136, 0.518, 0.68, 0.372], "lines": 10, "rows": 12}],
+      "beat": "3/4",
+      "jangdan": "굿거리",
+      "tempo": "",
+      "sections": "",
+      "repeat": "",
+      "memo": "제목·장단 오른쪽 세로쓰기. 가사 없음",
+      "genre": "찬불가"
+    }
+  ]
+}

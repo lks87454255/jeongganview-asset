@@ -1,0 +1,24 @@
+{
+  "book": 1,
+  "pdfPage": 90,
+  "printedPage": 84,
+  "confirmed": true,
+  "memo": "오른쪽 곡 '여행'은 배정 밖이라 넣지 않음",
+  "songs": [
+    {
+      "id": "b1_084_1",
+      "title": "여행을 떠나요",
+      "titleBox": [0.1, 0.078, 0.416, 0.022],
+      "parts": [
+        {"box": [0.1, 0.1, 0.416, 0.829], "lines": 6, "rows": 24}
+      ],
+      "beat": "4/4",
+      "jangdan": "",
+      "tempo": "♩=120",
+      "sections": "",
+      "repeat": "",
+      "memo": "한 줄 24정간. 원본 빠르기 □=120. 6줄은 8정간까지만",
+      "genre": "가요"
+    }
+  ]
+}

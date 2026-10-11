@@ -1,0 +1,23 @@
+{
+  "book": 1,
+  "pdfPage": 86,
+  "printedPage": 80,
+  "confirmed": true,
+  "songs": [
+    {
+      "id": "b1_080_1",
+      "title": "외로운 양치기",
+      "titleBox": [0.163, 0.12, 0.745, 0.042],
+      "parts": [
+        {"box": [0.163, 0.162, 0.745, 0.731], "lines": 10, "rows": 16}
+      ],
+      "beat": "4/4",
+      "jangdan": "",
+      "tempo": "♩=60",
+      "sections": "",
+      "repeat": "",
+      "memo": "가사 없음. 원본 빠르기 □=60. 1줄 끝 D.S. 표시·도돌이 기호(손글씨)",
+      "genre": "외국곡·창작곡"
+    }
+  ]
+}

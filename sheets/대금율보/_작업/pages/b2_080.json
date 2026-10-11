@@ -1,0 +1,37 @@
+{
+  "book": 2,
+  "pdfPage": 80,
+  "printedPage": 78,
+  "confirmed": true,
+  "songs": [
+    {
+      "id": "b2_078_1",
+      "title": "귀소",
+      "titleBox": [
+        0.132,
+        0.11,
+        0.712,
+        0.035
+      ],
+      "parts": [
+        {
+          "box": [
+            0.132,
+            0.147,
+            0.712,
+            0.73
+          ],
+          "lines": 10,
+          "rows": 16
+        }
+      ],
+      "beat": "4/4",
+      "jangdan": "",
+      "tempo": "□=60",
+      "sections": "",
+      "repeat": "",
+      "memo": "",
+      "genre": "외국곡·창작곡"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "book": 2,
+  "pdfPage": 234,
+  "printedPage": 232,
+  "confirmed": true,
+  "songs": [
+    {
+      "id": "b2_232_1",
+      "title": "어차피 떠난 사람",
+      "parts": [{"box": [0.512, 0.106, 0.294, 0.763], "lines": 4, "rows": 16}],
+      "beat": "4/4", "jangdan": "", "tempo": "", "sections": "", "repeat": "",
+      "memo": "제목 오른쪽 세로쓰기(0.806–0.865)",
+      "genre": "가요"
+    },
+    {
+      "id": "b2_232_2",
+      "title": "우수",
+      "parts": [{"box": [0.1, 0.106, 0.362, 0.763], "lines": 5, "rows": 16}],
+      "beat": "4/4", "jangdan": "", "tempo": "", "sections": "", "repeat": "",
+      "memo": "제목 오른쪽 세로쓰기(0.462–0.512). 5줄은 4정간까지만 있음",
+      "genre": "가요"
+    }
+  ]
+}

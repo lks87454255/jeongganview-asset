@@ -1,0 +1,24 @@
+{
+  "book": 2,
+  "pdfPage": 235,
+  "printedPage": 233,
+  "confirmed": true,
+  "songs": [
+    {
+      "id": "b2_233_1",
+      "title": "고향의 그림자",
+      "parts": [{"box": [0.553, 0.109, 0.287, 0.764], "lines": 4, "rows": 16}],
+      "beat": "4/4", "jangdan": "", "tempo": "", "sections": "", "repeat": "",
+      "memo": "제목 오른쪽 세로쓰기(0.84–0.9)",
+      "genre": "가요"
+    },
+    {
+      "id": "b2_233_2",
+      "title": "님계신 전선",
+      "parts": [{"box": [0.132, 0.109, 0.365, 0.764], "lines": 5, "rows": 16}],
+      "beat": "4/4", "jangdan": "", "tempo": "", "sections": "", "repeat": "",
+      "memo": "제목 오른쪽 세로쓰기(0.497–0.553). 5줄은 8정간까지만 있음",
+      "genre": "가요"
+    }
+  ]
+}

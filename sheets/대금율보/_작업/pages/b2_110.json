@@ -1,0 +1,16 @@
+{
+  "book": 2,
+  "pdfPage": 110,
+  "printedPage": 108,
+  "confirmed": true,
+  "songs": [
+    {"id": "b2_108_1", "title": "오돌또기",
+     "parts": [{"box": [0.134, 0.115, 0.652, 0.376], "lines": 8, "rows": 12}],
+     "beat": "3/4", "jangdan": "굿거리", "tempo": "", "sections": "", "repeat": "",
+     "memo": "제목 오른쪽 세로쓰기(0.79–0.84)", "genre": "민요"},
+    {"id": "b2_108_2", "title": "둥그래당실",
+     "parts": [{"box": [0.134, 0.504, 0.652, 0.373], "lines": 8, "rows": 12}],
+     "beat": "3/4", "jangdan": "굿거리", "tempo": "", "sections": "1-4:1절 5-8:후렴", "repeat": "",
+     "memo": "원본 위 머리 1절(1줄~)·후렴(5줄~). 제목 오른쪽 세로쓰기(0.79–0.84)", "genre": "민요"}
+  ]
+}

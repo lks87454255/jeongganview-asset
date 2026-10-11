@@ -1,0 +1,23 @@
+{
+  "book": 1,
+  "pdfPage": 94,
+  "printedPage": 88,
+  "confirmed": true,
+  "songs": [
+    {
+      "id": "b1_088_1",
+      "title": "쇼스타코비치 왈츠 2번",
+      "titleBox": [0.075, 0.075, 0.843, 0.047],
+      "parts": [
+        {"box": [0.075, 0.122, 0.843, 0.803], "lines": 14, "rows": 16}
+      ],
+      "beat": "3/4",
+      "jangdan": "",
+      "tempo": "",
+      "sections": "",
+      "repeat": "",
+      "memo": "배정 제목 '왈츠 2번'. 가사 없음",
+      "genre": "외국곡·창작곡"
+    }
+  ]
+}

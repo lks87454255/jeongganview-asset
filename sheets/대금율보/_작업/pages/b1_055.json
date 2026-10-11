@@ -1,0 +1,29 @@
+{
+  "book": 1,
+  "pdfPage": 55,
+  "printedPage": 49,
+  "confirmed": true,
+  "songs": [
+    {
+      "id": "b1_049_1",
+      "title": "청법가",
+      "parts": [
+        {"box": [0.62, 0.122, 0.182, 0.79], "lines": 2, "rows": 16}
+      ],
+      "beat": "4/4", "jangdan": "", "tempo": "보통빠르기로", "sections": "", "repeat": "",
+      "genre": "찬불가",
+      "memo": "제목 오른쪽 세로쓰기(0.80–0.85), 아래 '보통빠르기로'"
+    },
+    {
+      "id": "b1_049_2",
+      "title": "보현행원",
+      "parts": [
+        {"box": [0.094, 0.127, 0.474, 0.785], "lines": 6, "rows": 16}
+      ],
+      "beat": "4/4", "jangdan": "", "tempo": "", "sections": "", "repeat": "",
+      "genre": "찬불가",
+      "memo": "제목 오른쪽 세로쓰기(0.57–0.62)"
+    }
+  ],
+  "memo": ""
+}

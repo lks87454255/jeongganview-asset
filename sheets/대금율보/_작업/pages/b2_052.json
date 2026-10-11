@@ -1,0 +1,34 @@
+{
+  "book": 2,
+  "pdfPage": 52,
+  "printedPage": 50,
+  "confirmed": true,
+  "songs": [
+    {
+      "id": "b2_050_1",
+      "title": "봄",
+      "titleBox": [0.55, 0.105, 0.1, 0.03],
+      "parts": [{"box": [0.42, 0.133, 0.461, 0.735], "lines": 6, "rows": 16}],
+      "beat": "4/4",
+      "jangdan": "동살풀이",
+      "tempo": "",
+      "sections": "",
+      "repeat": "",
+      "memo": "제목 위 가로쓰기. 오른쪽 위 '동살풀이' 를 장단으로 봄",
+      "genre": "동요·쉬운곡"
+    },
+    {
+      "id": "b2_050_2",
+      "title": "희망의 나라로",
+      "titleBox": [0.15, 0.105, 0.2, 0.03],
+      "parts": [{"box": [0.118, 0.133, 0.305, 0.735], "lines": 4, "rows": 16}],
+      "beat": "4/4",
+      "jangdan": "",
+      "tempo": "",
+      "sections": "",
+      "repeat": "",
+      "memo": "제목 위 가로쓰기. 가곡",
+      "genre": "외국곡·창작곡"
+    }
+  ]
+}

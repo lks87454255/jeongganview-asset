@@ -1,0 +1,39 @@
+{
+  "book": 1,
+  "pdfPage": 253,
+  "printedPage": 247,
+  "confirmed": true,
+  "songs": [
+    {
+      "id": "b1_247_1",
+      "title": "꽃밭에서",
+      "titleBox": [0.499, 0.086, 0.447, 0.023],
+      "parts": [
+        {"box": [0.499, 0.109, 0.447, 0.834], "lines": 6, "rows": 24}
+      ],
+      "beat": "4/4",
+      "jangdan": "",
+      "tempo": "□=70",
+      "sections": "",
+      "repeat": "",
+      "memo": "",
+      "genre": "가요"
+    },
+    {
+      "id": "b1_247_2",
+      "title": "님은 먼곳에",
+      "titleBox": [0.05, 0.086, 0.449, 0.023],
+      "parts": [
+        {"box": [0.05, 0.109, 0.449, 0.834], "lines": 6, "rows": 24}
+      ],
+      "beat": "4/4",
+      "jangdan": "",
+      "tempo": "□=70",
+      "sections": "",
+      "repeat": "",
+      "memo": "",
+      "genre": "가요"
+    }
+  ],
+  "memo": ""
+}

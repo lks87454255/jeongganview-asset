@@ -1,0 +1,24 @@
+{
+  "book": 2,
+  "pdfPage": 21,
+  "printedPage": 19,
+  "confirmed": true,
+  "songs": [
+    {
+      "id": "b2_019_1",
+      "title": "졸업식노래",
+      "parts": [{"box": [0.505, 0.135, 0.303, 0.731], "lines": 4, "rows": 16}],
+      "beat": "4/4", "jangdan": "", "tempo": "", "sections": "", "repeat": "",
+      "genre": "동요·쉬운곡",
+      "memo": "제목 오른쪽 세로쓰기(0.808–0.859)"
+    },
+    {
+      "id": "b2_019_2",
+      "title": "설날",
+      "parts": [{"box": [0.15, 0.135, 0.303, 0.731], "lines": 4, "rows": 16}],
+      "beat": "4/4", "jangdan": "", "tempo": "", "sections": "", "repeat": "",
+      "genre": "동요·쉬운곡",
+      "memo": "제목 오른쪽 세로쓰기(0.453–0.505)"
+    }
+  ]
+}

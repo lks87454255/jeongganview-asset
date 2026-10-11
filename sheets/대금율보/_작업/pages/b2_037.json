@@ -1,0 +1,38 @@
+{
+  "book": 2,
+  "pdfPage": 37,
+  "printedPage": 35,
+  "confirmed": true,
+  "memo": "앞 쪽 곡 이어짐 0.75~0.90 (미래소년 코난 2줄)",
+  "songs": [
+    {
+      "id": "b2_035_1",
+      "title": "각설이 타령",
+      "titleBox": [
+        0.4,
+        0.112,
+        0.33,
+        0.029
+      ],
+      "parts": [
+        {
+          "box": [
+            0.132,
+            0.139,
+            0.62,
+            0.735
+          ],
+          "lines": 8,
+          "rows": 16
+        }
+      ],
+      "beat": "4/4",
+      "jangdan": "동살풀이",
+      "tempo": "",
+      "sections": "",
+      "repeat": "",
+      "memo": "",
+      "genre": "민요"
+    }
+  ]
+}

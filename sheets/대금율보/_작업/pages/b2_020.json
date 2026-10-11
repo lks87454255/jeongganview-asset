@@ -1,0 +1,24 @@
+{
+  "book": 2,
+  "pdfPage": 20,
+  "printedPage": 18,
+  "confirmed": true,
+  "songs": [
+    {
+      "id": "b2_018_1",
+      "title": "작별",
+      "parts": [{"box": [0.507, 0.14, 0.305, 0.73], "lines": 4, "rows": 16}],
+      "beat": "4/4", "jangdan": "", "tempo": "", "sections": "", "repeat": "",
+      "genre": "외국곡·창작곡",
+      "memo": "제목 오른쪽 세로쓰기(0.812–0.864). 스코틀랜드 민요(Auld Lang Syne)"
+    },
+    {
+      "id": "b2_018_2",
+      "title": "가을밤",
+      "parts": [{"box": [0.156, 0.14, 0.3, 0.73], "lines": 4, "rows": 16}],
+      "beat": "4/4", "jangdan": "", "tempo": "", "sections": "", "repeat": "",
+      "genre": "동요·쉬운곡",
+      "memo": "제목 오른쪽 세로쓰기(0.456–0.507)"
+    }
+  ]
+}

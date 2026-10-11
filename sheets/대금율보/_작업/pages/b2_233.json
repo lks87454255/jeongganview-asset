@@ -1,0 +1,24 @@
+{
+  "book": 2,
+  "pdfPage": 233,
+  "printedPage": 231,
+  "confirmed": true,
+  "songs": [
+    {
+      "id": "b2_231_1",
+      "title": "섬마을 선생님",
+      "parts": [{"box": [0.549, 0.108, 0.288, 0.764], "lines": 4, "rows": 16}],
+      "beat": "4/4", "jangdan": "", "tempo": "", "sections": "", "repeat": "",
+      "memo": "제목 오른쪽 세로쓰기(0.837–0.894)",
+      "genre": "가요"
+    },
+    {
+      "id": "b2_231_2",
+      "title": "후회",
+      "parts": [{"box": [0.132, 0.108, 0.36, 0.764], "lines": 5, "rows": 16}],
+      "beat": "4/4", "jangdan": "", "tempo": "", "sections": "", "repeat": "",
+      "memo": "제목 오른쪽 세로쓰기(0.492–0.549)",
+      "genre": "가요"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "book": 2,
+  "pdfPage": 228,
+  "printedPage": 226,
+  "confirmed": true,
+  "songs": [
+    {
+      "id": "b2_226_1",
+      "title": "모녀키타",
+      "parts": [{"box": [0.455, 0.136, 0.347, 0.746], "lines": 5, "rows": 16}],
+      "beat": "4/4", "jangdan": "", "tempo": "", "sections": "", "repeat": "",
+      "memo": "제목 오른쪽 세로쓰기(0.802–0.853)",
+      "genre": "가요"
+    },
+    {
+      "id": "b2_226_2",
+      "title": "무정한 그사람",
+      "parts": [{"box": [0.129, 0.136, 0.277, 0.746], "lines": 4, "rows": 16}],
+      "beat": "4/4", "jangdan": "", "tempo": "", "sections": "", "repeat": "",
+      "memo": "제목 오른쪽 세로쓰기(0.406–0.455)",
+      "genre": "가요"
+    }
+  ]
+}

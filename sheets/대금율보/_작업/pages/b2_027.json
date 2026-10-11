@@ -1,0 +1,24 @@
+{
+  "book": 2,
+  "pdfPage": 27,
+  "printedPage": 25,
+  "confirmed": true,
+  "songs": [
+    {
+      "id": "b2_025_1",
+      "title": "홀로 아리랑",
+      "parts": [{"box": [0.146, 0.121, 0.684, 0.373], "lines": 8, "rows": 12}],
+      "beat": "3/4", "jangdan": "중모리", "tempo": "", "sections": "", "repeat": "",
+      "genre": "가요",
+      "memo": "위 단. 제목 오른쪽 세로쓰기 아래 '중모리'"
+    },
+    {
+      "id": "b2_025_2",
+      "title": "갑돌이와 갑순이",
+      "parts": [{"box": [0.144, 0.511, 0.684, 0.373], "lines": 8, "rows": 12}],
+      "beat": "3/4", "jangdan": "굿거리", "tempo": "", "sections": "", "repeat": "",
+      "genre": "가요",
+      "memo": "아래 단. 제목 오른쪽 세로쓰기 아래 '굿거리'"
+    }
+  ]
+}

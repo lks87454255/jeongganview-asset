@@ -1,0 +1,24 @@
+{
+  "book": 2,
+  "pdfPage": 18,
+  "printedPage": 16,
+  "confirmed": true,
+  "songs": [
+    {
+      "id": "b2_016_1",
+      "title": "대장금",
+      "parts": [{"box": [0.155, 0.112, 0.626, 0.381], "lines": 8, "rows": 12}],
+      "beat": "3/4", "jangdan": "중모리", "tempo": "", "sections": "", "repeat": "",
+      "genre": "가요",
+      "memo": "위 단. 제목 오른쪽 세로쓰기(0.781–0.854) 아래 '중모리'. 드라마 주제곡(오나라)"
+    },
+    {
+      "id": "b2_016_2",
+      "title": "등대지기",
+      "parts": [{"box": [0.155, 0.51, 0.626, 0.374], "lines": 8, "rows": 12}],
+      "beat": "3/4", "jangdan": "중모리", "tempo": "", "sections": "", "repeat": "",
+      "genre": "동요·쉬운곡",
+      "memo": "아래 단. 제목 오른쪽 세로쓰기 아래 '중모리'. 목차 표기 '둥대지기'"
+    }
+  ]
+}

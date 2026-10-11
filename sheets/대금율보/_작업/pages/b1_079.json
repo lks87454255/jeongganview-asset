@@ -1,0 +1,22 @@
+{
+  "book": 1,
+  "pdfPage": 79,
+  "printedPage": 73,
+  "confirmed": true,
+  "songs": [
+    {
+      "id": "b1_073_1",
+      "title": "눈이 내리네",
+      "parts": [
+        {"box": [0.116, 0.158, 0.676, 0.774], "lines": 9, "rows": 16}
+      ],
+      "beat": "4/4",
+      "jangdan": "",
+      "tempo": "♩=60",
+      "sections": "",
+      "repeat": "",
+      "memo": "제목 오른쪽 세로쓰기(0.79–0.84). 원본 '5관청'. 원본 빠르기 □=60. 아다모 Tombe la neige 번안곡",
+      "genre": "외국곡·창작곡"
+    }
+  ]
+}

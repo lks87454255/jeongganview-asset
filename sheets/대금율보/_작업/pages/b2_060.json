@@ -1,0 +1,31 @@
+{
+  "book": 2,
+  "pdfPage": 60,
+  "printedPage": 58,
+  "confirmed": true,
+  "songs": [
+    {
+      "id": "b2_058_1",
+      "title": "기도",
+      "parts": [
+        {
+          "box": [
+            0.124,
+            0.127,
+            0.648,
+            0.737
+          ],
+          "lines": 8,
+          "rows": 16
+        }
+      ],
+      "beat": "4/4",
+      "jangdan": "",
+      "tempo": "♩=60",
+      "sections": "",
+      "repeat": "",
+      "memo": "제목 오른쪽 세로쓰기. 빠르기 원본 □=60",
+      "genre": "가요"
+    }
+  ]
+}

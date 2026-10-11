@@ -1,0 +1,18 @@
+{
+  "book": 2,
+  "pdfPage": 33,
+  "printedPage": 31,
+  "confirmed": true,
+  "memo": "앞 쪽 곡 이어짐 x0.739~0.89 (첨밀밀 b2_030_1 part 2 — 같은 범위라 앞 쪽 지도에 넣음)",
+  "songs": [
+    {
+      "id": "b2_031_1",
+      "title": "개똥벌레",
+      "titleBox": [0.3, 0.115, 0.28, 0.025],
+      "parts": [{"box": [0.112, 0.14, 0.621, 0.733], "lines": 8, "rows": 16}],
+      "beat": "4/4", "jangdan": "", "tempo": "□=100", "sections": "", "repeat": "",
+      "genre": "가요",
+      "memo": "제목 가로쓰기, 왼쪽 위 '□ = 100'"
+    }
+  ]
+}

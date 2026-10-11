@@ -1,0 +1,54 @@
+{
+  "book": 2,
+  "pdfPage": 104,
+  "printedPage": 102,
+  "confirmed": true,
+  "songs": [
+    {
+      "id": "b2_102_1",
+      "title": "신천안 삼거리",
+      "parts": [
+        {
+          "box": [
+            0.117,
+            0.116,
+            0.687,
+            0.373
+          ],
+          "lines": 8,
+          "rows": 12
+        }
+      ],
+      "beat": "3/4",
+      "jangdan": "굿거리",
+      "tempo": "",
+      "sections": "",
+      "repeat": "",
+      "memo": "제목 오른쪽 세로쓰기(0.804–0.861)",
+      "genre": "민요"
+    },
+    {
+      "id": "b2_102_2",
+      "title": "야월삼경",
+      "parts": [
+        {
+          "box": [
+            0.113,
+            0.504,
+            0.688,
+            0.373
+          ],
+          "lines": 8,
+          "rows": 12
+        }
+      ],
+      "beat": "3/4",
+      "jangdan": "중모리",
+      "tempo": "",
+      "sections": "",
+      "repeat": "",
+      "memo": "제목 오른쪽 세로쓰기(0.801–0.859)",
+      "genre": "민요"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "book": 2,
+  "pdfPage": 105,
+  "printedPage": 103,
+  "confirmed": true,
+  "songs": [
+    {
+      "id": "b2_103_1",
+      "title": "복사꽃연정",
+      "parts": [
+        {
+          "box": [
+            0.151,
+            0.121,
+            0.688,
+            0.373
+          ],
+          "lines": 8,
+          "rows": 12
+        }
+      ],
+      "beat": "3/4",
+      "jangdan": "굿거리",
+      "tempo": "",
+      "sections": "",
+      "repeat": "",
+      "memo": "제목 오른쪽 세로쓰기(0.839–0.9)",
+      "genre": "민요"
+    },
+    {
+      "id": "b2_103_2",
+      "title": "내고향의봄",
+      "parts": [
+        {
+          "box": [
+            0.145,
+            0.509,
+            0.69,
+            0.373
+          ],
+          "lines": 8,
+          "rows": 12
+        }
+      ],
+      "beat": "3/4",
+      "jangdan": "굿거리",
+      "tempo": "",
+      "sections": "",
+      "repeat": "",
+      "memo": "제목 오른쪽 세로쓰기(0.835–0.896)",
+      "genre": "민요"
+    }
+  ]
+}

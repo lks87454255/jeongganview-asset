@@ -1,0 +1,31 @@
+{
+  "book": 2,
+  "pdfPage": 97,
+  "printedPage": 95,
+  "confirmed": true,
+  "songs": [
+    {
+      "id": "b2_095_1",
+      "title": "잦은뱃노래",
+      "parts": [
+        {
+          "box": [
+            0.146,
+            0.143,
+            0.683,
+            0.742
+          ],
+          "lines": 9,
+          "rows": 16
+        }
+      ],
+      "beat": "4/4",
+      "jangdan": "자진모리",
+      "tempo": "",
+      "sections": "",
+      "repeat": "",
+      "memo": "제목 오른쪽 세로쓰기(0.829–0.876)",
+      "genre": "민요"
+    }
+  ]
+}

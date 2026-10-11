@@ -1,0 +1,26 @@
+{
+  "book": 2,
+  "pdfPage": 25,
+  "printedPage": 23,
+  "confirmed": true,
+  "songs": [
+    {
+      "id": "b2_023_1",
+      "title": "징글벨",
+      "titleBox": [0.563, 0.118, 0.301, 0.026],
+      "parts": [{"box": [0.563, 0.144, 0.301, 0.731], "lines": 4, "rows": 16}],
+      "beat": "4/4", "jangdan": "", "tempo": "", "sections": "", "repeat": "",
+      "genre": "외국곡·창작곡",
+      "memo": ""
+    },
+    {
+      "id": "b2_023_2",
+      "title": "결혼 행진곡",
+      "titleBox": [0.125, 0.118, 0.43, 0.026],
+      "parts": [{"box": [0.125, 0.144, 0.43, 0.731], "lines": 6, "rows": 16}],
+      "beat": "4/4", "jangdan": "", "tempo": "", "sections": "", "repeat": "",
+      "genre": "외국곡·창작곡",
+      "memo": "가사 칸 없음. 6줄(맨 왼쪽)은 1~8정간만 있음"
+    }
+  ]
+}

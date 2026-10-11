@@ -173,6 +173,19 @@ with open(TOC_PATH, encoding="utf-8") as _f:
         _c = _ln.rstrip("\n").split("\t")
         if len(_c) > 5:
             GENRE[_c[0]] = nfc(_c[5].strip())
+# 쪽 지도(pages/*.json) 의 곡 "genre" 가 있으면 그것이 우선 (S1 에서 본문 보고 정함)
+_PAGES = os.path.join(ROOT, "_작업", "pages")
+import json as _json
+for _fn in sorted(os.listdir(_PAGES)) if os.path.isdir(_PAGES) else []:
+    if _fn.endswith(".json"):
+        try:
+            _songs = _json.load(open(os.path.join(_PAGES, _fn), encoding="utf-8")).get("songs", [])
+        except ValueError:
+            PROBLEMS_EARLY = True
+            continue
+        for _s in _songs:
+            if _s.get("genre"):
+                GENRE[_s["id"]] = nfc(_s["genre"].strip())
 
 # ───────────────────── 이어짐 → 곡(문서) 묶기 ─────────────────────
 

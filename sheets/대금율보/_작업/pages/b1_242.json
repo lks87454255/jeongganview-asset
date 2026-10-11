@@ -1,0 +1,24 @@
+{
+  "book": 1,
+  "pdfPage": 242,
+  "printedPage": 236,
+  "confirmed": true,
+  "songs": [
+    {
+      "id": "b1_236_1",
+      "title": "미워도 다시한번",
+      "titleBox": [0.468, 0.077, 0.435, 0.023],
+      "parts": [
+        {"box": [0.468, 0.1, 0.435, 0.813], "lines": 6, "rows": 20}
+      ],
+      "beat": "4/4",
+      "jangdan": "",
+      "tempo": "□=72",
+      "sections": "",
+      "repeat": "",
+      "memo": "",
+      "genre": "가요"
+    }
+  ],
+  "memo": "왼쪽 곡 '섬마을 선생님'은 배정 밖이라 넣지 않음"
+}

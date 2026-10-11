@@ -1,0 +1,38 @@
+{
+  "book": 1,
+  "pdfPage": 245,
+  "printedPage": 239,
+  "confirmed": true,
+  "songs": [
+    {
+      "id": "b1_239_1",
+      "title": "열두줄",
+      "titleBox": [0.46, 0.112, 0.451, 0.03],
+      "parts": [
+        {"box": [0.46, 0.142, 0.451, 0.792], "lines": 6, "rows": 20}
+      ],
+      "beat": "4/4",
+      "jangdan": "",
+      "tempo": "□=70",
+      "sections": "",
+      "repeat": "",
+      "memo": "",
+      "genre": "가요"
+    },
+    {
+      "id": "b1_239_2",
+      "title": "울지마라 가야금아",
+      "titleBox": [0.082, 0.112, 0.378, 0.03],
+      "parts": [
+        {"box": [0.082, 0.142, 0.378, 0.792], "lines": 5, "rows": 20}
+      ],
+      "beat": "4/4",
+      "jangdan": "",
+      "tempo": "□=70",
+      "sections": "",
+      "repeat": "",
+      "memo": "",
+      "genre": "가요"
+    }
+  ]
+}

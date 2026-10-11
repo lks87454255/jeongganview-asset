@@ -1,0 +1,23 @@
+{
+  "book": 1,
+  "pdfPage": 75,
+  "printedPage": 69,
+  "confirmed": true,
+  "songs": [
+    {
+      "id": "b1_069_1",
+      "title": "바램",
+      "titleBox": [0.085, 0.118, 0.836, 0.039],
+      "parts": [
+        {"box": [0.085, 0.157, 0.836, 0.762], "lines": 11, "rows": 20}
+      ],
+      "beat": "4/4",
+      "jangdan": "",
+      "tempo": "♩=60",
+      "sections": "",
+      "repeat": "",
+      "memo": "한 줄 20정간. 원본 빠르기 □=60. 1줄 위 제목 칸 오른쪽에 못갖춘 칸(仲)",
+      "genre": "가요"
+    }
+  ]
+}

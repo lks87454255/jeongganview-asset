@@ -1,0 +1,67 @@
+{
+  "book": 1,
+  "pdfPage": 252,
+  "printedPage": 246,
+  "confirmed": true,
+  "songs": [
+    {
+      "id": "b1_246_1",
+      "title": "사랑은 눈물의 씨앗",
+      "titleBox": [
+        0.536,
+        0.065,
+        0.324,
+        0.025
+      ],
+      "parts": [
+        {
+          "box": [
+            0.536,
+            0.09,
+            0.324,
+            0.827
+          ],
+          "lines": 4,
+          "rows": 20
+        }
+      ],
+      "beat": "4/4",
+      "jangdan": "",
+      "tempo": "",
+      "sections": "",
+      "repeat": "",
+      "memo": "",
+      "genre": "가요"
+    },
+    {
+      "id": "b1_246_2",
+      "title": "물레방아 도는데",
+      "titleBox": [
+        0.114,
+        0.065,
+        0.406,
+        0.025
+      ],
+      "parts": [
+        {
+          "box": [
+            0.114,
+            0.09,
+            0.406,
+            0.827
+          ],
+          "lines": 5,
+          "rows": 20
+        }
+      ],
+      "beat": "4/4",
+      "jangdan": "",
+      "tempo": "",
+      "sections": "",
+      "repeat": "",
+      "memo": "",
+      "genre": "가요"
+    }
+  ],
+  "memo": ""
+}

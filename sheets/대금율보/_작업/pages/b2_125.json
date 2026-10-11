@@ -1,0 +1,23 @@
+{
+  "book": 2,
+  "pdfPage": 125,
+  "printedPage": 123,
+  "confirmed": true,
+  "songs": [
+    {
+      "id": "b2_123_1",
+      "title": "김매기노래",
+      "parts": [
+        {"box": [0.682, 0.136, 0.208, 0.747], "lines": 3, "rows": 16},
+        {"box": [0.163, 0.136, 0.477, 0.747], "lines": 7, "rows": 16}
+      ],
+      "beat": "4/4",
+      "jangdan": "잦은모리",
+      "tempo": "",
+      "sections": "",
+      "repeat": "",
+      "memo": "제목 가운데 세로쓰기(0.64–0.68). 오른쪽 3줄 → 왼쪽 7줄",
+      "genre": "민요"
+    }
+  ]
+}

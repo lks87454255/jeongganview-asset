@@ -1,0 +1,23 @@
+{
+  "book": 1,
+  "pdfPage": 74,
+  "printedPage": 68,
+  "confirmed": true,
+  "songs": [
+    {
+      "id": "b1_068_1",
+      "title": "연인",
+      "titleBox": [0.123, 0.055, 0.763, 0.032],
+      "parts": [
+        {"box": [0.12, 0.087, 0.768, 0.861], "lines": 10, "rows": 20}
+      ],
+      "beat": "4/4",
+      "jangdan": "",
+      "tempo": "",
+      "sections": "",
+      "repeat": "",
+      "memo": "한 줄 20정간. 첫 줄 위 제목 칸 오른쪽에 못갖춘 칸(△/南無) 있음",
+      "genre": "가요"
+    }
+  ]
+}

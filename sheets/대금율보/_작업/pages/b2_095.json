@@ -1,0 +1,31 @@
+{
+  "book": 2,
+  "pdfPage": 95,
+  "printedPage": 93,
+  "confirmed": true,
+  "songs": [
+    {
+      "id": "b2_093_1",
+      "title": "꼭두각시",
+      "parts": [
+        {
+          "box": [
+            0.145,
+            0.13,
+            0.665,
+            0.74
+          ],
+          "lines": 8,
+          "rows": 16
+        }
+      ],
+      "beat": "4/4",
+      "jangdan": "잦은모리",
+      "tempo": "",
+      "sections": "",
+      "repeat": "",
+      "memo": "제목 오른쪽 세로쓰기(0.81–0.877). 가사 없음. 쪽이 약간 기울어 있음",
+      "genre": "민요"
+    }
+  ]
+}

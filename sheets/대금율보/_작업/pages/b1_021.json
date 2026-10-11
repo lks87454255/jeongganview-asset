@@ -1,0 +1,29 @@
+{
+  "book": 1,
+  "pdfPage": 21,
+  "printedPage": 15,
+  "confirmed": true,
+  "songs": [
+    {
+      "id": "b1_015_1",
+      "title": "올드랭싸인",
+      "parts": [
+        {"box": [0.495, 0.14, 0.322, 0.745], "lines": 4, "rows": 16}
+      ],
+      "beat": "4/4", "jangdan": "", "tempo": "", "sections": "", "repeat": "",
+      "genre": "외국곡·창작곡",
+      "memo": "제목 오른쪽 세로쓰기 '올드랭싸인(작별)'(0.82–0.85). 가사 칸 비어 있음"
+    },
+    {
+      "id": "b1_015_2",
+      "title": "애국가",
+      "parts": [
+        {"box": [0.112, 0.14, 0.333, 0.745], "lines": 4, "rows": 16}
+      ],
+      "beat": "4/4", "jangdan": "", "tempo": "", "sections": "", "repeat": "",
+      "genre": "외국곡·창작곡",
+      "memo": "제목 가운데 세로쓰기(0.445–0.49). 국가(창작곡)"
+    }
+  ],
+  "memo": "배정 곡 2곡 모두 수록"
+}

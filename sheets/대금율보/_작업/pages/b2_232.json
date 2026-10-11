@@ -1,0 +1,24 @@
+{
+  "book": 2,
+  "pdfPage": 232,
+  "printedPage": 230,
+  "confirmed": true,
+  "songs": [
+    {
+      "id": "b2_230_1",
+      "title": "잘있거라 부산항",
+      "parts": [{"box": [0.53, 0.119, 0.294, 0.762], "lines": 4, "rows": 16}],
+      "beat": "4/4", "jangdan": "", "tempo": "", "sections": "", "repeat": "",
+      "memo": "제목 오른쪽 세로쓰기(0.824–0.871). 맨 왼쪽 줄은 8정간까지만 칸이 있음",
+      "genre": "가요"
+    },
+    {
+      "id": "b2_230_2",
+      "title": "카츄샤의 노래",
+      "parts": [{"box": [0.101, 0.119, 0.357, 0.762], "lines": 5, "rows": 16}],
+      "beat": "4/4", "jangdan": "", "tempo": "", "sections": "", "repeat": "",
+      "memo": "제목 오른쪽 세로쓰기(0.458–0.53). 맨 왼쪽 줄은 8정간까지만 칸이 있음",
+      "genre": "가요"
+    }
+  ]
+}

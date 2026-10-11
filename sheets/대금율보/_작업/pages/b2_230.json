@@ -1,0 +1,24 @@
+{
+  "book": 2,
+  "pdfPage": 230,
+  "printedPage": 228,
+  "confirmed": true,
+  "songs": [
+    {
+      "id": "b2_228_1",
+      "title": "여인우정",
+      "parts": [{"box": [0.489, 0.126, 0.315, 0.742], "lines": 4, "rows": 16}],
+      "beat": "4/4", "jangdan": "", "tempo": "", "sections": "", "repeat": "",
+      "memo": "제목 오른쪽 세로쓰기(0.804–0.86). 제목 원본 표기 그대로",
+      "genre": "가요"
+    },
+    {
+      "id": "b2_228_2",
+      "title": "내영혼의 히로인",
+      "parts": [{"box": [0.135, 0.126, 0.307, 0.742], "lines": 4, "rows": 16}],
+      "beat": "4/4", "jangdan": "", "tempo": "", "sections": "", "repeat": "",
+      "memo": "제목 오른쪽 세로쓰기(0.442–0.489)",
+      "genre": "가요"
+    }
+  ]
+}

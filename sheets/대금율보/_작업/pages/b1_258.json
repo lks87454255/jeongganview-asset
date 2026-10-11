@@ -1,0 +1,38 @@
+{
+  "book": 1,
+  "pdfPage": 258,
+  "printedPage": 252,
+  "confirmed": true,
+  "songs": [
+    {
+      "id": "b1_252_1",
+      "title": "시계바늘",
+      "titleBox": [0.545, 0.044, 0.373, 0.024],
+      "parts": [
+        {"box": [0.535, 0.068, 0.383, 0.865], "lines": 5, "rows": 24}
+      ],
+      "beat": "4/4",
+      "jangdan": "",
+      "tempo": "□=60",
+      "sections": "",
+      "repeat": "",
+      "memo": "세뇨·D.S.·코다 표 있음",
+      "genre": "가요"
+    },
+    {
+      "id": "b1_252_2",
+      "title": "달도밝은데",
+      "titleBox": [0.068, 0.044, 0.477, 0.024],
+      "parts": [
+        {"box": [0.068, 0.068, 0.467, 0.865], "lines": 6, "rows": 24}
+      ],
+      "beat": "4/4",
+      "jangdan": "",
+      "tempo": "□=70",
+      "sections": "",
+      "repeat": "",
+      "memo": "제목 '달도 밝은데' 띄어쓰기 없이 '달도밝은데'. 세뇨·D.S.·코다 표 있음",
+      "genre": "가요"
+    }
+  ]
+}

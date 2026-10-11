@@ -1,0 +1,38 @@
+{
+  "book": 2,
+  "pdfPage": 87,
+  "printedPage": 85,
+  "confirmed": true,
+  "songs": [
+    {
+      "id": "b2_085_1",
+      "title": "EL CONDOR PASA",
+      "titleBox": [
+        0.25,
+        0.12,
+        0.38,
+        0.024
+      ],
+      "parts": [
+        {
+          "box": [
+            0.15,
+            0.144,
+            0.488,
+            0.74
+          ],
+          "lines": 6,
+          "rows": 16
+        }
+      ],
+      "beat": "4/4",
+      "jangdan": "",
+      "tempo": "□=70",
+      "sections": "",
+      "repeat": "",
+      "memo": "목차 표기 '엘콘돌파샤'",
+      "genre": "외국곡·창작곡"
+    }
+  ],
+  "memo": "오른쪽 3줄(0.644–0.888, 위 □=60)은 앞 쪽 500 MILES(b2_084_2)의 이어짐 → b2_086.json 에 pdfPage 87 part 로 넣음"
+}

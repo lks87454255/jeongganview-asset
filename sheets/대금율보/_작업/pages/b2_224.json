@@ -1,0 +1,24 @@
+{
+  "book": 2,
+  "pdfPage": 224,
+  "printedPage": 222,
+  "confirmed": true,
+  "songs": [
+    {
+      "id": "b2_222_1",
+      "title": "기러기아빠",
+      "parts": [{"box": [0.418, 0.12, 0.433, 0.761], "lines": 6, "rows": 16}],
+      "beat": "4/4", "jangdan": "", "tempo": "", "sections": "", "repeat": "",
+      "genre": "가요",
+      "memo": "제목 오른쪽 세로쓰기(0.851–0.894). 6줄은 8정간까지"
+    },
+    {
+      "id": "b2_222_2",
+      "title": "선생님",
+      "parts": [{"box": [0.092, 0.116, 0.284, 0.762], "lines": 4, "rows": 16}],
+      "beat": "4/4", "jangdan": "", "tempo": "", "sections": "", "repeat": "",
+      "genre": "가요",
+      "memo": "제목 오른쪽 세로쓰기(0.376–0.418)"
+    }
+  ]
+}

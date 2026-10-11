@@ -1,0 +1,24 @@
+{
+  "book": 1,
+  "pdfPage": 119,
+  "printedPage": 113,
+  "confirmed": true,
+  "songs": [
+    {
+      "id": "b1_113_1",
+      "title": "영천 아리랑",
+      "titleBox": [0.083, 0.107, 0.295, 0.032],
+      "parts": [
+        {"box": [0.083, 0.139, 0.295, 0.772], "lines": 4, "rows": 12}
+      ],
+      "beat": "3/4",
+      "jangdan": "세마치",
+      "tempo": "",
+      "sections": "",
+      "repeat": "",
+      "memo": "제목 위 가로쓰기 + 세마치",
+      "genre": "민요"
+    }
+  ],
+  "memo": "오른쪽 곡 '도라지 타령'(세마치)은 배정 밖이라 넣지 않음"
+}
