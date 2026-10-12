@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-10-12T14:22:45Z",
+  "generated": "2026-10-12T14:36:15Z",
   "owner": "lks87454255",
   "repo": "jeongganview-asset",
   "branch": "main",
@@ -219,11 +219,11 @@
           "fileName": "낭낭 십팔세.csv",
           "path": "sheets/민요/csv/낭낭 십팔세.csv",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/sheets/%EB%AF%BC%EC%9A%94/csv/%EB%82%AD%EB%82%AD%20%EC%8B%AD%ED%8C%94%EC%84%B8.csv",
-          "sizeBytes": 1205,
+          "sizeBytes": 1496,
           "beat": "4/4",
           "rows": 16,
           "pages": 1,
-          "sha256": "e62196601f9817c479bef68f3b02457417a3858a86fc111e63a37b80635a82ef",
+          "sha256": "d7383569c1d9f173c35f7f319a831efe31a44dbf160b5edffab5934cdff4f44f",
           "status": "판독 초안(검수 전)"
         },
         {
