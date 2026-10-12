@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-10-12T13:00:20Z",
+  "generated": "2026-10-12T13:56:50Z",
   "owner": "lks87454255",
   "repo": "jeongganview-asset",
   "branch": "main",
@@ -206,11 +206,11 @@
           "fileName": "남원산성.csv",
           "path": "sheets/민요/csv/남원산성.csv",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/sheets/%EB%AF%BC%EC%9A%94/csv/%EB%82%A8%EC%9B%90%EC%82%B0%EC%84%B1.csv",
-          "sizeBytes": 1811,
+          "sizeBytes": 1723,
           "beat": "4/4",
           "rows": 16,
           "pages": 1,
-          "sha256": "ce2a914ff029e18d47e7651489eed05edc52efaadce9d41ee68ab54dbd9db136",
+          "sha256": "3bb78bf167c672a3a12be5533a9d4b32d567f81f3959c8b44153195f7e428c3b",
           "status": "판독 초안(검수 전)"
         },
         {
