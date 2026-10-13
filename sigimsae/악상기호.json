@@ -170,7 +170,8 @@
     { "id": "nanireunonireu", "category": "ORNAMENT", "page": 13, "glyph": "ㄷ⊔", "name": "나니르노니르",
       "description": "ㄷ(나니로)와 ⊔(느로니르)를 합쳐서 꾸며내는 소리이다.",
       "expansion": { "placement": "ATTACHED", "timing": "GRACE", "composeOf": ["naniro", "neuronireu"] },
-      "issues": ["원본 예시 없음 — 조합 규칙(앞 꾸밈의 끝 본음과 뒤 꾸밈의 첫 본음을 하나로 합침)으로 산출"] },
+      "example": { "base": "潢", "printed": ["南", "汰", "潢", "南", "汰", "潢"] },
+      "issues": ["원본 예시 없음 — 조합 규칙(앞 꾸밈의 끝 본음과 뒤 꾸밈의 첫 본음을 하나로 합침)으로 산출, 예시 본음 潢(니루-니와 같음)"] },
 
     { "id": "sumpyo", "category": "TEMPO", "page": 14, "glyph": "<", "name": "숨표",
       "description": "숨을 짧게 쉬라는 표이다.", "effect": { "type": "BREATH" },
