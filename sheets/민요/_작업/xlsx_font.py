@@ -23,7 +23,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import xlsx_to_csv as X  # noqa: E402
 
 FONT_NAME = "궁서체"
-TITLE_SIZE, YUL_SIZE, LYRIC_SIZE = 24, 24, 12
+TITLE_SIZE, YUL_SIZE, LYRIC_SIZE = 24, 24, 18
 
 XLSX_DIR = X.XLSX_DIR
 FONTS_RE = re.compile(r"<fonts\b[^>]*>(.*?)</fonts>", re.S)
