@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-10-13T13:17:19Z",
+  "generated": "2026-10-13T13:24:06Z",
   "owner": "lks87454255",
   "repo": "jeongganview-asset",
   "branch": "main",
@@ -323,11 +323,11 @@
           "fileName": "님타령.csv",
           "path": "sheets/민요/csv/님타령.csv",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/sheets/%EB%AF%BC%EC%9A%94/csv/%EB%8B%98%ED%83%80%EB%A0%B9.csv",
-          "sizeBytes": 2260,
+          "sizeBytes": 2259,
           "beat": "4/4",
           "rows": 8,
           "pages": 1,
-          "sha256": "16ad4094b02c2e006a9ddc155f7c1d4715f22272fa24acdbabaf5b93385355e9",
+          "sha256": "762d198525f9b303e37ecc5065016284a2f9dd55de8e886fdca80e3b4bd9312b",
           "status": "판독 초안(검수 전)"
         },
         {
