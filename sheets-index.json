@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-10-13T12:11:09Z",
+  "generated": "2026-10-13T12:59:25Z",
   "owner": "lks87454255",
   "repo": "jeongganview-asset",
   "branch": "main",
@@ -279,16 +279,29 @@
           "status": "판독 초안(검수 전)"
         },
         {
-          "name": "는실 타령",
-          "title": "는실 타령",
-          "fileName": "는실 타령.csv",
-          "path": "sheets/민요/csv/는실 타령.csv",
-          "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/sheets/%EB%AF%BC%EC%9A%94/csv/%EB%8A%94%EC%8B%A4%20%ED%83%80%EB%A0%B9.csv",
-          "sizeBytes": 1684,
-          "beat": "3/4",
-          "rows": 12,
+          "name": "는실 타령-1",
+          "title": "는실 타령-1",
+          "fileName": "는실 타령-1.csv",
+          "path": "sheets/민요/csv/는실 타령-1.csv",
+          "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/sheets/%EB%AF%BC%EC%9A%94/csv/%EB%8A%94%EC%8B%A4%20%ED%83%80%EB%A0%B9-1.csv",
+          "sizeBytes": 1275,
+          "beat": "4/4",
+          "rows": 8,
           "pages": 1,
-          "sha256": "b7f5e63005abb6d412b4eddf1abf50c254e8959dfb299bfaba78c1dfc568b2ba",
+          "sha256": "4cd04f808b1e16e57d493d408e99e377659c2e8ba5335cb46f0500d9eba0f5b4",
+          "status": "판독 초안(검수 전)"
+        },
+        {
+          "name": "는실 타령-2",
+          "title": "는실 타령-2",
+          "fileName": "는실 타령-2.csv",
+          "path": "sheets/민요/csv/는실 타령-2.csv",
+          "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/sheets/%EB%AF%BC%EC%9A%94/csv/%EB%8A%94%EC%8B%A4%20%ED%83%80%EB%A0%B9-2.csv",
+          "sizeBytes": 1164,
+          "beat": "4/4",
+          "rows": 8,
+          "pages": 1,
+          "sha256": "e6e932ca44beef6012eff05ef64e402b8681769ab214bc67b242c2a61443d925",
           "status": "판독 초안(검수 전)"
         },
         {
@@ -7445,6 +7458,6 @@
   ],
   "_total": {
     "categories": 10,
-    "files": 532
+    "files": 533
   }
 }
