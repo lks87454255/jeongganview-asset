@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-10-13T11:59:45Z",
+  "generated": "2026-10-13T12:11:09Z",
   "owner": "lks87454255",
   "repo": "jeongganview-asset",
   "branch": "main",
@@ -232,11 +232,11 @@
           "fileName": "노들강변.csv",
           "path": "sheets/민요/csv/노들강변.csv",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/sheets/%EB%AF%BC%EC%9A%94/csv/%EB%85%B8%EB%93%A4%EA%B0%95%EB%B3%80.csv",
-          "sizeBytes": 1017,
+          "sizeBytes": 1502,
           "beat": "3/4",
           "rows": 12,
           "pages": 1,
-          "sha256": "b3c31f5ed29d8b8a5da9f06c3c24eec3f60c1b0106fe72314d3c4ddb50a7c8b4",
+          "sha256": "9941734af07a9d5ff0a9b68e3b671d318d81e0ec918bb4284ec73c43eba973bc",
           "status": "판독 초안(검수 전)"
         },
         {
