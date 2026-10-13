@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-10-13T11:46:53Z",
+  "generated": "2026-10-13T11:52:37Z",
   "owner": "lks87454255",
   "repo": "jeongganview-asset",
   "branch": "main",
@@ -253,11 +253,11 @@
           "status": "판독 초안(검수 전)"
         },
         {
-          "name": "노래가락 (채보3) 노래가락",
+          "name": "노래가락",
           "title": "노래가락",
-          "fileName": "노래가락 (채보3) 노래가락.csv",
-          "path": "sheets/민요/csv/노래가락 (채보3) 노래가락.csv",
-          "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/sheets/%EB%AF%BC%EC%9A%94/csv/%EB%85%B8%EB%9E%98%EA%B0%80%EB%9D%BD%20%28%EC%B1%84%EB%B3%B43%29%20%EB%85%B8%EB%9E%98%EA%B0%80%EB%9D%BD.csv",
+          "fileName": "노래가락.csv",
+          "path": "sheets/민요/csv/노래가락.csv",
+          "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/sheets/%EB%AF%BC%EC%9A%94/csv/%EB%85%B8%EB%9E%98%EA%B0%80%EB%9D%BD.csv",
           "sizeBytes": 1428,
           "beat": "4/4",
           "rows": 16,
