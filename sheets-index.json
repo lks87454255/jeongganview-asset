@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-10-13T13:24:06Z",
+  "generated": "2026-10-13T13:31:27Z",
   "owner": "lks87454255",
   "repo": "jeongganview-asset",
   "branch": "main",
@@ -336,11 +336,11 @@
           "fileName": "담바귀 타령.csv",
           "path": "sheets/민요/csv/담바귀 타령.csv",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/sheets/%EB%AF%BC%EC%9A%94/csv/%EB%8B%B4%EB%B0%94%EA%B7%80%20%ED%83%80%EB%A0%B9.csv",
-          "sizeBytes": 1240,
+          "sizeBytes": 933,
           "beat": "3/4",
           "rows": 12,
           "pages": 1,
-          "sha256": "7b32d4046c42f89d17e14f1220fc77e1ac50248fa9542ad543a9fcc2c68ba5da",
+          "sha256": "fb87e0bff25c72d7086b2b4d983f0d2e5bdc9c0ec6b6fb25c84d01b854c9b819",
           "status": "판독 초안(검수 전)"
         },
         {
