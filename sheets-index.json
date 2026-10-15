@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-10-15T11:24:07Z",
+  "generated": "2026-10-15T11:28:50Z",
   "owner": "lks87454255",
   "repo": "jeongganview-asset",
   "branch": "main",
@@ -414,11 +414,11 @@
           "fileName": "물레타령.csv",
           "path": "sheets/민요/csv/물레타령.csv",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/sheets/%EB%AF%BC%EC%9A%94/csv/%EB%AC%BC%EB%A0%88%ED%83%80%EB%A0%B9.csv",
-          "sizeBytes": 1312,
+          "sizeBytes": 1294,
           "beat": "3/4",
           "rows": 12,
           "pages": 1,
-          "sha256": "81da948d352c19690f35d30a499443d499a0ed1e17c82fffaec28638d6e87db0",
+          "sha256": "80853808d1edc978fdc503408fccd296d0f5968f71511a494463cea768fbd085",
           "status": "판독 초안(검수 전)"
         },
         {
