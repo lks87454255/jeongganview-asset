@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-10-15T14:15:00Z",
+  "generated": "2026-10-15T14:16:37Z",
   "owner": "lks87454255",
   "repo": "jeongganview-asset",
   "branch": "main",
@@ -1072,11 +1072,11 @@
           "status": "판독 초안(검수 전)"
         },
         {
-          "name": "천안 삼거리 (채보1)",
+          "name": "천안 삼거리-굿거리-2",
           "title": "천안 삼거리",
-          "fileName": "천안 삼거리 (채보1).csv",
-          "path": "sheets/민요/csv/천안 삼거리 (채보1).csv",
-          "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/sheets/%EB%AF%BC%EC%9A%94/csv/%EC%B2%9C%EC%95%88%20%EC%82%BC%EA%B1%B0%EB%A6%AC%20%28%EC%B1%84%EB%B3%B41%29.csv",
+          "fileName": "천안 삼거리-굿거리-2.csv",
+          "path": "sheets/민요/csv/천안 삼거리-굿거리-2.csv",
+          "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/sheets/%EB%AF%BC%EC%9A%94/csv/%EC%B2%9C%EC%95%88%20%EC%82%BC%EA%B1%B0%EB%A6%AC-%EA%B5%BF%EA%B1%B0%EB%A6%AC-2.csv",
           "sizeBytes": 1133,
           "beat": "4/4",
           "rows": 8,
