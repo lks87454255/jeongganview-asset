@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-10-15T11:39:13Z",
+  "generated": "2026-10-15T11:44:28Z",
   "owner": "lks87454255",
   "repo": "jeongganview-asset",
   "branch": "main",
@@ -457,7 +457,7 @@
           "beat": "4/4",
           "rows": 8,
           "pages": 1,
-          "sha256": "d301ff7e0f1ff9f027fe2c45c0e33f9710cc450c4393bbc476455c5a8ca00f6a",
+          "sha256": "66dc45a1ae2b8407772feb82758baefa74d133b87164d0dce7baae9df3c63ca6",
           "status": "판독 초안(검수 전)"
         },
         {
