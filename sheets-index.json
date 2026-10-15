@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-10-15T11:31:56Z",
+  "generated": "2026-10-15T11:39:13Z",
   "owner": "lks87454255",
   "repo": "jeongganview-asset",
   "branch": "main",
@@ -440,11 +440,11 @@
           "fileName": "박연폭포 (굿거리).csv",
           "path": "sheets/민요/csv/박연폭포 (굿거리).csv",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/sheets/%EB%AF%BC%EC%9A%94/csv/%EB%B0%95%EC%97%B0%ED%8F%AD%ED%8F%AC%20%28%EA%B5%BF%EA%B1%B0%EB%A6%AC%29.csv",
-          "sizeBytes": 1181,
+          "sizeBytes": 1176,
           "beat": "4/4",
           "rows": 8,
           "pages": 1,
-          "sha256": "75e38007aaaf51673a2884db442b421f66ad5faac191bced3911b5d5f3890990",
+          "sha256": "9185d65824349454f677c3fe6fac66dd29111dbcd94d1f94c439a593936d1b5a",
           "status": "판독 초안(검수 전)"
         },
         {
