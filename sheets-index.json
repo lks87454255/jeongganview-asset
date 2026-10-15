@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-10-15T14:45:17Z",
+  "generated": "2026-10-15T14:48:02Z",
   "owner": "lks87454255",
   "repo": "jeongganview-asset",
   "branch": "main",
@@ -882,11 +882,11 @@
           "fileName": "옹이.csv",
           "path": "sheets/민요/csv/옹이.csv",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/sheets/%EB%AF%BC%EC%9A%94/csv/%EC%98%B9%EC%9D%B4.csv",
-          "sizeBytes": 1648,
-          "beat": "3/4",
-          "rows": 12,
+          "sizeBytes": 1746,
+          "beat": "4/4",
+          "rows": 16,
           "pages": 1,
-          "sha256": "bba33bc67e350b549d38b0bafa9b2cfd12fbd6190eb788d376e1a51470b64ccb",
+          "sha256": "706f760b0a80af7a075ad61463c599cb72f9cc4118e001e457a5ee84f0024f10",
           "status": "판독 초안(검수 전)"
         },
         {
@@ -1207,11 +1207,11 @@
           "fileName": "함양 양잠가.csv",
           "path": "sheets/민요/csv/함양 양잠가.csv",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/sheets/%EB%AF%BC%EC%9A%94/csv/%ED%95%A8%EC%96%91%20%EC%96%91%EC%9E%A0%EA%B0%80.csv",
-          "sizeBytes": 1246,
+          "sizeBytes": 1243,
           "beat": "4/4",
           "rows": 8,
           "pages": 1,
-          "sha256": "79accd90803e3fdbb48e3f51732119761bdc15b1ef33d933e03e4fbaffa02a7d",
+          "sha256": "8c925ce7d1cb03d0e7632d4bd0defd72724b49d253cde61ebdf4702f77971dad",
           "status": "판독 초안(검수 전)"
         },
         {
@@ -1246,11 +1246,11 @@
           "fileName": "희망가.csv",
           "path": "sheets/민요/csv/희망가.csv",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/sheets/%EB%AF%BC%EC%9A%94/csv/%ED%9D%AC%EB%A7%9D%EA%B0%80.csv",
-          "sizeBytes": 1203,
+          "sizeBytes": 1198,
           "beat": "3/4",
           "rows": 12,
           "pages": 1,
-          "sha256": "98a7b2420d3d620f2c21dd188465b4a7750692a2c1225a1f0b2a3c92b0a4604f",
+          "sha256": "28ee6cc34f933e8b13cfb4d058f6d419864dc32ffbbb7be08c1b0efbbb718630",
           "status": "판독 초안(검수 전)"
         }
       ]
