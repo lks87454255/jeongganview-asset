@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-10-15T12:06:03Z",
+  "generated": "2026-10-15T12:19:21Z",
   "owner": "lks87454255",
   "repo": "jeongganview-asset",
   "branch": "main",
@@ -557,11 +557,11 @@
           "fileName": "사철가 (채보2).csv",
           "path": "sheets/민요/csv/사철가 (채보2).csv",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/sheets/%EB%AF%BC%EC%9A%94/csv/%EC%82%AC%EC%B2%A0%EA%B0%80%20%28%EC%B1%84%EB%B3%B42%29.csv",
-          "sizeBytes": 1340,
+          "sizeBytes": 1350,
           "beat": "4/4",
           "rows": 8,
           "pages": 1,
-          "sha256": "40570c502b9d04926b3a83cbccdcfeab3180287c2c4a6e92513405a44dbddd09",
+          "sha256": "24d1a9ae9cb1ebbe57dabd73eb4834f1eaefcdb49e2baac3a1bc9d479654d9ec",
           "status": "판독 초안(검수 전)"
         },
         {
@@ -570,11 +570,11 @@
           "fileName": "상사 천리몽.csv",
           "path": "sheets/민요/csv/상사 천리몽.csv",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/sheets/%EB%AF%BC%EC%9A%94/csv/%EC%83%81%EC%82%AC%20%EC%B2%9C%EB%A6%AC%EB%AA%BD.csv",
-          "sizeBytes": 1372,
+          "sizeBytes": 1371,
           "beat": "4/4",
           "rows": 8,
           "pages": 1,
-          "sha256": "262c452d2795ff6de6524f6c5076a8c458994f0f4935a1c259150d9da83b2069",
+          "sha256": "0853230a576c960eb8a323752e71fab602caa3d0fd3712f19bfd82ba4b58d72b",
           "status": "판독 초안(검수 전)"
         },
         {
@@ -730,7 +730,7 @@
           "beat": "4/4",
           "rows": 16,
           "pages": 1,
-          "sha256": "3be673482fa74e22a4b06ad91733d581bec169a83c2c52f3185cb7723b98dba4",
+          "sha256": "b658d2b01d9e7017cfcf123a79c2645d6c11506af07ce08965a90676cda65ad8",
           "status": "판독 초안(검수 전)"
         },
         {
@@ -743,7 +743,7 @@
           "beat": "4/4",
           "rows": 16,
           "pages": 1,
-          "sha256": "bf0994481af64bae08bf2a5d62a3867eb2456a101026aa39b2bf1f20ac01c884",
+          "sha256": "c91282d7c34c6fe255444a4c96a1595ddd7ae847c78d3595530bf0ff42ae9744",
           "status": "판독 초안(검수 전)"
         },
         {
@@ -769,7 +769,7 @@
           "beat": "4/4",
           "rows": 8,
           "pages": 1,
-          "sha256": "1163829af224b437b62db2e932fd1dbc530e4557f655ca32553e5bea809b7cc3",
+          "sha256": "a38eb1b9671a68f239a779d7bcb8b173410e4bc88fd6989b98ec0b97b1b74e51",
           "status": "판독 초안(검수 전)"
         },
         {
@@ -821,7 +821,7 @@
           "beat": "3/4",
           "rows": 12,
           "pages": 1,
-          "sha256": "cded2d9f7acd1c43f9e8beb675c7a49c0d687c75d0e7aa8bac2ad69d2a8aa55c",
+          "sha256": "6ab1266718864ed8d73b5946d4b478cc5abf60d1c120ea75cbaebea77a670a08",
           "status": "판독 초안(검수 전)"
         },
         {
@@ -886,7 +886,7 @@
           "beat": "3/4",
           "rows": 12,
           "pages": 1,
-          "sha256": "1c6188ec2787211da90335a2f4b0448e5c1f237cc7077a6ee8de214e72ddd163",
+          "sha256": "b0b270fb39b148b1fa1694de03b048d700ea7359ea79bb6d0d4561a4f6978636",
           "status": "판독 초안(검수 전)"
         },
         {
@@ -912,7 +912,7 @@
           "beat": "4/4",
           "rows": 16,
           "pages": 1,
-          "sha256": "b31146dbbdd813f35d07ce8bf173fdaa362ce847b2eabfec6f2a3b2b3530090d",
+          "sha256": "5d73c65816835b0aca7c8c4509e0522c6df21283ec79d8372f3c3c97f9381a61",
           "status": "판독 초안(검수 전)"
         },
         {
