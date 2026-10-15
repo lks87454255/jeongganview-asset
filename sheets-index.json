@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-10-15T14:11:58Z",
+  "generated": "2026-10-15T14:15:00Z",
   "owner": "lks87454255",
   "repo": "jeongganview-asset",
   "branch": "main",
@@ -1072,19 +1072,6 @@
           "status": "판독 초안(검수 전)"
         },
         {
-          "name": "천안 삼거리 (굿거리)",
-          "title": "천안 삼거리",
-          "fileName": "천안 삼거리 (굿거리).csv",
-          "path": "sheets/민요/csv/천안 삼거리 (굿거리).csv",
-          "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/sheets/%EB%AF%BC%EC%9A%94/csv/%EC%B2%9C%EC%95%88%20%EC%82%BC%EA%B1%B0%EB%A6%AC%20%28%EA%B5%BF%EA%B1%B0%EB%A6%AC%29.csv",
-          "sizeBytes": 1110,
-          "beat": "3/4",
-          "rows": 12,
-          "pages": 1,
-          "sha256": "61bccfb051a3767bd619f5c87ea9d90ade30dda8781d2c6c168ae19898edd3ae",
-          "status": "판독 초안(검수 전)"
-        },
-        {
           "name": "천안 삼거리 (채보1)",
           "title": "천안 삼거리",
           "fileName": "천안 삼거리 (채보1).csv",
@@ -1095,6 +1082,19 @@
           "rows": 8,
           "pages": 1,
           "sha256": "5e1f7b8ee5f44e20f8fa296e9ab6ed981509c0293e7889e3090dd858a1a80fb3",
+          "status": "판독 초안(검수 전)"
+        },
+        {
+          "name": "천안 삼거리-굿거리",
+          "title": "천안 삼거리",
+          "fileName": "천안 삼거리-굿거리.csv",
+          "path": "sheets/민요/csv/천안 삼거리-굿거리.csv",
+          "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/sheets/%EB%AF%BC%EC%9A%94/csv/%EC%B2%9C%EC%95%88%20%EC%82%BC%EA%B1%B0%EB%A6%AC-%EA%B5%BF%EA%B1%B0%EB%A6%AC.csv",
+          "sizeBytes": 1110,
+          "beat": "3/4",
+          "rows": 12,
+          "pages": 1,
+          "sha256": "61bccfb051a3767bd619f5c87ea9d90ade30dda8781d2c6c168ae19898edd3ae",
           "status": "판독 초안(검수 전)"
         },
         {
