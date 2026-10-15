@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-10-15T14:08:54Z",
+  "generated": "2026-10-15T14:10:54Z",
   "owner": "lks87454255",
   "repo": "jeongganview-asset",
   "branch": "main",
@@ -994,19 +994,6 @@
           "status": "판독 초안(검수 전)"
         },
         {
-          "name": "창부 타령-2",
-          "title": "창부타령",
-          "fileName": "창부 타령-2.csv",
-          "path": "sheets/민요/csv/창부 타령-2.csv",
-          "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/sheets/%EB%AF%BC%EC%9A%94/csv/%EC%B0%BD%EB%B6%80%20%ED%83%80%EB%A0%B9-2.csv",
-          "sizeBytes": 1387,
-          "beat": "4/4",
-          "rows": 8,
-          "pages": 1,
-          "sha256": "67d8b3ee16583ea36f162d3807a5b13830f3d55798a8fb176f22ec1025d81e70",
-          "status": "판독 초안(검수 전)"
-        },
-        {
           "name": "창부 타령",
           "title": "창부타령",
           "fileName": "창부 타령.csv",
@@ -1056,6 +1043,19 @@
           "rows": 12,
           "pages": 1,
           "sha256": "d5d94b320c74ea005ed034121f18a024d7ff06af666cc5fed11e57be8fb42989",
+          "status": "판독 초안(검수 전)"
+        },
+        {
+          "name": "창부타령-4",
+          "title": "창부타령",
+          "fileName": "창부타령-4.csv",
+          "path": "sheets/민요/csv/창부타령-4.csv",
+          "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/sheets/%EB%AF%BC%EC%9A%94/csv/%EC%B0%BD%EB%B6%80%ED%83%80%EB%A0%B9-4.csv",
+          "sizeBytes": 1387,
+          "beat": "4/4",
+          "rows": 8,
+          "pages": 1,
+          "sha256": "67d8b3ee16583ea36f162d3807a5b13830f3d55798a8fb176f22ec1025d81e70",
           "status": "판독 초안(검수 전)"
         },
         {
