@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-10-15T14:35:59Z",
+  "generated": "2026-10-15T14:37:10Z",
   "owner": "lks87454255",
   "repo": "jeongganview-asset",
   "branch": "main",
@@ -1163,11 +1163,11 @@
           "status": "판독 초안(검수 전)"
         },
         {
-          "name": "풍년가 (채보2)",
+          "name": "풍년가-2",
           "title": "풍년가",
-          "fileName": "풍년가 (채보2).csv",
-          "path": "sheets/민요/csv/풍년가 (채보2).csv",
-          "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/sheets/%EB%AF%BC%EC%9A%94/csv/%ED%92%8D%EB%85%84%EA%B0%80%20%28%EC%B1%84%EB%B3%B42%29.csv",
+          "fileName": "풍년가-2.csv",
+          "path": "sheets/민요/csv/풍년가-2.csv",
+          "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/sheets/%EB%AF%BC%EC%9A%94/csv/%ED%92%8D%EB%85%84%EA%B0%80-2.csv",
           "sizeBytes": 1284,
           "beat": "3/4",
           "rows": 12,
