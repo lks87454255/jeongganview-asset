@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-10-15T12:05:16Z",
+  "generated": "2026-10-15T12:06:03Z",
   "owner": "lks87454255",
   "repo": "jeongganview-asset",
   "branch": "main",
@@ -505,11 +505,11 @@
           "fileName": "북간도 아리랑.csv",
           "path": "sheets/민요/csv/북간도 아리랑.csv",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/sheets/%EB%AF%BC%EC%9A%94/csv/%EB%B6%81%EA%B0%84%EB%8F%84%20%EC%95%84%EB%A6%AC%EB%9E%91.csv",
-          "sizeBytes": 1594,
+          "sizeBytes": 1543,
           "beat": "3/4",
           "rows": 12,
           "pages": 1,
-          "sha256": "193ca7e059bfaf970f0db826fe8483c9ee400c3521c1ec30f86dc927abbbbfed",
+          "sha256": "747c0a66a93a06443272bdac021c19d9a04a506d8527f95a9e1bce99fcad62d5",
           "status": "판독 초안(검수 전)"
         },
         {
