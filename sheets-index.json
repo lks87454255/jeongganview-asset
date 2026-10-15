@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-10-15T11:44:28Z",
+  "generated": "2026-10-15T12:05:16Z",
   "owner": "lks87454255",
   "repo": "jeongganview-asset",
   "branch": "main",
@@ -470,7 +470,7 @@
           "beat": "3/4",
           "rows": 12,
           "pages": 1,
-          "sha256": "f0614f8a167288c3ede0008499bd14f20013eadc0662d983afed0f68e8eb2d14",
+          "sha256": "8223a1b579c4959e320a3e50f2c19effebf7250d2c40fc810283b88a89719a98",
           "status": "판독 초안(검수 전)"
         },
         {
@@ -483,7 +483,7 @@
           "beat": "3/4",
           "rows": 12,
           "pages": 1,
-          "sha256": "90d94d4736f347a4c80eb24bc9ec4594737896418f0ef135986c583a6f274996",
+          "sha256": "9fc6a6e02f811cfa2bf26b5c21eaf2e3d24e488b775af0e41f86bb145ea38ac2",
           "status": "판독 초안(검수 전)"
         },
         {
@@ -535,7 +535,7 @@
           "beat": "4/4",
           "rows": 8,
           "pages": 1,
-          "sha256": "24b9169aa2d1990a048b7a5c55a944bee251c38bf2d572d2b136d4c42f826f0c",
+          "sha256": "828467f3fc58ca2f08c90c0cf2ef27d7a9a08dcbf707048a692bdd9b8646ae3c",
           "status": "판독 초안(검수 전)"
         },
         {
@@ -648,11 +648,11 @@
           "fileName": "신 만고강산.csv",
           "path": "sheets/민요/csv/신 만고강산.csv",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/sheets/%EB%AF%BC%EC%9A%94/csv/%EC%8B%A0%20%EB%A7%8C%EA%B3%A0%EA%B0%95%EC%82%B0.csv",
-          "sizeBytes": 1533,
+          "sizeBytes": 1526,
           "beat": "4/4",
           "rows": 8,
           "pages": 1,
-          "sha256": "58f01a7771c656b4cc175519369d815f560fb8d903df6c81613c339734b4c798",
+          "sha256": "952d862f1a46303818cccd561fd5a97a91fa0d402567339e19c59d4ce2eaa82c",
           "status": "판독 초안(검수 전)"
         },
         {
@@ -665,7 +665,7 @@
           "beat": "4/4",
           "rows": 8,
           "pages": 1,
-          "sha256": "50ab0548e2900d0cb65bffe1d3464b87dfa945cf0840ee25126d0cfc21463c87",
+          "sha256": "3e92a66869b4cd354e6b02047582cefb954b5436ebf08c2b11e79c2db846beae",
           "status": "판독 초안(검수 전)"
         },
         {
