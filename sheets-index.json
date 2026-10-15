@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-10-15T13:48:14Z",
+  "generated": "2026-10-15T13:53:09Z",
   "owner": "lks87454255",
   "repo": "jeongganview-asset",
   "branch": "main",
@@ -354,6 +354,19 @@
           "rows": 8,
           "pages": 1,
           "sha256": "762d198525f9b303e37ecc5065016284a2f9dd55de8e886fdca80e3b4bd9312b",
+          "status": "판독 초안(검수 전)"
+        },
+        {
+          "name": "담바귀 타령-2",
+          "title": "담바귀 타령-2",
+          "fileName": "담바귀 타령-2.csv",
+          "path": "sheets/민요/csv/담바귀 타령-2.csv",
+          "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/sheets/%EB%AF%BC%EC%9A%94/csv/%EB%8B%B4%EB%B0%94%EA%B7%80%20%ED%83%80%EB%A0%B9-2.csv",
+          "sizeBytes": 974,
+          "beat": "3/4",
+          "rows": 12,
+          "pages": 1,
+          "sha256": "e6b3ce7be5a378e4e7607cf0ffa3e6e7520956a43c2e31eb10436c7a5c89b5eb",
           "status": "판독 초안(검수 전)"
         },
         {
@@ -955,16 +968,16 @@
           "status": "판독 초안(검수 전)"
         },
         {
-          "name": "제주도 타령 담바귀 타령",
-          "title": "제주도 타령 / 담바귀 타령",
-          "fileName": "제주도 타령 담바귀 타령.csv",
-          "path": "sheets/민요/csv/제주도 타령 담바귀 타령.csv",
-          "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/sheets/%EB%AF%BC%EC%9A%94/csv/%EC%A0%9C%EC%A3%BC%EB%8F%84%20%ED%83%80%EB%A0%B9%20%EB%8B%B4%EB%B0%94%EA%B7%80%20%ED%83%80%EB%A0%B9.csv",
-          "sizeBytes": 1516,
+          "name": "제주도 타령-2",
+          "title": "제주도 타령-2",
+          "fileName": "제주도 타령-2.csv",
+          "path": "sheets/민요/csv/제주도 타령-2.csv",
+          "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/sheets/%EB%AF%BC%EC%9A%94/csv/%EC%A0%9C%EC%A3%BC%EB%8F%84%20%ED%83%80%EB%A0%B9-2.csv",
+          "sizeBytes": 1181,
           "beat": "3/4",
           "rows": 12,
           "pages": 1,
-          "sha256": "856b8faab457a666e19ea08888a0297c78cd16a8916769967f61e8557f2e4d08",
+          "sha256": "6615c2fd0931bcaf28df261010b383e7dde32fc3d000377716e29c1c4630fb28",
           "status": "판독 초안(검수 전)"
         },
         {
@@ -7510,6 +7523,6 @@
   ],
   "_total": {
     "categories": 10,
-    "files": 537
+    "files": 538
   }
 }
