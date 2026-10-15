@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-10-14T14:41:42Z",
+  "generated": "2026-10-15T11:17:51Z",
   "owner": "lks87454255",
   "repo": "jeongganview-asset",
   "branch": "main",
@@ -388,11 +388,11 @@
           "fileName": "매화 타령.csv",
           "path": "sheets/민요/csv/매화 타령.csv",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/sheets/%EB%AF%BC%EC%9A%94/csv/%EB%A7%A4%ED%99%94%20%ED%83%80%EB%A0%B9.csv",
-          "sizeBytes": 1823,
+          "sizeBytes": 1797,
           "beat": "4/4",
           "rows": 8,
           "pages": 1,
-          "sha256": "ec86fe9d39c9eea8c9c159d4244ae65d7774f815e7d359e667618c6331b688fa",
+          "sha256": "7700d4fb0484e370025438e4ab99d275a188557293f67f0cd59be0fb4f725e84",
           "status": "판독 초안(검수 전)"
         },
         {
