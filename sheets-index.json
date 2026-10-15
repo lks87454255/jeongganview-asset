@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-10-15T14:37:10Z",
+  "generated": "2026-10-15T14:37:35Z",
   "owner": "lks87454255",
   "repo": "jeongganview-asset",
   "branch": "main",
@@ -1103,11 +1103,11 @@
           "fileName": "청춘가.csv",
           "path": "sheets/민요/csv/청춘가.csv",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/sheets/%EB%AF%BC%EC%9A%94/csv/%EC%B2%AD%EC%B6%98%EA%B0%80.csv",
-          "sizeBytes": 1420,
+          "sizeBytes": 1418,
           "beat": "3/4",
           "rows": 12,
           "pages": 1,
-          "sha256": "e39527ca102fb4344da166da84d6b7e6f962c55a8bec5a16149d128e50b59beb",
+          "sha256": "318b421c83e0152816b17192fe615973cdf8b2b80d5b261d74f103edf0e963c1",
           "status": "판독 초안(검수 전)"
         },
         {
@@ -1133,7 +1133,7 @@
           "beat": "3/4",
           "rows": 12,
           "pages": 1,
-          "sha256": "0f965c20c8fc0d78e529d8862ef6731184eebda968b315244a70497c7598f0a4",
+          "sha256": "0d186490cb76b681f6b120302418ec05c8be04804282c5293aca7bf797346324",
           "status": "판독 초안(검수 전)"
         },
         {
@@ -1142,11 +1142,11 @@
           "fileName": "통영 개타령.csv",
           "path": "sheets/민요/csv/통영 개타령.csv",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/sheets/%EB%AF%BC%EC%9A%94/csv/%ED%86%B5%EC%98%81%20%EA%B0%9C%ED%83%80%EB%A0%B9.csv",
-          "sizeBytes": 1865,
+          "sizeBytes": 1912,
           "beat": "4/4",
           "rows": 16,
           "pages": 1,
-          "sha256": "a8c3535283e7fe557f07bfd907d079458508bb814e72b01e36dfdcf28b4c3ab8",
+          "sha256": "716ece8366808f25938bcba548fe10bee796d3daa2e6052d397f2090a10ecc34",
           "status": "판독 초안(검수 전)"
         },
         {
