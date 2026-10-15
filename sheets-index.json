@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-10-15T14:00:08Z",
+  "generated": "2026-10-15T14:04:29Z",
   "owner": "lks87454255",
   "repo": "jeongganview-asset",
   "branch": "main",
@@ -994,6 +994,19 @@
           "status": "판독 초안(검수 전)"
         },
         {
+          "name": "창부 타령-2",
+          "title": "창부타령",
+          "fileName": "창부 타령-2.csv",
+          "path": "sheets/민요/csv/창부 타령-2.csv",
+          "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/sheets/%EB%AF%BC%EC%9A%94/csv/%EC%B0%BD%EB%B6%80%20%ED%83%80%EB%A0%B9-2.csv",
+          "sizeBytes": 1387,
+          "beat": "4/4",
+          "rows": 8,
+          "pages": 1,
+          "sha256": "67d8b3ee16583ea36f162d3807a5b13830f3d55798a8fb176f22ec1025d81e70",
+          "status": "판독 초안(검수 전)"
+        },
+        {
           "name": "창부타령 (멜로디버전)",
           "title": "창부타령",
           "fileName": "창부타령 (멜로디버전).csv",
@@ -1004,19 +1017,6 @@
           "rows": 12,
           "pages": 1,
           "sha256": "d023de10d02e406c516a73bfc5315ab1dc84a3a1d6849ecf36d86d0807514ef4",
-          "status": "판독 초안(검수 전)"
-        },
-        {
-          "name": "창부타령 (채보1) 창부 타령-3",
-          "title": "창부타령",
-          "fileName": "창부타령 (채보1) 창부 타령-3.csv",
-          "path": "sheets/민요/csv/창부타령 (채보1) 창부 타령-3.csv",
-          "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/sheets/%EB%AF%BC%EC%9A%94/csv/%EC%B0%BD%EB%B6%80%ED%83%80%EB%A0%B9%20%28%EC%B1%84%EB%B3%B41%29%20%EC%B0%BD%EB%B6%80%20%ED%83%80%EB%A0%B9-3.csv",
-          "sizeBytes": 1387,
-          "beat": "4/4",
-          "rows": 8,
-          "pages": 1,
-          "sha256": "955ee3901fce418ff41529d1c4a696dc07cd2197aeb1945e86fcce7e27eadbb3",
           "status": "판독 초안(검수 전)"
         },
         {
