@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-10-15T14:37:35Z",
+  "generated": "2026-10-15T14:42:48Z",
   "owner": "lks87454255",
   "repo": "jeongganview-asset",
   "branch": "main",
@@ -1215,19 +1215,6 @@
           "status": "판독 초안(검수 전)"
         },
         {
-          "name": "흥 타령 (늦중모리)",
-          "title": "흥 타령",
-          "fileName": "흥 타령 (늦중모리).csv",
-          "path": "sheets/민요/csv/흥 타령 (늦중모리).csv",
-          "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/sheets/%EB%AF%BC%EC%9A%94/csv/%ED%9D%A5%20%ED%83%80%EB%A0%B9%20%28%EB%8A%A6%EC%A4%91%EB%AA%A8%EB%A6%AC%29.csv",
-          "sizeBytes": 1688,
-          "beat": "3/4",
-          "rows": 12,
-          "pages": 1,
-          "sha256": "4af1ca8725fccebc70a46012fb8b42f93e6385ae4fb48bc2cbbe804903731bd5",
-          "status": "판독 초안(검수 전)"
-        },
-        {
           "name": "흥 타령 (채보3)",
           "title": "흥 타령",
           "fileName": "흥 타령 (채보3).csv",
@@ -1238,6 +1225,19 @@
           "rows": 12,
           "pages": 1,
           "sha256": "425d59cbc29dabce355b3487a7c3c22e7394a4ad52b55bc3ac7addf6033662a4",
+          "status": "판독 초안(검수 전)"
+        },
+        {
+          "name": "흥 타령",
+          "title": "흥 타령",
+          "fileName": "흥 타령.csv",
+          "path": "sheets/민요/csv/흥 타령.csv",
+          "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/sheets/%EB%AF%BC%EC%9A%94/csv/%ED%9D%A5%20%ED%83%80%EB%A0%B9.csv",
+          "sizeBytes": 1688,
+          "beat": "3/4",
+          "rows": 12,
+          "pages": 1,
+          "sha256": "4af1ca8725fccebc70a46012fb8b42f93e6385ae4fb48bc2cbbe804903731bd5",
           "status": "판독 초안(검수 전)"
         },
         {
