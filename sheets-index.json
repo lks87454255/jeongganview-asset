@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-10-15T14:16:37Z",
+  "generated": "2026-10-15T14:35:59Z",
   "owner": "lks87454255",
   "repo": "jeongganview-asset",
   "branch": "main",
@@ -1163,19 +1163,6 @@
           "status": "판독 초안(검수 전)"
         },
         {
-          "name": "풍년가 (채보1)",
-          "title": "풍년가",
-          "fileName": "풍년가 (채보1).csv",
-          "path": "sheets/민요/csv/풍년가 (채보1).csv",
-          "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/sheets/%EB%AF%BC%EC%9A%94/csv/%ED%92%8D%EB%85%84%EA%B0%80%20%28%EC%B1%84%EB%B3%B41%29.csv",
-          "sizeBytes": 1279,
-          "beat": "3/4",
-          "rows": 12,
-          "pages": 1,
-          "sha256": "c6452f4a779146899d9948ec5101986f26cb4200a42f271a073f9d39b29ecd81",
-          "status": "판독 초안(검수 전)"
-        },
-        {
           "name": "풍년가 (채보2)",
           "title": "풍년가",
           "fileName": "풍년가 (채보2).csv",
@@ -1186,6 +1173,19 @@
           "rows": 12,
           "pages": 1,
           "sha256": "dfca7a37f085ed57bbdc3c904f589a7efb9b74423837232a54afd28d36cc468d",
+          "status": "판독 초안(검수 전)"
+        },
+        {
+          "name": "풍년가",
+          "title": "풍년가",
+          "fileName": "풍년가.csv",
+          "path": "sheets/민요/csv/풍년가.csv",
+          "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/sheets/%EB%AF%BC%EC%9A%94/csv/%ED%92%8D%EB%85%84%EA%B0%80.csv",
+          "sizeBytes": 1279,
+          "beat": "3/4",
+          "rows": 12,
+          "pages": 1,
+          "sha256": "a8aa880dd9fb716d4dbb80bff094c19eb5c396fc958f070d3b2e46b5fab3bca2",
           "status": "판독 초안(검수 전)"
         },
         {
