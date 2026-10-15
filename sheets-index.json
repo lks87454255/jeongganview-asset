@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-10-15T12:30:05Z",
+  "generated": "2026-10-15T13:46:26Z",
   "owner": "lks87454255",
   "repo": "jeongganview-asset",
   "branch": "main",
@@ -328,6 +328,19 @@
           "rows": 8,
           "pages": 1,
           "sha256": "338d810f613ea3f42e6387e0696e3d1ab3d5c18645898b01050e1a9c9c0631c8",
+          "status": "판독 초안(검수 전)"
+        },
+        {
+          "name": "닐리리야",
+          "title": "닐리리야",
+          "fileName": "닐리리야.csv",
+          "path": "sheets/민요/csv/닐리리야.csv",
+          "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/sheets/%EB%AF%BC%EC%9A%94/csv/%EB%8B%90%EB%A6%AC%EB%A6%AC%EC%95%BC.csv",
+          "sizeBytes": 1010,
+          "beat": "3/4",
+          "rows": 12,
+          "pages": 1,
+          "sha256": "fc56ea4328f24fbe3ff4465c555a6ccbabafe2ccb853555f6a41adf15ba0d032",
           "status": "판독 초안(검수 전)"
         },
         {
@@ -942,19 +955,6 @@
           "status": "판독 초안(검수 전)"
         },
         {
-          "name": "제주도 타령 닐리리야",
-          "title": "제주도 타령 / 닐리리야",
-          "fileName": "제주도 타령 닐리리야.csv",
-          "path": "sheets/민요/csv/제주도 타령 닐리리야.csv",
-          "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/sheets/%EB%AF%BC%EC%9A%94/csv/%EC%A0%9C%EC%A3%BC%EB%8F%84%20%ED%83%80%EB%A0%B9%20%EB%8B%90%EB%A6%AC%EB%A6%AC%EC%95%BC.csv",
-          "sizeBytes": 1567,
-          "beat": "3/4",
-          "rows": 12,
-          "pages": 1,
-          "sha256": "c992bf5f76232c9afec8c3ab38ee5dfbad31b76a331f4d21a7ec651af43ff319",
-          "status": "판독 초안(검수 전)"
-        },
-        {
           "name": "제주도 타령 담바귀 타령",
           "title": "제주도 타령 / 담바귀 타령",
           "fileName": "제주도 타령 담바귀 타령.csv",
@@ -965,6 +965,19 @@
           "rows": 12,
           "pages": 1,
           "sha256": "856b8faab457a666e19ea08888a0297c78cd16a8916769967f61e8557f2e4d08",
+          "status": "판독 초안(검수 전)"
+        },
+        {
+          "name": "제주도 타령",
+          "title": "제주도 타령",
+          "fileName": "제주도 타령.csv",
+          "path": "sheets/민요/csv/제주도 타령.csv",
+          "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/sheets/%EB%AF%BC%EC%9A%94/csv/%EC%A0%9C%EC%A3%BC%EB%8F%84%20%ED%83%80%EB%A0%B9.csv",
+          "sizeBytes": 1205,
+          "beat": "3/4",
+          "rows": 12,
+          "pages": 1,
+          "sha256": "56b3be4b587908a9a7cd0fdefeaad393351fa500af640919172389c8641200c9",
           "status": "판독 초안(검수 전)"
         },
         {
@@ -7497,6 +7510,6 @@
   ],
   "_total": {
     "categories": 10,
-    "files": 536
+    "files": 537
   }
 }
