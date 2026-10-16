@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-10-16T14:21:24Z",
+  "generated": "2026-10-16T14:38:05Z",
   "owner": "lks87454255",
   "repo": "jeongganview-asset",
   "branch": "main",
@@ -622,11 +622,11 @@
           "fileName": "새 타령-2.csv",
           "path": "sheets/민요/csv/새 타령-2.csv",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/sheets/%EB%AF%BC%EC%9A%94/csv/%EC%83%88%20%ED%83%80%EB%A0%B9-2.csv",
-          "sizeBytes": 2010,
+          "sizeBytes": 1513,
           "beat": "3/4",
           "rows": 12,
-          "pages": 2,
-          "sha256": "ea6b82ac28006f58e1252285a87246824fb4a0ce0d99e5cfc0513e26cc8e216d",
+          "pages": 1,
+          "sha256": "4fa7c15c0b1b0660928c66c4142bd3a1dd1ba0bc2cc24276f7c18edbe95947de",
           "status": "판독 초안(검수 전)"
         },
         {
