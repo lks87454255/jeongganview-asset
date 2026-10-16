@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-10-16T12:53:54Z",
+  "generated": "2026-10-16T14:01:52Z",
   "owner": "lks87454255",
   "repo": "jeongganview-asset",
   "branch": "main",
@@ -171,7 +171,7 @@
           "beat": "4/4",
           "rows": 16,
           "pages": 1,
-          "sha256": "adf0e52c3651ba00cc278abdf2a1c8bd2b49985869b139e1b18d782e6bdad370",
+          "sha256": "25f46bf378805b82646f7f05e68a4ca49b1af14e69b8944ecbeccf6ed7ff317b",
           "status": "판독 초안(검수 전)"
         },
         {
@@ -778,11 +778,11 @@
           "fileName": "아리랑.csv",
           "path": "sheets/민요/csv/아리랑.csv",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/sheets/%EB%AF%BC%EC%9A%94/csv/%EC%95%84%EB%A6%AC%EB%9E%91.csv",
-          "sizeBytes": 1115,
+          "sizeBytes": 1113,
           "beat": "3/4",
           "rows": 12,
           "pages": 1,
-          "sha256": "eeccec11b2270665ad50e067e30084a9c76b41821640cdd737ef728386544bf6",
+          "sha256": "33c2bb7bef227e503ff3ef9afb513a80821e6354fca84617835931de50d30a08",
           "status": "판독 초안(검수 전)"
         },
         {
