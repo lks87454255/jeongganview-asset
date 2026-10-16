@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-10-16T07:02:13Z",
+  "generated": "2026-10-16T12:53:54Z",
   "owner": "lks87454255",
   "repo": "jeongganview-asset",
   "branch": "main",
@@ -115,11 +115,11 @@
           "fileName": "궁초댕기-2.csv",
           "path": "sheets/민요/csv/궁초댕기-2.csv",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/sheets/%EB%AF%BC%EC%9A%94/csv/%EA%B6%81%EC%B4%88%EB%8C%95%EA%B8%B0-2.csv",
-          "sizeBytes": 1647,
+          "sizeBytes": 1478,
           "beat": "4/4",
           "rows": 16,
           "pages": 1,
-          "sha256": "b0e337266336f988621e3a694483dccc06f1cc9df444d0937058ce652750a442",
+          "sha256": "5250ac942e6e09bca866e38914b6a5f4c45d448e69a70a5815f35b3c05f72d89",
           "status": "판독 초안(검수 전)"
         },
         {
