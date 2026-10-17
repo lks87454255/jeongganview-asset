@@ -17,6 +17,8 @@ pt = lambda v: round(v / 100 / 25.4 * 72, 2)
 try:
     for j in jobs:
         doc = desktop.loadComponentFromURL(uno.systemPathToFileUrl(os.path.abspath(j["path"])), "_blank", 0, (prop("Hidden", True),))
+        if doc is None:
+            print("열기 실패:", j["path"], file=sys.stderr); continue
         try:
             sh = doc.Sheets.getByName(next(n for n in doc.Sheets.ElementNames if unicodedata.normalize("NFC", n) == "악보"))
             cols = [pt(sh.Columns.getByIndex(c).Width) for c in range(j["ncols"])]

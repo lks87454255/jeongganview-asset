@@ -16,6 +16,7 @@ def colnum(s):
 info = {}; jobs = []
 for f in sorted(glob.glob(os.path.join(D, '*.xlsx'))):
     if os.path.basename(f).startswith('_'): continue
+    if os.path.exists(os.path.join(D, '.~lock.' + os.path.basename(f) + '#')): print('  열려 있어 건너뜀:', os.path.basename(f)); continue
     z = zipfile.ZipFile(f); sp = sheet_path(z); x = z.read(sp).decode(); z.close()
     merges = [re.match(r'([A-Z]+)(\d+):([A-Z]+)(\d+)', r).groups() for r in re.findall(r'<mergeCell ref="([^"]+)"', x)]
     titles = sorted(int(a[1]) for a in merges if a[1] == a[3] and colnum(a[2]) > colnum(a[0]))
@@ -40,6 +41,8 @@ json.dump(jobs, open('/tmp/lo_in.json', 'w', encoding='utf-8'), ensure_ascii=Fal
 subprocess.run([LOPY, os.path.join(os.path.dirname(os.path.abspath(__file__)), 'lo_measure.py'), '/tmp/lo_in.json', '/tmp/lo_out.json'], check=True)
 meas = json.load(open('/tmp/lo_out.json', encoding='utf-8'))
 for f, I in info.items():
+    if f not in meas:
+        print('  측정 실패, 건너뜀:', os.path.basename(f)); continue
     M = meas[f]; W = sum(M["cols"]); vals = sorted(M["rows"].values()); med = vals[len(vals) // 2]
     out = [v for v in vals if v > med * 2]        # 메모처럼 유난히 긴 칸 1~2개는 높이 계산에서 뺌 (그 칸은 잘려 보일 수 있음)
     if out and os.environ.get('V'): print('  제외한 긴 칸 높이', out)
