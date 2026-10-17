@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-10-17T12:07:41Z",
+  "generated": "2026-10-17T12:30:05Z",
   "owner": "lks87454255",
   "repo": "jeongganview-asset",
   "branch": "main",
@@ -3638,11 +3638,11 @@
           "fileName": "상령산.csv",
           "path": "sheets/대금율보/csv/정악/상령산.csv",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/sheets/%EB%8C%80%EA%B8%88%EC%9C%A8%EB%B3%B4/csv/%EC%A0%95%EC%95%85/%EC%83%81%EB%A0%B9%EC%82%B0.csv",
-          "sizeBytes": 3287,
+          "sizeBytes": 3269,
           "beat": "4/4",
           "rows": 16,
           "pages": 2,
-          "sha256": "c5903d77d8a3512bad67a07977f6769fecbc024cdf4bb563b3a8c7a6f518d97f",
+          "sha256": "313b8d8f8a4e821ff1edcab95bc2bf9591f29a5332196ccb8bda669d710cec63",
           "status": "판독 초안(검수 전)",
           "source": "2권 162쪽"
         },
