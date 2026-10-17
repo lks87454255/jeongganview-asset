@@ -278,7 +278,7 @@ def build_csv(csv_path: str, xlsx_path: str) -> str:
         beat, nrows = info
         for r in meta:
             if r and r[0].strip() == "박자" and len(r) > 1:
-                r[1] = f"{beat}박자"
+                r[1] = f"{beat}박자" if "/" in beat else beat
             elif r and r[0].strip() == "행수" and len(r) > 1:
                 r[1] = str(nrows)
     pages = score_pages(sheets, xlsx_path, nrows)
