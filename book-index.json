@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-10-09T17:14:17Z",
+  "generated": "2026-10-17T12:36:28Z",
   "owner": "lks87454255",
   "repo": "jeongganview-asset",
   "branch": "main",
@@ -173,53 +173,10 @@
           "sizeBytes": 7216643
         }
       ]
-    },
-    {
-      "name": "국악이 꽃피는 나무",
-      "files": [
-        {
-          "name": "국악이 꽃피는 나무",
-          "fileName": "국악이 꽃피는 나무.pdf",
-          "path": "book/국악이 꽃피는 나무/국악이 꽃피는 나무.pdf",
-          "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EA%B5%AD%EC%95%85%EC%9D%B4%20%EA%BD%83%ED%94%BC%EB%8A%94%20%EB%82%98%EB%AC%B4/%EA%B5%AD%EC%95%85%EC%9D%B4%20%EA%BD%83%ED%94%BC%EB%8A%94%20%EB%82%98%EB%AC%B4.pdf",
-          "sizeBytes": 3610028
-        }
-      ]
-    },
-    {
-      "name": "조재수 대금교본",
-      "files": [
-        {
-          "name": "조재수 대금교본",
-          "fileName": "조재수 대금교본.pdf",
-          "path": "book/조재수 대금교본/조재수 대금교본.pdf",
-          "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EC%A1%B0%EC%9E%AC%EC%88%98%20%EB%8C%80%EA%B8%88%EA%B5%90%EB%B3%B8/%EC%A1%B0%EC%9E%AC%EC%88%98%20%EB%8C%80%EA%B8%88%EA%B5%90%EB%B3%B8.pdf",
-          "sizeBytes": 10204015
-        }
-      ]
-    },
-    {
-      "name": "대금율보",
-      "files": [
-        {
-          "name": "대금율보 1",
-          "fileName": "대금율보 1.pdf",
-          "path": "book/대금율보/대금율보 1.pdf",
-          "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EB%8C%80%EA%B8%88%EC%9C%A8%EB%B3%B4/%EB%8C%80%EA%B8%88%EC%9C%A8%EB%B3%B4%201.pdf",
-          "sizeBytes": 43478636
-        },
-        {
-          "name": "대금율보 2",
-          "fileName": "대금율보 2.pdf",
-          "path": "book/대금율보/대금율보 2.pdf",
-          "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EB%8C%80%EA%B8%88%EC%9C%A8%EB%B3%B4/%EB%8C%80%EA%B8%88%EC%9C%A8%EB%B3%B4%202.pdf",
-          "sizeBytes": 28537443
-        }
-      ]
     }
   ],
   "_total": {
-    "categories": 6,
-    "files": 26
+    "categories": 3,
+    "files": 22
   }
 }

@@ -43,6 +43,9 @@ BOOK_EXTS  = {".pdf"}
 IGNORE = {".DS_Store", ".gitkeep", ".gitignore", "Thumbs.db"}
 
 # 레포에는 두지만 book-index.json 에 넣지 않는 PDF (레포 기준 상대 경로, 그리드 JSON 도 만들지 않음)
+# 레포에는 두지만 book-index.json 에 넣지 않는 폴더 (정간보 시트 작업 원본 — 앱 배경 목록·검색에 안 보임)
+BOOK_EXCLUDE_DIRS = {"대금율보", "조재수 대금교본", "국악이 꽃피는 나무"}
+
 BOOK_EXCLUDE = {
     "book/대금정악/여민락_p20_디지털.pdf",   # 여민락 p20 디지털 판독 참고본 (작업 자료)
 }
@@ -119,7 +122,7 @@ def scan_book(book_dir: str) -> dict:
 
     cat_names = sorted(
         n for n in os.listdir(book_dir)
-        if os.path.isdir(os.path.join(book_dir, n)) and not is_ignored(n)
+        if os.path.isdir(os.path.join(book_dir, n)) and not is_ignored(n) and nfc(n) not in BOOK_EXCLUDE_DIRS
     )
 
     for cat_name in cat_names:
@@ -183,10 +186,12 @@ def check_book_pairs(book_dir: str):
             if is_ignored(fn):
                 continue
             rel = os.path.relpath(os.path.join(root, fn), os.path.dirname(book_dir))
+            if nfc(rel).replace(os.sep, "/").split("/")[1] in BOOK_EXCLUDE_DIRS:
+                continue                       # 목록에 넣지 않는 폴더는 검사도 안 함
             if fn != nfc(fn):
                 errors.append(f"파일명이 NFC(완성형)가 아님 — 앱 URL 과 달라 404: {rel}")
             stem, ext = os.path.splitext(nfc(rel))
-            if nfc(rel).replace(os.sep, "/") in BOOK_EXCLUDE:
+            if nfc(rel).replace(os.sep, "/") in BOOK_EXCLUDE or nfc(rel).replace(os.sep, "/").split("/")[1] in BOOK_EXCLUDE_DIRS:
                 continue
             if ext.lower() == ".pdf":
                 pdfs[stem] = os.path.join(root, fn)
