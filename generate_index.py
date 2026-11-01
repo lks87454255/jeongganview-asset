@@ -46,6 +46,9 @@ IGNORE = {".DS_Store", ".gitkeep", ".gitignore", "Thumbs.db"}
 # 레포에는 두지만 book-index.json 에 넣지 않는 폴더 (정간보 시트 작업 원본 — 앱 배경 목록·검색에 안 보임)
 BOOK_EXCLUDE_DIRS = {"대금율보", "조재수 대금교본", "국악이 꽃피는 나무"}
 
+# 관리자 기기에만 보이는 분류(테스트 중인 디지털 정간보) — book-index.json 의 "adminCategories" 로 나간다
+BOOK_ADMIN_ONLY_DIRS = {"디지털정간보"}
+
 BOOK_EXCLUDE = {
     "book/대금정악/여민락_p20_디지털.pdf",   # 여민락 p20 디지털 판독 참고본 (작업 자료)
 }
@@ -119,6 +122,7 @@ def scan_audio(audio_dir: str) -> dict:
 # ── book-index.json 생성 ──────────────────────────────────────
 def scan_book(book_dir: str) -> dict:
     categories = []
+    admin_categories = []
 
     cat_names = sorted(
         n for n in os.listdir(book_dir)
@@ -153,9 +157,13 @@ def scan_book(book_dir: str) -> dict:
             })
 
         if files:
-            categories.append({"name": cat_name, "files": files})
+            entry = {"name": cat_name, "files": files}
+            # 관리자 전용 분류는 "adminCategories" 에 따로 담는다.
+            #   옛 앱은 "categories" 만 읽으므로 이 분류를 보지 못한다(새 앱은 관리자 기기에만 보여 준다).
+            (admin_categories if nfc(cat_name) in BOOK_ADMIN_ONLY_DIRS else categories).append(entry)
             total_mb = sum(f["sizeBytes"] for f in files) / 1_048_576
-            print(f"  📚 [{cat_name}]  {len(files)}개 파일  ({total_mb:.1f} MB)")
+            tag = " (관리자 전용)" if nfc(cat_name) in BOOK_ADMIN_ONLY_DIRS else ""
+            print(f"  📚 [{cat_name}]{tag}  {len(files)}개 파일  ({total_mb:.1f} MB)")
         else:
             print(f"  ⚠️  [{cat_name}]  PDF 파일 없음 — 건너뜀")
 
@@ -167,6 +175,7 @@ def scan_book(book_dir: str) -> dict:
         "repo":       REPO,
         "branch":     BRANCH,
         "categories": categories,
+        "adminCategories": admin_categories,
         "_total":     {"categories": len(categories), "files": total_files},
     }
 
