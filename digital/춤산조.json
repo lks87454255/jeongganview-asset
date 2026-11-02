@@ -374,7 +374,8 @@
       }
      ],
      "breaths": {},
-     "ticks": {}
+     "ticks": {},
+     "measures": [3]
     },
     {
      "gridId": 2,
