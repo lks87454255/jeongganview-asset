@@ -422,8 +422,7 @@
      "chapter": [1884, 2076]
     }
    ],
-   "header_h": 238,
-   "header_mode": "gap"
+   "header_mode": "relayout"
   },
   {
    "n": 4,
@@ -851,8 +850,7 @@
      "title": null
     }
    ],
-   "header_h": 238,
-   "header_mode": "gap"
+   "header_mode": "relayout"
   },
   {
    "n": 5,
@@ -1430,8 +1428,7 @@
      "title": [1174, 1340]
     }
    ],
-   "header_h": 238,
-   "header_mode": "gap"
+   "header_mode": "relayout"
   },
   {
    "n": 6,
@@ -2002,8 +1999,7 @@
      "title": null
     }
    ],
-   "header_h": 238,
-   "header_mode": "gap"
+   "header_mode": "relayout"
   },
   {
    "n": 7,
@@ -2549,8 +2545,7 @@
      "title": [995, 1162]
     }
    ],
-   "header_h": 238,
-   "header_mode": "gap"
+   "header_mode": "relayout"
   },
   {
    "n": 8,
@@ -3029,8 +3024,7 @@
      "title": null
     }
    ],
-   "header_h": 238,
-   "header_mode": "gap"
+   "header_mode": "relayout"
   },
   {
    "n": 9,
@@ -3281,8 +3275,7 @@
      "title": null
     }
    ],
-   "header_h": 238,
-   "header_mode": "gap"
+   "header_mode": "relayout"
   }
  ]
 }
