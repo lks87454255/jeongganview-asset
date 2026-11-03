@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-11-02T15:23:30Z",
+  "generated": "2026-11-03T13:59:35Z",
   "owner": "lks87454255",
   "repo": "jeongganview-asset",
   "branch": "main",
@@ -184,21 +184,21 @@
           "fileName": "수제천.pdf",
           "path": "book/디지털정간보/수제천.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EB%94%94%EC%A7%80%ED%84%B8%EC%A0%95%EA%B0%84%EB%B3%B4/%EC%88%98%EC%A0%9C%EC%B2%9C.pdf",
-          "sizeBytes": 2184780
+          "sizeBytes": 517607
         },
         {
           "name": "천년만세",
           "fileName": "천년만세.pdf",
           "path": "book/디지털정간보/천년만세.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EB%94%94%EC%A7%80%ED%84%B8%EC%A0%95%EA%B0%84%EB%B3%B4/%EC%B2%9C%EB%85%84%EB%A7%8C%EC%84%B8.pdf",
-          "sizeBytes": 2553515
+          "sizeBytes": 709549
         },
         {
           "name": "춤산조",
           "fileName": "춤산조.pdf",
           "path": "book/디지털정간보/춤산조.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EB%94%94%EC%A7%80%ED%84%B8%EC%A0%95%EA%B0%84%EB%B3%B4/%EC%B6%A4%EC%82%B0%EC%A1%B0.pdf",
-          "sizeBytes": 2662777
+          "sizeBytes": 569102
         }
       ]
     }
