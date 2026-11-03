@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-11-03T13:59:35Z",
+  "generated": "2026-11-03T14:07:35Z",
   "owner": "lks87454255",
   "repo": "jeongganview-asset",
   "branch": "main",
@@ -198,7 +198,7 @@
           "fileName": "춤산조.pdf",
           "path": "book/디지털정간보/춤산조.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EB%94%94%EC%A7%80%ED%84%B8%EC%A0%95%EA%B0%84%EB%B3%B4/%EC%B6%A4%EC%82%B0%EC%A1%B0.pdf",
-          "sizeBytes": 569102
+          "sizeBytes": 571131
         }
       ]
     }
