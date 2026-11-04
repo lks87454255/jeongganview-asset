@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-11-04T12:58:06Z",
+  "generated": "2026-11-04T13:39:01Z",
   "owner": "lks87454255",
   "repo": "jeongganview-asset",
   "branch": "main",
@@ -331,7 +331,8 @@
           "fileName": "수제천.pdf",
           "path": "book/대금정악보/수제천.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EB%8C%80%EA%B8%88%EC%A0%95%EC%95%85%EB%B3%B4/%EC%88%98%EC%A0%9C%EC%B2%9C.pdf",
-          "sizeBytes": 2344792
+          "sizeBytes": 2344792,
+          "hasSync": true
         },
         {
           "name": "여민락",
@@ -582,7 +583,8 @@
               "title": "우조가락도드리",
               "page": 5
             }
-          ]
+          ],
+          "hasSync": true
         },
         {
           "name": "취타",

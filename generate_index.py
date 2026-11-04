@@ -175,6 +175,9 @@ def scan_book(book_dir: str) -> dict:
             songs = read_songs(os.path.join(cat_path, display_name + SONGS_SUFFIX))
             if songs:
                 files[-1]["songs"] = songs
+            # PDF 옆 <이름>.sync.json(국립국악원 음원 싱크 맵)이 있으면 앱 카드에 음원 아이콘을 보인다
+            if os.path.isfile(os.path.join(cat_path, display_name + ".sync.json")):
+                files[-1]["hasSync"] = True
 
         if files:
             entry = {"name": cat_name, "files": files}
