@@ -1,0 +1,1106 @@
+{
+ "fileName": "취타.pdf",
+ "totalPages": 12,
+ "pageData": {
+  "1": [
+   {
+    "gridId": 1,
+    "cols": 7,
+    "rows": 12,
+    "columnConfigs": [
+     {
+      "colIndex": 1,
+      "startRow": 1,
+      "endRow": 12
+     },
+     {
+      "colIndex": 2,
+      "startRow": 1,
+      "endRow": 12
+     },
+     {
+      "colIndex": 3,
+      "startRow": 1,
+      "endRow": 4
+     },
+     {
+      "colIndex": 4,
+      "startRow": 5,
+      "endRow": 12
+     },
+     {
+      "colIndex": 5,
+      "startRow": 1,
+      "endRow": 12
+     },
+     {
+      "colIndex": 6,
+      "startRow": 1,
+      "endRow": 4
+     },
+     {
+      "colIndex": 7,
+      "startRow": 5,
+      "endRow": 12
+     }
+    ],
+    "x": 0.1244,
+    "y": 0.2316,
+    "width": 0.5543,
+    "height": 0.6053
+   }
+  ],
+  "2": [
+   {
+    "gridId": 1,
+    "cols": 10,
+    "rows": 12,
+    "columnConfigs": [
+     {
+      "colIndex": 1,
+      "startRow": 1,
+      "endRow": 12
+     },
+     {
+      "colIndex": 2,
+      "startRow": 1,
+      "endRow": 12
+     },
+     {
+      "colIndex": 3,
+      "startRow": 1,
+      "endRow": 12
+     },
+     {
+      "colIndex": 4,
+      "startRow": 1,
+      "endRow": 8
+     },
+     {
+      "colIndex": 5,
+      "startRow": 9,
+      "endRow": 12
+     },
+     {
+      "colIndex": 6,
+      "startRow": 1,
+      "endRow": 12
+     },
+     {
+      "colIndex": 7,
+      "startRow": 1,
+      "endRow": 10
+     },
+     {
+      "colIndex": 8,
+      "startRow": 11,
+      "endRow": 12
+     },
+     {
+      "colIndex": 9,
+      "startRow": 1,
+      "endRow": 12
+     },
+     {
+      "colIndex": 10,
+      "startRow": 1,
+      "endRow": 12
+     }
+    ],
+    "x": 0.1222,
+    "y": 0.232,
+    "width": 0.7913,
+    "height": 0.6053
+   }
+  ],
+  "3": [
+   {
+    "gridId": 1,
+    "cols": 10,
+    "rows": 12,
+    "columnConfigs": [
+     {
+      "colIndex": 1,
+      "startRow": 1,
+      "endRow": 12
+     },
+     {
+      "colIndex": 2,
+      "startRow": 1,
+      "endRow": 8
+     },
+     {
+      "colIndex": 3,
+      "startRow": 9,
+      "endRow": 12
+     },
+     {
+      "colIndex": 4,
+      "startRow": 1,
+      "endRow": 12
+     },
+     {
+      "colIndex": 5,
+      "startRow": 1,
+      "endRow": 12
+     },
+     {
+      "colIndex": 6,
+      "startRow": 1,
+      "endRow": 4
+     },
+     {
+      "colIndex": 7,
+      "startRow": 5,
+      "endRow": 12
+     },
+     {
+      "colIndex": 8,
+      "startRow": 1,
+      "endRow": 12
+     },
+     {
+      "colIndex": 9,
+      "startRow": 1,
+      "endRow": 12
+     },
+     {
+      "colIndex": 10,
+      "startRow": 1,
+      "endRow": 12
+     }
+    ],
+    "x": 0.124,
+    "y": 0.2316,
+    "width": 0.7917,
+    "height": 0.6053
+   }
+  ],
+  "4": [
+   {
+    "gridId": 1,
+    "cols": 8,
+    "rows": 8,
+    "columnConfigs": [
+     {
+      "colIndex": 1,
+      "startRow": 1,
+      "endRow": 8
+     },
+     {
+      "colIndex": 2,
+      "startRow": 1,
+      "endRow": 8
+     },
+     {
+      "colIndex": 3,
+      "startRow": 1,
+      "endRow": 8
+     },
+     {
+      "colIndex": 4,
+      "startRow": 1,
+      "endRow": 8
+     },
+     {
+      "colIndex": 5,
+      "startRow": 1,
+      "endRow": 8
+     },
+     {
+      "colIndex": 6,
+      "startRow": 1,
+      "endRow": 8
+     },
+     {
+      "colIndex": 7,
+      "startRow": 1,
+      "endRow": 8
+     },
+     {
+      "colIndex": 8,
+      "startRow": 1,
+      "endRow": 8
+     }
+    ],
+    "x": 0.1192,
+    "y": 0.1605,
+    "width": 0.6355,
+    "height": 0.3458
+   },
+   {
+    "gridId": 2,
+    "cols": 9,
+    "rows": 8,
+    "columnConfigs": [
+     {
+      "colIndex": 1,
+      "startRow": 1,
+      "endRow": 8
+     },
+     {
+      "colIndex": 2,
+      "startRow": 1,
+      "endRow": 8
+     },
+     {
+      "colIndex": 3,
+      "startRow": 1,
+      "endRow": 8
+     },
+     {
+      "colIndex": 4,
+      "startRow": 1,
+      "endRow": 8
+     },
+     {
+      "colIndex": 5,
+      "startRow": 1,
+      "endRow": 8
+     },
+     {
+      "colIndex": 6,
+      "startRow": 1,
+      "endRow": 8
+     },
+     {
+      "colIndex": 7,
+      "startRow": 1,
+      "endRow": 8
+     },
+     {
+      "colIndex": 8,
+      "startRow": 1,
+      "endRow": 8
+     },
+     {
+      "colIndex": 9,
+      "startRow": 1,
+      "endRow": 8
+     }
+    ],
+    "x": 0.1192,
+    "y": 0.5907,
+    "width": 0.7149,
+    "height": 0.3458
+   }
+  ],
+  "5": [
+   {
+    "gridId": 1,
+    "cols": 7,
+    "rows": 8,
+    "columnConfigs": [
+     {
+      "colIndex": 1,
+      "startRow": 1,
+      "endRow": 8
+     },
+     {
+      "colIndex": 2,
+      "startRow": 1,
+      "endRow": 8
+     },
+     {
+      "colIndex": 3,
+      "startRow": 1,
+      "endRow": 8
+     },
+     {
+      "colIndex": 4,
+      "startRow": 1,
+      "endRow": 8
+     },
+     {
+      "colIndex": 5,
+      "startRow": 1,
+      "endRow": 8
+     },
+     {
+      "colIndex": 6,
+      "startRow": 1,
+      "endRow": 8
+     },
+     {
+      "colIndex": 7,
+      "startRow": 1,
+      "endRow": 8
+     }
+    ],
+    "x": 0.3597,
+    "y": 0.1601,
+    "width": 0.556,
+    "height": 0.3458
+   },
+   {
+    "gridId": 2,
+    "cols": 7,
+    "rows": 8,
+    "columnConfigs": [
+     {
+      "colIndex": 1,
+      "startRow": 1,
+      "endRow": 8
+     },
+     {
+      "colIndex": 2,
+      "startRow": 1,
+      "endRow": 8
+     },
+     {
+      "colIndex": 3,
+      "startRow": 1,
+      "endRow": 4
+     },
+     {
+      "colIndex": 4,
+      "startRow": 1,
+      "endRow": 4
+     },
+     {
+      "colIndex": 5,
+      "startRow": 1,
+      "endRow": 8
+     },
+     {
+      "colIndex": 6,
+      "startRow": 1,
+      "endRow": 8
+     },
+     {
+      "colIndex": 7,
+      "startRow": 1,
+      "endRow": 8
+     }
+    ],
+    "x": 0.3597,
+    "y": 0.5907,
+    "width": 0.556,
+    "height": 0.3458
+   }
+  ],
+  "6": [
+   {
+    "gridId": 1,
+    "cols": 8,
+    "rows": 12,
+    "columnConfigs": [
+     {
+      "colIndex": 1,
+      "startRow": 1,
+      "endRow": 12
+     },
+     {
+      "colIndex": 2,
+      "startRow": 1,
+      "endRow": 12
+     },
+     {
+      "colIndex": 3,
+      "startRow": 1,
+      "endRow": 12
+     },
+     {
+      "colIndex": 4,
+      "startRow": 1,
+      "endRow": 12
+     },
+     {
+      "colIndex": 5,
+      "startRow": 1,
+      "endRow": 12
+     },
+     {
+      "colIndex": 6,
+      "startRow": 1,
+      "endRow": 12
+     },
+     {
+      "colIndex": 7,
+      "startRow": 1,
+      "endRow": 12
+     },
+     {
+      "colIndex": 8,
+      "startRow": 1,
+      "endRow": 12
+     }
+    ],
+    "x": 0.12,
+    "y": 0.1595,
+    "width": 0.6359,
+    "height": 0.3594
+   },
+   {
+    "gridId": 2,
+    "cols": 9,
+    "rows": 12,
+    "columnConfigs": [
+     {
+      "colIndex": 1,
+      "startRow": 1,
+      "endRow": 12
+     },
+     {
+      "colIndex": 2,
+      "startRow": 1,
+      "endRow": 12
+     },
+     {
+      "colIndex": 3,
+      "startRow": 1,
+      "endRow": 12
+     },
+     {
+      "colIndex": 4,
+      "startRow": 1,
+      "endRow": 12
+     },
+     {
+      "colIndex": 5,
+      "startRow": 1,
+      "endRow": 12
+     },
+     {
+      "colIndex": 6,
+      "startRow": 1,
+      "endRow": 12
+     },
+     {
+      "colIndex": 7,
+      "startRow": 1,
+      "endRow": 12
+     },
+     {
+      "colIndex": 8,
+      "startRow": 1,
+      "endRow": 12
+     },
+     {
+      "colIndex": 9,
+      "startRow": 1,
+      "endRow": 12
+     }
+    ],
+    "x": 0.12,
+    "y": 0.5772,
+    "width": 0.714,
+    "height": 0.3594
+   }
+  ],
+  "7": [
+   {
+    "gridId": 1,
+    "cols": 5,
+    "rows": 12,
+    "columnConfigs": [
+     {
+      "colIndex": 1,
+      "startRow": 1,
+      "endRow": 12
+     },
+     {
+      "colIndex": 2,
+      "startRow": 1,
+      "endRow": 12
+     },
+     {
+      "colIndex": 3,
+      "startRow": 1,
+      "endRow": 12
+     },
+     {
+      "colIndex": 4,
+      "startRow": 1,
+      "endRow": 12
+     },
+     {
+      "colIndex": 5,
+      "startRow": 1,
+      "endRow": 12
+     }
+    ],
+    "x": 0.5199,
+    "y": 0.1592,
+    "width": 0.3963,
+    "height": 0.3598
+   },
+   {
+    "gridId": 2,
+    "cols": 4,
+    "rows": 12,
+    "columnConfigs": [
+     {
+      "colIndex": 1,
+      "startRow": 1,
+      "endRow": 12
+     },
+     {
+      "colIndex": 2,
+      "startRow": 1,
+      "endRow": 12
+     },
+     {
+      "colIndex": 3,
+      "startRow": 1,
+      "endRow": 12
+     },
+     {
+      "colIndex": 4,
+      "startRow": 1,
+      "endRow": 12
+     }
+    ],
+    "x": 0.5993,
+    "y": 0.5772,
+    "width": 0.3169,
+    "height": 0.3594
+   }
+  ],
+  "8": [
+   {
+    "gridId": 1,
+    "cols": 8,
+    "rows": 12,
+    "columnConfigs": [
+     {
+      "colIndex": 1,
+      "startRow": 1,
+      "endRow": 12
+     },
+     {
+      "colIndex": 2,
+      "startRow": 1,
+      "endRow": 12
+     },
+     {
+      "colIndex": 3,
+      "startRow": 1,
+      "endRow": 12
+     },
+     {
+      "colIndex": 4,
+      "startRow": 1,
+      "endRow": 12
+     },
+     {
+      "colIndex": 5,
+      "startRow": 1,
+      "endRow": 12
+     },
+     {
+      "colIndex": 6,
+      "startRow": 1,
+      "endRow": 12
+     },
+     {
+      "colIndex": 7,
+      "startRow": 1,
+      "endRow": 12
+     },
+     {
+      "colIndex": 8,
+      "startRow": 1,
+      "endRow": 12
+     }
+    ],
+    "x": 0.12,
+    "y": 0.1595,
+    "width": 0.6359,
+    "height": 0.3594
+   },
+   {
+    "gridId": 2,
+    "cols": 9,
+    "rows": 12,
+    "columnConfigs": [
+     {
+      "colIndex": 1,
+      "startRow": 1,
+      "endRow": 12
+     },
+     {
+      "colIndex": 2,
+      "startRow": 1,
+      "endRow": 12
+     },
+     {
+      "colIndex": 3,
+      "startRow": 1,
+      "endRow": 12
+     },
+     {
+      "colIndex": 4,
+      "startRow": 1,
+      "endRow": 12
+     },
+     {
+      "colIndex": 5,
+      "startRow": 1,
+      "endRow": 12
+     },
+     {
+      "colIndex": 6,
+      "startRow": 1,
+      "endRow": 12
+     },
+     {
+      "colIndex": 7,
+      "startRow": 1,
+      "endRow": 12
+     },
+     {
+      "colIndex": 8,
+      "startRow": 1,
+      "endRow": 12
+     },
+     {
+      "colIndex": 9,
+      "startRow": 1,
+      "endRow": 12
+     }
+    ],
+    "x": 0.12,
+    "y": 0.5772,
+    "width": 0.714,
+    "height": 0.3594
+   }
+  ],
+  "9": [
+   {
+    "gridId": 1,
+    "cols": 10,
+    "rows": 12,
+    "columnConfigs": [
+     {
+      "colIndex": 1,
+      "startRow": 1,
+      "endRow": 12
+     },
+     {
+      "colIndex": 2,
+      "startRow": 1,
+      "endRow": 12
+     },
+     {
+      "colIndex": 3,
+      "startRow": 1,
+      "endRow": 12
+     },
+     {
+      "colIndex": 4,
+      "startRow": 1,
+      "endRow": 12
+     },
+     {
+      "colIndex": 5,
+      "startRow": 1,
+      "endRow": 12
+     },
+     {
+      "colIndex": 6,
+      "startRow": 1,
+      "endRow": 12
+     },
+     {
+      "colIndex": 7,
+      "startRow": 1,
+      "endRow": 12
+     },
+     {
+      "colIndex": 8,
+      "startRow": 1,
+      "endRow": 12
+     },
+     {
+      "colIndex": 9,
+      "startRow": 1,
+      "endRow": 12
+     },
+     {
+      "colIndex": 10,
+      "startRow": 1,
+      "endRow": 12
+     }
+    ],
+    "x": 0.1227,
+    "y": 0.1592,
+    "width": 0.7935,
+    "height": 0.3598
+   },
+   {
+    "gridId": 2,
+    "cols": 9,
+    "rows": 12,
+    "columnConfigs": [
+     {
+      "colIndex": 1,
+      "startRow": 1,
+      "endRow": 12
+     },
+     {
+      "colIndex": 2,
+      "startRow": 1,
+      "endRow": 12
+     },
+     {
+      "colIndex": 3,
+      "startRow": 1,
+      "endRow": 12
+     },
+     {
+      "colIndex": 4,
+      "startRow": 1,
+      "endRow": 12
+     },
+     {
+      "colIndex": 5,
+      "startRow": 1,
+      "endRow": 12
+     },
+     {
+      "colIndex": 6,
+      "startRow": 1,
+      "endRow": 12
+     },
+     {
+      "colIndex": 7,
+      "startRow": 1,
+      "endRow": 12
+     },
+     {
+      "colIndex": 8,
+      "startRow": 1,
+      "endRow": 12
+     },
+     {
+      "colIndex": 9,
+      "startRow": 1,
+      "endRow": 12
+     }
+    ],
+    "x": 0.2021,
+    "y": 0.5768,
+    "width": 0.714,
+    "height": 0.3598
+   }
+  ],
+  "10": [
+   {
+    "gridId": 1,
+    "cols": 8,
+    "rows": 12,
+    "columnConfigs": [
+     {
+      "colIndex": 1,
+      "startRow": 1,
+      "endRow": 12
+     },
+     {
+      "colIndex": 2,
+      "startRow": 1,
+      "endRow": 12
+     },
+     {
+      "colIndex": 3,
+      "startRow": 1,
+      "endRow": 12
+     },
+     {
+      "colIndex": 4,
+      "startRow": 1,
+      "endRow": 12
+     },
+     {
+      "colIndex": 5,
+      "startRow": 1,
+      "endRow": 12
+     },
+     {
+      "colIndex": 6,
+      "startRow": 1,
+      "endRow": 12
+     },
+     {
+      "colIndex": 7,
+      "startRow": 1,
+      "endRow": 12
+     },
+     {
+      "colIndex": 8,
+      "startRow": 1,
+      "endRow": 12
+     }
+    ],
+    "x": 0.12,
+    "y": 0.1595,
+    "width": 0.6359,
+    "height": 0.3594
+   },
+   {
+    "gridId": 2,
+    "cols": 9,
+    "rows": 12,
+    "columnConfigs": [
+     {
+      "colIndex": 1,
+      "startRow": 1,
+      "endRow": 12
+     },
+     {
+      "colIndex": 2,
+      "startRow": 1,
+      "endRow": 12
+     },
+     {
+      "colIndex": 3,
+      "startRow": 1,
+      "endRow": 12
+     },
+     {
+      "colIndex": 4,
+      "startRow": 1,
+      "endRow": 12
+     },
+     {
+      "colIndex": 5,
+      "startRow": 1,
+      "endRow": 12
+     },
+     {
+      "colIndex": 6,
+      "startRow": 1,
+      "endRow": 12
+     },
+     {
+      "colIndex": 7,
+      "startRow": 1,
+      "endRow": 12
+     },
+     {
+      "colIndex": 8,
+      "startRow": 1,
+      "endRow": 12
+     },
+     {
+      "colIndex": 9,
+      "startRow": 1,
+      "endRow": 12
+     }
+    ],
+    "x": 0.12,
+    "y": 0.5772,
+    "width": 0.714,
+    "height": 0.3594
+   }
+  ],
+  "11": [
+   {
+    "gridId": 1,
+    "cols": 10,
+    "rows": 12,
+    "columnConfigs": [
+     {
+      "colIndex": 1,
+      "startRow": 1,
+      "endRow": 12
+     },
+     {
+      "colIndex": 2,
+      "startRow": 1,
+      "endRow": 12
+     },
+     {
+      "colIndex": 3,
+      "startRow": 1,
+      "endRow": 12
+     },
+     {
+      "colIndex": 4,
+      "startRow": 1,
+      "endRow": 12
+     },
+     {
+      "colIndex": 5,
+      "startRow": 1,
+      "endRow": 12
+     },
+     {
+      "colIndex": 6,
+      "startRow": 1,
+      "endRow": 12
+     },
+     {
+      "colIndex": 7,
+      "startRow": 1,
+      "endRow": 12
+     },
+     {
+      "colIndex": 8,
+      "startRow": 1,
+      "endRow": 12
+     },
+     {
+      "colIndex": 9,
+      "startRow": 1,
+      "endRow": 12
+     },
+     {
+      "colIndex": 10,
+      "startRow": 1,
+      "endRow": 12
+     }
+    ],
+    "x": 0.1222,
+    "y": 0.1595,
+    "width": 0.7935,
+    "height": 0.3594
+   },
+   {
+    "gridId": 2,
+    "cols": 10,
+    "rows": 12,
+    "columnConfigs": [
+     {
+      "colIndex": 1,
+      "startRow": 1,
+      "endRow": 12
+     },
+     {
+      "colIndex": 2,
+      "startRow": 1,
+      "endRow": 12
+     },
+     {
+      "colIndex": 3,
+      "startRow": 1,
+      "endRow": 12
+     },
+     {
+      "colIndex": 4,
+      "startRow": 1,
+      "endRow": 12
+     },
+     {
+      "colIndex": 5,
+      "startRow": 1,
+      "endRow": 12
+     },
+     {
+      "colIndex": 6,
+      "startRow": 1,
+      "endRow": 12
+     },
+     {
+      "colIndex": 7,
+      "startRow": 1,
+      "endRow": 12
+     },
+     {
+      "colIndex": 8,
+      "startRow": 1,
+      "endRow": 12
+     },
+     {
+      "colIndex": 9,
+      "startRow": 1,
+      "endRow": 12
+     },
+     {
+      "colIndex": 10,
+      "startRow": 1,
+      "endRow": 12
+     }
+    ],
+    "x": 0.1222,
+    "y": 0.5772,
+    "width": 0.7935,
+    "height": 0.3594
+   }
+  ],
+  "12": [
+   {
+    "gridId": 1,
+    "cols": 6,
+    "rows": 12,
+    "columnConfigs": [
+     {
+      "colIndex": 1,
+      "startRow": 1,
+      "endRow": 12
+     },
+     {
+      "colIndex": 2,
+      "startRow": 1,
+      "endRow": 12
+     },
+     {
+      "colIndex": 3,
+      "startRow": 1,
+      "endRow": 12
+     },
+     {
+      "colIndex": 4,
+      "startRow": 1,
+      "endRow": 12
+     },
+     {
+      "colIndex": 5,
+      "startRow": 1,
+      "endRow": 12
+     },
+     {
+      "colIndex": 6,
+      "startRow": 1,
+      "endRow": 12
+     }
+    ],
+    "x": 0.4378,
+    "y": 0.1595,
+    "width": 0.4757,
+    "height": 0.3594
+   },
+   {
+    "gridId": 2,
+    "cols": 6,
+    "rows": 12,
+    "columnConfigs": [
+     {
+      "colIndex": 1,
+      "startRow": 1,
+      "endRow": 12
+     },
+     {
+      "colIndex": 2,
+      "startRow": 1,
+      "endRow": 12
+     },
+     {
+      "colIndex": 3,
+      "startRow": 1,
+      "endRow": 12
+     },
+     {
+      "colIndex": 4,
+      "startRow": 1,
+      "endRow": 12
+     },
+     {
+      "colIndex": 5,
+      "startRow": 1,
+      "endRow": 12
+     },
+     {
+      "colIndex": 6,
+      "startRow": 1,
+      "endRow": 12
+     }
+    ],
+    "x": 0.4378,
+    "y": 0.5772,
+    "width": 0.4757,
+    "height": 0.3594
+   }
+  ]
+ }
+}
