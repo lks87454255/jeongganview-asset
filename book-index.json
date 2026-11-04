@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-11-04T12:46:28Z",
+  "generated": "2026-11-04T12:58:06Z",
   "owner": "lks87454255",
   "repo": "jeongganview-asset",
   "branch": "main",
@@ -539,6 +539,10 @@
             },
             {
               "title": "분웅",
+              "page": 13
+            },
+            {
+              "title": "순응",
               "page": 13
             },
             {
