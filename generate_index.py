@@ -225,6 +225,8 @@ def check_book_pairs(book_dir: str):
             if nfc(fn).endswith(SONGS_SUFFIX):
                 songs_files[nfc(rel)[:-len(SONGS_SUFFIX)]] = os.path.join(root, fn)
                 continue
+            if nfc(fn).endswith(".sync.json"):      # 음원 싱크 맵(앱 AudioSyncRepository 가 읽는다) — 그리드 JSON 아님
+                continue
             if ext.lower() == ".pdf":
                 pdfs[stem] = os.path.join(root, fn)
             elif ext.lower() == ".json":
