@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-11-04T11:44:51Z",
+  "generated": "2026-11-04T11:45:21Z",
   "owner": "lks87454255",
   "repo": "jeongganview-asset",
   "branch": "main",
@@ -16,51 +16,11 @@
           "sizeBytes": 295419
         }
       ]
-    },
-    {
-      "name": "영산회상",
-      "files": [
-        {
-          "name": "가야금",
-          "fileName": "가야금.pdf",
-          "path": "book/영산회상/가야금.pdf",
-          "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EC%98%81%EC%82%B0%ED%9A%8C%EC%83%81/%EA%B0%80%EC%95%BC%EA%B8%88.pdf",
-          "sizeBytes": 5062817
-        },
-        {
-          "name": "거문고",
-          "fileName": "거문고.pdf",
-          "path": "book/영산회상/거문고.pdf",
-          "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EC%98%81%EC%82%B0%ED%9A%8C%EC%83%81/%EA%B1%B0%EB%AC%B8%EA%B3%A0.pdf",
-          "sizeBytes": 5055851
-        },
-        {
-          "name": "대금",
-          "fileName": "대금.pdf",
-          "path": "book/영산회상/대금.pdf",
-          "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EC%98%81%EC%82%B0%ED%9A%8C%EC%83%81/%EB%8C%80%EA%B8%88.pdf",
-          "sizeBytes": 7728847
-        },
-        {
-          "name": "피리",
-          "fileName": "피리.pdf",
-          "path": "book/영산회상/피리.pdf",
-          "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EC%98%81%EC%82%B0%ED%9A%8C%EC%83%81/%ED%94%BC%EB%A6%AC.pdf",
-          "sizeBytes": 7160308
-        },
-        {
-          "name": "해금",
-          "fileName": "해금.pdf",
-          "path": "book/영산회상/해금.pdf",
-          "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EC%98%81%EC%82%B0%ED%9A%8C%EC%83%81/%ED%95%B4%EA%B8%88.pdf",
-          "sizeBytes": 7216643
-        }
-      ]
     }
   ],
   "adminCategories": [],
   "_total": {
-    "categories": 2,
-    "files": 6
+    "categories": 1,
+    "files": 1
   }
 }
