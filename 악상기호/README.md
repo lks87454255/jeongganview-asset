@@ -1,9 +1,9 @@
-# sigimsae (악상기호)
+# 악상기호
 
 정간뷰(JeongGanView) 앱 **악상기호** 메뉴의 데이터 정본입니다. 앱 배포 없이 고칠 수 있습니다.
 
 ```
-sigimsae/악상기호.json                ← 2021 대금정악보 10~15쪽 악상기호 60개 (파일 이름은 앱과 약속된 값 — 바꾸면 앱이 못 찾는다)
+악상기호/악상기호.json                ← 2021 대금정악보 10~15쪽 악상기호 60개 (파일 이름은 앱과 약속된 값 — 바꾸면 앱이 못 찾는다)
 check_sigimsae.py                    ← 앱과 같은 규칙으로 검사 (push 전 필수)
 ```
 
@@ -20,8 +20,8 @@ check_sigimsae.py                    ← 앱과 같은 규칙으로 검사 (push
 
 ```
 python3 check_sigimsae.py      # OK 가 나와야 함 (오류 있으면 종료 코드 1)
-git add sigimsae check_sigimsae.py
-git commit -m "chore: update sigimsae"
+git add 악상기호 check_sigimsae.py
+git commit -m "chore: update 악상기호"
 git push
 ```
 

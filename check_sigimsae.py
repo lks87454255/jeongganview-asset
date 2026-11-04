@@ -2,11 +2,11 @@
 """
 check_sigimsae.py  (jeongganview-asset)
 =======================================
-sigimsae/*.json (악상기호 카탈로그)를 앱과 같은 규칙으로 검사합니다.
+악상기호/*.json (악상기호 카탈로그)를 앱과 같은 규칙으로 검사합니다.
 앱(JeongGanView)은 원격 파일이 이 규칙을 하나라도 어기면 그 파일을 버리고
 마지막 정상 캐시나 앱 내장 사본을 씁니다 → push 전에 반드시 통과시키세요.
 
-    python3 check_sigimsae.py            # sigimsae/ 아래 *.json 전부
+    python3 check_sigimsae.py            # 악상기호/ 아래 *.json 전부
     python3 check_sigimsae.py FILE.json  # 지정한 파일만
 
 앱 쪽 규칙: data/sigimsae/SigimsaeCatalogValidator.kt, SigimsaeExpander.kt, SigimsaeModels.kt
@@ -183,9 +183,9 @@ def check(path):
 
 def main():
     here = os.path.dirname(os.path.abspath(__file__))
-    files = sys.argv[1:] or sorted(glob.glob(os.path.join(here, "sigimsae", "*.json")))
+    files = sys.argv[1:] or sorted(glob.glob(os.path.join(here, "악상기호", "*.json")))
     if not files:
-        print("검사할 파일 없음: sigimsae/*.json")
+        print("검사할 파일 없음: 악상기호/*.json")
         return 1
     failed = 0
     for f in files:
