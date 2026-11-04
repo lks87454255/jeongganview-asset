@@ -49,9 +49,7 @@ BOOK_EXCLUDE_DIRS = {"대금율보", "조재수 대금교본", "국악이 꽃피
 # 관리자 기기에만 보이는 분류(테스트 중인 디지털 정간보) — book-index.json 의 "adminCategories" 로 나간다
 BOOK_ADMIN_ONLY_DIRS = {"디지털정간보"}
 
-BOOK_EXCLUDE = {
-    "book/대금정악/여민락_p20_디지털.pdf",   # 여민락 p20 디지털 판독 참고본 (작업 자료)
-}
+BOOK_EXCLUDE: set = set()
 
 
 def nfc(s: str) -> str:
