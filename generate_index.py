@@ -47,7 +47,7 @@ IGNORE = {".DS_Store", ".gitkeep", ".gitignore", "Thumbs.db"}
 BOOK_EXCLUDE_DIRS = {"대금율보", "조재수 대금교본", "국악이 꽃피는 나무"}
 
 # 관리자 기기에만 보이는 분류(테스트 중인 디지털 정간보) — book-index.json 의 "adminCategories" 로 나간다
-BOOK_ADMIN_ONLY_DIRS = {"디지털정간보"}
+BOOK_ADMIN_ONLY_DIRS: set = set()
 
 BOOK_EXCLUDE: set = set()
 
