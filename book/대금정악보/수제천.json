@@ -173,7 +173,10 @@
      {
       "colIndex": 7,
       "startRow": 1,
-      "endRow": 18
+      "endRow": 18,
+      "skipRows": [
+       10
+      ]
      }
     ],
     "x": 0.3014,
