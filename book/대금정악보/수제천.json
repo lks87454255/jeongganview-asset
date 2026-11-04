@@ -11,7 +11,17 @@
      {
       "colIndex": 1,
       "startRow": 1,
-      "endRow": 18
+      "endRow": 18,
+      "skipRows": [
+       2,
+       3,
+       4,
+       5,
+       11,
+       12,
+       13,
+       14
+      ]
      },
      {
       "colIndex": 2,
@@ -44,10 +54,10 @@
       "endRow": 18
      }
     ],
-    "x": 0.1289,
-    "y": 0.2162,
-    "width": 0.6121,
-    "height": 0.7191,
+    "x": 0.1297,
+    "y": 0.2158,
+    "width": 0.6117,
+    "height": 0.7208,
     "title": "수제천 · 빗가락정읍"
    }
   ],
@@ -60,7 +70,18 @@
      {
       "colIndex": 1,
       "startRow": 1,
-      "endRow": 18
+      "endRow": 18,
+      "skipRows": [
+       2,
+       3,
+       4,
+       5,
+       6,
+       11,
+       12,
+       13,
+       14
+      ]
      },
      {
       "colIndex": 2,
@@ -104,9 +125,9 @@
      }
     ],
     "x": 0.1271,
-    "y": 0.2162,
-    "width": 0.786,
-    "height": 0.7191,
+    "y": 0.2158,
+    "width": 0.7864,
+    "height": 0.7208,
     "title": "수제천 · 빗가락정읍"
    }
   ],
@@ -119,17 +140,38 @@
      {
       "colIndex": 1,
       "startRow": 1,
-      "endRow": 18
+      "endRow": 18,
+      "skipRows": [
+       8,
+       9,
+       10,
+       11
+      ]
      },
      {
       "colIndex": 2,
       "startRow": 1,
-      "endRow": 18
+      "endRow": 18,
+      "skipRows": [
+       8,
+       9,
+       10,
+       11
+      ]
      },
      {
       "colIndex": 3,
       "startRow": 1,
-      "endRow": 18
+      "endRow": 18,
+      "skipRows": [
+       11,
+       12,
+       13,
+       14,
+       15,
+       16,
+       17
+      ]
      },
      {
       "colIndex": 4,
@@ -152,10 +194,10 @@
       "endRow": 18
      }
     ],
-    "x": 0.301,
-    "y": 0.2162,
-    "width": 0.6121,
-    "height": 0.7191,
+    "x": 0.3014,
+    "y": 0.2161,
+    "width": 0.6117,
+    "height": 0.7205,
     "title": "수제천 · 빗가락정읍"
    }
   ]
