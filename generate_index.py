@@ -73,6 +73,7 @@ def is_ignored(name: str) -> bool:
 # ── 곡 제목 목록(<PDF 이름>.songs.json) ──────────────────────────
 # {"songs": [{"title": "계면가락도드리", "page": 1}, …]}  page = 그 PDF 안 쪽 번호(1부터)
 SONGS_SUFFIX = ".songs.json"
+GRID_SUFFIX = ".grid.json"      # 그리드 JSON(<PDF 이름>.grid.json) — 앱 GridManager 가 읽는다
 
 
 def read_songs(path: str) -> list:
@@ -204,8 +205,10 @@ def scan_book(book_dir: str) -> dict:
 
 
 # ── 정간보 PDF ↔ 그리드 JSON 일치 검사 ─────────────────────────
-# 앱은 PDF 주소의 ".pdf" 를 ".json" 으로 바꿔 그리드 JSON 을 찾는다.
-# 이름이 한 글자라도 다르면(예: 한천수.pdf / 헌천수.json) JSON 이 404 → 그리드가 그려지지 않는다.
+# 앱은 PDF 주소의 ".pdf" 를 ".grid.json" 으로 바꿔 그리드 JSON 을 찾는다(없으면 예전 이름 ".json").
+# 이름이 한 글자라도 다르면(예: 한천수.pdf / 헌천수.grid.json) JSON 이 404 → 그리드가 그려지지 않는다.
+#   그리드 JSON 이름은 .songs.json / .sync.json 과 같은 패턴인 <PDF 이름>.grid.json 으로 통일(2026-11-04).
+#   그 밖의 .json(예전 이름 <PDF 이름>.json 등)은 오류로 알린다.
 #   오류(ERROR): JSON 짝 PDF 없음 · JSON 파싱/구조 오류 · 파일명 NFC 아님
 #   경고(WARN) : JSON 안 fileName 이 PDF 이름과 다름
 #   정보(INFO) : JSON 없는 PDF (기본 그리드로 동작 — 허용)
@@ -232,30 +235,32 @@ def check_book_pairs(book_dir: str):
                 continue
             if ext.lower() == ".pdf":
                 pdfs[stem] = os.path.join(root, fn)
+            elif nfc(fn).endswith(GRID_SUFFIX):
+                jsons[nfc(rel)[:-len(GRID_SUFFIX)]] = os.path.join(root, fn)
             elif ext.lower() == ".json":
-                jsons[stem] = os.path.join(root, fn)
+                errors.append(f"그리드 JSON 이름은 <PDF 이름>{GRID_SUFFIX} 이어야 함: {nfc(rel)}")
 
     for stem, path in sorted(jsons.items()):
         if stem not in pdfs:
             same_dir = [p for p in pdfs if os.path.dirname(p) == os.path.dirname(stem)]
             hint = difflib.get_close_matches(stem, same_dir, n=1, cutoff=0.6)
-            errors.append(f"그리드 JSON 의 짝 PDF 없음: {stem}.json"
+            errors.append(f"그리드 JSON 의 짝 PDF 없음: {stem}{GRID_SUFFIX}"
                           + (f"  → 비슷한 PDF: {hint[0]}.pdf (이름 불일치?)" if hint else ""))
         try:
             with open(path, encoding="utf-8") as f:
                 data = json.load(f)
         except Exception as e:
-            errors.append(f"JSON 파싱 실패: {stem}.json — {e}")
+            errors.append(f"JSON 파싱 실패: {stem}{GRID_SUFFIX} — {e}")
             continue
         fname = data.get("fileName", "")
         if fname and nfc(fname) != os.path.basename(stem) + ".pdf":
-            warns.append(f"JSON fileName '{fname}' ≠ PDF 이름 '{os.path.basename(stem)}.pdf': {stem}.json")
+            warns.append(f"JSON fileName '{fname}' ≠ PDF 이름 '{os.path.basename(stem)}.pdf': {stem}{GRID_SUFFIX}")
         total = data.get("totalPages", 0)
         for pg, blocks in (data.get("pageData") or {}).items():
             if not str(pg).isdigit() or (total and not 1 <= int(pg) <= total):
-                errors.append(f"페이지 키 '{pg}' 가 1..totalPages({total}) 밖: {stem}.json")
+                errors.append(f"페이지 키 '{pg}' 가 1..totalPages({total}) 밖: {stem}{GRID_SUFFIX}")
             for bi, b in enumerate(blocks or []):
-                tag = f"{stem}.json p{pg} 블록{bi + 1}"
+                tag = f"{stem}{GRID_SUFFIX} p{pg} 블록{bi + 1}"
                 cols, rows = b.get("cols", 0), b.get("rows", 0)
                 if cols < 1 or rows < 1:
                     errors.append(f"cols/rows 가 1 미만 (cols={cols}, rows={rows}): {tag}")
