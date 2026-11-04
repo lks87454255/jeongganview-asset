@@ -1,0 +1,40 @@
+{
+ "version": 1,
+ "pdf": "book/대금정악보/보허자.pdf",
+ "note": "곡마다 첫 소리·끝 소리 앵커 2개(그 사이 정속). 음원 RMS(10ms). scripts/build_daegeum_sync_maps.py",
+ "tracks": [
+  {
+   "clipid": "38475",
+   "title": "19. 보허자(장춘불로지곡)",
+   "bytes": 24087049,
+   "from": {
+    "page": 1,
+    "grid": 1,
+    "col": 1,
+    "row": 0
+   },
+   "to": {
+    "page": 4,
+    "grid": 1,
+    "col": 1,
+    "row": 20
+   },
+   "anchors": [
+    {
+     "t": 1680,
+     "page": 1,
+     "grid": 1,
+     "col": 1,
+     "row": 0
+    },
+    {
+     "t": 1005990,
+     "page": 4,
+     "grid": 1,
+     "col": 1,
+     "row": 20
+    }
+   ]
+  }
+ ]
+}

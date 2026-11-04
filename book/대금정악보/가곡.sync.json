@@ -1,0 +1,1393 @@
+{
+ "version": 1,
+ "pdf": "book/대금정악보/가곡.pdf",
+ "note": "곡마다 첫 소리·끝 소리 앵커 2개(그 사이 정속). 음원 RMS(10ms). scripts/build_daegeum_sync_maps.py",
+ "tracks": [
+  {
+   "clipid": "38406",
+   "title": "11-01. 남창 우조다스름",
+   "bytes": 2263920,
+   "from": {
+    "page": 1,
+    "grid": 1,
+    "col": 1,
+    "row": 0
+   },
+   "to": {
+    "page": 3,
+    "grid": 1,
+    "col": 1,
+    "row": 0
+   },
+   "anchors": [
+    {
+     "t": 1770,
+     "page": 1,
+     "grid": 1,
+     "col": 1,
+     "row": 0
+    },
+    {
+     "t": 93880,
+     "page": 3,
+     "grid": 1,
+     "col": 1,
+     "row": 0
+    }
+   ]
+  },
+  {
+   "clipid": "38407",
+   "title": "11-02. 남창 우조 초수대엽(동창이)",
+   "bytes": 13298703,
+   "from": {
+    "page": 3,
+    "grid": 1,
+    "col": 1,
+    "row": 0
+   },
+   "to": {
+    "page": 5,
+    "grid": 1,
+    "col": 1,
+    "row": 0
+   },
+   "anchors": [
+    {
+     "t": 80,
+     "page": 3,
+     "grid": 1,
+     "col": 1,
+     "row": 0
+    },
+    {
+     "t": 555890,
+     "page": 5,
+     "grid": 1,
+     "col": 1,
+     "row": 0
+    }
+   ]
+  },
+  {
+   "clipid": "38408",
+   "title": "11-03. 남창 우조 이수대엽(강호에)",
+   "bytes": 15612234,
+   "from": {
+    "page": 5,
+    "grid": 1,
+    "col": 1,
+    "row": 0
+   },
+   "to": {
+    "page": 7,
+    "grid": 1,
+    "col": 1,
+    "row": 0
+   },
+   "anchors": [
+    {
+     "t": 20,
+     "page": 5,
+     "grid": 1,
+     "col": 1,
+     "row": 0
+    },
+    {
+     "t": 652960,
+     "page": 7,
+     "grid": 1,
+     "col": 1,
+     "row": 0
+    }
+   ]
+  },
+  {
+   "clipid": "38409",
+   "title": "11-04. 남창 우조 중거(인심은)",
+   "bytes": 14795107,
+   "from": {
+    "page": 7,
+    "grid": 1,
+    "col": 1,
+    "row": 0
+   },
+   "to": {
+    "page": 9,
+    "grid": 1,
+    "col": 1,
+    "row": 0
+   },
+   "anchors": [
+    {
+     "t": 100,
+     "page": 7,
+     "grid": 1,
+     "col": 1,
+     "row": 0
+    },
+    {
+     "t": 618590,
+     "page": 9,
+     "grid": 1,
+     "col": 1,
+     "row": 0
+    }
+   ]
+  },
+  {
+   "clipid": "38410",
+   "title": "11-05. 남창 우조 평거(경성출)",
+   "bytes": 13960197,
+   "from": {
+    "page": 9,
+    "grid": 1,
+    "col": 1,
+    "row": 0
+   },
+   "to": {
+    "page": 11,
+    "grid": 1,
+    "col": 1,
+    "row": 0
+   },
+   "anchors": [
+    {
+     "t": 150,
+     "page": 9,
+     "grid": 1,
+     "col": 1,
+     "row": 0
+    },
+    {
+     "t": 583920,
+     "page": 11,
+     "grid": 1,
+     "col": 1,
+     "row": 0
+    }
+   ]
+  },
+  {
+   "clipid": "38411",
+   "title": "11-06. 남창 우조 두거(구름이)",
+   "bytes": 12562370,
+   "from": {
+    "page": 11,
+    "grid": 1,
+    "col": 1,
+    "row": 0
+   },
+   "to": {
+    "page": 13,
+    "grid": 1,
+    "col": 1,
+    "row": 0
+   },
+   "anchors": [
+    {
+     "t": 80,
+     "page": 11,
+     "grid": 1,
+     "col": 1,
+     "row": 0
+    },
+    {
+     "t": 525400,
+     "page": 13,
+     "grid": 1,
+     "col": 1,
+     "row": 0
+    }
+   ]
+  },
+  {
+   "clipid": "38412",
+   "title": "11-07. 남창 우조 삼수대엽(적토마)",
+   "bytes": 7814418,
+   "from": {
+    "page": 13,
+    "grid": 1,
+    "col": 1,
+    "row": 0
+   },
+   "to": {
+    "page": 15,
+    "grid": 1,
+    "col": 1,
+    "row": 0
+   },
+   "anchors": [
+    {
+     "t": 70,
+     "page": 13,
+     "grid": 1,
+     "col": 1,
+     "row": 0
+    },
+    {
+     "t": 326830,
+     "page": 15,
+     "grid": 1,
+     "col": 1,
+     "row": 0
+    }
+   ]
+  },
+  {
+   "clipid": "38413",
+   "title": "11-08. 남창 우조 소용이(불 아니)",
+   "bytes": 8115337,
+   "from": {
+    "page": 15,
+    "grid": 1,
+    "col": 1,
+    "row": 0
+   },
+   "to": {
+    "page": 17,
+    "grid": 1,
+    "col": 1,
+    "row": 0
+   },
+   "anchors": [
+    {
+     "t": 50,
+     "page": 15,
+     "grid": 1,
+     "col": 1,
+     "row": 0
+    },
+    {
+     "t": 339270,
+     "page": 17,
+     "grid": 1,
+     "col": 1,
+     "row": 0
+    }
+   ]
+  },
+  {
+   "clipid": "38414",
+   "title": "11-09. 남창 우조 우롱(삼월삼일)",
+   "bytes": 8160168,
+   "from": {
+    "page": 17,
+    "grid": 1,
+    "col": 1,
+    "row": 0
+   },
+   "to": {
+    "page": 19,
+    "grid": 1,
+    "col": 1,
+    "row": 0
+   },
+   "anchors": [
+    {
+     "t": 50,
+     "page": 17,
+     "grid": 1,
+     "col": 1,
+     "row": 0
+    },
+    {
+     "t": 341200,
+     "page": 19,
+     "grid": 1,
+     "col": 1,
+     "row": 0
+    }
+   ]
+  },
+  {
+   "clipid": "38415",
+   "title": "11-10. 남창 우조 우락(조다가)",
+   "bytes": 7489897,
+   "from": {
+    "page": 19,
+    "grid": 1,
+    "col": 1,
+    "row": 0
+   },
+   "to": {
+    "page": 21,
+    "grid": 1,
+    "col": 1,
+    "row": 0
+   },
+   "anchors": [
+    {
+     "t": 70,
+     "page": 19,
+     "grid": 1,
+     "col": 1,
+     "row": 0
+    },
+    {
+     "t": 312910,
+     "page": 21,
+     "grid": 1,
+     "col": 1,
+     "row": 0
+    }
+   ]
+  },
+  {
+   "clipid": "38416",
+   "title": "11-11. 남창 우조 언락(벽사창이)",
+   "bytes": 8734274,
+   "from": {
+    "page": 21,
+    "grid": 1,
+    "col": 1,
+    "row": 0
+   },
+   "to": {
+    "page": 24,
+    "grid": 1,
+    "col": 1,
+    "row": 0
+   },
+   "anchors": [
+    {
+     "t": 40,
+     "page": 21,
+     "grid": 1,
+     "col": 1,
+     "row": 0
+    },
+    {
+     "t": 365440,
+     "page": 24,
+     "grid": 1,
+     "col": 1,
+     "row": 0
+    }
+   ]
+  },
+  {
+   "clipid": "38417",
+   "title": "11-12. 남창 우조 우편(봉황대상)",
+   "bytes": 5437844,
+   "from": {
+    "page": 24,
+    "grid": 1,
+    "col": 1,
+    "row": 0
+   },
+   "to": {
+    "page": 26,
+    "grid": 1,
+    "col": 1,
+    "row": 0
+   },
+   "anchors": [
+    {
+     "t": 120,
+     "page": 24,
+     "grid": 1,
+     "col": 1,
+     "row": 0
+    },
+    {
+     "t": 227170,
+     "page": 26,
+     "grid": 1,
+     "col": 1,
+     "row": 0
+    }
+   ]
+  },
+  {
+   "clipid": "38418",
+   "title": "11-13. 남창 반우반계 반엽(삼월삼일)",
+   "bytes": 8094247,
+   "from": {
+    "page": 26,
+    "grid": 1,
+    "col": 1,
+    "row": 0
+   },
+   "to": {
+    "page": 28,
+    "grid": 1,
+    "col": 1,
+    "row": 0
+   },
+   "anchors": [
+    {
+     "t": 40,
+     "page": 26,
+     "grid": 1,
+     "col": 1,
+     "row": 0
+    },
+    {
+     "t": 334990,
+     "page": 28,
+     "grid": 1,
+     "col": 1,
+     "row": 0
+    }
+   ]
+  },
+  {
+   "clipid": "38419",
+   "title": "11-14. 남창 계면다스름",
+   "bytes": 1504388,
+   "from": {
+    "page": 28,
+    "grid": 1,
+    "col": 1,
+    "row": 0
+   },
+   "to": {
+    "page": 30,
+    "grid": 1,
+    "col": 1,
+    "row": 0
+   },
+   "anchors": [
+    {
+     "t": 730,
+     "page": 28,
+     "grid": 1,
+     "col": 1,
+     "row": 0
+    },
+    {
+     "t": 62300,
+     "page": 30,
+     "grid": 1,
+     "col": 1,
+     "row": 0
+    }
+   ]
+  },
+  {
+   "clipid": "38420",
+   "title": "11-15. 남창 계면 초수대엽(정석령)",
+   "bytes": 12117248,
+   "from": {
+    "page": 30,
+    "grid": 1,
+    "col": 1,
+    "row": 0
+   },
+   "to": {
+    "page": 32,
+    "grid": 1,
+    "col": 1,
+    "row": 0
+   },
+   "anchors": [
+    {
+     "t": 210,
+     "page": 30,
+     "grid": 1,
+     "col": 1,
+     "row": 0
+    },
+    {
+     "t": 504920,
+     "page": 32,
+     "grid": 1,
+     "col": 1,
+     "row": 0
+    }
+   ]
+  },
+  {
+   "clipid": "38421",
+   "title": "11-16. 남창 계면 이수대엽(잘새는)",
+   "bytes": 15261732,
+   "from": {
+    "page": 32,
+    "grid": 1,
+    "col": 1,
+    "row": 0
+   },
+   "to": {
+    "page": 34,
+    "grid": 1,
+    "col": 1,
+    "row": 0
+   },
+   "anchors": [
+    {
+     "t": 250,
+     "page": 32,
+     "grid": 1,
+     "col": 1,
+     "row": 0
+    },
+    {
+     "t": 636900,
+     "page": 34,
+     "grid": 1,
+     "col": 1,
+     "row": 0
+    }
+   ]
+  },
+  {
+   "clipid": "38422",
+   "title": "11-17. 남창 계면 중거(청풍)",
+   "bytes": 14072966,
+   "from": {
+    "page": 34,
+    "grid": 1,
+    "col": 1,
+    "row": 0
+   },
+   "to": {
+    "page": 36,
+    "grid": 1,
+    "col": 1,
+    "row": 0
+   },
+   "anchors": [
+    {
+     "t": 170,
+     "page": 34,
+     "grid": 1,
+     "col": 1,
+     "row": 0
+    },
+    {
+     "t": 587310,
+     "page": 36,
+     "grid": 1,
+     "col": 1,
+     "row": 0
+    }
+   ]
+  },
+  {
+   "clipid": "38423",
+   "title": "11-18. 남창 계면 평거(반넘어)",
+   "bytes": 13066533,
+   "from": {
+    "page": 36,
+    "grid": 1,
+    "col": 1,
+    "row": 0
+   },
+   "to": {
+    "page": 38,
+    "grid": 1,
+    "col": 1,
+    "row": 0
+   },
+   "anchors": [
+    {
+     "t": 110,
+     "page": 36,
+     "grid": 1,
+     "col": 1,
+     "row": 0
+    },
+    {
+     "t": 545080,
+     "page": 38,
+     "grid": 1,
+     "col": 1,
+     "row": 0
+    }
+   ]
+  },
+  {
+   "clipid": "38424",
+   "title": "11-19. 남창 계면 두거(악양루에)",
+   "bytes": 7855876,
+   "from": {
+    "page": 38,
+    "grid": 1,
+    "col": 1,
+    "row": 0
+   },
+   "to": {
+    "page": 40,
+    "grid": 1,
+    "col": 1,
+    "row": 0
+   },
+   "anchors": [
+    {
+     "t": 220,
+     "page": 38,
+     "grid": 1,
+     "col": 1,
+     "row": 0
+    },
+    {
+     "t": 328000,
+     "page": 40,
+     "grid": 1,
+     "col": 1,
+     "row": 0
+    }
+   ]
+  },
+  {
+   "clipid": "38425",
+   "title": "11-20. 남창 계면 삼수대엽(석양에)",
+   "bytes": 8484284,
+   "from": {
+    "page": 40,
+    "grid": 1,
+    "col": 1,
+    "row": 0
+   },
+   "to": {
+    "page": 42,
+    "grid": 1,
+    "col": 1,
+    "row": 0
+   },
+   "anchors": [
+    {
+     "t": 130,
+     "page": 40,
+     "grid": 1,
+     "col": 1,
+     "row": 0
+    },
+    {
+     "t": 354410,
+     "page": 42,
+     "grid": 1,
+     "col": 1,
+     "row": 0
+    }
+   ]
+  },
+  {
+   "clipid": "38426",
+   "title": "11-20. 남창 계면 소용이(어흐마)",
+   "bytes": 7586672,
+   "from": {
+    "page": 42,
+    "grid": 1,
+    "col": 1,
+    "row": 0
+   },
+   "to": {
+    "page": 44,
+    "grid": 1,
+    "col": 1,
+    "row": 0
+   },
+   "anchors": [
+    {
+     "t": 190,
+     "page": 42,
+     "grid": 1,
+     "col": 1,
+     "row": 0
+    },
+    {
+     "t": 317300,
+     "page": 44,
+     "grid": 1,
+     "col": 1,
+     "row": 0
+    }
+   ]
+  },
+  {
+   "clipid": "38427",
+   "title": "11-21. 남창 계면 언롱(이태백의)",
+   "bytes": 7302048,
+   "from": {
+    "page": 44,
+    "grid": 1,
+    "col": 1,
+    "row": 0
+   },
+   "to": {
+    "page": 46,
+    "grid": 1,
+    "col": 1,
+    "row": 0
+   },
+   "anchors": [
+    {
+     "t": 150,
+     "page": 44,
+     "grid": 1,
+     "col": 1,
+     "row": 0
+    },
+    {
+     "t": 304830,
+     "page": 46,
+     "grid": 1,
+     "col": 1,
+     "row": 0
+    }
+   ]
+  },
+  {
+   "clipid": "38428",
+   "title": "11-22. 남창 계면 평롱(월정명)",
+   "bytes": 7563299,
+   "from": {
+    "page": 46,
+    "grid": 1,
+    "col": 1,
+    "row": 0
+   },
+   "to": {
+    "page": 48,
+    "grid": 1,
+    "col": 1,
+    "row": 0
+   },
+   "anchors": [
+    {
+     "t": 120,
+     "page": 46,
+     "grid": 1,
+     "col": 1,
+     "row": 0
+    },
+    {
+     "t": 310920,
+     "page": 48,
+     "grid": 1,
+     "col": 1,
+     "row": 0
+    }
+   ]
+  },
+  {
+   "clipid": "38429",
+   "title": "11-23. 남창 계면 계락(절총마)",
+   "bytes": 7003219,
+   "from": {
+    "page": 48,
+    "grid": 1,
+    "col": 1,
+    "row": 0
+   },
+   "to": {
+    "page": 50,
+    "grid": 1,
+    "col": 1,
+    "row": 0
+   },
+   "anchors": [
+    {
+     "t": 150,
+     "page": 48,
+     "grid": 1,
+     "col": 1,
+     "row": 0
+    },
+    {
+     "t": 292430,
+     "page": 50,
+     "grid": 1,
+     "col": 1,
+     "row": 0
+    }
+   ]
+  },
+  {
+   "clipid": "38430",
+   "title": "11-24. 남창 반우반계 편락(나무도)",
+   "bytes": 6714914,
+   "from": {
+    "page": 50,
+    "grid": 1,
+    "col": 1,
+    "row": 0
+   },
+   "to": {
+    "page": 53,
+    "grid": 1,
+    "col": 1,
+    "row": 0
+   },
+   "anchors": [
+    {
+     "t": 130,
+     "page": 50,
+     "grid": 1,
+     "col": 1,
+     "row": 0
+    },
+    {
+     "t": 280580,
+     "page": 53,
+     "grid": 1,
+     "col": 1,
+     "row": 0
+    }
+   ]
+  },
+  {
+   "clipid": "38431",
+   "title": "11-25. 남창 계면 편수대엽(진국명산)",
+   "bytes": 6051070,
+   "from": {
+    "page": 53,
+    "grid": 1,
+    "col": 1,
+    "row": 0
+   },
+   "to": {
+    "page": 56,
+    "grid": 1,
+    "col": 1,
+    "row": 0
+   },
+   "anchors": [
+    {
+     "t": 110,
+     "page": 53,
+     "grid": 1,
+     "col": 1,
+     "row": 0
+    },
+    {
+     "t": 252410,
+     "page": 56,
+     "grid": 1,
+     "col": 1,
+     "row": 0
+    }
+   ]
+  },
+  {
+   "clipid": "38432",
+   "title": "11-26. 남창 계면 언편(한송정)",
+   "bytes": 5249556,
+   "from": {
+    "page": 56,
+    "grid": 1,
+    "col": 1,
+    "row": 0
+   },
+   "to": {
+    "page": 59,
+    "grid": 1,
+    "col": 1,
+    "row": 0
+   },
+   "anchors": [
+    {
+     "t": 90,
+     "page": 56,
+     "grid": 1,
+     "col": 1,
+     "row": 0
+    },
+    {
+     "t": 219090,
+     "page": 59,
+     "grid": 1,
+     "col": 1,
+     "row": 0
+    }
+   ]
+  },
+  {
+   "clipid": "38433",
+   "title": "11-27. 남창 계면 태평가(태평성대)",
+   "bytes": 10380060,
+   "from": {
+    "page": 59,
+    "grid": 1,
+    "col": 1,
+    "row": 0
+   },
+   "to": {
+    "page": 61,
+    "grid": 1,
+    "col": 1,
+    "row": 0
+   },
+   "anchors": [
+    {
+     "t": 260,
+     "page": 59,
+     "grid": 1,
+     "col": 1,
+     "row": 0
+    },
+    {
+     "t": 430780,
+     "page": 61,
+     "grid": 1,
+     "col": 1,
+     "row": 0
+    }
+   ]
+  },
+  {
+   "clipid": "38434",
+   "title": "11-28. 여창 우조 이수대엽(버들은)",
+   "bytes": 13104307,
+   "from": {
+    "page": 61,
+    "grid": 1,
+    "col": 1,
+    "row": 0
+   },
+   "to": {
+    "page": 63,
+    "grid": 1,
+    "col": 1,
+    "row": 0
+   },
+   "anchors": [
+    {
+     "t": 220,
+     "page": 61,
+     "grid": 1,
+     "col": 1,
+     "row": 0
+    },
+    {
+     "t": 544990,
+     "page": 63,
+     "grid": 1,
+     "col": 1,
+     "row": 0
+    }
+   ]
+  },
+  {
+   "clipid": "38435",
+   "title": "11-29. 여창 우조 중거(정조야)",
+   "bytes": 15451756,
+   "from": {
+    "page": 63,
+    "grid": 1,
+    "col": 1,
+    "row": 0
+   },
+   "to": {
+    "page": 65,
+    "grid": 1,
+    "col": 1,
+    "row": 0
+   },
+   "anchors": [
+    {
+     "t": 10,
+     "page": 63,
+     "grid": 1,
+     "col": 1,
+     "row": 0
+    },
+    {
+     "t": 646100,
+     "page": 65,
+     "grid": 1,
+     "col": 1,
+     "row": 0
+    }
+   ]
+  },
+  {
+   "clipid": "38441",
+   "title": "11-30. 여창 우조 평거(일소)",
+   "bytes": 14999994,
+   "from": {
+    "page": 65,
+    "grid": 1,
+    "col": 1,
+    "row": 0
+   },
+   "to": {
+    "page": 67,
+    "grid": 1,
+    "col": 1,
+    "row": 0
+   },
+   "anchors": [
+    {
+     "t": 70,
+     "page": 65,
+     "grid": 1,
+     "col": 1,
+     "row": 0
+    },
+    {
+     "t": 627120,
+     "page": 67,
+     "grid": 1,
+     "col": 1,
+     "row": 0
+    }
+   ]
+  },
+  {
+   "clipid": "38437",
+   "title": "11-31. 여창 우조 두거(일각이)",
+   "bytes": 11322865,
+   "from": {
+    "page": 67,
+    "grid": 1,
+    "col": 1,
+    "row": 0
+   },
+   "to": {
+    "page": 69,
+    "grid": 1,
+    "col": 1,
+    "row": 0
+   },
+   "anchors": [
+    {
+     "t": 30,
+     "page": 67,
+     "grid": 1,
+     "col": 1,
+     "row": 0
+    },
+    {
+     "t": 473350,
+     "page": 69,
+     "grid": 1,
+     "col": 1,
+     "row": 0
+    }
+   ]
+  },
+  {
+   "clipid": "38438",
+   "title": "11-32. 여창 우조 우락(바람은)",
+   "bytes": 8676062,
+   "from": {
+    "page": 69,
+    "grid": 1,
+    "col": 1,
+    "row": 0
+   },
+   "to": {
+    "page": 71,
+    "grid": 1,
+    "col": 1,
+    "row": 0
+   },
+   "anchors": [
+    {
+     "t": 30,
+     "page": 69,
+     "grid": 1,
+     "col": 1,
+     "row": 0
+    },
+    {
+     "t": 362510,
+     "page": 71,
+     "grid": 1,
+     "col": 1,
+     "row": 0
+    }
+   ]
+  },
+  {
+   "clipid": "38439",
+   "title": "11-33. 여창 반우반계 반엽(남하여)",
+   "bytes": 9483368,
+   "from": {
+    "page": 71,
+    "grid": 1,
+    "col": 1,
+    "row": 0
+   },
+   "to": {
+    "page": 73,
+    "grid": 1,
+    "col": 1,
+    "row": 0
+   },
+   "anchors": [
+    {
+     "t": 10,
+     "page": 71,
+     "grid": 1,
+     "col": 1,
+     "row": 0
+    },
+    {
+     "t": 393610,
+     "page": 73,
+     "grid": 1,
+     "col": 1,
+     "row": 0
+    }
+   ]
+  },
+  {
+   "clipid": "38440",
+   "title": "11-34. 여창 계면 이수대엽(언약이)",
+   "bytes": 13088240,
+   "from": {
+    "page": 73,
+    "grid": 1,
+    "col": 1,
+    "row": 0
+   },
+   "to": {
+    "page": 75,
+    "grid": 1,
+    "col": 1,
+    "row": 0
+   },
+   "anchors": [
+    {
+     "t": 20,
+     "page": 73,
+     "grid": 1,
+     "col": 1,
+     "row": 0
+    },
+    {
+     "t": 546990,
+     "page": 75,
+     "grid": 1,
+     "col": 1,
+     "row": 0
+    }
+   ]
+  },
+  {
+   "clipid": "38442",
+   "title": "11-35. 여창 계면 중거(서산에)",
+   "bytes": 15758056,
+   "from": {
+    "page": 75,
+    "grid": 1,
+    "col": 1,
+    "row": 0
+   },
+   "to": {
+    "page": 77,
+    "grid": 1,
+    "col": 1,
+    "row": 0
+   },
+   "anchors": [
+    {
+     "t": 30,
+     "page": 75,
+     "grid": 1,
+     "col": 1,
+     "row": 0
+    },
+    {
+     "t": 658860,
+     "page": 77,
+     "grid": 1,
+     "col": 1,
+     "row": 0
+    }
+   ]
+  },
+  {
+   "clipid": "38436",
+   "title": "11-36. 여창 계면 평거(초강)",
+   "bytes": 14451550,
+   "from": {
+    "page": 77,
+    "grid": 1,
+    "col": 1,
+    "row": 0
+   },
+   "to": {
+    "page": 79,
+    "grid": 1,
+    "col": 1,
+    "row": 0
+   },
+   "anchors": [
+    {
+     "t": 20,
+     "page": 77,
+     "grid": 1,
+     "col": 1,
+     "row": 0
+    },
+    {
+     "t": 604350,
+     "page": 79,
+     "grid": 1,
+     "col": 1,
+     "row": 0
+    }
+   ]
+  },
+  {
+   "clipid": "38444",
+   "title": "11-38. 여창 계면 평롱(북두칠성)",
+   "bytes": 10027432,
+   "from": {
+    "page": 81,
+    "grid": 1,
+    "col": 1,
+    "row": 0
+   },
+   "to": {
+    "page": 83,
+    "grid": 1,
+    "col": 1,
+    "row": 0
+   },
+   "anchors": [
+    {
+     "t": 40,
+     "page": 81,
+     "grid": 1,
+     "col": 1,
+     "row": 0
+    },
+    {
+     "t": 418980,
+     "page": 83,
+     "grid": 1,
+     "col": 1,
+     "row": 0
+    }
+   ]
+  },
+  {
+   "clipid": "38445",
+   "title": "11-39. 여창 계면 계락(정산도)",
+   "bytes": 8572793,
+   "from": {
+    "page": 83,
+    "grid": 1,
+    "col": 1,
+    "row": 0
+   },
+   "to": {
+    "page": 85,
+    "grid": 1,
+    "col": 1,
+    "row": 0
+   },
+   "anchors": [
+    {
+     "t": 50,
+     "page": 83,
+     "grid": 1,
+     "col": 1,
+     "row": 0
+    },
+    {
+     "t": 356440,
+     "page": 85,
+     "grid": 1,
+     "col": 1,
+     "row": 0
+    }
+   ]
+  },
+  {
+   "clipid": "38446",
+   "title": "11-40. 여창 반우반계 환계락(앞내나)",
+   "bytes": 8313129,
+   "from": {
+    "page": 85,
+    "grid": 1,
+    "col": 1,
+    "row": 0
+   },
+   "to": {
+    "page": 87,
+    "grid": 1,
+    "col": 1,
+    "row": 0
+   },
+   "anchors": [
+    {
+     "t": 10,
+     "page": 85,
+     "grid": 1,
+     "col": 1,
+     "row": 0
+    },
+    {
+     "t": 347770,
+     "page": 87,
+     "grid": 1,
+     "col": 1,
+     "row": 0
+    }
+   ]
+  },
+  {
+   "clipid": "38447",
+   "title": "11-41. 여창 계면 편수대엽(모란은)",
+   "bytes": 5123965,
+   "from": {
+    "page": 87,
+    "grid": 1,
+    "col": 1,
+    "row": 0
+   },
+   "to": {
+    "page": 90,
+    "grid": 1,
+    "col": 1,
+    "row": 0
+   },
+   "anchors": [
+    {
+     "t": 10,
+     "page": 87,
+     "grid": 1,
+     "col": 1,
+     "row": 0
+    },
+    {
+     "t": 213700,
+     "page": 90,
+     "grid": 1,
+     "col": 1,
+     "row": 0
+    }
+   ]
+  },
+  {
+   "clipid": "38448",
+   "title": "11-42. 여창 계면 태평가(태평성대)",
+   "bytes": 10898410,
+   "from": {
+    "page": 90,
+    "grid": 1,
+    "col": 1,
+    "row": 0
+   },
+   "to": {
+    "page": 91,
+    "grid": 1,
+    "col": 5,
+    "row": 11
+   },
+   "anchors": [
+    {
+     "t": 70,
+     "page": 90,
+     "grid": 1,
+     "col": 1,
+     "row": 0
+    },
+    {
+     "t": 453030,
+     "page": 91,
+     "grid": 1,
+     "col": 5,
+     "row": 11
+    }
+   ]
+  }
+ ]
+}

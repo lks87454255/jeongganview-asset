@@ -1,0 +1,40 @@
+{
+ "version": 1,
+ "pdf": "book/대금정악보/동동.pdf",
+ "note": "곡마다 첫 소리·끝 소리 앵커 2개(그 사이 정속). 음원 RMS(10ms). scripts/build_daegeum_sync_maps.py",
+ "tracks": [
+  {
+   "clipid": "38399",
+   "title": "09. 동동(세가락정읍)",
+   "bytes": 6752171,
+   "from": {
+    "page": 1,
+    "grid": 1,
+    "col": 1,
+    "row": 0
+   },
+   "to": {
+    "page": 1,
+    "grid": 1,
+    "col": 8,
+    "row": 18
+   },
+   "anchors": [
+    {
+     "t": 410,
+     "page": 1,
+     "grid": 1,
+     "col": 1,
+     "row": 0
+    },
+    {
+     "t": 279980,
+     "page": 1,
+     "grid": 1,
+     "col": 8,
+     "row": 18
+    }
+   ]
+  }
+ ]
+}

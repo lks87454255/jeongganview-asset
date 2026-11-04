@@ -1,0 +1,205 @@
+{
+ "version": 1,
+ "pdf": "book/대금정악보/자진한잎.pdf",
+ "note": "곡마다 첫 소리·끝 소리 앵커 2개(그 사이 정속). 음원 RMS(10ms). scripts/build_daegeum_sync_maps.py",
+ "tracks": [
+  {
+   "clipid": "38400",
+   "title": "10-02. 경풍년 변조두거",
+   "bytes": 11897365,
+   "from": {
+    "page": 3,
+    "grid": 1,
+    "col": 1,
+    "row": 0
+   },
+   "to": {
+    "page": 5,
+    "grid": 1,
+    "col": 1,
+    "row": 0
+   },
+   "anchors": [
+    {
+     "t": 1470,
+     "page": 3,
+     "grid": 1,
+     "col": 1,
+     "row": 0
+    },
+    {
+     "t": 497850,
+     "page": 5,
+     "grid": 1,
+     "col": 1,
+     "row": 0
+    }
+   ]
+  },
+  {
+   "clipid": "38401",
+   "title": "10-03. 염양춘 계면두거",
+   "bytes": 9522815,
+   "from": {
+    "page": 5,
+    "grid": 1,
+    "col": 1,
+    "row": 0
+   },
+   "to": {
+    "page": 7,
+    "grid": 1,
+    "col": 1,
+    "row": 0
+   },
+   "anchors": [
+    {
+     "t": 130,
+     "page": 5,
+     "grid": 1,
+     "col": 1,
+     "row": 0
+    },
+    {
+     "t": 397540,
+     "page": 7,
+     "grid": 1,
+     "col": 1,
+     "row": 0
+    }
+   ]
+  },
+  {
+   "clipid": "38402",
+   "title": "10-04. 수룡음 농",
+   "bytes": 11474439,
+   "from": {
+    "page": 7,
+    "grid": 1,
+    "col": 1,
+    "row": 0
+   },
+   "to": {
+    "page": 9,
+    "grid": 1,
+    "col": 1,
+    "row": 0
+   },
+   "anchors": [
+    {
+     "t": 480,
+     "page": 7,
+     "grid": 1,
+     "col": 1,
+     "row": 0
+    },
+    {
+     "t": 479960,
+     "page": 9,
+     "grid": 1,
+     "col": 1,
+     "row": 0
+    }
+   ]
+  },
+  {
+   "clipid": "38403",
+   "title": "10-05. 수룡음 계락",
+   "bytes": 5847350,
+   "from": {
+    "page": 9,
+    "grid": 1,
+    "col": 1,
+    "row": 0
+   },
+   "to": {
+    "page": 11,
+    "grid": 1,
+    "col": 1,
+    "row": 0
+   },
+   "anchors": [
+    {
+     "t": 160,
+     "page": 9,
+     "grid": 1,
+     "col": 1,
+     "row": 0
+    },
+    {
+     "t": 244390,
+     "page": 11,
+     "grid": 1,
+     "col": 1,
+     "row": 0
+    }
+   ]
+  },
+  {
+   "clipid": "38405",
+   "title": "10-06-01. 수룡음 편일",
+   "bytes": 3418730,
+   "from": {
+    "page": 11,
+    "grid": 1,
+    "col": 1,
+    "row": 0
+   },
+   "to": {
+    "page": 13,
+    "grid": 1,
+    "col": 1,
+    "row": 0
+   },
+   "anchors": [
+    {
+     "t": 150,
+     "page": 11,
+     "grid": 1,
+     "col": 1,
+     "row": 0
+    },
+    {
+     "t": 142150,
+     "page": 13,
+     "grid": 1,
+     "col": 1,
+     "row": 0
+    }
+   ]
+  },
+  {
+   "clipid": "38404",
+   "title": "10-06-02. 수룡음 편이",
+   "bytes": 3697306,
+   "from": {
+    "page": 13,
+    "grid": 1,
+    "col": 1,
+    "row": 0
+   },
+   "to": {
+    "page": 14,
+    "grid": 1,
+    "col": 9,
+    "row": 7
+   },
+   "anchors": [
+    {
+     "t": 170,
+     "page": 13,
+     "grid": 1,
+     "col": 1,
+     "row": 0
+    },
+    {
+     "t": 151440,
+     "page": 14,
+     "grid": 1,
+     "col": 9,
+     "row": 7
+    }
+   ]
+  }
+ ]
+}

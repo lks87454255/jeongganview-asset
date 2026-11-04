@@ -1,0 +1,139 @@
+{
+ "version": 1,
+ "pdf": "book/대금정악보/여민락.pdf",
+ "note": "곡마다 첫 소리·끝 소리 앵커 2개(그 사이 정속). 음원 RMS(10ms). scripts/build_daegeum_sync_maps.py",
+ "tracks": [
+  {
+   "clipid": "38365",
+   "title": "01-01. 여민락 1장(승평만세지곡)",
+   "bytes": 32304346,
+   "from": {
+    "page": 1,
+    "grid": 1,
+    "col": 1,
+    "row": 0
+   },
+   "to": {
+    "page": 4,
+    "grid": 1,
+    "col": 5,
+    "row": 0
+   },
+   "anchors": [
+    {
+     "t": 310,
+     "page": 1,
+     "grid": 1,
+     "col": 1,
+     "row": 0
+    },
+    {
+     "t": 1351940,
+     "page": 4,
+     "grid": 1,
+     "col": 5,
+     "row": 0
+    }
+   ]
+  },
+  {
+   "clipid": "38366",
+   "title": "01-02. 여민락 2장(승평만세지곡)",
+   "bytes": 27309075,
+   "from": {
+    "page": 4,
+    "grid": 1,
+    "col": 5,
+    "row": 0
+   },
+   "to": {
+    "page": 7,
+    "grid": 1,
+    "col": 7,
+    "row": 0
+   },
+   "anchors": [
+    {
+     "t": 60,
+     "page": 4,
+     "grid": 1,
+     "col": 5,
+     "row": 0
+    },
+    {
+     "t": 1142730,
+     "page": 7,
+     "grid": 1,
+     "col": 7,
+     "row": 0
+    }
+   ]
+  },
+  {
+   "clipid": "38367",
+   "title": "01-03. 여민락 3장(승평만세지곡)",
+   "bytes": 26853812,
+   "from": {
+    "page": 7,
+    "grid": 1,
+    "col": 7,
+    "row": 0
+   },
+   "to": {
+    "page": 11,
+    "grid": 1,
+    "col": 1,
+    "row": 0
+   },
+   "anchors": [
+    {
+     "t": 30,
+     "page": 7,
+     "grid": 1,
+     "col": 7,
+     "row": 0
+    },
+    {
+     "t": 1123580,
+     "page": 11,
+     "grid": 1,
+     "col": 1,
+     "row": 0
+    }
+   ]
+  },
+  {
+   "clipid": "38368",
+   "title": "01-04. 여민락 4-7장(승평만세지곡)",
+   "bytes": 38092572,
+   "from": {
+    "page": 11,
+    "grid": 1,
+    "col": 1,
+    "row": 0
+   },
+   "to": {
+    "page": 17,
+    "grid": 2,
+    "col": 4,
+    "row": 10
+   },
+   "anchors": [
+    {
+     "t": 10,
+     "page": 11,
+     "grid": 1,
+     "col": 1,
+     "row": 0
+    },
+    {
+     "t": 1589910,
+     "page": 17,
+     "grid": 2,
+     "col": 4,
+     "row": 10
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,238 @@
+{
+ "version": 1,
+ "pdf": "book/대금정악보/영산회상.pdf",
+ "note": "곡마다 첫 소리·끝 소리 앵커 2개(그 사이 정속). 음원 RMS(10ms). scripts/build_daegeum_sync_maps.py",
+ "tracks": [
+  {
+   "clipid": "38371",
+   "title": "03-01. 영산회상 상령산(중광지곡)",
+   "bytes": 22428021,
+   "from": {
+    "page": 1,
+    "grid": 1,
+    "col": 1,
+    "row": 0
+   },
+   "to": {
+    "page": 3,
+    "grid": 1,
+    "col": 1,
+    "row": 0
+   },
+   "anchors": [
+    {
+     "t": 380,
+     "page": 1,
+     "grid": 1,
+     "col": 1,
+     "row": 0
+    },
+    {
+     "t": 938010,
+     "page": 3,
+     "grid": 1,
+     "col": 1,
+     "row": 0
+    }
+   ]
+  },
+  {
+   "clipid": "38372",
+   "title": "03-02. 영산회상 중령산(중광지곡)",
+   "bytes": 19528359,
+   "from": {
+    "page": 3,
+    "grid": 1,
+    "col": 1,
+    "row": 0
+   },
+   "to": {
+    "page": 5,
+    "grid": 1,
+    "col": 1,
+    "row": 0
+   },
+   "anchors": [
+    {
+     "t": 30,
+     "page": 3,
+     "grid": 1,
+     "col": 1,
+     "row": 0
+    },
+    {
+     "t": 816930,
+     "page": 5,
+     "grid": 1,
+     "col": 1,
+     "row": 0
+    }
+   ]
+  },
+  {
+   "clipid": "38373",
+   "title": "03-03. 영산회상 세령산(중광지곡)",
+   "bytes": 6086981,
+   "from": {
+    "page": 5,
+    "grid": 1,
+    "col": 1,
+    "row": 0
+   },
+   "to": {
+    "page": 6,
+    "grid": 1,
+    "col": 1,
+    "row": 0
+   },
+   "anchors": [
+    {
+     "t": 60,
+     "page": 5,
+     "grid": 1,
+     "col": 1,
+     "row": 0
+    },
+    {
+     "t": 252930,
+     "page": 6,
+     "grid": 1,
+     "col": 1,
+     "row": 0
+    }
+   ]
+  },
+  {
+   "clipid": "38374",
+   "title": "03-04. 영산회상 가락덜이(중광지곡)",
+   "bytes": 4209206,
+   "from": {
+    "page": 6,
+    "grid": 1,
+    "col": 1,
+    "row": 0
+   },
+   "to": {
+    "page": 7,
+    "grid": 1,
+    "col": 1,
+    "row": 0
+   },
+   "anchors": [
+    {
+     "t": 50,
+     "page": 6,
+     "grid": 1,
+     "col": 1,
+     "row": 0
+    },
+    {
+     "t": 175450,
+     "page": 7,
+     "grid": 1,
+     "col": 1,
+     "row": 0
+    }
+   ]
+  },
+  {
+   "clipid": "38375",
+   "title": "03-05. 영산회상 상현도드리(중광지곡)",
+   "bytes": 7162126,
+   "from": {
+    "page": 7,
+    "grid": 1,
+    "col": 1,
+    "row": 0
+   },
+   "to": {
+    "page": 8,
+    "grid": 4,
+    "col": 1,
+    "row": 0
+   },
+   "anchors": [
+    {
+     "t": 50,
+     "page": 7,
+     "grid": 1,
+     "col": 1,
+     "row": 0
+    },
+    {
+     "t": 299040,
+     "page": 8,
+     "grid": 4,
+     "col": 1,
+     "row": 0
+    }
+   ]
+  },
+  {
+   "clipid": "38376",
+   "title": "03-06. 영산회상 하현도드리(중광지곡)",
+   "bytes": 4929047,
+   "from": {
+    "page": 8,
+    "grid": 4,
+    "col": 1,
+    "row": 0
+   },
+   "to": {
+    "page": 9,
+    "grid": 4,
+    "col": 1,
+    "row": 0
+   },
+   "anchors": [
+    {
+     "t": 40,
+     "page": 8,
+     "grid": 4,
+     "col": 1,
+     "row": 0
+    },
+    {
+     "t": 205640,
+     "page": 9,
+     "grid": 4,
+     "col": 1,
+     "row": 0
+    }
+   ]
+  },
+  {
+   "clipid": "38377",
+   "title": "03-08. 영산회상 타령(중광지곡)",
+   "bytes": 4480947,
+   "from": {
+    "page": 11,
+    "grid": 4,
+    "col": 1,
+    "row": 0
+   },
+   "to": {
+    "page": 13,
+    "grid": 1,
+    "col": 1,
+    "row": 0
+   },
+   "anchors": [
+    {
+     "t": 50,
+     "page": 11,
+     "grid": 4,
+     "col": 1,
+     "row": 0
+    },
+    {
+     "t": 187170,
+     "page": 13,
+     "grid": 1,
+     "col": 1,
+     "row": 0
+    }
+   ]
+  }
+ ]
+}

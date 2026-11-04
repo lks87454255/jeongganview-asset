@@ -1,0 +1,40 @@
+{
+ "version": 1,
+ "pdf": "book/대금정악보/독주곡-청성자진한잎.pdf",
+ "note": "곡마다 첫 소리·끝 소리 앵커 2개(그 사이 정속). 음원 RMS(10ms). scripts/build_daegeum_sync_maps.py",
+ "tracks": [
+  {
+   "clipid": "38479",
+   "title": "23. 독주곡 청성자진한잎(청성곡)",
+   "bytes": 12337655,
+   "from": {
+    "page": 1,
+    "grid": 1,
+    "col": 1,
+    "row": 0
+   },
+   "to": {
+    "page": 2,
+    "grid": 1,
+    "col": 5,
+    "row": 20
+   },
+   "anchors": [
+    {
+     "t": 80,
+     "page": 1,
+     "grid": 1,
+     "col": 1,
+     "row": 0
+    },
+    {
+     "t": 514370,
+     "page": 2,
+     "grid": 1,
+     "col": 5,
+     "row": 20
+    }
+   ]
+  }
+ ]
+}

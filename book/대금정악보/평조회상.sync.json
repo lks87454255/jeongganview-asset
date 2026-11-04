@@ -1,0 +1,271 @@
+{
+ "version": 1,
+ "pdf": "book/대금정악보/평조회상.pdf",
+ "note": "곡마다 첫 소리·끝 소리 앵커 2개(그 사이 정속). 음원 RMS(10ms). scripts/build_daegeum_sync_maps.py",
+ "tracks": [
+  {
+   "clipid": "38381",
+   "title": "05-01. 평조회상 상령산(유초신지곡)",
+   "bytes": 23055491,
+   "from": {
+    "page": 1,
+    "grid": 1,
+    "col": 1,
+    "row": 0
+   },
+   "to": {
+    "page": 3,
+    "grid": 1,
+    "col": 1,
+    "row": 0
+   },
+   "anchors": [
+    {
+     "t": 1180,
+     "page": 1,
+     "grid": 1,
+     "col": 1,
+     "row": 0
+    },
+    {
+     "t": 964360,
+     "page": 3,
+     "grid": 1,
+     "col": 1,
+     "row": 0
+    }
+   ]
+  },
+  {
+   "clipid": "38382",
+   "title": "05-02. 평조회상 중령산(유초신지곡)",
+   "bytes": 20264782,
+   "from": {
+    "page": 3,
+    "grid": 1,
+    "col": 1,
+    "row": 0
+   },
+   "to": {
+    "page": 5,
+    "grid": 1,
+    "col": 1,
+    "row": 0
+   },
+   "anchors": [
+    {
+     "t": 70,
+     "page": 3,
+     "grid": 1,
+     "col": 1,
+     "row": 0
+    },
+    {
+     "t": 847910,
+     "page": 5,
+     "grid": 1,
+     "col": 1,
+     "row": 0
+    }
+   ]
+  },
+  {
+   "clipid": "38383",
+   "title": "05-03. 평조회상 세령산(유초신지곡)",
+   "bytes": 6243009,
+   "from": {
+    "page": 5,
+    "grid": 1,
+    "col": 1,
+    "row": 0
+   },
+   "to": {
+    "page": 6,
+    "grid": 1,
+    "col": 1,
+    "row": 0
+   },
+   "anchors": [
+    {
+     "t": 30,
+     "page": 5,
+     "grid": 1,
+     "col": 1,
+     "row": 0
+    },
+    {
+     "t": 260760,
+     "page": 6,
+     "grid": 1,
+     "col": 1,
+     "row": 0
+    }
+   ]
+  },
+  {
+   "clipid": "38384",
+   "title": "05-04. 평조회상 가락덜이(유초신지곡)",
+   "bytes": 4355081,
+   "from": {
+    "page": 6,
+    "grid": 1,
+    "col": 1,
+    "row": 0
+   },
+   "to": {
+    "page": 7,
+    "grid": 1,
+    "col": 1,
+    "row": 0
+   },
+   "anchors": [
+    {
+     "t": 70,
+     "page": 6,
+     "grid": 1,
+     "col": 1,
+     "row": 0
+    },
+    {
+     "t": 182020,
+     "page": 7,
+     "grid": 1,
+     "col": 1,
+     "row": 0
+    }
+   ]
+  },
+  {
+   "clipid": "38385",
+   "title": "05-05. 평조회상 상현도드리(유초신지곡)",
+   "bytes": 6386092,
+   "from": {
+    "page": 7,
+    "grid": 1,
+    "col": 1,
+    "row": 0
+   },
+   "to": {
+    "page": 8,
+    "grid": 4,
+    "col": 1,
+    "row": 0
+   },
+   "anchors": [
+    {
+     "t": 100,
+     "page": 7,
+     "grid": 1,
+     "col": 1,
+     "row": 0
+    },
+    {
+     "t": 266570,
+     "page": 8,
+     "grid": 4,
+     "col": 1,
+     "row": 0
+    }
+   ]
+  },
+  {
+   "clipid": "38386",
+   "title": "05-06. 평조회상 염불도드리(유초신지곡)",
+   "bytes": 6815259,
+   "from": {
+    "page": 8,
+    "grid": 4,
+    "col": 1,
+    "row": 0
+   },
+   "to": {
+    "page": 10,
+    "grid": 4,
+    "col": 1,
+    "row": 0
+   },
+   "anchors": [
+    {
+     "t": 60,
+     "page": 8,
+     "grid": 4,
+     "col": 1,
+     "row": 0
+    },
+    {
+     "t": 284590,
+     "page": 10,
+     "grid": 4,
+     "col": 1,
+     "row": 0
+    }
+   ]
+  },
+  {
+   "clipid": "38387",
+   "title": "05-07. 평조회상 타령(유초신지곡)",
+   "bytes": 4843628,
+   "from": {
+    "page": 10,
+    "grid": 4,
+    "col": 1,
+    "row": 0
+   },
+   "to": {
+    "page": 12,
+    "grid": 1,
+    "col": 1,
+    "row": 0
+   },
+   "anchors": [
+    {
+     "t": 100,
+     "page": 10,
+     "grid": 4,
+     "col": 1,
+     "row": 0
+    },
+    {
+     "t": 202390,
+     "page": 12,
+     "grid": 1,
+     "col": 1,
+     "row": 0
+    }
+   ]
+  },
+  {
+   "clipid": "38388",
+   "title": "05-08. 평조회상 군악(유초신지곡)",
+   "bytes": 6371858,
+   "from": {
+    "page": 12,
+    "grid": 1,
+    "col": 1,
+    "row": 0
+   },
+   "to": {
+    "page": 14,
+    "grid": 2,
+    "col": 5,
+    "row": 12
+   },
+   "anchors": [
+    {
+     "t": 110,
+     "page": 12,
+     "grid": 1,
+     "col": 1,
+     "row": 0
+    },
+    {
+     "t": 264500,
+     "page": 14,
+     "grid": 2,
+     "col": 5,
+     "row": 12
+    }
+   ]
+  }
+ ]
+}

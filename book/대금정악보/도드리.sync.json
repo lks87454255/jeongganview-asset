@@ -1,0 +1,73 @@
+{
+ "version": 1,
+ "pdf": "book/대금정악보/도드리.pdf",
+ "note": "곡마다 첫 소리·끝 소리 앵커 2개(그 사이 정속). 음원 RMS(10ms). scripts/build_daegeum_sync_maps.py",
+ "tracks": [
+  {
+   "clipid": "38369",
+   "title": "02-01. 밑도드리(수연장지곡)",
+   "bytes": 10459253,
+   "from": {
+    "page": 1,
+    "grid": 1,
+    "col": 1,
+    "row": 0
+   },
+   "to": {
+    "page": 5,
+    "grid": 1,
+    "col": 1,
+    "row": 0
+   },
+   "anchors": [
+    {
+     "t": 200,
+     "page": 1,
+     "grid": 1,
+     "col": 1,
+     "row": 0
+    },
+    {
+     "t": 435460,
+     "page": 5,
+     "grid": 1,
+     "col": 1,
+     "row": 0
+    }
+   ]
+  },
+  {
+   "clipid": "38370",
+   "title": "02-02. 웃도드리(송구여지곡)",
+   "bytes": 10473780,
+   "from": {
+    "page": 5,
+    "grid": 1,
+    "col": 1,
+    "row": 0
+   },
+   "to": {
+    "page": 9,
+    "grid": 1,
+    "col": 6,
+    "row": 6
+   },
+   "anchors": [
+    {
+     "t": 120,
+     "page": 5,
+     "grid": 1,
+     "col": 1,
+     "row": 0
+    },
+    {
+     "t": 434090,
+     "page": 9,
+     "grid": 1,
+     "col": 6,
+     "row": 6
+    }
+   ]
+  }
+ ]
+}

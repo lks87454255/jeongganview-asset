@@ -1,0 +1,271 @@
+{
+ "version": 1,
+ "pdf": "book/대금정악보/관악영산회상.pdf",
+ "note": "곡마다 첫 소리·끝 소리 앵커 2개(그 사이 정속). 음원 RMS(10ms). scripts/build_daegeum_sync_maps.py",
+ "tracks": [
+  {
+   "clipid": "38389",
+   "title": "06-01. 관악영산회상 상령산(표정만방지곡)",
+   "bytes": 13254318,
+   "from": {
+    "page": 1,
+    "grid": 1,
+    "col": 1,
+    "row": 0
+   },
+   "to": {
+    "page": 3,
+    "grid": 1,
+    "col": 1,
+    "row": 0
+   },
+   "anchors": [
+    {
+     "t": 320,
+     "page": 1,
+     "grid": 1,
+     "col": 1,
+     "row": 0
+    },
+    {
+     "t": 554700,
+     "page": 3,
+     "grid": 1,
+     "col": 1,
+     "row": 0
+    }
+   ]
+  },
+  {
+   "clipid": "38390",
+   "title": "06-02. 관악영산회상 중령산(표정만방지곡)",
+   "bytes": 15177991,
+   "from": {
+    "page": 3,
+    "grid": 1,
+    "col": 1,
+    "row": 0
+   },
+   "to": {
+    "page": 5,
+    "grid": 1,
+    "col": 1,
+    "row": 0
+   },
+   "anchors": [
+    {
+     "t": 30,
+     "page": 3,
+     "grid": 1,
+     "col": 1,
+     "row": 0
+    },
+    {
+     "t": 635010,
+     "page": 5,
+     "grid": 1,
+     "col": 1,
+     "row": 0
+    }
+   ]
+  },
+  {
+   "clipid": "38391",
+   "title": "06-03. 관악영산회상 세령산(표정만방지곡)",
+   "bytes": 5113409,
+   "from": {
+    "page": 5,
+    "grid": 1,
+    "col": 1,
+    "row": 0
+   },
+   "to": {
+    "page": 6,
+    "grid": 1,
+    "col": 1,
+    "row": 0
+   },
+   "anchors": [
+    {
+     "t": 120,
+     "page": 5,
+     "grid": 1,
+     "col": 1,
+     "row": 0
+    },
+    {
+     "t": 213480,
+     "page": 6,
+     "grid": 1,
+     "col": 1,
+     "row": 0
+    }
+   ]
+  },
+  {
+   "clipid": "38392",
+   "title": "06-04. 관악영산회상 가락덜이(표정만방지곡)",
+   "bytes": 3302625,
+   "from": {
+    "page": 6,
+    "grid": 1,
+    "col": 1,
+    "row": 0
+   },
+   "to": {
+    "page": 7,
+    "grid": 1,
+    "col": 1,
+    "row": 0
+   },
+   "anchors": [
+    {
+     "t": 60,
+     "page": 6,
+     "grid": 1,
+     "col": 1,
+     "row": 0
+    },
+    {
+     "t": 137220,
+     "page": 7,
+     "grid": 1,
+     "col": 1,
+     "row": 0
+    }
+   ]
+  },
+  {
+   "clipid": "38393",
+   "title": "06-05. 관악영산회상 삼현도드리(표정만방지곡)",
+   "bytes": 5906413,
+   "from": {
+    "page": 7,
+    "grid": 1,
+    "col": 1,
+    "row": 0
+   },
+   "to": {
+    "page": 8,
+    "grid": 4,
+    "col": 1,
+    "row": 0
+   },
+   "anchors": [
+    {
+     "t": 120,
+     "page": 7,
+     "grid": 1,
+     "col": 1,
+     "row": 0
+    },
+    {
+     "t": 247050,
+     "page": 8,
+     "grid": 4,
+     "col": 1,
+     "row": 0
+    }
+   ]
+  },
+  {
+   "clipid": "38394",
+   "title": "06-06. 관악영산회상 염불도드리(표정만방지곡)",
+   "bytes": 6701381,
+   "from": {
+    "page": 8,
+    "grid": 4,
+    "col": 1,
+    "row": 0
+   },
+   "to": {
+    "page": 10,
+    "grid": 3,
+    "col": 1,
+    "row": 0
+   },
+   "anchors": [
+    {
+     "t": 90,
+     "page": 8,
+     "grid": 4,
+     "col": 1,
+     "row": 0
+    },
+    {
+     "t": 278390,
+     "page": 10,
+     "grid": 3,
+     "col": 1,
+     "row": 0
+    }
+   ]
+  },
+  {
+   "clipid": "38395",
+   "title": "06-07. 관악영산회상 타령(표정만방지곡)",
+   "bytes": 4125459,
+   "from": {
+    "page": 10,
+    "grid": 3,
+    "col": 1,
+    "row": 0
+   },
+   "to": {
+    "page": 12,
+    "grid": 1,
+    "col": 1,
+    "row": 0
+   },
+   "anchors": [
+    {
+     "t": 70,
+     "page": 10,
+     "grid": 3,
+     "col": 1,
+     "row": 0
+    },
+    {
+     "t": 172160,
+     "page": 12,
+     "grid": 1,
+     "col": 1,
+     "row": 0
+    }
+   ]
+  },
+  {
+   "clipid": "38396",
+   "title": "06-08. 관악영산회상 군악(표정만방지곡)",
+   "bytes": 6412240,
+   "from": {
+    "page": 12,
+    "grid": 1,
+    "col": 1,
+    "row": 0
+   },
+   "to": {
+    "page": 14,
+    "grid": 2,
+    "col": 5,
+    "row": 12
+   },
+   "anchors": [
+    {
+     "t": 70,
+     "page": 12,
+     "grid": 1,
+     "col": 1,
+     "row": 0
+    },
+    {
+     "t": 266290,
+     "page": 14,
+     "grid": 2,
+     "col": 5,
+     "row": 12
+    }
+   ]
+  }
+ ]
+}

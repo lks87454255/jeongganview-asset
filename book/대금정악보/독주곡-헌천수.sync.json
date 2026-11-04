@@ -1,0 +1,40 @@
+{
+ "version": 1,
+ "pdf": "book/대금정악보/독주곡-헌천수.pdf",
+ "note": "곡마다 첫 소리·끝 소리 앵커 2개(그 사이 정속). 음원 RMS(10ms). scripts/build_daegeum_sync_maps.py",
+ "tracks": [
+  {
+   "clipid": "38477",
+   "title": "21. 독주곡 헌천수",
+   "bytes": 4967269,
+   "from": {
+    "page": 1,
+    "grid": 1,
+    "col": 1,
+    "row": 0
+   },
+   "to": {
+    "page": 1,
+    "grid": 1,
+    "col": 6,
+    "row": 12
+   },
+   "anchors": [
+    {
+     "t": 300,
+     "page": 1,
+     "grid": 1,
+     "col": 1,
+     "row": 0
+    },
+    {
+     "t": 206240,
+     "page": 1,
+     "grid": 1,
+     "col": 6,
+     "row": 12
+    }
+   ]
+  }
+ ]
+}

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-11-04T13:39:01Z",
+  "generated": "2026-11-04T20:49:57Z",
   "owner": "lks87454255",
   "repo": "jeongganview-asset",
   "branch": "main",
@@ -187,7 +187,8 @@
               "title": "여창 태평가",
               "page": 90
             }
-          ]
+          ],
+          "hasSync": true
         },
         {
           "name": "경모궁제례악",
@@ -265,7 +266,8 @@
               "title": "군악",
               "page": 12
             }
-          ]
+          ],
+          "hasSync": true
         },
         {
           "name": "낙양춘",
@@ -289,42 +291,48 @@
               "title": "웃도드리",
               "page": 5
             }
-          ]
+          ],
+          "hasSync": true
         },
         {
           "name": "독주곡-상령산",
           "fileName": "독주곡-상령산.pdf",
           "path": "book/대금정악보/독주곡-상령산.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EB%8C%80%EA%B8%88%EC%A0%95%EC%95%85%EB%B3%B4/%EB%8F%85%EC%A3%BC%EA%B3%A1-%EC%83%81%EB%A0%B9%EC%82%B0.pdf",
-          "sizeBytes": 2057050
+          "sizeBytes": 2057050,
+          "hasSync": true
         },
         {
           "name": "독주곡-청성자진한잎",
           "fileName": "독주곡-청성자진한잎.pdf",
           "path": "book/대금정악보/독주곡-청성자진한잎.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EB%8C%80%EA%B8%88%EC%A0%95%EC%95%85%EB%B3%B4/%EB%8F%85%EC%A3%BC%EA%B3%A1-%EC%B2%AD%EC%84%B1%EC%9E%90%EC%A7%84%ED%95%9C%EC%9E%8E.pdf",
-          "sizeBytes": 1671666
+          "sizeBytes": 1671666,
+          "hasSync": true
         },
         {
           "name": "독주곡-헌천수",
           "fileName": "독주곡-헌천수.pdf",
           "path": "book/대금정악보/독주곡-헌천수.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EB%8C%80%EA%B8%88%EC%A0%95%EC%95%85%EB%B3%B4/%EB%8F%85%EC%A3%BC%EA%B3%A1-%ED%97%8C%EC%B2%9C%EC%88%98.pdf",
-          "sizeBytes": 907289
+          "sizeBytes": 907289,
+          "hasSync": true
         },
         {
           "name": "동동",
           "fileName": "동동.pdf",
           "path": "book/대금정악보/동동.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EB%8C%80%EA%B8%88%EC%A0%95%EC%95%85%EB%B3%B4/%EB%8F%99%EB%8F%99.pdf",
-          "sizeBytes": 834435
+          "sizeBytes": 834435,
+          "hasSync": true
         },
         {
           "name": "보허자",
           "fileName": "보허자.pdf",
           "path": "book/대금정악보/보허자.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EB%8C%80%EA%B8%88%EC%A0%95%EC%95%85%EB%B3%B4/%EB%B3%B4%ED%97%88%EC%9E%90.pdf",
-          "sizeBytes": 3556083
+          "sizeBytes": 3556083,
+          "hasSync": true
         },
         {
           "name": "수제천",
@@ -339,7 +347,8 @@
           "fileName": "여민락.pdf",
           "path": "book/대금정악보/여민락.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EB%8C%80%EA%B8%88%EC%A0%95%EC%95%85%EB%B3%B4/%EC%97%AC%EB%AF%BC%EB%9D%BD.pdf",
-          "sizeBytes": 17951885
+          "sizeBytes": 17951885,
+          "hasSync": true
         },
         {
           "name": "여민락령",
@@ -398,7 +407,8 @@
               "title": "군악",
               "page": 13
             }
-          ]
+          ],
+          "hasSync": true
         },
         {
           "name": "유황곡",
@@ -442,7 +452,8 @@
               "title": "수룡음(편 二)",
               "page": 13
             }
-          ]
+          ],
+          "hasSync": true
         },
         {
           "name": "정동방곡",
@@ -613,7 +624,8 @@
               "title": "군악",
               "page": 10
             }
-          ]
+          ],
+          "hasSync": true
         },
         {
           "name": "평조회상",
@@ -654,7 +666,8 @@
               "title": "군악",
               "page": 12
             }
-          ]
+          ],
+          "hasSync": true
         },
         {
           "name": "해령",
@@ -690,7 +703,8 @@
               "title": "군악",
               "page": 10
             }
-          ]
+          ],
+          "hasSync": true
         }
       ]
     },
