@@ -75,6 +75,54 @@ def is_ignored(name: str) -> bool:
 SONGS_SUFFIX = ".songs.json"
 GRID_SUFFIX = ".grid.json"      # 그리드 JSON(<PDF 이름>.grid.json) — 앱 GridManager 가 읽는다
 
+# ── 예전 이름 그리드 사본(<PDF 이름>.json) — 임시 ──────────────────
+# 2026-11-04 그리드 이름을 .grid.json 으로 바꿨다. 그 전 앱은 <PDF 이름>.json 만 찾으므로
+# 앱이 업데이트될 때까지 같은 내용의 사본을 둔다. 이 스크립트가 .grid.json 에서 사본을 만들고 고친다(직접 고치지 말 것).
+# 기한이 지나면 사본을 만들지 않고 지우라고 알린다(자동으로 지우지는 않는다).
+#   지우기: LEGACY_GRID_COPY_UNTIL = None 으로 바꾸고, 안내에 나온 git rm 명령을 실행한 뒤 push.
+LEGACY_GRID_COPY_UNTIL = "2026-12-31"
+LEGACY_GRID_SUFFIX = ".json"
+
+
+def legacy_copy_active() -> bool:
+    return LEGACY_GRID_COPY_UNTIL is not None and datetime.now().strftime("%Y-%m-%d") <= LEGACY_GRID_COPY_UNTIL
+
+
+def iter_grid_files(book_dir: str):
+    """book/ 아래 <이름>.grid.json (목록에서 빼는 폴더 제외) → (grid 경로, 예전 이름 사본 경로)"""
+    for root, _, files in os.walk(book_dir):
+        rel_root = nfc(os.path.relpath(root, book_dir)).replace(os.sep, "/")
+        if rel_root.split("/")[0] in BOOK_EXCLUDE_DIRS:
+            continue
+        for fn in files:
+            if nfc(fn).endswith(GRID_SUFFIX) and not is_ignored(fn):
+                yield os.path.join(root, fn), os.path.join(root, fn[:-len(GRID_SUFFIX)] + LEGACY_GRID_SUFFIX)
+
+
+def sync_legacy_grid_copies(book_dir: str) -> None:
+    """예전 앱용 사본을 .grid.json 과 같은 내용으로 맞추고, 매번 남은 기간을 알린다."""
+    pairs = list(iter_grid_files(book_dir))
+    if legacy_copy_active():
+        changed = 0
+        for grid, legacy in pairs:
+            with open(grid, "rb") as f:
+                data = f.read()
+            old = open(legacy, "rb").read() if os.path.exists(legacy) else None
+            if old != data:
+                with open(legacy, "wb") as f:
+                    f.write(data)
+                changed += 1
+        days = (datetime.strptime(LEGACY_GRID_COPY_UNTIL, "%Y-%m-%d").date() - datetime.now().date()).days + 1   # 기한 날 포함
+        print(f"🔔 [리마인드] 예전 앱용 그리드 사본 <곡>.json {len(pairs)}개 보관 중 (새로 쓰거나 고친 것 {changed}개)")
+        print(f"   기한 {LEGACY_GRID_COPY_UNTIL} (남은 {days}일). 기한이 지나면 사본을 지운다 — generate_index.py 맨 위 LEGACY_GRID_COPY_UNTIL 참고\n")
+    else:
+        left = [legacy for _, legacy in pairs if os.path.exists(legacy)]
+        if left:
+            print(f"🔔 [리마인드] 예전 앱용 그리드 사본 보관 기한({LEGACY_GRID_COPY_UNTIL})이 지났습니다. 사본 {len(left)}개를 지우세요:")
+            for legacy in left:
+                print(f"   git rm \"{os.path.relpath(legacy, os.path.dirname(book_dir))}\"")
+            print()
+
 
 def read_songs(path: str) -> list:
     if not os.path.isfile(path):
@@ -238,7 +286,15 @@ def check_book_pairs(book_dir: str):
             elif nfc(fn).endswith(GRID_SUFFIX):
                 jsons[nfc(rel)[:-len(GRID_SUFFIX)]] = os.path.join(root, fn)
             elif ext.lower() == ".json":
-                errors.append(f"그리드 JSON 이름은 <PDF 이름>{GRID_SUFFIX} 이어야 함: {nfc(rel)}")
+                grid_twin = os.path.join(root, fn[:-len(LEGACY_GRID_SUFFIX)] + GRID_SUFFIX)
+                if os.path.exists(grid_twin):
+                    # 예전 앱용 사본: .grid.json 과 내용이 같아야 한다(다르면 예전 앱이 옛 그리드를 그린다)
+                    if open(grid_twin, "rb").read() != open(os.path.join(root, fn), "rb").read():
+                        errors.append(f"예전 앱용 사본이 {GRID_SUFFIX} 와 다름(generate_index.py 를 다시 실행): {nfc(rel)}")
+                    elif not legacy_copy_active():
+                        warns.append(f"보관 기한({LEGACY_GRID_COPY_UNTIL}) 지난 예전 앱용 사본 — 지우세요: {nfc(rel)}")
+                else:
+                    errors.append(f"그리드 JSON 이름은 <PDF 이름>{GRID_SUFFIX} 이어야 함: {nfc(rel)}")
 
     for stem, path in sorted(jsons.items()):
         if stem not in pdfs:
@@ -333,6 +389,10 @@ def main():
     if "--check" in sys.argv:
         sys.exit(1 if report_book_pairs(book_dir) else 0)
 
+    # ── 예전 앱용 그리드 사본(<곡>.json) 맞추기 + 리마인드 ──
+    if os.path.isdir(book_dir):
+        sync_legacy_grid_copies(book_dir)
+
     # ── audio ──
     if os.path.isdir(audio_dir):
         print("🎵 audio/ 스캔 중...")
@@ -362,7 +422,7 @@ def main():
     print(f"   {book_out}")
     print()
     print("다음 단계:")
-    print("  git add audio-index.json book-index.json")
+    print("  git add audio-index.json book-index.json" + ("  (+ 예전 앱용 그리드 사본 book/**/<곡>.json)" if legacy_copy_active() else ""))
     print("  git commit -m 'chore: update audio/book index'")
     print("  git push")
     if book_errors:

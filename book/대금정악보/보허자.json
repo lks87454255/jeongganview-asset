@@ -1,0 +1,219 @@
+{
+ "fileName": "보허자.pdf",
+ "totalPages": 4,
+ "pageData": {
+  "1": [
+   {
+    "gridId": 1,
+    "cols": 8,
+    "rows": 20,
+    "columnConfigs": [
+     {
+      "colIndex": 1,
+      "startRow": 1,
+      "endRow": 20
+     },
+     {
+      "colIndex": 2,
+      "startRow": 1,
+      "endRow": 20
+     },
+     {
+      "colIndex": 3,
+      "startRow": 1,
+      "endRow": 20
+     },
+     {
+      "colIndex": 4,
+      "startRow": 1,
+      "endRow": 20
+     },
+     {
+      "colIndex": 5,
+      "startRow": 1,
+      "endRow": 20
+     },
+     {
+      "colIndex": 6,
+      "startRow": 1,
+      "endRow": 20
+     },
+     {
+      "colIndex": 7,
+      "startRow": 1,
+      "endRow": 20
+     },
+     {
+      "colIndex": 8,
+      "startRow": 1,
+      "endRow": 20
+     }
+    ],
+    "x": 0.1218,
+    "y": 0.1601,
+    "width": 0.6355,
+    "height": 0.7764
+   }
+  ],
+  "2": [
+   {
+    "gridId": 1,
+    "cols": 10,
+    "rows": 20,
+    "columnConfigs": [
+     {
+      "colIndex": 1,
+      "startRow": 1,
+      "endRow": 20
+     },
+     {
+      "colIndex": 2,
+      "startRow": 1,
+      "endRow": 20
+     },
+     {
+      "colIndex": 3,
+      "startRow": 1,
+      "endRow": 20
+     },
+     {
+      "colIndex": 4,
+      "startRow": 1,
+      "endRow": 20
+     },
+     {
+      "colIndex": 5,
+      "startRow": 1,
+      "endRow": 20
+     },
+     {
+      "colIndex": 6,
+      "startRow": 1,
+      "endRow": 20
+     },
+     {
+      "colIndex": 7,
+      "startRow": 1,
+      "endRow": 20
+     },
+     {
+      "colIndex": 8,
+      "startRow": 1,
+      "endRow": 20,
+      "skipRows": [
+       5,
+       7
+      ]
+     },
+     {
+      "colIndex": 9,
+      "startRow": 1,
+      "endRow": 20,
+      "skipRows": [
+       5,
+       7
+      ]
+     },
+     {
+      "colIndex": 10,
+      "startRow": 1,
+      "endRow": 20
+     }
+    ],
+    "x": 0.1192,
+    "y": 0.1601,
+    "width": 0.7944,
+    "height": 0.7764
+   }
+  ],
+  "3": [
+   {
+    "gridId": 1,
+    "cols": 10,
+    "rows": 20,
+    "columnConfigs": [
+     {
+      "colIndex": 1,
+      "startRow": 1,
+      "endRow": 20
+     },
+     {
+      "colIndex": 2,
+      "startRow": 1,
+      "endRow": 20
+     },
+     {
+      "colIndex": 3,
+      "startRow": 1,
+      "endRow": 20
+     },
+     {
+      "colIndex": 4,
+      "startRow": 1,
+      "endRow": 20
+     },
+     {
+      "colIndex": 5,
+      "startRow": 1,
+      "endRow": 20,
+      "skipRows": [
+       1,
+       6
+      ]
+     },
+     {
+      "colIndex": 6,
+      "startRow": 1,
+      "endRow": 20
+     },
+     {
+      "colIndex": 7,
+      "startRow": 1,
+      "endRow": 20
+     },
+     {
+      "colIndex": 8,
+      "startRow": 1,
+      "endRow": 20,
+      "skipRows": [
+       4,
+       6
+      ]
+     },
+     {
+      "colIndex": 9,
+      "startRow": 1,
+      "endRow": 20
+     },
+     {
+      "colIndex": 10,
+      "startRow": 1,
+      "endRow": 20
+     }
+    ],
+    "x": 0.1218,
+    "y": 0.1601,
+    "width": 0.7944,
+    "height": 0.7761
+   }
+  ],
+  "4": [
+   {
+    "gridId": 1,
+    "cols": 1,
+    "rows": 20,
+    "columnConfigs": [
+     {
+      "colIndex": 1,
+      "startRow": 1,
+      "endRow": 20
+     }
+    ],
+    "x": 0.8341,
+    "y": 0.1601,
+    "width": 0.0794,
+    "height": 0.7764
+   }
+  ]
+ }
+}
