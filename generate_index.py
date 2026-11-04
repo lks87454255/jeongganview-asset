@@ -44,7 +44,7 @@ IGNORE = {".DS_Store", ".gitkeep", ".gitignore", "Thumbs.db"}
 
 # 레포에는 두지만 book-index.json 에 넣지 않는 PDF (레포 기준 상대 경로, 그리드 JSON 도 만들지 않음)
 # 레포에는 두지만 book-index.json 에 넣지 않는 폴더 (정간보 시트 작업 원본 — 앱 배경 목록·검색에 안 보임)
-BOOK_EXCLUDE_DIRS = {"대금율보", "조재수 대금교본", "국악이 꽃피는 나무", "대금정악보"}
+BOOK_EXCLUDE_DIRS = {"대금율보", "조재수 대금교본", "국악이 꽃피는 나무"}
 
 # 관리자 기기에만 보이는 분류(테스트 중인 디지털 정간보) — book-index.json 의 "adminCategories" 로 나간다
 BOOK_ADMIN_ONLY_DIRS: set = set()
