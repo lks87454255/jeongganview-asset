@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-11-04T12:29:41Z",
+  "generated": "2026-11-04T12:46:28Z",
   "owner": "lks87454255",
   "repo": "jeongganview-asset",
   "branch": "main",
@@ -13,21 +13,259 @@
           "fileName": "가곡.pdf",
           "path": "book/대금정악보/가곡.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EB%8C%80%EA%B8%88%EC%A0%95%EC%95%85%EB%B3%B4/%EA%B0%80%EA%B3%A1.pdf",
-          "sizeBytes": 75274960
+          "sizeBytes": 75274960,
+          "songs": [
+            {
+              "title": "남창 우조 다스름",
+              "page": 1
+            },
+            {
+              "title": "남창 우조 초수대엽",
+              "page": 3
+            },
+            {
+              "title": "남창 우조 이수대엽",
+              "page": 5
+            },
+            {
+              "title": "남창 우조 중거",
+              "page": 7
+            },
+            {
+              "title": "남창 우조 평거",
+              "page": 9
+            },
+            {
+              "title": "남창 우조 두거",
+              "page": 11
+            },
+            {
+              "title": "남창 우조 삼수대엽",
+              "page": 13
+            },
+            {
+              "title": "남창 우조 소용이",
+              "page": 15
+            },
+            {
+              "title": "남창 우조 우롱",
+              "page": 17
+            },
+            {
+              "title": "남창 우조 우락",
+              "page": 19
+            },
+            {
+              "title": "남창 우조 언락",
+              "page": 21
+            },
+            {
+              "title": "남창 우조 우편",
+              "page": 24
+            },
+            {
+              "title": "남창 반엽",
+              "page": 26
+            },
+            {
+              "title": "남창 계면 다스름",
+              "page": 28
+            },
+            {
+              "title": "남창 계면 초수대엽",
+              "page": 30
+            },
+            {
+              "title": "남창 계면 이수대엽",
+              "page": 32
+            },
+            {
+              "title": "남창 계면 중거",
+              "page": 34
+            },
+            {
+              "title": "남창 계면 평거",
+              "page": 36
+            },
+            {
+              "title": "남창 계면 두거",
+              "page": 38
+            },
+            {
+              "title": "남창 계면 삼수대엽",
+              "page": 40
+            },
+            {
+              "title": "남창 계면 소용이",
+              "page": 42
+            },
+            {
+              "title": "남창 계면 언롱",
+              "page": 44
+            },
+            {
+              "title": "남창 계면 평롱",
+              "page": 46
+            },
+            {
+              "title": "남창 계면 계락",
+              "page": 48
+            },
+            {
+              "title": "남창 계면 편락",
+              "page": 50
+            },
+            {
+              "title": "남창 계면 편수대엽",
+              "page": 53
+            },
+            {
+              "title": "남창 계면 언편",
+              "page": 56
+            },
+            {
+              "title": "남창 계면 태평가",
+              "page": 59
+            },
+            {
+              "title": "여창 우조 이수대엽",
+              "page": 61
+            },
+            {
+              "title": "여창 우조 중거",
+              "page": 63
+            },
+            {
+              "title": "여창 우조 평거",
+              "page": 65
+            },
+            {
+              "title": "여창 우조 두거",
+              "page": 67
+            },
+            {
+              "title": "여창 우조 우락",
+              "page": 69
+            },
+            {
+              "title": "여창 반엽",
+              "page": 71
+            },
+            {
+              "title": "여창 계면 이수대엽",
+              "page": 73
+            },
+            {
+              "title": "여창 계면 중거",
+              "page": 75
+            },
+            {
+              "title": "여창 계면 평거",
+              "page": 77
+            },
+            {
+              "title": "여창 계면 두거",
+              "page": 79
+            },
+            {
+              "title": "여창 계면 평롱",
+              "page": 81
+            },
+            {
+              "title": "여창 계면 계락",
+              "page": 83
+            },
+            {
+              "title": "여창 환계락",
+              "page": 85
+            },
+            {
+              "title": "여창 계면 편수대엽",
+              "page": 87
+            },
+            {
+              "title": "여창 태평가",
+              "page": 90
+            }
+          ]
         },
         {
           "name": "경모궁제례악",
           "fileName": "경모궁제례악.pdf",
           "path": "book/대금정악보/경모궁제례악.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EB%8C%80%EA%B8%88%EC%A0%95%EC%95%85%EB%B3%B4/%EA%B2%BD%EB%AA%A8%EA%B6%81%EC%A0%9C%EB%A1%80%EC%95%85.pdf",
-          "sizeBytes": 1371945
+          "sizeBytes": 1371945,
+          "songs": [
+            {
+              "title": "오휴곡",
+              "page": 1
+            },
+            {
+              "title": "진색곡",
+              "page": 1
+            },
+            {
+              "title": "유길곡",
+              "page": 1
+            },
+            {
+              "title": "혁우곡",
+              "page": 2
+            },
+            {
+              "title": "독경곡",
+              "page": 2
+            },
+            {
+              "title": "휴운곡",
+              "page": 2
+            },
+            {
+              "title": "휘유곡",
+              "page": 3
+            }
+          ]
         },
         {
           "name": "관악영산회상",
           "fileName": "관악영산회상.pdf",
           "path": "book/대금정악보/관악영산회상.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EB%8C%80%EA%B8%88%EC%A0%95%EC%95%85%EB%B3%B4/%EA%B4%80%EC%95%85%EC%98%81%EC%82%B0%ED%9A%8C%EC%83%81.pdf",
-          "sizeBytes": 12679488
+          "sizeBytes": 12679488,
+          "songs": [
+            {
+              "title": "상령산",
+              "page": 1
+            },
+            {
+              "title": "중령산",
+              "page": 3
+            },
+            {
+              "title": "세령산",
+              "page": 5
+            },
+            {
+              "title": "가락덜이",
+              "page": 6
+            },
+            {
+              "title": "삼현도드리",
+              "page": 7
+            },
+            {
+              "title": "염불도드리",
+              "page": 8
+            },
+            {
+              "title": "타령",
+              "page": 10
+            },
+            {
+              "title": "군악",
+              "page": 12
+            }
+          ]
         },
         {
           "name": "낙양춘",
@@ -41,7 +279,17 @@
           "fileName": "도드리.pdf",
           "path": "book/대금정악보/도드리.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EB%8C%80%EA%B8%88%EC%A0%95%EC%95%85%EB%B3%B4/%EB%8F%84%EB%93%9C%EB%A6%AC.pdf",
-          "sizeBytes": 6800373
+          "sizeBytes": 6800373,
+          "songs": [
+            {
+              "title": "밑도드리",
+              "page": 1
+            },
+            {
+              "title": "웃도드리",
+              "page": 5
+            }
+          ]
         },
         {
           "name": "독주곡-상령산",
@@ -111,7 +359,45 @@
           "fileName": "영산회상.pdf",
           "path": "book/대금정악보/영산회상.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EB%8C%80%EA%B8%88%EC%A0%95%EC%95%85%EB%B3%B4/%EC%98%81%EC%82%B0%ED%9A%8C%EC%83%81.pdf",
-          "sizeBytes": 14676642
+          "sizeBytes": 14676642,
+          "songs": [
+            {
+              "title": "상령산",
+              "page": 1
+            },
+            {
+              "title": "중령산",
+              "page": 3
+            },
+            {
+              "title": "세령산",
+              "page": 5
+            },
+            {
+              "title": "가락덜이",
+              "page": 6
+            },
+            {
+              "title": "상현도드리",
+              "page": 7
+            },
+            {
+              "title": "하현도드리",
+              "page": 8
+            },
+            {
+              "title": "염불도드리",
+              "page": 9
+            },
+            {
+              "title": "타령",
+              "page": 11
+            },
+            {
+              "title": "군악",
+              "page": 13
+            }
+          ]
         },
         {
           "name": "유황곡",
@@ -125,7 +411,37 @@
           "fileName": "자진한잎.pdf",
           "path": "book/대금정악보/자진한잎.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EB%8C%80%EA%B8%88%EC%A0%95%EC%95%85%EB%B3%B4/%EC%9E%90%EC%A7%84%ED%95%9C%EC%9E%8E.pdf",
-          "sizeBytes": 11779243
+          "sizeBytes": 11779243,
+          "songs": [
+            {
+              "title": "경풍년(우조두거)",
+              "page": 1
+            },
+            {
+              "title": "경풍년(변조두거)",
+              "page": 3
+            },
+            {
+              "title": "염양춘(계면두거)",
+              "page": 5
+            },
+            {
+              "title": "수룡음(농)",
+              "page": 7
+            },
+            {
+              "title": "수룡음(계락)",
+              "page": 9
+            },
+            {
+              "title": "수룡음(편 一)",
+              "page": 11
+            },
+            {
+              "title": "수룡음(편 二)",
+              "page": 13
+            }
+          ]
         },
         {
           "name": "정동방곡",
@@ -139,28 +455,200 @@
           "fileName": "종묘제례악.pdf",
           "path": "book/대금정악보/종묘제례악.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EB%8C%80%EA%B8%88%EC%A0%95%EC%95%85%EB%B3%B4/%EC%A2%85%EB%AC%98%EC%A0%9C%EB%A1%80%EC%95%85.pdf",
-          "sizeBytes": 7021813
+          "sizeBytes": 7021813,
+          "songs": [
+            {
+              "title": "전폐희문",
+              "page": 1
+            },
+            {
+              "title": "풍안지악",
+              "page": 2
+            },
+            {
+              "title": "보태평지악",
+              "page": 3
+            },
+            {
+              "title": "희문",
+              "page": 3
+            },
+            {
+              "title": "기명",
+              "page": 3
+            },
+            {
+              "title": "귀인",
+              "page": 4
+            },
+            {
+              "title": "형가",
+              "page": 4
+            },
+            {
+              "title": "집녕",
+              "page": 5
+            },
+            {
+              "title": "융화",
+              "page": 5
+            },
+            {
+              "title": "현미",
+              "page": 6
+            },
+            {
+              "title": "용광정명",
+              "page": 7
+            },
+            {
+              "title": "중광",
+              "page": 8
+            },
+            {
+              "title": "대유",
+              "page": 8
+            },
+            {
+              "title": "역성",
+              "page": 9
+            },
+            {
+              "title": "정대업지악",
+              "page": 10
+            },
+            {
+              "title": "소무",
+              "page": 10
+            },
+            {
+              "title": "독경",
+              "page": 10
+            },
+            {
+              "title": "탁정",
+              "page": 11
+            },
+            {
+              "title": "선위",
+              "page": 11
+            },
+            {
+              "title": "신정",
+              "page": 12
+            },
+            {
+              "title": "분웅",
+              "page": 13
+            },
+            {
+              "title": "총유",
+              "page": 14
+            },
+            {
+              "title": "정세",
+              "page": 15
+            },
+            {
+              "title": "혁정",
+              "page": 15
+            },
+            {
+              "title": "영관",
+              "page": 16
+            }
+          ]
         },
         {
           "name": "천년만세",
           "fileName": "천년만세.pdf",
           "path": "book/대금정악보/천년만세.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EB%8C%80%EA%B8%88%EC%A0%95%EC%95%85%EB%B3%B4/%EC%B2%9C%EB%85%84%EB%A7%8C%EC%84%B8.pdf",
-          "sizeBytes": 5874913
+          "sizeBytes": 5874913,
+          "songs": [
+            {
+              "title": "계면가락도드리",
+              "page": 1
+            },
+            {
+              "title": "양청도드리",
+              "page": 3
+            },
+            {
+              "title": "우조가락도드리",
+              "page": 5
+            }
+          ]
         },
         {
           "name": "취타",
           "fileName": "취타.pdf",
           "path": "book/대금정악보/취타.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EB%8C%80%EA%B8%88%EC%A0%95%EC%95%85%EB%B3%B4/%EC%B7%A8%ED%83%80.pdf",
-          "sizeBytes": 10288745
+          "sizeBytes": 10288745,
+          "songs": [
+            {
+              "title": "취타",
+              "page": 1
+            },
+            {
+              "title": "길군악",
+              "page": 4
+            },
+            {
+              "title": "길타령",
+              "page": 6
+            },
+            {
+              "title": "별우조타령",
+              "page": 8
+            },
+            {
+              "title": "군악",
+              "page": 10
+            }
+          ]
         },
         {
           "name": "평조회상",
           "fileName": "평조회상.pdf",
           "path": "book/대금정악보/평조회상.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EB%8C%80%EA%B8%88%EC%A0%95%EC%95%85%EB%B3%B4/%ED%8F%89%EC%A1%B0%ED%9A%8C%EC%83%81.pdf",
-          "sizeBytes": 13942082
+          "sizeBytes": 13942082,
+          "songs": [
+            {
+              "title": "상령산",
+              "page": 1
+            },
+            {
+              "title": "중령산",
+              "page": 3
+            },
+            {
+              "title": "세령산",
+              "page": 5
+            },
+            {
+              "title": "가락덜이",
+              "page": 6
+            },
+            {
+              "title": "상현도드리",
+              "page": 7
+            },
+            {
+              "title": "염불도드리",
+              "page": 8
+            },
+            {
+              "title": "타령",
+              "page": 10
+            },
+            {
+              "title": "군악",
+              "page": 12
+            }
+          ]
         },
         {
           "name": "해령",
@@ -174,7 +662,29 @@
           "fileName": "현악취타.pdf",
           "path": "book/대금정악보/현악취타.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EB%8C%80%EA%B8%88%EC%A0%95%EC%95%85%EB%B3%B4/%ED%98%84%EC%95%85%EC%B7%A8%ED%83%80.pdf",
-          "sizeBytes": 10165939
+          "sizeBytes": 10165939,
+          "songs": [
+            {
+              "title": "취타",
+              "page": 1
+            },
+            {
+              "title": "길군악",
+              "page": 4
+            },
+            {
+              "title": "길타령",
+              "page": 6
+            },
+            {
+              "title": "별우조타령",
+              "page": 8
+            },
+            {
+              "title": "군악",
+              "page": 10
+            }
+          ]
         }
       ]
     },

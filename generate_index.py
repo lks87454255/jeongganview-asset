@@ -70,6 +70,24 @@ def is_ignored(name: str) -> bool:
     return name in IGNORE or name.startswith(".")
 
 
+# ── 곡 제목 목록(<PDF 이름>.songs.json) ──────────────────────────
+# {"songs": [{"title": "계면가락도드리", "page": 1}, …]}  page = 그 PDF 안 쪽 번호(1부터)
+SONGS_SUFFIX = ".songs.json"
+
+
+def read_songs(path: str) -> list:
+    if not os.path.isfile(path):
+        return []
+    with open(path, encoding="utf-8") as f:
+        data = json.load(f)
+    out = []
+    for s in data.get("songs") or []:
+        title, page = nfc(str(s.get("title", ""))).strip(), s.get("page")
+        if title and isinstance(page, int) and page >= 1:
+            out.append({"title": title, "page": page})
+    return out
+
+
 # ── audio-index.json 생성 ──────────────────────────────────────
 def scan_audio(audio_dir: str) -> dict:
     categories = []
@@ -153,6 +171,10 @@ def scan_book(book_dir: str) -> dict:
                 "url":       url_str,
                 "sizeBytes": size_bytes,
             })
+            # 한 PDF 에 곡이 여럿이면 PDF 옆 <이름>.songs.json 의 곡 제목·쪽을 넣는다(앱 정간보 설정 검색용)
+            songs = read_songs(os.path.join(cat_path, display_name + SONGS_SUFFIX))
+            if songs:
+                files[-1]["songs"] = songs
 
         if files:
             entry = {"name": cat_name, "files": files}
@@ -187,7 +209,7 @@ def scan_book(book_dir: str) -> dict:
 def check_book_pairs(book_dir: str):
     import difflib
     errors, warns, infos = [], [], []
-    pdfs, jsons = {}, {}
+    pdfs, jsons, songs_files = {}, {}, {}
     for root, _, files in os.walk(book_dir):
         for fn in files:
             if is_ignored(fn):
@@ -199,6 +221,9 @@ def check_book_pairs(book_dir: str):
                 errors.append(f"파일명이 NFC(완성형)가 아님 — 앱 URL 과 달라 404: {rel}")
             stem, ext = os.path.splitext(nfc(rel))
             if nfc(rel).replace(os.sep, "/") in BOOK_EXCLUDE or nfc(rel).replace(os.sep, "/").split("/")[1] in BOOK_EXCLUDE_DIRS:
+                continue
+            if nfc(fn).endswith(SONGS_SUFFIX):
+                songs_files[nfc(rel)[:-len(SONGS_SUFFIX)]] = os.path.join(root, fn)
                 continue
             if ext.lower() == ".pdf":
                 pdfs[stem] = os.path.join(root, fn)
@@ -244,6 +269,26 @@ def check_book_pairs(book_dir: str):
 
     for stem in sorted(set(pdfs) - set(jsons)):
         infos.append(f"그리드 JSON 없음(기본 그리드로 동작): {stem}.pdf")
+
+    # 곡 제목 목록: 짝 PDF 가 있고, 쪽 번호가 PDF 쪽 수 안이어야 한다
+    for stem, path in sorted(songs_files.items()):
+        if stem not in pdfs:
+            errors.append(f"곡 제목 목록의 짝 PDF 없음: {stem}{SONGS_SUFFIX}")
+            continue
+        try:
+            songs = read_songs(path)
+        except Exception as e:
+            errors.append(f"곡 제목 목록 파싱 실패: {stem}{SONGS_SUFFIX} — {e}")
+            continue
+        try:
+            import pymupdf
+            n = pymupdf.open(pdfs[stem]).page_count
+        except Exception:
+            n = 0
+        for s in songs:
+            if n and not 1 <= s["page"] <= n:
+                errors.append(f"곡 '{s['title']}' 쪽 {s['page']} 가 1..{n} 밖: {stem}{SONGS_SUFFIX}")
+        infos.append(f"곡 제목 {len(songs)}개: {stem}.pdf")
     return errors, warns, infos
 
 
