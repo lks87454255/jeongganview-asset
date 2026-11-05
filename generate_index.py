@@ -209,6 +209,7 @@ def scan_book(book_dir: str) -> dict:
 # 이름이 한 글자라도 다르면(예: 한천수.pdf / 헌천수.grid.json) JSON 이 404 → 그리드가 그려지지 않는다.
 #   그리드 JSON 이름은 .songs.json / .sync.json 과 같은 패턴인 <PDF 이름>.grid.json 으로 통일(2026-11-04).
 #   그 밖의 .json(예전 이름 <PDF 이름>.json 등)은 오류로 알린다.
+#   서비스 파일은 네 가지뿐이다(2026-11-05 결정): <곡>.pdf, <곡>.grid.json, <곡>.songs.json, <곡>.sync.json. 그 밖의 파일도 오류.
 #   오류(ERROR): JSON 짝 PDF 없음 · JSON 파싱/구조 오류 · 파일명 NFC 아님
 #   경고(WARN) : JSON 안 fileName 이 PDF 이름과 다름
 #   정보(INFO) : JSON 없는 PDF (기본 그리드로 동작 — 허용)
@@ -239,6 +240,8 @@ def check_book_pairs(book_dir: str):
                 jsons[nfc(rel)[:-len(GRID_SUFFIX)]] = os.path.join(root, fn)
             elif ext.lower() == ".json":
                 errors.append(f"그리드 JSON 이름은 <PDF 이름>{GRID_SUFFIX} 이어야 함: {nfc(rel)}")
+            else:
+                errors.append(f"서비스하지 않는 파일(.pdf · .grid.json · .songs.json · .sync.json 만 둔다): {nfc(rel)}")
 
     for stem, path in sorted(jsons.items()):
         if stem not in pdfs:
