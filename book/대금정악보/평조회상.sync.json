@@ -1,7 +1,7 @@
 {
  "version": 1,
  "pdf": "book/대금정악보/평조회상.pdf",
- "note": "anchorSource=janggu 트랙: 장구 주기로 장단마다 앵커(scripts/build_janggu_sync_anchors.py). 그 밖의 트랙: 첫 소리·끝 소리 앵커 2개(scripts/build_daegeum_sync_maps.py).",
+ "note": "anchorSource=janggu: 장구 주기 앵커(scripts/build_janggu_sync_anchors.py). anchorSource=melody: 대금 음 바뀜 정간 경계 추적 + 칸 글자 검사(scripts/build_melody_sync_anchors.py). 그 밖: 첫 소리·끝 소리 앵커 2개(scripts/build_daegeum_sync_maps.py).",
  "tracks": [
   {
    "clipid": "38381",
@@ -89,11 +89,333 @@
    },
    "anchors": [
     {
-     "t": 30,
+     "t": 20,
      "page": 5,
      "grid": 1,
      "col": 1,
-     "row": 0
+     "row": 0.0
+    },
+    {
+     "t": 5964,
+     "page": 5,
+     "grid": 1,
+     "col": 1,
+     "row": 3.0
+    },
+    {
+     "t": 11997,
+     "page": 5,
+     "grid": 1,
+     "col": 1,
+     "row": 6.0
+    },
+    {
+     "t": 17852,
+     "page": 5,
+     "grid": 1,
+     "col": 1,
+     "row": 9.0
+    },
+    {
+     "t": 23777,
+     "page": 5,
+     "grid": 1,
+     "col": 2,
+     "row": 2.0
+    },
+    {
+     "t": 29919,
+     "page": 5,
+     "grid": 1,
+     "col": 2,
+     "row": 5.0
+    },
+    {
+     "t": 35908,
+     "page": 5,
+     "grid": 1,
+     "col": 2,
+     "row": 8.0
+    },
+    {
+     "t": 41671,
+     "page": 5,
+     "grid": 1,
+     "col": 3,
+     "row": 1.0
+    },
+    {
+     "t": 47315,
+     "page": 5,
+     "grid": 1,
+     "col": 3,
+     "row": 4.0
+    },
+    {
+     "t": 53049,
+     "page": 5,
+     "grid": 1,
+     "col": 3,
+     "row": 7.0
+    },
+    {
+     "t": 58873,
+     "page": 5,
+     "grid": 1,
+     "col": 4,
+     "row": 0.0
+    },
+    {
+     "t": 64620,
+     "page": 5,
+     "grid": 1,
+     "col": 4,
+     "row": 3.0
+    },
+    {
+     "t": 70431,
+     "page": 5,
+     "grid": 1,
+     "col": 4,
+     "row": 6.0
+    },
+    {
+     "t": 76210,
+     "page": 5,
+     "grid": 1,
+     "col": 4,
+     "row": 9.0
+    },
+    {
+     "t": 82050,
+     "page": 5,
+     "grid": 1,
+     "col": 5,
+     "row": 2.0
+    },
+    {
+     "t": 87784,
+     "page": 5,
+     "grid": 1,
+     "col": 5,
+     "row": 5.0
+    },
+    {
+     "t": 93508,
+     "page": 5,
+     "grid": 1,
+     "col": 5,
+     "row": 8.0
+    },
+    {
+     "t": 99090,
+     "page": 5,
+     "grid": 1,
+     "col": 6,
+     "row": 1.0
+    },
+    {
+     "t": 104689,
+     "page": 5,
+     "grid": 1,
+     "col": 6,
+     "row": 4.0
+    },
+    {
+     "t": 110338,
+     "page": 5,
+     "grid": 1,
+     "col": 6,
+     "row": 7.0
+    },
+    {
+     "t": 115926,
+     "page": 5,
+     "grid": 1,
+     "col": 7,
+     "row": 0.0
+    },
+    {
+     "t": 121519,
+     "page": 5,
+     "grid": 1,
+     "col": 7,
+     "row": 3.0
+    },
+    {
+     "t": 127231,
+     "page": 5,
+     "grid": 1,
+     "col": 7,
+     "row": 6.0
+    },
+    {
+     "t": 132853,
+     "page": 5,
+     "grid": 1,
+     "col": 7,
+     "row": 9.0
+    },
+    {
+     "t": 138378,
+     "page": 5,
+     "grid": 2,
+     "col": 1,
+     "row": 2.0
+    },
+    {
+     "t": 143945,
+     "page": 5,
+     "grid": 2,
+     "col": 1,
+     "row": 5.0
+    },
+    {
+     "t": 149462,
+     "page": 5,
+     "grid": 2,
+     "col": 1,
+     "row": 8.0
+    },
+    {
+     "t": 154886,
+     "page": 5,
+     "grid": 2,
+     "col": 2,
+     "row": 1.0
+    },
+    {
+     "t": 160325,
+     "page": 5,
+     "grid": 2,
+     "col": 2,
+     "row": 4.0
+    },
+    {
+     "t": 165790,
+     "page": 5,
+     "grid": 2,
+     "col": 2,
+     "row": 7.0
+    },
+    {
+     "t": 171178,
+     "page": 5,
+     "grid": 2,
+     "col": 3,
+     "row": 0.0
+    },
+    {
+     "t": 176533,
+     "page": 5,
+     "grid": 2,
+     "col": 3,
+     "row": 3.0
+    },
+    {
+     "t": 181991,
+     "page": 5,
+     "grid": 2,
+     "col": 3,
+     "row": 6.0
+    },
+    {
+     "t": 187447,
+     "page": 5,
+     "grid": 2,
+     "col": 3,
+     "row": 9.0
+    },
+    {
+     "t": 193000,
+     "page": 5,
+     "grid": 2,
+     "col": 4,
+     "row": 2.0
+    },
+    {
+     "t": 198537,
+     "page": 5,
+     "grid": 2,
+     "col": 4,
+     "row": 5.0
+    },
+    {
+     "t": 203985,
+     "page": 5,
+     "grid": 2,
+     "col": 4,
+     "row": 8.0
+    },
+    {
+     "t": 209420,
+     "page": 5,
+     "grid": 2,
+     "col": 5,
+     "row": 1.0
+    },
+    {
+     "t": 214744,
+     "page": 5,
+     "grid": 2,
+     "col": 5,
+     "row": 4.0
+    },
+    {
+     "t": 220082,
+     "page": 5,
+     "grid": 2,
+     "col": 5,
+     "row": 7.0
+    },
+    {
+     "t": 225483,
+     "page": 5,
+     "grid": 2,
+     "col": 6,
+     "row": 0.0
+    },
+    {
+     "t": 230863,
+     "page": 5,
+     "grid": 2,
+     "col": 6,
+     "row": 3.0
+    },
+    {
+     "t": 236257,
+     "page": 5,
+     "grid": 2,
+     "col": 6,
+     "row": 6.0
+    },
+    {
+     "t": 241769,
+     "page": 5,
+     "grid": 2,
+     "col": 6,
+     "row": 9.0
+    },
+    {
+     "t": 247073,
+     "page": 5,
+     "grid": 2,
+     "col": 7,
+     "row": 2.0
+    },
+    {
+     "t": 252395,
+     "page": 5,
+     "grid": 2,
+     "col": 7,
+     "row": 5.0
+    },
+    {
+     "t": 257745,
+     "page": 5,
+     "grid": 2,
+     "col": 7,
+     "row": 8.0
     },
     {
      "t": 260760,
@@ -103,7 +425,13 @@
      "row": 0
     }
    ],
-   "durationMs": 261339
+   "durationMs": 261339,
+   "anchorSource": "melody",
+   "check": {
+    "auc0": 0.76,
+    "margin": 0.29,
+    "spread": 0.21
+   }
   },
   {
    "clipid": "38384",
