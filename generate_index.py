@@ -311,6 +311,25 @@ def check_book_pairs(book_dir: str):
             if n and not 1 <= s["page"] <= n:
                 errors.append(f"곡 '{s['title']}' 쪽 {s['page']} 가 1..{n} 밖: {stem}{SONGS_SUFFIX}")
         infos.append(f"곡 제목 {len(songs)}개: {stem}.pdf")
+        # 블록 곡명: 곡 제목의 원천은 .songs.json 하나다. 그리드 블록 title 은 거기서 만든다(앱 상단 곡명).
+        #   곡을 더하거나 그리드를 다시 만들면 앱 저장소 scripts/apply_block_titles.py --apply 로 채운다.
+        if stem in jsons and songs:
+            try:
+                with open(jsons[stem], encoding="utf-8") as f:
+                    grid = json.load(f)
+            except Exception:
+                continue
+            base = os.path.basename(stem)
+            want = {s["title"] if s["title"].startswith(base) else f"{base} · {s['title']}" for s in songs}
+            got = [b.get("title") for p in grid.get("pageData", {}).values() for b in (p or [])]
+            fix = f" → 앱 저장소에서 python3 scripts/apply_block_titles.py --only {base} --apply"
+            if any(not t for t in got):
+                errors.append(f"블록 곡명(title) 없는 블록 {sum(1 for t in got if not t)}개: {stem}{GRID_SUFFIX}{fix}")
+            else:
+                if set(got) - want:
+                    errors.append(f"블록 곡명이 {SONGS_SUFFIX} 에 없음 {sorted(set(got) - want)[:3]}: {stem}{GRID_SUFFIX}{fix}")
+                if want - set(got):
+                    errors.append(f"{SONGS_SUFFIX} 곡이 블록 곡명에 없음 {sorted(want - set(got))[:3]}: {stem}{GRID_SUFFIX}{fix}")
     return errors, warns, infos
 
 
