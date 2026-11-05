@@ -34,7 +34,8 @@
      "col": 1,
      "row": 0
     }
-   ]
+   ],
+   "durationMs": 965322
   },
   {
    "clipid": "38382",
@@ -67,7 +68,8 @@
      "col": 1,
      "row": 0
     }
-   ]
+   ],
+   "durationMs": 848479
   },
   {
    "clipid": "38383",
@@ -100,7 +102,8 @@
      "col": 1,
      "row": 0
     }
-   ]
+   ],
+   "durationMs": 261339
   },
   {
    "clipid": "38384",
@@ -133,7 +136,8 @@
      "col": 1,
      "row": 0
     }
-   ]
+   ],
+   "durationMs": 182298
   },
   {
    "clipid": "38385",
@@ -166,7 +170,8 @@
      "col": 1,
      "row": 0
     }
-   ]
+   ],
+   "durationMs": 267330
   },
   {
    "clipid": "38386",
@@ -199,7 +204,8 @@
      "col": 1,
      "row": 0
     }
-   ]
+   ],
+   "durationMs": 285302
   },
   {
    "clipid": "38387",
@@ -232,7 +238,8 @@
      "col": 1,
      "row": 0
     }
-   ]
+   ],
+   "durationMs": 202755
   },
   {
    "clipid": "38388",
@@ -932,7 +939,8 @@
     }
    ],
    "anchorSource": "janggu",
-   "cycle": 6
+   "cycle": 6,
+   "durationMs": 266749
   }
  ]
 }

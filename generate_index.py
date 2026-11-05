@@ -177,8 +177,17 @@ def scan_book(book_dir: str) -> dict:
             if songs:
                 files[-1]["songs"] = songs
             # PDF 옆 <이름>.sync.json(국립국악원 음원 싱크 맵)이 있으면 앱 카드에 음원 아이콘을 보인다
-            if os.path.isfile(os.path.join(cat_path, display_name + ".sync.json")):
+            sync_path = os.path.join(cat_path, display_name + ".sync.json")
+            if os.path.isfile(sync_path):
                 files[-1]["hasSync"] = True
+                # 음원 전체 길이(초) — 트랙 durationMs 합. 큰 화면 카드에서 음원 아이콘 옆에 보인다.
+                try:
+                    with open(sync_path, encoding="utf-8") as f:
+                        ms = [t.get("durationMs") for t in json.load(f).get("tracks", [])]
+                    if ms and all(isinstance(x, int) and x > 0 for x in ms):
+                        files[-1]["syncDurationSec"] = round(sum(ms) / 1000)
+                except Exception:
+                    pass
 
         if files:
             entry = {"name": cat_name, "files": files}

@@ -533,7 +533,8 @@
     }
    ],
    "anchorSource": "janggu",
-   "cycle": 6
+   "cycle": 6,
+   "durationMs": 437880
   },
   {
    "clipid": "38370",
@@ -566,7 +567,8 @@
      "col": 6,
      "row": 6
     }
-   ]
+   ],
+   "durationMs": 438507
   }
  ]
 }
