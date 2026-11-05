@@ -1,7 +1,7 @@
 {
  "version": 1,
  "pdf": "book/대금정악보/관악영산회상.pdf",
- "note": "곡마다 첫 소리·끝 소리 앵커 2개(그 사이 정속). 음원 RMS(10ms). scripts/build_daegeum_sync_maps.py",
+ "note": "anchorSource=janggu 트랙: 장구 주기로 장단마다 앵커(scripts/build_janggu_sync_anchors.py). 그 밖의 트랙: 첫 소리·끝 소리 앵커 2개(scripts/build_daegeum_sync_maps.py).",
  "tracks": [
   {
    "clipid": "38389",
@@ -91,7 +91,105 @@
      "page": 5,
      "grid": 1,
      "col": 1,
-     "row": 0
+     "row": 0.0
+    },
+    {
+     "t": 11390,
+     "page": 5,
+     "grid": 1,
+     "col": 1,
+     "row": 7.0
+    },
+    {
+     "t": 27900,
+     "page": 5,
+     "grid": 1,
+     "col": 2,
+     "row": 7.0
+    },
+    {
+     "t": 43660,
+     "page": 5,
+     "grid": 1,
+     "col": 3,
+     "row": 7.0
+    },
+    {
+     "t": 59820,
+     "page": 5,
+     "grid": 1,
+     "col": 4,
+     "row": 7.0
+    },
+    {
+     "t": 75710,
+     "page": 5,
+     "grid": 1,
+     "col": 5,
+     "row": 7.0
+    },
+    {
+     "t": 90710,
+     "page": 5,
+     "grid": 1,
+     "col": 6,
+     "row": 7.0
+    },
+    {
+     "t": 105500,
+     "page": 5,
+     "grid": 1,
+     "col": 7,
+     "row": 7.0
+    },
+    {
+     "t": 119890,
+     "page": 5,
+     "grid": 2,
+     "col": 1,
+     "row": 7.0
+    },
+    {
+     "t": 134510,
+     "page": 5,
+     "grid": 2,
+     "col": 2,
+     "row": 7.0
+    },
+    {
+     "t": 149060,
+     "page": 5,
+     "grid": 2,
+     "col": 3,
+     "row": 7.0
+    },
+    {
+     "t": 163540,
+     "page": 5,
+     "grid": 2,
+     "col": 4,
+     "row": 7.0
+    },
+    {
+     "t": 178090,
+     "page": 5,
+     "grid": 2,
+     "col": 5,
+     "row": 7.0
+    },
+    {
+     "t": 192800,
+     "page": 5,
+     "grid": 2,
+     "col": 6,
+     "row": 7.0
+    },
+    {
+     "t": 206930,
+     "page": 5,
+     "grid": 2,
+     "col": 7,
+     "row": 7.0
     },
     {
      "t": 213480,
@@ -100,7 +198,9 @@
      "col": 1,
      "row": 0
     }
-   ]
+   ],
+   "anchorSource": "janggu",
+   "cycle": 10
   },
   {
    "clipid": "38392",
@@ -120,11 +220,144 @@
    },
    "anchors": [
     {
-     "t": 60,
+     "t": 20,
      "page": 6,
      "grid": 1,
      "col": 1,
-     "row": 0
+     "row": 0.0
+    },
+    {
+     "t": 7270,
+     "page": 6,
+     "grid": 1,
+     "col": 1,
+     "row": 5.0
+    },
+    {
+     "t": 14260,
+     "page": 6,
+     "grid": 1,
+     "col": 2,
+     "row": 0.0
+    },
+    {
+     "t": 21480,
+     "page": 6,
+     "grid": 1,
+     "col": 2,
+     "row": 5.0
+    },
+    {
+     "t": 28580,
+     "page": 6,
+     "grid": 1,
+     "col": 3,
+     "row": 0.0
+    },
+    {
+     "t": 35690,
+     "page": 6,
+     "grid": 1,
+     "col": 3,
+     "row": 5.0
+    },
+    {
+     "t": 42740,
+     "page": 6,
+     "grid": 1,
+     "col": 4,
+     "row": 0.0
+    },
+    {
+     "t": 49750,
+     "page": 6,
+     "grid": 1,
+     "col": 4,
+     "row": 5.0
+    },
+    {
+     "t": 56770,
+     "page": 6,
+     "grid": 1,
+     "col": 5,
+     "row": 0.0
+    },
+    {
+     "t": 63900,
+     "page": 6,
+     "grid": 1,
+     "col": 5,
+     "row": 5.0
+    },
+    {
+     "t": 70600,
+     "page": 6,
+     "grid": 2,
+     "col": 1,
+     "row": 0.0
+    },
+    {
+     "t": 77500,
+     "page": 6,
+     "grid": 2,
+     "col": 1,
+     "row": 5.0
+    },
+    {
+     "t": 84310,
+     "page": 6,
+     "grid": 2,
+     "col": 2,
+     "row": 0.0
+    },
+    {
+     "t": 91090,
+     "page": 6,
+     "grid": 2,
+     "col": 2,
+     "row": 5.0
+    },
+    {
+     "t": 97890,
+     "page": 6,
+     "grid": 2,
+     "col": 3,
+     "row": 0.0
+    },
+    {
+     "t": 104820,
+     "page": 6,
+     "grid": 2,
+     "col": 3,
+     "row": 5.0
+    },
+    {
+     "t": 111370,
+     "page": 6,
+     "grid": 2,
+     "col": 4,
+     "row": 0.0
+    },
+    {
+     "t": 118210,
+     "page": 6,
+     "grid": 2,
+     "col": 4,
+     "row": 5.0
+    },
+    {
+     "t": 124870,
+     "page": 6,
+     "grid": 2,
+     "col": 5,
+     "row": 0.0
+    },
+    {
+     "t": 131560,
+     "page": 6,
+     "grid": 2,
+     "col": 5,
+     "row": 5.0
     },
     {
      "t": 137220,
@@ -133,7 +366,9 @@
      "col": 1,
      "row": 0
     }
-   ]
+   ],
+   "anchorSource": "janggu",
+   "cycle": 5
   },
   {
    "clipid": "38393",
