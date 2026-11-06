@@ -1,6 +1,23 @@
 {
  "fileName": "천년만세.pdf",
  "totalPages": 7,
+ "songs": [
+  {
+   "title": "계면가락도드리",
+   "page": 1,
+   "grid": 1
+  },
+  {
+   "title": "양청도드리",
+   "page": 3,
+   "grid": 3
+  },
+  {
+   "title": "우조가락도드리",
+   "page": 5,
+   "grid": 3
+  }
+ ],
  "pageData": {
   "1": [
    {

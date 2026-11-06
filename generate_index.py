@@ -70,22 +70,30 @@ def is_ignored(name: str) -> bool:
     return name in IGNORE or name.startswith(".")
 
 
-# ── 곡 제목 목록(<PDF 이름>.songs.json) ──────────────────────────
-# {"songs": [{"title": "계면가락도드리", "page": 1}, …]}  page = 그 PDF 안 쪽 번호(1부터)
-SONGS_SUFFIX = ".songs.json"
+# ── 곡 제목 목록: <PDF 이름>.grid.json 최상위 "songs" ─────────────
+# "songs": [{"title": "진양", "page": 1, "grid": 1}, …]
+#   page = 그 PDF 안 쪽 번호(1부터), grid = 그 쪽에서 곡이 시작하는 블록 gridId(한 쪽에 곡이 둘 이상이면 필수, 없으면 그 쪽 첫 블록),
+#   col·row(선택) = 블록 중간에서 시작할 때. 그리드가 아직 없는 PDF 도 곡 제목만 든 .grid.json(pageData {})을 둔다.
+#   (예전 <PDF 이름>.songs.json 은 2026-11-06 폐기 — 남아 있으면 오류)
+# book-index.json 에는 앱이 읽는 title·page 만 넣는다(앱 정간보 설정 검색용).
 GRID_SUFFIX = ".grid.json"      # 그리드 JSON(<PDF 이름>.grid.json) — 앱 GridManager 가 읽는다
+OLD_SONGS_SUFFIX = ".songs.json"
 
 
-def read_songs(path: str) -> list:
-    if not os.path.isfile(path):
+def read_songs(grid_path: str) -> list:
+    if not os.path.isfile(grid_path):
         return []
-    with open(path, encoding="utf-8") as f:
+    with open(grid_path, encoding="utf-8") as f:
         data = json.load(f)
     out = []
     for s in data.get("songs") or []:
         title, page = nfc(str(s.get("title", ""))).strip(), s.get("page")
         if title and isinstance(page, int) and page >= 1:
-            out.append({"title": title, "page": page})
+            e = {"title": title, "page": page}
+            for k in ("grid", "col", "row"):
+                if k in s:
+                    e[k] = s[k]
+            out.append(e)
     return out
 
 
@@ -172,10 +180,10 @@ def scan_book(book_dir: str) -> dict:
                 "url":       url_str,
                 "sizeBytes": size_bytes,
             })
-            # 한 PDF 에 곡이 여럿이면 PDF 옆 <이름>.songs.json 의 곡 제목·쪽을 넣는다(앱 정간보 설정 검색용)
-            songs = read_songs(os.path.join(cat_path, display_name + SONGS_SUFFIX))
+            # 한 PDF 에 곡이 여럿이면 PDF 옆 <이름>.grid.json 의 "songs" 곡 제목·쪽을 넣는다(앱 정간보 설정 검색용)
+            songs = read_songs(os.path.join(cat_path, display_name + GRID_SUFFIX))
             if songs:
-                files[-1]["songs"] = songs
+                files[-1]["songs"] = [{"title": s["title"], "page": s["page"]} for s in songs]
             # PDF 옆 <이름>.sync.json(국립국악원 음원 싱크 맵)이 있으면 앱 카드에 음원 아이콘을 보인다
             sync_path = os.path.join(cat_path, display_name + ".sync.json")
             if os.path.isfile(sync_path):
@@ -216,16 +224,16 @@ def scan_book(book_dir: str) -> dict:
 # ── 정간보 PDF ↔ 그리드 JSON 일치 검사 ─────────────────────────
 # 앱은 PDF 주소의 ".pdf" 를 ".grid.json" 으로 바꿔 그리드 JSON 을 찾는다(없으면 예전 이름 ".json").
 # 이름이 한 글자라도 다르면(예: 한천수.pdf / 헌천수.grid.json) JSON 이 404 → 그리드가 그려지지 않는다.
-#   그리드 JSON 이름은 .songs.json / .sync.json 과 같은 패턴인 <PDF 이름>.grid.json 으로 통일(2026-11-04).
+#   그리드 JSON 이름은 .sync.json 과 같은 패턴인 <PDF 이름>.grid.json 으로 통일(2026-11-04).
 #   그 밖의 .json(예전 이름 <PDF 이름>.json 등)은 오류로 알린다.
-#   서비스 파일은 네 가지뿐이다(2026-11-05 결정): <곡>.pdf, <곡>.grid.json, <곡>.songs.json, <곡>.sync.json. 그 밖의 파일도 오류.
-#   오류(ERROR): JSON 짝 PDF 없음 · JSON 파싱/구조 오류 · 파일명 NFC 아님
+#   서비스 파일은 세 가지뿐이다(2026-11-06 결정): <곡>.pdf, <곡>.grid.json(곡 제목 "songs" 포함), <곡>.sync.json. 그 밖의 파일도 오류.
+#   오류(ERROR): JSON 짝 PDF 없음 · JSON 파싱/구조 오류 · 파일명 NFC 아님 · 폐기된 .songs.json · 곡 시작 위치 오류
 #   경고(WARN) : JSON 안 fileName 이 PDF 이름과 다름
-#   정보(INFO) : JSON 없는 PDF (기본 그리드로 동작 — 허용)
+#   정보(INFO) : JSON 없는 PDF·쪽 데이터 없는 그리드 JSON (기본 그리드로 동작 — 허용)
 def check_book_pairs(book_dir: str):
     import difflib
     errors, warns, infos = [], [], []
-    pdfs, jsons, songs_files = {}, {}, {}
+    pdfs, jsons = {}, {}
     for root, _, files in os.walk(book_dir):
         for fn in files:
             if is_ignored(fn):
@@ -238,8 +246,8 @@ def check_book_pairs(book_dir: str):
             stem, ext = os.path.splitext(nfc(rel))
             if nfc(rel).replace(os.sep, "/") in BOOK_EXCLUDE or nfc(rel).replace(os.sep, "/").split("/")[1] in BOOK_EXCLUDE_DIRS:
                 continue
-            if nfc(fn).endswith(SONGS_SUFFIX):
-                songs_files[nfc(rel)[:-len(SONGS_SUFFIX)]] = os.path.join(root, fn)
+            if nfc(fn).endswith(OLD_SONGS_SUFFIX):
+                errors.append(f"폐기된 파일(곡 제목은 {GRID_SUFFIX} 의 \"songs\" 에 둔다): {nfc(rel)}")
                 continue
             if nfc(fn).endswith(".sync.json"):      # 음원 싱크 맵(앱 AudioSyncRepository 가 읽는다) — 그리드 JSON 아님
                 continue
@@ -250,7 +258,7 @@ def check_book_pairs(book_dir: str):
             elif ext.lower() == ".json":
                 errors.append(f"그리드 JSON 이름은 <PDF 이름>{GRID_SUFFIX} 이어야 함: {nfc(rel)}")
             else:
-                errors.append(f"서비스하지 않는 파일(.pdf · .grid.json · .songs.json · .sync.json 만 둔다): {nfc(rel)}")
+                errors.append(f"서비스하지 않는 파일(.pdf · .grid.json · .sync.json 만 둔다): {nfc(rel)}")
 
     for stem, path in sorted(jsons.items()):
         if stem not in pdfs:
@@ -292,44 +300,53 @@ def check_book_pairs(book_dir: str):
     for stem in sorted(set(pdfs) - set(jsons)):
         infos.append(f"그리드 JSON 없음(기본 그리드로 동작): {stem}.pdf")
 
-    # 곡 제목 목록: 짝 PDF 가 있고, 쪽 번호가 PDF 쪽 수 안이어야 한다
-    for stem, path in sorted(songs_files.items()):
+    # 곡 제목 목록(그리드 JSON "songs"): 쪽 번호가 PDF 쪽 수 안, grid 는 그 쪽 블록, 블록 곡명은 songs 와 같아야 한다
+    for stem, path in sorted(jsons.items()):
         if stem not in pdfs:
-            errors.append(f"곡 제목 목록의 짝 PDF 없음: {stem}{SONGS_SUFFIX}")
             continue
         try:
             songs = read_songs(path)
-        except Exception as e:
-            errors.append(f"곡 제목 목록 파싱 실패: {stem}{SONGS_SUFFIX} — {e}")
+            with open(path, encoding="utf-8") as f:
+                grid = json.load(f)
+        except Exception:
+            continue                           # 파싱 오류는 위에서 알렸다
+        pd = grid.get("pageData") or {}
+        if not pd:
+            infos.append(f"쪽 데이터 없는 그리드 JSON(곡 제목만, 기본 그리드로 동작): {stem}{GRID_SUFFIX}")
+        if not songs:
             continue
         try:
             import pymupdf
             n = pymupdf.open(pdfs[stem]).page_count
         except Exception:
             n = 0
+        seen = set()
         for s in songs:
+            tag = f"곡 '{s['title']}'"
             if n and not 1 <= s["page"] <= n:
-                errors.append(f"곡 '{s['title']}' 쪽 {s['page']} 가 1..{n} 밖: {stem}{SONGS_SUFFIX}")
+                errors.append(f"{tag} 쪽 {s['page']} 가 1..{n} 밖: {stem}{GRID_SUFFIX}")
+            blocks = pd.get(str(s["page"])) or []
+            if "grid" in s and not any(b.get("gridId") == s["grid"] for b in blocks):
+                errors.append(f"{tag} 시작 블록 grid{s['grid']} 가 {s['page']}쪽에 없음: {stem}{GRID_SUFFIX}")
+            key = (s["page"], s.get("grid"))
+            if pd and key in seen:          # 그리드가 아직 없으면 블록으로 가를 수 없다(그리드를 만든 뒤 grid 를 적는다)
+                errors.append(f"{tag} 시작 위치가 다른 곡과 같음(p{s['page']} grid{s.get('grid')}) — 한 쪽에 곡이 둘이면 grid 를 적는다: {stem}{GRID_SUFFIX}")
+            seen.add(key)
         infos.append(f"곡 제목 {len(songs)}개: {stem}.pdf")
-        # 블록 곡명: 곡 제목의 원천은 .songs.json 하나다. 그리드 블록 title 은 거기서 만든다(앱 상단 곡명).
+        # 블록 곡명: 곡 제목의 원천은 "songs" 하나다. 그리드 블록 title 은 거기서 만든다(앱 상단 곡명).
         #   곡을 더하거나 그리드를 다시 만들면 앱 저장소 scripts/apply_block_titles.py --apply 로 채운다.
-        if stem in jsons and songs:
-            try:
-                with open(jsons[stem], encoding="utf-8") as f:
-                    grid = json.load(f)
-            except Exception:
-                continue
+        if pd:
             base = os.path.basename(stem)
             want = {s["title"] if s["title"].startswith(base) else f"{base} · {s['title']}" for s in songs}
-            got = [b.get("title") for p in grid.get("pageData", {}).values() for b in (p or [])]
+            got = [b.get("title") for p in pd.values() for b in (p or [])]
             fix = f" → 앱 저장소에서 python3 scripts/apply_block_titles.py --only {base} --apply"
             if any(not t for t in got):
                 errors.append(f"블록 곡명(title) 없는 블록 {sum(1 for t in got if not t)}개: {stem}{GRID_SUFFIX}{fix}")
             else:
                 if set(got) - want:
-                    errors.append(f"블록 곡명이 {SONGS_SUFFIX} 에 없음 {sorted(set(got) - want)[:3]}: {stem}{GRID_SUFFIX}{fix}")
+                    errors.append(f"블록 곡명이 \"songs\" 에 없음 {sorted(set(got) - want)[:3]}: {stem}{GRID_SUFFIX}{fix}")
                 if want - set(got):
-                    errors.append(f"{SONGS_SUFFIX} 곡이 블록 곡명에 없음 {sorted(want - set(got))[:3]}: {stem}{GRID_SUFFIX}{fix}")
+                    errors.append(f"\"songs\" 곡이 블록 곡명에 없음 {sorted(want - set(got))[:3]}: {stem}{GRID_SUFFIX}{fix}")
     return errors, warns, infos
 
 

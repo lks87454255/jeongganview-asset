@@ -1,6 +1,33 @@
 {
  "fileName": "취타.pdf",
  "totalPages": 12,
+ "songs": [
+  {
+   "title": "취타",
+   "page": 1,
+   "grid": 1
+  },
+  {
+   "title": "길군악",
+   "page": 4,
+   "grid": 1
+  },
+  {
+   "title": "길타령",
+   "page": 6,
+   "grid": 1
+  },
+  {
+   "title": "별우조타령",
+   "page": 8,
+   "grid": 1
+  },
+  {
+   "title": "군악",
+   "page": 10,
+   "grid": 1
+  }
+ ],
  "pageData": {
   "1": [
    {
