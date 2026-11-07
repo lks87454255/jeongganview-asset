@@ -233,7 +233,25 @@
      {
       "colIndex": 2,
       "startRow": 1,
-      "endRow": 16
+      "endRow": 16,
+      "skipRows": [
+       1,
+       2,
+       3,
+       4,
+       5,
+       6,
+       7,
+       8,
+       9,
+       10,
+       11,
+       12,
+       13,
+       14,
+       15,
+       16
+      ]
      },
      {
       "colIndex": 3,
@@ -243,7 +261,25 @@
      {
       "colIndex": 4,
       "startRow": 1,
-      "endRow": 16
+      "endRow": 16,
+      "skipRows": [
+       1,
+       2,
+       3,
+       4,
+       5,
+       6,
+       7,
+       8,
+       9,
+       10,
+       11,
+       12,
+       13,
+       14,
+       15,
+       16
+      ]
      },
      {
       "colIndex": 5,
@@ -253,7 +289,19 @@
      {
       "colIndex": 6,
       "startRow": 1,
-      "endRow": 10
+      "endRow": 10,
+      "skipRows": [
+       1,
+       2,
+       3,
+       4,
+       5,
+       6,
+       7,
+       8,
+       9,
+       10
+      ]
      },
      {
       "colIndex": 7,
@@ -1651,7 +1699,25 @@
      {
       "colIndex": 2,
       "startRow": 1,
-      "endRow": 16
+      "endRow": 16,
+      "skipRows": [
+       1,
+       2,
+       3,
+       4,
+       5,
+       6,
+       7,
+       8,
+       9,
+       10,
+       11,
+       12,
+       13,
+       14,
+       15,
+       16
+      ]
      },
      {
       "colIndex": 3,
@@ -1661,7 +1727,25 @@
      {
       "colIndex": 4,
       "startRow": 1,
-      "endRow": 16
+      "endRow": 16,
+      "skipRows": [
+       1,
+       2,
+       3,
+       4,
+       5,
+       6,
+       7,
+       8,
+       9,
+       10,
+       11,
+       12,
+       13,
+       14,
+       15,
+       16
+      ]
      },
      {
       "colIndex": 5,
@@ -1671,7 +1755,11 @@
      {
       "colIndex": 6,
       "startRow": 1,
-      "endRow": 2
+      "endRow": 2,
+      "skipRows": [
+       1,
+       2
+      ]
      },
      {
       "colIndex": 7,
