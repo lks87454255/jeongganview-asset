@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-11-08T15:00:33Z",
+  "generated": "2026-11-08T15:09:24Z",
   "owner": "lks87454255",
   "repo": "jeongganview-asset",
   "branch": "main",
@@ -970,7 +970,7 @@
           "fileName": "춤산조.pdf",
           "path": "book/산조/춤산조.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EC%82%B0%EC%A1%B0/%EC%B6%A4%EC%82%B0%EC%A1%B0.pdf",
-          "sizeBytes": 638865,
+          "sizeBytes": 691456,
           "songs": [
             {
               "title": "진양",
@@ -978,15 +978,15 @@
             },
             {
               "title": "중모리",
-              "page": 1
-            },
-            {
-              "title": "중중모리",
               "page": 2
             },
             {
-              "title": "잦은모리",
+              "title": "중중모리",
               "page": 3
+            },
+            {
+              "title": "잦은모리",
+              "page": 5
             }
           ]
         }

@@ -1,6 +1,6 @@
 {
   "fileName": "춤산조.pdf",
-  "totalPages": 3,
+  "totalPages": 6,
   "pageData": {
     "1": [
       {
@@ -60,82 +60,10 @@
           }
         ],
         "x": 0.0248,
-        "y": 0.0733,
-        "width": 0.9296,
-        "height": 0.3476,
+        "y": 0.1872,
+        "width": 0.9506,
+        "height": 0.6801,
         "title": "춤산조 · 진양"
-      },
-      {
-        "gridId": 2,
-        "cols": 12,
-        "rows": 12,
-        "columnConfigs": [
-          {
-            "colIndex": 1,
-            "startRow": 1,
-            "endRow": 12
-          },
-          {
-            "colIndex": 2,
-            "startRow": 1,
-            "endRow": 12
-          },
-          {
-            "colIndex": 3,
-            "startRow": 1,
-            "endRow": 12
-          },
-          {
-            "colIndex": 4,
-            "startRow": 1,
-            "endRow": 12
-          },
-          {
-            "colIndex": 5,
-            "startRow": 1,
-            "endRow": 12
-          },
-          {
-            "colIndex": 6,
-            "startRow": 1,
-            "endRow": 12
-          },
-          {
-            "colIndex": 7,
-            "startRow": 1,
-            "endRow": 12
-          },
-          {
-            "colIndex": 8,
-            "startRow": 1,
-            "endRow": 12
-          },
-          {
-            "colIndex": 9,
-            "startRow": 1,
-            "endRow": 12
-          },
-          {
-            "colIndex": 10,
-            "startRow": 1,
-            "endRow": 12
-          },
-          {
-            "colIndex": 11,
-            "startRow": 1,
-            "endRow": 12
-          },
-          {
-            "colIndex": 12,
-            "startRow": 1,
-            "endRow": 12
-          }
-        ],
-        "x": 0.0265,
-        "y": 0.4821,
-        "width": 0.949,
-        "height": 0.4991,
-        "title": "춤산조 · 중모리"
       }
     ],
     "2": [
@@ -205,14 +133,90 @@
             "endRow": 12
           }
         ],
-        "x": 0.0241,
-        "y": 0.0703,
-        "width": 0.9517,
-        "height": 0.4275,
-        "title": "춤산조 · 중중모리"
-      },
+        "x": 0.0248,
+        "y": 0.0733,
+        "width": 0.9508,
+        "height": 0.9078,
+        "title": "춤산조 · 중모리"
+      }
+    ],
+    "3": [
       {
-        "gridId": 2,
+        "gridId": 1,
+        "cols": 12,
+        "rows": 12,
+        "columnConfigs": [
+          {
+            "colIndex": 1,
+            "startRow": 1,
+            "endRow": 12
+          },
+          {
+            "colIndex": 2,
+            "startRow": 1,
+            "endRow": 12
+          },
+          {
+            "colIndex": 3,
+            "startRow": 1,
+            "endRow": 12
+          },
+          {
+            "colIndex": 4,
+            "startRow": 1,
+            "endRow": 12
+          },
+          {
+            "colIndex": 5,
+            "startRow": 1,
+            "endRow": 12
+          },
+          {
+            "colIndex": 6,
+            "startRow": 1,
+            "endRow": 12
+          },
+          {
+            "colIndex": 7,
+            "startRow": 1,
+            "endRow": 12
+          },
+          {
+            "colIndex": 8,
+            "startRow": 1,
+            "endRow": 12
+          },
+          {
+            "colIndex": 9,
+            "startRow": 1,
+            "endRow": 12
+          },
+          {
+            "colIndex": 10,
+            "startRow": 1,
+            "endRow": 12
+          },
+          {
+            "colIndex": 11,
+            "startRow": 1,
+            "endRow": 12
+          },
+          {
+            "colIndex": 12,
+            "startRow": 1,
+            "endRow": 12
+          }
+        ],
+        "x": 0.0241,
+        "y": 0.1241,
+        "width": 0.9517,
+        "height": 0.804,
+        "title": "춤산조 · 중중모리"
+      }
+    ],
+    "4": [
+      {
+        "gridId": 1,
         "cols": 11,
         "rows": 12,
         "columnConfigs": [
@@ -273,13 +277,13 @@
           }
         ],
         "x": 0.1018,
-        "y": 0.55,
+        "y": 0.12,
         "width": 0.8741,
-        "height": 0.4319,
+        "height": 0.8123,
         "title": "춤산조 · 중중모리"
       }
     ],
-    "3": [
+    "5": [
       {
         "gridId": 1,
         "cols": 9,
@@ -332,13 +336,15 @@
           }
         ],
         "x": 0.0264,
-        "y": 0.0708,
+        "y": 0.1146,
         "width": 0.949,
-        "height": 0.4314,
+        "height": 0.8234,
         "title": "춤산조 · 잦은모리"
-      },
+      }
+    ],
+    "6": [
       {
-        "gridId": 2,
+        "gridId": 1,
         "cols": 9,
         "rows": 8,
         "columnConfigs": [
@@ -389,9 +395,9 @@
           }
         ],
         "x": 0.0264,
-        "y": 0.5548,
+        "y": 0.1188,
         "width": 0.949,
-        "height": 0.427,
+        "height": 0.8149,
         "title": "춤산조 · 잦은모리"
       }
     ]
@@ -404,17 +410,17 @@
     },
     {
       "title": "중모리",
-      "page": 1,
-      "grid": 2
-    },
-    {
-      "title": "중중모리",
       "page": 2,
       "grid": 1
     },
     {
-      "title": "잦은모리",
+      "title": "중중모리",
       "page": 3,
+      "grid": 1
+    },
+    {
+      "title": "잦은모리",
+      "page": 5,
       "grid": 1
     }
   ]
