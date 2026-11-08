@@ -135,10 +135,10 @@
      "t": "진양",
      "dir": "h",
      "font": "kob",
-     "x": 131.75,
+     "x": 157.5,
      "y": 34.32669322709163,
      "size": 8.92,
-     "align": "left",
+     "align": "center",
      "header_of": 1,
      "size_pt": 18.0,
      "dy_pt": 17.0
@@ -147,13 +147,13 @@
      "t": "三十 ~ 三五",
      "dir": "h",
      "font": "ko",
-     "x": 153.54,
+     "x": 293.03,
      "y": 36.85400092712732,
      "size": 5.45,
-     "align": "left",
+     "align": "right",
      "header_of": 1,
      "size_pt": 11.0,
-     "dy_pt": 23.02
+     "dy_pt": 6
     },
     {
      "t": "산조합주",
@@ -521,10 +521,10 @@
      "t": "중모리",
      "dir": "h",
      "font": "kob",
-     "x": 143.11,
+     "x": 178.0,
      "y": 59.50332005312085,
      "size": 10.3,
-     "align": "left",
+     "align": "center",
      "header_of": 1,
      "size_pt": 17.99,
      "dy_pt": 17.0
@@ -533,13 +533,13 @@
      "t": "七十 ~ 七五",
      "dir": "h",
      "font": "ko",
-     "x": 178.55,
+     "x": 334.57,
      "y": 61.738284710362294,
      "size": 6.3,
-     "align": "left",
+     "align": "right",
      "header_of": 1,
      "size_pt": 11.01,
-     "dy_pt": 23.01
+     "dy_pt": 6
     }
    ],
    "trace": [
@@ -877,10 +877,10 @@
      "t": "중중모리",
      "dir": "h",
      "font": "kob",
-     "x": 65.7,
+     "x": 104.0,
      "y": 57.50332005312085,
      "size": 9.86,
-     "align": "left",
+     "align": "center",
      "header_of": 2,
      "size_pt": 18.01,
      "dy_pt": 16.99
@@ -889,13 +889,13 @@
      "t": "八十 ~ 九五",
      "dir": "h",
      "font": "ko",
-     "x": 109.48,
+     "x": 183.72,
      "y": 59.741653091491024,
      "size": 6.02,
-     "align": "left",
+     "align": "right",
      "header_of": 2,
      "size_pt": 11.0,
-     "dy_pt": 23.02
+     "dy_pt": 6
     }
    ],
    "trace": [
@@ -1380,10 +1380,10 @@
      "t": "자진모리",
      "dir": "h",
      "font": "kob",
-     "x": 136.85,
+     "x": 176.0,
      "y": 114.734395750332,
      "size": 9.34,
-     "align": "left",
+     "align": "center",
      "header_of": 1,
      "size_pt": 18.0,
      "dy_pt": 17.0
@@ -1392,13 +1392,13 @@
      "t": "八十 ~ 一百五",
      "dir": "h",
      "font": "ko",
-     "x": 178.32,
+     "x": 317.89,
      "y": 116.40053693621287,
      "size": 5.71,
-     "align": "left",
+     "align": "right",
      "header_of": 1,
      "size_pt": 11.01,
-     "dy_pt": 23.01
+     "dy_pt": 6
     }
    ],
    "trace": [
@@ -1830,10 +1830,10 @@
      "t": "엇모리",
      "dir": "h",
      "font": "kob",
-     "x": 109.8,
+     "x": 125.0,
      "y": 118.61221779548472,
      "size": 10.14,
-     "align": "left",
+     "align": "center",
      "header_of": 2,
      "size_pt": 17.99,
      "dy_pt": 17.0
