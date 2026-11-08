@@ -8,7 +8,7 @@
    "n": 1,
    "kind": "jeonggan",
    "px": [577, 767],
-   "rect": [74.71, 93.71, 651.71, 860.71],
+   "rect": [15.46, 68.94, 749.11, 884.42],
    "size": [726.42, 954.42],
    "lines": {
     "h": [
@@ -519,27 +519,41 @@
    "texts": [
     {
      "t": "진양",
-     "dir": "v",
-     "font": "ko",
-     "x": 553.0,
-     "y": 116.0,
-     "size": 23.0,
-     "step": 2.75
+     "dir": "h",
+     "font": "kob",
+     "x": 530,
+     "y": 1,
+     "size": 10,
+     "size_pt": 18,
+     "align": "right",
+     "header_of": 1,
+     "dy_pt": 6
     },
     {
      "t": "중모리",
-     "dir": "v",
-     "font": "ko",
-     "x": 560.0,
-     "y": 468.0,
-     "size": 22.0,
-     "step": 3.2
+     "dir": "h",
+     "font": "kob",
+     "x": 542,
+     "y": 319,
+     "size": 10,
+     "size_pt": 18,
+     "align": "right",
+     "header_of": 2,
+     "dy_pt": 6
     }
    ],
    "janggu": [],
    "songs": [
-    [1],
-    [2]
+    {
+     "ids": [1],
+     "title": null,
+     "name": "진양"
+    },
+    {
+     "ids": [2],
+     "title": null,
+     "name": "중모리"
+    }
    ],
    "outline_pt": 1.1,
    "waves": [
@@ -819,7 +833,7 @@
    "n": 2,
    "kind": "jeonggan",
    "px": [595, 801],
-   "rect": [76.51, 97.11, 671.51, 898.11],
+   "rect": [14.12, 57.36, 783.0, 937.86],
    "size": [748.02, 995.22],
    "lines": {
     "h": [
@@ -1403,17 +1417,24 @@
    "texts": [
     {
      "t": "중중모리",
-     "dir": "v",
-     "font": "ko",
-     "x": 570.0,
-     "y": 148.0,
-     "size": 21.0,
-     "step": 3.1
+     "dir": "h",
+     "font": "kob",
+     "x": 551,
+     "y": 2,
+     "size": 10,
+     "size_pt": 18,
+     "align": "right",
+     "header_of": 1,
+     "dy_pt": 6
     }
    ],
    "janggu": [],
    "songs": [
-    [1, 2]
+    {
+     "ids": [1, 2],
+     "title": null,
+     "name": "중중모리"
+    }
    ],
    "outline_pt": 1.1,
    "waves": [
@@ -1549,7 +1570,7 @@
    "n": 3,
    "kind": "jeonggan",
    "px": [539, 796],
-   "rect": [70.91, 96.61, 609.91, 892.61],
+   "rect": [14.08, 61.25, 717.64, 932.35],
    "size": [680.82, 989.22],
    "lines": {
     "h": [
@@ -1953,17 +1974,24 @@
    "texts": [
     {
      "t": "잦은모리",
-     "dir": "v",
-     "font": "ko",
-     "x": 510.0,
-     "y": 100.0,
-     "size": 21.0,
-     "step": 3.1
+     "dir": "h",
+     "font": "kob",
+     "x": 494,
+     "y": 0,
+     "size": 10,
+     "size_pt": 18,
+     "align": "right",
+     "header_of": 1,
+     "dy_pt": 6
     }
    ],
    "janggu": [],
    "songs": [
-    [1, 2]
+    {
+     "ids": [1, 2],
+     "title": null,
+     "name": "잦은모리"
+    }
    ],
    "outline_pt": 1.1,
    "waves": [
