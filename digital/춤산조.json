@@ -521,25 +521,25 @@
      "t": "진양",
      "dir": "h",
      "font": "kob",
-     "x": 530,
+     "x": 267.5,
      "y": 1,
      "size": 10,
      "size_pt": 18,
-     "align": "right",
+     "align": "center",
      "header_of": 1,
-     "dy_pt": 6
+     "dy_pt": 17.0
     },
     {
      "t": "중모리",
      "dir": "h",
      "font": "kob",
-     "x": 542,
+     "x": 274.0,
      "y": 319,
      "size": 10,
      "size_pt": 18,
-     "align": "right",
+     "align": "center",
      "header_of": 2,
-     "dy_pt": 6
+     "dy_pt": 17.0
     }
    ],
    "janggu": [],
@@ -1419,13 +1419,13 @@
      "t": "중중모리",
      "dir": "h",
      "font": "kob",
-     "x": 551,
+     "x": 278.5,
      "y": 2,
      "size": 10,
      "size_pt": 18,
-     "align": "right",
+     "align": "center",
      "header_of": 1,
-     "dy_pt": 6
+     "dy_pt": 17.0
     }
    ],
    "janggu": [],
@@ -1976,13 +1976,13 @@
      "t": "잦은모리",
      "dir": "h",
      "font": "kob",
-     "x": 494,
+     "x": 250.0,
      "y": 0,
      "size": 10,
      "size_pt": 18,
-     "align": "right",
+     "align": "center",
      "header_of": 1,
-     "dy_pt": 6
+     "dy_pt": 17.0
     }
    ],
    "janggu": [],
