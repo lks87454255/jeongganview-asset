@@ -180,7 +180,8 @@
    "header_mode": "relayout",
    "trace_min_dot": 3,
    "trace_thr": 205,
-   "janggu": []
+   "janggu": [],
+   "uniform_size": true
   },
   {
    "n": 2,
@@ -386,7 +387,8 @@
    "header_mode": "relayout",
    "trace_min_dot": 3,
    "trace_thr": 205,
-   "janggu": []
+   "janggu": [],
+   "uniform_size": true
   },
   {
    "n": 3,
@@ -570,7 +572,8 @@
    "header_mode": "relayout",
    "trace_min_dot": 3,
    "trace_thr": 205,
-   "janggu": []
+   "janggu": [],
+   "uniform_size": true
   },
   {
    "n": 4,
@@ -730,7 +733,8 @@
    "header_mode": "relayout",
    "trace_min_dot": 3,
    "trace_thr": 205,
-   "janggu": []
+   "janggu": [],
+   "uniform_size": true
   },
   {
    "n": 5,
@@ -867,7 +871,8 @@
    "header_mode": "relayout",
    "trace_min_dot": 3,
    "trace_thr": 205,
-   "janggu": []
+   "janggu": [],
+   "uniform_size": true
   },
   {
    "n": 6,
@@ -999,7 +1004,8 @@
    "header_mode": "relayout",
    "trace_min_dot": 3,
    "trace_thr": 205,
-   "janggu": []
+   "janggu": [],
+   "uniform_size": true
   },
   {
    "n": 7,
@@ -1190,7 +1196,8 @@
    "header_mode": "relayout",
    "trace_min_dot": 3,
    "trace_thr": 205,
-   "janggu": []
+   "janggu": [],
+   "uniform_size": true
   }
  ],
  "songs": [
