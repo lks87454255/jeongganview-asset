@@ -49,7 +49,9 @@ BOOK_EXCLUDE_DIRS = {"대금율보", "조재수 대금교본", "국악이 꽃피
 # 관리자 기기에만 보이는 분류(테스트 중인 디지털 정간보) — book-index.json 의 "adminCategories" 로 나간다
 BOOK_ADMIN_ONLY_DIRS: set = set()
 
-BOOK_EXCLUDE: set = set()
+BOOK_EXCLUDE: set = {
+    "book/대금정악보/가곡.pdf",   # 곡별 파일(book/가곡/가곡-<곡명>)로 보여 준다 — 파일·그리드·싱크 맵은 레포에 두고 카드만 숨김(사용자 결정, 2026-11-08)
+}
 
 
 def nfc(s: str) -> str:
@@ -244,7 +246,10 @@ def check_book_pairs(book_dir: str):
             if fn != nfc(fn):
                 errors.append(f"파일명이 NFC(완성형)가 아님 — 앱 URL 과 달라 404: {rel}")
             stem, ext = os.path.splitext(nfc(rel))
-            if nfc(rel).replace(os.sep, "/") in BOOK_EXCLUDE or nfc(rel).replace(os.sep, "/").split("/")[1] in BOOK_EXCLUDE_DIRS:
+            rel_s = nfc(rel).replace(os.sep, "/")
+            # BOOK_EXCLUDE PDF 와 그 짝(.grid.json·.sync.json)은 목록에 넣지 않으므로 검사도 안 함
+            base = rel_s[:-len(GRID_SUFFIX)] if rel_s.endswith(GRID_SUFFIX) else rel_s[:-len(".sync.json")] if rel_s.endswith(".sync.json") else os.path.splitext(rel_s)[0]
+            if rel_s in BOOK_EXCLUDE or base + ".pdf" in BOOK_EXCLUDE or rel_s.split("/")[1] in BOOK_EXCLUDE_DIRS:
                 continue
             if nfc(fn).endswith(OLD_SONGS_SUFFIX):
                 errors.append(f"폐기된 파일(곡 제목은 {GRID_SUFFIX} 의 \"songs\" 에 둔다): {nfc(rel)}")

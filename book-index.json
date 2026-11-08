@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-11-08T10:29:13Z",
+  "generated": "2026-11-08T10:37:03Z",
   "owner": "lks87454255",
   "repo": "jeongganview-asset",
   "branch": "main",
@@ -398,189 +398,6 @@
     {
       "name": "대금정악보",
       "files": [
-        {
-          "name": "가곡",
-          "fileName": "가곡.pdf",
-          "path": "book/대금정악보/가곡.pdf",
-          "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EB%8C%80%EA%B8%88%EC%A0%95%EC%95%85%EB%B3%B4/%EA%B0%80%EA%B3%A1.pdf",
-          "sizeBytes": 75274960,
-          "songs": [
-            {
-              "title": "남창 우조 다스름",
-              "page": 1
-            },
-            {
-              "title": "남창 우조 초수대엽",
-              "page": 3
-            },
-            {
-              "title": "남창 우조 이수대엽",
-              "page": 5
-            },
-            {
-              "title": "남창 우조 중거",
-              "page": 7
-            },
-            {
-              "title": "남창 우조 평거",
-              "page": 9
-            },
-            {
-              "title": "남창 우조 두거",
-              "page": 11
-            },
-            {
-              "title": "남창 우조 삼수대엽",
-              "page": 13
-            },
-            {
-              "title": "남창 우조 소용이",
-              "page": 15
-            },
-            {
-              "title": "남창 우조 우롱",
-              "page": 17
-            },
-            {
-              "title": "남창 우조 우락",
-              "page": 19
-            },
-            {
-              "title": "남창 우조 언락",
-              "page": 21
-            },
-            {
-              "title": "남창 우조 우편",
-              "page": 24
-            },
-            {
-              "title": "남창 반엽",
-              "page": 26
-            },
-            {
-              "title": "남창 계면 다스름",
-              "page": 28
-            },
-            {
-              "title": "남창 계면 초수대엽",
-              "page": 30
-            },
-            {
-              "title": "남창 계면 이수대엽",
-              "page": 32
-            },
-            {
-              "title": "남창 계면 중거",
-              "page": 34
-            },
-            {
-              "title": "남창 계면 평거",
-              "page": 36
-            },
-            {
-              "title": "남창 계면 두거",
-              "page": 38
-            },
-            {
-              "title": "남창 계면 삼수대엽",
-              "page": 40
-            },
-            {
-              "title": "남창 계면 소용이",
-              "page": 42
-            },
-            {
-              "title": "남창 계면 언롱",
-              "page": 44
-            },
-            {
-              "title": "남창 계면 평롱",
-              "page": 46
-            },
-            {
-              "title": "남창 계면 계락",
-              "page": 48
-            },
-            {
-              "title": "남창 계면 편락",
-              "page": 50
-            },
-            {
-              "title": "남창 계면 편수대엽",
-              "page": 53
-            },
-            {
-              "title": "남창 계면 언편",
-              "page": 56
-            },
-            {
-              "title": "남창 계면 태평가",
-              "page": 59
-            },
-            {
-              "title": "여창 우조 이수대엽",
-              "page": 61
-            },
-            {
-              "title": "여창 우조 중거",
-              "page": 63
-            },
-            {
-              "title": "여창 우조 평거",
-              "page": 65
-            },
-            {
-              "title": "여창 우조 두거",
-              "page": 67
-            },
-            {
-              "title": "여창 우조 우락",
-              "page": 69
-            },
-            {
-              "title": "여창 반엽",
-              "page": 71
-            },
-            {
-              "title": "여창 계면 이수대엽",
-              "page": 73
-            },
-            {
-              "title": "여창 계면 중거",
-              "page": 75
-            },
-            {
-              "title": "여창 계면 평거",
-              "page": 77
-            },
-            {
-              "title": "여창 계면 두거",
-              "page": 79
-            },
-            {
-              "title": "여창 계면 평롱",
-              "page": 81
-            },
-            {
-              "title": "여창 계면 계락",
-              "page": 83
-            },
-            {
-              "title": "여창 환계락",
-              "page": 85
-            },
-            {
-              "title": "여창 계면 편수대엽",
-              "page": 87
-            },
-            {
-              "title": "여창 태평가",
-              "page": 90
-            }
-          ],
-          "hasSync": true,
-          "syncDurationSec": 17405
-        },
         {
           "name": "경모궁제례악",
           "fileName": "경모궁제례악.pdf",
@@ -1148,6 +965,6 @@
   "adminCategories": [],
   "_total": {
     "categories": 3,
-    "files": 68
+    "files": 67
   }
 }
