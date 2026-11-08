@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-11-08T10:37:03Z",
+  "generated": "2026-11-08T12:28:52Z",
   "owner": "lks87454255",
   "repo": "jeongganview-asset",
   "branch": "main",
@@ -935,6 +935,37 @@
       "name": "산조",
       "files": [
         {
+          "name": "산조합주",
+          "fileName": "산조합주.pdf",
+          "path": "book/산조/산조합주.pdf",
+          "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EC%82%B0%EC%A1%B0/%EC%82%B0%EC%A1%B0%ED%95%A9%EC%A3%BC.pdf",
+          "sizeBytes": 254222,
+          "songs": [
+            {
+              "title": "진양",
+              "page": 1
+            },
+            {
+              "title": "중모리",
+              "page": 2
+            },
+            {
+              "title": "중중모리",
+              "page": 3
+            },
+            {
+              "title": "자진모리",
+              "page": 5
+            },
+            {
+              "title": "엇모리",
+              "page": 7
+            }
+          ],
+          "hasSync": true,
+          "syncDurationSec": 496
+        },
+        {
           "name": "춤산조",
           "fileName": "춤산조.pdf",
           "path": "book/산조/춤산조.pdf",
@@ -965,6 +996,6 @@
   "adminCategories": [],
   "_total": {
     "categories": 3,
-    "files": 67
+    "files": 68
   }
 }
