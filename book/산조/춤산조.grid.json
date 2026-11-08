@@ -5,64 +5,39 @@
     "1": [
       {
         "gridId": 1,
-        "cols": 10,
-        "rows": 6,
+        "cols": 5,
+        "rows": 12,
         "columnConfigs": [
           {
             "colIndex": 1,
             "startRow": 1,
-            "endRow": 6
+            "endRow": 12
           },
           {
             "colIndex": 2,
             "startRow": 1,
-            "endRow": 6
+            "endRow": 12
           },
           {
             "colIndex": 3,
             "startRow": 1,
-            "endRow": 6
+            "endRow": 12
           },
           {
             "colIndex": 4,
             "startRow": 1,
-            "endRow": 6
+            "endRow": 12
           },
           {
             "colIndex": 5,
             "startRow": 1,
-            "endRow": 6
-          },
-          {
-            "colIndex": 6,
-            "startRow": 1,
-            "endRow": 6
-          },
-          {
-            "colIndex": 7,
-            "startRow": 1,
-            "endRow": 6
-          },
-          {
-            "colIndex": 8,
-            "startRow": 1,
-            "endRow": 6
-          },
-          {
-            "colIndex": 9,
-            "startRow": 1,
-            "endRow": 6
-          },
-          {
-            "colIndex": 10,
-            "startRow": 1,
-            "endRow": 6
+            "endRow": 12
           }
         ],
-        "x": 0.0248,
-        "y": 0.1872,
-        "width": 0.9506,
-        "height": 0.6801,
+        "x": 0.2082,
+        "y": 0.1037,
+        "width": 0.5837,
+        "height": 0.8466,
         "title": "춤산조 · 진양"
       }
     ],
