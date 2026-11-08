@@ -1,28 +1,6 @@
 {
   "fileName": "춤산조.pdf",
   "totalPages": 3,
-  "songs": [
-    {
-      "title": "진양",
-      "page": 1,
-      "grid": 1
-    },
-    {
-      "title": "중모리",
-      "page": 1,
-      "grid": 2
-    },
-    {
-      "title": "중중모리",
-      "page": 2,
-      "grid": 1
-    },
-    {
-      "title": "잦은모리",
-      "page": 3,
-      "grid": 1
-    }
-  ],
   "pageData": {
     "1": [
       {
@@ -417,5 +395,27 @@
         "title": "춤산조 · 잦은모리"
       }
     ]
-  }
+  },
+  "songs": [
+    {
+      "title": "진양",
+      "page": 1,
+      "grid": 1
+    },
+    {
+      "title": "중모리",
+      "page": 1,
+      "grid": 2
+    },
+    {
+      "title": "중중모리",
+      "page": 2,
+      "grid": 1
+    },
+    {
+      "title": "잦은모리",
+      "page": 3,
+      "grid": 1
+    }
+  ]
 }
