@@ -1,7 +1,7 @@
 {
  "version": 1,
  "pdf": "book/대금정악보/독주곡-헌천수.pdf",
- "note": "곡마다 첫 소리·끝 소리 앵커 2개(그 사이 정속). 음원 RMS(10ms). scripts/build_daegeum_sync_maps.py",
+ "note": "anchorSource=pitch: 율명 OCR ↔ 음원 크로마 DTW(scripts/build_pitch_sync_anchors.py). janggu: 장구 주기 앵커. melody: 대금 음 바뀜 추적. 그 밖: 첫 소리·끝 소리 앵커 2개.",
  "tracks": [
   {
    "clipid": "38477",
@@ -21,21 +21,276 @@
    },
    "anchors": [
     {
-     "t": 300,
+     "t": 800,
      "page": 1,
      "grid": 1,
      "col": 1,
-     "row": 0
+     "row": 0.0
     },
     {
-     "t": 206240,
+     "t": 6535,
+     "page": 1,
+     "grid": 1,
+     "col": 1,
+     "row": 2.0
+    },
+    {
+     "t": 12155,
+     "page": 1,
+     "grid": 1,
+     "col": 1,
+     "row": 4.0
+    },
+    {
+     "t": 17816,
+     "page": 1,
+     "grid": 1,
+     "col": 1,
+     "row": 6.0
+    },
+    {
+     "t": 23659,
+     "page": 1,
+     "grid": 1,
+     "col": 1,
+     "row": 8.0
+    },
+    {
+     "t": 29587,
+     "page": 1,
+     "grid": 1,
+     "col": 1,
+     "row": 10.0
+    },
+    {
+     "t": 35332,
+     "page": 1,
+     "grid": 1,
+     "col": 2,
+     "row": 0.0
+    },
+    {
+     "t": 40538,
+     "page": 1,
+     "grid": 1,
+     "col": 2,
+     "row": 2.0
+    },
+    {
+     "t": 45322,
+     "page": 1,
+     "grid": 1,
+     "col": 2,
+     "row": 4.0
+    },
+    {
+     "t": 50271,
+     "page": 1,
+     "grid": 1,
+     "col": 2,
+     "row": 6.0
+    },
+    {
+     "t": 54950,
+     "page": 1,
+     "grid": 1,
+     "col": 2,
+     "row": 8.0
+    },
+    {
+     "t": 59509,
+     "page": 1,
+     "grid": 1,
+     "col": 2,
+     "row": 10.0
+    },
+    {
+     "t": 64543,
+     "page": 1,
+     "grid": 1,
+     "col": 3,
+     "row": 0.0
+    },
+    {
+     "t": 69967,
+     "page": 1,
+     "grid": 1,
+     "col": 3,
+     "row": 2.0
+    },
+    {
+     "t": 75460,
+     "page": 1,
+     "grid": 1,
+     "col": 3,
+     "row": 4.0
+    },
+    {
+     "t": 81064,
+     "page": 1,
+     "grid": 1,
+     "col": 3,
+     "row": 6.0
+    },
+    {
+     "t": 86905,
+     "page": 1,
+     "grid": 1,
+     "col": 3,
+     "row": 8.0
+    },
+    {
+     "t": 92674,
+     "page": 1,
+     "grid": 1,
+     "col": 3,
+     "row": 10.0
+    },
+    {
+     "t": 97975,
+     "page": 1,
+     "grid": 1,
+     "col": 4,
+     "row": 0.0
+    },
+    {
+     "t": 103300,
+     "page": 1,
+     "grid": 1,
+     "col": 4,
+     "row": 2.0
+    },
+    {
+     "t": 108717,
+     "page": 1,
+     "grid": 1,
+     "col": 4,
+     "row": 4.0
+    },
+    {
+     "t": 114221,
+     "page": 1,
+     "grid": 1,
+     "col": 4,
+     "row": 6.0
+    },
+    {
+     "t": 119854,
+     "page": 1,
+     "grid": 1,
+     "col": 4,
+     "row": 8.0
+    },
+    {
+     "t": 125486,
+     "page": 1,
+     "grid": 1,
+     "col": 4,
+     "row": 10.0
+    },
+    {
+     "t": 130892,
+     "page": 1,
+     "grid": 1,
+     "col": 5,
+     "row": 0.0
+    },
+    {
+     "t": 136238,
+     "page": 1,
+     "grid": 1,
+     "col": 5,
+     "row": 2.0
+    },
+    {
+     "t": 141791,
+     "page": 1,
+     "grid": 1,
+     "col": 5,
+     "row": 4.0
+    },
+    {
+     "t": 147235,
+     "page": 1,
+     "grid": 1,
+     "col": 5,
+     "row": 6.0
+    },
+    {
+     "t": 152262,
+     "page": 1,
+     "grid": 1,
+     "col": 5,
+     "row": 8.0
+    },
+    {
+     "t": 157216,
+     "page": 1,
+     "grid": 1,
+     "col": 5,
+     "row": 10.0
+    },
+    {
+     "t": 162562,
+     "page": 1,
+     "grid": 1,
+     "col": 6,
+     "row": 0.0
+    },
+    {
+     "t": 167873,
+     "page": 1,
+     "grid": 1,
+     "col": 6,
+     "row": 2.0
+    },
+    {
+     "t": 173057,
+     "page": 1,
+     "grid": 1,
+     "col": 6,
+     "row": 4.0
+    },
+    {
+     "t": 178239,
+     "page": 1,
+     "grid": 1,
+     "col": 6,
+     "row": 6.0
+    },
+    {
+     "t": 183685,
+     "page": 1,
+     "grid": 1,
+     "col": 6,
+     "row": 8.0
+    },
+    {
+     "t": 190616,
+     "page": 1,
+     "grid": 1,
+     "col": 6,
+     "row": 10.0
+    },
+    {
+     "t": 198900,
      "page": 1,
      "grid": 1,
      "col": 6,
      "row": 12
     }
    ],
-   "durationMs": 206942
+   "durationMs": 206942,
+   "anchorSource": "pitch",
+   "check": {
+    "shift": 25,
+    "cost": 0.387,
+    "keyMargin": 0.173,
+    "spread": 0.08,
+    "matchNew": 0.591,
+    "matchOld": 0.341,
+    "filled": 0.82
+   }
   }
  ]
 }
