@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-11-10T02:59:46Z",
+  "generated": "2026-11-10T03:18:36Z",
   "owner": "lks87454255",
   "repo": "jeongganview-asset",
   "branch": "main",
@@ -398,6 +398,69 @@
     {
       "name": "대금정악보",
       "files": [
+        {
+          "name": "가진회상",
+          "fileName": "가진회상.pdf",
+          "path": "book/대금정악보/가진회상.pdf",
+          "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EB%8C%80%EA%B8%88%EC%A0%95%EC%95%85%EB%B3%B4/%EA%B0%80%EC%A7%84%ED%9A%8C%EC%83%81.pdf",
+          "sizeBytes": 23764097,
+          "songs": [
+            {
+              "title": "상령산",
+              "page": 1
+            },
+            {
+              "title": "중령산",
+              "page": 3
+            },
+            {
+              "title": "세령산",
+              "page": 5
+            },
+            {
+              "title": "가락덜이",
+              "page": 6
+            },
+            {
+              "title": "상현도드리",
+              "page": 7
+            },
+            {
+              "title": "밑도드리",
+              "page": 9
+            },
+            {
+              "title": "하현도드리",
+              "page": 13
+            },
+            {
+              "title": "염불도드리",
+              "page": 14
+            },
+            {
+              "title": "타령",
+              "page": 16
+            },
+            {
+              "title": "군악",
+              "page": 18
+            },
+            {
+              "title": "계면가락도드리",
+              "page": 21
+            },
+            {
+              "title": "양청도드리",
+              "page": 23
+            },
+            {
+              "title": "우조가락도드리",
+              "page": 25
+            }
+          ],
+          "hasSync": true,
+          "syncDurationSec": 4015
+        },
         {
           "name": "경모궁제례악",
           "fileName": "경모궁제례악.pdf",
@@ -996,6 +1059,6 @@
   "adminCategories": [],
   "_total": {
     "categories": 3,
-    "files": 68
+    "files": 69
   }
 }
