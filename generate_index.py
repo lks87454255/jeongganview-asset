@@ -147,6 +147,16 @@ def scan_audio(audio_dir: str) -> dict:
 
 
 # ── book-index.json 생성 ──────────────────────────────────────
+def pdf_page_count(path: str):
+    """PDF 총 쪽 수(앱 정간보 연주 카드에 보임). 못 읽으면 None."""
+    try:
+        import pymupdf
+        with pymupdf.open(path) as doc:
+            return doc.page_count
+    except Exception:
+        return None
+
+
 def scan_book(book_dir: str) -> dict:
     categories = []
     admin_categories = []
@@ -182,6 +192,9 @@ def scan_book(book_dir: str) -> dict:
                 "url":       url_str,
                 "sizeBytes": size_bytes,
             })
+            pages = pdf_page_count(os.path.join(cat_path, file_name))
+            if pages:
+                files[-1]["pageCount"] = pages
             # 한 PDF 에 곡이 여럿이면 PDF 옆 <이름>.grid.json 의 "songs" 곡 제목·쪽을 넣는다(앱 정간보 설정 검색용)
             songs = read_songs(os.path.join(cat_path, display_name + GRID_SUFFIX))
             if songs:

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-11-10T03:18:36Z",
+  "generated": "2026-11-10T23:41:45Z",
   "owner": "lks87454255",
   "repo": "jeongganview-asset",
   "branch": "main",
@@ -14,6 +14,7 @@
           "path": "book/가곡/남창 계면 계락.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EA%B0%80%EA%B3%A1/%EB%82%A8%EC%B0%BD%20%EA%B3%84%EB%A9%B4%20%EA%B3%84%EB%9D%BD.pdf",
           "sizeBytes": 1865846,
+          "pageCount": 2,
           "hasSync": true,
           "syncDurationSec": 293
         },
@@ -23,6 +24,7 @@
           "path": "book/가곡/남창 계면 다스름.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EA%B0%80%EA%B3%A1/%EB%82%A8%EC%B0%BD%20%EA%B3%84%EB%A9%B4%20%EB%8B%A4%EC%8A%A4%EB%A6%84.pdf",
           "sizeBytes": 1337215,
+          "pageCount": 2,
           "hasSync": true,
           "syncDurationSec": 63
         },
@@ -32,6 +34,7 @@
           "path": "book/가곡/남창 계면 두거.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EA%B0%80%EA%B3%A1/%EB%82%A8%EC%B0%BD%20%EA%B3%84%EB%A9%B4%20%EB%91%90%EA%B1%B0.pdf",
           "sizeBytes": 1750585,
+          "pageCount": 2,
           "hasSync": true,
           "syncDurationSec": 329
         },
@@ -41,6 +44,7 @@
           "path": "book/가곡/남창 계면 삼수대엽.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EA%B0%80%EA%B3%A1/%EB%82%A8%EC%B0%BD%20%EA%B3%84%EB%A9%B4%20%EC%82%BC%EC%88%98%EB%8C%80%EC%97%BD.pdf",
           "sizeBytes": 1842005,
+          "pageCount": 2,
           "hasSync": true,
           "syncDurationSec": 355
         },
@@ -50,6 +54,7 @@
           "path": "book/가곡/남창 계면 소용이.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EA%B0%80%EA%B3%A1/%EB%82%A8%EC%B0%BD%20%EA%B3%84%EB%A9%B4%20%EC%86%8C%EC%9A%A9%EC%9D%B4.pdf",
           "sizeBytes": 1850249,
+          "pageCount": 2,
           "hasSync": true,
           "syncDurationSec": 318
         },
@@ -59,6 +64,7 @@
           "path": "book/가곡/남창 계면 언롱.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EA%B0%80%EA%B3%A1/%EB%82%A8%EC%B0%BD%20%EA%B3%84%EB%A9%B4%20%EC%96%B8%EB%A1%B1.pdf",
           "sizeBytes": 1788457,
+          "pageCount": 2,
           "hasSync": true,
           "syncDurationSec": 306
         },
@@ -68,6 +74,7 @@
           "path": "book/가곡/남창 계면 언편.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EA%B0%80%EA%B3%A1/%EB%82%A8%EC%B0%BD%20%EA%B3%84%EB%A9%B4%20%EC%96%B8%ED%8E%B8.pdf",
           "sizeBytes": 2161620,
+          "pageCount": 3,
           "hasSync": true,
           "syncDurationSec": 220
         },
@@ -77,6 +84,7 @@
           "path": "book/가곡/남창 계면 이수대엽.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EA%B0%80%EA%B3%A1/%EB%82%A8%EC%B0%BD%20%EA%B3%84%EB%A9%B4%20%EC%9D%B4%EC%88%98%EB%8C%80%EC%97%BD.pdf",
           "sizeBytes": 1688455,
+          "pageCount": 2,
           "hasSync": true,
           "syncDurationSec": 639
         },
@@ -86,6 +94,7 @@
           "path": "book/가곡/남창 계면 중거.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EA%B0%80%EA%B3%A1/%EB%82%A8%EC%B0%BD%20%EA%B3%84%EB%A9%B4%20%EC%A4%91%EA%B1%B0.pdf",
           "sizeBytes": 1691322,
+          "pageCount": 2,
           "hasSync": true,
           "syncDurationSec": 589
         },
@@ -95,6 +104,7 @@
           "path": "book/가곡/남창 계면 초수대엽.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EA%B0%80%EA%B3%A1/%EB%82%A8%EC%B0%BD%20%EA%B3%84%EB%A9%B4%20%EC%B4%88%EC%88%98%EB%8C%80%EC%97%BD.pdf",
           "sizeBytes": 1519193,
+          "pageCount": 2,
           "hasSync": true,
           "syncDurationSec": 507
         },
@@ -104,6 +114,7 @@
           "path": "book/가곡/남창 계면 태평가.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EA%B0%80%EA%B3%A1/%EB%82%A8%EC%B0%BD%20%EA%B3%84%EB%A9%B4%20%ED%83%9C%ED%8F%89%EA%B0%80.pdf",
           "sizeBytes": 1492827,
+          "pageCount": 2,
           "hasSync": true,
           "syncDurationSec": 435
         },
@@ -113,6 +124,7 @@
           "path": "book/가곡/남창 계면 편락.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EA%B0%80%EA%B3%A1/%EB%82%A8%EC%B0%BD%20%EA%B3%84%EB%A9%B4%20%ED%8E%B8%EB%9D%BD.pdf",
           "sizeBytes": 2321915,
+          "pageCount": 3,
           "hasSync": true,
           "syncDurationSec": 281
         },
@@ -122,6 +134,7 @@
           "path": "book/가곡/남창 계면 편수대엽.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EA%B0%80%EA%B3%A1/%EB%82%A8%EC%B0%BD%20%EA%B3%84%EB%A9%B4%20%ED%8E%B8%EC%88%98%EB%8C%80%EC%97%BD.pdf",
           "sizeBytes": 2371352,
+          "pageCount": 3,
           "hasSync": true,
           "syncDurationSec": 253
         },
@@ -131,6 +144,7 @@
           "path": "book/가곡/남창 계면 평거.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EA%B0%80%EA%B3%A1/%EB%82%A8%EC%B0%BD%20%EA%B3%84%EB%A9%B4%20%ED%8F%89%EA%B1%B0.pdf",
           "sizeBytes": 1719687,
+          "pageCount": 2,
           "hasSync": true,
           "syncDurationSec": 547
         },
@@ -140,6 +154,7 @@
           "path": "book/가곡/남창 계면 평롱.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EA%B0%80%EA%B3%A1/%EB%82%A8%EC%B0%BD%20%EA%B3%84%EB%A9%B4%20%ED%8F%89%EB%A1%B1.pdf",
           "sizeBytes": 1778694,
+          "pageCount": 2,
           "hasSync": true,
           "syncDurationSec": 317
         },
@@ -149,6 +164,7 @@
           "path": "book/가곡/남창 반엽.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EA%B0%80%EA%B3%A1/%EB%82%A8%EC%B0%BD%20%EB%B0%98%EC%97%BD.pdf",
           "sizeBytes": 1707832,
+          "pageCount": 2,
           "hasSync": true,
           "syncDurationSec": 339
         },
@@ -158,6 +174,7 @@
           "path": "book/가곡/남창 우조 다스름.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EA%B0%80%EA%B3%A1/%EB%82%A8%EC%B0%BD%20%EC%9A%B0%EC%A1%B0%20%EB%8B%A4%EC%8A%A4%EB%A6%84.pdf",
           "sizeBytes": 1639668,
+          "pageCount": 2,
           "hasSync": true,
           "syncDurationSec": 95
         },
@@ -167,6 +184,7 @@
           "path": "book/가곡/남창 우조 두거.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EA%B0%80%EA%B3%A1/%EB%82%A8%EC%B0%BD%20%EC%9A%B0%EC%A1%B0%20%EB%91%90%EA%B1%B0.pdf",
           "sizeBytes": 1728529,
+          "pageCount": 2,
           "hasSync": true,
           "syncDurationSec": 526
         },
@@ -176,6 +194,7 @@
           "path": "book/가곡/남창 우조 삼수대엽.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EA%B0%80%EA%B3%A1/%EB%82%A8%EC%B0%BD%20%EC%9A%B0%EC%A1%B0%20%EC%82%BC%EC%88%98%EB%8C%80%EC%97%BD.pdf",
           "sizeBytes": 1745035,
+          "pageCount": 2,
           "hasSync": true,
           "syncDurationSec": 327
         },
@@ -185,6 +204,7 @@
           "path": "book/가곡/남창 우조 소용이.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EA%B0%80%EA%B3%A1/%EB%82%A8%EC%B0%BD%20%EC%9A%B0%EC%A1%B0%20%EC%86%8C%EC%9A%A9%EC%9D%B4.pdf",
           "sizeBytes": 1870161,
+          "pageCount": 2,
           "hasSync": true,
           "syncDurationSec": 340
         },
@@ -194,6 +214,7 @@
           "path": "book/가곡/남창 우조 언락.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EA%B0%80%EA%B3%A1/%EB%82%A8%EC%B0%BD%20%EC%9A%B0%EC%A1%B0%20%EC%96%B8%EB%9D%BD.pdf",
           "sizeBytes": 2293836,
+          "pageCount": 3,
           "hasSync": true,
           "syncDurationSec": 366
         },
@@ -203,6 +224,7 @@
           "path": "book/가곡/남창 우조 우락.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EA%B0%80%EA%B3%A1/%EB%82%A8%EC%B0%BD%20%EC%9A%B0%EC%A1%B0%20%EC%9A%B0%EB%9D%BD.pdf",
           "sizeBytes": 1731762,
+          "pageCount": 2,
           "hasSync": true,
           "syncDurationSec": 314
         },
@@ -212,6 +234,7 @@
           "path": "book/가곡/남창 우조 우롱.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EA%B0%80%EA%B3%A1/%EB%82%A8%EC%B0%BD%20%EC%9A%B0%EC%A1%B0%20%EC%9A%B0%EB%A1%B1.pdf",
           "sizeBytes": 1672516,
+          "pageCount": 2,
           "hasSync": true,
           "syncDurationSec": 342
         },
@@ -221,6 +244,7 @@
           "path": "book/가곡/남창 우조 우편.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EA%B0%80%EA%B3%A1/%EB%82%A8%EC%B0%BD%20%EC%9A%B0%EC%A1%B0%20%EC%9A%B0%ED%8E%B8.pdf",
           "sizeBytes": 1424843,
+          "pageCount": 2,
           "hasSync": true,
           "syncDurationSec": 228
         },
@@ -230,6 +254,7 @@
           "path": "book/가곡/남창 우조 이수대엽.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EA%B0%80%EA%B3%A1/%EB%82%A8%EC%B0%BD%20%EC%9A%B0%EC%A1%B0%20%EC%9D%B4%EC%88%98%EB%8C%80%EC%97%BD.pdf",
           "sizeBytes": 1597993,
+          "pageCount": 2,
           "hasSync": true,
           "syncDurationSec": 654
         },
@@ -239,6 +264,7 @@
           "path": "book/가곡/남창 우조 중거.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EA%B0%80%EA%B3%A1/%EB%82%A8%EC%B0%BD%20%EC%9A%B0%EC%A1%B0%20%EC%A4%91%EA%B1%B0.pdf",
           "sizeBytes": 1598550,
+          "pageCount": 2,
           "hasSync": true,
           "syncDurationSec": 619
         },
@@ -248,6 +274,7 @@
           "path": "book/가곡/남창 우조 초수대엽.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EA%B0%80%EA%B3%A1/%EB%82%A8%EC%B0%BD%20%EC%9A%B0%EC%A1%B0%20%EC%B4%88%EC%88%98%EB%8C%80%EC%97%BD.pdf",
           "sizeBytes": 1468472,
+          "pageCount": 2,
           "hasSync": true,
           "syncDurationSec": 557
         },
@@ -257,6 +284,7 @@
           "path": "book/가곡/남창 우조 평거.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EA%B0%80%EA%B3%A1/%EB%82%A8%EC%B0%BD%20%EC%9A%B0%EC%A1%B0%20%ED%8F%89%EA%B1%B0.pdf",
           "sizeBytes": 1583374,
+          "pageCount": 2,
           "hasSync": true,
           "syncDurationSec": 584
         },
@@ -266,6 +294,7 @@
           "path": "book/가곡/여창 계면 계락.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EA%B0%80%EA%B3%A1/%EC%97%AC%EC%B0%BD%20%EA%B3%84%EB%A9%B4%20%EA%B3%84%EB%9D%BD.pdf",
           "sizeBytes": 1820864,
+          "pageCount": 2,
           "hasSync": true,
           "syncDurationSec": 357
         },
@@ -274,7 +303,8 @@
           "fileName": "여창 계면 두거.pdf",
           "path": "book/가곡/여창 계면 두거.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EA%B0%80%EA%B3%A1/%EC%97%AC%EC%B0%BD%20%EA%B3%84%EB%A9%B4%20%EB%91%90%EA%B1%B0.pdf",
-          "sizeBytes": 1827853
+          "sizeBytes": 1827853,
+          "pageCount": 2
         },
         {
           "name": "여창 계면 이수대엽",
@@ -282,6 +312,7 @@
           "path": "book/가곡/여창 계면 이수대엽.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EA%B0%80%EA%B3%A1/%EC%97%AC%EC%B0%BD%20%EA%B3%84%EB%A9%B4%20%EC%9D%B4%EC%88%98%EB%8C%80%EC%97%BD.pdf",
           "sizeBytes": 1698446,
+          "pageCount": 2,
           "hasSync": true,
           "syncDurationSec": 548
         },
@@ -291,6 +322,7 @@
           "path": "book/가곡/여창 계면 중거.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EA%B0%80%EA%B3%A1/%EC%97%AC%EC%B0%BD%20%EA%B3%84%EB%A9%B4%20%EC%A4%91%EA%B1%B0.pdf",
           "sizeBytes": 1671434,
+          "pageCount": 2,
           "hasSync": true,
           "syncDurationSec": 660
         },
@@ -300,6 +332,7 @@
           "path": "book/가곡/여창 계면 편수대엽.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EA%B0%80%EA%B3%A1/%EC%97%AC%EC%B0%BD%20%EA%B3%84%EB%A9%B4%20%ED%8E%B8%EC%88%98%EB%8C%80%EC%97%BD.pdf",
           "sizeBytes": 1945444,
+          "pageCount": 3,
           "hasSync": true,
           "syncDurationSec": 214
         },
@@ -309,6 +342,7 @@
           "path": "book/가곡/여창 계면 평거.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EA%B0%80%EA%B3%A1/%EC%97%AC%EC%B0%BD%20%EA%B3%84%EB%A9%B4%20%ED%8F%89%EA%B1%B0.pdf",
           "sizeBytes": 1699176,
+          "pageCount": 2,
           "hasSync": true,
           "syncDurationSec": 605
         },
@@ -318,6 +352,7 @@
           "path": "book/가곡/여창 계면 평롱.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EA%B0%80%EA%B3%A1/%EC%97%AC%EC%B0%BD%20%EA%B3%84%EB%A9%B4%20%ED%8F%89%EB%A1%B1.pdf",
           "sizeBytes": 1837622,
+          "pageCount": 2,
           "hasSync": true,
           "syncDurationSec": 420
         },
@@ -327,6 +362,7 @@
           "path": "book/가곡/여창 반엽.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EA%B0%80%EA%B3%A1/%EC%97%AC%EC%B0%BD%20%EB%B0%98%EC%97%BD.pdf",
           "sizeBytes": 1705055,
+          "pageCount": 2,
           "hasSync": true,
           "syncDurationSec": 397
         },
@@ -336,6 +372,7 @@
           "path": "book/가곡/여창 우조 두거.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EA%B0%80%EA%B3%A1/%EC%97%AC%EC%B0%BD%20%EC%9A%B0%EC%A1%B0%20%EB%91%90%EA%B1%B0.pdf",
           "sizeBytes": 1796495,
+          "pageCount": 2,
           "hasSync": true,
           "syncDurationSec": 474
         },
@@ -345,6 +382,7 @@
           "path": "book/가곡/여창 우조 우락.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EA%B0%80%EA%B3%A1/%EC%97%AC%EC%B0%BD%20%EC%9A%B0%EC%A1%B0%20%EC%9A%B0%EB%9D%BD.pdf",
           "sizeBytes": 1843250,
+          "pageCount": 2,
           "hasSync": true,
           "syncDurationSec": 363
         },
@@ -354,6 +392,7 @@
           "path": "book/가곡/여창 우조 이수대엽.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EA%B0%80%EA%B3%A1/%EC%97%AC%EC%B0%BD%20%EC%9A%B0%EC%A1%B0%20%EC%9D%B4%EC%88%98%EB%8C%80%EC%97%BD.pdf",
           "sizeBytes": 1632993,
+          "pageCount": 2,
           "hasSync": true,
           "syncDurationSec": 546
         },
@@ -363,6 +402,7 @@
           "path": "book/가곡/여창 우조 중거.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EA%B0%80%EA%B3%A1/%EC%97%AC%EC%B0%BD%20%EC%9A%B0%EC%A1%B0%20%EC%A4%91%EA%B1%B0.pdf",
           "sizeBytes": 1596717,
+          "pageCount": 2,
           "hasSync": true,
           "syncDurationSec": 647
         },
@@ -372,6 +412,7 @@
           "path": "book/가곡/여창 우조 평거.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EA%B0%80%EA%B3%A1/%EC%97%AC%EC%B0%BD%20%EC%9A%B0%EC%A1%B0%20%ED%8F%89%EA%B1%B0.pdf",
           "sizeBytes": 1614815,
+          "pageCount": 2,
           "hasSync": true,
           "syncDurationSec": 628
         },
@@ -381,6 +422,7 @@
           "path": "book/가곡/여창 태평가.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EA%B0%80%EA%B3%A1/%EC%97%AC%EC%B0%BD%20%ED%83%9C%ED%8F%89%EA%B0%80.pdf",
           "sizeBytes": 1469929,
+          "pageCount": 2,
           "hasSync": true,
           "syncDurationSec": 456
         },
@@ -390,6 +432,7 @@
           "path": "book/가곡/여창 환계락.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EA%B0%80%EA%B3%A1/%EC%97%AC%EC%B0%BD%20%ED%99%98%EA%B3%84%EB%9D%BD.pdf",
           "sizeBytes": 1887114,
+          "pageCount": 2,
           "hasSync": true,
           "syncDurationSec": 348
         }
@@ -404,6 +447,7 @@
           "path": "book/대금정악보/가진회상.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EB%8C%80%EA%B8%88%EC%A0%95%EC%95%85%EB%B3%B4/%EA%B0%80%EC%A7%84%ED%9A%8C%EC%83%81.pdf",
           "sizeBytes": 23764097,
+          "pageCount": 27,
           "songs": [
             {
               "title": "상령산",
@@ -467,6 +511,7 @@
           "path": "book/대금정악보/경모궁제례악.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EB%8C%80%EA%B8%88%EC%A0%95%EC%95%85%EB%B3%B4/%EA%B2%BD%EB%AA%A8%EA%B6%81%EC%A0%9C%EB%A1%80%EC%95%85.pdf",
           "sizeBytes": 1371945,
+          "pageCount": 3,
           "songs": [
             {
               "title": "오휴곡",
@@ -504,6 +549,7 @@
           "path": "book/대금정악보/관악영산회상.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EB%8C%80%EA%B8%88%EC%A0%95%EC%95%85%EB%B3%B4/%EA%B4%80%EC%95%85%EC%98%81%EC%82%B0%ED%9A%8C%EC%83%81.pdf",
           "sizeBytes": 12679488,
+          "pageCount": 14,
           "songs": [
             {
               "title": "상령산",
@@ -546,7 +592,8 @@
           "fileName": "낙양춘.pdf",
           "path": "book/대금정악보/낙양춘.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EB%8C%80%EA%B8%88%EC%A0%95%EC%95%85%EB%B3%B4/%EB%82%99%EC%96%91%EC%B6%98.pdf",
-          "sizeBytes": 509746
+          "sizeBytes": 509746,
+          "pageCount": 1
         },
         {
           "name": "도드리",
@@ -554,6 +601,7 @@
           "path": "book/대금정악보/도드리.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EB%8C%80%EA%B8%88%EC%A0%95%EC%95%85%EB%B3%B4/%EB%8F%84%EB%93%9C%EB%A6%AC.pdf",
           "sizeBytes": 6800373,
+          "pageCount": 9,
           "songs": [
             {
               "title": "밑도드리",
@@ -573,6 +621,7 @@
           "path": "book/대금정악보/독주곡-상령산.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EB%8C%80%EA%B8%88%EC%A0%95%EC%95%85%EB%B3%B4/%EB%8F%85%EC%A3%BC%EA%B3%A1-%EC%83%81%EB%A0%B9%EC%82%B0.pdf",
           "sizeBytes": 2057050,
+          "pageCount": 2,
           "hasSync": true,
           "syncDurationSec": 277
         },
@@ -582,6 +631,7 @@
           "path": "book/대금정악보/독주곡-청성자진한잎.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EB%8C%80%EA%B8%88%EC%A0%95%EC%95%85%EB%B3%B4/%EB%8F%85%EC%A3%BC%EA%B3%A1-%EC%B2%AD%EC%84%B1%EC%9E%90%EC%A7%84%ED%95%9C%EC%9E%8E.pdf",
           "sizeBytes": 1671666,
+          "pageCount": 2,
           "hasSync": true,
           "syncDurationSec": 517
         },
@@ -591,6 +641,7 @@
           "path": "book/대금정악보/독주곡-헌천수.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EB%8C%80%EA%B8%88%EC%A0%95%EC%95%85%EB%B3%B4/%EB%8F%85%EC%A3%BC%EA%B3%A1-%ED%97%8C%EC%B2%9C%EC%88%98.pdf",
           "sizeBytes": 907289,
+          "pageCount": 1,
           "hasSync": true,
           "syncDurationSec": 207
         },
@@ -600,6 +651,7 @@
           "path": "book/대금정악보/동동.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EB%8C%80%EA%B8%88%EC%A0%95%EC%95%85%EB%B3%B4/%EB%8F%99%EB%8F%99.pdf",
           "sizeBytes": 834435,
+          "pageCount": 1,
           "hasSync": true,
           "syncDurationSec": 283
         },
@@ -609,6 +661,7 @@
           "path": "book/대금정악보/보허자.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EB%8C%80%EA%B8%88%EC%A0%95%EC%95%85%EB%B3%B4/%EB%B3%B4%ED%97%88%EC%9E%90.pdf",
           "sizeBytes": 3556083,
+          "pageCount": 4,
           "hasSync": true,
           "syncDurationSec": 1009
         },
@@ -618,6 +671,7 @@
           "path": "book/대금정악보/수제천.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EB%8C%80%EA%B8%88%EC%A0%95%EC%95%85%EB%B3%B4/%EC%88%98%EC%A0%9C%EC%B2%9C.pdf",
           "sizeBytes": 2344792,
+          "pageCount": 3,
           "hasSync": true,
           "syncDurationSec": 915
         },
@@ -627,6 +681,7 @@
           "path": "book/대금정악보/여민락.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EB%8C%80%EA%B8%88%EC%A0%95%EC%95%85%EB%B3%B4/%EC%97%AC%EB%AF%BC%EB%9D%BD.pdf",
           "sizeBytes": 17951885,
+          "pageCount": 17,
           "hasSync": true,
           "syncDurationSec": 5215
         },
@@ -635,14 +690,16 @@
           "fileName": "여민락령.pdf",
           "path": "book/대금정악보/여민락령.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EB%8C%80%EA%B8%88%EC%A0%95%EC%95%85%EB%B3%B4/%EC%97%AC%EB%AF%BC%EB%9D%BD%EB%A0%B9.pdf",
-          "sizeBytes": 893497
+          "sizeBytes": 893497,
+          "pageCount": 2
         },
         {
           "name": "여민락만",
           "fileName": "여민락만.pdf",
           "path": "book/대금정악보/여민락만.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EB%8C%80%EA%B8%88%EC%A0%95%EC%95%85%EB%B3%B4/%EC%97%AC%EB%AF%BC%EB%9D%BD%EB%A7%8C.pdf",
-          "sizeBytes": 1814770
+          "sizeBytes": 1814770,
+          "pageCount": 5
         },
         {
           "name": "영산회상",
@@ -650,6 +707,7 @@
           "path": "book/대금정악보/영산회상.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EB%8C%80%EA%B8%88%EC%A0%95%EC%95%85%EB%B3%B4/%EC%98%81%EC%82%B0%ED%9A%8C%EC%83%81.pdf",
           "sizeBytes": 14676642,
+          "pageCount": 15,
           "songs": [
             {
               "title": "상령산",
@@ -696,7 +754,8 @@
           "fileName": "유황곡.pdf",
           "path": "book/대금정악보/유황곡.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EB%8C%80%EA%B8%88%EC%A0%95%EC%95%85%EB%B3%B4/%EC%9C%A0%ED%99%A9%EA%B3%A1.pdf",
-          "sizeBytes": 549450
+          "sizeBytes": 549450,
+          "pageCount": 1
         },
         {
           "name": "자진한잎",
@@ -704,6 +763,7 @@
           "path": "book/대금정악보/자진한잎.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EB%8C%80%EA%B8%88%EC%A0%95%EC%95%85%EB%B3%B4/%EC%9E%90%EC%A7%84%ED%95%9C%EC%9E%8E.pdf",
           "sizeBytes": 11779243,
+          "pageCount": 14,
           "songs": [
             {
               "title": "경풍년(우조두거)",
@@ -742,7 +802,8 @@
           "fileName": "정동방곡.pdf",
           "path": "book/대금정악보/정동방곡.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EB%8C%80%EA%B8%88%EC%A0%95%EC%95%85%EB%B3%B4/%EC%A0%95%EB%8F%99%EB%B0%A9%EA%B3%A1.pdf",
-          "sizeBytes": 337435
+          "sizeBytes": 337435,
+          "pageCount": 1
         },
         {
           "name": "종묘제례악",
@@ -750,6 +811,7 @@
           "path": "book/대금정악보/종묘제례악.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EB%8C%80%EA%B8%88%EC%A0%95%EC%95%85%EB%B3%B4/%EC%A2%85%EB%AC%98%EC%A0%9C%EB%A1%80%EC%95%85.pdf",
           "sizeBytes": 7021813,
+          "pageCount": 16,
           "songs": [
             {
               "title": "전폐희문",
@@ -863,6 +925,7 @@
           "path": "book/대금정악보/천년만세.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EB%8C%80%EA%B8%88%EC%A0%95%EC%95%85%EB%B3%B4/%EC%B2%9C%EB%85%84%EB%A7%8C%EC%84%B8.pdf",
           "sizeBytes": 5874913,
+          "pageCount": 7,
           "songs": [
             {
               "title": "계면가락도드리",
@@ -886,6 +949,7 @@
           "path": "book/대금정악보/취타.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EB%8C%80%EA%B8%88%EC%A0%95%EC%95%85%EB%B3%B4/%EC%B7%A8%ED%83%80.pdf",
           "sizeBytes": 10288745,
+          "pageCount": 12,
           "songs": [
             {
               "title": "취타",
@@ -917,6 +981,7 @@
           "path": "book/대금정악보/평조회상.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EB%8C%80%EA%B8%88%EC%A0%95%EC%95%85%EB%B3%B4/%ED%8F%89%EC%A1%B0%ED%9A%8C%EC%83%81.pdf",
           "sizeBytes": 13942082,
+          "pageCount": 14,
           "songs": [
             {
               "title": "상령산",
@@ -959,7 +1024,8 @@
           "fileName": "해령.pdf",
           "path": "book/대금정악보/해령.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EB%8C%80%EA%B8%88%EC%A0%95%EC%95%85%EB%B3%B4/%ED%95%B4%EB%A0%B9.pdf",
-          "sizeBytes": 3261317
+          "sizeBytes": 3261317,
+          "pageCount": 4
         },
         {
           "name": "현악취타",
@@ -967,6 +1033,7 @@
           "path": "book/대금정악보/현악취타.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EB%8C%80%EA%B8%88%EC%A0%95%EC%95%85%EB%B3%B4/%ED%98%84%EC%95%85%EC%B7%A8%ED%83%80.pdf",
           "sizeBytes": 10165939,
+          "pageCount": 12,
           "songs": [
             {
               "title": "취타",
@@ -1003,6 +1070,7 @@
           "path": "book/산조/산조합주.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EC%82%B0%EC%A1%B0/%EC%82%B0%EC%A1%B0%ED%95%A9%EC%A3%BC.pdf",
           "sizeBytes": 749281,
+          "pageCount": 7,
           "songs": [
             {
               "title": "진양",
@@ -1034,6 +1102,7 @@
           "path": "book/산조/춤산조.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EC%82%B0%EC%A1%B0/%EC%B6%A4%EC%82%B0%EC%A1%B0.pdf",
           "sizeBytes": 668153,
+          "pageCount": 6,
           "songs": [
             {
               "title": "진양",
