@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-11-14T10:57:15Z",
+  "generated": "2026-11-14T11:18:45Z",
   "owner": "lks87454255",
   "repo": "jeongganview-asset",
   "branch": "main",
@@ -1076,7 +1076,9 @@
               "title": "달빛",
               "page": 1
             }
-          ]
+          ],
+          "hasSync": true,
+          "syncDurationSec": 232
         },
         {
           "name": "산조합주",
