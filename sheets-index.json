@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-11-14T13:27:34Z",
+  "generated": "2026-11-14T20:43:01Z",
   "owner": "lks87454255",
   "repo": "jeongganview-asset",
   "branch": "main",
@@ -4213,6 +4213,20 @@
           "sha256": "8660e2eb30fb8502f117c368945943de0ad24c7396939d2e6d5539b14db1ebbe",
           "status": "판독 초안(검수 전)",
           "source": "2권 224쪽"
+        },
+        {
+          "name": "별빛 같은 나의 사랑아",
+          "title": "별빛 같은 나의 사랑아",
+          "fileName": "별빛 같은 나의 사랑아.csv",
+          "path": "sheets/대금율보/csv/가요/별빛 같은 나의 사랑아.csv",
+          "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/sheets/%EB%8C%80%EA%B8%88%EC%9C%A8%EB%B3%B4/csv/%EA%B0%80%EC%9A%94/%EB%B3%84%EB%B9%9B%20%EA%B0%99%EC%9D%80%20%EB%82%98%EC%9D%98%20%EC%82%AC%EB%9E%91%EC%95%84.csv",
+          "sizeBytes": 2091,
+          "beat": "4/4",
+          "rows": 16,
+          "pages": 1,
+          "sha256": "2e724ac5f53417fc6b3d85b70b486d696608840469452176a4ae0751d85becee",
+          "status": "판독 초안(검수 전)",
+          "source": "cafe.naver.com/dawon0"
         },
         {
           "name": "별이 빛나는 밤에",
@@ -9366,6 +9380,6 @@
   ],
   "_total": {
     "categories": 11,
-    "files": 679
+    "files": 680
   }
 }
