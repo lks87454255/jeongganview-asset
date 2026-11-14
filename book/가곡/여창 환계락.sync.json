@@ -21,21 +21,40 @@
    },
    "anchors": [
     {
-     "t": 10,
+     "t": 35,
      "page": 1,
      "grid": 1,
      "col": 1,
      "row": 11
     },
     {
-     "t": 347770,
+     "t": 347713,
      "page": 2,
      "grid": 1,
      "col": 10,
      "row": 11.0
     }
    ],
-   "durationMs": 348019
+   "durationMs": 348019,
+   "check": {
+    "refine": {
+     "method": "refine",
+     "shift": 26,
+     "matchBefore": 0.433,
+     "cvBefore": 0.414,
+     "cv": {
+      "0": 0.417,
+      "16": 0.459,
+      "8": 0.454,
+      "4": 0.451
+     },
+     "level": 16,
+     "matchAfter": 0.501,
+     "cvAfter": 0.459,
+     "medianMoveMs": 660,
+     "maxMoveMs": 1315
+    }
+   }
   }
  ]
 }
