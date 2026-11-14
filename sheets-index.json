@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-11-14T11:27:29Z",
+  "generated": "2026-11-14T13:27:34Z",
   "owner": "lks87454255",
   "repo": "jeongganview-asset",
   "branch": "main",
@@ -5659,8 +5659,8 @@
           "beat": "4/4",
           "rows": 16,
           "pages": 1,
-          "sha256": "206805419f69f4ac92b344fb190c21e29b150e459fedf790ff56748d1b8ed0cb",
-          "status": "판독 초안(검수 전)",
+          "sha256": "52704c76c14fb5ab086a901e58b5922ce8d7e5320f32c4c472c0063f58cd2cd8",
+          "status": "검수 완료(2026-11-14)",
           "source": "임재원 작곡·연주(악보 사진, 2026-11-14)"
         },
         {
