@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-11-10T23:41:45Z",
+  "generated": "2026-11-14T10:23:48Z",
   "owner": "lks87454255",
   "repo": "jeongganview-asset",
   "branch": "main",
@@ -1065,6 +1065,20 @@
       "name": "산조",
       "files": [
         {
+          "name": "달빛",
+          "fileName": "달빛.pdf",
+          "path": "book/산조/달빛.pdf",
+          "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EC%82%B0%EC%A1%B0/%EB%8B%AC%EB%B9%9B.pdf",
+          "sizeBytes": 291925,
+          "pageCount": 1,
+          "songs": [
+            {
+              "title": "달빛",
+              "page": 1
+            }
+          ]
+        },
+        {
           "name": "산조합주",
           "fileName": "산조합주.pdf",
           "path": "book/산조/산조합주.pdf",
@@ -1128,6 +1142,6 @@
   "adminCategories": [],
   "_total": {
     "categories": 3,
-    "files": 69
+    "files": 70
   }
 }
