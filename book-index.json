@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-11-14T13:05:56Z",
+  "generated": "2026-11-15T12:34:08Z",
   "owner": "lks87454255",
   "repo": "jeongganview-asset",
   "branch": "main",
@@ -1139,11 +1139,72 @@
           ]
         }
       ]
+    },
+    {
+      "name": "이생강류 대금산조",
+      "files": [
+        {
+          "name": "1 진양",
+          "fileName": "1 진양.pdf",
+          "path": "book/이생강류 대금산조/1 진양.pdf",
+          "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EC%9D%B4%EC%83%9D%EA%B0%95%EB%A5%98%20%EB%8C%80%EA%B8%88%EC%82%B0%EC%A1%B0/1%20%EC%A7%84%EC%96%91.pdf",
+          "sizeBytes": 180338,
+          "pageCount": 6,
+          "songs": [
+            {
+              "title": "1 진양",
+              "page": 1
+            }
+          ]
+        },
+        {
+          "name": "2 중모리",
+          "fileName": "2 중모리.pdf",
+          "path": "book/이생강류 대금산조/2 중모리.pdf",
+          "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EC%9D%B4%EC%83%9D%EA%B0%95%EB%A5%98%20%EB%8C%80%EA%B8%88%EC%82%B0%EC%A1%B0/2%20%EC%A4%91%EB%AA%A8%EB%A6%AC.pdf",
+          "sizeBytes": 218290,
+          "pageCount": 11,
+          "songs": [
+            {
+              "title": "2 중모리",
+              "page": 1
+            }
+          ]
+        },
+        {
+          "name": "3 중중모리",
+          "fileName": "3 중중모리.pdf",
+          "path": "book/이생강류 대금산조/3 중중모리.pdf",
+          "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EC%9D%B4%EC%83%9D%EA%B0%95%EB%A5%98%20%EB%8C%80%EA%B8%88%EC%82%B0%EC%A1%B0/3%20%EC%A4%91%EC%A4%91%EB%AA%A8%EB%A6%AC.pdf",
+          "sizeBytes": 216014,
+          "pageCount": 19,
+          "songs": [
+            {
+              "title": "3 중중모리",
+              "page": 1
+            }
+          ]
+        },
+        {
+          "name": "4 자진모리",
+          "fileName": "4 자진모리.pdf",
+          "path": "book/이생강류 대금산조/4 자진모리.pdf",
+          "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EC%9D%B4%EC%83%9D%EA%B0%95%EB%A5%98%20%EB%8C%80%EA%B8%88%EC%82%B0%EC%A1%B0/4%20%EC%9E%90%EC%A7%84%EB%AA%A8%EB%A6%AC.pdf",
+          "sizeBytes": 154116,
+          "pageCount": 9,
+          "songs": [
+            {
+              "title": "4 자진모리",
+              "page": 1
+            }
+          ]
+        }
+      ]
     }
   ],
   "adminCategories": [],
   "_total": {
-    "categories": 3,
-    "files": 70
+    "categories": 4,
+    "files": 74
   }
 }
