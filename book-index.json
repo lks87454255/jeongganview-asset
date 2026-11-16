@@ -1,10 +1,47 @@
 {
   "version": 1,
-  "generated": "2026-11-16T11:58:55Z",
+  "generated": "2026-11-16T12:00:41Z",
   "owner": "lks87454255",
   "repo": "jeongganview-asset",
   "branch": "main",
   "categories": [
+    {
+      "name": "AI 음원",
+      "files": [
+        {
+          "name": "달빛 MR피아노",
+          "fileName": "달빛 MR피아노.pdf",
+          "path": "book/AI 음원/달빛 MR피아노.pdf",
+          "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/AI%20%EC%9D%8C%EC%9B%90/%EB%8B%AC%EB%B9%9B%20MR%ED%94%BC%EC%95%84%EB%85%B8.pdf",
+          "sizeBytes": 293911,
+          "pageCount": 1,
+          "songs": [
+            {
+              "title": "달빛",
+              "page": 1
+            }
+          ],
+          "hasSync": true,
+          "syncDurationSec": 232
+        },
+        {
+          "name": "달빛 새반주",
+          "fileName": "달빛 새반주.pdf",
+          "path": "book/AI 음원/달빛 새반주.pdf",
+          "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/AI%20%EC%9D%8C%EC%9B%90/%EB%8B%AC%EB%B9%9B%20%EC%83%88%EB%B0%98%EC%A3%BC.pdf",
+          "sizeBytes": 293911,
+          "pageCount": 1,
+          "songs": [
+            {
+              "title": "달빛",
+              "page": 1
+            }
+          ],
+          "hasSync": true,
+          "syncDurationSec": 232
+        }
+      ]
+    },
     {
       "name": "가곡",
       "files": [
@@ -1065,38 +1102,6 @@
       "name": "산조",
       "files": [
         {
-          "name": "달빛 MR피아노",
-          "fileName": "달빛 MR피아노.pdf",
-          "path": "book/산조/달빛 MR피아노.pdf",
-          "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EC%82%B0%EC%A1%B0/%EB%8B%AC%EB%B9%9B%20MR%ED%94%BC%EC%95%84%EB%85%B8.pdf",
-          "sizeBytes": 293911,
-          "pageCount": 1,
-          "songs": [
-            {
-              "title": "달빛",
-              "page": 1
-            }
-          ],
-          "hasSync": true,
-          "syncDurationSec": 232
-        },
-        {
-          "name": "달빛 새반주",
-          "fileName": "달빛 새반주.pdf",
-          "path": "book/산조/달빛 새반주.pdf",
-          "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EC%82%B0%EC%A1%B0/%EB%8B%AC%EB%B9%9B%20%EC%83%88%EB%B0%98%EC%A3%BC.pdf",
-          "sizeBytes": 293911,
-          "pageCount": 1,
-          "songs": [
-            {
-              "title": "달빛",
-              "page": 1
-            }
-          ],
-          "hasSync": true,
-          "syncDurationSec": 232
-        },
-        {
           "name": "산조합주",
           "fileName": "산조합주.pdf",
           "path": "book/산조/산조합주.pdf",
@@ -1220,7 +1225,7 @@
   ],
   "adminCategories": [],
   "_total": {
-    "categories": 4,
+    "categories": 5,
     "files": 75
   }
 }
