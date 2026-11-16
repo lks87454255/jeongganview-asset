@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-11-16T12:00:41Z",
+  "generated": "2026-11-16T12:07:37Z",
   "owner": "lks87454255",
   "repo": "jeongganview-asset",
   "branch": "main",
@@ -25,10 +25,10 @@
           "syncDurationSec": 232
         },
         {
-          "name": "달빛 새반주",
-          "fileName": "달빛 새반주.pdf",
-          "path": "book/AI 음원/달빛 새반주.pdf",
-          "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/AI%20%EC%9D%8C%EC%9B%90/%EB%8B%AC%EB%B9%9B%20%EC%83%88%EB%B0%98%EC%A3%BC.pdf",
+          "name": "달빛 피아노현악",
+          "fileName": "달빛 피아노현악.pdf",
+          "path": "book/AI 음원/달빛 피아노현악.pdf",
+          "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/AI%20%EC%9D%8C%EC%9B%90/%EB%8B%AC%EB%B9%9B%20%ED%94%BC%EC%95%84%EB%85%B8%ED%98%84%EC%95%85.pdf",
           "sizeBytes": 293911,
           "pageCount": 1,
           "songs": [
