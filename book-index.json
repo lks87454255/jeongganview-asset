@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-11-17T13:17:50Z",
+  "generated": "2026-11-17T13:32:22Z",
   "owner": "lks87454255",
   "repo": "jeongganview-asset",
   "branch": "main",
@@ -13,7 +13,7 @@
           "fileName": "달빛-피아노.pdf",
           "path": "book/AI 음원/달빛-피아노.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/AI%20%EC%9D%8C%EC%9B%90/%EB%8B%AC%EB%B9%9B-%ED%94%BC%EC%95%84%EB%85%B8.pdf",
-          "sizeBytes": 292365,
+          "sizeBytes": 304713,
           "pageCount": 1,
           "songs": [
             {
@@ -29,7 +29,7 @@
           "fileName": "달빛-피아노현악.pdf",
           "path": "book/AI 음원/달빛-피아노현악.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/AI%20%EC%9D%8C%EC%9B%90/%EB%8B%AC%EB%B9%9B-%ED%94%BC%EC%95%84%EB%85%B8%ED%98%84%EC%95%85.pdf",
-          "sizeBytes": 292365,
+          "sizeBytes": 304713,
           "pageCount": 1,
           "songs": [
             {
@@ -61,14 +61,16 @@
           "fileName": "추월장강.pdf",
           "path": "book/AI 음원/추월장강.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/AI%20%EC%9D%8C%EC%9B%90/%EC%B6%94%EC%9B%94%EC%9E%A5%EA%B0%95.pdf",
-          "sizeBytes": 97229,
+          "sizeBytes": 111610,
           "pageCount": 1,
           "songs": [
             {
               "title": "추월장강",
               "page": 1
             }
-          ]
+          ],
+          "hasSync": true,
+          "syncDurationSec": 312
         }
       ]
     },
