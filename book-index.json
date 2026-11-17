@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-11-16T12:36:26Z",
+  "generated": "2026-11-17T04:17:53Z",
   "owner": "lks87454255",
   "repo": "jeongganview-asset",
   "branch": "main",
@@ -1099,6 +1099,53 @@
       ]
     },
     {
+      "name": "민요",
+      "files": [
+        {
+          "name": "경복궁타령",
+          "fileName": "경복궁타령.pdf",
+          "path": "book/민요/경복궁타령.pdf",
+          "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EB%AF%BC%EC%9A%94/%EA%B2%BD%EB%B3%B5%EA%B6%81%ED%83%80%EB%A0%B9.pdf",
+          "sizeBytes": 61608,
+          "pageCount": 1,
+          "songs": [
+            {
+              "title": "경복궁타령",
+              "page": 1
+            }
+          ]
+        },
+        {
+          "name": "궁초댕기",
+          "fileName": "궁초댕기.pdf",
+          "path": "book/민요/궁초댕기.pdf",
+          "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EB%AF%BC%EC%9A%94/%EA%B6%81%EC%B4%88%EB%8C%95%EA%B8%B0.pdf",
+          "sizeBytes": 74661,
+          "pageCount": 1,
+          "songs": [
+            {
+              "title": "궁초댕기",
+              "page": 1
+            }
+          ]
+        },
+        {
+          "name": "도라지타령",
+          "fileName": "도라지타령.pdf",
+          "path": "book/민요/도라지타령.pdf",
+          "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EB%AF%BC%EC%9A%94/%EB%8F%84%EB%9D%BC%EC%A7%80%ED%83%80%EB%A0%B9.pdf",
+          "sizeBytes": 92458,
+          "pageCount": 1,
+          "songs": [
+            {
+              "title": "도라지타령",
+              "page": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
       "name": "산조",
       "files": [
         {
@@ -1225,7 +1272,7 @@
   ],
   "adminCategories": [],
   "_total": {
-    "categories": 5,
-    "files": 75
+    "categories": 6,
+    "files": 78
   }
 }
