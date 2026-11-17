@@ -80,6 +80,18 @@
      "dy_pt": 27.0
     },
     {
+     "t": "1/6",
+     "dir": "h",
+     "font": "ko",
+     "x": 24,
+     "y": 0,
+     "size": 12,
+     "size_pt": 12.0,
+     "align": "left",
+     "header_of": 1,
+     "dy_pt": 20.0
+    },
+    {
      "t": "아",
      "dir": "v",
      "font": "ko",
@@ -1045,6 +1057,54 @@
    "uniform_size": true,
    "texts": [
     {
+     "t": "창부타령 2",
+     "dir": "h",
+     "font": "kob",
+     "x": 297.5,
+     "y": 0,
+     "size": 18,
+     "size_pt": 18.0,
+     "align": "center",
+     "header_of": 1,
+     "dy_pt": 17.0
+    },
+    {
+     "t": "굿거리 · 3/4",
+     "dir": "h",
+     "font": "ko",
+     "x": 572,
+     "y": 0,
+     "size": 11,
+     "size_pt": 11.0,
+     "align": "right",
+     "header_of": 1,
+     "dy_pt": 8.0
+    },
+    {
+     "t": "음원 E♭ / Cm",
+     "dir": "h",
+     "font": "ko",
+     "x": 572,
+     "y": 0,
+     "size": 11,
+     "size_pt": 11.0,
+     "align": "right",
+     "header_of": 1,
+     "dy_pt": 27.0
+    },
+    {
+     "t": "2/6",
+     "dir": "h",
+     "font": "ko",
+     "x": 24,
+     "y": 0,
+     "size": 12,
+     "size_pt": 12.0,
+     "align": "left",
+     "header_of": 1,
+     "dy_pt": 20.0
+    },
+    {
      "t": "남",
      "dir": "v",
      "font": "ko",
@@ -1959,6 +2019,54 @@
    "outline_pt": 1.1,
    "uniform_size": true,
    "texts": [
+    {
+     "t": "창부타령 2",
+     "dir": "h",
+     "font": "kob",
+     "x": 297.5,
+     "y": 0,
+     "size": 18,
+     "size_pt": 18.0,
+     "align": "center",
+     "header_of": 1,
+     "dy_pt": 17.0
+    },
+    {
+     "t": "굿거리 · 3/4",
+     "dir": "h",
+     "font": "ko",
+     "x": 572,
+     "y": 0,
+     "size": 11,
+     "size_pt": 11.0,
+     "align": "right",
+     "header_of": 1,
+     "dy_pt": 8.0
+    },
+    {
+     "t": "음원 E♭ / Cm",
+     "dir": "h",
+     "font": "ko",
+     "x": 572,
+     "y": 0,
+     "size": 11,
+     "size_pt": 11.0,
+     "align": "right",
+     "header_of": 1,
+     "dy_pt": 27.0
+    },
+    {
+     "t": "3/6",
+     "dir": "h",
+     "font": "ko",
+     "x": 24,
+     "y": 0,
+     "size": 12,
+     "size_pt": 12.0,
+     "align": "left",
+     "header_of": 1,
+     "dy_pt": 20.0
+    },
     {
      "t": "안",
      "dir": "v",
@@ -2914,6 +3022,54 @@
    "outline_pt": 1.1,
    "uniform_size": true,
    "texts": [
+    {
+     "t": "창부타령 2",
+     "dir": "h",
+     "font": "kob",
+     "x": 297.5,
+     "y": 0,
+     "size": 18,
+     "size_pt": 18.0,
+     "align": "center",
+     "header_of": 1,
+     "dy_pt": 17.0
+    },
+    {
+     "t": "굿거리 · 3/4",
+     "dir": "h",
+     "font": "ko",
+     "x": 572,
+     "y": 0,
+     "size": 11,
+     "size_pt": 11.0,
+     "align": "right",
+     "header_of": 1,
+     "dy_pt": 8.0
+    },
+    {
+     "t": "음원 E♭ / Cm",
+     "dir": "h",
+     "font": "ko",
+     "x": 572,
+     "y": 0,
+     "size": 11,
+     "size_pt": 11.0,
+     "align": "right",
+     "header_of": 1,
+     "dy_pt": 27.0
+    },
+    {
+     "t": "4/6",
+     "dir": "h",
+     "font": "ko",
+     "x": 24,
+     "y": 0,
+     "size": 12,
+     "size_pt": 12.0,
+     "align": "left",
+     "header_of": 1,
+     "dy_pt": 20.0
+    },
     {
      "t": "추",
      "dir": "v",
@@ -3890,6 +4046,54 @@
    "uniform_size": true,
    "texts": [
     {
+     "t": "창부타령 2",
+     "dir": "h",
+     "font": "kob",
+     "x": 297.5,
+     "y": 0,
+     "size": 18,
+     "size_pt": 18.0,
+     "align": "center",
+     "header_of": 1,
+     "dy_pt": 17.0
+    },
+    {
+     "t": "굿거리 · 3/4",
+     "dir": "h",
+     "font": "ko",
+     "x": 572,
+     "y": 0,
+     "size": 11,
+     "size_pt": 11.0,
+     "align": "right",
+     "header_of": 1,
+     "dy_pt": 8.0
+    },
+    {
+     "t": "음원 E♭ / Cm",
+     "dir": "h",
+     "font": "ko",
+     "x": 572,
+     "y": 0,
+     "size": 11,
+     "size_pt": 11.0,
+     "align": "right",
+     "header_of": 1,
+     "dy_pt": 27.0
+    },
+    {
+     "t": "5/6",
+     "dir": "h",
+     "font": "ko",
+     "x": 24,
+     "y": 0,
+     "size": 12,
+     "size_pt": 12.0,
+     "align": "left",
+     "header_of": 1,
+     "dy_pt": 20.0
+    },
+    {
      "t": "아",
      "dir": "v",
      "font": "ko",
@@ -4824,6 +5028,54 @@
    "outline_pt": 1.1,
    "uniform_size": true,
    "texts": [
+    {
+     "t": "창부타령 2",
+     "dir": "h",
+     "font": "kob",
+     "x": 297.5,
+     "y": 0,
+     "size": 18,
+     "size_pt": 18.0,
+     "align": "center",
+     "header_of": 1,
+     "dy_pt": 17.0
+    },
+    {
+     "t": "굿거리 · 3/4",
+     "dir": "h",
+     "font": "ko",
+     "x": 572,
+     "y": 0,
+     "size": 11,
+     "size_pt": 11.0,
+     "align": "right",
+     "header_of": 1,
+     "dy_pt": 8.0
+    },
+    {
+     "t": "음원 E♭ / Cm",
+     "dir": "h",
+     "font": "ko",
+     "x": 572,
+     "y": 0,
+     "size": 11,
+     "size_pt": 11.0,
+     "align": "right",
+     "header_of": 1,
+     "dy_pt": 27.0
+    },
+    {
+     "t": "6/6",
+     "dir": "h",
+     "font": "ko",
+     "x": 24,
+     "y": 0,
+     "size": 12,
+     "size_pt": 12.0,
+     "align": "left",
+     "header_of": 1,
+     "dy_pt": 20.0
+    },
     {
      "t": "대",
      "dir": "v",

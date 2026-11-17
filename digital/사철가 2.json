@@ -80,6 +80,18 @@
      "dy_pt": 27.0
     },
     {
+     "t": "1/2",
+     "dir": "h",
+     "font": "ko",
+     "x": 24,
+     "y": 0,
+     "size": 12,
+     "size_pt": 12.0,
+     "align": "left",
+     "header_of": 1,
+     "dy_pt": 20.0
+    },
+    {
      "t": "왔네",
      "dir": "v",
      "font": "ko",
@@ -983,6 +995,54 @@
    "outline_pt": 1.1,
    "uniform_size": true,
    "texts": [
+    {
+     "t": "사철가 2",
+     "dir": "h",
+     "font": "kob",
+     "x": 297.5,
+     "y": 0,
+     "size": 18,
+     "size_pt": 18.0,
+     "align": "center",
+     "header_of": 1,
+     "dy_pt": 17.0
+    },
+    {
+     "t": "굿거리 · 4/4",
+     "dir": "h",
+     "font": "ko",
+     "x": 572,
+     "y": 0,
+     "size": 11,
+     "size_pt": 11.0,
+     "align": "right",
+     "header_of": 1,
+     "dy_pt": 8.0
+    },
+    {
+     "t": "음원 E / D♭m",
+     "dir": "h",
+     "font": "ko",
+     "x": 572,
+     "y": 0,
+     "size": 11,
+     "size_pt": 11.0,
+     "align": "right",
+     "header_of": 1,
+     "dy_pt": 27.0
+    },
+    {
+     "t": "2/2",
+     "dir": "h",
+     "font": "ko",
+     "x": 24,
+     "y": 0,
+     "size": 12,
+     "size_pt": 12.0,
+     "align": "left",
+     "header_of": 1,
+     "dy_pt": 20.0
+    },
     {
      "t": "넘",
      "dir": "v",
