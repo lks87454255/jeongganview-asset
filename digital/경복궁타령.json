@@ -3,7 +3,8 @@
  "book": "민요",
  "source_pdf": "digital/민요-빈쪽.pdf",
  "fonts": "noto",
- "note": "원본: 대금율보 2권 89쪽(book/대금율보/). 판독: 정간보 목록 CSV(sheets/대금율보/csv/민요/경복궁타령.csv) 를 원본 스캔과 칸마다 대조해 0칸 고침(2026-11-17, make_minyo_digital.py). 녹음: AI-Hub 71955 국악 합주(음원 싱크는 다음 단계).",
+ "uniform_pt": 23.53,
+ "note": "원본: 대금율보 2권 89쪽(book/대금율보/). 판독: 정간보 목록 CSV (sheets/대금율보/csv/민요/경복궁타령.csv) — 원본 스캔과 칸마다 대조해 0칸 고침(2026-11-17). make_minyo_digital.py 로 만듦. 글꼴: 앱 Noto Serif(사용자 지시 2026-11-17). 음원 조성 E♭ / Cm: AI-Hub 71955 메타데이터.",
  "songs": [
   {
    "title": "경복궁타령",
