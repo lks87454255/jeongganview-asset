@@ -68,18 +68,6 @@
      "dy_pt": 8.0
     },
     {
-     "t": "1/3",
-     "dir": "h",
-     "font": "ko",
-     "x": 24,
-     "y": 0,
-     "size": 12,
-     "size_pt": 12.0,
-     "align": "left",
-     "header_of": 1,
-     "dy_pt": 20.0
-    },
-    {
      "t": "오늘이",
      "dir": "v",
      "font": "ko",
@@ -657,18 +645,6 @@
      "dy_pt": 8.0
     },
     {
-     "t": "2/3",
-     "dir": "h",
-     "font": "ko",
-     "x": 24,
-     "y": 0,
-     "size": 12,
-     "size_pt": 12.0,
-     "align": "left",
-     "header_of": 1,
-     "dy_pt": 20.0
-    },
-    {
      "t": "오늘에",
      "dir": "v",
      "font": "ko",
@@ -1214,18 +1190,6 @@
      "align": "right",
      "header_of": 1,
      "dy_pt": 8.0
-    },
-    {
-     "t": "3/3",
-     "dir": "h",
-     "font": "ko",
-     "x": 24,
-     "y": 0,
-     "size": 12,
-     "size_pt": 12.0,
-     "align": "left",
-     "header_of": 1,
-     "dy_pt": 20.0
     },
     {
      "t": "그네를",

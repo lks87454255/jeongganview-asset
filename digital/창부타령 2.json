@@ -80,18 +80,6 @@
      "dy_pt": 27.0
     },
     {
-     "t": "1/6",
-     "dir": "h",
-     "font": "ko",
-     "x": 24,
-     "y": 0,
-     "size": 12,
-     "size_pt": 12.0,
-     "align": "left",
-     "header_of": 1,
-     "dy_pt": 20.0
-    },
-    {
      "t": "아",
      "dir": "v",
      "font": "ko",
@@ -1093,18 +1081,6 @@
      "dy_pt": 27.0
     },
     {
-     "t": "2/6",
-     "dir": "h",
-     "font": "ko",
-     "x": 24,
-     "y": 0,
-     "size": 12,
-     "size_pt": 12.0,
-     "align": "left",
-     "header_of": 1,
-     "dy_pt": 20.0
-    },
-    {
      "t": "남",
      "dir": "v",
      "font": "ko",
@@ -2054,18 +2030,6 @@
      "align": "right",
      "header_of": 1,
      "dy_pt": 27.0
-    },
-    {
-     "t": "3/6",
-     "dir": "h",
-     "font": "ko",
-     "x": 24,
-     "y": 0,
-     "size": 12,
-     "size_pt": 12.0,
-     "align": "left",
-     "header_of": 1,
-     "dy_pt": 20.0
     },
     {
      "t": "안",
@@ -3057,18 +3021,6 @@
      "align": "right",
      "header_of": 1,
      "dy_pt": 27.0
-    },
-    {
-     "t": "4/6",
-     "dir": "h",
-     "font": "ko",
-     "x": 24,
-     "y": 0,
-     "size": 12,
-     "size_pt": 12.0,
-     "align": "left",
-     "header_of": 1,
-     "dy_pt": 20.0
     },
     {
      "t": "추",
@@ -4082,18 +4034,6 @@
      "dy_pt": 27.0
     },
     {
-     "t": "5/6",
-     "dir": "h",
-     "font": "ko",
-     "x": 24,
-     "y": 0,
-     "size": 12,
-     "size_pt": 12.0,
-     "align": "left",
-     "header_of": 1,
-     "dy_pt": 20.0
-    },
-    {
      "t": "아",
      "dir": "v",
      "font": "ko",
@@ -5063,18 +5003,6 @@
      "align": "right",
      "header_of": 1,
      "dy_pt": 27.0
-    },
-    {
-     "t": "6/6",
-     "dir": "h",
-     "font": "ko",
-     "x": 24,
-     "y": 0,
-     "size": 12,
-     "size_pt": 12.0,
-     "align": "left",
-     "header_of": 1,
-     "dy_pt": 20.0
     },
     {
      "t": "대",

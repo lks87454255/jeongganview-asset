@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-11-17T08:20:56Z",
+  "generated": "2026-11-17T08:29:36Z",
   "owner": "lks87454255",
   "repo": "jeongganview-asset",
   "branch": "main",
@@ -1478,7 +1478,7 @@
           "fileName": "남원산성.pdf",
           "path": "book/민요/남원산성.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EB%AF%BC%EC%9A%94/%EB%82%A8%EC%9B%90%EC%82%B0%EC%84%B1.pdf",
-          "sizeBytes": 158480,
+          "sizeBytes": 158479,
           "pageCount": 3,
           "songs": [
             {
@@ -1590,7 +1590,7 @@
           "fileName": "단오노래.pdf",
           "path": "book/민요/단오노래.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EB%AF%BC%EC%9A%94/%EB%8B%A8%EC%98%A4%EB%85%B8%EB%9E%98.pdf",
-          "sizeBytes": 176054,
+          "sizeBytes": 176052,
           "pageCount": 3,
           "songs": [
             {

@@ -68,18 +68,6 @@
      "dy_pt": 8.0
     },
     {
-     "t": "1/4",
-     "dir": "h",
-     "font": "ko",
-     "x": 24,
-     "y": 0,
-     "size": 12,
-     "size_pt": 12.0,
-     "align": "left",
-     "header_of": 1,
-     "dy_pt": 20.0
-    },
-    {
      "t": "에",
      "dir": "v",
      "font": "ko",
@@ -806,18 +794,6 @@
      "align": "right",
      "header_of": 1,
      "dy_pt": 8.0
-    },
-    {
-     "t": "2/4",
-     "dir": "h",
-     "font": "ko",
-     "x": 24,
-     "y": 0,
-     "size": 12,
-     "size_pt": 12.0,
-     "align": "left",
-     "header_of": 1,
-     "dy_pt": 20.0
     },
     {
      "t": "십",
@@ -1856,18 +1832,6 @@
      "align": "right",
      "header_of": 1,
      "dy_pt": 8.0
-    },
-    {
-     "t": "3/4",
-     "dir": "h",
-     "font": "ko",
-     "x": 24,
-     "y": 0,
-     "size": 12,
-     "size_pt": 12.0,
-     "align": "left",
-     "header_of": 1,
-     "dy_pt": 20.0
     },
     {
      "t": "배",
@@ -2926,18 +2890,6 @@
      "align": "right",
      "header_of": 1,
      "dy_pt": 8.0
-    },
-    {
-     "t": "4/4",
-     "dir": "h",
-     "font": "ko",
-     "x": 24,
-     "y": 0,
-     "size": 12,
-     "size_pt": 12.0,
-     "align": "left",
-     "header_of": 1,
-     "dy_pt": 20.0
     },
     {
      "t": "에",
