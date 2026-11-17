@@ -47,11 +47,11 @@
      "t": "도라지타령",
      "dir": "h",
      "font": "kob",
-     "x": 24,
+     "x": 297.5,
      "y": 0,
      "size": 18,
      "size_pt": 18.0,
-     "align": "left",
+     "align": "center",
      "header_of": 1,
      "dy_pt": 17.0
     },
@@ -68,7 +68,7 @@
      "dy_pt": 8.0
     },
     {
-     "t": "대금율보 2권 88쪽",
+     "t": "음원 E♭ / Cm",
      "dir": "h",
      "font": "ko",
      "x": 572,
