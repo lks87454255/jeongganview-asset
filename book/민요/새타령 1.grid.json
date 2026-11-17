@@ -5,7 +5,7 @@
     "1": [
       {
         "gridId": 1,
-        "cols": 10,
+        "cols": 8,
         "rows": 12,
         "columnConfigs": [
           {
@@ -45,16 +45,6 @@
           },
           {
             "colIndex": 8,
-            "startRow": 1,
-            "endRow": 12
-          },
-          {
-            "colIndex": 9,
-            "startRow": 1,
-            "endRow": 12
-          },
-          {
-            "colIndex": 10,
             "startRow": 1,
             "endRow": 12
           }
@@ -69,7 +59,7 @@
     "2": [
       {
         "gridId": 1,
-        "cols": 10,
+        "cols": 8,
         "rows": 12,
         "columnConfigs": [
           {
@@ -111,16 +101,6 @@
             "colIndex": 8,
             "startRow": 1,
             "endRow": 12
-          },
-          {
-            "colIndex": 9,
-            "startRow": 1,
-            "endRow": 12
-          },
-          {
-            "colIndex": 10,
-            "startRow": 1,
-            "endRow": 12
           }
         ],
         "x": 0.0294,
@@ -133,18 +113,38 @@
     "3": [
       {
         "gridId": 1,
-        "cols": 1,
+        "cols": 5,
         "rows": 12,
         "columnConfigs": [
           {
             "colIndex": 1,
             "startRow": 1,
             "endRow": 12
+          },
+          {
+            "colIndex": 2,
+            "startRow": 1,
+            "endRow": 12
+          },
+          {
+            "colIndex": 3,
+            "startRow": 1,
+            "endRow": 12
+          },
+          {
+            "colIndex": 4,
+            "startRow": 1,
+            "endRow": 12
+          },
+          {
+            "colIndex": 5,
+            "startRow": 1,
+            "endRow": 12
           }
         ],
-        "x": 0.8765,
+        "x": 0.3824,
         "y": 0.0832,
-        "width": 0.1122,
+        "width": 0.5882,
         "height": 0.8954,
         "title": "새타령 1"
       }

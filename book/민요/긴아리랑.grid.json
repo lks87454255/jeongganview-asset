@@ -5,7 +5,7 @@
     "1": [
       {
         "gridId": 1,
-        "cols": 10,
+        "cols": 8,
         "rows": 12,
         "columnConfigs": [
           {
@@ -47,16 +47,6 @@
             "colIndex": 8,
             "startRow": 1,
             "endRow": 12
-          },
-          {
-            "colIndex": 9,
-            "startRow": 1,
-            "endRow": 12
-          },
-          {
-            "colIndex": 10,
-            "startRow": 1,
-            "endRow": 12
           }
         ],
         "x": 0.0294,
@@ -69,7 +59,7 @@
     "2": [
       {
         "gridId": 1,
-        "cols": 6,
+        "cols": 8,
         "rows": 12,
         "columnConfigs": [
           {
@@ -101,11 +91,21 @@
             "colIndex": 6,
             "startRow": 1,
             "endRow": 12
+          },
+          {
+            "colIndex": 7,
+            "startRow": 1,
+            "endRow": 12
+          },
+          {
+            "colIndex": 8,
+            "startRow": 1,
+            "endRow": 12
           }
         ],
-        "x": 0.4059,
+        "x": 0.0294,
         "y": 0.0832,
-        "width": 0.5647,
+        "width": 0.9412,
         "height": 0.8954,
         "title": "긴아리랑"
       }

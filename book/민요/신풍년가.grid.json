@@ -1,11 +1,11 @@
 {
   "fileName": "신풍년가.pdf",
-  "totalPages": 2,
+  "totalPages": 1,
   "pageData": {
     "1": [
       {
         "gridId": 1,
-        "cols": 10,
+        "cols": 12,
         "rows": 12,
         "columnConfigs": [
           {
@@ -57,35 +57,21 @@
             "colIndex": 10,
             "startRow": 1,
             "endRow": 12
+          },
+          {
+            "colIndex": 11,
+            "startRow": 1,
+            "endRow": 12
+          },
+          {
+            "colIndex": 12,
+            "startRow": 1,
+            "endRow": 12
           }
         ],
         "x": 0.0294,
         "y": 0.0832,
         "width": 0.9412,
-        "height": 0.8954,
-        "title": "신풍년가"
-      }
-    ],
-    "2": [
-      {
-        "gridId": 1,
-        "cols": 2,
-        "rows": 12,
-        "columnConfigs": [
-          {
-            "colIndex": 1,
-            "startRow": 1,
-            "endRow": 12
-          },
-          {
-            "colIndex": 2,
-            "startRow": 1,
-            "endRow": 12
-          }
-        ],
-        "x": 0.7824,
-        "y": 0.0832,
-        "width": 0.1882,
         "height": 0.8954,
         "title": "신풍년가"
       }

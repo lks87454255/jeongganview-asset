@@ -1,11 +1,11 @@
 {
   "fileName": "남원산성.pdf",
-  "totalPages": 3,
+  "totalPages": 4,
   "pageData": {
     "1": [
       {
         "gridId": 1,
-        "cols": 10,
+        "cols": 8,
         "rows": 12,
         "columnConfigs": [
           {
@@ -45,16 +45,6 @@
           },
           {
             "colIndex": 8,
-            "startRow": 1,
-            "endRow": 12
-          },
-          {
-            "colIndex": 9,
-            "startRow": 1,
-            "endRow": 12
-          },
-          {
-            "colIndex": 10,
             "startRow": 1,
             "endRow": 12
           }
@@ -69,7 +59,7 @@
     "2": [
       {
         "gridId": 1,
-        "cols": 10,
+        "cols": 8,
         "rows": 12,
         "columnConfigs": [
           {
@@ -111,16 +101,6 @@
             "colIndex": 8,
             "startRow": 1,
             "endRow": 12
-          },
-          {
-            "colIndex": 9,
-            "startRow": 1,
-            "endRow": 12
-          },
-          {
-            "colIndex": 10,
-            "startRow": 1,
-            "endRow": 12
           }
         ],
         "x": 0.0294,
@@ -133,7 +113,7 @@
     "3": [
       {
         "gridId": 1,
-        "cols": 6,
+        "cols": 8,
         "rows": 12,
         "columnConfigs": [
           {
@@ -165,11 +145,45 @@
             "colIndex": 6,
             "startRow": 1,
             "endRow": 12
+          },
+          {
+            "colIndex": 7,
+            "startRow": 1,
+            "endRow": 12
+          },
+          {
+            "colIndex": 8,
+            "startRow": 1,
+            "endRow": 12
           }
         ],
-        "x": 0.4059,
+        "x": 0.0294,
         "y": 0.0832,
-        "width": 0.5647,
+        "width": 0.9412,
+        "height": 0.8954,
+        "title": "남원산성"
+      }
+    ],
+    "4": [
+      {
+        "gridId": 1,
+        "cols": 2,
+        "rows": 12,
+        "columnConfigs": [
+          {
+            "colIndex": 1,
+            "startRow": 1,
+            "endRow": 12
+          },
+          {
+            "colIndex": 2,
+            "startRow": 1,
+            "endRow": 12
+          }
+        ],
+        "x": 0.7353,
+        "y": 0.0832,
+        "width": 0.2353,
         "height": 0.8954,
         "title": "남원산성"
       }

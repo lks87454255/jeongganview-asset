@@ -1,11 +1,11 @@
 {
   "fileName": "강원도 아리랑 2.pdf",
-  "totalPages": 2,
+  "totalPages": 1,
   "pageData": {
     "1": [
       {
         "gridId": 1,
-        "cols": 10,
+        "cols": 12,
         "rows": 10,
         "columnConfigs": [
           {
@@ -57,35 +57,21 @@
             "colIndex": 10,
             "startRow": 1,
             "endRow": 10
+          },
+          {
+            "colIndex": 11,
+            "startRow": 1,
+            "endRow": 10
+          },
+          {
+            "colIndex": 12,
+            "startRow": 1,
+            "endRow": 10
           }
         ],
         "x": 0.0294,
         "y": 0.0832,
         "width": 0.9412,
-        "height": 0.8954,
-        "title": "강원도 아리랑 2"
-      }
-    ],
-    "2": [
-      {
-        "gridId": 1,
-        "cols": 2,
-        "rows": 10,
-        "columnConfigs": [
-          {
-            "colIndex": 1,
-            "startRow": 1,
-            "endRow": 10
-          },
-          {
-            "colIndex": 2,
-            "startRow": 1,
-            "endRow": 10
-          }
-        ],
-        "x": 0.7824,
-        "y": 0.0832,
-        "width": 0.1882,
         "height": 0.8954,
         "title": "강원도 아리랑 2"
       }

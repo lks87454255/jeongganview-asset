@@ -5,7 +5,7 @@
     "1": [
       {
         "gridId": 1,
-        "cols": 10,
+        "cols": 8,
         "rows": 16,
         "columnConfigs": [
           {
@@ -47,16 +47,6 @@
             "colIndex": 8,
             "startRow": 1,
             "endRow": 16
-          },
-          {
-            "colIndex": 9,
-            "startRow": 1,
-            "endRow": 16
-          },
-          {
-            "colIndex": 10,
-            "startRow": 1,
-            "endRow": 16
           }
         ],
         "x": 0.0294,
@@ -69,7 +59,7 @@
     "2": [
       {
         "gridId": 1,
-        "cols": 4,
+        "cols": 6,
         "rows": 16,
         "columnConfigs": [
           {
@@ -91,11 +81,21 @@
             "colIndex": 4,
             "startRow": 1,
             "endRow": 16
+          },
+          {
+            "colIndex": 5,
+            "startRow": 1,
+            "endRow": 16
+          },
+          {
+            "colIndex": 6,
+            "startRow": 1,
+            "endRow": 16
           }
         ],
-        "x": 0.5941,
+        "x": 0.2647,
         "y": 0.0832,
-        "width": 0.3765,
+        "width": 0.7059,
         "height": 0.8954,
         "title": "잦은 방아타령"
       }

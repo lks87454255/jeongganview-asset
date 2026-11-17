@@ -1,11 +1,11 @@
 {
   "fileName": "잦은 육자백이.pdf",
-  "totalPages": 3,
+  "totalPages": 4,
   "pageData": {
     "1": [
       {
         "gridId": 1,
-        "cols": 10,
+        "cols": 8,
         "rows": 9,
         "columnConfigs": [
           {
@@ -45,16 +45,6 @@
           },
           {
             "colIndex": 8,
-            "startRow": 1,
-            "endRow": 9
-          },
-          {
-            "colIndex": 9,
-            "startRow": 1,
-            "endRow": 9
-          },
-          {
-            "colIndex": 10,
             "startRow": 1,
             "endRow": 9
           }
@@ -69,7 +59,7 @@
     "2": [
       {
         "gridId": 1,
-        "cols": 10,
+        "cols": 8,
         "rows": 9,
         "columnConfigs": [
           {
@@ -111,16 +101,6 @@
             "colIndex": 8,
             "startRow": 1,
             "endRow": 9
-          },
-          {
-            "colIndex": 9,
-            "startRow": 1,
-            "endRow": 9
-          },
-          {
-            "colIndex": 10,
-            "startRow": 1,
-            "endRow": 9
           }
         ],
         "x": 0.0294,
@@ -133,7 +113,7 @@
     "3": [
       {
         "gridId": 1,
-        "cols": 5,
+        "cols": 8,
         "rows": 9,
         "columnConfigs": [
           {
@@ -160,11 +140,45 @@
             "colIndex": 5,
             "startRow": 1,
             "endRow": 9
+          },
+          {
+            "colIndex": 6,
+            "startRow": 1,
+            "endRow": 9
+          },
+          {
+            "colIndex": 7,
+            "startRow": 1,
+            "endRow": 9
+          },
+          {
+            "colIndex": 8,
+            "startRow": 1,
+            "endRow": 9
           }
         ],
-        "x": 0.5,
+        "x": 0.0294,
         "y": 0.0832,
-        "width": 0.4706,
+        "width": 0.9412,
+        "height": 0.8954,
+        "title": "잦은 육자백이"
+      }
+    ],
+    "4": [
+      {
+        "gridId": 1,
+        "cols": 1,
+        "rows": 9,
+        "columnConfigs": [
+          {
+            "colIndex": 1,
+            "startRow": 1,
+            "endRow": 9
+          }
+        ],
+        "x": 0.8529,
+        "y": 0.0832,
+        "width": 0.1403,
         "height": 0.8954,
         "title": "잦은 육자백이"
       }
