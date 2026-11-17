@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-11-17T11:43:03Z",
+  "generated": "2026-11-17T11:46:06Z",
   "owner": "lks87454255",
   "repo": "jeongganview-asset",
   "branch": "main",
@@ -39,6 +39,20 @@
           ],
           "hasSync": true,
           "syncDurationSec": 232
+        },
+        {
+          "name": "삼포가는길",
+          "fileName": "삼포가는길.pdf",
+          "path": "book/AI 음원/삼포가는길.pdf",
+          "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/AI%20%EC%9D%8C%EC%9B%90/%EC%82%BC%ED%8F%AC%EA%B0%80%EB%8A%94%EA%B8%B8.pdf",
+          "sizeBytes": 76061,
+          "pageCount": 1,
+          "songs": [
+            {
+              "title": "삼포가는길",
+              "page": 1
+            }
+          ]
         },
         {
           "name": "추월장강",
@@ -3101,6 +3115,6 @@
   "adminCategories": [],
   "_total": {
     "categories": 6,
-    "files": 208
+    "files": 209
   }
 }
