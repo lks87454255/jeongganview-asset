@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-11-17T11:52:09Z",
+  "generated": "2026-11-17T12:02:12Z",
   "owner": "lks87454255",
   "repo": "jeongganview-asset",
   "branch": "main",
@@ -41,15 +41,15 @@
           "syncDurationSec": 232
         },
         {
-          "name": "삼포 가는길",
-          "fileName": "삼포 가는길.pdf",
-          "path": "book/AI 음원/삼포 가는길.pdf",
-          "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/AI%20%EC%9D%8C%EC%9B%90/%EC%82%BC%ED%8F%AC%20%EA%B0%80%EB%8A%94%EA%B8%B8.pdf",
-          "sizeBytes": 76240,
+          "name": "삼포 가는 길",
+          "fileName": "삼포 가는 길.pdf",
+          "path": "book/AI 음원/삼포 가는 길.pdf",
+          "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/AI%20%EC%9D%8C%EC%9B%90/%EC%82%BC%ED%8F%AC%20%EA%B0%80%EB%8A%94%20%EA%B8%B8.pdf",
+          "sizeBytes": 76416,
           "pageCount": 1,
           "songs": [
             {
-              "title": "삼포 가는길",
+              "title": "삼포 가는 길",
               "page": 1
             }
           ]
