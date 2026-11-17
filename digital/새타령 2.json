@@ -68,18 +68,6 @@
      "dy_pt": 8.0
     },
     {
-     "t": "음원 E / D♭m",
-     "dir": "h",
-     "font": "ko",
-     "x": 572,
-     "y": 0,
-     "size": 11,
-     "size_pt": 11.0,
-     "align": "right",
-     "header_of": 1,
-     "dy_pt": 27.0
-    },
-    {
      "t": "삼",
      "dir": "v",
      "font": "ko",
@@ -1308,18 +1296,6 @@
      "dy_pt": 8.0
     },
     {
-     "t": "음원 E / D♭m",
-     "dir": "h",
-     "font": "ko",
-     "x": 572,
-     "y": 0,
-     "size": 11,
-     "size_pt": 11.0,
-     "align": "right",
-     "header_of": 1,
-     "dy_pt": 27.0
-    },
-    {
      "t": "마",
      "dir": "v",
      "font": "ko",
@@ -2266,18 +2242,6 @@
      "align": "right",
      "header_of": 1,
      "dy_pt": 8.0
-    },
-    {
-     "t": "음원 E / D♭m",
-     "dir": "h",
-     "font": "ko",
-     "x": 572,
-     "y": 0,
-     "size": 11,
-     "size_pt": 11.0,
-     "align": "right",
-     "header_of": 1,
-     "dy_pt": 27.0
     },
     {
      "t": "만",
@@ -3238,18 +3202,6 @@
      "dy_pt": 8.0
     },
     {
-     "t": "음원 E / D♭m",
-     "dir": "h",
-     "font": "ko",
-     "x": 572,
-     "y": 0,
-     "size": 11,
-     "size_pt": 11.0,
-     "align": "right",
-     "header_of": 1,
-     "dy_pt": 27.0
-    },
-    {
      "t": "소",
      "dir": "v",
      "font": "ko",
@@ -4148,18 +4100,6 @@
      "dy_pt": 8.0
     },
     {
-     "t": "음원 E / D♭m",
-     "dir": "h",
-     "font": "ko",
-     "x": 572,
-     "y": 0,
-     "size": 11,
-     "size_pt": 11.0,
-     "align": "right",
-     "header_of": 1,
-     "dy_pt": 27.0
-    },
-    {
      "t": "야",
      "dir": "v",
      "font": "ko",
@@ -4956,18 +4896,6 @@
      "align": "right",
      "header_of": 1,
      "dy_pt": 8.0
-    },
-    {
-     "t": "음원 E / D♭m",
-     "dir": "h",
-     "font": "ko",
-     "x": 572,
-     "y": 0,
-     "size": 11,
-     "size_pt": 11.0,
-     "align": "right",
-     "header_of": 1,
-     "dy_pt": 27.0
     },
     {
      "t": "좌",

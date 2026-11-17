@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-11-17T08:29:36Z",
+  "generated": "2026-11-17T08:32:56Z",
   "owner": "lks87454255",
   "repo": "jeongganview-asset",
   "branch": "main",
@@ -1162,7 +1162,7 @@
           "fileName": "강원도 아리랑 1.pdf",
           "path": "book/민요/강원도 아리랑 1.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EB%AF%BC%EC%9A%94/%EA%B0%95%EC%9B%90%EB%8F%84%20%EC%95%84%EB%A6%AC%EB%9E%91%201.pdf",
-          "sizeBytes": 87125,
+          "sizeBytes": 84829,
           "pageCount": 1,
           "songs": [
             {
@@ -1176,7 +1176,7 @@
           "fileName": "강원도 아리랑 2.pdf",
           "path": "book/민요/강원도 아리랑 2.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EB%AF%BC%EC%9A%94/%EA%B0%95%EC%9B%90%EB%8F%84%20%EC%95%84%EB%A6%AC%EB%9E%91%202.pdf",
-          "sizeBytes": 93780,
+          "sizeBytes": 91455,
           "pageCount": 1,
           "songs": [
             {
@@ -1190,7 +1190,7 @@
           "fileName": "강원풍류.pdf",
           "path": "book/민요/강원풍류.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EB%AF%BC%EC%9A%94/%EA%B0%95%EC%9B%90%ED%92%8D%EB%A5%98.pdf",
-          "sizeBytes": 199725,
+          "sizeBytes": 197255,
           "pageCount": 3,
           "songs": [
             {
@@ -1212,7 +1212,7 @@
           "fileName": "개구리타령.pdf",
           "path": "book/민요/개구리타령.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EB%AF%BC%EC%9A%94/%EA%B0%9C%EA%B5%AC%EB%A6%AC%ED%83%80%EB%A0%B9.pdf",
-          "sizeBytes": 156205,
+          "sizeBytes": 153504,
           "pageCount": 3,
           "songs": [
             {
@@ -1254,7 +1254,7 @@
           "fileName": "경복궁타령.pdf",
           "path": "book/민요/경복궁타령.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EB%AF%BC%EC%9A%94/%EA%B2%BD%EB%B3%B5%EA%B6%81%ED%83%80%EB%A0%B9.pdf",
-          "sizeBytes": 73033,
+          "sizeBytes": 70457,
           "pageCount": 1,
           "songs": [
             {
@@ -1268,7 +1268,7 @@
           "fileName": "구아리랑.pdf",
           "path": "book/민요/구아리랑.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EB%AF%BC%EC%9A%94/%EA%B5%AC%EC%95%84%EB%A6%AC%EB%9E%91.pdf",
-          "sizeBytes": 72143,
+          "sizeBytes": 69559,
           "pageCount": 1,
           "songs": [
             {
@@ -1282,7 +1282,7 @@
           "fileName": "군밤타령.pdf",
           "path": "book/민요/군밤타령.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EB%AF%BC%EC%9A%94/%EA%B5%B0%EB%B0%A4%ED%83%80%EB%A0%B9.pdf",
-          "sizeBytes": 72587,
+          "sizeBytes": 69994,
           "pageCount": 1,
           "songs": [
             {
@@ -1296,7 +1296,7 @@
           "fileName": "궁초댕기.pdf",
           "path": "book/민요/궁초댕기.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EB%AF%BC%EC%9A%94/%EA%B6%81%EC%B4%88%EB%8C%95%EA%B8%B0.pdf",
-          "sizeBytes": 86458,
+          "sizeBytes": 83947,
           "pageCount": 1,
           "songs": [
             {
@@ -1310,7 +1310,7 @@
           "fileName": "금강산타령 1.pdf",
           "path": "book/민요/금강산타령 1.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EB%AF%BC%EC%9A%94/%EA%B8%88%EA%B0%95%EC%82%B0%ED%83%80%EB%A0%B9%201.pdf",
-          "sizeBytes": 163687,
+          "sizeBytes": 161397,
           "pageCount": 3,
           "songs": [
             {
@@ -1324,7 +1324,7 @@
           "fileName": "금강산타령 2.pdf",
           "path": "book/민요/금강산타령 2.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EB%AF%BC%EC%9A%94/%EA%B8%88%EA%B0%95%EC%82%B0%ED%83%80%EB%A0%B9%202.pdf",
-          "sizeBytes": 164980,
+          "sizeBytes": 162499,
           "pageCount": 2,
           "songs": [
             {
@@ -1338,7 +1338,7 @@
           "fileName": "긴난봉가.pdf",
           "path": "book/민요/긴난봉가.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EB%AF%BC%EC%9A%94/%EA%B8%B4%EB%82%9C%EB%B4%89%EA%B0%80.pdf",
-          "sizeBytes": 105481,
+          "sizeBytes": 102969,
           "pageCount": 1,
           "songs": [
             {
@@ -1380,7 +1380,7 @@
           "fileName": "까투리타령.pdf",
           "path": "book/민요/까투리타령.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EB%AF%BC%EC%9A%94/%EA%B9%8C%ED%88%AC%EB%A6%AC%ED%83%80%EB%A0%B9.pdf",
-          "sizeBytes": 85154,
+          "sizeBytes": 82598,
           "pageCount": 1,
           "songs": [
             {
@@ -1394,7 +1394,7 @@
           "fileName": "꼭두각시.pdf",
           "path": "book/민요/꼭두각시.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EB%AF%BC%EC%9A%94/%EA%BC%AD%EB%91%90%EA%B0%81%EC%8B%9C.pdf",
-          "sizeBytes": 110315,
+          "sizeBytes": 107703,
           "pageCount": 1,
           "songs": [
             {
@@ -1408,7 +1408,7 @@
           "fileName": "꽃분네야.pdf",
           "path": "book/민요/꽃분네야.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EB%AF%BC%EC%9A%94/%EA%BD%83%EB%B6%84%EB%84%A4%EC%95%BC.pdf",
-          "sizeBytes": 81049,
+          "sizeBytes": 78510,
           "pageCount": 1,
           "songs": [
             {
@@ -1422,7 +1422,7 @@
           "fileName": "꽃이피었네.pdf",
           "path": "book/민요/꽃이피었네.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EB%AF%BC%EC%9A%94/%EA%BD%83%EC%9D%B4%ED%94%BC%EC%97%88%EB%84%A4.pdf",
-          "sizeBytes": 84908,
+          "sizeBytes": 82336,
           "pageCount": 1,
           "songs": [
             {
@@ -1436,7 +1436,7 @@
           "fileName": "꽃타령.pdf",
           "path": "book/민요/꽃타령.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EB%AF%BC%EC%9A%94/%EA%BD%83%ED%83%80%EB%A0%B9.pdf",
-          "sizeBytes": 184598,
+          "sizeBytes": 182041,
           "pageCount": 1,
           "songs": [
             {
@@ -1506,7 +1506,7 @@
           "fileName": "노들강변.pdf",
           "path": "book/민요/노들강변.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EB%AF%BC%EC%9A%94/%EB%85%B8%EB%93%A4%EA%B0%95%EB%B3%80.pdf",
-          "sizeBytes": 105627,
+          "sizeBytes": 103103,
           "pageCount": 1,
           "songs": [
             {
@@ -1562,7 +1562,7 @@
           "fileName": "늴리리야.pdf",
           "path": "book/민요/늴리리야.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EB%AF%BC%EC%9A%94/%EB%8A%B4%EB%A6%AC%EB%A6%AC%EC%95%BC.pdf",
-          "sizeBytes": 60490,
+          "sizeBytes": 57873,
           "pageCount": 1,
           "songs": [
             {
@@ -1632,7 +1632,7 @@
           "fileName": "도라지타령.pdf",
           "path": "book/민요/도라지타령.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EB%AF%BC%EC%9A%94/%EB%8F%84%EB%9D%BC%EC%A7%80%ED%83%80%EB%A0%B9.pdf",
-          "sizeBytes": 98088,
+          "sizeBytes": 95525,
           "pageCount": 1,
           "songs": [
             {
@@ -1702,7 +1702,7 @@
           "fileName": "둥그래당실.pdf",
           "path": "book/민요/둥그래당실.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EB%AF%BC%EC%9A%94/%EB%91%A5%EA%B7%B8%EB%9E%98%EB%8B%B9%EC%8B%A4.pdf",
-          "sizeBytes": 83085,
+          "sizeBytes": 80323,
           "pageCount": 1,
           "songs": [
             {
@@ -1716,7 +1716,7 @@
           "fileName": "매화타령.pdf",
           "path": "book/민요/매화타령.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EB%AF%BC%EC%9A%94/%EB%A7%A4%ED%99%94%ED%83%80%EB%A0%B9.pdf",
-          "sizeBytes": 105103,
+          "sizeBytes": 102478,
           "pageCount": 2,
           "songs": [
             {
@@ -1730,7 +1730,7 @@
           "fileName": "멸치잡이 노래.pdf",
           "path": "book/민요/멸치잡이 노래.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EB%AF%BC%EC%9A%94/%EB%A9%B8%EC%B9%98%EC%9E%A1%EC%9D%B4%20%EB%85%B8%EB%9E%98.pdf",
-          "sizeBytes": 79204,
+          "sizeBytes": 76592,
           "pageCount": 1,
           "songs": [
             {
@@ -1744,7 +1744,7 @@
           "fileName": "몽금포타령.pdf",
           "path": "book/민요/몽금포타령.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EB%AF%BC%EC%9A%94/%EB%AA%BD%EA%B8%88%ED%8F%AC%ED%83%80%EB%A0%B9.pdf",
-          "sizeBytes": 69385,
+          "sizeBytes": 66805,
           "pageCount": 1,
           "songs": [
             {
@@ -1758,7 +1758,7 @@
           "fileName": "물레타령.pdf",
           "path": "book/민요/물레타령.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EB%AF%BC%EC%9A%94/%EB%AC%BC%EB%A0%88%ED%83%80%EB%A0%B9.pdf",
-          "sizeBytes": 86173,
+          "sizeBytes": 83647,
           "pageCount": 1,
           "songs": [
             {
@@ -1786,7 +1786,7 @@
           "fileName": "박연폭포.pdf",
           "path": "book/민요/박연폭포.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EB%AF%BC%EC%9A%94/%EB%B0%95%EC%97%B0%ED%8F%AD%ED%8F%AC.pdf",
-          "sizeBytes": 76866,
+          "sizeBytes": 74125,
           "pageCount": 1,
           "songs": [
             {
@@ -1800,7 +1800,7 @@
           "fileName": "방아타령 1.pdf",
           "path": "book/민요/방아타령 1.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EB%AF%BC%EC%9A%94/%EB%B0%A9%EC%95%84%ED%83%80%EB%A0%B9%201.pdf",
-          "sizeBytes": 116393,
+          "sizeBytes": 114009,
           "pageCount": 2,
           "songs": [
             {
@@ -1814,7 +1814,7 @@
           "fileName": "방아타령 2.pdf",
           "path": "book/민요/방아타령 2.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EB%AF%BC%EC%9A%94/%EB%B0%A9%EC%95%84%ED%83%80%EB%A0%B9%202.pdf",
-          "sizeBytes": 91726,
+          "sizeBytes": 89155,
           "pageCount": 1,
           "songs": [
             {
@@ -1856,7 +1856,7 @@
           "fileName": "베틀가.pdf",
           "path": "book/민요/베틀가.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EB%AF%BC%EC%9A%94/%EB%B2%A0%ED%8B%80%EA%B0%80.pdf",
-          "sizeBytes": 67992,
+          "sizeBytes": 65427,
           "pageCount": 1,
           "songs": [
             {
@@ -2038,7 +2038,7 @@
           "fileName": "사발가.pdf",
           "path": "book/민요/사발가.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EB%AF%BC%EC%9A%94/%EC%82%AC%EB%B0%9C%EA%B0%80.pdf",
-          "sizeBytes": 82012,
+          "sizeBytes": 79494,
           "pageCount": 1,
           "songs": [
             {
@@ -2066,7 +2066,7 @@
           "fileName": "사철가 1.pdf",
           "path": "book/민요/사철가 1.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EB%AF%BC%EC%9A%94/%EC%82%AC%EC%B2%A0%EA%B0%80%201.pdf",
-          "sizeBytes": 93589,
+          "sizeBytes": 91042,
           "pageCount": 1,
           "songs": [
             {
@@ -2080,7 +2080,7 @@
           "fileName": "사철가 2.pdf",
           "path": "book/민요/사철가 2.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EB%AF%BC%EC%9A%94/%EC%82%AC%EC%B2%A0%EA%B0%80%202.pdf",
-          "sizeBytes": 158529,
+          "sizeBytes": 156048,
           "pageCount": 2,
           "songs": [
             {
@@ -2094,7 +2094,7 @@
           "fileName": "산염불.pdf",
           "path": "book/민요/산염불.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EB%AF%BC%EC%9A%94/%EC%82%B0%EC%97%BC%EB%B6%88.pdf",
-          "sizeBytes": 106951,
+          "sizeBytes": 104446,
           "pageCount": 1,
           "songs": [
             {
@@ -2108,7 +2108,7 @@
           "fileName": "삼산은반락.pdf",
           "path": "book/민요/삼산은반락.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EB%AF%BC%EC%9A%94/%EC%82%BC%EC%82%B0%EC%9D%80%EB%B0%98%EB%9D%BD.pdf",
-          "sizeBytes": 80737,
+          "sizeBytes": 78160,
           "pageCount": 1,
           "songs": [
             {
@@ -2136,7 +2136,7 @@
           "fileName": "상주모심기.pdf",
           "path": "book/민요/상주모심기.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EB%AF%BC%EC%9A%94/%EC%83%81%EC%A3%BC%EB%AA%A8%EC%8B%AC%EA%B8%B0.pdf",
-          "sizeBytes": 68360,
+          "sizeBytes": 65794,
           "pageCount": 1,
           "songs": [
             {
@@ -2164,7 +2164,7 @@
           "fileName": "새타령 1.pdf",
           "path": "book/민요/새타령 1.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EB%AF%BC%EC%9A%94/%EC%83%88%ED%83%80%EB%A0%B9%201.pdf",
-          "sizeBytes": 128952,
+          "sizeBytes": 126420,
           "pageCount": 3,
           "songs": [
             {
@@ -2178,7 +2178,7 @@
           "fileName": "새타령 2.pdf",
           "path": "book/민요/새타령 2.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EB%AF%BC%EC%9A%94/%EC%83%88%ED%83%80%EB%A0%B9%202.pdf",
-          "sizeBytes": 255597,
+          "sizeBytes": 252817,
           "pageCount": 6,
           "songs": [
             {
@@ -2374,7 +2374,7 @@
           "fileName": "애원성.pdf",
           "path": "book/민요/애원성.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EB%AF%BC%EC%9A%94/%EC%95%A0%EC%9B%90%EC%84%B1.pdf",
-          "sizeBytes": 72590,
+          "sizeBytes": 70243,
           "pageCount": 1,
           "songs": [
             {
@@ -2416,7 +2416,7 @@
           "fileName": "양산도.pdf",
           "path": "book/민요/양산도.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EB%AF%BC%EC%9A%94/%EC%96%91%EC%82%B0%EB%8F%84.pdf",
-          "sizeBytes": 83437,
+          "sizeBytes": 80869,
           "pageCount": 1,
           "songs": [
             {
@@ -2444,7 +2444,7 @@
           "fileName": "오돌또기.pdf",
           "path": "book/민요/오돌또기.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EB%AF%BC%EC%9A%94/%EC%98%A4%EB%8F%8C%EB%98%90%EA%B8%B0.pdf",
-          "sizeBytes": 80398,
+          "sizeBytes": 77654,
           "pageCount": 1,
           "songs": [
             {
@@ -2458,7 +2458,7 @@
           "fileName": "오봉산타령.pdf",
           "path": "book/민요/오봉산타령.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EB%AF%BC%EC%9A%94/%EC%98%A4%EB%B4%89%EC%82%B0%ED%83%80%EB%A0%B9.pdf",
-          "sizeBytes": 88179,
+          "sizeBytes": 85776,
           "pageCount": 1,
           "songs": [
             {
@@ -2500,7 +2500,7 @@
           "fileName": "육자백이.pdf",
           "path": "book/민요/육자백이.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EB%AF%BC%EC%9A%94/%EC%9C%A1%EC%9E%90%EB%B0%B1%EC%9D%B4.pdf",
-          "sizeBytes": 138249,
+          "sizeBytes": 135558,
           "pageCount": 3,
           "songs": [
             {
@@ -2528,7 +2528,7 @@
           "fileName": "이야홍타령.pdf",
           "path": "book/민요/이야홍타령.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EB%AF%BC%EC%9A%94/%EC%9D%B4%EC%95%BC%ED%99%8D%ED%83%80%EB%A0%B9.pdf",
-          "sizeBytes": 65009,
+          "sizeBytes": 62422,
           "pageCount": 1,
           "songs": [
             {
@@ -2542,7 +2542,7 @@
           "fileName": "장기타령.pdf",
           "path": "book/민요/장기타령.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EB%AF%BC%EC%9A%94/%EC%9E%A5%EA%B8%B0%ED%83%80%EB%A0%B9.pdf",
-          "sizeBytes": 190876,
+          "sizeBytes": 188287,
           "pageCount": 1,
           "songs": [
             {
@@ -2556,7 +2556,7 @@
           "fileName": "잦은 방아타령.pdf",
           "path": "book/민요/잦은 방아타령.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EB%AF%BC%EC%9A%94/%EC%9E%A6%EC%9D%80%20%EB%B0%A9%EC%95%84%ED%83%80%EB%A0%B9.pdf",
-          "sizeBytes": 202342,
+          "sizeBytes": 199702,
           "pageCount": 2,
           "songs": [
             {
@@ -2570,7 +2570,7 @@
           "fileName": "잦은 육자백이.pdf",
           "path": "book/민요/잦은 육자백이.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EB%AF%BC%EC%9A%94/%EC%9E%A6%EC%9D%80%20%EC%9C%A1%EC%9E%90%EB%B0%B1%EC%9D%B4.pdf",
-          "sizeBytes": 111648,
+          "sizeBytes": 108930,
           "pageCount": 3,
           "songs": [
             {
@@ -2598,7 +2598,7 @@
           "fileName": "잦은뱃노래.pdf",
           "path": "book/민요/잦은뱃노래.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EB%AF%BC%EC%9A%94/%EC%9E%A6%EC%9D%80%EB%B1%83%EB%85%B8%EB%9E%98.pdf",
-          "sizeBytes": 120085,
+          "sizeBytes": 117519,
           "pageCount": 1,
           "songs": [
             {
@@ -2626,7 +2626,7 @@
           "fileName": "정선아리랑 1.pdf",
           "path": "book/민요/정선아리랑 1.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EB%AF%BC%EC%9A%94/%EC%A0%95%EC%84%A0%EC%95%84%EB%A6%AC%EB%9E%91%201.pdf",
-          "sizeBytes": 137639,
+          "sizeBytes": 135155,
           "pageCount": 1,
           "songs": [
             {
@@ -2640,7 +2640,7 @@
           "fileName": "정선아리랑 2.pdf",
           "path": "book/민요/정선아리랑 2.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EB%AF%BC%EC%9A%94/%EC%A0%95%EC%84%A0%EC%95%84%EB%A6%AC%EB%9E%91%202.pdf",
-          "sizeBytes": 159920,
+          "sizeBytes": 157842,
           "pageCount": 1,
           "songs": [
             {
@@ -2668,7 +2668,7 @@
           "fileName": "진도아리랑.pdf",
           "path": "book/민요/진도아리랑.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EB%AF%BC%EC%9A%94/%EC%A7%84%EB%8F%84%EC%95%84%EB%A6%AC%EB%9E%91.pdf",
-          "sizeBytes": 88624,
+          "sizeBytes": 86058,
           "pageCount": 1,
           "songs": [
             {
@@ -2696,7 +2696,7 @@
           "fileName": "창부타령 1.pdf",
           "path": "book/민요/창부타령 1.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EB%AF%BC%EC%9A%94/%EC%B0%BD%EB%B6%80%ED%83%80%EB%A0%B9%201.pdf",
-          "sizeBytes": 80472,
+          "sizeBytes": 77840,
           "pageCount": 1,
           "songs": [
             {
@@ -2710,7 +2710,7 @@
           "fileName": "창부타령 2.pdf",
           "path": "book/민요/창부타령 2.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EB%AF%BC%EC%9A%94/%EC%B0%BD%EB%B6%80%ED%83%80%EB%A0%B9%202.pdf",
-          "sizeBytes": 258808,
+          "sizeBytes": 256087,
           "pageCount": 6,
           "songs": [
             {
@@ -2752,7 +2752,7 @@
           "fileName": "천안삼거리.pdf",
           "path": "book/민요/천안삼거리.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EB%AF%BC%EC%9A%94/%EC%B2%9C%EC%95%88%EC%82%BC%EA%B1%B0%EB%A6%AC.pdf",
-          "sizeBytes": 71512,
+          "sizeBytes": 68993,
           "pageCount": 1,
           "songs": [
             {
@@ -2766,7 +2766,7 @@
           "fileName": "청춘가.pdf",
           "path": "book/민요/청춘가.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EB%AF%BC%EC%9A%94/%EC%B2%AD%EC%B6%98%EA%B0%80.pdf",
-          "sizeBytes": 88302,
+          "sizeBytes": 85785,
           "pageCount": 1,
           "songs": [
             {
@@ -2808,7 +2808,7 @@
           "fileName": "탑돌이.pdf",
           "path": "book/민요/탑돌이.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EB%AF%BC%EC%9A%94/%ED%83%91%EB%8F%8C%EC%9D%B4.pdf",
-          "sizeBytes": 68497,
+          "sizeBytes": 66106,
           "pageCount": 1,
           "songs": [
             {
@@ -2822,7 +2822,7 @@
           "fileName": "태평가.pdf",
           "path": "book/민요/태평가.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EB%AF%BC%EC%9A%94/%ED%83%9C%ED%8F%89%EA%B0%80.pdf",
-          "sizeBytes": 98510,
+          "sizeBytes": 95937,
           "pageCount": 1,
           "songs": [
             {
@@ -2878,7 +2878,7 @@
           "fileName": "한강수타령.pdf",
           "path": "book/민요/한강수타령.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EB%AF%BC%EC%9A%94/%ED%95%9C%EA%B0%95%EC%88%98%ED%83%80%EB%A0%B9.pdf",
-          "sizeBytes": 80025,
+          "sizeBytes": 77452,
           "pageCount": 1,
           "songs": [
             {
@@ -2892,7 +2892,7 @@
           "fileName": "한오백년.pdf",
           "path": "book/민요/한오백년.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EB%AF%BC%EC%9A%94/%ED%95%9C%EC%98%A4%EB%B0%B1%EB%85%84.pdf",
-          "sizeBytes": 136177,
+          "sizeBytes": 133636,
           "pageCount": 1,
           "songs": [
             {

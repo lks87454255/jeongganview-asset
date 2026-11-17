@@ -66,18 +66,6 @@
      "align": "right",
      "header_of": 1,
      "dy_pt": 8.0
-    },
-    {
-     "t": "음원 A♭ / Fm",
-     "dir": "h",
-     "font": "ko",
-     "x": 572,
-     "y": 0,
-     "size": 11,
-     "size_pt": 11.0,
-     "align": "right",
-     "header_of": 1,
-     "dy_pt": 27.0
     }
    ],
    "blocks": [
