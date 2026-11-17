@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-11-17T12:38:33Z",
+  "generated": "2026-11-17T12:45:37Z",
   "owner": "lks87454255",
   "repo": "jeongganview-asset",
   "branch": "main",
@@ -52,7 +52,9 @@
               "title": "삼포 가는 길",
               "page": 1
             }
-          ]
+          ],
+          "hasSync": true,
+          "syncDurationSec": 139
         },
         {
           "name": "추월장강",
