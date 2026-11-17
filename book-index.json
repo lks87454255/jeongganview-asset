@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-11-17T05:22:55Z",
+  "generated": "2026-11-17T05:32:39Z",
   "owner": "lks87454255",
   "repo": "jeongganview-asset",
   "branch": "main",
@@ -1190,12 +1190,20 @@
           "fileName": "강원풍류.pdf",
           "path": "book/민요/강원풍류.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EB%AF%BC%EC%9A%94/%EA%B0%95%EC%9B%90%ED%92%8D%EB%A5%98.pdf",
-          "sizeBytes": 201509,
-          "pageCount": 1,
+          "sizeBytes": 198056,
+          "pageCount": 3,
           "songs": [
             {
-              "title": "강원풍류",
+              "title": "강원풍류 · 정선아리랑",
               "page": 1
+            },
+            {
+              "title": "강원풍류 · 한오백년",
+              "page": 2
+            },
+            {
+              "title": "강원풍류 · 강원도 아리랑",
+              "page": 3
             }
           ]
         },
