@@ -1,13 +1,13 @@
 {
  "version": 1,
  "pdf": "book/AI 음원/추월장강.pdf",
- "note": "반주 음원: 정간보(digital/추월장강.json) 선율로 화음을 정해 새로 만든 반주(대금 선율 없음, arrange_chuwol.py, 2026-11-17). 아주 추운 가을, 낙엽, 쓸쓸함(사용자 지시): 거문고·해금(작게)·현악·B♭F 드론·가을바람·낙엽 바스락, 띵똥(가야금·양금) 없음. 黃 = E♭4 B♭단조, 1정간 = 30 BPM(2초, 정간보 빠르기 ♩=30). 전주 2마디 뒤 1열 1행 = 16.50초, 마디마다 앵커, 끝 = 9열 16행. 이름 규칙: 고칠 때마다 _v2, _v3 …",
+ "note": "반주 음원: 정간보(digital/추월장강.json) 선율로 화음을 정해 새로 만든 반주(대금 선율 없음, arrange_chuwol.py, 2026-11-17). 아주 추운 가을, 낙엽, 쓸쓸함(사용자 지시): 거문고·해금(작게)·현악·B♭F 드론·가을바람·낙엽 바스락, 띵똥(가야금·양금) 없음. 黃 = E♭4 B♭단조, 1정간 = 30 BPM(2초, 정간보 빠르기 ♩=30). 전주 2마디 뒤 1열 1행 = 16.50초, 마디마다 앵커, 끝 = 9열 16행. 이름 규칙: 고칠 때마다 _v2, _v3 … _v2: 낙엽 바스락 소리(빗자루 쓰는 소리처럼 들림)를 뺌(사용자 지시). 박·앵커 그대로.",
  "tracks": [
   {
-   "clipid": "asset:sync-audio/추월장강_v1.m4a",
+   "clipid": "asset:sync-audio/추월장강_v2.m4a",
    "title": "추월장강 반주 (거문고·해금·현악·가을바람)",
-   "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/sync-audio/%EC%B6%94%EC%9B%94%EC%9E%A5%EA%B0%95_v1.m4a",
-   "bytes": 9858448,
+   "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/sync-audio/%EC%B6%94%EC%9B%94%EC%9E%A5%EA%B0%95_v2.m4a",
+   "bytes": 9906399,
    "durationMs": 312500,
    "from": {
     "page": 1,
