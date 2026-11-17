@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-11-17T08:43:30Z",
+  "generated": "2026-11-17T08:55:30Z",
   "owner": "lks87454255",
   "repo": "jeongganview-asset",
   "branch": "main",
@@ -1190,7 +1190,7 @@
           "fileName": "강원풍류.pdf",
           "path": "book/민요/강원풍류.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/%EB%AF%BC%EC%9A%94/%EA%B0%95%EC%9B%90%ED%92%8D%EB%A5%98.pdf",
-          "sizeBytes": 197255,
+          "sizeBytes": 204728,
           "pageCount": 3,
           "songs": [
             {
