@@ -1,13 +1,13 @@
 {
- "title": "삼포가는길",
+ "title": "삼포 가는길",
  "book": "AI 음원",
  "source_pdf": "digital/민요-빈쪽.pdf",
  "fonts": "noto",
  "uniform_pt": 23.53,
- "note": "원본: 대금율보 2권 79쪽(book/대금율보/). 판독: 정간보 목록 CSV (sheets/대금율보/csv/가요/삼포가는길.csv) — 판독 초안 그대로(원본 대조 전). make_minyo_digital.py 로 만듦. 글꼴: 앱 Noto Serif(사용자 지시 2026-11-17). 정간보 연주 'AI 음원' 분류에 넣음(사용자 지시 2026-11-17, make_minyo_digital.py 의 CSV 폴더만 가요로 바꿔 만듦).",
+ "note": "원본: 대금율보 2권 79쪽(book/대금율보/). 판독: 정간보 목록 CSV (sheets/대금율보/csv/가요/삼포가는길.csv) — 판독 초안 그대로(원본 대조 전). make_minyo_digital.py 로 만듦. 글꼴: 앱 Noto Serif(사용자 지시 2026-11-17). 정간보 연주 'AI 음원' 분류에 넣음(사용자 지시 2026-11-17, make_minyo_digital.py 의 CSV 폴더만 가요로 바꿔 만듦). 카드·제목을 「삼포 가는길」로 띄어 씀(사용자 지시 2026-11-17, CSV 제목은 그대로).",
  "songs": [
   {
-   "title": "삼포가는길",
+   "title": "삼포 가는길",
    "page": 1,
    "grid": 1
   }
@@ -37,14 +37,14 @@
       1
      ],
      "title": null,
-     "name": "삼포가는길"
+     "name": "삼포 가는길"
     }
    ],
    "outline_pt": 1.1,
    "uniform_size": true,
    "texts": [
     {
-     "t": "삼포가는길",
+     "t": "삼포 가는길",
      "dir": "h",
      "font": "kob",
      "x": 297.5,
