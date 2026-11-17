@@ -979,7 +979,11 @@
        "endRow": 12
       }
      ],
-     "measures": [],
+     "measures": [
+      3,
+      6,
+      9
+     ],
      "breaths": {},
      "ticks": {},
      "cells": [

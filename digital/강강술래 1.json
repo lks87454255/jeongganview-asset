@@ -936,7 +936,9 @@
        "endRow": 8
       }
      ],
-     "measures": [],
+     "measures": [
+      4
+     ],
      "breaths": {},
      "ticks": {},
      "cells": [

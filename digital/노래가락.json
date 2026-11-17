@@ -56,18 +56,6 @@
      "dy_pt": 17.0
     },
     {
-     "t": "정악",
-     "dir": "h",
-     "font": "ko",
-     "x": 572,
-     "y": 0,
-     "size": 11,
-     "size_pt": 11.0,
-     "align": "right",
-     "header_of": 1,
-     "dy_pt": 8.0
-    },
-    {
      "t": "충",
      "dir": "v",
      "font": "ko",
@@ -722,9 +710,7 @@
        "endRow": 13
       }
      ],
-     "measures": [
-      10
-     ],
+     "measures": [],
      "breaths": {},
      "ticks": {},
      "cells": [

@@ -398,7 +398,9 @@
        "endRow": 6
       }
      ],
-     "measures": [],
+     "measures": [
+      4
+     ],
      "breaths": {},
      "ticks": {},
      "cells": [
@@ -823,7 +825,9 @@
        "endRow": 6
       }
      ],
-     "measures": [],
+     "measures": [
+      4
+     ],
      "breaths": {},
      "ticks": {},
      "cells": [
@@ -1228,7 +1232,9 @@
        "endRow": 6
       }
      ],
-     "measures": [],
+     "measures": [
+      4
+     ],
      "breaths": {},
      "ticks": {},
      "cells": [
