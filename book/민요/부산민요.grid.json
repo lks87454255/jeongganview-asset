@@ -1,11 +1,11 @@
 {
   "fileName": "부산민요.pdf",
-  "totalPages": 7,
+  "totalPages": 6,
   "pageData": {
     "1": [
       {
         "gridId": 1,
-        "cols": 8,
+        "cols": 10,
         "rows": 12,
         "columnConfigs": [
           {
@@ -45,6 +45,16 @@
           },
           {
             "colIndex": 8,
+            "startRow": 1,
+            "endRow": 12
+          },
+          {
+            "colIndex": 9,
+            "startRow": 1,
+            "endRow": 12
+          },
+          {
+            "colIndex": 10,
             "startRow": 1,
             "endRow": 12
           }
@@ -59,7 +69,7 @@
     "2": [
       {
         "gridId": 1,
-        "cols": 8,
+        "cols": 10,
         "rows": 12,
         "columnConfigs": [
           {
@@ -99,6 +109,16 @@
           },
           {
             "colIndex": 8,
+            "startRow": 1,
+            "endRow": 12
+          },
+          {
+            "colIndex": 9,
+            "startRow": 1,
+            "endRow": 12
+          },
+          {
+            "colIndex": 10,
             "startRow": 1,
             "endRow": 12
           }
@@ -113,7 +133,7 @@
     "3": [
       {
         "gridId": 1,
-        "cols": 8,
+        "cols": 10,
         "rows": 12,
         "columnConfigs": [
           {
@@ -153,6 +173,16 @@
           },
           {
             "colIndex": 8,
+            "startRow": 1,
+            "endRow": 12
+          },
+          {
+            "colIndex": 9,
+            "startRow": 1,
+            "endRow": 12
+          },
+          {
+            "colIndex": 10,
             "startRow": 1,
             "endRow": 12
           }
@@ -167,7 +197,7 @@
     "4": [
       {
         "gridId": 1,
-        "cols": 8,
+        "cols": 10,
         "rows": 12,
         "columnConfigs": [
           {
@@ -207,6 +237,16 @@
           },
           {
             "colIndex": 8,
+            "startRow": 1,
+            "endRow": 12
+          },
+          {
+            "colIndex": 9,
+            "startRow": 1,
+            "endRow": 12
+          },
+          {
+            "colIndex": 10,
             "startRow": 1,
             "endRow": 12
           }
@@ -221,7 +261,7 @@
     "5": [
       {
         "gridId": 1,
-        "cols": 8,
+        "cols": 10,
         "rows": 12,
         "columnConfigs": [
           {
@@ -261,6 +301,16 @@
           },
           {
             "colIndex": 8,
+            "startRow": 1,
+            "endRow": 12
+          },
+          {
+            "colIndex": 9,
+            "startRow": 1,
+            "endRow": 12
+          },
+          {
+            "colIndex": 10,
             "startRow": 1,
             "endRow": 12
           }
@@ -275,7 +325,7 @@
     "6": [
       {
         "gridId": 1,
-        "cols": 8,
+        "cols": 5,
         "rows": 12,
         "columnConfigs": [
           {
@@ -302,75 +352,11 @@
             "colIndex": 5,
             "startRow": 1,
             "endRow": 12
-          },
-          {
-            "colIndex": 6,
-            "startRow": 1,
-            "endRow": 12
-          },
-          {
-            "colIndex": 7,
-            "startRow": 1,
-            "endRow": 12
-          },
-          {
-            "colIndex": 8,
-            "startRow": 1,
-            "endRow": 12
           }
         ],
-        "x": 0.0294,
+        "x": 0.5,
         "y": 0.0832,
-        "width": 0.9412,
-        "height": 0.8954,
-        "title": "부산민요"
-      }
-    ],
-    "7": [
-      {
-        "gridId": 1,
-        "cols": 7,
-        "rows": 12,
-        "columnConfigs": [
-          {
-            "colIndex": 1,
-            "startRow": 1,
-            "endRow": 12
-          },
-          {
-            "colIndex": 2,
-            "startRow": 1,
-            "endRow": 12
-          },
-          {
-            "colIndex": 3,
-            "startRow": 1,
-            "endRow": 12
-          },
-          {
-            "colIndex": 4,
-            "startRow": 1,
-            "endRow": 12
-          },
-          {
-            "colIndex": 5,
-            "startRow": 1,
-            "endRow": 12
-          },
-          {
-            "colIndex": 6,
-            "startRow": 1,
-            "endRow": 12
-          },
-          {
-            "colIndex": 7,
-            "startRow": 1,
-            "endRow": 12
-          }
-        ],
-        "x": 0.1471,
-        "y": 0.0832,
-        "width": 0.8235,
+        "width": 0.4706,
         "height": 0.8954,
         "title": "부산민요"
       }
