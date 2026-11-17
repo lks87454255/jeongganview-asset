@@ -4,7 +4,7 @@
  "source_pdf": "digital/민요-빈쪽.pdf",
  "fonts": "noto",
  "uniform_pt": 28,
- "note": "원본: 대금율보 2권 107쪽(book/대금율보/). 판독: 정간보 목록 CSV (sheets/대금율보/csv/민요/창부타령 (b2_107_2).csv) — 판독 초안 그대로(원본 대조 전). make_minyo_digital.py 로 만듦. 글꼴: 앱 Noto Serif(사용자 지시 2026-11-17). 음원 조성 E♭ / Cm: AI-Hub 71955 메타데이터.",
+ "note": "원본: 대금율보 2권 107쪽(book/대금율보/). 판독: 정간보 목록 CSV (sheets/대금율보/csv/민요/창부타령 (b2_107_2).csv) — 판독 초안 그대로(원본 대조 전). make_minyo_digital.py 로 만듦. 글꼴: 앱 Noto Serif(사용자 지시 2026-11-17). 음원 조성 E♭ / Cm: AI-Hub 71955 메타데이터. 가사 글자 상한 12 → 14pt(가사열 폭의 80%까지, 사용자 지시 2026-11-17).",
  "songs": [
   {
    "title": "창부타령 1",
