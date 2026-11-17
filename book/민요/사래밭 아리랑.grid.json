@@ -1,11 +1,11 @@
 {
   "fileName": "사래밭 아리랑.pdf",
-  "totalPages": 1,
+  "totalPages": 2,
   "pageData": {
     "1": [
       {
         "gridId": 1,
-        "cols": 12,
+        "cols": 6,
         "rows": 12,
         "columnConfigs": [
           {
@@ -37,34 +37,48 @@
             "colIndex": 6,
             "startRow": 1,
             "endRow": 12
-          },
+          }
+        ],
+        "x": 0.0294,
+        "y": 0.0832,
+        "width": 0.9412,
+        "height": 0.8954,
+        "title": "사래밭 아리랑"
+      }
+    ],
+    "2": [
+      {
+        "gridId": 1,
+        "cols": 6,
+        "rows": 12,
+        "columnConfigs": [
           {
-            "colIndex": 7,
+            "colIndex": 1,
             "startRow": 1,
             "endRow": 12
           },
           {
-            "colIndex": 8,
+            "colIndex": 2,
             "startRow": 1,
             "endRow": 12
           },
           {
-            "colIndex": 9,
+            "colIndex": 3,
             "startRow": 1,
             "endRow": 12
           },
           {
-            "colIndex": 10,
+            "colIndex": 4,
             "startRow": 1,
             "endRow": 12
           },
           {
-            "colIndex": 11,
+            "colIndex": 5,
             "startRow": 1,
             "endRow": 12
           },
           {
-            "colIndex": 12,
+            "colIndex": 6,
             "startRow": 1,
             "endRow": 12
           }

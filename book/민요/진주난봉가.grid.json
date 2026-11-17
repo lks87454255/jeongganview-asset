@@ -1,11 +1,11 @@
 {
   "fileName": "진주난봉가.pdf",
-  "totalPages": 1,
+  "totalPages": 2,
   "pageData": {
     "1": [
       {
         "gridId": 1,
-        "cols": 11,
+        "cols": 6,
         "rows": 12,
         "columnConfigs": [
           {
@@ -37,36 +37,50 @@
             "colIndex": 6,
             "startRow": 1,
             "endRow": 12
-          },
+          }
+        ],
+        "x": 0.0294,
+        "y": 0.0832,
+        "width": 0.9412,
+        "height": 0.8954,
+        "title": "진주난봉가"
+      }
+    ],
+    "2": [
+      {
+        "gridId": 1,
+        "cols": 5,
+        "rows": 12,
+        "columnConfigs": [
           {
-            "colIndex": 7,
+            "colIndex": 1,
             "startRow": 1,
             "endRow": 12
           },
           {
-            "colIndex": 8,
+            "colIndex": 2,
             "startRow": 1,
             "endRow": 12
           },
           {
-            "colIndex": 9,
+            "colIndex": 3,
             "startRow": 1,
             "endRow": 12
           },
           {
-            "colIndex": 10,
+            "colIndex": 4,
             "startRow": 1,
             "endRow": 12
           },
           {
-            "colIndex": 11,
+            "colIndex": 5,
             "startRow": 1,
             "endRow": 12
           }
         ],
-        "x": 0.1078,
+        "x": 0.1863,
         "y": 0.0832,
-        "width": 0.8627,
+        "width": 0.7843,
         "height": 0.8954,
         "title": "진주난봉가"
       }
