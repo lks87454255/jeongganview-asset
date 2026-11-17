@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-11-17T08:55:30Z",
+  "generated": "2026-11-17T11:43:03Z",
   "owner": "lks87454255",
   "repo": "jeongganview-asset",
   "branch": "main",
@@ -39,6 +39,20 @@
           ],
           "hasSync": true,
           "syncDurationSec": 232
+        },
+        {
+          "name": "추월장강",
+          "fileName": "추월장강.pdf",
+          "path": "book/AI 음원/추월장강.pdf",
+          "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/AI%20%EC%9D%8C%EC%9B%90/%EC%B6%94%EC%9B%94%EC%9E%A5%EA%B0%95.pdf",
+          "sizeBytes": 97229,
+          "pageCount": 1,
+          "songs": [
+            {
+              "title": "추월장강",
+              "page": 1
+            }
+          ]
         }
       ]
     },
@@ -3087,6 +3101,6 @@
   "adminCategories": [],
   "_total": {
     "categories": 6,
-    "files": 207
+    "files": 208
   }
 }
