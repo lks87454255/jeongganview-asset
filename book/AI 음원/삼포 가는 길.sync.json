@@ -1,13 +1,13 @@
 {
  "version": 1,
  "pdf": "book/AI 음원/삼포 가는 길.pdf",
- "note": "반주 음원: 정간보(digital/삼포 가는 길.json) 선율로 화음을 정해 새로 만든 반주(대금 선율 없음, arrange_sampo3.py, 2026-11-17). 가야금·거문고·해금·양금(풍류 마당 녹음 음색)·현악·바람·드론, 黃 = E♭4 F단조, 1정간 = 66 BPM(0.909초). 전주 4마디(16정간) 뒤 1열 1행 = 15.05초, 마디(4정간)마다 앵커, 끝 = 8열 16행. 이름 규칙: 고칠 때마다 _v2, _v3 … _v2: 가야금·거문고 앞머리가 건반처럼 튀던 것을 줄임(가야금 3.2kHz 위·거문고 2.5kHz 위 덜기, 앞머리 18·25ms, 가야금 압축·2dB 작게, 거문고 4dB 작게). 주변보다 8dB 넘게 튀는 곳 105 → 59.",
+ "note": "반주 음원: 정간보(digital/삼포 가는 길.json) 선율로 화음을 정해 새로 만든 반주(대금 선율 없음, arrange_sampo3.py, 2026-11-17). 가야금·거문고·해금·양금(풍류 마당 녹음 음색)·현악·바람·드론, 黃 = E♭4 F단조, 1정간 = 66 BPM(0.909초). 전주 4마디(16정간) 뒤 1열 1행 = 15.05초, 마디(4정간)마다 앵커, 끝 = 8열 16행. 이름 규칙: 고칠 때마다 _v2, _v3 … _v2: 가야금·거문고 앞머리가 건반처럼 튀던 것을 줄임(가야금 3.2kHz 위·거문고 2.5kHz 위 덜기, 앞머리 18·25ms, 가야금 압축·2dB 작게, 거문고 4dB 작게). 주변보다 8dB 넘게 튀는 곳 105 → 59. _v3: 띵똥 소리(가야금 펼침·양금·유리 차임)를 아예 뺌(사용자 지시). 거문고 앞머리 45ms·압축·9dB 작게, 해금 활 긋듯 70ms·압축, 장구 쿵 6dB 더 작게. 주변보다 8dB 넘게 튀는 곳 105(_v1) → 6.",
  "tracks": [
   {
-   "clipid": "asset:sync-audio/삼포가는길_v2.m4a",
-   "title": "삼포 가는 길 반주 (가야금·거문고·해금·양금·현악)",
-   "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/sync-audio/%EC%82%BC%ED%8F%AC%EA%B0%80%EB%8A%94%EA%B8%B8_v2.m4a",
-   "bytes": 4422334,
+   "clipid": "asset:sync-audio/삼포가는길_v3.m4a",
+   "title": "삼포 가는 길 반주 (거문고·해금·현악)",
+   "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/sync-audio/%EC%82%BC%ED%8F%AC%EA%B0%80%EB%8A%94%EA%B8%B8_v3.m4a",
+   "bytes": 4402230,
    "durationMs": 139409,
    "from": {
     "page": 1,
