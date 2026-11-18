@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-11-18T04:11:59Z",
+  "generated": "2026-11-18T04:48:49Z",
   "owner": "lks87454255",
   "repo": "jeongganview-asset",
   "branch": "main",
@@ -13,7 +13,7 @@
           "fileName": "다향.pdf",
           "path": "book/AI 음원/다향.pdf",
           "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/AI%20%EC%9D%8C%EC%9B%90/%EB%8B%A4%ED%96%A5.pdf",
-          "sizeBytes": 127946,
+          "sizeBytes": 165848,
           "pageCount": 2,
           "songs": [
             {
