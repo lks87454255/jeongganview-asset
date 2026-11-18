@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-11-18T08:36:37Z",
+  "generated": "2026-11-18T08:56:57Z",
   "owner": "lks87454255",
   "repo": "jeongganview-asset",
   "branch": "main",
@@ -9,11 +9,11 @@
       "name": "AI 음원",
       "files": [
         {
-          "name": "다향",
-          "fileName": "다향.pdf",
-          "path": "book/AI 음원/다향.pdf",
-          "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/AI%20%EC%9D%8C%EC%9B%90/%EB%8B%A4%ED%96%A5.pdf",
-          "sizeBytes": 165229,
+          "name": "다향-정악-Cm",
+          "fileName": "다향-정악-Cm.pdf",
+          "path": "book/AI 음원/다향-정악-Cm.pdf",
+          "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/AI%20%EC%9D%8C%EC%9B%90/%EB%8B%A4%ED%96%A5-%EC%A0%95%EC%95%85-Cm.pdf",
+          "sizeBytes": 166509,
           "pageCount": 2,
           "songs": [
             {
