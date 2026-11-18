@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-11-18T03:53:26Z",
+  "generated": "2026-11-18T04:11:59Z",
   "owner": "lks87454255",
   "repo": "jeongganview-asset",
   "branch": "main",
@@ -20,7 +20,9 @@
               "title": "다향",
               "page": 1
             }
-          ]
+          ],
+          "hasSync": true,
+          "syncDurationSec": 244
         },
         {
           "name": "달빛-피아노",
