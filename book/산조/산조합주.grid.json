@@ -54,7 +54,7 @@
     "2": [
       {
         "gridId": 1,
-        "cols": 8,
+        "cols": 6,
         "rows": 12,
         "columnConfigs": [
           {
@@ -86,21 +86,11 @@
             "colIndex": 6,
             "startRow": 1,
             "endRow": 12
-          },
-          {
-            "colIndex": 7,
-            "startRow": 1,
-            "endRow": 12
-          },
-          {
-            "colIndex": 8,
-            "startRow": 1,
-            "endRow": 12
           }
         ],
         "x": 0.0303,
         "y": 0.0832,
-        "width": 0.9294,
+        "width": 0.9378,
         "height": 0.8954,
         "title": "산조합주 · 중모리"
       }
@@ -108,7 +98,7 @@
     "3": [
       {
         "gridId": 1,
-        "cols": 3,
+        "cols": 5,
         "rows": 12,
         "columnConfigs": [
           {
@@ -125,11 +115,21 @@
             "colIndex": 3,
             "startRow": 1,
             "endRow": 12
+          },
+          {
+            "colIndex": 4,
+            "startRow": 1,
+            "endRow": 12
+          },
+          {
+            "colIndex": 5,
+            "startRow": 1,
+            "endRow": 12
           }
         ],
-        "x": 0.6145,
+        "x": 0.1864,
         "y": 0.0832,
-        "width": 0.3435,
+        "width": 0.7817,
         "height": 0.8954,
         "title": "산조합주 · 중모리"
       }
