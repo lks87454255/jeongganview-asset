@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-11-18T08:56:57Z",
+  "generated": "2026-11-18T11:22:42Z",
   "owner": "lks87454255",
   "repo": "jeongganview-asset",
   "branch": "main",
@@ -73,10 +73,10 @@
           "syncDurationSec": 232
         },
         {
-          "name": "삼포 가는 길",
-          "fileName": "삼포 가는 길.pdf",
-          "path": "book/AI 음원/삼포 가는 길.pdf",
-          "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/AI%20%EC%9D%8C%EC%9B%90/%EC%82%BC%ED%8F%AC%20%EA%B0%80%EB%8A%94%20%EA%B8%B8.pdf",
+          "name": "삼포 가는 길-정악-Fm",
+          "fileName": "삼포 가는 길-정악-Fm.pdf",
+          "path": "book/AI 음원/삼포 가는 길-정악-Fm.pdf",
+          "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/AI%20%EC%9D%8C%EC%9B%90/%EC%82%BC%ED%8F%AC%20%EA%B0%80%EB%8A%94%20%EA%B8%B8-%EC%A0%95%EC%95%85-Fm.pdf",
           "sizeBytes": 88137,
           "pageCount": 1,
           "songs": [
@@ -89,10 +89,10 @@
           "syncDurationSec": 214
         },
         {
-          "name": "추월장강",
-          "fileName": "추월장강.pdf",
-          "path": "book/AI 음원/추월장강.pdf",
-          "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/AI%20%EC%9D%8C%EC%9B%90/%EC%B6%94%EC%9B%94%EC%9E%A5%EA%B0%95.pdf",
+          "name": "추월장강-정악-Bbm",
+          "fileName": "추월장강-정악-Bbm.pdf",
+          "path": "book/AI 음원/추월장강-정악-Bbm.pdf",
+          "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/AI%20%EC%9D%8C%EC%9B%90/%EC%B6%94%EC%9B%94%EC%9E%A5%EA%B0%95-%EC%A0%95%EC%95%85-Bbm.pdf",
           "sizeBytes": 111610,
           "pageCount": 1,
           "songs": [

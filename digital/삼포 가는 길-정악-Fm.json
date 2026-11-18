@@ -1,13 +1,13 @@
 {
- "title": "추월장강",
+ "title": "삼포 가는 길-정악-Fm",
  "book": "AI 음원",
  "source_pdf": "digital/민요-빈쪽.pdf",
  "fonts": "noto",
  "uniform_pt": 23.53,
- "note": "원본: 대금율보 1권 92쪽(book/대금율보/). 판독: 정간보 목록 CSV (sheets/대금율보/csv/정악/추월장강.csv) — 판독 초안 그대로(원본 대조 전). make_minyo_digital.py 로 만듦. 글꼴: 앱 Noto Serif(사용자 지시 2026-11-17). 정간보 연주 'AI 음원' 분류에 넣음(사용자 지시 2026-11-17, make_minyo_digital.py 의 CSV 폴더만 정악으로 바꿔 만듦). 가사열에 반주 화음(코드) 이름을 적음(반주 arrange_chuwol.py 반 마디 화음, 黃 = E♭4, B♭단조, 사용자 지시 2026-11-17).",
+ "note": "카드 이름 삼포 가는 길 → 삼포 가는 길-정악-Fm(정악대금 黃 E♭, 사용자 지시 2026-11-18). 원본: 대금율보 2권 79쪽(book/대금율보/). 판독: 정간보 목록 CSV (sheets/대금율보/csv/가요/삼포 가는 길.csv) — 판독 초안 그대로(원본 대조 전). make_minyo_digital.py 로 만듦. 글꼴: 앱 Noto Serif(사용자 지시 2026-11-17). 정간보 연주 'AI 음원' 분류에 넣음(사용자 지시 2026-11-17, make_minyo_digital.py 의 CSV 폴더만 가요로 바꿔 만듦). 카드·제목을 「삼포 가는 길」로 띄어 씀(사용자 지시 2026-11-17, 정간보 만들기 CSV 제목·파일 이름도 같게). 가사열에 반주 화음(코드) 이름을 적음(반주 arrange_sampo3.py 의 반 마디 화음, 黃 = E♭4 기준, 바뀌는 정간과 열 첫 정간, 사용자 지시 2026-11-17).",
  "songs": [
   {
-   "title": "추월장강",
+   "title": "삼포 가는 길",
    "page": 1,
    "grid": 1
   }
@@ -37,14 +37,14 @@
       1
      ],
      "title": null,
-     "name": "추월장강"
+     "name": "삼포 가는 길"
     }
    ],
    "outline_pt": 1.1,
    "uniform_size": true,
    "texts": [
     {
-     "t": "추월장강",
+     "t": "삼포 가는 길",
      "dir": "h",
      "font": "kob",
      "x": 297.5,
@@ -71,10 +71,10 @@
      "t": "Fm",
      "dir": "h",
      "font": "ko",
-     "x": 568.05,
+     "x": 565.69,
      "y": 46.0,
-     "size": 8,
-     "size_pt": 8.0,
+     "size": 10,
+     "size_pt": 10.0,
      "align": "center",
      "chord": true
     },
@@ -82,10 +82,10 @@
      "t": "B♭m",
      "dir": "h",
      "font": "ko",
-     "x": 568.05,
+     "x": 565.69,
      "y": 234.25,
-     "size": 8,
-     "size_pt": 8.0,
+     "size": 10,
+     "size_pt": 10.0,
      "align": "center",
      "chord": true
     },
@@ -93,175 +93,10 @@
      "t": "Fm",
      "dir": "h",
      "font": "ko",
-     "x": 568.05,
-     "y": 516.62,
-     "size": 8,
-     "size_pt": 8.0,
-     "align": "center",
-     "chord": true
-    },
-    {
-     "t": "Fm",
-     "dir": "h",
-     "font": "ko",
-     "x": 512.05,
-     "y": 46.0,
-     "size": 8,
-     "size_pt": 8.0,
-     "align": "center",
-     "chord": true
-    },
-    {
-     "t": "B♭m",
-     "dir": "h",
-     "font": "ko",
-     "x": 512.05,
-     "y": 234.25,
-     "size": 8,
-     "size_pt": 8.0,
-     "align": "center",
-     "chord": true
-    },
-    {
-     "t": "Fm",
-     "dir": "h",
-     "font": "ko",
-     "x": 512.05,
-     "y": 610.75,
-     "size": 8,
-     "size_pt": 8.0,
-     "align": "center",
-     "chord": true
-    },
-    {
-     "t": "B♭m",
-     "dir": "h",
-     "font": "ko",
-     "x": 456.05,
-     "y": 46.0,
-     "size": 8,
-     "size_pt": 8.0,
-     "align": "center",
-     "chord": true
-    },
-    {
-     "t": "E♭m",
-     "dir": "h",
-     "font": "ko",
-     "x": 456.05,
-     "y": 140.12,
-     "size": 8,
-     "size_pt": 8.0,
-     "align": "center",
-     "chord": true
-    },
-    {
-     "t": "B♭m",
-     "dir": "h",
-     "font": "ko",
-     "x": 456.05,
-     "y": 328.38,
-     "size": 8,
-     "size_pt": 8.0,
-     "align": "center",
-     "chord": true
-    },
-    {
-     "t": "G♭",
-     "dir": "h",
-     "font": "ko",
-     "x": 456.05,
-     "y": 610.75,
-     "size": 8,
-     "size_pt": 8.0,
-     "align": "center",
-     "chord": true
-    },
-    {
-     "t": "B♭m",
-     "dir": "h",
-     "font": "ko",
-     "x": 400.05,
-     "y": 46.0,
-     "size": 8,
-     "size_pt": 8.0,
-     "align": "center",
-     "chord": true
-    },
-    {
-     "t": "E♭m",
-     "dir": "h",
-     "font": "ko",
-     "x": 400.05,
-     "y": 234.25,
-     "size": 8,
-     "size_pt": 8.0,
-     "align": "center",
-     "chord": true
-    },
-    {
-     "t": "B♭m",
-     "dir": "h",
-     "font": "ko",
-     "x": 400.05,
-     "y": 328.38,
-     "size": 8,
-     "size_pt": 8.0,
-     "align": "center",
-     "chord": true
-    },
-    {
-     "t": "G♭",
-     "dir": "h",
-     "font": "ko",
-     "x": 400.05,
-     "y": 610.75,
-     "size": 8,
-     "size_pt": 8.0,
-     "align": "center",
-     "chord": true
-    },
-    {
-     "t": "B♭m",
-     "dir": "h",
-     "font": "ko",
-     "x": 344.05,
-     "y": 46.0,
-     "size": 8,
-     "size_pt": 8.0,
-     "align": "center",
-     "chord": true
-    },
-    {
-     "t": "E♭m",
-     "dir": "h",
-     "font": "ko",
-     "x": 344.05,
-     "y": 234.25,
-     "size": 8,
-     "size_pt": 8.0,
-     "align": "center",
-     "chord": true
-    },
-    {
-     "t": "B♭m",
-     "dir": "h",
-     "font": "ko",
-     "x": 344.05,
+     "x": 565.69,
      "y": 422.5,
-     "size": 8,
-     "size_pt": 8.0,
-     "align": "center",
-     "chord": true
-    },
-    {
-     "t": "G♭",
-     "dir": "h",
-     "font": "ko",
-     "x": 344.05,
-     "y": 610.75,
-     "size": 8,
-     "size_pt": 8.0,
+     "size": 10,
+     "size_pt": 10.0,
      "align": "center",
      "chord": true
     },
@@ -269,10 +104,10 @@
      "t": "B♭m",
      "dir": "h",
      "font": "ko",
-     "x": 288.05,
-     "y": 46.0,
-     "size": 8,
-     "size_pt": 8.0,
+     "x": 565.69,
+     "y": 610.75,
+     "size": 10,
+     "size_pt": 10.0,
      "align": "center",
      "chord": true
     },
@@ -280,21 +115,10 @@
      "t": "Fm",
      "dir": "h",
      "font": "ko",
-     "x": 288.05,
-     "y": 234.25,
-     "size": 8,
-     "size_pt": 8.0,
-     "align": "center",
-     "chord": true
-    },
-    {
-     "t": "E♭m",
-     "dir": "h",
-     "font": "ko",
-     "x": 288.05,
-     "y": 328.38,
-     "size": 8,
-     "size_pt": 8.0,
+     "x": 495.69,
+     "y": 46.0,
+     "size": 10,
+     "size_pt": 10.0,
      "align": "center",
      "chord": true
     },
@@ -302,10 +126,32 @@
      "t": "B♭m",
      "dir": "h",
      "font": "ko",
-     "x": 288.05,
-     "y": 422.5,
-     "size": 8,
-     "size_pt": 8.0,
+     "x": 495.69,
+     "y": 234.25,
+     "size": 10,
+     "size_pt": 10.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "A♭",
+     "dir": "h",
+     "font": "ko",
+     "x": 495.69,
+     "y": 610.75,
+     "size": 10,
+     "size_pt": 10.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "Fm",
+     "dir": "h",
+     "font": "ko",
+     "x": 425.69,
+     "y": 46.0,
+     "size": 10,
+     "size_pt": 10.0,
      "align": "center",
      "chord": true
     },
@@ -313,32 +159,32 @@
      "t": "D♭",
      "dir": "h",
      "font": "ko",
-     "x": 288.05,
+     "x": 425.69,
+     "y": 234.25,
+     "size": 10,
+     "size_pt": 10.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "Cm",
+     "dir": "h",
+     "font": "ko",
+     "x": 425.69,
+     "y": 422.5,
+     "size": 10,
+     "size_pt": 10.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "E♭",
+     "dir": "h",
+     "font": "ko",
+     "x": 425.69,
      "y": 610.75,
-     "size": 8,
-     "size_pt": 8.0,
-     "align": "center",
-     "chord": true
-    },
-    {
-     "t": "B♭m",
-     "dir": "h",
-     "font": "ko",
-     "x": 232.05,
-     "y": 46.0,
-     "size": 8,
-     "size_pt": 8.0,
-     "align": "center",
-     "chord": true
-    },
-    {
-     "t": "B♭m",
-     "dir": "h",
-     "font": "ko",
-     "x": 176.05,
-     "y": 46.0,
-     "size": 8,
-     "size_pt": 8.0,
+     "size": 10,
+     "size_pt": 10.0,
      "align": "center",
      "chord": true
     },
@@ -346,54 +192,197 @@
      "t": "Fm",
      "dir": "h",
      "font": "ko",
-     "x": 176.05,
-     "y": 234.25,
-     "size": 8,
-     "size_pt": 8.0,
-     "align": "center",
-     "chord": true
-    },
-    {
-     "t": "B♭m",
-     "dir": "h",
-     "font": "ko",
-     "x": 176.05,
-     "y": 328.38,
-     "size": 8,
-     "size_pt": 8.0,
-     "align": "center",
-     "chord": true
-    },
-    {
-     "t": "E♭m",
-     "dir": "h",
-     "font": "ko",
-     "x": 176.05,
-     "y": 610.75,
-     "size": 8,
-     "size_pt": 8.0,
-     "align": "center",
-     "chord": true
-    },
-    {
-     "t": "B♭m",
-     "dir": "h",
-     "font": "ko",
-     "x": 176.05,
-     "y": 704.88,
-     "size": 8,
-     "size_pt": 8.0,
-     "align": "center",
-     "chord": true
-    },
-    {
-     "t": "B♭m",
-     "dir": "h",
-     "font": "ko",
-     "x": 120.05,
+     "x": 355.69,
      "y": 46.0,
-     "size": 8,
-     "size_pt": 8.0,
+     "size": 10,
+     "size_pt": 10.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "B♭m",
+     "dir": "h",
+     "font": "ko",
+     "x": 355.69,
+     "y": 234.25,
+     "size": 10,
+     "size_pt": 10.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "Fm",
+     "dir": "h",
+     "font": "ko",
+     "x": 355.69,
+     "y": 422.5,
+     "size": 10,
+     "size_pt": 10.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "D♭",
+     "dir": "h",
+     "font": "ko",
+     "x": 355.69,
+     "y": 610.75,
+     "size": 10,
+     "size_pt": 10.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "Cm",
+     "dir": "h",
+     "font": "ko",
+     "x": 285.69,
+     "y": 46.0,
+     "size": 10,
+     "size_pt": 10.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "Fm",
+     "dir": "h",
+     "font": "ko",
+     "x": 285.69,
+     "y": 234.25,
+     "size": 10,
+     "size_pt": 10.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "A♭",
+     "dir": "h",
+     "font": "ko",
+     "x": 285.69,
+     "y": 610.75,
+     "size": 10,
+     "size_pt": 10.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "Fm",
+     "dir": "h",
+     "font": "ko",
+     "x": 215.69,
+     "y": 46.0,
+     "size": 10,
+     "size_pt": 10.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "E♭",
+     "dir": "h",
+     "font": "ko",
+     "x": 215.69,
+     "y": 234.25,
+     "size": 10,
+     "size_pt": 10.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "Fm",
+     "dir": "h",
+     "font": "ko",
+     "x": 215.69,
+     "y": 422.5,
+     "size": 10,
+     "size_pt": 10.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "B♭m",
+     "dir": "h",
+     "font": "ko",
+     "x": 215.69,
+     "y": 610.75,
+     "size": 10,
+     "size_pt": 10.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "A♭",
+     "dir": "h",
+     "font": "ko",
+     "x": 145.69,
+     "y": 46.0,
+     "size": 10,
+     "size_pt": 10.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "Cm",
+     "dir": "h",
+     "font": "ko",
+     "x": 145.69,
+     "y": 234.25,
+     "size": 10,
+     "size_pt": 10.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "Fm",
+     "dir": "h",
+     "font": "ko",
+     "x": 145.69,
+     "y": 422.5,
+     "size": 10,
+     "size_pt": 10.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "A♭",
+     "dir": "h",
+     "font": "ko",
+     "x": 145.69,
+     "y": 610.75,
+     "size": 10,
+     "size_pt": 10.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "Fm",
+     "dir": "h",
+     "font": "ko",
+     "x": 75.69,
+     "y": 46.0,
+     "size": 10,
+     "size_pt": 10.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "B♭m",
+     "dir": "h",
+     "font": "ko",
+     "x": 75.69,
+     "y": 234.25,
+     "size": 10,
+     "size_pt": 10.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "Fm",
+     "dir": "h",
+     "font": "ko",
+     "x": 75.69,
+     "y": 422.5,
+     "size": 10,
+     "size_pt": 10.0,
      "align": "center",
      "chord": true
     }
@@ -403,40 +392,36 @@
      "gridId": 1,
      "cols": [
       [
-       521.5,
-       558.6
+       507.5,
+       553.88
       ],
       [
-       465.5,
-       502.6
+       437.5,
+       483.88
       ],
       [
-       409.5,
-       446.6
-      ],
-      [
-       353.5,
-       390.6
+       367.5,
+       413.88
       ],
       [
        297.5,
-       334.6
+       343.88
       ],
       [
-       241.5,
-       278.6
+       227.5,
+       273.88
       ],
       [
-       185.5,
-       222.6
+       157.5,
+       203.88
       ],
       [
-       129.5,
-       166.6
+       87.5,
+       133.88
       ],
       [
-       73.5,
-       110.6
+       17.5,
+       63.88
       ]
      ],
      "rows": [
@@ -498,11 +483,6 @@
        "colIndex": 8,
        "startRow": 1,
        "endRow": 16
-      },
-      {
-       "colIndex": 9,
-       "startRow": 1,
-       "endRow": 16
       }
      ],
      "measures": [
@@ -513,21 +493,14 @@
      "breaths": {},
      "ticks": {},
      "cells": [
-      "㳞汰潢/汰/ㅡ|||㳞汰潢/汰/㳞)|汰ㅅ|||淋ヲ/△/淋|||㳞ʒ|汰|||潢無/潢/ㅡ|汰(",
-      "|汰潢·/無南/ㅡ||林ヲ|||仲)/ㅡ/太ㅅ|林||無/潢/無ㅅ|林|||仲)/ㅡ/太|仲)/太/ㅡ|",
-      "仲/林無/林ㅅ|||林ʒ/潢/ㅡ|||潢無/潢汰/汰|||淋ヲ/△/淋|||潕)/ㅡ/淋ヲ|||㳞)",
-      "淋/汰/ㅡ|||潢無/潢/ㅡ||潢/ㅡ無ㅅ/潢無ㅅ|潢無ㅅ/林ㅅ/ㅡ|||仲)/ㅡ/太|仲)/太/ㅡ||潢無/ㅡ/ㅡ||林ヲ|",
-      "仲)|太/ㅡ/太ㅅ|仲太/仲/林ㅅ|||林/無/ㅡ|潢||潢無/潢汰/汰|||淋ヲ/△/淋|||潕)|淋ヲ",
-      "||㳞)/ㅡ/淋|汰潢/汰/ㅡ|||潢無/潢/ㅡ||潢/ㅡ無ㅅ/潢無ㅅ|潢無ㅅ/林ㅅ/ㅡ|||仲)/ㅡ/太|太ㅅ|潢無/ㅡ/ㅡ|林ヲ",
-      "||淋ヲ/△/淋|||㳞/ㅡ/淋|汰|||林/ㅡ/無|ㅡ/汰/ㅡ|㳞)/汰/ㅡ|||淋ヲ/△/淋|",
-      "|潕)/ㅡ/淋ヲ|||㳞)/ㅡ/汰ㅅ|ㅡ/㳞汰/㳞|淋|||林/ㅡ/無|ㅡ/汰/ㅡ|潢|||汰|",
-      "汰潢·/無南/ㅡ|林ヲ|||仲)/ㅡ/太|ㅡ/林/ㅡ||潢無/ㅡ/ㅡ|林ヲ|||||||"
-     ],
-     "pad_cols": [
-      [
-       17.5,
-       54.6
-      ]
+      "太||汰|⊔|太||汰|⊔|汰/潢|南/林|仲/姑|太/黃|太|||",
+      "|||ㅡ/仲|林|||||||△|南潢南林/仲|||ㅡ/林南",
+      "太仲太黃/太|||△|林/仲|仲/姑|太黃/太|ㅡ/仲|南|||ㅡ/△|南/潢|||",
+      "汰潢/汰|汰潢/南|汰ㄷ|||||△|汰/湳|||ㅡ/h|汰㳞汰潢/汰|||ㅡ/潢ʒ",
+      "南潢南林/南|||||||△|林/仲|林/南|南/潢|汰潢/汰|仲|||ㅡ/林南",
+      "太仲太黃/太|||ㅡ/△|黃||||太/ㅡ/ㄱ|太/仲|南||林南林仲/林|||△",
+      "南潢南林/仲|||ㅡ/南|南|||ㅡ/△|南/汰|汰/㳞|㳞/淋|淋/湳|湳潢湳淋/㳞|||ㅡ/淋㳞",
+      "汰㳞汰潢/汰|||||||△|汰/潢|南/林|仲/姑|太/黃|太|||△"
      ]
     }
    ]
