@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-11-18T01:59:52Z",
+  "generated": "2026-11-18T02:16:04Z",
   "owner": "lks87454255",
   "repo": "jeongganview-asset",
   "branch": "main",
@@ -710,7 +710,7 @@
           "beat": "4/4",
           "rows": 16,
           "pages": 1,
-          "sha256": "4cff72a27cee3939cd5b2fd951b06d99086e20006d1f5fa0c8353e90e85607b8",
+          "sha256": "723ec08f6182eb3b6c3680aead28c89b0cfa2335a1a49f23ffe4dec42e4e6793",
           "status": "판독 초안(검수 전)",
           "source": "1권 155쪽"
         },
@@ -2180,7 +2180,7 @@
           "beat": "4/4",
           "rows": 16,
           "pages": 1,
-          "sha256": "81377486afab47e75fc7caf8f70c64edbdfa04917de8a62170050b6380f420ec",
+          "sha256": "b7476707d79dc19b452f766cd13a1a7810c5bc1ad01202b0c00df82d3f51ad07",
           "status": "판독 초안(검수 전)",
           "source": "2권 13쪽"
         },
@@ -3013,7 +3013,7 @@
           "beat": "4/4",
           "rows": 16,
           "pages": 1,
-          "sha256": "93007aedac8f4ef80344c1b72fc90ddd73fe81cb2f5e85eb761dd07b83b4075c",
+          "sha256": "21b7db1ff76c76ccfc6d844518435d6f2131120db24512dcaaf00620fbe6cd0a",
           "status": "판독 초안(검수 전)",
           "source": "2권 157쪽"
         },
@@ -3027,7 +3027,7 @@
           "beat": "4/4",
           "rows": 16,
           "pages": 1,
-          "sha256": "d6c8ab89e6530f8ca074502f58fe14b2cab726b342624454922dafe79a30e84c",
+          "sha256": "c4380db850e81267df12009b1237ff73ec98f88eebcb2d58e1ea25d9972e450f",
           "status": "판독 초안(검수 전)",
           "source": "2권 156쪽"
         },
