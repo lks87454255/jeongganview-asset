@@ -1,6 +1,6 @@
 {
   "fileName": "산조합주.pdf",
-  "totalPages": 7,
+  "totalPages": 9,
   "pageData": {
     "1": [
       {
@@ -127,49 +127,17 @@
             "endRow": 12
           }
         ],
-        "x": 0.5829,
+        "x": 0.6145,
         "y": 0.0832,
-        "width": 0.3869,
+        "width": 0.3435,
         "height": 0.8954,
         "title": "산조합주 · 중모리"
-      },
-      {
-        "gridId": 2,
-        "cols": 4,
-        "rows": 12,
-        "columnConfigs": [
-          {
-            "colIndex": 1,
-            "startRow": 1,
-            "endRow": 12
-          },
-          {
-            "colIndex": 2,
-            "startRow": 1,
-            "endRow": 12
-          },
-          {
-            "colIndex": 3,
-            "startRow": 1,
-            "endRow": 12
-          },
-          {
-            "colIndex": 4,
-            "startRow": 1,
-            "endRow": 12
-          }
-        ],
-        "x": 0.0303,
-        "y": 0.0832,
-        "width": 0.5117,
-        "height": 0.8954,
-        "title": "산조합주 · 중중모리"
       }
     ],
     "4": [
       {
         "gridId": 1,
-        "cols": 8,
+        "cols": 6,
         "rows": 12,
         "columnConfigs": [
           {
@@ -201,21 +169,11 @@
             "colIndex": 6,
             "startRow": 1,
             "endRow": 12
-          },
-          {
-            "colIndex": 7,
-            "startRow": 1,
-            "endRow": 12
-          },
-          {
-            "colIndex": 8,
-            "startRow": 1,
-            "endRow": 12
           }
         ],
         "x": 0.0303,
         "y": 0.0832,
-        "width": 0.9391,
+        "width": 0.9378,
         "height": 0.8954,
         "title": "산조합주 · 중중모리"
       }
@@ -223,131 +181,50 @@
     "5": [
       {
         "gridId": 1,
-        "cols": 7,
-        "rows": 8,
+        "cols": 6,
+        "rows": 12,
         "columnConfigs": [
           {
             "colIndex": 1,
             "startRow": 1,
-            "endRow": 8
+            "endRow": 12
           },
           {
             "colIndex": 2,
             "startRow": 1,
-            "endRow": 8
+            "endRow": 12
           },
           {
             "colIndex": 3,
             "startRow": 1,
-            "endRow": 8
+            "endRow": 12
           },
           {
             "colIndex": 4,
             "startRow": 1,
-            "endRow": 8
+            "endRow": 12
           },
           {
             "colIndex": 5,
             "startRow": 1,
-            "endRow": 8
+            "endRow": 12
           },
           {
             "colIndex": 6,
             "startRow": 1,
-            "endRow": 8
-          },
-          {
-            "colIndex": 7,
-            "startRow": 1,
-            "endRow": 8
+            "endRow": 12
           }
         ],
-        "x": 0.0302,
+        "x": 0.0303,
         "y": 0.0832,
-        "width": 0.9373,
+        "width": 0.9378,
         "height": 0.8954,
-        "title": "산조합주 · 자진모리"
+        "title": "산조합주 · 중중모리"
       }
     ],
     "6": [
       {
         "gridId": 1,
-        "cols": 8,
-        "rows": 8,
-        "columnConfigs": [
-          {
-            "colIndex": 1,
-            "startRow": 1,
-            "endRow": 8
-          },
-          {
-            "colIndex": 2,
-            "startRow": 1,
-            "endRow": 8
-          },
-          {
-            "colIndex": 3,
-            "startRow": 1,
-            "endRow": 8
-          },
-          {
-            "colIndex": 4,
-            "startRow": 1,
-            "endRow": 8
-          },
-          {
-            "colIndex": 5,
-            "startRow": 1,
-            "endRow": 8
-          },
-          {
-            "colIndex": 6,
-            "startRow": 1,
-            "endRow": 8
-          },
-          {
-            "colIndex": 7,
-            "startRow": 1,
-            "endRow": 8
-          },
-          {
-            "colIndex": 8,
-            "startRow": 1,
-            "endRow": 8
-          }
-        ],
-        "x": 0.0303,
-        "y": 0.0832,
-        "width": 0.9391,
-        "height": 0.8954,
-        "title": "산조합주 · 자진모리"
-      }
-    ],
-    "7": [
-      {
-        "gridId": 1,
-        "cols": 2,
-        "rows": 8,
-        "columnConfigs": [
-          {
-            "colIndex": 1,
-            "startRow": 1,
-            "endRow": 8
-          },
-          {
-            "colIndex": 2,
-            "startRow": 1,
-            "endRow": 8
-          }
-        ],
-        "x": 0.7162,
-        "y": 0.0832,
-        "width": 0.2565,
-        "height": 0.8954,
-        "title": "산조합주 · 자진모리"
-      },
-      {
-        "gridId": 2,
         "cols": 6,
         "rows": 8,
         "columnConfigs": [
@@ -382,9 +259,136 @@
             "endRow": 8
           }
         ],
-        "x": 0.0302,
+        "x": 0.0303,
         "y": 0.0832,
-        "width": 0.6478,
+        "width": 0.9396,
+        "height": 0.8954,
+        "title": "산조합주 · 자진모리"
+      }
+    ],
+    "7": [
+      {
+        "gridId": 1,
+        "cols": 6,
+        "rows": 8,
+        "columnConfigs": [
+          {
+            "colIndex": 1,
+            "startRow": 1,
+            "endRow": 8
+          },
+          {
+            "colIndex": 2,
+            "startRow": 1,
+            "endRow": 8
+          },
+          {
+            "colIndex": 3,
+            "startRow": 1,
+            "endRow": 8
+          },
+          {
+            "colIndex": 4,
+            "startRow": 1,
+            "endRow": 8
+          },
+          {
+            "colIndex": 5,
+            "startRow": 1,
+            "endRow": 8
+          },
+          {
+            "colIndex": 6,
+            "startRow": 1,
+            "endRow": 8
+          }
+        ],
+        "x": 0.0303,
+        "y": 0.0832,
+        "width": 0.9396,
+        "height": 0.8954,
+        "title": "산조합주 · 자진모리"
+      }
+    ],
+    "8": [
+      {
+        "gridId": 1,
+        "cols": 5,
+        "rows": 8,
+        "columnConfigs": [
+          {
+            "colIndex": 1,
+            "startRow": 1,
+            "endRow": 8
+          },
+          {
+            "colIndex": 2,
+            "startRow": 1,
+            "endRow": 8
+          },
+          {
+            "colIndex": 3,
+            "startRow": 1,
+            "endRow": 8
+          },
+          {
+            "colIndex": 4,
+            "startRow": 1,
+            "endRow": 8
+          },
+          {
+            "colIndex": 5,
+            "startRow": 1,
+            "endRow": 8
+          }
+        ],
+        "x": 0.1867,
+        "y": 0.0832,
+        "width": 0.7832,
+        "height": 0.8954,
+        "title": "산조합주 · 자진모리"
+      }
+    ],
+    "9": [
+      {
+        "gridId": 1,
+        "cols": 6,
+        "rows": 8,
+        "columnConfigs": [
+          {
+            "colIndex": 1,
+            "startRow": 1,
+            "endRow": 8
+          },
+          {
+            "colIndex": 2,
+            "startRow": 1,
+            "endRow": 8
+          },
+          {
+            "colIndex": 3,
+            "startRow": 1,
+            "endRow": 8
+          },
+          {
+            "colIndex": 4,
+            "startRow": 1,
+            "endRow": 8
+          },
+          {
+            "colIndex": 5,
+            "startRow": 1,
+            "endRow": 8
+          },
+          {
+            "colIndex": 6,
+            "startRow": 1,
+            "endRow": 8
+          }
+        ],
+        "x": 0.0303,
+        "y": 0.0832,
+        "width": 0.9396,
         "height": 0.8954,
         "title": "산조합주 · 엇모리"
       }
@@ -403,18 +407,18 @@
     },
     {
       "title": "중중모리",
-      "page": 3,
-      "grid": 2
+      "page": 4,
+      "grid": 1
     },
     {
       "title": "자진모리",
-      "page": 5,
+      "page": 6,
       "grid": 1
     },
     {
       "title": "엇모리",
-      "page": 7,
-      "grid": 2
+      "page": 9,
+      "grid": 1
     }
   ]
 }
