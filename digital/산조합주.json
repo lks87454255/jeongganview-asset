@@ -3,6 +3,7 @@
  "book": "산조",
  "source_pdf": "digital/산조합주-스캔.pdf",
  "fonts": "noto",
+ "page_label": "song",
  "note": "원본 스캔(산조합주-4.pdf, 약 68dpi)을 눈으로 판독한 초안(2026-11-08). 사용자 대조 필요. 글꼴: 앱 Noto Serif(맥 글꼴 대신 대체 글꼴, 사용자 지시 2026-11-18).",
  "pages": [
   {
