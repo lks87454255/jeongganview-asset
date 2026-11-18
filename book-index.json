@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-11-17T13:44:48Z",
+  "generated": "2026-11-18T01:19:13Z",
   "owner": "lks87454255",
   "repo": "jeongganview-asset",
   "branch": "main",
@@ -8,6 +8,20 @@
     {
       "name": "AI 음원",
       "files": [
+        {
+          "name": "다향",
+          "fileName": "다향.pdf",
+          "path": "book/AI 음원/다향.pdf",
+          "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/AI%20%EC%9D%8C%EC%9B%90/%EB%8B%A4%ED%96%A5.pdf",
+          "sizeBytes": 127946,
+          "pageCount": 2,
+          "songs": [
+            {
+              "title": "다향",
+              "page": 1
+            }
+          ]
+        },
         {
           "name": "달빛-피아노",
           "fileName": "달빛-피아노.pdf",
@@ -3119,6 +3133,6 @@
   "adminCategories": [],
   "_total": {
     "categories": 6,
-    "files": 209
+    "files": 210
   }
 }

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-11-17T12:08:02Z",
+  "generated": "2026-11-18T01:19:13Z",
   "owner": "lks87454255",
   "repo": "jeongganview-asset",
   "branch": "main",
@@ -5650,20 +5650,6 @@
           "source": "1권 73쪽"
         },
         {
-          "name": "다향",
-          "title": "다향",
-          "fileName": "다향.csv",
-          "path": "sheets/대금율보/csv/외국곡·창작곡/다향.csv",
-          "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/sheets/%EB%8C%80%EA%B8%88%EC%9C%A8%EB%B3%B4/csv/%EC%99%B8%EA%B5%AD%EA%B3%A1%C2%B7%EC%B0%BD%EC%9E%91%EA%B3%A1/%EB%8B%A4%ED%96%A5.csv",
-          "sizeBytes": 1873,
-          "beat": "4/4",
-          "rows": 16,
-          "pages": 1,
-          "sha256": "4c328bf22777eb86edbbc5be2a1d1029bb96a3c9439277b2bc34dc1f9a92bab6",
-          "status": "판독 초안(검수 전)",
-          "source": "1권 94쪽"
-        },
-        {
           "name": "달빛",
           "title": "달빛",
           "fileName": "달빛.csv",
@@ -9380,6 +9366,6 @@
   ],
   "_total": {
     "categories": 11,
-    "files": 680
+    "files": 679
   }
 }
