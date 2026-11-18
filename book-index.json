@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-11-18T05:35:05Z",
+  "generated": "2026-11-18T08:36:37Z",
   "owner": "lks87454255",
   "repo": "jeongganview-asset",
   "branch": "main",
@@ -25,10 +25,10 @@
           "syncDurationSec": 244
         },
         {
-          "name": "달빛-피아노",
-          "fileName": "달빛-피아노.pdf",
-          "path": "book/AI 음원/달빛-피아노.pdf",
-          "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/AI%20%EC%9D%8C%EC%9B%90/%EB%8B%AC%EB%B9%9B-%ED%94%BC%EC%95%84%EB%85%B8.pdf",
+          "name": "달빛-피아노-산조-B",
+          "fileName": "달빛-피아노-산조-B.pdf",
+          "path": "book/AI 음원/달빛-피아노-산조-B.pdf",
+          "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/AI%20%EC%9D%8C%EC%9B%90/%EB%8B%AC%EB%B9%9B-%ED%94%BC%EC%95%84%EB%85%B8-%EC%82%B0%EC%A1%B0-B.pdf",
           "sizeBytes": 91414,
           "pageCount": 1,
           "songs": [
@@ -41,27 +41,27 @@
           "syncDurationSec": 232
         },
         {
-          "name": "달빛-피아노현악-Ab",
-          "fileName": "달빛-피아노현악-Ab.pdf",
-          "path": "book/AI 음원/달빛-피아노현악-Ab.pdf",
-          "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/AI%20%EC%9D%8C%EC%9B%90/%EB%8B%AC%EB%B9%9B-%ED%94%BC%EC%95%84%EB%85%B8%ED%98%84%EC%95%85-Ab.pdf",
+          "name": "달빛-현악-산조-B",
+          "fileName": "달빛-현악-산조-B.pdf",
+          "path": "book/AI 음원/달빛-현악-산조-B.pdf",
+          "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/AI%20%EC%9D%8C%EC%9B%90/%EB%8B%AC%EB%B9%9B-%ED%98%84%EC%95%85-%EC%82%B0%EC%A1%B0-B.pdf",
+          "sizeBytes": 91414,
+          "pageCount": 1,
+          "songs": [
+            {
+              "title": "달빛",
+              "page": 1
+            }
+          ],
+          "hasSync": true,
+          "syncDurationSec": 232
+        },
+        {
+          "name": "달빛-현악-정악-Ab",
+          "fileName": "달빛-현악-정악-Ab.pdf",
+          "path": "book/AI 음원/달빛-현악-정악-Ab.pdf",
+          "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/AI%20%EC%9D%8C%EC%9B%90/%EB%8B%AC%EB%B9%9B-%ED%98%84%EC%95%85-%EC%A0%95%EC%95%85-Ab.pdf",
           "sizeBytes": 90687,
-          "pageCount": 1,
-          "songs": [
-            {
-              "title": "달빛",
-              "page": 1
-            }
-          ],
-          "hasSync": true,
-          "syncDurationSec": 232
-        },
-        {
-          "name": "달빛-피아노현악",
-          "fileName": "달빛-피아노현악.pdf",
-          "path": "book/AI 음원/달빛-피아노현악.pdf",
-          "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/book/AI%20%EC%9D%8C%EC%9B%90/%EB%8B%AC%EB%B9%9B-%ED%94%BC%EC%95%84%EB%85%B8%ED%98%84%EC%95%85.pdf",
-          "sizeBytes": 91414,
           "pageCount": 1,
           "songs": [
             {
