@@ -1,12 +1,12 @@
 {
  "version": 1,
  "pdf": "book/AI 음원/다향.pdf",
- "note": "반주 음원: 정간보(digital/다향.json) 선율로 화음을 정해 새로 만든 반주(대금 선율 없음, scripts/arrange_dahyang.py, 2026-11-18). 아버지를 생각하며 만든 곡, 차 향기처럼 따뜻하고 잔잔하게(사용자): 아쟁·거문고(마디 첫 박)·현악·해금(작게)·C G 드론, 띵똥 없음. 黃 = E♭4 C단조(南으로 끝남, 사용자 지시), 1정간 = 60 BPM(1초, 사용자 지시 ♩=60). 전주 2마디 뒤 1열 1행 = 8.00초, 마디마다 앵커, 끝 = 2쪽 7열 3행. 이름 규칙: 고칠 때마다 _v2, _v3 …",
+ "note": "반주 음원: 정간보(digital/다향.json) 선율로 화음을 정해 새로 만든 반주(대금 선율 없음, scripts/arrange_dahyang.py, 2026-11-18). 아버지를 생각하며 만든 곡, 차 향기처럼 따뜻하고 잔잔하게(사용자): 아쟁·거문고(마디 첫 박)·현악·해금(작게)·C G 드론, 띵똥 없음. 黃 = E♭4 C단조(南으로 끝남, 사용자 지시), 1정간 = 60 BPM(1초, 사용자 지시 ♩=60). 전주 2마디 뒤 1열 1행 = 8.00초, 마디마다 앵커, 끝 = 2쪽 7열 3행. 이름 규칙: 곡명_조_v버전.m4a(사용자 지시 2026-11-18), 고칠 때마다 _v2, _v3 …",
  "tracks": [
   {
-   "clipid": "asset:sync-audio/다향_v1.m4a",
+   "clipid": "asset:sync-audio/다향_Cm_v1.m4a",
    "title": "다향 반주 (아쟁·거문고·현악·해금)",
-   "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/sync-audio/%EB%8B%A4%ED%96%A5_v1.m4a",
+   "url": "https://raw.githubusercontent.com/lks87454255/jeongganview-asset/main/sync-audio/%EB%8B%A4%ED%96%A5_Cm_v1.m4a",
    "bytes": 5945547,
    "durationMs": 244000,
    "from": {
