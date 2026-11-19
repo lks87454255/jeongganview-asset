@@ -47,7 +47,7 @@ from urllib.parse import quote
 OWNER = "lks87454255"
 REPO = "jeongganview-asset"
 BRANCH = "main"
-BASE = f"https://raw.githubusercontent.com/{OWNER}/{REPO}/{BRANCH}"
+BASE = "https://d2gw5tky9d13ec.cloudfront.net/jeongganview-assets"   # S3(astoc-s3) + CloudFront. 2026-11-19 GitHub 배포 중단(예전 raw.githubusercontent.com)
 IGNORE = {".DS_Store", ".gitkeep", ".gitignore", "Thumbs.db"}
 # sheets/ 바로 아래에 이 이름(또는 "_" 로 시작하는) 폴더가 있으면 카테고리로 보지 않음.
 # (현재 작업 자료는 sheets/<카테고리>/원본·검수·_작업 에 있고, 카테고리 하위 폴더는 원래 스캔하지 않음)
