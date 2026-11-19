@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-11-19T13:42:27Z",
+  "generated": "2026-11-19T13:45:40Z",
   "owner": "lks87454255",
   "repo": "jeongganview-asset",
   "branch": "main",
@@ -6803,7 +6803,7 @@
           "beat": "4/4",
           "rows": 16,
           "pages": 1,
-          "sha256": "e2ed8e23023fe910d1de005be3c83cb8c407c606648f3c23c93fe625531af900",
+          "sha256": "5bf4730b6d923cf7d1b9115d192cb6aab8f380e07a9f1e26ad7e23cf301db241",
           "status": "PDF 글자 추출(검수 전)"
         },
         {
