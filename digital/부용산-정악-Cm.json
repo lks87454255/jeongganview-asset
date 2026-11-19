@@ -4,7 +4,7 @@
  "source_pdf": "digital/민요-빈쪽.pdf",
  "fonts": "noto",
  "uniform_pt": 23.53,
- "note": "원본: 국악이 꽃피는 나무 169쪽(곡번호 104, 안성현 작곡, 박기동 시). 판독: 정간보 목록 CSV (sheets/국악이꽃피는나무/csv/부용산.csv) — PDF 글자 추출, 열을 왼쪽으로 한 열 옮기고 1열 16행 姑/부·5열 16행 姑 를 넣음(사용자 지시 2026-11-19). make_minyo_digital.py 의 CSV 폴더만 바꿔 만듦(scripts/arrange_buyongsan.py --data). 글꼴: 앱 Noto Serif. 정간보 연주 'AI 음원' 분류(사용자 지시 2026-11-19). 1열 1~15행은 연주하지 않음(startRow). 헤더에 대금·조성(정악대금 Cm), 가사열에 반주 화음(코드) 이름을 적음(arrange_buyongsan.py 반 마디 화음, 黃 = E♭4).",
+ "note": "원본: 국악이 꽃피는 나무 169쪽(곡번호 104, 안성현 작곡, 박기동 시). 판독: 정간보 목록 CSV (sheets/국악이꽃피는나무/csv/부용산.csv) — PDF 글자 추출, 열을 왼쪽으로 한 열 옮기고 1열 16행 姑/부·5열 16행 姑 를 넣음(사용자 지시 2026-11-19). make_minyo_digital.py 의 CSV 폴더만 바꿔 만듦(scripts/arrange_buyongsan.py --data). 글꼴: 앱 Noto Serif. 정간보 연주 'AI 음원' 분류(사용자 지시 2026-11-19). 1열 1~15행은 전주(빈 정간, 반주만), 16행부터 대금(사용자 지시 2026-11-19). 헤더에 대금·조성(정악대금 Cm), 가사열에 반주 화음(코드) 이름을 적음(arrange_buyongsan.py 반 마디 화음, 黃 = E♭4).",
  "songs": [
   {
    "title": "부용산",
@@ -650,11 +650,44 @@
      "step": 1.12
     },
     {
+     "t": "Cm",
+     "dir": "h",
+     "font": "ko",
+     "x": 565.69,
+     "y": 46.0,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "A♭maj7",
+     "dir": "h",
+     "font": "ko",
+     "x": 565.69,
+     "y": 234.25,
+     "size": 6.47,
+     "size_pt": 6.47,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "Fm7",
+     "dir": "h",
+     "font": "ko",
+     "x": 565.69,
+     "y": 422.5,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
      "t": "G",
      "dir": "h",
      "font": "ko",
      "x": 565.69,
-     "y": 751.94,
+     "y": 610.75,
      "size": 8.0,
      "size_pt": 8.0,
      "align": "center",
@@ -1156,7 +1189,7 @@
      "columnConfigs": [
       {
        "colIndex": 1,
-       "startRow": 16,
+       "startRow": 1,
        "endRow": 16
       },
       {
