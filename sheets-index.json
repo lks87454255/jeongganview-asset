@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-11-19T13:45:40Z",
+  "generated": "2026-11-19T15:13:32Z",
   "owner": "lks87454255",
   "repo": "jeongganview-asset",
   "branch": "main",
@@ -6799,11 +6799,11 @@
           "fileName": "부용산.csv",
           "path": "sheets/국악이꽃피는나무/csv/부용산.csv",
           "url": "https://d2gw5tky9d13ec.cloudfront.net/jeongganview-assets/sheets/%EA%B5%AD%EC%95%85%EC%9D%B4%EA%BD%83%ED%94%BC%EB%8A%94%EB%82%98%EB%AC%B4/csv/%EB%B6%80%EC%9A%A9%EC%82%B0.csv",
-          "sizeBytes": 1475,
+          "sizeBytes": 1478,
           "beat": "4/4",
           "rows": 16,
           "pages": 1,
-          "sha256": "5bf4730b6d923cf7d1b9115d192cb6aab8f380e07a9f1e26ad7e23cf301db241",
+          "sha256": "23a764e8748484482ed798d6f9982c58a58ce699af8ec75c31e0172ed1999897",
           "status": "PDF 글자 추출(검수 전)"
         },
         {
