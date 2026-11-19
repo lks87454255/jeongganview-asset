@@ -1,0 +1,191 @@
+{
+ "version": 1,
+ "pdf": "book/AI 음원/부용산-정악-Cm.pdf",
+ "note": "반주 음원: 정간보(digital/부용산-정악-Cm.json) 선율로 화음을 정해 새로 만든 반주(대금 선율 없음, scripts/arrange_buyongsan.py, 2026-11-19). 누이를 잃은 슬픔을 노래한 시, 아주 쓸쓸하고 슬프게(사용자): 현악·거문고(마디 첫 박)·아쟁(4·5열)·해금 한숨(전주·5열)·C G 드론·먼 바람, 띵똥 없음. 黃 = E♭4 C단조, ♩=50(1정간 1.20초), 끝 두 마디 점점 느리게. 전주 2마디 뒤 1열 16행(못갖춘마디) = 9.60초, 마디마다 앵커, 끝 = 1쪽 7열 3행. 이름 규칙: 곡명_조_v버전.m4a, 고칠 때마다 _v2, _v3 …",
+ "tracks": [
+  {
+   "clipid": "asset:sync-audio/부용산_Cm_v1.m4a",
+   "title": "부용산 반주 (현악·거문고·아쟁·해금)",
+   "url": "https://d2gw5tky9d13ec.cloudfront.net/jeongganview-assets/sync-audio/%EB%B6%80%EC%9A%A9%EC%82%B0_Cm_v1.m4a",
+   "bytes": 3024910,
+   "durationMs": 124406,
+   "from": {
+    "page": 1,
+    "grid": 1,
+    "col": 1,
+    "row": 15.0
+   },
+   "to": {
+    "page": 1,
+    "grid": 1,
+    "col": 7,
+    "row": 3
+   },
+   "anchors": [
+    {
+     "t": 9600,
+     "page": 1,
+     "grid": 1,
+     "col": 1,
+     "row": 15.0
+    },
+    {
+     "t": 10800,
+     "page": 1,
+     "grid": 1,
+     "col": 2,
+     "row": 0.0
+    },
+    {
+     "t": 15600,
+     "page": 1,
+     "grid": 1,
+     "col": 2,
+     "row": 4.0
+    },
+    {
+     "t": 20400,
+     "page": 1,
+     "grid": 1,
+     "col": 2,
+     "row": 8.0
+    },
+    {
+     "t": 25200,
+     "page": 1,
+     "grid": 1,
+     "col": 2,
+     "row": 12.0
+    },
+    {
+     "t": 30000,
+     "page": 1,
+     "grid": 1,
+     "col": 3,
+     "row": 0.0
+    },
+    {
+     "t": 34800,
+     "page": 1,
+     "grid": 1,
+     "col": 3,
+     "row": 4.0
+    },
+    {
+     "t": 39600,
+     "page": 1,
+     "grid": 1,
+     "col": 3,
+     "row": 8.0
+    },
+    {
+     "t": 44400,
+     "page": 1,
+     "grid": 1,
+     "col": 3,
+     "row": 12.0
+    },
+    {
+     "t": 49200,
+     "page": 1,
+     "grid": 1,
+     "col": 4,
+     "row": 0.0
+    },
+    {
+     "t": 54000,
+     "page": 1,
+     "grid": 1,
+     "col": 4,
+     "row": 4.0
+    },
+    {
+     "t": 58800,
+     "page": 1,
+     "grid": 1,
+     "col": 4,
+     "row": 8.0
+    },
+    {
+     "t": 63600,
+     "page": 1,
+     "grid": 1,
+     "col": 4,
+     "row": 12.0
+    },
+    {
+     "t": 68400,
+     "page": 1,
+     "grid": 1,
+     "col": 5,
+     "row": 0.0
+    },
+    {
+     "t": 73200,
+     "page": 1,
+     "grid": 1,
+     "col": 5,
+     "row": 4.0
+    },
+    {
+     "t": 78000,
+     "page": 1,
+     "grid": 1,
+     "col": 5,
+     "row": 8.0
+    },
+    {
+     "t": 82800,
+     "page": 1,
+     "grid": 1,
+     "col": 5,
+     "row": 12.0
+    },
+    {
+     "t": 87600,
+     "page": 1,
+     "grid": 1,
+     "col": 6,
+     "row": 0.0
+    },
+    {
+     "t": 92400,
+     "page": 1,
+     "grid": 1,
+     "col": 6,
+     "row": 4.0
+    },
+    {
+     "t": 97200,
+     "page": 1,
+     "grid": 1,
+     "col": 6,
+     "row": 8.0
+    },
+    {
+     "t": 102024,
+     "page": 1,
+     "grid": 1,
+     "col": 6,
+     "row": 12.0
+    },
+    {
+     "t": 107473,
+     "page": 1,
+     "grid": 1,
+     "col": 7,
+     "row": 0.0
+    },
+    {
+     "t": 112406,
+     "page": 1,
+     "grid": 1,
+     "col": 7,
+     "row": 3
+    }
+   ],
+   "pauses": [],
+   "anchorSource": "arranged"
+  }
+ ]
+}

@@ -33,7 +33,7 @@ from urllib.parse import quote
 OWNER  = "lks87454255"
 REPO   = "jeongganview-asset"
 BRANCH = "main"
-BASE   = f"https://raw.githubusercontent.com/{OWNER}/{REPO}/{BRANCH}"
+BASE   = "https://d2gw5tky9d13ec.cloudfront.net/jeongganview-assets"   # S3(astoc-s3) + CloudFront. 2026-11-19 GitHub 배포 중단(예전 raw.githubusercontent.com)
 
 # ── 지원 확장자 ─────────────────────────────────────────────────
 AUDIO_EXTS = {".mp3", ".wav", ".m4a", ".flac", ".ogg", ".aac", ".opus"}
