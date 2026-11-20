@@ -1,0 +1,521 @@
+{
+ "title": "천년학-정악-Ebm",
+ "book": "AI 음원",
+ "source_pdf": "digital/민요-빈쪽.pdf",
+ "fonts": "noto",
+ "uniform_pt": 23.53,
+ "note": "원본: 대금율보 2권 76쪽(서편제 中 천년학, 김수철 작곡, □=60). 판독: 정간보 목록 CSV (sheets/대금율보/csv/외국곡·창작곡/천년학.csv) — 원본 스캔과 칸마다 대조해 5칸 고침(1·3열 9행 林∧, 5열 5·12행 미는표, 6열 11행 흘림표). 음 높이: 대금율보 원본 율명 그대로(E♭단조 5음). Dm 판(천년학-정악-Dm)과 같은 곡을 반음 위로(사용자 지시 2026-11-20). scripts/make_cheonnyeonhak.py --data --key Ebm 로 만듦. 글꼴: 앱 Noto Serif. 정간보 연주 'AI 음원' 분류. 가사열에 MR 코드 진행 이름을 적음(바뀌는 자리, make_cheonnyeonhak.py --score).",
+ "songs": [
+  {
+   "title": "천년학",
+   "page": 1,
+   "grid": 1
+  }
+ ],
+ "pages": [
+  {
+   "n": 1,
+   "kind": "jeonggan",
+   "px": [
+    595,
+    841
+   ],
+   "rect": [
+    0,
+    0,
+    595.0,
+    841.0
+   ],
+   "size": [
+    595.0,
+    841.0
+   ],
+   "janggu": [],
+   "songs": [
+    {
+     "ids": [
+      1
+     ],
+     "title": null,
+     "name": "천년학"
+    }
+   ],
+   "outline_pt": 1.1,
+   "uniform_size": true,
+   "texts": [
+    {
+     "t": "천년학",
+     "dir": "h",
+     "font": "kob",
+     "x": 297.5,
+     "y": 0,
+     "size": 18,
+     "size_pt": 18.0,
+     "align": "center",
+     "header_of": 1,
+     "dy_pt": 17.0
+    },
+    {
+     "t": "정악대금 E♭m",
+     "dir": "h",
+     "font": "ko",
+     "x": 572,
+     "y": 0,
+     "size": 11,
+     "size_pt": 11.0,
+     "align": "right",
+     "header_of": 1,
+     "dy_pt": 8.0
+    },
+    {
+     "t": "4/4",
+     "dir": "h",
+     "font": "ko",
+     "x": 572,
+     "y": 0,
+     "size": 11,
+     "size_pt": 11.0,
+     "align": "right",
+     "header_of": 1,
+     "dy_pt": 27.0
+    },
+    {
+     "t": "E♭m",
+     "dir": "h",
+     "font": "ko",
+     "x": 565.69,
+     "y": 46.0,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "D♭",
+     "dir": "h",
+     "font": "ko",
+     "x": 565.69,
+     "y": 234.25,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "C♭",
+     "dir": "h",
+     "font": "ko",
+     "x": 565.69,
+     "y": 422.5,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "E♭m",
+     "dir": "h",
+     "font": "ko",
+     "x": 565.69,
+     "y": 610.75,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "G♭",
+     "dir": "h",
+     "font": "ko",
+     "x": 495.69,
+     "y": 422.5,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "B♭m",
+     "dir": "h",
+     "font": "ko",
+     "x": 495.69,
+     "y": 610.75,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "C♭",
+     "dir": "h",
+     "font": "ko",
+     "x": 425.69,
+     "y": 46.0,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "G♭",
+     "dir": "h",
+     "font": "ko",
+     "x": 425.69,
+     "y": 234.25,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "A♭m",
+     "dir": "h",
+     "font": "ko",
+     "x": 425.69,
+     "y": 422.5,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "B♭m",
+     "dir": "h",
+     "font": "ko",
+     "x": 425.69,
+     "y": 516.62,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "E♭m",
+     "dir": "h",
+     "font": "ko",
+     "x": 425.69,
+     "y": 610.75,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "G♭",
+     "dir": "h",
+     "font": "ko",
+     "x": 355.69,
+     "y": 422.5,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "B♭m",
+     "dir": "h",
+     "font": "ko",
+     "x": 355.69,
+     "y": 610.75,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "C♭",
+     "dir": "h",
+     "font": "ko",
+     "x": 285.69,
+     "y": 46.0,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "G♭",
+     "dir": "h",
+     "font": "ko",
+     "x": 285.69,
+     "y": 234.25,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "A♭m",
+     "dir": "h",
+     "font": "ko",
+     "x": 285.69,
+     "y": 422.5,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "B♭m",
+     "dir": "h",
+     "font": "ko",
+     "x": 285.69,
+     "y": 516.62,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "E♭m",
+     "dir": "h",
+     "font": "ko",
+     "x": 285.69,
+     "y": 610.75,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "A♭m",
+     "dir": "h",
+     "font": "ko",
+     "x": 215.69,
+     "y": 234.25,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "G♭",
+     "dir": "h",
+     "font": "ko",
+     "x": 215.69,
+     "y": 422.5,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "B♭",
+     "dir": "h",
+     "font": "ko",
+     "x": 215.69,
+     "y": 610.75,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "E♭m",
+     "dir": "h",
+     "font": "ko",
+     "x": 145.69,
+     "y": 46.0,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "A♭m",
+     "dir": "h",
+     "font": "ko",
+     "x": 145.69,
+     "y": 234.25,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "G♭",
+     "dir": "h",
+     "font": "ko",
+     "x": 145.69,
+     "y": 422.5,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "B♭",
+     "dir": "h",
+     "font": "ko",
+     "x": 145.69,
+     "y": 610.75,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "E♭m",
+     "dir": "h",
+     "font": "ko",
+     "x": 75.69,
+     "y": 46.0,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "A♭m",
+     "dir": "h",
+     "font": "ko",
+     "x": 75.69,
+     "y": 234.25,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "B♭",
+     "dir": "h",
+     "font": "ko",
+     "x": 75.69,
+     "y": 422.5,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "E♭m",
+     "dir": "h",
+     "font": "ko",
+     "x": 75.69,
+     "y": 610.75,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    }
+   ],
+   "blocks": [
+    {
+     "gridId": 1,
+     "cols": [
+      [
+       507.5,
+       553.88
+      ],
+      [
+       437.5,
+       483.88
+      ],
+      [
+       367.5,
+       413.88
+      ],
+      [
+       297.5,
+       343.88
+      ],
+      [
+       227.5,
+       273.88
+      ],
+      [
+       157.5,
+       203.88
+      ],
+      [
+       87.5,
+       133.88
+      ],
+      [
+       17.5,
+       63.88
+      ]
+     ],
+     "rows": [
+      44.0,
+      91.06,
+      138.12,
+      185.19,
+      232.25,
+      279.31,
+      326.38,
+      373.44,
+      420.5,
+      467.56,
+      514.62,
+      561.69,
+      608.75,
+      655.81,
+      702.88,
+      749.94,
+      797.0
+     ],
+     "columnConfigs": [
+      {
+       "colIndex": 1,
+       "startRow": 1,
+       "endRow": 16
+      },
+      {
+       "colIndex": 2,
+       "startRow": 1,
+       "endRow": 16
+      },
+      {
+       "colIndex": 3,
+       "startRow": 1,
+       "endRow": 16
+      },
+      {
+       "colIndex": 4,
+       "startRow": 1,
+       "endRow": 16
+      },
+      {
+       "colIndex": 5,
+       "startRow": 1,
+       "endRow": 16
+      },
+      {
+       "colIndex": 6,
+       "startRow": 1,
+       "endRow": 16
+      },
+      {
+       "colIndex": 7,
+       "startRow": 1,
+       "endRow": 16
+      },
+      {
+       "colIndex": 8,
+       "startRow": 1,
+       "endRow": 16
+      }
+     ],
+     "measures": [
+      4,
+      8,
+      12
+     ],
+     "breaths": {},
+     "ticks": {},
+     "cells": [
+      "|||||||||||||||",
+      "林ヲ|||姑)/ㅡ/黃|林|||ㅡ/ㅡ/△|林∧|||姑/黃/林|林|||ㅡ/ㅡ/△",
+      "黃|||姑/太/黃|林||ㅡ/ㅡ/△|仲/ㅡ/林|仲|ㅡ/ㅡ/林|仲/林/ㅡ|潢/無/林|潢|||ㅡ/ㅡ/△",
+      "林ヲ|||姑/ㅡ/黃|林|||ㅡ/ㅡ/△|林∧|||姑/黃/林|林|||ㅡ/ㅡ/△",
+      "黃|||姑/太/黃|林||ㅡ/ㅡ/△|仲/ㅡ/林|仲|ㅡ/ㅡ/林|仲/林/ㅡ|潢/無/林|潢|||ㅡ/ㅡ/△",
+      "林/ㅡ/潢|潢|||㴌(|潢||ㅡ/ㅡ/△|無|無/ㅡ/潢|無|㴌(|林|||ㅡ/ㅡ/△",
+      "林/潢/ㅡ|潢/ㅡ/無|潢||㴌/ㅡ/㳞|潢/ㅡ/無|潢|ㅡ/ㅡ/△|潢/㴌/ㅡ||)||林|||ㅡ/ㅡ/△",
+      "黃|||姑)/ㅡ/黃|仲|||ㅡ/ㅡ/△|林|ㅡ/ㅡ/無|林|潢/無/林|潢|||ㅡ/ㅡ/△"
+     ]
+    }
+   ]
+  }
+ ]
+}
