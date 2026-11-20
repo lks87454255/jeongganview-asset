@@ -4,7 +4,7 @@
  "source_pdf": "digital/민요-빈쪽.pdf",
  "fonts": "noto",
  "uniform_pt": 23.53,
- "note": "원본: 대금율보 2권 76쪽(서편제 中 천년학, 김수철 작곡, □=60). 판독: 정간보 목록 CSV (sheets/대금율보/csv/외국곡·창작곡/천년학.csv) — 원본 스캔과 칸마다 대조해 5칸 고침(1·3열 9행 林∧, 5열 5·12행 미는표, 6열 11행 흘림표). 음원(천년학_정악_MR, D단조)에 맞게 한 율 내려 적음(사용자 지시 2026-11-20, 국악이꽃피는나무 69쪽 정악 보와 율명 대조). scripts/make_cheonnyeonhak.py --data 로 만듦. 글꼴: 앱 Noto Serif. 정간보 연주 'AI 음원' 분류. 가사열에 MR 코드 진행 이름을 적음(바뀌는 자리, make_cheonnyeonhak.py --score).",
+ "note": "원본: 대금율보 2권 76쪽(서편제 中 천년학, 김수철 작곡, □=60). 판독: 정간보 목록 CSV (sheets/대금율보/csv/외국곡·창작곡/천년학.csv) — 원본 스캔과 칸마다 대조해 5칸 고침(1·3열 9행 林∧, 5열 5·12행 미는표, 6열 11행 흘림표). 음원(sync-audio/천년학_Dm.mp3 = 받은 천년학_정악_MR.mp3 원본, D단조)에 맞게 한 율 내려 적음(사용자 지시 2026-11-20, 국악이꽃피는나무 69쪽 정악 보와 율명 대조). scripts/make_cheonnyeonhak.py --data 로 만듦. 글꼴: 앱 Noto Serif. 정간보 연주 'AI 음원' 분류. 가사열에 MR 코드 진행 이름을 적음(바뀌는 자리, make_cheonnyeonhak.py --score).",
  "songs": [
   {
    "title": "천년학",
