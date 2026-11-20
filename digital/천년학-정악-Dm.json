@@ -91,7 +91,18 @@
      "chord": true
     },
     {
-     "t": "F",
+     "t": "C",
+     "dir": "h",
+     "font": "ko",
+     "x": 565.69,
+     "y": 234.25,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "B♭",
      "dir": "h",
      "font": "ko",
      "x": 565.69,
@@ -102,10 +113,32 @@
      "chord": true
     },
     {
-     "t": "Am",
+     "t": "Dm",
      "dir": "h",
      "font": "ko",
      "x": 565.69,
+     "y": 610.75,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "F",
+     "dir": "h",
+     "font": "ko",
+     "x": 495.69,
+     "y": 422.5,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "Am",
+     "dir": "h",
+     "font": "ko",
+     "x": 495.69,
      "y": 610.75,
      "size": 8.0,
      "size_pt": 8.0,
@@ -116,7 +149,7 @@
      "t": "B♭",
      "dir": "h",
      "font": "ko",
-     "x": 495.69,
+     "x": 425.69,
      "y": 46.0,
      "size": 8.0,
      "size_pt": 8.0,
@@ -127,7 +160,7 @@
      "t": "F",
      "dir": "h",
      "font": "ko",
-     "x": 495.69,
+     "x": 425.69,
      "y": 234.25,
      "size": 8.0,
      "size_pt": 8.0,
@@ -136,39 +169,6 @@
     },
     {
      "t": "Gm",
-     "dir": "h",
-     "font": "ko",
-     "x": 495.69,
-     "y": 422.5,
-     "size": 8.0,
-     "size_pt": 8.0,
-     "align": "center",
-     "chord": true
-    },
-    {
-     "t": "Am",
-     "dir": "h",
-     "font": "ko",
-     "x": 495.69,
-     "y": 516.62,
-     "size": 8.0,
-     "size_pt": 8.0,
-     "align": "center",
-     "chord": true
-    },
-    {
-     "t": "Dm",
-     "dir": "h",
-     "font": "ko",
-     "x": 495.69,
-     "y": 610.75,
-     "size": 8.0,
-     "size_pt": 8.0,
-     "align": "center",
-     "chord": true
-    },
-    {
-     "t": "F",
      "dir": "h",
      "font": "ko",
      "x": 425.69,
@@ -183,6 +183,17 @@
      "dir": "h",
      "font": "ko",
      "x": 425.69,
+     "y": 516.62,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "Dm",
+     "dir": "h",
+     "font": "ko",
+     "x": 425.69,
      "y": 610.75,
      "size": 8.0,
      "size_pt": 8.0,
@@ -190,29 +201,7 @@
      "chord": true
     },
     {
-     "t": "B♭",
-     "dir": "h",
-     "font": "ko",
-     "x": 355.69,
-     "y": 46.0,
-     "size": 8.0,
-     "size_pt": 8.0,
-     "align": "center",
-     "chord": true
-    },
-    {
      "t": "F",
-     "dir": "h",
-     "font": "ko",
-     "x": 355.69,
-     "y": 234.25,
-     "size": 8.0,
-     "size_pt": 8.0,
-     "align": "center",
-     "chord": true
-    },
-    {
-     "t": "Gm",
      "dir": "h",
      "font": "ko",
      "x": 355.69,
@@ -227,6 +216,50 @@
      "dir": "h",
      "font": "ko",
      "x": 355.69,
+     "y": 610.75,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "B♭",
+     "dir": "h",
+     "font": "ko",
+     "x": 285.69,
+     "y": 46.0,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "F",
+     "dir": "h",
+     "font": "ko",
+     "x": 285.69,
+     "y": 234.25,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "Gm",
+     "dir": "h",
+     "font": "ko",
+     "x": 285.69,
+     "y": 422.5,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "Am",
+     "dir": "h",
+     "font": "ko",
+     "x": 285.69,
      "y": 516.62,
      "size": 8.0,
      "size_pt": 8.0,
@@ -237,52 +270,8 @@
      "t": "Dm",
      "dir": "h",
      "font": "ko",
-     "x": 355.69,
-     "y": 610.75,
-     "size": 8.0,
-     "size_pt": 8.0,
-     "align": "center",
-     "chord": true
-    },
-    {
-     "t": "Gm",
-     "dir": "h",
-     "font": "ko",
-     "x": 285.69,
-     "y": 234.25,
-     "size": 8.0,
-     "size_pt": 8.0,
-     "align": "center",
-     "chord": true
-    },
-    {
-     "t": "F",
-     "dir": "h",
-     "font": "ko",
-     "x": 285.69,
-     "y": 422.5,
-     "size": 8.0,
-     "size_pt": 8.0,
-     "align": "center",
-     "chord": true
-    },
-    {
-     "t": "A",
-     "dir": "h",
-     "font": "ko",
      "x": 285.69,
      "y": 610.75,
-     "size": 8.0,
-     "size_pt": 8.0,
-     "align": "center",
-     "chord": true
-    },
-    {
-     "t": "Dm",
-     "dir": "h",
-     "font": "ko",
-     "x": 215.69,
-     "y": 46.0,
      "size": 8.0,
      "size_pt": 8.0,
      "align": "center",
@@ -344,7 +333,7 @@
      "chord": true
     },
     {
-     "t": "A",
+     "t": "F",
      "dir": "h",
      "font": "ko",
      "x": 145.69,
@@ -355,10 +344,54 @@
      "chord": true
     },
     {
-     "t": "Dm",
+     "t": "A",
      "dir": "h",
      "font": "ko",
      "x": 145.69,
+     "y": 610.75,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "Dm",
+     "dir": "h",
+     "font": "ko",
+     "x": 75.69,
+     "y": 46.0,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "Gm",
+     "dir": "h",
+     "font": "ko",
+     "x": 75.69,
+     "y": 234.25,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "A",
+     "dir": "h",
+     "font": "ko",
+     "x": 75.69,
+     "y": 422.5,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "Dm",
+     "dir": "h",
+     "font": "ko",
+     "x": 75.69,
      "y": 610.75,
      "size": 8.0,
      "size_pt": 8.0,
@@ -397,6 +430,10 @@
       [
        87.5,
        133.88
+      ],
+      [
+       17.5,
+       63.88
       ]
      ],
      "rows": [
@@ -453,6 +490,11 @@
        "colIndex": 7,
        "startRow": 1,
        "endRow": 16
+      },
+      {
+       "colIndex": 8,
+       "startRow": 1,
+       "endRow": 16
       }
      ],
      "measures": [
@@ -463,6 +505,7 @@
      "breaths": {},
      "ticks": {},
      "cells": [
+      "|||||||||||||||",
       "㽔ヲ|||太)/ㅡ/㒣|㽔|||ㅡ/ㅡ/△|㽔∧|||太/㒣/㽔|㽔|||ㅡ/ㅡ/△",
       "㒣|||太/大/㒣|㽔||ㅡ/ㅡ/△|姑/ㅡ/㽔|姑|ㅡ/ㅡ/㽔|姑/㽔/ㅡ|應/南/㽔|應|||ㅡ/ㅡ/△",
       "㽔ヲ|||太/ㅡ/㒣|㽔|||ㅡ/ㅡ/△|㽔∧|||太/㒣/㽔|㽔|||ㅡ/ㅡ/△",
@@ -470,12 +513,6 @@
       "㽔/ㅡ/應|應|||汰(|應||ㅡ/ㅡ/△|南|南/ㅡ/應|南|汰(|㽔|||ㅡ/ㅡ/△",
       "㽔/應/ㅡ|應/ㅡ/南|應||汰/ㅡ/㴌|應/ㅡ/南|應|ㅡ/ㅡ/△|應/汰/ㅡ||)||㽔|||ㅡ/ㅡ/△",
       "㒣|||太)/ㅡ/㒣|姑|||ㅡ/ㅡ/△|㽔|ㅡ/ㅡ/南|㽔|應/南/㽔|應|||ㅡ/ㅡ/△"
-     ],
-     "pad_cols": [
-      [
-       17.5,
-       63.88
-      ]
      ]
     }
    ]
