@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-11-19T15:18:57Z",
+  "generated": "2026-11-20T05:58:57Z",
   "owner": "lks87454255",
   "repo": "jeongganview-asset",
   "branch": "main",
@@ -103,6 +103,22 @@
           ],
           "hasSync": true,
           "syncDurationSec": 214
+        },
+        {
+          "name": "천년학-정악-Dm",
+          "fileName": "천년학-정악-Dm.pdf",
+          "path": "book/AI 음원/천년학-정악-Dm.pdf",
+          "url": "https://d2gw5tky9d13ec.cloudfront.net/jeongganview-assets/book/AI%20%EC%9D%8C%EC%9B%90/%EC%B2%9C%EB%85%84%ED%95%99-%EC%A0%95%EC%95%85-Dm.pdf",
+          "sizeBytes": 82423,
+          "pageCount": 1,
+          "songs": [
+            {
+              "title": "천년학",
+              "page": 1
+            }
+          ],
+          "hasSync": true,
+          "syncDurationSec": 294
         },
         {
           "name": "추월장강-정악-Bbm",
@@ -3167,6 +3183,6 @@
   "adminCategories": [],
   "_total": {
     "categories": 6,
-    "files": 212
+    "files": 213
   }
 }
