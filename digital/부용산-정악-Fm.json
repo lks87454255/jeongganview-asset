@@ -1,0 +1,1252 @@
+{
+ "title": "부용산-정악-Fm",
+ "book": "AI 음원",
+ "source_pdf": "digital/민요-빈쪽.pdf",
+ "fonts": "noto",
+ "uniform_pt": 23.53,
+ "note": "부용산-정악-Cm.json(국악이 꽃피는 나무 169쪽, 안성현 작곡, 박기동 시) 율명을 다섯 율(완전4도) 올린 F단조 판(사용자 지시 2026-11-21: Cm 은 그대로 두고 Fm 하나 더, 아주 장엄하고 슬픈 분위기). 선율 太(F4) ~ 湳(C6), 南 → 汰 로 끝남. 가사·정간·그리드는 Cm 과 같음. 만든 곳: scripts/arrange_buyongsan.py --data --key Fm. 글꼴: 앱 Noto Serif. 헤더에 대금·조성(정악대금 Fm), 가사열에 반주 화음(코드) 이름을 적음(arrange_buyongsan.py 반 마디 화음, 黃 = E♭4).",
+ "songs": [
+  {
+   "title": "부용산",
+   "page": 1,
+   "grid": 1
+  }
+ ],
+ "pages": [
+  {
+   "n": 1,
+   "kind": "jeonggan",
+   "px": [
+    595,
+    841
+   ],
+   "rect": [
+    0,
+    0,
+    595.0,
+    841.0
+   ],
+   "size": [
+    595.0,
+    841.0
+   ],
+   "janggu": [],
+   "songs": [
+    {
+     "ids": [
+      1
+     ],
+     "title": null,
+     "name": "부용산"
+    }
+   ],
+   "outline_pt": 1.1,
+   "uniform_size": true,
+   "texts": [
+    {
+     "t": "부용산",
+     "dir": "h",
+     "font": "kob",
+     "x": 297.5,
+     "y": 0,
+     "size": 18,
+     "size_pt": 18.0,
+     "align": "center",
+     "header_of": 1,
+     "dy_pt": 17.0
+    },
+    {
+     "t": "정악대금 Fm",
+     "dir": "h",
+     "font": "ko",
+     "x": 572,
+     "y": 0,
+     "size": 11,
+     "size_pt": 11.0,
+     "align": "right",
+     "header_of": 1,
+     "dy_pt": 8.0
+    },
+    {
+     "t": "4/4",
+     "dir": "h",
+     "font": "ko",
+     "x": 572,
+     "y": 0,
+     "size": 11,
+     "size_pt": 11.0,
+     "align": "right",
+     "header_of": 1,
+     "dy_pt": 27.0
+    },
+    {
+     "t": "부",
+     "dir": "v",
+     "font": "ko",
+     "x": 565.69,
+     "y": 765.63,
+     "size": 14,
+     "size_pt": 14,
+     "step": 1.12
+    },
+    {
+     "t": "용",
+     "dir": "v",
+     "font": "ko",
+     "x": 495.69,
+     "y": 59.69,
+     "size": 14,
+     "size_pt": 14,
+     "step": 1.12
+    },
+    {
+     "t": "산",
+     "dir": "v",
+     "font": "ko",
+     "x": 495.69,
+     "y": 153.81,
+     "size": 14,
+     "size_pt": 14,
+     "step": 1.12
+    },
+    {
+     "t": "오리길",
+     "dir": "v",
+     "font": "ko",
+     "x": 495.69,
+     "y": 187.07,
+     "size": 12.89,
+     "size_pt": 12.89,
+     "step": 1.12
+    },
+    {
+     "t": "에",
+     "dir": "v",
+     "font": "ko",
+     "x": 495.69,
+     "y": 247.94,
+     "size": 14,
+     "size_pt": 14,
+     "step": 1.12
+    },
+    {
+     "t": "잔",
+     "dir": "v",
+     "font": "ko",
+     "x": 495.69,
+     "y": 342.07,
+     "size": 14,
+     "size_pt": 14,
+     "step": 1.12
+    },
+    {
+     "t": "디만",
+     "dir": "v",
+     "font": "ko",
+     "x": 495.69,
+     "y": 381.29,
+     "size": 14,
+     "size_pt": 14,
+     "step": 1.12
+    },
+    {
+     "t": "푸르",
+     "dir": "v",
+     "font": "ko",
+     "x": 495.69,
+     "y": 428.35,
+     "size": 14,
+     "size_pt": 14,
+     "step": 1.12
+    },
+    {
+     "t": "러",
+     "dir": "v",
+     "font": "ko",
+     "x": 495.69,
+     "y": 483.25,
+     "size": 14,
+     "size_pt": 14,
+     "step": 1.12
+    },
+    {
+     "t": "푸",
+     "dir": "v",
+     "font": "ko",
+     "x": 495.69,
+     "y": 530.31,
+     "size": 14,
+     "size_pt": 14,
+     "step": 1.12
+    },
+    {
+     "t": "르",
+     "dir": "v",
+     "font": "ko",
+     "x": 495.69,
+     "y": 577.38,
+     "size": 14,
+     "size_pt": 14,
+     "step": 1.12
+    },
+    {
+     "t": "러",
+     "dir": "v",
+     "font": "ko",
+     "x": 495.69,
+     "y": 624.44,
+     "size": 14,
+     "size_pt": 14,
+     "step": 1.12
+    },
+    {
+     "t": "솔밭",
+     "dir": "v",
+     "font": "ko",
+     "x": 425.69,
+     "y": 51.85,
+     "size": 14,
+     "size_pt": 14,
+     "step": 1.12
+    },
+    {
+     "t": "사이",
+     "dir": "v",
+     "font": "ko",
+     "x": 425.69,
+     "y": 98.91,
+     "size": 14,
+     "size_pt": 14,
+     "step": 1.12
+    },
+    {
+     "t": "사",
+     "dir": "v",
+     "font": "ko",
+     "x": 425.69,
+     "y": 153.81,
+     "size": 14,
+     "size_pt": 14,
+     "step": 1.12
+    },
+    {
+     "t": "이로",
+     "dir": "v",
+     "font": "ko",
+     "x": 425.69,
+     "y": 193.04,
+     "size": 14,
+     "size_pt": 14,
+     "step": 1.12
+    },
+    {
+     "t": "회",
+     "dir": "v",
+     "font": "ko",
+     "x": 425.69,
+     "y": 342.07,
+     "size": 14,
+     "size_pt": 14,
+     "step": 1.12
+    },
+    {
+     "t": "오리",
+     "dir": "v",
+     "font": "ko",
+     "x": 425.69,
+     "y": 381.29,
+     "size": 14,
+     "size_pt": 14,
+     "step": 1.12
+    },
+    {
+     "t": "바",
+     "dir": "v",
+     "font": "ko",
+     "x": 425.69,
+     "y": 436.19,
+     "size": 14,
+     "size_pt": 14,
+     "step": 1.12
+    },
+    {
+     "t": "람",
+     "dir": "v",
+     "font": "ko",
+     "x": 425.69,
+     "y": 483.25,
+     "size": 14,
+     "size_pt": 14,
+     "step": 1.12
+    },
+    {
+     "t": "타",
+     "dir": "v",
+     "font": "ko",
+     "x": 425.69,
+     "y": 577.38,
+     "size": 14,
+     "size_pt": 14,
+     "step": 1.12
+    },
+    {
+     "t": "고",
+     "dir": "v",
+     "font": "ko",
+     "x": 425.69,
+     "y": 624.44,
+     "size": 14,
+     "size_pt": 14,
+     "step": 1.12
+    },
+    {
+     "t": "간",
+     "dir": "v",
+     "font": "ko",
+     "x": 425.69,
+     "y": 765.63,
+     "size": 14,
+     "size_pt": 14,
+     "step": 1.12
+    },
+    {
+     "t": "다",
+     "dir": "v",
+     "font": "ko",
+     "x": 355.69,
+     "y": 59.69,
+     "size": 14,
+     "size_pt": 14,
+     "step": 1.12
+    },
+    {
+     "t": "는",
+     "dir": "v",
+     "font": "ko",
+     "x": 355.69,
+     "y": 106.75,
+     "size": 14,
+     "size_pt": 14,
+     "step": 1.12
+    },
+    {
+     "t": "말",
+     "dir": "v",
+     "font": "ko",
+     "x": 355.69,
+     "y": 153.81,
+     "size": 14,
+     "size_pt": 14,
+     "step": 1.12
+    },
+    {
+     "t": "한마",
+     "dir": "v",
+     "font": "ko",
+     "x": 355.69,
+     "y": 240.1,
+     "size": 14,
+     "size_pt": 14,
+     "step": 1.12
+    },
+    {
+     "t": "디없",
+     "dir": "v",
+     "font": "ko",
+     "x": 355.69,
+     "y": 287.16,
+     "size": 14,
+     "size_pt": 14,
+     "step": 1.12
+    },
+    {
+     "t": "이",
+     "dir": "v",
+     "font": "ko",
+     "x": 355.69,
+     "y": 342.07,
+     "size": 14,
+     "size_pt": 14,
+     "step": 1.12
+    },
+    {
+     "t": "너",
+     "dir": "v",
+     "font": "ko",
+     "x": 355.69,
+     "y": 436.19,
+     "size": 14,
+     "size_pt": 14,
+     "step": 1.12
+    },
+    {
+     "t": "만",
+     "dir": "v",
+     "font": "ko",
+     "x": 355.69,
+     "y": 530.31,
+     "size": 14,
+     "size_pt": 14,
+     "step": 1.12
+    },
+    {
+     "t": "가고",
+     "dir": "v",
+     "font": "ko",
+     "x": 355.69,
+     "y": 569.54,
+     "size": 14,
+     "size_pt": 14,
+     "step": 1.12
+    },
+    {
+     "t": "말았구",
+     "dir": "v",
+     "font": "ko",
+     "x": 355.69,
+     "y": 610.63,
+     "size": 12.89,
+     "size_pt": 12.89,
+     "step": 1.12
+    },
+    {
+     "t": "나",
+     "dir": "v",
+     "font": "ko",
+     "x": 355.69,
+     "y": 671.5,
+     "size": 14,
+     "size_pt": 14,
+     "step": 1.12
+    },
+    {
+     "t": "피어",
+     "dir": "v",
+     "font": "ko",
+     "x": 355.69,
+     "y": 757.79,
+     "size": 14,
+     "size_pt": 14,
+     "step": 1.12
+    },
+    {
+     "t": "나",
+     "dir": "v",
+     "font": "ko",
+     "x": 285.69,
+     "y": 59.69,
+     "size": 14,
+     "size_pt": 14,
+     "step": 1.12
+    },
+    {
+     "t": "지",
+     "dir": "v",
+     "font": "ko",
+     "x": 285.69,
+     "y": 153.81,
+     "size": 14,
+     "size_pt": 14,
+     "step": 1.12
+    },
+    {
+     "t": "못한",
+     "dir": "v",
+     "font": "ko",
+     "x": 285.69,
+     "y": 193.04,
+     "size": 14,
+     "size_pt": 14,
+     "step": 1.12
+    },
+    {
+     "t": "채",
+     "dir": "v",
+     "font": "ko",
+     "x": 285.69,
+     "y": 247.94,
+     "size": 14,
+     "size_pt": 14,
+     "step": 1.12
+    },
+    {
+     "t": "병든",
+     "dir": "v",
+     "font": "ko",
+     "x": 285.69,
+     "y": 381.29,
+     "size": 14,
+     "size_pt": 14,
+     "step": 1.12
+    },
+    {
+     "t": "장미",
+     "dir": "v",
+     "font": "ko",
+     "x": 285.69,
+     "y": 428.35,
+     "size": 14,
+     "size_pt": 14,
+     "step": 1.12
+    },
+    {
+     "t": "는시",
+     "dir": "v",
+     "font": "ko",
+     "x": 285.69,
+     "y": 475.41,
+     "size": 14,
+     "size_pt": 14,
+     "step": 1.12
+    },
+    {
+     "t": "들",
+     "dir": "v",
+     "font": "ko",
+     "x": 285.69,
+     "y": 530.31,
+     "size": 14,
+     "size_pt": 14,
+     "step": 1.12
+    },
+    {
+     "t": "엇구나",
+     "dir": "v",
+     "font": "ko",
+     "x": 285.69,
+     "y": 563.57,
+     "size": 12.89,
+     "size_pt": 12.89,
+     "step": 1.12
+    },
+    {
+     "t": "나",
+     "dir": "v",
+     "font": "ko",
+     "x": 285.69,
+     "y": 624.44,
+     "size": 14,
+     "size_pt": 14,
+     "step": 1.12
+    },
+    {
+     "t": "부",
+     "dir": "v",
+     "font": "ko",
+     "x": 285.69,
+     "y": 765.63,
+     "size": 14,
+     "size_pt": 14,
+     "step": 1.12
+    },
+    {
+     "t": "용",
+     "dir": "v",
+     "font": "ko",
+     "x": 215.69,
+     "y": 59.69,
+     "size": 14,
+     "size_pt": 14,
+     "step": 1.12
+    },
+    {
+     "t": "산",
+     "dir": "v",
+     "font": "ko",
+     "x": 215.69,
+     "y": 153.81,
+     "size": 14,
+     "size_pt": 14,
+     "step": 1.12
+    },
+    {
+     "t": "봉우리",
+     "dir": "v",
+     "font": "ko",
+     "x": 215.69,
+     "y": 187.07,
+     "size": 12.89,
+     "size_pt": 12.89,
+     "step": 1.12
+    },
+    {
+     "t": "에",
+     "dir": "v",
+     "font": "ko",
+     "x": 215.69,
+     "y": 247.94,
+     "size": 14,
+     "size_pt": 14,
+     "step": 1.12
+    },
+    {
+     "t": "하늘",
+     "dir": "v",
+     "font": "ko",
+     "x": 215.69,
+     "y": 381.29,
+     "size": 14,
+     "size_pt": 14,
+     "step": 1.12
+    },
+    {
+     "t": "만",
+     "dir": "v",
+     "font": "ko",
+     "x": 215.69,
+     "y": 436.19,
+     "size": 14,
+     "size_pt": 14,
+     "step": 1.12
+    },
+    {
+     "t": "푸",
+     "dir": "v",
+     "font": "ko",
+     "x": 215.69,
+     "y": 530.31,
+     "size": 14,
+     "size_pt": 14,
+     "step": 1.12
+    },
+    {
+     "t": "르러",
+     "dir": "v",
+     "font": "ko",
+     "x": 215.69,
+     "y": 569.54,
+     "size": 14,
+     "size_pt": 14,
+     "step": 1.12
+    },
+    {
+     "t": "푸",
+     "dir": "v",
+     "font": "ko",
+     "x": 215.69,
+     "y": 624.44,
+     "size": 14,
+     "size_pt": 14,
+     "step": 1.12
+    },
+    {
+     "t": "르",
+     "dir": "v",
+     "font": "ko",
+     "x": 215.69,
+     "y": 718.57,
+     "size": 14,
+     "size_pt": 14,
+     "step": 1.12
+    },
+    {
+     "t": "러",
+     "dir": "v",
+     "font": "ko",
+     "x": 145.69,
+     "y": 59.69,
+     "size": 14,
+     "size_pt": 14,
+     "step": 1.12
+    },
+    {
+     "t": "Fm",
+     "dir": "h",
+     "font": "ko",
+     "x": 565.69,
+     "y": 46.0,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "D♭maj7",
+     "dir": "h",
+     "font": "ko",
+     "x": 565.69,
+     "y": 234.25,
+     "size": 6.47,
+     "size_pt": 6.47,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "B♭m7",
+     "dir": "h",
+     "font": "ko",
+     "x": 565.69,
+     "y": 422.5,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "C",
+     "dir": "h",
+     "font": "ko",
+     "x": 565.69,
+     "y": 610.75,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "Fm",
+     "dir": "h",
+     "font": "ko",
+     "x": 495.69,
+     "y": 46.0,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "B♭m",
+     "dir": "h",
+     "font": "ko",
+     "x": 495.69,
+     "y": 140.12,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "A♭",
+     "dir": "h",
+     "font": "ko",
+     "x": 495.69,
+     "y": 234.25,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "Fm",
+     "dir": "h",
+     "font": "ko",
+     "x": 495.69,
+     "y": 328.38,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "D♭",
+     "dir": "h",
+     "font": "ko",
+     "x": 495.69,
+     "y": 422.5,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "Fm",
+     "dir": "h",
+     "font": "ko",
+     "x": 495.69,
+     "y": 516.62,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "C",
+     "dir": "h",
+     "font": "ko",
+     "x": 495.69,
+     "y": 610.75,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "D♭maj7",
+     "dir": "h",
+     "font": "ko",
+     "x": 425.69,
+     "y": 46.0,
+     "size": 6.47,
+     "size_pt": 6.47,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "B♭m",
+     "dir": "h",
+     "font": "ko",
+     "x": 425.69,
+     "y": 140.12,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "Fm",
+     "dir": "h",
+     "font": "ko",
+     "x": 425.69,
+     "y": 234.25,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "D♭maj7",
+     "dir": "h",
+     "font": "ko",
+     "x": 425.69,
+     "y": 328.38,
+     "size": 6.47,
+     "size_pt": 6.47,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "E♭",
+     "dir": "h",
+     "font": "ko",
+     "x": 425.69,
+     "y": 422.5,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "A♭",
+     "dir": "h",
+     "font": "ko",
+     "x": 425.69,
+     "y": 516.62,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "C",
+     "dir": "h",
+     "font": "ko",
+     "x": 425.69,
+     "y": 610.75,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "Fm",
+     "dir": "h",
+     "font": "ko",
+     "x": 425.69,
+     "y": 704.88,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "D♭",
+     "dir": "h",
+     "font": "ko",
+     "x": 355.69,
+     "y": 46.0,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "Cm",
+     "dir": "h",
+     "font": "ko",
+     "x": 355.69,
+     "y": 140.12,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "B♭m",
+     "dir": "h",
+     "font": "ko",
+     "x": 355.69,
+     "y": 234.25,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "Fm",
+     "dir": "h",
+     "font": "ko",
+     "x": 355.69,
+     "y": 328.38,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "D♭maj7",
+     "dir": "h",
+     "font": "ko",
+     "x": 355.69,
+     "y": 422.5,
+     "size": 6.47,
+     "size_pt": 6.47,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "E♭",
+     "dir": "h",
+     "font": "ko",
+     "x": 355.69,
+     "y": 516.62,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "D♭",
+     "dir": "h",
+     "font": "ko",
+     "x": 355.69,
+     "y": 610.75,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "B♭m",
+     "dir": "h",
+     "font": "ko",
+     "x": 355.69,
+     "y": 704.88,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "D♭",
+     "dir": "h",
+     "font": "ko",
+     "x": 285.69,
+     "y": 46.0,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "B♭m",
+     "dir": "h",
+     "font": "ko",
+     "x": 285.69,
+     "y": 140.12,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "Fm",
+     "dir": "h",
+     "font": "ko",
+     "x": 285.69,
+     "y": 234.25,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "D♭",
+     "dir": "h",
+     "font": "ko",
+     "x": 285.69,
+     "y": 328.38,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "E♭",
+     "dir": "h",
+     "font": "ko",
+     "x": 285.69,
+     "y": 422.5,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "B♭m",
+     "dir": "h",
+     "font": "ko",
+     "x": 285.69,
+     "y": 516.62,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "Fm",
+     "dir": "h",
+     "font": "ko",
+     "x": 285.69,
+     "y": 610.75,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "C",
+     "dir": "h",
+     "font": "ko",
+     "x": 285.69,
+     "y": 704.88,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "A♭",
+     "dir": "h",
+     "font": "ko",
+     "x": 215.69,
+     "y": 46.0,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "B♭m",
+     "dir": "h",
+     "font": "ko",
+     "x": 215.69,
+     "y": 140.12,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "Fm",
+     "dir": "h",
+     "font": "ko",
+     "x": 215.69,
+     "y": 234.25,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "D♭maj7",
+     "dir": "h",
+     "font": "ko",
+     "x": 215.69,
+     "y": 328.38,
+     "size": 6.47,
+     "size_pt": 6.47,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "A♭",
+     "dir": "h",
+     "font": "ko",
+     "x": 215.69,
+     "y": 422.5,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "E♭",
+     "dir": "h",
+     "font": "ko",
+     "x": 215.69,
+     "y": 516.62,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "D♭",
+     "dir": "h",
+     "font": "ko",
+     "x": 215.69,
+     "y": 610.75,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "B♭m",
+     "dir": "h",
+     "font": "ko",
+     "x": 215.69,
+     "y": 704.88,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "Fm",
+     "dir": "h",
+     "font": "ko",
+     "x": 145.69,
+     "y": 46.0,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    }
+   ],
+   "blocks": [
+    {
+     "gridId": 1,
+     "cols": [
+      [
+       507.5,
+       553.88
+      ],
+      [
+       437.5,
+       483.88
+      ],
+      [
+       367.5,
+       413.88
+      ],
+      [
+       297.5,
+       343.88
+      ],
+      [
+       227.5,
+       273.88
+      ],
+      [
+       157.5,
+       203.88
+      ],
+      [
+       87.5,
+       133.88
+      ]
+     ],
+     "rows": [
+      44.0,
+      91.06,
+      138.12,
+      185.19,
+      232.25,
+      279.31,
+      326.38,
+      373.44,
+      420.5,
+      467.56,
+      514.62,
+      561.69,
+      608.75,
+      655.81,
+      702.88,
+      749.94,
+      797.0
+     ],
+     "columnConfigs": [
+      {
+       "colIndex": 1,
+       "startRow": 1,
+       "endRow": 16
+      },
+      {
+       "colIndex": 2,
+       "startRow": 1,
+       "endRow": 16
+      },
+      {
+       "colIndex": 3,
+       "startRow": 1,
+       "endRow": 16
+      },
+      {
+       "colIndex": 4,
+       "startRow": 1,
+       "endRow": 16
+      },
+      {
+       "colIndex": 5,
+       "startRow": 1,
+       "endRow": 16
+      },
+      {
+       "colIndex": 6,
+       "startRow": 1,
+       "endRow": 16
+      },
+      {
+       "colIndex": 7,
+       "startRow": 1,
+       "endRow": 16
+      }
+     ],
+     "measures": [
+      4,
+      8,
+      12
+     ],
+     "breaths": {},
+     "ticks": {},
+     "cells": [
+      "||||||||||||||△|南",
+      "南|ㅡ|ㅡ/林|仲姑/太|南|ㅡ|△/南|汰/㴌|㳞/㴌|汰|南|汰/㳞|㴌||ㅡ|△",
+      "汰/㳞|㴌/汰|無/林|汰/南|ㅡ|ㅡ|△/汰|南/仲|姑|太|ㅡ|仲|姑|ㅡ|△|汰",
+      "㳞|ㅡ/㳞|㴌|ㅡ|汰/無|林/汰|南|ㅡ/△|湳|ㅡ|ㅡ/淋|㳞/㴌|無無/㳞|㴌|△|汰/汰",
+      "無|ㅡ|ㅡ/林|無/汰|南|ㅡ|△|仲/太|姑/ㅡ仲|林/南|汰/㴌汰|汰/汰|汰|ㅡ|△|南",
+      "南|ㅡ|ㅡ/林|仲姑/太|南|ㅡ|△|汰/㳞|湳|ㅡ|ㅡ/淋|㳞/㴌|汰㴌/汰||汰|ㅡ",
+      "汰|ㅡ|ㅡ|△||||||||||||"
+     ],
+     "pad_cols": [
+      [
+       17.5,
+       63.88
+      ]
+     ]
+    }
+   ]
+  }
+ ]
+}

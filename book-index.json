@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-11-21T06:08:32Z",
+  "generated": "2026-11-21T06:35:32Z",
   "owner": "lks87454255",
   "repo": "jeongganview-asset",
   "branch": "main",
@@ -78,6 +78,22 @@
           "path": "book/AI 음원/부용산-정악-Cm.pdf",
           "url": "https://d2gw5tky9d13ec.cloudfront.net/jeongganview-assets/book/AI%20%EC%9D%8C%EC%9B%90/%EB%B6%80%EC%9A%A9%EC%82%B0-%EC%A0%95%EC%95%85-Cm.pdf",
           "sizeBytes": 117354,
+          "pageCount": 1,
+          "songs": [
+            {
+              "title": "부용산",
+              "page": 1
+            }
+          ],
+          "hasSync": true,
+          "syncDurationSec": 113
+        },
+        {
+          "name": "부용산-정악-Fm",
+          "fileName": "부용산-정악-Fm.pdf",
+          "path": "book/AI 음원/부용산-정악-Fm.pdf",
+          "url": "https://d2gw5tky9d13ec.cloudfront.net/jeongganview-assets/book/AI%20%EC%9D%8C%EC%9B%90/%EB%B6%80%EC%9A%A9%EC%82%B0-%EC%A0%95%EC%95%85-Fm.pdf",
+          "sizeBytes": 118588,
           "pageCount": 1,
           "songs": [
             {
@@ -3199,6 +3215,6 @@
   "adminCategories": [],
   "_total": {
     "categories": 6,
-    "files": 214
+    "files": 215
   }
 }
