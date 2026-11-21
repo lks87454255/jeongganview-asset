@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-11-21T07:36:59Z",
+  "generated": "2026-11-21T08:10:42Z",
   "owner": "lks87454255",
   "repo": "jeongganview-asset",
   "branch": "main",
@@ -22,7 +22,7 @@
             }
           ],
           "hasSync": true,
-          "syncDurationSec": 244
+          "syncDurationSec": 240
         },
         {
           "name": "달빛-피아노-산조-B",

@@ -1,14 +1,14 @@
 {
  "version": 1,
  "pdf": "book/AI 음원/다향-정악-Cm.pdf",
- "note": "반주 음원: 정간보(digital/다향-정악-Cm.json) 선율로 화음을 정해 새로 만든 반주(대금 선율 없음, scripts/arrange_dahyang.py, 2026-11-18). 아버지를 생각하며 만든 곡, 차 향기처럼 따뜻하고 잔잔하게(사용자): 아쟁·거문고(마디 첫 박)·현악·해금(작게)·C G 드론, 띵똥 없음. 黃 = E♭4 C단조(南으로 끝남, 사용자 지시), 1정간 = 60 BPM(1초, 사용자 지시 ♩=60). 전주 2마디 뒤 1열 1행 = 8.00초, 마디마다 앵커, 끝 = 2쪽 7열 3행. 이름 규칙: 곡명_조_v버전.m4a(사용자 지시 2026-11-18), 고칠 때마다 _v2, _v3 … 2026-11-18: 카드 이름 다향 → 다향-정악-Cm(사용자 지시).",
+ "note": "반주 음원: 정간보(digital/다향-정악-Cm.json) 선율로 화음을 정해 새로 만든 피아노 반주(대금 선율 없음, scripts/arrange_dahyang.py --piano, 사용자 지시 2026-11-21 \"다향은 피아노 반주\"). 아버지를 생각하며 만든 곡, 차 향기처럼 따뜻하고 잔잔하게: 왼손 마디 첫 박 뿌리음 옥타브, 오른손 반 마디마다 펼친 화음(8분음 넷), 페달로 잇기, 끝 Cm 굴려 길게. 黃 = E♭4 C단조, 1정간 = 60 BPM(1초). 전주 1마디(Cm, 땅 땅 땅 땅 네 박 세기 — 대금 들어오기 신호) 뒤 1열 1행 = 4.00초, 마디마다 앵커, 끝 = 2쪽 7열 3행. 이름 규칙: 곡명_조_v버전.m4a. _v1 = 아쟁·거문고·현악·해금 판.",
  "tracks": [
   {
-   "clipid": "asset:sync-audio/다향_Cm_v1.m4a",
-   "title": "다향 반주 (아쟁·거문고·현악·해금)",
-   "url": "https://d2gw5tky9d13ec.cloudfront.net/jeongganview-assets/sync-audio/%EB%8B%A4%ED%96%A5_Cm_v1.m4a",
-   "bytes": 5945547,
-   "durationMs": 244000,
+   "clipid": "asset:sync-audio/다향_Cm_v2.m4a",
+   "title": "다향 피아노 반주",
+   "url": "https://d2gw5tky9d13ec.cloudfront.net/jeongganview-assets/sync-audio/%EB%8B%A4%ED%96%A5_Cm_v2.m4a",
+   "bytes": 6022081,
+   "durationMs": 240000,
    "from": {
     "page": 1,
     "grid": 1,
@@ -23,406 +23,406 @@
    },
    "anchors": [
     {
-     "t": 8000,
+     "t": 4000,
      "page": 1,
      "grid": 1,
      "col": 1,
      "row": 0.0
+    },
+    {
+     "t": 8000,
+     "page": 1,
+     "grid": 1,
+     "col": 1,
+     "row": 4.0
     },
     {
      "t": 12000,
      "page": 1,
      "grid": 1,
      "col": 1,
-     "row": 4.0
+     "row": 8.0
     },
     {
      "t": 16000,
      "page": 1,
      "grid": 1,
      "col": 1,
-     "row": 8.0
+     "row": 12.0
     },
     {
      "t": 20000,
      "page": 1,
      "grid": 1,
-     "col": 1,
-     "row": 12.0
+     "col": 2,
+     "row": 0.0
     },
     {
      "t": 24000,
      "page": 1,
      "grid": 1,
      "col": 2,
-     "row": 0.0
+     "row": 4.0
     },
     {
      "t": 28000,
      "page": 1,
      "grid": 1,
      "col": 2,
-     "row": 4.0
+     "row": 8.0
     },
     {
      "t": 32000,
      "page": 1,
      "grid": 1,
      "col": 2,
-     "row": 8.0
+     "row": 12.0
     },
     {
      "t": 36000,
      "page": 1,
      "grid": 1,
-     "col": 2,
-     "row": 12.0
+     "col": 3,
+     "row": 0.0
     },
     {
      "t": 40000,
      "page": 1,
      "grid": 1,
      "col": 3,
-     "row": 0.0
+     "row": 4.0
     },
     {
      "t": 44000,
      "page": 1,
      "grid": 1,
      "col": 3,
-     "row": 4.0
+     "row": 8.0
     },
     {
      "t": 48000,
      "page": 1,
      "grid": 1,
      "col": 3,
-     "row": 8.0
+     "row": 12.0
     },
     {
      "t": 52000,
      "page": 1,
      "grid": 1,
-     "col": 3,
-     "row": 12.0
+     "col": 4,
+     "row": 0.0
     },
     {
      "t": 56000,
      "page": 1,
      "grid": 1,
      "col": 4,
-     "row": 0.0
+     "row": 4.0
     },
     {
      "t": 60000,
      "page": 1,
      "grid": 1,
      "col": 4,
-     "row": 4.0
+     "row": 8.0
     },
     {
      "t": 64000,
      "page": 1,
      "grid": 1,
      "col": 4,
-     "row": 8.0
+     "row": 12.0
     },
     {
      "t": 68000,
      "page": 1,
      "grid": 1,
-     "col": 4,
-     "row": 12.0
+     "col": 5,
+     "row": 0.0
     },
     {
      "t": 72000,
      "page": 1,
      "grid": 1,
      "col": 5,
-     "row": 0.0
+     "row": 4.0
     },
     {
      "t": 76000,
      "page": 1,
      "grid": 1,
      "col": 5,
-     "row": 4.0
+     "row": 8.0
     },
     {
      "t": 80000,
      "page": 1,
      "grid": 1,
      "col": 5,
-     "row": 8.0
+     "row": 12.0
     },
     {
      "t": 84000,
      "page": 1,
      "grid": 1,
-     "col": 5,
-     "row": 12.0
+     "col": 6,
+     "row": 0.0
     },
     {
      "t": 88000,
      "page": 1,
      "grid": 1,
      "col": 6,
-     "row": 0.0
+     "row": 4.0
     },
     {
      "t": 92000,
      "page": 1,
      "grid": 1,
      "col": 6,
-     "row": 4.0
+     "row": 8.0
     },
     {
      "t": 96000,
      "page": 1,
      "grid": 1,
      "col": 6,
-     "row": 8.0
+     "row": 12.0
     },
     {
      "t": 100000,
      "page": 1,
      "grid": 1,
-     "col": 6,
-     "row": 12.0
+     "col": 7,
+     "row": 0.0
     },
     {
      "t": 104000,
      "page": 1,
      "grid": 1,
      "col": 7,
-     "row": 0.0
+     "row": 4.0
     },
     {
      "t": 108000,
      "page": 1,
      "grid": 1,
      "col": 7,
-     "row": 4.0
+     "row": 8.0
     },
     {
      "t": 112000,
      "page": 1,
      "grid": 1,
      "col": 7,
-     "row": 8.0
+     "row": 12.0
     },
     {
      "t": 116000,
      "page": 1,
      "grid": 1,
-     "col": 7,
-     "row": 12.0
+     "col": 8,
+     "row": 0.0
     },
     {
      "t": 120000,
      "page": 1,
      "grid": 1,
      "col": 8,
-     "row": 0.0
+     "row": 4.0
     },
     {
      "t": 124000,
      "page": 1,
      "grid": 1,
      "col": 8,
-     "row": 4.0
+     "row": 8.0
     },
     {
      "t": 128000,
      "page": 1,
      "grid": 1,
      "col": 8,
-     "row": 8.0
+     "row": 12.0
     },
     {
      "t": 132000,
-     "page": 1,
+     "page": 2,
      "grid": 1,
-     "col": 8,
-     "row": 12.0
+     "col": 1,
+     "row": 0.0
     },
     {
      "t": 136000,
      "page": 2,
      "grid": 1,
      "col": 1,
-     "row": 0.0
+     "row": 4.0
     },
     {
      "t": 140000,
      "page": 2,
      "grid": 1,
      "col": 1,
-     "row": 4.0
+     "row": 8.0
     },
     {
      "t": 144000,
      "page": 2,
      "grid": 1,
      "col": 1,
-     "row": 8.0
+     "row": 12.0
     },
     {
      "t": 148000,
      "page": 2,
      "grid": 1,
-     "col": 1,
-     "row": 12.0
+     "col": 2,
+     "row": 0.0
     },
     {
      "t": 152000,
      "page": 2,
      "grid": 1,
      "col": 2,
-     "row": 0.0
+     "row": 4.0
     },
     {
      "t": 156000,
      "page": 2,
      "grid": 1,
      "col": 2,
-     "row": 4.0
+     "row": 8.0
     },
     {
      "t": 160000,
      "page": 2,
      "grid": 1,
      "col": 2,
-     "row": 8.0
+     "row": 12.0
     },
     {
      "t": 164000,
      "page": 2,
      "grid": 1,
-     "col": 2,
-     "row": 12.0
+     "col": 3,
+     "row": 0.0
     },
     {
      "t": 168000,
      "page": 2,
      "grid": 1,
      "col": 3,
-     "row": 0.0
+     "row": 4.0
     },
     {
      "t": 172000,
      "page": 2,
      "grid": 1,
      "col": 3,
-     "row": 4.0
+     "row": 8.0
     },
     {
      "t": 176000,
      "page": 2,
      "grid": 1,
      "col": 3,
-     "row": 8.0
+     "row": 12.0
     },
     {
      "t": 180000,
      "page": 2,
      "grid": 1,
-     "col": 3,
-     "row": 12.0
+     "col": 4,
+     "row": 0.0
     },
     {
      "t": 184000,
      "page": 2,
      "grid": 1,
      "col": 4,
-     "row": 0.0
+     "row": 4.0
     },
     {
      "t": 188000,
      "page": 2,
      "grid": 1,
      "col": 4,
-     "row": 4.0
+     "row": 8.0
     },
     {
      "t": 192000,
      "page": 2,
      "grid": 1,
      "col": 4,
-     "row": 8.0
+     "row": 12.0
     },
     {
      "t": 196000,
      "page": 2,
      "grid": 1,
-     "col": 4,
-     "row": 12.0
+     "col": 5,
+     "row": 0.0
     },
     {
      "t": 200000,
      "page": 2,
      "grid": 1,
      "col": 5,
-     "row": 0.0
+     "row": 4.0
     },
     {
      "t": 204000,
      "page": 2,
      "grid": 1,
      "col": 5,
-     "row": 4.0
+     "row": 8.0
     },
     {
      "t": 208000,
      "page": 2,
      "grid": 1,
      "col": 5,
-     "row": 8.0
+     "row": 12.0
     },
     {
      "t": 212000,
      "page": 2,
      "grid": 1,
-     "col": 5,
-     "row": 12.0
+     "col": 6,
+     "row": 0.0
     },
     {
      "t": 216000,
      "page": 2,
      "grid": 1,
      "col": 6,
-     "row": 0.0
+     "row": 4.0
     },
     {
      "t": 220000,
      "page": 2,
      "grid": 1,
      "col": 6,
-     "row": 4.0
+     "row": 8.0
     },
     {
      "t": 224000,
      "page": 2,
      "grid": 1,
      "col": 6,
-     "row": 8.0
-    },
-    {
-     "t": 228000,
-     "page": 2,
-     "grid": 1,
-     "col": 6,
      "row": 12.0
     },
     {
-     "t": 232000,
+     "t": 228000,
      "page": 2,
      "grid": 1,
      "col": 7,
      "row": 0.0
     },
     {
-     "t": 235000,
+     "t": 231000,
      "page": 2,
      "grid": 1,
      "col": 7,
