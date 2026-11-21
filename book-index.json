@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-11-21T13:15:44Z",
+  "generated": "2026-11-21T13:31:45Z",
   "owner": "lks87454255",
   "repo": "jeongganview-asset",
   "branch": "main",
@@ -166,7 +166,7 @@
             }
           ],
           "hasSync": true,
-          "syncDurationSec": 198
+          "syncDurationSec": 217
         },
         {
           "name": "초혼-산조-Bb",
@@ -182,7 +182,7 @@
             }
           ],
           "hasSync": true,
-          "syncDurationSec": 198
+          "syncDurationSec": 217
         },
         {
           "name": "초혼-정악-Db",
@@ -198,7 +198,7 @@
             }
           ],
           "hasSync": true,
-          "syncDurationSec": 198
+          "syncDurationSec": 217
         },
         {
           "name": "추월장강-정악-Bbm",
