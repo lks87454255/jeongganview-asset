@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-11-21T06:35:32Z",
+  "generated": "2026-11-21T07:03:13Z",
   "owner": "lks87454255",
   "repo": "jeongganview-asset",
   "branch": "main",
@@ -86,7 +86,7 @@
             }
           ],
           "hasSync": true,
-          "syncDurationSec": 113
+          "syncDurationSec": 212
         },
         {
           "name": "부용산-정악-Fm",
@@ -102,7 +102,7 @@
             }
           ],
           "hasSync": true,
-          "syncDurationSec": 113
+          "syncDurationSec": 212
         },
         {
           "name": "삼포 가는 길-정악-Fm",
@@ -166,7 +166,7 @@
             }
           ],
           "hasSync": true,
-          "syncDurationSec": 312
+          "syncDurationSec": 284
         }
       ]
     },
