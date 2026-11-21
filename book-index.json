@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-11-21T07:13:43Z",
+  "generated": "2026-11-21T07:18:04Z",
   "owner": "lks87454255",
   "repo": "jeongganview-asset",
   "branch": "main",
@@ -109,7 +109,7 @@
           "fileName": "삼포 가는 길-정악-Fm.pdf",
           "path": "book/AI 음원/삼포 가는 길-정악-Fm.pdf",
           "url": "https://d2gw5tky9d13ec.cloudfront.net/jeongganview-assets/book/AI%20%EC%9D%8C%EC%9B%90/%EC%82%BC%ED%8F%AC%20%EA%B0%80%EB%8A%94%20%EA%B8%B8-%EC%A0%95%EC%95%85-Fm.pdf",
-          "sizeBytes": 92161,
+          "sizeBytes": 92224,
           "pageCount": 1,
           "songs": [
             {
