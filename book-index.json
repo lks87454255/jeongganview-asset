@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-11-21T07:03:13Z",
+  "generated": "2026-11-21T07:09:58Z",
   "owner": "lks87454255",
   "repo": "jeongganview-asset",
   "branch": "main",
@@ -118,7 +118,7 @@
             }
           ],
           "hasSync": true,
-          "syncDurationSec": 214
+          "syncDurationSec": 180
         },
         {
           "name": "천년학-정악-Dm",
@@ -166,7 +166,7 @@
             }
           ],
           "hasSync": true,
-          "syncDurationSec": 284
+          "syncDurationSec": 234
         }
       ]
     },
