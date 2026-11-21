@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-11-21T03:25:53Z",
+  "generated": "2026-11-21T06:08:32Z",
   "owner": "lks87454255",
   "repo": "jeongganview-asset",
   "branch": "main",
@@ -86,7 +86,7 @@
             }
           ],
           "hasSync": true,
-          "syncDurationSec": 133
+          "syncDurationSec": 113
         },
         {
           "name": "삼포 가는 길-정악-Fm",

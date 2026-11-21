@@ -50,6 +50,7 @@ BOOK_EXCLUDE_DIRS = {"대금율보", "조재수 대금교본", "국악이 꽃피
 BOOK_ADMIN_ONLY_DIRS: set = set()
 
 BOOK_EXCLUDE: set = {
+    "book/AI 음원/취타-A3.pdf",   # 인쇄용 A3(원본 print/취타-A3.pdf) — GitHub 에서 내려받아 확인할 동안만 둠, 앱 카드 아님(2026-11-21)
     "book/대금정악보/가곡.pdf",   # 곡별 파일(book/가곡/가곡-<곡명>)로 보여 준다 — 파일·그리드·싱크 맵은 레포에 두고 카드만 숨김(사용자 결정, 2026-11-08)
 }
 
