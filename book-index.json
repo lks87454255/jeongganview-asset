@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-11-21T13:03:15Z",
+  "generated": "2026-11-21T13:09:47Z",
   "owner": "lks87454255",
   "repo": "jeongganview-asset",
   "branch": "main",
@@ -158,6 +158,22 @@
           "path": "book/AI 음원/초혼-단소-Bb.pdf",
           "url": "https://d2gw5tky9d13ec.cloudfront.net/jeongganview-assets/book/AI%20%EC%9D%8C%EC%9B%90/%EC%B4%88%ED%98%BC-%EB%8B%A8%EC%86%8C-Bb.pdf",
           "sizeBytes": 113249,
+          "pageCount": 1,
+          "songs": [
+            {
+              "title": "초혼",
+              "page": 1
+            }
+          ],
+          "hasSync": true,
+          "syncDurationSec": 198
+        },
+        {
+          "name": "초혼-단소-Db",
+          "fileName": "초혼-단소-Db.pdf",
+          "path": "book/AI 음원/초혼-단소-Db.pdf",
+          "url": "https://d2gw5tky9d13ec.cloudfront.net/jeongganview-assets/book/AI%20%EC%9D%8C%EC%9B%90/%EC%B4%88%ED%98%BC-%EB%8B%A8%EC%86%8C-Db.pdf",
+          "sizeBytes": 113273,
           "pageCount": 1,
           "songs": [
             {
@@ -3231,6 +3247,6 @@
   "adminCategories": [],
   "_total": {
     "categories": 6,
-    "files": 216
+    "files": 217
   }
 }
