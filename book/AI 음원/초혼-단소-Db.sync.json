@@ -1,13 +1,13 @@
 {
  "version": 1,
  "pdf": "book/AI 음원/초혼-단소-Db.pdf",
- "note": "음원: 초혼_단소_Db_v2.m4a — 받은 초혼 MR 의 음·박·짜임을 그대로 두고 악기만 국악기로 바꿈(단소, arrange_chohon.py, 사용자 지시 2026-11-21). MR 시각 그대로, 모든 음 단3도 올림(D♭). ♩=72, 1정간 = 0.8330초, 첫 마디 박 8.73초. 1회 1열 16행 11.23초 → 7열 16행 끝 92.03초 → 간주 4마디 동안 1열 1~16행을 따라감 → 1열 16행 '살아' 104.53초 → 2회 2열 1행 105.36초 → 8열 6행 끝 190.32초, 그 뒤 후주. 앵커는 마디마다.",
+ "note": "음원: 초혼_단소_Db_v3.m4a — 받은 초혼 MR 의 음·박·짜임을 그대로 두고 악기만 국악기로 바꿈(단소, arrange_chohon.py, 사용자 지시 2026-11-21). MR 시각 그대로, 모든 음 단3도 올림(D♭). ♩=72, 1정간 = 0.8330초, 첫 마디 박 8.73초. 1회 1열 16행 11.23초 → 7열 16행 끝 92.03초 → 간주 4마디 동안 1열 1~16행을 따라감 → 1열 16행 '살아' 104.53초 → 2회 2열 1행 105.36초 → 8열 6행 끝 190.32초, 그 뒤 후주. 앵커는 마디마다.",
  "tracks": [
   {
-   "clipid": "asset:sync-audio/초혼_단소_Db_v2.m4a",
+   "clipid": "asset:sync-audio/초혼_단소_Db_v3.m4a",
    "title": "초혼 MR 국악기 (단소 D♭)",
-   "url": "https://d2gw5tky9d13ec.cloudfront.net/jeongganview-assets/sync-audio/%EC%B4%88%ED%98%BC_%EB%8B%A8%EC%86%8C_Db_v2.m4a",
-   "bytes": 4727062,
+   "url": "https://d2gw5tky9d13ec.cloudfront.net/jeongganview-assets/sync-audio/%EC%B4%88%ED%98%BC_%EB%8B%A8%EC%86%8C_Db_v3.m4a",
+   "bytes": 4714971,
    "durationMs": 200790,
    "from": {
     "page": 1,
