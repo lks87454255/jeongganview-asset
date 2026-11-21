@@ -1,14 +1,14 @@
 {
  "version": 1,
- "pdf": "book/AI 음원/초혼-단소-Db.pdf",
- "note": "음원: 초혼_Bb.m4a(받은 MR 영상 소리)를 단3도 올린 초혼_Db.m4a(ffmpeg rubberband pitch=2^(3/12), 빠르기·길이 그대로, 사용자 지시 2026-11-21). D♭. ♩=72, 1정간 = 0.8330초(박 추적), 첫 마디 박 8.73초(영상 악보 진행선과 같음). 1회: 1열 16행 '살아' 11.23초 → 7열 13행 '니' 88.70초, 간주 동안 7열 15행에서 기다림(90.36~104.53초). 2회: 1열 16행 '살아' 104.53초 → 2열 1행 105.36초 → 7열 13행 '니' 181.99초 → 8열 1행 '너' 185.33초, 8열 6행 끝 190.32초, 그 뒤 후주. 앵커는 마디마다. scripts/make_chohon.py --sync",
+ "pdf": "book/AI 음원/초혼-산조-Bb.pdf",
+ "note": "음원: 받은 초혼 MR 영상(KakaoTalk_Video_2026-11-21-21-32-08.mp4)의 소리 그대로(AAC). B♭(영상 악보 조표 ♭2개). ♩=72, 1정간 = 0.8330초(박 추적), 첫 마디 박 8.73초(영상 악보 진행선과 같음). 1회: 1열 16행 '살아' 11.23초 → 7열 13행 '니' 88.70초, 간주 동안 7열 15행에서 기다림(90.36~104.53초). 2회: 1열 16행 '살아' 104.53초 → 2열 1행 105.36초 → 7열 13행 '니' 181.99초 → 8열 1행 '너' 185.33초, 8열 6행 끝 190.32초, 그 뒤 후주. 앵커는 마디마다. scripts/make_chohon.py --sync",
  "tracks": [
   {
-   "clipid": "asset:sync-audio/초혼_Db.m4a",
-   "title": "초혼 MR (D♭, 단3도 올림)",
-   "url": "https://d2gw5tky9d13ec.cloudfront.net/jeongganview-assets/sync-audio/%EC%B4%88%ED%98%BC_Db.m4a",
-   "bytes": 4843098,
-   "durationMs": 198203,
+   "clipid": "asset:sync-audio/초혼_Bb.m4a",
+   "title": "초혼 MR (B♭)",
+   "url": "https://d2gw5tky9d13ec.cloudfront.net/jeongganview-assets/sync-audio/%EC%B4%88%ED%98%BC_Bb.m4a",
+   "bytes": 2437300,
+   "durationMs": 198293,
    "from": {
     "page": 1,
     "grid": 1,
