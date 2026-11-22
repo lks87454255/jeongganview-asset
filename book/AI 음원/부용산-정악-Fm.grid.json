@@ -5,7 +5,7 @@
     "1": [
       {
         "gridId": 1,
-        "cols": 7,
+        "cols": 6,
         "rows": 16,
         "columnConfigs": [
           {
@@ -37,16 +37,11 @@
             "colIndex": 6,
             "startRow": 1,
             "endRow": 16
-          },
-          {
-            "colIndex": 7,
-            "startRow": 1,
-            "endRow": 16
           }
         ],
-        "x": 0.1471,
+        "x": 0.2647,
         "y": 0.0832,
-        "width": 0.8235,
+        "width": 0.7059,
         "height": 0.8954,
         "title": "부용산-정악-Fm · 부용산"
       }
