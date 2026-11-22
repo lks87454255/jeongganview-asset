@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-11-22T09:28:38Z",
+  "generated": "2026-11-22T09:30:28Z",
   "owner": "lks87454255",
   "repo": "jeongganview-asset",
   "branch": "main",
@@ -22,7 +22,7 @@
             }
           ],
           "hasSync": true,
-          "syncDurationSec": 125
+          "syncDurationSec": 106
         },
         {
           "name": "다향-정악-Cm",
