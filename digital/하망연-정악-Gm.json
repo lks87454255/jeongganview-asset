@@ -7,17 +7,17 @@
  "note": "하망연(何茫然, 대장금 OST). 사용자가 받은 네 판 음원에서 노래 선율을 받아씀(scripts/make_hamangyeon.py, 2026-11-22): 판마다 demucs 로 노래를 나누고 basic-pitch 로 음표, 네 판 다수결, 박 추적(♩≈73)으로 정간에 맞춤. G단조, 노래를 한 옥타브 올려 대금 음역. 1정간 = 1박, 두 줄 = 반박. 가사(사용자 제공): 음성 인식(Whisper)으로 부른 자리·시각을 찾아 붙임 — A1 1·2줄, A2 1~4줄, B1 후렴, A3 1·2줄, B2 후렴 + 둘째·셋째 줄. 시김새 없음.",
  "songs": [
   {
-   "title": "하망연",
+   "title": "하망연(何茫然)",
    "page": 1,
    "grid": 1
   },
   {
-   "title": "하망연",
+   "title": "하망연(何茫然)",
    "page": 2,
    "grid": 1
   },
   {
-   "title": "하망연",
+   "title": "하망연(何茫然)",
    "page": 3,
    "grid": 1
   }
@@ -47,14 +47,14 @@
       1
      ],
      "title": null,
-     "name": "하망연"
+     "name": "하망연(何茫然)"
     }
    ],
    "outline_pt": 1.1,
    "uniform_size": true,
    "texts": [
     {
-     "t": "하망연",
+     "t": "하망연(何茫然)",
      "dir": "h",
      "font": "kob",
      "x": 297.5,
@@ -602,14 +602,14 @@
       1
      ],
      "title": null,
-     "name": "하망연"
+     "name": "하망연(何茫然)"
     }
    ],
    "outline_pt": 1.1,
    "uniform_size": true,
    "texts": [
     {
-     "t": "하망연",
+     "t": "하망연(何茫然)",
      "dir": "h",
      "font": "kob",
      "x": 297.5,
@@ -1367,14 +1367,14 @@
       1
      ],
      "title": null,
-     "name": "하망연"
+     "name": "하망연(何茫然)"
     }
    ],
    "outline_pt": 1.1,
    "uniform_size": true,
    "texts": [
     {
-     "t": "하망연",
+     "t": "하망연(何茫然)",
      "dir": "h",
      "font": "kob",
      "x": 297.5,
