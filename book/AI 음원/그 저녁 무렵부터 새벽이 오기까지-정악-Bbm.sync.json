@@ -1,0 +1,261 @@
+{
+ "version": 1,
+ "pdf": "book/AI 음원/그 저녁 무렵부터 새벽이 오기까지-정악-Bbm.pdf",
+ "note": "반주 음원: 정간보(digital/그 저녁 무렵부터 새벽이 오기까지-정악-Bbm.json) 선율로 마디마다 화음을 정해 새로 만든 피아노 반주(대금 선율 없음, scripts/arrange_jeonyeok.py, 사용자 지시 2026-11-22). 黃 = E♭4 B♭단조, 3/4, 1정간 = 50 BPM(1.20초). 전주 1마디(B♭m 펼침 + 땅 땅 땅 — 대금 들어오기 신호) 뒤 1열 1행 = 3.60초, 마디마다 앵커, 끝 = 1쪽 8열 10행. 이름 규칙: 곡명_조_v버전.m4a.",
+ "tracks": [
+  {
+   "clipid": "asset:sync-audio/그저녁무렵부터_Bbm_v1.m4a",
+   "title": "그 저녁 무렵부터 새벽이 오기까지 피아노 반주",
+   "url": "https://d2gw5tky9d13ec.cloudfront.net/jeongganview-assets/sync-audio/%EA%B7%B8%EC%A0%80%EB%85%81%EB%AC%B4%EB%A0%B5%EB%B6%80%ED%84%B0_Bbm_v1.m4a",
+   "bytes": 3125954,
+   "durationMs": 125400,
+   "from": {
+    "page": 1,
+    "grid": 1,
+    "col": 1,
+    "row": 0.0
+   },
+   "to": {
+    "page": 1,
+    "grid": 1,
+    "col": 8,
+    "row": 10
+   },
+   "anchors": [
+    {
+     "t": 3600,
+     "page": 1,
+     "grid": 1,
+     "col": 1,
+     "row": 0.0
+    },
+    {
+     "t": 7200,
+     "page": 1,
+     "grid": 1,
+     "col": 1,
+     "row": 3.0
+    },
+    {
+     "t": 10800,
+     "page": 1,
+     "grid": 1,
+     "col": 1,
+     "row": 6.0
+    },
+    {
+     "t": 14400,
+     "page": 1,
+     "grid": 1,
+     "col": 1,
+     "row": 9.0
+    },
+    {
+     "t": 18000,
+     "page": 1,
+     "grid": 1,
+     "col": 2,
+     "row": 0.0
+    },
+    {
+     "t": 21600,
+     "page": 1,
+     "grid": 1,
+     "col": 2,
+     "row": 3.0
+    },
+    {
+     "t": 25200,
+     "page": 1,
+     "grid": 1,
+     "col": 2,
+     "row": 6.0
+    },
+    {
+     "t": 28800,
+     "page": 1,
+     "grid": 1,
+     "col": 2,
+     "row": 9.0
+    },
+    {
+     "t": 32400,
+     "page": 1,
+     "grid": 1,
+     "col": 3,
+     "row": 0.0
+    },
+    {
+     "t": 36000,
+     "page": 1,
+     "grid": 1,
+     "col": 3,
+     "row": 3.0
+    },
+    {
+     "t": 39600,
+     "page": 1,
+     "grid": 1,
+     "col": 3,
+     "row": 6.0
+    },
+    {
+     "t": 43200,
+     "page": 1,
+     "grid": 1,
+     "col": 3,
+     "row": 9.0
+    },
+    {
+     "t": 46800,
+     "page": 1,
+     "grid": 1,
+     "col": 4,
+     "row": 0.0
+    },
+    {
+     "t": 50400,
+     "page": 1,
+     "grid": 1,
+     "col": 4,
+     "row": 3.0
+    },
+    {
+     "t": 54000,
+     "page": 1,
+     "grid": 1,
+     "col": 4,
+     "row": 6.0
+    },
+    {
+     "t": 57600,
+     "page": 1,
+     "grid": 1,
+     "col": 4,
+     "row": 9.0
+    },
+    {
+     "t": 61200,
+     "page": 1,
+     "grid": 1,
+     "col": 5,
+     "row": 0.0
+    },
+    {
+     "t": 64800,
+     "page": 1,
+     "grid": 1,
+     "col": 5,
+     "row": 3.0
+    },
+    {
+     "t": 68400,
+     "page": 1,
+     "grid": 1,
+     "col": 5,
+     "row": 6.0
+    },
+    {
+     "t": 72000,
+     "page": 1,
+     "grid": 1,
+     "col": 5,
+     "row": 9.0
+    },
+    {
+     "t": 75600,
+     "page": 1,
+     "grid": 1,
+     "col": 6,
+     "row": 0.0
+    },
+    {
+     "t": 79200,
+     "page": 1,
+     "grid": 1,
+     "col": 6,
+     "row": 3.0
+    },
+    {
+     "t": 82800,
+     "page": 1,
+     "grid": 1,
+     "col": 6,
+     "row": 6.0
+    },
+    {
+     "t": 86400,
+     "page": 1,
+     "grid": 1,
+     "col": 6,
+     "row": 9.0
+    },
+    {
+     "t": 90000,
+     "page": 1,
+     "grid": 1,
+     "col": 7,
+     "row": 0.0
+    },
+    {
+     "t": 93600,
+     "page": 1,
+     "grid": 1,
+     "col": 7,
+     "row": 3.0
+    },
+    {
+     "t": 97200,
+     "page": 1,
+     "grid": 1,
+     "col": 7,
+     "row": 6.0
+    },
+    {
+     "t": 100800,
+     "page": 1,
+     "grid": 1,
+     "col": 7,
+     "row": 9.0
+    },
+    {
+     "t": 104400,
+     "page": 1,
+     "grid": 1,
+     "col": 8,
+     "row": 0.0
+    },
+    {
+     "t": 108000,
+     "page": 1,
+     "grid": 1,
+     "col": 8,
+     "row": 3.0
+    },
+    {
+     "t": 111600,
+     "page": 1,
+     "grid": 1,
+     "col": 8,
+     "row": 6.0
+    },
+    {
+     "t": 115200,
+     "page": 1,
+     "grid": 1,
+     "col": 8,
+     "row": 9.0
+    },
+    {
+     "t": 116400,
+     "page": 1,
+     "grid": 1,
+     "col": 8,
+     "row": 10
+    }
+   ],
+   "pauses": [],
+   "anchorSource": "arranged"
+  }
+ ]
+}
