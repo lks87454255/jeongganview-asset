@@ -380,21 +380,25 @@
   "songs": [
     {
       "title": "진양",
+      "tempo": "三十 ~ 三五",
       "page": 1,
       "grid": 1
     },
     {
       "title": "중모리",
+      "tempo": "七十 ~ 七五",
       "page": 2,
       "grid": 1
     },
     {
       "title": "중중모리",
+      "tempo": "八十 ~ 九五",
       "page": 3,
       "grid": 1
     },
     {
       "title": "자진모리",
+      "tempo": "八十 ~ 一百五",
       "page": 5,
       "grid": 1
     }
