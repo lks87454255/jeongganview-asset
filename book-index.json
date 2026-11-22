@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-11-22T13:17:16Z",
+  "generated": "2026-11-22T15:08:43Z",
   "owner": "lks87454255",
   "repo": "jeongganview-asset",
   "branch": "main",
@@ -231,6 +231,28 @@
           ],
           "hasSync": true,
           "syncDurationSec": 234
+        },
+        {
+          "name": "하망연-정악-Gm",
+          "fileName": "하망연-정악-Gm.pdf",
+          "path": "book/AI 음원/하망연-정악-Gm.pdf",
+          "url": "https://d2gw5tky9d13ec.cloudfront.net/jeongganview-assets/book/AI%20%EC%9D%8C%EC%9B%90/%ED%95%98%EB%A7%9D%EC%97%B0-%EC%A0%95%EC%95%85-Gm.pdf",
+          "sizeBytes": 127716,
+          "pageCount": 3,
+          "songs": [
+            {
+              "title": "하망연",
+              "page": 1
+            },
+            {
+              "title": "하망연",
+              "page": 2
+            },
+            {
+              "title": "하망연",
+              "page": 3
+            }
+          ]
         }
       ]
     },
@@ -3279,6 +3301,6 @@
   "adminCategories": [],
   "_total": {
     "categories": 6,
-    "files": 219
+    "files": 220
   }
 }
