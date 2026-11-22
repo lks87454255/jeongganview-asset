@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-11-22T00:25:47Z",
+  "generated": "2026-11-22T01:23:09Z",
   "owner": "lks87454255",
   "repo": "jeongganview-asset",
   "branch": "main",
@@ -166,7 +166,7 @@
             }
           ],
           "hasSync": true,
-          "syncDurationSec": 201
+          "syncDurationSec": 198
         },
         {
           "name": "초혼-산조-Bb",
