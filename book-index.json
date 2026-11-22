@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-11-22T09:30:28Z",
+  "generated": "2026-11-22T09:38:09Z",
   "owner": "lks87454255",
   "repo": "jeongganview-asset",
   "branch": "main",
@@ -13,7 +13,7 @@
           "fileName": "그 저녁 무렵부터 새벽이 오기까지-정악-Bbm.pdf",
           "path": "book/AI 음원/그 저녁 무렵부터 새벽이 오기까지-정악-Bbm.pdf",
           "url": "https://d2gw5tky9d13ec.cloudfront.net/jeongganview-assets/book/AI%20%EC%9D%8C%EC%9B%90/%EA%B7%B8%20%EC%A0%80%EB%85%81%20%EB%AC%B4%EB%A0%B5%EB%B6%80%ED%84%B0%20%EC%83%88%EB%B2%BD%EC%9D%B4%20%EC%98%A4%EA%B8%B0%EA%B9%8C%EC%A7%80-%EC%A0%95%EC%95%85-Bbm.pdf",
-          "sizeBytes": 82071,
+          "sizeBytes": 85454,
           "pageCount": 1,
           "songs": [
             {
@@ -22,7 +22,7 @@
             }
           ],
           "hasSync": true,
-          "syncDurationSec": 106
+          "syncDurationSec": 180
         },
         {
           "name": "다향-정악-Cm",
