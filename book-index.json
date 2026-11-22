@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-11-22T08:31:04Z",
+  "generated": "2026-11-22T08:44:17Z",
   "owner": "lks87454255",
   "repo": "jeongganview-asset",
   "branch": "main",
@@ -93,7 +93,7 @@
           "fileName": "부용산-정악-Cm.pdf",
           "path": "book/AI 음원/부용산-정악-Cm.pdf",
           "url": "https://d2gw5tky9d13ec.cloudfront.net/jeongganview-assets/book/AI%20%EC%9D%8C%EC%9B%90/%EB%B6%80%EC%9A%A9%EC%82%B0-%EC%A0%95%EC%95%85-Cm.pdf",
-          "sizeBytes": 115709,
+          "sizeBytes": 115705,
           "pageCount": 1,
           "songs": [
             {
@@ -102,14 +102,14 @@
             }
           ],
           "hasSync": true,
-          "syncDurationSec": 200
+          "syncDurationSec": 202
         },
         {
           "name": "부용산-정악-Fm",
           "fileName": "부용산-정악-Fm.pdf",
           "path": "book/AI 음원/부용산-정악-Fm.pdf",
           "url": "https://d2gw5tky9d13ec.cloudfront.net/jeongganview-assets/book/AI%20%EC%9D%8C%EC%9B%90/%EB%B6%80%EC%9A%A9%EC%82%B0-%EC%A0%95%EC%95%85-Fm.pdf",
-          "sizeBytes": 116711,
+          "sizeBytes": 116707,
           "pageCount": 1,
           "songs": [
             {
@@ -118,7 +118,7 @@
             }
           ],
           "hasSync": true,
-          "syncDurationSec": 200
+          "syncDurationSec": 202
         },
         {
           "name": "삼포 가는 길-정악-Fm",
