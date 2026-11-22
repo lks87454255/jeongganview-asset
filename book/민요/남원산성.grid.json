@@ -181,5 +181,6 @@
       "page": 1,
       "grid": 1
     }
-  ]
+  ],
+  "beatsPerBar": 3
 }

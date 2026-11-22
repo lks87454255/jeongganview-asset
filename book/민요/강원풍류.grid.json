@@ -151,5 +151,6 @@
       "page": 3,
       "grid": 1
     }
-  ]
+  ],
+  "beatsPerBar": 3
 }
