@@ -5,7 +5,7 @@
     "1": [
       {
         "gridId": 1,
-        "cols": 10,
+        "cols": 7,
         "rows": 16,
         "columnConfigs": [
           {
@@ -42,26 +42,11 @@
             "colIndex": 7,
             "startRow": 1,
             "endRow": 16
-          },
-          {
-            "colIndex": 8,
-            "startRow": 1,
-            "endRow": 16
-          },
-          {
-            "colIndex": 9,
-            "startRow": 1,
-            "endRow": 16
-          },
-          {
-            "colIndex": 10,
-            "startRow": 1,
-            "endRow": 16
           }
         ],
-        "x": 0.0294,
+        "x": 0.1471,
         "y": 0.0832,
-        "width": 0.9412,
+        "width": 0.8235,
         "height": 0.8954,
         "title": "하망연(何茫然)-정악-Gm · 하망연(何茫然)"
       }

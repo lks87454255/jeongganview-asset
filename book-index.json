@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-11-22T16:48:56Z",
+  "generated": "2026-11-23T00:36:14Z",
   "owner": "lks87454255",
   "repo": "jeongganview-asset",
   "branch": "main",
@@ -237,7 +237,7 @@
           "fileName": "하망연(何茫然)-정악-Gm.pdf",
           "path": "book/AI 음원/하망연(何茫然)-정악-Gm.pdf",
           "url": "https://d2gw5tky9d13ec.cloudfront.net/jeongganview-assets/book/AI%20%EC%9D%8C%EC%9B%90/%ED%95%98%EB%A7%9D%EC%97%B0%28%E4%BD%95%E8%8C%AB%E7%84%B6%29-%EC%A0%95%EC%95%85-Gm.pdf",
-          "sizeBytes": 129672,
+          "sizeBytes": 108324,
           "pageCount": 1,
           "songs": [
             {
@@ -246,7 +246,7 @@
             }
           ],
           "hasSync": true,
-          "syncDurationSec": 314
+          "syncDurationSec": 118
         }
       ]
     },
