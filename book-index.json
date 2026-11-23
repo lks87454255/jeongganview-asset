@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-11-23T02:54:49Z",
+  "generated": "2026-11-23T09:00:50Z",
   "owner": "lks87454255",
   "repo": "jeongganview-asset",
   "branch": "main",
@@ -247,6 +247,22 @@
           ],
           "hasSync": true,
           "syncDurationSec": 118
+        },
+        {
+          "name": "회룡포-단소-Bbm",
+          "fileName": "회룡포-단소-Bbm.pdf",
+          "path": "book/AI 음원/회룡포-단소-Bbm.pdf",
+          "url": "https://d2gw5tky9d13ec.cloudfront.net/jeongganview-assets/book/AI%20%EC%9D%8C%EC%9B%90/%ED%9A%8C%EB%A3%A1%ED%8F%AC-%EB%8B%A8%EC%86%8C-Bbm.pdf",
+          "sizeBytes": 130420,
+          "pageCount": 1,
+          "songs": [
+            {
+              "title": "회룡포",
+              "page": 1
+            }
+          ],
+          "hasSync": true,
+          "syncDurationSec": 217
         }
       ]
     },
@@ -3295,6 +3311,6 @@
   "adminCategories": [],
   "_total": {
     "categories": 6,
-    "files": 220
+    "files": 221
   }
 }
