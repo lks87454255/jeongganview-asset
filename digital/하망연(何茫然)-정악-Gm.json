@@ -4,7 +4,7 @@
  "source_pdf": "digital/민요-빈쪽.pdf",
  "fonts": "noto",
  "uniform_pt": 23.53,
- "note": "하망연(何茫然, 대장금 OST, 임세현 작곡). 원본: 오선보(다음 국악카페 여민락 2012.1.26 설촌, 산조대금 6관청, 4/4, 20마디)를 마디마다 판독(scripts/arrange_hamangyeon.py --data, 사용자 지시 2026-11-23). 빨간 율명(黃 = B♭) 그대로 = 앱 黃 E♭4 에서 G단조. 오선보 E♮ 은 빨간 율명 沖 대신 오선보 음대로 㶋(청유). 도돌이를 풀어 1절 두 번(1~4열) + 후렴(5~7열). 1정간 = 1박, 1열 = 4마디. 가사는 오선보 그대로. 시김새 없음. 글꼴: 앱 Noto Serif.",
+ "note": "하망연(何茫然, 대장금 OST, 임세현 작곡). 원본: 오선보(다음 국악카페 여민락 2012.1.26 설촌, 산조대금 6관청, 4/4, 20마디)를 마디마다 판독(scripts/arrange_hamangyeon.py --data, 사용자 지시 2026-11-23). 빨간 율명(黃 = B♭) 그대로 = 앱 黃 E♭4 에서 G단조. 오선보 E♮ 은 빨간 율명 沖 대신 오선보 음대로 㶋(청유). 도돌이를 풀어 1절 두 번(1~4열) + 후렴(5~7열). 1정간 = 1박, 1열 = 4마디. 가사는 오선보 그대로. 시김새 없음. 글꼴: 앱 Noto Serif. 가사열 위쪽에 반주 화음 이름(화음이 바뀌는 정간·열 첫 정간).",
  "songs": [
   {
    "title": "하망연(何茫然)",
@@ -114,10 +114,11 @@
      "dir": "v",
      "font": "ko",
      "x": 565.69,
-     "y": 247.94,
+     "y": 252.94,
      "size": 14,
      "size_pt": 14,
-     "step": 1.12
+     "step": 1.12,
+     "lyric_dy": 5.0
     },
     {
      "t": "아련",
@@ -144,10 +145,11 @@
      "dir": "v",
      "font": "ko",
      "x": 565.69,
-     "y": 616.6,
+     "y": 621.6,
      "size": 14,
      "size_pt": 14,
-     "step": 1.12
+     "step": 1.12,
+     "lyric_dy": 5.0
     },
     {
      "t": "별헤",
@@ -184,10 +186,11 @@
      "dir": "v",
      "font": "ko",
      "x": 495.69,
-     "y": 247.94,
+     "y": 252.94,
      "size": 14,
      "size_pt": 14,
-     "step": 1.12
+     "step": 1.12,
+     "lyric_dy": 5.0
     },
     {
      "t": "사라",
@@ -204,10 +207,11 @@
      "dir": "v",
      "font": "ko",
      "x": 495.69,
-     "y": 530.31,
+     "y": 535.31,
      "size": 14,
      "size_pt": 14,
-     "step": 1.12
+     "step": 1.12,
+     "lyric_dy": 5.0
     },
     {
      "t": "가",
@@ -224,10 +228,11 @@
      "dir": "v",
      "font": "ko",
      "x": 495.69,
-     "y": 624.44,
+     "y": 629.44,
      "size": 14,
      "size_pt": 14,
-     "step": 1.12
+     "step": 1.12,
+     "lyric_dy": 5.0
     },
     {
      "t": "천해",
@@ -264,10 +269,11 @@
      "dir": "v",
      "font": "ko",
      "x": 425.69,
-     "y": 247.94,
+     "y": 252.94,
      "size": 14,
      "size_pt": 14,
-     "step": 1.12
+     "step": 1.12,
+     "lyric_dy": 5.0
     },
     {
      "t": "못다",
@@ -294,10 +300,11 @@
      "dir": "v",
      "font": "ko",
      "x": 425.69,
-     "y": 616.6,
+     "y": 621.6,
      "size": 14,
      "size_pt": 14,
-     "step": 1.12
+     "step": 1.12,
+     "lyric_dy": 5.0
     },
     {
      "t": "청상",
@@ -334,10 +341,11 @@
      "dir": "v",
      "font": "ko",
      "x": 355.69,
-     "y": 247.94,
+     "y": 252.94,
      "size": 14,
      "size_pt": 14,
-     "step": 1.12
+     "step": 1.12,
+     "lyric_dy": 5.0
     },
     {
      "t": "미워",
@@ -354,10 +362,11 @@
      "dir": "v",
      "font": "ko",
      "x": 355.69,
-     "y": 530.31,
+     "y": 535.31,
      "size": 14,
      "size_pt": 14,
-     "step": 1.12
+     "step": 1.12,
+     "lyric_dy": 5.0
     },
     {
      "t": "곱",
@@ -374,10 +383,11 @@
      "dir": "v",
      "font": "ko",
      "x": 355.69,
-     "y": 624.44,
+     "y": 629.44,
      "size": 14,
      "size_pt": 14,
-     "step": 1.12
+     "step": 1.12,
+     "lyric_dy": 5.0
     },
     {
      "t": "높고",
@@ -414,20 +424,22 @@
      "dir": "v",
      "font": "ko",
      "x": 285.69,
-     "y": 247.94,
+     "y": 252.94,
      "size": 14,
      "size_pt": 14,
-     "step": 1.12
+     "step": 1.12,
+     "lyric_dy": 5.0
     },
     {
      "t": "나",
      "dir": "v",
      "font": "ko",
      "x": 285.69,
-     "y": 342.07,
+     "y": 347.07,
      "size": 14,
      "size_pt": 14,
-     "step": 1.12
+     "step": 1.12,
+     "lyric_dy": 5.0
     },
     {
      "t": "더러",
@@ -444,10 +456,11 @@
      "dir": "v",
      "font": "ko",
      "x": 285.69,
-     "y": 436.19,
+     "y": 441.19,
      "size": 14,
      "size_pt": 14,
-     "step": 1.12
+     "step": 1.12,
+     "lyric_dy": 5.0
     },
     {
      "t": "께",
@@ -464,10 +477,11 @@
      "dir": "v",
      "font": "ko",
      "x": 285.69,
-     "y": 522.47,
+     "y": 527.47,
      "size": 14,
      "size_pt": 14,
-     "step": 1.12
+     "step": 1.12,
+     "lyric_dy": 5.0
     },
     {
      "t": "하",
@@ -484,10 +498,11 @@
      "dir": "v",
      "font": "ko",
      "x": 285.69,
-     "y": 616.6,
+     "y": 621.6,
      "size": 14,
      "size_pt": 14,
-     "step": 1.12
+     "step": 1.12,
+     "lyric_dy": 5.0
     },
     {
      "t": "깊고",
@@ -504,10 +519,11 @@
      "dir": "v",
      "font": "ko",
      "x": 215.69,
-     "y": 145.97,
+     "y": 150.97,
      "size": 14,
      "size_pt": 14,
-     "step": 1.12
+     "step": 1.12,
+     "lyric_dy": 5.0
     },
     {
      "t": "바다",
@@ -524,10 +540,11 @@
      "dir": "v",
      "font": "ko",
      "x": 215.69,
-     "y": 247.94,
+     "y": 252.94,
      "size": 14,
      "size_pt": 14,
-     "step": 1.12
+     "step": 1.12,
+     "lyric_dy": 5.0
     },
     {
      "t": "살",
@@ -544,10 +561,11 @@
      "dir": "v",
      "font": "ko",
      "x": 215.69,
-     "y": 436.19,
+     "y": 441.19,
      "size": 14,
      "size_pt": 14,
-     "step": 1.12
+     "step": 1.12,
+     "lyric_dy": 5.0
     },
     {
      "t": "우",
@@ -564,20 +582,22 @@
      "dir": "v",
      "font": "ko",
      "x": 215.69,
-     "y": 624.44,
+     "y": 629.44,
      "size": 14,
      "size_pt": 14,
-     "step": 1.12
+     "step": 1.12,
+     "lyric_dy": 5.0
     },
     {
      "t": "제",
      "dir": "v",
      "font": "ko",
      "x": 215.69,
-     "y": 718.57,
+     "y": 723.57,
      "size": 14,
      "size_pt": 14,
-     "step": 1.12
+     "step": 1.12,
+     "lyric_dy": 5.0
     },
     {
      "t": "사랑",
@@ -594,10 +614,11 @@
      "dir": "v",
      "font": "ko",
      "x": 145.69,
-     "y": 59.69,
+     "y": 64.69,
      "size": 14,
      "size_pt": 14,
-     "step": 1.12
+     "step": 1.12,
+     "lyric_dy": 5.0
     },
     {
      "t": "초",
@@ -614,10 +635,11 @@
      "dir": "v",
      "font": "ko",
      "x": 145.69,
-     "y": 247.94,
+     "y": 252.94,
      "size": 14,
      "size_pt": 14,
-     "step": 1.12
+     "step": 1.12,
+     "lyric_dy": 5.0
     },
     {
      "t": "을",
@@ -634,10 +656,11 @@
      "dir": "v",
      "font": "ko",
      "x": 145.69,
-     "y": 334.23,
+     "y": 339.23,
      "size": 14,
      "size_pt": 14,
-     "step": 1.12
+     "step": 1.12,
+     "lyric_dy": 5.0
     },
     {
      "t": "흐",
@@ -654,10 +677,11 @@
      "dir": "v",
      "font": "ko",
      "x": 145.69,
-     "y": 436.19,
+     "y": 441.19,
      "size": 14,
      "size_pt": 14,
-     "step": 1.12
+     "step": 1.12,
+     "lyric_dy": 5.0
     },
     {
      "t": "리",
@@ -668,6 +692,468 @@
      "size": 14,
      "size_pt": 14,
      "step": 1.12
+    },
+    {
+     "t": "Gm",
+     "dir": "h",
+     "font": "ko",
+     "x": 565.69,
+     "y": 46.0,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "E♭M7",
+     "dir": "h",
+     "font": "ko",
+     "x": 565.69,
+     "y": 234.25,
+     "size": 7.75,
+     "size_pt": 7.75,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "F",
+     "dir": "h",
+     "font": "ko",
+     "x": 565.69,
+     "y": 422.5,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "Dsus4",
+     "dir": "h",
+     "font": "ko",
+     "x": 565.69,
+     "y": 610.75,
+     "size": 7.17,
+     "size_pt": 7.17,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "D",
+     "dir": "h",
+     "font": "ko",
+     "x": 565.69,
+     "y": 704.88,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "Cm7",
+     "dir": "h",
+     "font": "ko",
+     "x": 495.69,
+     "y": 46.0,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "Gm",
+     "dir": "h",
+     "font": "ko",
+     "x": 495.69,
+     "y": 234.25,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "Cm",
+     "dir": "h",
+     "font": "ko",
+     "x": 495.69,
+     "y": 422.5,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "F",
+     "dir": "h",
+     "font": "ko",
+     "x": 495.69,
+     "y": 516.62,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "D",
+     "dir": "h",
+     "font": "ko",
+     "x": 495.69,
+     "y": 610.75,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "D7",
+     "dir": "h",
+     "font": "ko",
+     "x": 495.69,
+     "y": 704.88,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "Gm",
+     "dir": "h",
+     "font": "ko",
+     "x": 425.69,
+     "y": 46.0,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "E♭M7",
+     "dir": "h",
+     "font": "ko",
+     "x": 425.69,
+     "y": 234.25,
+     "size": 7.75,
+     "size_pt": 7.75,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "F",
+     "dir": "h",
+     "font": "ko",
+     "x": 425.69,
+     "y": 422.5,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "Dsus4",
+     "dir": "h",
+     "font": "ko",
+     "x": 425.69,
+     "y": 610.75,
+     "size": 7.17,
+     "size_pt": 7.17,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "D",
+     "dir": "h",
+     "font": "ko",
+     "x": 425.69,
+     "y": 704.88,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "Cm7",
+     "dir": "h",
+     "font": "ko",
+     "x": 355.69,
+     "y": 46.0,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "Gm",
+     "dir": "h",
+     "font": "ko",
+     "x": 355.69,
+     "y": 234.25,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "Cm",
+     "dir": "h",
+     "font": "ko",
+     "x": 355.69,
+     "y": 422.5,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "F",
+     "dir": "h",
+     "font": "ko",
+     "x": 355.69,
+     "y": 516.62,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "D",
+     "dir": "h",
+     "font": "ko",
+     "x": 355.69,
+     "y": 610.75,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "D7",
+     "dir": "h",
+     "font": "ko",
+     "x": 355.69,
+     "y": 704.88,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "Gm",
+     "dir": "h",
+     "font": "ko",
+     "x": 285.69,
+     "y": 46.0,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "F",
+     "dir": "h",
+     "font": "ko",
+     "x": 285.69,
+     "y": 234.25,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "Gm",
+     "dir": "h",
+     "font": "ko",
+     "x": 285.69,
+     "y": 328.38,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "Cm",
+     "dir": "h",
+     "font": "ko",
+     "x": 285.69,
+     "y": 422.5,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "F",
+     "dir": "h",
+     "font": "ko",
+     "x": 285.69,
+     "y": 516.62,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "D",
+     "dir": "h",
+     "font": "ko",
+     "x": 285.69,
+     "y": 610.75,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "D7",
+     "dir": "h",
+     "font": "ko",
+     "x": 285.69,
+     "y": 704.88,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "Gm",
+     "dir": "h",
+     "font": "ko",
+     "x": 215.69,
+     "y": 46.0,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "F",
+     "dir": "h",
+     "font": "ko",
+     "x": 215.69,
+     "y": 140.12,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "Dm",
+     "dir": "h",
+     "font": "ko",
+     "x": 215.69,
+     "y": 234.25,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "E♭M7",
+     "dir": "h",
+     "font": "ko",
+     "x": 215.69,
+     "y": 422.5,
+     "size": 7.75,
+     "size_pt": 7.75,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "Cm",
+     "dir": "h",
+     "font": "ko",
+     "x": 215.69,
+     "y": 516.62,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "Gm",
+     "dir": "h",
+     "font": "ko",
+     "x": 215.69,
+     "y": 610.75,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "F",
+     "dir": "h",
+     "font": "ko",
+     "x": 215.69,
+     "y": 704.88,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "B♭",
+     "dir": "h",
+     "font": "ko",
+     "x": 145.69,
+     "y": 46.0,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "Gm",
+     "dir": "h",
+     "font": "ko",
+     "x": 145.69,
+     "y": 234.25,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "F",
+     "dir": "h",
+     "font": "ko",
+     "x": 145.69,
+     "y": 328.38,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "Cm",
+     "dir": "h",
+     "font": "ko",
+     "x": 145.69,
+     "y": 422.5,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "Dsus4",
+     "dir": "h",
+     "font": "ko",
+     "x": 145.69,
+     "y": 516.62,
+     "size": 7.17,
+     "size_pt": 7.17,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "Gm",
+     "dir": "h",
+     "font": "ko",
+     "x": 145.69,
+     "y": 610.75,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
     }
    ],
    "blocks": [
