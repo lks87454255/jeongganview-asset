@@ -1,14 +1,14 @@
 {
  "version": 1,
  "pdf": "book/AI 음원/회룡포-단소-Bbm.pdf",
- "note": "음원: 회룡포_Bbm_원본.m4a — 받은 노래방 영상(회룡포.mp4, WOMAN B♭m ♩=75)의 소리 그대로(AAC 복사). 3/4박, 한 마디 2.4초(영상 악보 진행선을 0.2초마다 따라가 잼, 음원 박 격자로 −0.07초 보정). 전주 1~13마디 동안 1열 1행에서 기다림 → 1절 1~10열(14~53마디, 26.74~122.74초) → 간주(54~61마디) 동안 5열 1행에서 기다림 → 2절 5~10열(62~85마디, 141.94~199.54초) → 후주. 마디마다 앵커. scripts/make_hoeryongpo.py --sync (사용자 지시 2026-11-23)",
+ "note": "음원: 회룡포_Bbm_원본.m4a — 받은 노래방 영상(회룡포.mp4, WOMAN B♭m ♩=75)의 소리 그대로(AAC 복사). 3/4박, 한 마디 2.4초(영상 악보 진행선을 0.2초마다 따라가 잼, 음원 박 격자로 −0.07초 보정). 전주 1~13마디 동안 1열 1행에서 기다림 → 1절 1~10열(14~53마디, 26.74~122.74초) → 간주(54~61마디) 동안 5열 1행에서 기다림 → 2절 5~10열(62~85마디, 141.94~199.54초) → 후주. 마디마다 앵커. scripts/make_hoeryongpo.py --sync (사용자 지시 2026-11-23) 2026-11-23: 소리 크기 맞춤(사용자 지시 — 모든 AI 음원 −14 LUFS) 회룡포_Bbm_원본.m4a -5.4 LUFS → 회룡포_Bbm_v1.m4a -14.0 LUFS(이득 -8.6 dB, 리미터 0.0 dB, 시각 어긋남 0, scripts/normalize_sync_audio.py).",
  "tracks": [
   {
-   "clipid": "asset:sync-audio/회룡포_Bbm_원본.m4a",
+   "clipid": "asset:sync-audio/회룡포_Bbm_v1.m4a",
    "title": "회룡포 MR (B♭m)",
-   "url": "https://d2gw5tky9d13ec.cloudfront.net/jeongganview-assets/sync-audio/%ED%9A%8C%EB%A3%A1%ED%8F%AC_Bbm_%EC%9B%90%EB%B3%B8.m4a",
-   "bytes": 2636858,
-   "durationMs": 216750,
+   "url": "https://d2gw5tky9d13ec.cloudfront.net/jeongganview-assets/sync-audio/%ED%9A%8C%EB%A3%A1%ED%8F%AC_Bbm_v1.m4a",
+   "bytes": 5995375,
+   "durationMs": 216746,
    "from": {
     "page": 1,
     "grid": 1,

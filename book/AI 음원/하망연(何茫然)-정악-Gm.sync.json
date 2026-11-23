@@ -1,13 +1,13 @@
 {
  "version": 1,
  "pdf": "book/AI 음원/하망연(何茫然)-정악-Gm.pdf",
- "note": "반주 음원: 오선보에서 옮긴 정간보(digital/하망연(何茫然)-정악-Gm.json) 선율에 반 마디마다 손으로 정한 화음으로 새로 만든 피아노 반주 + 현악(둘째 1절부터, 후렴 '살아 우닐 제' 정점) + 해금 선율(작게). 대금 선율 없음. scripts/arrange_hamangyeon.py, 사용자 지시 2026-11-23. 黃 = E♭4 G단조, 4/4, ♩=66(0.909초). 전주 2마디(Gm → D7, 들어오기 신호 피아노 D · E♭ · F♯) 뒤 1열 1행 = 7.27초, 마디마다 앵커, 끝 = 1쪽 7열 16행. 연주 순서: 1절 두 번(1~4열) → 후렴(5~7열). 이름 규칙: 곡명_조_v버전.m4a.",
+ "note": "반주 음원: 오선보에서 옮긴 정간보(digital/하망연(何茫然)-정악-Gm.json) 선율에 반 마디마다 손으로 정한 화음으로 새로 만든 피아노 반주 + 현악(둘째 1절부터, 후렴 '살아 우닐 제' 정점) + 해금 선율(작게). 대금 선율 없음. scripts/arrange_hamangyeon.py, 사용자 지시 2026-11-23. 黃 = E♭4 G단조, 4/4, ♩=66(0.909초). 전주 2마디(Gm → D7, 들어오기 신호 피아노 D · E♭ · F♯) 뒤 1열 1행 = 7.27초, 마디마다 앵커, 끝 = 1쪽 7열 16행. 연주 순서: 1절 두 번(1~4열) → 후렴(5~7열). 이름 규칙: 곡명_조_v버전.m4a. 2026-11-23: 소리 크기 맞춤(사용자 지시 — 모든 AI 음원 −14 LUFS) 하망연_Gm_v2.m4a -18.3 LUFS → 하망연_Gm_v3.m4a -14.0 LUFS(이득 +4.5 dB, 리미터 3.6 dB, 시각 어긋남 0, scripts/normalize_sync_audio.py).",
  "tracks": [
   {
-   "clipid": "asset:sync-audio/하망연_Gm_v2.m4a",
+   "clipid": "asset:sync-audio/하망연_Gm_v3.m4a",
    "title": "하망연 피아노·현악 반주 + 해금 선율 (Gm)",
-   "url": "https://d2gw5tky9d13ec.cloudfront.net/jeongganview-assets/sync-audio/%ED%95%98%EB%A7%9D%EC%97%B0_Gm_v2.m4a",
-   "bytes": 2885535,
+   "url": "https://d2gw5tky9d13ec.cloudfront.net/jeongganview-assets/sync-audio/%ED%95%98%EB%A7%9D%EC%97%B0_Gm_v3.m4a",
+   "bytes": 3503727,
    "durationMs": 118091,
    "from": {
     "page": 1,
