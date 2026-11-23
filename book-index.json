@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-11-23T02:31:15Z",
+  "generated": "2026-11-23T02:43:24Z",
   "owner": "lks87454255",
   "repo": "jeongganview-asset",
   "branch": "main",
@@ -134,7 +134,7 @@
             }
           ],
           "hasSync": true,
-          "syncDurationSec": 270
+          "syncDurationSec": 300
         },
         {
           "name": "천년학-정악-Dm",
@@ -230,7 +230,7 @@
             }
           ],
           "hasSync": true,
-          "syncDurationSec": 234
+          "syncDurationSec": 235
         },
         {
           "name": "하망연(何茫然)-정악-Gm",
