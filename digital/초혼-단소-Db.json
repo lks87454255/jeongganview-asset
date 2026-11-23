@@ -4,7 +4,7 @@
  "source_pdf": "digital/민요-빈쪽.pdf",
  "fonts": "noto",
  "uniform_pt": 23.53,
- "note": "원본: 초혼(장윤정) 단소 정간보(네이버카페 백국악연구소, 채보 윤규태, 1쪽 8열). 원본 이미지를 칸마다 판독. 배치(사용자 지시 2026-11-21): 1열 16행 = 못갖춘마디 '살아', 원본 열을 한 열씩 왼쪽으로, 원본 7열 4번째 마디(2회 끝)를 원본 6열 4번째 마디(1회 끝) 자리에 넣음. 1열 1~15행 = 전주(빈 정간). 음 높이: 원본 율명 그대로(D♭). B♭ 판(초혼-산조-Bb)과 같은 곡(사용자 지시 2026-11-21). scripts/make_chohon.py --data --key Db --inst 단소 로 만듦. 글꼴: 앱 Noto Serif. 정간보 연주 'AI 음원' 분류.",
+ "note": "원본: 초혼(장윤정) 단소 정간보(네이버카페 백국악연구소, 채보 윤규태, 1쪽 8열). 원본 이미지를 칸마다 판독. 배치(사용자 지시 2026-11-21): 1열 16행 = 못갖춘마디 '살아', 원본 열을 한 열씩 왼쪽으로, 원본 7열 4번째 마디(2회 끝)를 원본 6열 4번째 마디(1회 끝) 자리에 넣음. 1열 1~15행 = 전주(빈 정간). 음 높이: 원본 율명 그대로(D♭). B♭ 판(초혼-산조-Bb)과 같은 곡(사용자 지시 2026-11-21). scripts/make_chohon.py --data --key Db --inst 단소 로 만듦. 글꼴: 앱 Noto Serif. 정간보 연주 'AI 음원' 분류. 가사열 위쪽에 반주 화음 이름(MR 받아쓴 음으로 반 마디마다, scripts/chohon_chords.py).",
  "songs": [
   {
    "title": "초혼",
@@ -94,10 +94,11 @@
      "dir": "v",
      "font": "ko",
      "x": 495.69,
-     "y": 59.69,
+     "y": 64.69,
      "size": 14,
      "size_pt": 14,
-     "step": 1.12
+     "step": 1.12,
+     "lyric_dy": 5.0
     },
     {
      "t": "는",
@@ -134,10 +135,11 @@
      "dir": "v",
      "font": "ko",
      "x": 495.69,
-     "y": 240.1,
+     "y": 245.1,
      "size": 14,
      "size_pt": 14,
-     "step": 1.12
+     "step": 1.12,
+     "lyric_dy": 5.0
     },
     {
      "t": "그런",
@@ -154,10 +156,11 @@
      "dir": "v",
      "font": "ko",
      "x": 495.69,
-     "y": 436.19,
+     "y": 441.19,
      "size": 14,
      "size_pt": 14,
-     "step": 1.12
+     "step": 1.12,
+     "lyric_dy": 5.0
     },
     {
      "t": "름",
@@ -174,10 +177,11 @@
      "dir": "v",
      "font": "ko",
      "x": 495.69,
-     "y": 522.47,
+     "y": 527.47,
      "size": 14,
      "size_pt": 14,
-     "step": 1.12
+     "step": 1.12,
+     "lyric_dy": 5.0
     },
     {
      "t": "때문",
@@ -194,10 +198,11 @@
      "dir": "v",
      "font": "ko",
      "x": 495.69,
-     "y": 624.44,
+     "y": 629.44,
      "size": 14,
      "size_pt": 14,
-     "step": 1.12
+     "step": 1.12,
+     "lyric_dy": 5.0
     },
     {
      "t": "그리움",
@@ -214,10 +219,11 @@
      "dir": "v",
      "font": "ko",
      "x": 425.69,
-     "y": 59.69,
+     "y": 64.69,
      "size": 14,
      "size_pt": 14,
-     "step": 1.12
+     "step": 1.12,
+     "lyric_dy": 5.0
     },
     {
      "t": "눈",
@@ -244,10 +250,11 @@
      "dir": "v",
      "font": "ko",
      "x": 425.69,
-     "y": 247.94,
+     "y": 252.94,
      "size": 14,
      "size_pt": 14,
-     "step": 1.12
+     "step": 1.12,
+     "lyric_dy": 5.0
     },
     {
      "t": "난",
@@ -264,10 +271,11 @@
      "dir": "v",
      "font": "ko",
      "x": 425.69,
-     "y": 436.19,
+     "y": 441.19,
      "size": 14,
      "size_pt": 14,
-     "step": 1.12
+     "step": 1.12,
+     "lyric_dy": 5.0
     },
     {
      "t": "워",
@@ -284,10 +292,11 @@
      "dir": "v",
      "font": "ko",
      "x": 425.69,
-     "y": 522.47,
+     "y": 527.47,
      "size": 14,
      "size_pt": 14,
-     "step": 1.12
+     "step": 1.12,
+     "lyric_dy": 5.0
     },
     {
      "t": "뿐이",
@@ -304,20 +313,22 @@
      "dir": "v",
      "font": "ko",
      "x": 425.69,
-     "y": 624.44,
+     "y": 629.44,
      "size": 14,
      "size_pt": 14,
-     "step": 1.12
+     "step": 1.12,
+     "lyric_dy": 5.0
     },
     {
      "t": "스",
      "dir": "v",
      "font": "ko",
      "x": 355.69,
-     "y": 59.69,
+     "y": 64.69,
      "size": 14,
      "size_pt": 14,
-     "step": 1.12
+     "step": 1.12,
+     "lyric_dy": 5.0
     },
     {
      "t": "치듯",
@@ -354,10 +365,11 @@
      "dir": "v",
      "font": "ko",
      "x": 355.69,
-     "y": 247.94,
+     "y": 252.94,
      "size": 14,
      "size_pt": 14,
-     "step": 1.12
+     "step": 1.12,
+     "lyric_dy": 5.0
     },
     {
      "t": "어",
@@ -374,10 +386,11 @@
      "dir": "v",
      "font": "ko",
      "x": 355.69,
-     "y": 436.19,
+     "y": 441.19,
      "size": 14,
      "size_pt": 14,
-     "step": 1.12
+     "step": 1.12,
+     "lyric_dy": 5.0
     },
     {
      "t": "다",
@@ -394,10 +407,11 @@
      "dir": "v",
      "font": "ko",
      "x": 355.69,
-     "y": 522.47,
+     "y": 527.47,
      "size": 14,
      "size_pt": 14,
-     "step": 1.12
+     "step": 1.12,
+     "lyric_dy": 5.0
     },
     {
      "t": "들어",
@@ -414,10 +428,11 @@
      "dir": "v",
      "font": "ko",
      "x": 355.69,
-     "y": 624.44,
+     "y": 629.44,
      "size": 14,
      "size_pt": 14,
-     "step": 1.12
+     "step": 1.12,
+     "lyric_dy": 5.0
     },
     {
      "t": "장미",
@@ -434,10 +449,11 @@
      "dir": "v",
      "font": "ko",
      "x": 285.69,
-     "y": 59.69,
+     "y": 64.69,
      "size": 14,
      "size_pt": 14,
-     "step": 1.12
+     "step": 1.12,
+     "lyric_dy": 5.0
     },
     {
      "t": "가",
@@ -464,10 +480,11 @@
      "dir": "v",
      "font": "ko",
      "x": 285.69,
-     "y": 234.13,
+     "y": 239.13,
      "size": 12.89,
      "size_pt": 12.89,
-     "step": 1.12
+     "step": 1.12,
+     "lyric_dy": 5.0
     },
     {
      "t": "날",
@@ -484,10 +501,11 @@
      "dir": "v",
      "font": "ko",
      "x": 285.69,
-     "y": 436.19,
+     "y": 441.19,
      "size": 14,
      "size_pt": 14,
-     "step": 1.12
+     "step": 1.12,
+     "lyric_dy": 5.0
     },
     {
      "t": "프게",
@@ -504,10 +522,11 @@
      "dir": "v",
      "font": "ko",
      "x": 285.69,
-     "y": 522.47,
+     "y": 527.47,
      "size": 14,
      "size_pt": 14,
-     "step": 1.12
+     "step": 1.12,
+     "lyric_dy": 5.0
     },
     {
      "t": "보네",
@@ -524,10 +543,11 @@
      "dir": "v",
      "font": "ko",
      "x": 285.69,
-     "y": 624.44,
+     "y": 629.44,
      "size": 14,
      "size_pt": 14,
-     "step": 1.12
+     "step": 1.12,
+     "lyric_dy": 5.0
     },
     {
      "t": "따라",
@@ -544,10 +564,11 @@
      "dir": "v",
      "font": "ko",
      "x": 215.69,
-     "y": 59.69,
+     "y": 64.69,
      "size": 14,
      "size_pt": 14,
-     "step": 1.12
+     "step": 1.12,
+     "lyric_dy": 5.0
     },
     {
      "t": "면",
@@ -584,10 +605,11 @@
      "dir": "v",
      "font": "ko",
      "x": 215.69,
-     "y": 240.1,
+     "y": 245.1,
      "size": 14,
      "size_pt": 14,
-     "step": 1.12
+     "step": 1.12,
+     "lyric_dy": 5.0
     },
     {
      "t": "멀",
@@ -604,10 +626,11 @@
      "dir": "v",
      "font": "ko",
      "x": 215.69,
-     "y": 436.19,
+     "y": 441.19,
      "size": 14,
      "size_pt": 14,
-     "step": 1.12
+     "step": 1.12,
+     "lyric_dy": 5.0
     },
     {
      "t": "먼",
@@ -624,10 +647,11 @@
      "dir": "v",
      "font": "ko",
      "x": 215.69,
-     "y": 522.47,
+     "y": 527.47,
      "size": 14,
      "size_pt": 14,
-     "step": 1.12
+     "step": 1.12,
+     "lyric_dy": 5.0
     },
     {
      "t": "끝까",
@@ -644,10 +668,11 @@
      "dir": "v",
      "font": "ko",
      "x": 215.69,
-     "y": 624.44,
+     "y": 629.44,
      "size": 14,
      "size_pt": 14,
-     "step": 1.12
+     "step": 1.12,
+     "lyric_dy": 5.0
     },
     {
      "t": "그대라",
@@ -664,10 +689,11 @@
      "dir": "v",
      "font": "ko",
      "x": 145.69,
-     "y": 59.69,
+     "y": 64.69,
      "size": 14,
      "size_pt": 14,
-     "step": 1.12
+     "step": 1.12,
+     "lyric_dy": 5.0
     },
     {
      "t": "어",
@@ -694,10 +720,11 @@
      "dir": "v",
      "font": "ko",
      "x": 145.69,
-     "y": 247.94,
+     "y": 252.94,
      "size": 14,
      "size_pt": 14,
-     "step": 1.12
+     "step": 1.12,
+     "lyric_dy": 5.0
     },
     {
      "t": "난",
@@ -714,10 +741,11 @@
      "dir": "v",
      "font": "ko",
      "x": 145.69,
-     "y": 436.19,
+     "y": 441.19,
      "size": 14,
      "size_pt": 14,
-     "step": 1.12
+     "step": 1.12,
+     "lyric_dy": 5.0
     },
     {
      "t": "저",
@@ -734,10 +762,11 @@
      "dir": "v",
      "font": "ko",
      "x": 145.69,
-     "y": 522.47,
+     "y": 527.47,
      "size": 14,
      "size_pt": 14,
-     "step": 1.12
+     "step": 1.12,
+     "lyric_dy": 5.0
     },
     {
      "t": "할테",
@@ -754,10 +783,11 @@
      "dir": "v",
      "font": "ko",
      "x": 145.69,
-     "y": 624.44,
+     "y": 629.44,
      "size": 14,
      "size_pt": 14,
-     "step": 1.12
+     "step": 1.12,
+     "lyric_dy": 5.0
     },
     {
      "t": "난",
@@ -774,10 +804,11 @@
      "dir": "v",
      "font": "ko",
      "x": 75.69,
-     "y": 59.69,
+     "y": 64.69,
      "size": 14,
      "size_pt": 14,
-     "step": 1.12
+     "step": 1.12,
+     "lyric_dy": 5.0
     },
     {
      "t": "무",
@@ -794,10 +825,11 @@
      "dir": "v",
      "font": "ko",
      "x": 75.69,
-     "y": 145.97,
+     "y": 150.97,
      "size": 14,
      "size_pt": 14,
-     "step": 1.12
+     "step": 1.12,
+     "lyric_dy": 5.0
     },
     {
      "t": "할테",
@@ -814,10 +846,418 @@
      "dir": "v",
      "font": "ko",
      "x": 75.69,
-     "y": 247.94,
+     "y": 252.94,
      "size": 14,
      "size_pt": 14,
-     "step": 1.12
+     "step": 1.12,
+     "lyric_dy": 5.0
+    },
+    {
+     "t": "G♭M7",
+     "dir": "h",
+     "font": "ko",
+     "x": 495.69,
+     "y": 46.0,
+     "size": 7.75,
+     "size_pt": 7.75,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "D♭",
+     "dir": "h",
+     "font": "ko",
+     "x": 495.69,
+     "y": 234.25,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "D♭M7",
+     "dir": "h",
+     "font": "ko",
+     "x": 495.69,
+     "y": 328.38,
+     "size": 7.75,
+     "size_pt": 7.75,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "G♭M7",
+     "dir": "h",
+     "font": "ko",
+     "x": 495.69,
+     "y": 422.5,
+     "size": 7.75,
+     "size_pt": 7.75,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "B♭m7",
+     "dir": "h",
+     "font": "ko",
+     "x": 495.69,
+     "y": 516.62,
+     "size": 7.75,
+     "size_pt": 7.75,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "A♭",
+     "dir": "h",
+     "font": "ko",
+     "x": 495.69,
+     "y": 610.75,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "B♭m",
+     "dir": "h",
+     "font": "ko",
+     "x": 425.69,
+     "y": 46.0,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "D♭",
+     "dir": "h",
+     "font": "ko",
+     "x": 425.69,
+     "y": 234.25,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "D♭M7",
+     "dir": "h",
+     "font": "ko",
+     "x": 425.69,
+     "y": 328.38,
+     "size": 7.75,
+     "size_pt": 7.75,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "G♭",
+     "dir": "h",
+     "font": "ko",
+     "x": 425.69,
+     "y": 422.5,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "A♭",
+     "dir": "h",
+     "font": "ko",
+     "x": 425.69,
+     "y": 516.62,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "D♭",
+     "dir": "h",
+     "font": "ko",
+     "x": 425.69,
+     "y": 610.75,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "D♭",
+     "dir": "h",
+     "font": "ko",
+     "x": 355.69,
+     "y": 46.0,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "B♭m",
+     "dir": "h",
+     "font": "ko",
+     "x": 355.69,
+     "y": 234.25,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "B♭m7",
+     "dir": "h",
+     "font": "ko",
+     "x": 355.69,
+     "y": 328.38,
+     "size": 7.75,
+     "size_pt": 7.75,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "G♭",
+     "dir": "h",
+     "font": "ko",
+     "x": 355.69,
+     "y": 422.5,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "E♭m7",
+     "dir": "h",
+     "font": "ko",
+     "x": 355.69,
+     "y": 516.62,
+     "size": 7.75,
+     "size_pt": 7.75,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "Fm",
+     "dir": "h",
+     "font": "ko",
+     "x": 355.69,
+     "y": 610.75,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "B♭m7",
+     "dir": "h",
+     "font": "ko",
+     "x": 285.69,
+     "y": 46.0,
+     "size": 7.75,
+     "size_pt": 7.75,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "D♭",
+     "dir": "h",
+     "font": "ko",
+     "x": 285.69,
+     "y": 234.25,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "G♭",
+     "dir": "h",
+     "font": "ko",
+     "x": 285.69,
+     "y": 422.5,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "A♭",
+     "dir": "h",
+     "font": "ko",
+     "x": 285.69,
+     "y": 516.62,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "D♭",
+     "dir": "h",
+     "font": "ko",
+     "x": 285.69,
+     "y": 610.75,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "G♭M7",
+     "dir": "h",
+     "font": "ko",
+     "x": 215.69,
+     "y": 46.0,
+     "size": 7.75,
+     "size_pt": 7.75,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "D♭",
+     "dir": "h",
+     "font": "ko",
+     "x": 215.69,
+     "y": 234.25,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "G♭",
+     "dir": "h",
+     "font": "ko",
+     "x": 215.69,
+     "y": 422.5,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "B♭m7",
+     "dir": "h",
+     "font": "ko",
+     "x": 215.69,
+     "y": 516.62,
+     "size": 7.75,
+     "size_pt": 7.75,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "A♭",
+     "dir": "h",
+     "font": "ko",
+     "x": 215.69,
+     "y": 610.75,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "B♭m",
+     "dir": "h",
+     "font": "ko",
+     "x": 145.69,
+     "y": 46.0,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "D♭",
+     "dir": "h",
+     "font": "ko",
+     "x": 145.69,
+     "y": 234.25,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "D♭M7",
+     "dir": "h",
+     "font": "ko",
+     "x": 145.69,
+     "y": 328.38,
+     "size": 7.75,
+     "size_pt": 7.75,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "G♭",
+     "dir": "h",
+     "font": "ko",
+     "x": 145.69,
+     "y": 422.5,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "A♭",
+     "dir": "h",
+     "font": "ko",
+     "x": 145.69,
+     "y": 516.62,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "D♭",
+     "dir": "h",
+     "font": "ko",
+     "x": 145.69,
+     "y": 610.75,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "G♭",
+     "dir": "h",
+     "font": "ko",
+     "x": 75.69,
+     "y": 46.0,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "A♭7",
+     "dir": "h",
+     "font": "ko",
+     "x": 75.69,
+     "y": 140.12,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "D♭",
+     "dir": "h",
+     "font": "ko",
+     "x": 75.69,
+     "y": 234.25,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
     }
    ],
    "blocks": [

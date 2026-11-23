@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-11-23T02:07:43Z",
+  "generated": "2026-11-23T02:10:28Z",
   "owner": "lks87454255",
   "repo": "jeongganview-asset",
   "branch": "main",
@@ -173,7 +173,7 @@
           "fileName": "초혼-단소-Db.pdf",
           "path": "book/AI 음원/초혼-단소-Db.pdf",
           "url": "https://d2gw5tky9d13ec.cloudfront.net/jeongganview-assets/book/AI%20%EC%9D%8C%EC%9B%90/%EC%B4%88%ED%98%BC-%EB%8B%A8%EC%86%8C-Db.pdf",
-          "sizeBytes": 113273,
+          "sizeBytes": 134789,
           "pageCount": 1,
           "songs": [
             {
@@ -189,7 +189,7 @@
           "fileName": "초혼-산조-Bb.pdf",
           "path": "book/AI 음원/초혼-산조-Bb.pdf",
           "url": "https://d2gw5tky9d13ec.cloudfront.net/jeongganview-assets/book/AI%20%EC%9D%8C%EC%9B%90/%EC%B4%88%ED%98%BC-%EC%82%B0%EC%A1%B0-Bb.pdf",
-          "sizeBytes": 113776,
+          "sizeBytes": 132745,
           "pageCount": 1,
           "songs": [
             {
@@ -205,7 +205,7 @@
           "fileName": "초혼-정악-Db.pdf",
           "path": "book/AI 음원/초혼-정악-Db.pdf",
           "url": "https://d2gw5tky9d13ec.cloudfront.net/jeongganview-assets/book/AI%20%EC%9D%8C%EC%9B%90/%EC%B4%88%ED%98%BC-%EC%A0%95%EC%95%85-Db.pdf",
-          "sizeBytes": 113870,
+          "sizeBytes": 135381,
           "pageCount": 1,
           "songs": [
             {
