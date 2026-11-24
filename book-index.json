@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-11-23T09:00:50Z",
+  "generated": "2026-11-24T12:31:41Z",
   "owner": "lks87454255",
   "repo": "jeongganview-asset",
   "branch": "main",
@@ -8,6 +8,22 @@
     {
       "name": "AI 음원",
       "files": [
+        {
+          "name": "강-정악-Abm",
+          "fileName": "강-정악-Abm.pdf",
+          "path": "book/AI 음원/강-정악-Abm.pdf",
+          "url": "https://d2gw5tky9d13ec.cloudfront.net/jeongganview-assets/book/AI%20%EC%9D%8C%EC%9B%90/%EA%B0%95-%EC%A0%95%EC%95%85-Abm.pdf",
+          "sizeBytes": 93908,
+          "pageCount": 2,
+          "songs": [
+            {
+              "title": "강",
+              "page": 1
+            }
+          ],
+          "hasSync": true,
+          "syncDurationSec": 207
+        },
         {
           "name": "그 저녁 무렵부터 새벽이 오기까지-정악-Bbm",
           "fileName": "그 저녁 무렵부터 새벽이 오기까지-정악-Bbm.pdf",
@@ -3311,6 +3327,6 @@
   "adminCategories": [],
   "_total": {
     "categories": 6,
-    "files": 221
+    "files": 222
   }
 }
