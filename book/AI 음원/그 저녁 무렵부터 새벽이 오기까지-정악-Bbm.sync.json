@@ -18,7 +18,7 @@
    "to": {
     "page": 1,
     "grid": 1,
-    "col": 1,
+    "col": 8,
     "row": 12
    },
    "anchors": [
@@ -450,7 +450,12 @@
      "row": 12
     }
    ],
-   "pauses": [],
+   "pauses": [
+    [
+     0,
+     6000
+    ]
+   ],
    "anchorSource": "arranged"
   }
  ]

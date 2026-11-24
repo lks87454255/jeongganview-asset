@@ -436,7 +436,12 @@
      "row": 3
     }
    ],
-   "pauses": [],
+   "pauses": [
+    [
+     0,
+     4000
+    ]
+   ],
    "anchorSource": "arranged"
   }
  ]

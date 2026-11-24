@@ -289,7 +289,12 @@
      "row": 16.0
     }
    ],
-   "pauses": [],
+   "pauses": [
+    [
+     0,
+     12000
+    ]
+   ],
    "anchorSource": "arranged"
   }
  ]
