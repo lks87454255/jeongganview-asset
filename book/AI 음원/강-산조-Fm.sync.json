@@ -1,14 +1,14 @@
 {
  "version": 1,
- "pdf": "book/AI 음원/강-정악-Abm.pdf",
- "note": "음원: 강_Abm_원본.mp3 — 사용자가 준 원본 녹음 그대로(강, 작곡·대금연주 조재수, 다시 인코딩 안 함). 반주 반박 추적(0.488초)으로 마디마다 앵커, 1마디 = 0.511초. 0초 ~ 1마디 앞은 첫 칸에서 기다림. scripts/make_gang.py --sync",
+ "pdf": "book/AI 음원/강-산조-Fm.pdf",
+ "note": "음원: 강_Fm_v1.m4a — 사용자가 준 원본 녹음(강, 작곡·대금연주 조재수)을 세 반음 내려 F m(빠르기·길이 그대로, 시각 +5ms), −14 LUFS. 반주 반박 추적(0.488초)으로 마디마다 앵커, 1마디 = 0.511초. 0초 ~ 1마디 앞은 첫 칸에서 기다림. scripts/make_gang.py --sync",
  "tracks": [
   {
-   "clipid": "asset:sync-audio/강_Abm_원본.mp3",
-   "title": "강 (A♭m, 작곡·대금연주 조재수)",
-   "url": "https://d2gw5tky9d13ec.cloudfront.net/jeongganview-assets/sync-audio/%EA%B0%95_Abm_%EC%9B%90%EB%B3%B8.mp3",
-   "bytes": 3245612,
-   "durationMs": 207189,
+   "clipid": "asset:sync-audio/강_Fm_v1.m4a",
+   "title": "강 (Fm, 작곡·대금연주 조재수)",
+   "url": "https://d2gw5tky9d13ec.cloudfront.net/jeongganview-assets/sync-audio/%EA%B0%95_Fm_v1.m4a",
+   "bytes": 6646786,
+   "durationMs": 207056,
    "from": {
     "page": 1,
     "grid": 1,
