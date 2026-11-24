@@ -4,7 +4,7 @@
  "source_pdf": "digital/민요-빈쪽.pdf",
  "fonts": "noto",
  "uniform_pt": 23.53,
- "note": "강(작곡·대금연주 조재수). 사용자가 준 녹음에서 대금 선율을 받아씀(scripts/make_gang.py, 2026-11-24): demucs 로 대금(vocals 쪽)을 나누고 pYIN 음높이를 반박마다 중앙값으로, 반주 박 추적(♩≈61.5)으로 정간에 맞춤. 녹음은 A♭단조(+13센트) — 산조대금 F m 로 세 반음 내려 적음(첫 음 太·끝 음 汰, 음원도 같이 내림). 1정간 = 1박, 두 줄 = 반박, 1열 = 4마디, 黃 = E♭4. 녹음 전체 51마디, 대금 소리는 모두 율명(높은 음은 demucs other 쪽에서). 시김새 없음(초안).",
+ "note": "강(작곡·대금연주 조재수). 사용자가 준 녹음에서 대금 선율을 받아씀(scripts/make_gang.py, 2026-11-24): demucs 로 대금(vocals 쪽)을 나누고 pYIN 음높이를 반박마다 중앙값으로, 반주 박 추적(♩≈61.5)으로 정간에 맞춤. 녹음은 A♭단조(+13센트) — 산조대금 F m 로 세 반음 내려 적음(첫 음 太·끝 음 汰, 음원도 같이 내림). 1정간 = 1박, 두 줄 = 반박, 1열 = 4마디, 黃 = E♭4. 녹음 전체 51마디, 대금 소리는 모두 율명(높은 음은 demucs other 쪽에서). 시김새 없음(초안). 코드 진행 28곳(원본 반주 화음을 세 반음 내림, scripts/chord_track.py).",
  "songs": [
   {
    "title": "강",
@@ -78,6 +78,193 @@
      "align": "right",
      "header_of": 1,
      "dy_pt": 27.0
+    },
+    {
+     "t": "Fm",
+     "dir": "h",
+     "font": "ko",
+     "x": 565.69,
+     "y": 46.0,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "Cm",
+     "dir": "h",
+     "font": "ko",
+     "x": 495.69,
+     "y": 610.75,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "Fm",
+     "dir": "h",
+     "font": "ko",
+     "x": 425.69,
+     "y": 46.0,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "B♭m",
+     "dir": "h",
+     "font": "ko",
+     "x": 355.69,
+     "y": 46.0,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "Cm",
+     "dir": "h",
+     "font": "ko",
+     "x": 355.69,
+     "y": 234.25,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "B♭m",
+     "dir": "h",
+     "font": "ko",
+     "x": 355.69,
+     "y": 422.5,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "Cm",
+     "dir": "h",
+     "font": "ko",
+     "x": 355.69,
+     "y": 610.75,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "Fm",
+     "dir": "h",
+     "font": "ko",
+     "x": 285.69,
+     "y": 46.0,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "Cm",
+     "dir": "h",
+     "font": "ko",
+     "x": 285.69,
+     "y": 234.25,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "Fm",
+     "dir": "h",
+     "font": "ko",
+     "x": 285.69,
+     "y": 610.75,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "Cm",
+     "dir": "h",
+     "font": "ko",
+     "x": 215.69,
+     "y": 234.25,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "Fm",
+     "dir": "h",
+     "font": "ko",
+     "x": 215.69,
+     "y": 422.5,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "Cm",
+     "dir": "h",
+     "font": "ko",
+     "x": 215.69,
+     "y": 610.75,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "Fm",
+     "dir": "h",
+     "font": "ko",
+     "x": 145.69,
+     "y": 46.0,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "B♭m",
+     "dir": "h",
+     "font": "ko",
+     "x": 145.69,
+     "y": 610.75,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "Fm",
+     "dir": "h",
+     "font": "ko",
+     "x": 75.69,
+     "y": 46.0,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "Cm",
+     "dir": "h",
+     "font": "ko",
+     "x": 75.69,
+     "y": 234.25,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
     }
    ],
    "blocks": [
@@ -263,6 +450,127 @@
      "align": "right",
      "header_of": 1,
      "dy_pt": 27.0
+    },
+    {
+     "t": "Fm",
+     "dir": "h",
+     "font": "ko",
+     "x": 565.69,
+     "y": 46.0,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "Cm",
+     "dir": "h",
+     "font": "ko",
+     "x": 565.69,
+     "y": 610.75,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "Fm",
+     "dir": "h",
+     "font": "ko",
+     "x": 495.69,
+     "y": 234.25,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "Cm",
+     "dir": "h",
+     "font": "ko",
+     "x": 495.69,
+     "y": 610.75,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "Fm",
+     "dir": "h",
+     "font": "ko",
+     "x": 425.69,
+     "y": 46.0,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "Cm",
+     "dir": "h",
+     "font": "ko",
+     "x": 425.69,
+     "y": 234.25,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "Fm",
+     "dir": "h",
+     "font": "ko",
+     "x": 425.69,
+     "y": 422.5,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "B♭m",
+     "dir": "h",
+     "font": "ko",
+     "x": 355.69,
+     "y": 234.25,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "Fm",
+     "dir": "h",
+     "font": "ko",
+     "x": 355.69,
+     "y": 422.5,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "Cm",
+     "dir": "h",
+     "font": "ko",
+     "x": 355.69,
+     "y": 610.75,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "Fm",
+     "dir": "h",
+     "font": "ko",
+     "x": 285.69,
+     "y": 422.5,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
     }
    ],
    "blocks": [

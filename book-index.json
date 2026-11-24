@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-11-24T13:23:39Z",
+  "generated": "2026-11-24T14:29:21Z",
   "owner": "lks87454255",
   "repo": "jeongganview-asset",
   "branch": "main",
@@ -13,7 +13,7 @@
           "fileName": "강-산조-Fm.pdf",
           "path": "book/AI 음원/강-산조-Fm.pdf",
           "url": "https://d2gw5tky9d13ec.cloudfront.net/jeongganview-assets/book/AI%20%EC%9D%8C%EC%9B%90/%EA%B0%95-%EC%82%B0%EC%A1%B0-Fm.pdf",
-          "sizeBytes": 109057,
+          "sizeBytes": 118303,
           "pageCount": 2,
           "songs": [
             {
@@ -153,11 +153,27 @@
           "syncDurationSec": 292
         },
         {
+          "name": "어디로 갈거나-산조-Ebm",
+          "fileName": "어디로 갈거나-산조-Ebm.pdf",
+          "path": "book/AI 음원/어디로 갈거나-산조-Ebm.pdf",
+          "url": "https://d2gw5tky9d13ec.cloudfront.net/jeongganview-assets/book/AI%20%EC%9D%8C%EC%9B%90/%EC%96%B4%EB%94%94%EB%A1%9C%20%EA%B0%88%EA%B1%B0%EB%82%98-%EC%82%B0%EC%A1%B0-Ebm.pdf",
+          "sizeBytes": 152468,
+          "pageCount": 2,
+          "songs": [
+            {
+              "title": "어디로 갈거나",
+              "page": 1
+            }
+          ],
+          "hasSync": true,
+          "syncDurationSec": 243
+        },
+        {
           "name": "죽성가-산조-Ebm",
           "fileName": "죽성가-산조-Ebm.pdf",
           "path": "book/AI 음원/죽성가-산조-Ebm.pdf",
           "url": "https://d2gw5tky9d13ec.cloudfront.net/jeongganview-assets/book/AI%20%EC%9D%8C%EC%9B%90/%EC%A3%BD%EC%84%B1%EA%B0%80-%EC%82%B0%EC%A1%B0-Ebm.pdf",
-          "sizeBytes": 75494,
+          "sizeBytes": 111660,
           "pageCount": 1,
           "songs": [
             {
@@ -3343,6 +3359,6 @@
   "adminCategories": [],
   "_total": {
     "categories": 6,
-    "files": 223
+    "files": 224
   }
 }
