@@ -1,0 +1,414 @@
+{
+ "title": "어매-산조-Cm",
+ "book": "조재수 대금교본",
+ "source_pdf": "digital/민요-빈쪽.pdf",
+ "fonts": "noto",
+ "uniform_pt": 28,
+ "note": "어매(대금 조재수). 정간보 = 조재수 대금교본 어매 25쪽 원본(율명·시김새는 판독 CSV, 요성 물결선·숨표 꺾쇠는 원본 쪽 그림에서). 음원 = 사용자가 준 녹음(나훈아 - 어매.mp3)을 정간보 음높이로 -3.03반음 옮김(녹음 = 정간보 + 3반음 +3센트). 조 Cm(정간보 黃 = E♭4), 코드 진행 16곳(녹음 반주 화음 E♭m 를 정간보 음높이로). scripts/make_jojaesu_cards.py",
+ "songs": [
+  {
+   "title": "어매",
+   "page": 1,
+   "grid": 1
+  }
+ ],
+ "pages": [
+  {
+   "n": 1,
+   "kind": "jeonggan",
+   "px": [
+    595,
+    841
+   ],
+   "rect": [
+    0,
+    0,
+    595.0,
+    841.0
+   ],
+   "size": [
+    595.0,
+    841.0
+   ],
+   "janggu": [],
+   "songs": [
+    {
+     "ids": [
+      1
+     ],
+     "title": null,
+     "name": "어매"
+    }
+   ],
+   "outline_pt": 1.1,
+   "uniform_size": true,
+   "texts": [
+    {
+     "t": "어매",
+     "dir": "h",
+     "font": "kob",
+     "x": 297.5,
+     "y": 0,
+     "size": 18,
+     "size_pt": 18.0,
+     "align": "center",
+     "header_of": 1,
+     "dy_pt": 17.0
+    },
+    {
+     "t": "산조대금 Cm",
+     "dir": "h",
+     "font": "ko",
+     "x": 572,
+     "y": 0,
+     "size": 11,
+     "size_pt": 11.0,
+     "align": "right",
+     "header_of": 1,
+     "dy_pt": 8.0
+    },
+    {
+     "t": "3/4",
+     "dir": "h",
+     "font": "ko",
+     "x": 572,
+     "y": 0,
+     "size": 11,
+     "size_pt": 11.0,
+     "align": "right",
+     "header_of": 1,
+     "dy_pt": 27.0
+    },
+    {
+     "t": "Cm",
+     "dir": "h",
+     "font": "ko",
+     "x": 565.69,
+     "y": 46.0,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "Fm",
+     "dir": "h",
+     "font": "ko",
+     "x": 565.69,
+     "y": 234.25,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "Gm",
+     "dir": "h",
+     "font": "ko",
+     "x": 565.69,
+     "y": 610.75,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "Cm",
+     "dir": "h",
+     "font": "ko",
+     "x": 495.69,
+     "y": 46.0,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "Gm",
+     "dir": "h",
+     "font": "ko",
+     "x": 495.69,
+     "y": 234.25,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "Cm",
+     "dir": "h",
+     "font": "ko",
+     "x": 495.69,
+     "y": 422.5,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "E♭",
+     "dir": "h",
+     "font": "ko",
+     "x": 425.69,
+     "y": 610.75,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "Gm",
+     "dir": "h",
+     "font": "ko",
+     "x": 355.69,
+     "y": 46.0,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "Cm",
+     "dir": "h",
+     "font": "ko",
+     "x": 355.69,
+     "y": 234.25,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "Fm",
+     "dir": "h",
+     "font": "ko",
+     "x": 285.69,
+     "y": 46.0,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "Gm",
+     "dir": "h",
+     "font": "ko",
+     "x": 285.69,
+     "y": 234.25,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "Cm",
+     "dir": "h",
+     "font": "ko",
+     "x": 215.69,
+     "y": 46.0,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "Fm",
+     "dir": "h",
+     "font": "ko",
+     "x": 215.69,
+     "y": 422.5,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "Cm",
+     "dir": "h",
+     "font": "ko",
+     "x": 145.69,
+     "y": 46.0,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "Gm",
+     "dir": "h",
+     "font": "ko",
+     "x": 145.69,
+     "y": 610.75,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "Cm",
+     "dir": "h",
+     "font": "ko",
+     "x": 75.69,
+     "y": 610.75,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    }
+   ],
+   "blocks": [
+    {
+     "gridId": 1,
+     "cols": [
+      [
+       507.5,
+       553.88
+      ],
+      [
+       437.5,
+       483.88
+      ],
+      [
+       367.5,
+       413.88
+      ],
+      [
+       297.5,
+       343.88
+      ],
+      [
+       227.5,
+       273.88
+      ],
+      [
+       157.5,
+       203.88
+      ],
+      [
+       87.5,
+       133.88
+      ],
+      [
+       17.5,
+       63.88
+      ]
+     ],
+     "rows": [
+      44.0,
+      106.75,
+      169.5,
+      232.25,
+      295.0,
+      357.75,
+      420.5,
+      483.25,
+      546.0,
+      608.75,
+      671.5,
+      734.25,
+      797.0
+     ],
+     "columnConfigs": [
+      {
+       "colIndex": 1,
+       "startRow": 1,
+       "endRow": 12
+      },
+      {
+       "colIndex": 2,
+       "startRow": 1,
+       "endRow": 12
+      },
+      {
+       "colIndex": 3,
+       "startRow": 1,
+       "endRow": 12
+      },
+      {
+       "colIndex": 4,
+       "startRow": 1,
+       "endRow": 12
+      },
+      {
+       "colIndex": 5,
+       "startRow": 1,
+       "endRow": 12
+      },
+      {
+       "colIndex": 6,
+       "startRow": 1,
+       "endRow": 12
+      },
+      {
+       "colIndex": 7,
+       "startRow": 1,
+       "endRow": 12
+      },
+      {
+       "colIndex": 8,
+       "startRow": 1,
+       "endRow": 12
+      }
+     ],
+     "measures": [
+      3,
+      6,
+      9
+     ],
+     "breaths": {
+      "2": [
+       4,
+       11
+      ],
+      "3": [
+       3,
+       7
+      ],
+      "4": [
+       3,
+       7,
+       11
+      ],
+      "5": [
+       8
+      ],
+      "6": [
+       4
+      ],
+      "7": [
+       8
+      ]
+     },
+     "ticks": {},
+     "cells": [
+      "㴌㴌/ㅡ||||汰汰/ㅡ|||ㅡ/△㴌|潢|ㅡ/ㅡ應·|姑|ㅡ/ㅡ南",
+      "南||||應應/ㅡ|應/ㅡ汰|潢|應/南/林|南|||姑/姑/太",
+      "姑|||姑/南/林|南|||南/汰/汰|汰||㴌|㴌/汰/潢",
+      "應|||姑/姑/太|姑|||姑/南/林|南|||南/汰/潢",
+      "汰||㴌|ㅡ/汰潢|應||||潢潢/ㅡ|潢/ㅡ汰|潢|應/南/林",
+      "南||||㴌㴌/ㅡ||||汰汰/ㅡ|||ㅡ/△㴌",
+      "潢|ㅡ/ㅡ應·|姑|ㅡ/ㅡ南|南||||應應/ㅡ|應/ㅡ汰|潢|應/南/林",
+      "南|||△||||||||"
+     ]
+    }
+   ],
+   "waves": [
+    {
+     "x": 565.7,
+     "y0": 709.1,
+     "y1": 766.8
+    },
+    {
+     "x": 285.7,
+     "y0": 202.5,
+     "y1": 232.2
+    },
+    {
+     "x": 285.7,
+     "y0": 244.2,
+     "y1": 267.0
+    }
+   ]
+  }
+ ]
+}

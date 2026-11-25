@@ -1,0 +1,530 @@
+{
+ "title": "장녹수-산조-G",
+ "book": "조재수 대금교본",
+ "source_pdf": "digital/민요-빈쪽.pdf",
+ "fonts": "noto",
+ "uniform_pt": 28,
+ "note": "장녹수(대금 조재수). 정간보 = 조재수 대금교본 장녹수 96쪽 원본(율명·시김새는 판독 CSV, 요성 물결선·숨표 꺾쇠는 원본 쪽 그림에서). 음원 = 사용자가 준 녹음(장녹수.mp3)을 정간보 음높이로 -1.03반음 옮김(녹음 = 정간보 + 1반음 +3센트). 조 G(정간보 黃 = E♭4), 코드 진행 25곳(녹음 반주 화음 A♭ 를 정간보 음높이로). scripts/make_jojaesu_cards.py",
+ "songs": [
+  {
+   "title": "장녹수",
+   "page": 1,
+   "grid": 1
+  }
+ ],
+ "pages": [
+  {
+   "n": 1,
+   "kind": "jeonggan",
+   "px": [
+    595,
+    841
+   ],
+   "rect": [
+    0,
+    0,
+    595.0,
+    841.0
+   ],
+   "size": [
+    595.0,
+    841.0
+   ],
+   "janggu": [],
+   "songs": [
+    {
+     "ids": [
+      1
+     ],
+     "title": null,
+     "name": "장녹수"
+    }
+   ],
+   "outline_pt": 1.1,
+   "uniform_size": true,
+   "texts": [
+    {
+     "t": "장녹수",
+     "dir": "h",
+     "font": "kob",
+     "x": 297.5,
+     "y": 0,
+     "size": 18,
+     "size_pt": 18.0,
+     "align": "center",
+     "header_of": 1,
+     "dy_pt": 17.0
+    },
+    {
+     "t": "산조대금 G",
+     "dir": "h",
+     "font": "ko",
+     "x": 572,
+     "y": 0,
+     "size": 11,
+     "size_pt": 11.0,
+     "align": "right",
+     "header_of": 1,
+     "dy_pt": 8.0
+    },
+    {
+     "t": "3/4",
+     "dir": "h",
+     "font": "ko",
+     "x": 572,
+     "y": 0,
+     "size": 11,
+     "size_pt": 11.0,
+     "align": "right",
+     "header_of": 1,
+     "dy_pt": 27.0
+    },
+    {
+     "t": "Em",
+     "dir": "h",
+     "font": "ko",
+     "x": 568.05,
+     "y": 46.0,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "G",
+     "dir": "h",
+     "font": "ko",
+     "x": 568.05,
+     "y": 422.5,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "C",
+     "dir": "h",
+     "font": "ko",
+     "x": 568.05,
+     "y": 610.75,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "D",
+     "dir": "h",
+     "font": "ko",
+     "x": 512.05,
+     "y": 46.0,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "G",
+     "dir": "h",
+     "font": "ko",
+     "x": 512.05,
+     "y": 422.5,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "Em",
+     "dir": "h",
+     "font": "ko",
+     "x": 512.05,
+     "y": 610.75,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "G",
+     "dir": "h",
+     "font": "ko",
+     "x": 456.05,
+     "y": 46.0,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "C",
+     "dir": "h",
+     "font": "ko",
+     "x": 456.05,
+     "y": 610.75,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "Em",
+     "dir": "h",
+     "font": "ko",
+     "x": 400.05,
+     "y": 46.0,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "Am",
+     "dir": "h",
+     "font": "ko",
+     "x": 400.05,
+     "y": 234.25,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "D",
+     "dir": "h",
+     "font": "ko",
+     "x": 400.05,
+     "y": 610.75,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "G",
+     "dir": "h",
+     "font": "ko",
+     "x": 344.05,
+     "y": 46.0,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "Em",
+     "dir": "h",
+     "font": "ko",
+     "x": 344.05,
+     "y": 234.25,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "Am",
+     "dir": "h",
+     "font": "ko",
+     "x": 344.05,
+     "y": 610.75,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "D",
+     "dir": "h",
+     "font": "ko",
+     "x": 288.05,
+     "y": 46.0,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "G",
+     "dir": "h",
+     "font": "ko",
+     "x": 288.05,
+     "y": 422.5,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "Em",
+     "dir": "h",
+     "font": "ko",
+     "x": 288.05,
+     "y": 610.75,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "C",
+     "dir": "h",
+     "font": "ko",
+     "x": 232.05,
+     "y": 46.0,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "G",
+     "dir": "h",
+     "font": "ko",
+     "x": 232.05,
+     "y": 234.25,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "D",
+     "dir": "h",
+     "font": "ko",
+     "x": 232.05,
+     "y": 422.5,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "G",
+     "dir": "h",
+     "font": "ko",
+     "x": 232.05,
+     "y": 610.75,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "D",
+     "dir": "h",
+     "font": "ko",
+     "x": 176.05,
+     "y": 422.5,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "G",
+     "dir": "h",
+     "font": "ko",
+     "x": 176.05,
+     "y": 610.75,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "Am7",
+     "dir": "h",
+     "font": "ko",
+     "x": 120.05,
+     "y": 46.0,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "Am",
+     "dir": "h",
+     "font": "ko",
+     "x": 120.05,
+     "y": 234.25,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    }
+   ],
+   "blocks": [
+    {
+     "gridId": 1,
+     "cols": [
+      [
+       521.5,
+       558.6
+      ],
+      [
+       465.5,
+       502.6
+      ],
+      [
+       409.5,
+       446.6
+      ],
+      [
+       353.5,
+       390.6
+      ],
+      [
+       297.5,
+       334.6
+      ],
+      [
+       241.5,
+       278.6
+      ],
+      [
+       185.5,
+       222.6
+      ],
+      [
+       129.5,
+       166.6
+      ],
+      [
+       73.5,
+       110.6
+      ]
+     ],
+     "rows": [
+      44.0,
+      106.75,
+      169.5,
+      232.25,
+      295.0,
+      357.75,
+      420.5,
+      483.25,
+      546.0,
+      608.75,
+      671.5,
+      734.25,
+      797.0
+     ],
+     "columnConfigs": [
+      {
+       "colIndex": 1,
+       "startRow": 1,
+       "endRow": 12
+      },
+      {
+       "colIndex": 2,
+       "startRow": 1,
+       "endRow": 12
+      },
+      {
+       "colIndex": 3,
+       "startRow": 1,
+       "endRow": 12
+      },
+      {
+       "colIndex": 4,
+       "startRow": 1,
+       "endRow": 12
+      },
+      {
+       "colIndex": 5,
+       "startRow": 1,
+       "endRow": 12
+      },
+      {
+       "colIndex": 6,
+       "startRow": 1,
+       "endRow": 12
+      },
+      {
+       "colIndex": 7,
+       "startRow": 1,
+       "endRow": 12
+      },
+      {
+       "colIndex": 8,
+       "startRow": 1,
+       "endRow": 12
+      },
+      {
+       "colIndex": 9,
+       "startRow": 1,
+       "endRow": 12
+      }
+     ],
+     "measures": [
+      3,
+      6,
+      9
+     ],
+     "breaths": {
+      "1": [
+       8,
+       12
+      ],
+      "2": [
+       4,
+       8,
+       12
+      ],
+      "3": [
+       8
+      ],
+      "4": [
+       4,
+       8,
+       12
+      ],
+      "5": [
+       4,
+       8,
+       12
+      ],
+      "6": [
+       4,
+       8,
+       12
+      ],
+      "7": [
+       4,
+       8,
+       12
+      ],
+      "8": [
+       4,
+       8
+      ],
+      "9": [
+       4
+      ]
+     },
+     "ticks": {},
+     "cells": [
+      "南/潢|汰㳞/汰|||潢/南ㄱ|南|||潢/ㄴ|㳞|ㅡ/ㄴ|㳞",
+      "汰ㄱ/南|潢ʒ/ㅡ|||汰/ㄱ|南|||南/林ㄱ|太∽||",
+      "黃/ㄴ|仲|ㅡ/ㄴ|南/潢ʒ|南林∽/仲林|仲|||潢/ㄴ|㳞|ㅡ/ㄴ|湳/ㅡㄱ",
+      "㳞ʒ/汰ㄱ|汰|||淋|淋|||湳ㄱ∽/㳞է|淋∽||",
+      "湳ㄱ|湳|||湳淋/㳞ʒ|汰|||淋/ㅡ淋|淋||",
+      "湳ㄱ∽/㳞է|淋∽|||湳/ㄱ|㳞|||淋/ㄱ|汰||",
+      "㳞|㳞|ㅡ/И汰|潢|南ㄱ∽/仲南|林∽|||黃/太|仲||",
+      "林/南|潢∽|||㳞|汰|ㅡ/ㄴ|汰/ㄱ|南林∽/仲林|仲||ㅡ/△",
+      "㳞|淋|ㅡ/㳞|汰/潢|湳淋∽/㳞淋|㳞|||ㅡ/△|||"
+     ],
+     "pad_cols": [
+      [
+       17.5,
+       54.6
+      ]
+     ]
+    }
+   ],
+   "waves": []
+  }
+ ]
+}

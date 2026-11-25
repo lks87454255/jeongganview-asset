@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-11-25T22:03:24Z",
+  "generated": "2026-11-25T22:12:25Z",
   "owner": "lks87454255",
   "repo": "jeongganview-asset",
   "branch": "main",
@@ -3407,6 +3407,22 @@
           "syncDurationSec": 227
         },
         {
+          "name": "꽃분네야-산조-Bm",
+          "fileName": "꽃분네야-산조-Bm.pdf",
+          "path": "book/조재수 대금교본/꽃분네야-산조-Bm.pdf",
+          "url": "https://d2gw5tky9d13ec.cloudfront.net/jeongganview-assets/book/%EC%A1%B0%EC%9E%AC%EC%88%98%20%EB%8C%80%EA%B8%88%EA%B5%90%EB%B3%B8/%EA%BD%83%EB%B6%84%EB%84%A4%EC%95%BC-%EC%82%B0%EC%A1%B0-Bm.pdf",
+          "sizeBytes": 87057,
+          "pageCount": 1,
+          "songs": [
+            {
+              "title": "꽃분네야",
+              "page": 1
+            }
+          ],
+          "hasSync": true,
+          "syncDurationSec": 269
+        },
+        {
           "name": "달맞이꽃-산조-Dbm",
           "fileName": "달맞이꽃-산조-Dbm.pdf",
           "path": "book/조재수 대금교본/달맞이꽃-산조-Dbm.pdf",
@@ -3439,6 +3455,22 @@
           "syncDurationSec": 304
         },
         {
+          "name": "봄날은 간다-산조-Gm",
+          "fileName": "봄날은 간다-산조-Gm.pdf",
+          "path": "book/조재수 대금교본/봄날은 간다-산조-Gm.pdf",
+          "url": "https://d2gw5tky9d13ec.cloudfront.net/jeongganview-assets/book/%EC%A1%B0%EC%9E%AC%EC%88%98%20%EB%8C%80%EA%B8%88%EA%B5%90%EB%B3%B8/%EB%B4%84%EB%82%A0%EC%9D%80%20%EA%B0%84%EB%8B%A4-%EC%82%B0%EC%A1%B0-Gm.pdf",
+          "sizeBytes": 77808,
+          "pageCount": 1,
+          "songs": [
+            {
+              "title": "봄날은 간다",
+              "page": 1
+            }
+          ],
+          "hasSync": true,
+          "syncDurationSec": 202
+        },
+        {
           "name": "서른 즈음에-산조-Ab",
           "fileName": "서른 즈음에-산조-Ab.pdf",
           "path": "book/조재수 대금교본/서른 즈음에-산조-Ab.pdf",
@@ -3455,6 +3487,70 @@
           "syncDurationSec": 280
         },
         {
+          "name": "송인-산조-Fm",
+          "fileName": "송인-산조-Fm.pdf",
+          "path": "book/조재수 대금교본/송인-산조-Fm.pdf",
+          "url": "https://d2gw5tky9d13ec.cloudfront.net/jeongganview-assets/book/%EC%A1%B0%EC%9E%AC%EC%88%98%20%EB%8C%80%EA%B8%88%EA%B5%90%EB%B3%B8/%EC%86%A1%EC%9D%B8-%EC%82%B0%EC%A1%B0-Fm.pdf",
+          "sizeBytes": 84217,
+          "pageCount": 2,
+          "songs": [
+            {
+              "title": "송인",
+              "page": 1
+            }
+          ],
+          "hasSync": true,
+          "syncDurationSec": 196
+        },
+        {
+          "name": "약속-산조-Em",
+          "fileName": "약속-산조-Em.pdf",
+          "path": "book/조재수 대금교본/약속-산조-Em.pdf",
+          "url": "https://d2gw5tky9d13ec.cloudfront.net/jeongganview-assets/book/%EC%A1%B0%EC%9E%AC%EC%88%98%20%EB%8C%80%EA%B8%88%EA%B5%90%EB%B3%B8/%EC%95%BD%EC%86%8D-%EC%82%B0%EC%A1%B0-Em.pdf",
+          "sizeBytes": 76729,
+          "pageCount": 1,
+          "songs": [
+            {
+              "title": "약속",
+              "page": 1
+            }
+          ],
+          "hasSync": true,
+          "syncDurationSec": 180
+        },
+        {
+          "name": "어디로 가야 하나-산조-Bm",
+          "fileName": "어디로 가야 하나-산조-Bm.pdf",
+          "path": "book/조재수 대금교본/어디로 가야 하나-산조-Bm.pdf",
+          "url": "https://d2gw5tky9d13ec.cloudfront.net/jeongganview-assets/book/%EC%A1%B0%EC%9E%AC%EC%88%98%20%EB%8C%80%EA%B8%88%EA%B5%90%EB%B3%B8/%EC%96%B4%EB%94%94%EB%A1%9C%20%EA%B0%80%EC%95%BC%20%ED%95%98%EB%82%98-%EC%82%B0%EC%A1%B0-Bm.pdf",
+          "sizeBytes": 75664,
+          "pageCount": 1,
+          "songs": [
+            {
+              "title": "어디로 가야 하나",
+              "page": 1
+            }
+          ],
+          "hasSync": true,
+          "syncDurationSec": 176
+        },
+        {
+          "name": "어매-산조-Cm",
+          "fileName": "어매-산조-Cm.pdf",
+          "path": "book/조재수 대금교본/어매-산조-Cm.pdf",
+          "url": "https://d2gw5tky9d13ec.cloudfront.net/jeongganview-assets/book/%EC%A1%B0%EC%9E%AC%EC%88%98%20%EB%8C%80%EA%B8%88%EA%B5%90%EB%B3%B8/%EC%96%B4%EB%A7%A4-%EC%82%B0%EC%A1%B0-Cm.pdf",
+          "sizeBytes": 78782,
+          "pageCount": 1,
+          "songs": [
+            {
+              "title": "어매",
+              "page": 1
+            }
+          ],
+          "hasSync": true,
+          "syncDurationSec": 220
+        },
+        {
           "name": "인연-산조-Fm",
           "fileName": "인연-산조-Fm.pdf",
           "path": "book/조재수 대금교본/인연-산조-Fm.pdf",
@@ -3469,6 +3565,22 @@
           ],
           "hasSync": true,
           "syncDurationSec": 244
+        },
+        {
+          "name": "장녹수-산조-G",
+          "fileName": "장녹수-산조-G.pdf",
+          "path": "book/조재수 대금교본/장녹수-산조-G.pdf",
+          "url": "https://d2gw5tky9d13ec.cloudfront.net/jeongganview-assets/book/%EC%A1%B0%EC%9E%AC%EC%88%98%20%EB%8C%80%EA%B8%88%EA%B5%90%EB%B3%B8/%EC%9E%A5%EB%85%B9%EC%88%98-%EC%82%B0%EC%A1%B0-G.pdf",
+          "sizeBytes": 88031,
+          "pageCount": 1,
+          "songs": [
+            {
+              "title": "장녹수",
+              "page": 1
+            }
+          ],
+          "hasSync": true,
+          "syncDurationSec": 219
         },
         {
           "name": "천년학-산조-Bm",
@@ -3540,6 +3652,6 @@
   "adminCategories": [],
   "_total": {
     "categories": 7,
-    "files": 235
+    "files": 242
   }
 }

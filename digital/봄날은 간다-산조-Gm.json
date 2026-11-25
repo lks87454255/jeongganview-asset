@@ -1,0 +1,381 @@
+{
+ "title": "봄날은 간다-산조-Gm",
+ "book": "조재수 대금교본",
+ "source_pdf": "digital/민요-빈쪽.pdf",
+ "fonts": "noto",
+ "uniform_pt": 28,
+ "note": "봄날은 간다(대금 조재수). 정간보 = 조재수 대금교본 봄날은 간다 57쪽 원본(율명·시김새는 판독 CSV, 요성 물결선·숨표 꺾쇠는 원본 쪽 그림에서). 음원 = 사용자가 준 녹음(봄날은 간다.mp3)을 정간보 음높이로 -3.03반음 옮김(녹음 = 정간보 + 3반음 +3센트). 조 Gm(정간보 黃 = E♭4), 코드 진행 15곳(녹음 반주 화음 B♭m 를 정간보 음높이로). scripts/make_jojaesu_cards.py",
+ "songs": [
+  {
+   "title": "봄날은 간다",
+   "page": 1,
+   "grid": 1
+  }
+ ],
+ "pages": [
+  {
+   "n": 1,
+   "kind": "jeonggan",
+   "px": [
+    595,
+    841
+   ],
+   "rect": [
+    0,
+    0,
+    595.0,
+    841.0
+   ],
+   "size": [
+    595.0,
+    841.0
+   ],
+   "janggu": [],
+   "songs": [
+    {
+     "ids": [
+      1
+     ],
+     "title": null,
+     "name": "봄날은 간다"
+    }
+   ],
+   "outline_pt": 1.1,
+   "uniform_size": true,
+   "texts": [
+    {
+     "t": "봄날은 간다",
+     "dir": "h",
+     "font": "kob",
+     "x": 297.5,
+     "y": 0,
+     "size": 18,
+     "size_pt": 18.0,
+     "align": "center",
+     "header_of": 1,
+     "dy_pt": 17.0
+    },
+    {
+     "t": "산조대금 Gm",
+     "dir": "h",
+     "font": "ko",
+     "x": 572,
+     "y": 0,
+     "size": 11,
+     "size_pt": 11.0,
+     "align": "right",
+     "header_of": 1,
+     "dy_pt": 8.0
+    },
+    {
+     "t": "3/4",
+     "dir": "h",
+     "font": "ko",
+     "x": 572,
+     "y": 0,
+     "size": 11,
+     "size_pt": 11.0,
+     "align": "right",
+     "header_of": 1,
+     "dy_pt": 27.0
+    },
+    {
+     "t": "Gm",
+     "dir": "h",
+     "font": "ko",
+     "x": 561.75,
+     "y": 46.0,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "Dm",
+     "dir": "h",
+     "font": "ko",
+     "x": 561.75,
+     "y": 422.5,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "Cm",
+     "dir": "h",
+     "font": "ko",
+     "x": 561.75,
+     "y": 610.75,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "D",
+     "dir": "h",
+     "font": "ko",
+     "x": 468.42,
+     "y": 46.0,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "Cm",
+     "dir": "h",
+     "font": "ko",
+     "x": 468.42,
+     "y": 234.25,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "Gm",
+     "dir": "h",
+     "font": "ko",
+     "x": 468.42,
+     "y": 422.5,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "Dm",
+     "dir": "h",
+     "font": "ko",
+     "x": 468.42,
+     "y": 610.75,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "Gm",
+     "dir": "h",
+     "font": "ko",
+     "x": 375.08,
+     "y": 46.0,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "Dm",
+     "dir": "h",
+     "font": "ko",
+     "x": 375.08,
+     "y": 610.75,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "Gm",
+     "dir": "h",
+     "font": "ko",
+     "x": 281.75,
+     "y": 46.0,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "Cm",
+     "dir": "h",
+     "font": "ko",
+     "x": 281.75,
+     "y": 234.25,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "Dm",
+     "dir": "h",
+     "font": "ko",
+     "x": 281.75,
+     "y": 610.75,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "Gm",
+     "dir": "h",
+     "font": "ko",
+     "x": 95.08,
+     "y": 46.0,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "E♭",
+     "dir": "h",
+     "font": "ko",
+     "x": 95.08,
+     "y": 234.25,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "Dm",
+     "dir": "h",
+     "font": "ko",
+     "x": 95.08,
+     "y": 610.75,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    }
+   ],
+   "blocks": [
+    {
+     "gridId": 1,
+     "cols": [
+      [
+       484.17,
+       546.0
+      ],
+      [
+       390.83,
+       452.67
+      ],
+      [
+       297.5,
+       359.33
+      ],
+      [
+       204.17,
+       266.0
+      ],
+      [
+       110.83,
+       172.67
+      ],
+      [
+       17.5,
+       79.33
+      ]
+     ],
+     "rows": [
+      44.0,
+      106.75,
+      169.5,
+      232.25,
+      295.0,
+      357.75,
+      420.5,
+      483.25,
+      546.0,
+      608.75,
+      671.5,
+      734.25,
+      797.0
+     ],
+     "columnConfigs": [
+      {
+       "colIndex": 1,
+       "startRow": 1,
+       "endRow": 12
+      },
+      {
+       "colIndex": 2,
+       "startRow": 1,
+       "endRow": 12
+      },
+      {
+       "colIndex": 3,
+       "startRow": 1,
+       "endRow": 12
+      },
+      {
+       "colIndex": 4,
+       "startRow": 1,
+       "endRow": 12
+      },
+      {
+       "colIndex": 5,
+       "startRow": 1,
+       "endRow": 12
+      },
+      {
+       "colIndex": 6,
+       "startRow": 1,
+       "endRow": 12
+      }
+     ],
+     "measures": [
+      3,
+      6,
+      9
+     ],
+     "breaths": {
+      "1": [
+       4
+      ],
+      "2": [
+       4
+      ],
+      "3": [
+       7,
+       11
+      ],
+      "4": [
+       3,
+       7,
+       11
+      ],
+      "5": [
+       3,
+       7,
+       11
+      ]
+     },
+     "ticks": {},
+     "cells": [
+      "㒣/㒣|ㅡ/ㅡИ|姑/姑|ㅡ/仲|林/林|ㅡ/仲|姑||△/仲|仲/ㅡ㒣|潢|ㅡ/應潢",
+      "應∽||||㴌/㴌|ㅡ/潢|應/應|ㅡ/林|南/林|ㅡ/㒣|仲|",
+      "△/黃|㒣/ㅡ黃|姑/ㅡ仲|林/ㅡ潢|應/ㅡ林|林南/∽林仲|姑|應/潢ㄷ/㴌|㳞|||應/淋/㳞",
+      "㴌|||㳞/㴌/㳞|潢|||㴌/南/潢|應|||㴌/ﾉ",
+      "林|ㅡ/潢|應|林/仲/姑|黃|ㅡ/㒣黃|㒣∽|姑/ㅡ仲|林|ㅡ/仲林|應/ﾉ|㒣/林/仲",
+      "姑|||ㅡ/△||||||||"
+     ]
+    }
+   ],
+   "waves": [
+    {
+     "x": 468.4,
+     "y0": 95.5,
+     "y1": 232.2
+    },
+    {
+     "x": 468.4,
+     "y0": 244.2,
+     "y1": 269.5
+    },
+    {
+     "x": 188.4,
+     "y0": 571.4,
+     "y1": 648.7
+    }
+   ]
+  }
+ ]
+}
