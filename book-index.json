@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-11-25T21:12:41Z",
+  "generated": "2026-11-25T22:03:24Z",
   "owner": "lks87454255",
   "repo": "jeongganview-asset",
   "branch": "main",
@@ -3411,7 +3411,7 @@
           "fileName": "달맞이꽃-산조-Dbm.pdf",
           "path": "book/조재수 대금교본/달맞이꽃-산조-Dbm.pdf",
           "url": "https://d2gw5tky9d13ec.cloudfront.net/jeongganview-assets/book/%EC%A1%B0%EC%9E%AC%EC%88%98%20%EB%8C%80%EA%B8%88%EA%B5%90%EB%B3%B8/%EB%8B%AC%EB%A7%9E%EC%9D%B4%EA%BD%83-%EC%82%B0%EC%A1%B0-Dbm.pdf",
-          "sizeBytes": 81571,
+          "sizeBytes": 82201,
           "pageCount": 1,
           "songs": [
             {
@@ -3427,7 +3427,7 @@
           "fileName": "바램-산조-G.pdf",
           "path": "book/조재수 대금교본/바램-산조-G.pdf",
           "url": "https://d2gw5tky9d13ec.cloudfront.net/jeongganview-assets/book/%EC%A1%B0%EC%9E%AC%EC%88%98%20%EB%8C%80%EA%B8%88%EA%B5%90%EB%B3%B8/%EB%B0%94%EB%9E%A8-%EC%82%B0%EC%A1%B0-G.pdf",
-          "sizeBytes": 111173,
+          "sizeBytes": 112675,
           "pageCount": 2,
           "songs": [
             {
@@ -3443,7 +3443,7 @@
           "fileName": "서른 즈음에-산조-Ab.pdf",
           "path": "book/조재수 대금교본/서른 즈음에-산조-Ab.pdf",
           "url": "https://d2gw5tky9d13ec.cloudfront.net/jeongganview-assets/book/%EC%A1%B0%EC%9E%AC%EC%88%98%20%EB%8C%80%EA%B8%88%EA%B5%90%EB%B3%B8/%EC%84%9C%EB%A5%B8%20%EC%A6%88%EC%9D%8C%EC%97%90-%EC%82%B0%EC%A1%B0-Ab.pdf",
-          "sizeBytes": 116986,
+          "sizeBytes": 118000,
           "pageCount": 1,
           "songs": [
             {
@@ -3459,7 +3459,7 @@
           "fileName": "인연-산조-Fm.pdf",
           "path": "book/조재수 대금교본/인연-산조-Fm.pdf",
           "url": "https://d2gw5tky9d13ec.cloudfront.net/jeongganview-assets/book/%EC%A1%B0%EC%9E%AC%EC%88%98%20%EB%8C%80%EA%B8%88%EA%B5%90%EB%B3%B8/%EC%9D%B8%EC%97%B0-%EC%82%B0%EC%A1%B0-Fm.pdf",
-          "sizeBytes": 140254,
+          "sizeBytes": 159320,
           "pageCount": 2,
           "songs": [
             {
@@ -3471,11 +3471,27 @@
           "syncDurationSec": 244
         },
         {
+          "name": "천년학-산조-Bm",
+          "fileName": "천년학-산조-Bm.pdf",
+          "path": "book/조재수 대금교본/천년학-산조-Bm.pdf",
+          "url": "https://d2gw5tky9d13ec.cloudfront.net/jeongganview-assets/book/%EC%A1%B0%EC%9E%AC%EC%88%98%20%EB%8C%80%EA%B8%88%EA%B5%90%EB%B3%B8/%EC%B2%9C%EB%85%84%ED%95%99-%EC%82%B0%EC%A1%B0-Bm.pdf",
+          "sizeBytes": 97330,
+          "pageCount": 1,
+          "songs": [
+            {
+              "title": "천년학",
+              "page": 1
+            }
+          ],
+          "hasSync": true,
+          "syncDurationSec": 192
+        },
+        {
           "name": "초혼-산조-Em",
           "fileName": "초혼-산조-Em.pdf",
           "path": "book/조재수 대금교본/초혼-산조-Em.pdf",
           "url": "https://d2gw5tky9d13ec.cloudfront.net/jeongganview-assets/book/%EC%A1%B0%EC%9E%AC%EC%88%98%20%EB%8C%80%EA%B8%88%EA%B5%90%EB%B3%B8/%EC%B4%88%ED%98%BC-%EC%82%B0%EC%A1%B0-Em.pdf",
-          "sizeBytes": 92227,
+          "sizeBytes": 92009,
           "pageCount": 1,
           "songs": [
             {
@@ -3491,7 +3507,7 @@
           "fileName": "황성옛터-산조-Bbm.pdf",
           "path": "book/조재수 대금교본/황성옛터-산조-Bbm.pdf",
           "url": "https://d2gw5tky9d13ec.cloudfront.net/jeongganview-assets/book/%EC%A1%B0%EC%9E%AC%EC%88%98%20%EB%8C%80%EA%B8%88%EA%B5%90%EB%B3%B8/%ED%99%A9%EC%84%B1%EC%98%9B%ED%84%B0-%EC%82%B0%EC%A1%B0-Bbm.pdf",
-          "sizeBytes": 81908,
+          "sizeBytes": 82518,
           "pageCount": 1,
           "songs": [
             {
@@ -3507,7 +3523,7 @@
           "fileName": "회룡포-산조-Gbm.pdf",
           "path": "book/조재수 대금교본/회룡포-산조-Gbm.pdf",
           "url": "https://d2gw5tky9d13ec.cloudfront.net/jeongganview-assets/book/%EC%A1%B0%EC%9E%AC%EC%88%98%20%EB%8C%80%EA%B8%88%EA%B5%90%EB%B3%B8/%ED%9A%8C%EB%A3%A1%ED%8F%AC-%EC%82%B0%EC%A1%B0-Gbm.pdf",
-          "sizeBytes": 107021,
+          "sizeBytes": 103895,
           "pageCount": 1,
           "songs": [
             {
@@ -3524,6 +3540,6 @@
   "adminCategories": [],
   "_total": {
     "categories": 7,
-    "files": 234
+    "files": 235
   }
 }
