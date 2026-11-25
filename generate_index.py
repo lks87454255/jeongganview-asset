@@ -44,12 +44,13 @@ IGNORE = {".DS_Store", ".gitkeep", ".gitignore", "Thumbs.db"}
 
 # 레포에는 두지만 book-index.json 에 넣지 않는 PDF (레포 기준 상대 경로, 그리드 JSON 도 만들지 않음)
 # 레포에는 두지만 book-index.json 에 넣지 않는 폴더 (정간보 시트 작업 원본 — 앱 배경 목록·검색에 안 보임)
-BOOK_EXCLUDE_DIRS = {"대금율보", "조재수 대금교본", "국악이 꽃피는 나무"}
+BOOK_EXCLUDE_DIRS = {"대금율보", "국악이 꽃피는 나무"}
 
 # 관리자 기기에만 보이는 분류(테스트 중인 디지털 정간보) — book-index.json 의 "adminCategories" 로 나간다
 BOOK_ADMIN_ONLY_DIRS: set = set()
 
 BOOK_EXCLUDE: set = {
+    "book/조재수 대금교본/조재수 대금교본.pdf",   # 교본 원본(정간보 시트 작업용) — 폴더는 디지털 정간보 카드 카테고리로 쓴다(사용자 지시 2026-11-25)
     "book/대금정악보/가곡.pdf",   # 곡별 파일(book/가곡/가곡-<곡명>)로 보여 준다 — 파일·그리드·싱크 맵은 레포에 두고 카드만 숨김(사용자 결정, 2026-11-08)
 }
 
@@ -256,14 +257,15 @@ def check_book_pairs(book_dir: str):
             rel = os.path.relpath(os.path.join(root, fn), os.path.dirname(book_dir))
             if nfc(rel).replace(os.sep, "/").split("/")[1] in BOOK_EXCLUDE_DIRS:
                 continue                       # 목록에 넣지 않는 폴더는 검사도 안 함
-            if fn != nfc(fn):
-                errors.append(f"파일명이 NFC(완성형)가 아님 — 앱 URL 과 달라 404: {rel}")
             stem, ext = os.path.splitext(nfc(rel))
             rel_s = nfc(rel).replace(os.sep, "/")
-            # BOOK_EXCLUDE PDF 와 그 짝(.grid.json·.sync.json)은 목록에 넣지 않으므로 검사도 안 함
+            # BOOK_EXCLUDE PDF 와 그 짝(.grid.json·.sync.json)은 목록에 넣지 않으므로 검사도 안 함(파일 이름 NFC 검사도 —
+            #   조재수 대금교본.pdf 는 맥 사본에서 NFD 이름이지만 목록에 넣지 않는다)
             base = rel_s[:-len(GRID_SUFFIX)] if rel_s.endswith(GRID_SUFFIX) else rel_s[:-len(".sync.json")] if rel_s.endswith(".sync.json") else os.path.splitext(rel_s)[0]
             if rel_s in BOOK_EXCLUDE or base + ".pdf" in BOOK_EXCLUDE or rel_s.split("/")[1] in BOOK_EXCLUDE_DIRS:
                 continue
+            if fn != nfc(fn):
+                errors.append(f"파일명이 NFC(완성형)가 아님 — 앱 URL 과 달라 404: {rel}")
             if nfc(fn).endswith(OLD_SONGS_SUFFIX):
                 errors.append(f"폐기된 파일(곡 제목은 {GRID_SUFFIX} 의 \"songs\" 에 둔다): {nfc(rel)}")
                 continue

@@ -1,0 +1,498 @@
+{
+ "title": "황성옛터-산조-Bbm",
+ "book": "조재수 대금교본",
+ "source_pdf": "digital/민요-빈쪽.pdf",
+ "fonts": "noto",
+ "uniform_pt": 28,
+ "note": "황성옛터(대금 조재수). 정간보 = 조재수 대금교본 황성옛터 138쪽 원본(율명·시김새는 판독 CSV, 요성 물결선·숨표 꺾쇠는 원본 쪽 그림에서). 음원 = 사용자가 준 녹음(황성옛터.mp3)을 정간보 음높이로 -3.03반음 옮김(녹음 = 정간보 + 3반음 +3센트). 조 B♭m(정간보 黃 = E♭4), 코드 진행 22곳(녹음 반주 화음 D♭m 를 정간보 음높이로). scripts/make_jojaesu_cards.py",
+ "songs": [
+  {
+   "title": "황성옛터",
+   "page": 1,
+   "grid": 1
+  }
+ ],
+ "pages": [
+  {
+   "n": 1,
+   "kind": "jeonggan",
+   "px": [
+    595,
+    841
+   ],
+   "rect": [
+    0,
+    0,
+    595.0,
+    841.0
+   ],
+   "size": [
+    595.0,
+    841.0
+   ],
+   "janggu": [],
+   "songs": [
+    {
+     "ids": [
+      1
+     ],
+     "title": null,
+     "name": "황성옛터"
+    }
+   ],
+   "outline_pt": 1.1,
+   "uniform_size": true,
+   "texts": [
+    {
+     "t": "황성옛터",
+     "dir": "h",
+     "font": "kob",
+     "x": 297.5,
+     "y": 0,
+     "size": 18,
+     "size_pt": 18.0,
+     "align": "center",
+     "header_of": 1,
+     "dy_pt": 17.0
+    },
+    {
+     "t": "산조대금 B♭m",
+     "dir": "h",
+     "font": "ko",
+     "x": 572,
+     "y": 0,
+     "size": 11,
+     "size_pt": 11.0,
+     "align": "right",
+     "header_of": 1,
+     "dy_pt": 8.0
+    },
+    {
+     "t": "3/4",
+     "dir": "h",
+     "font": "ko",
+     "x": 572,
+     "y": 0,
+     "size": 11,
+     "size_pt": 11.0,
+     "align": "right",
+     "header_of": 1,
+     "dy_pt": 27.0
+    },
+    {
+     "t": "B♭m",
+     "dir": "h",
+     "font": "ko",
+     "x": 565.69,
+     "y": 46.0,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "G♭",
+     "dir": "h",
+     "font": "ko",
+     "x": 565.69,
+     "y": 234.25,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "B♭m",
+     "dir": "h",
+     "font": "ko",
+     "x": 565.69,
+     "y": 422.5,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "Fm",
+     "dir": "h",
+     "font": "ko",
+     "x": 565.69,
+     "y": 610.75,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "B♭m",
+     "dir": "h",
+     "font": "ko",
+     "x": 495.69,
+     "y": 46.0,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "E♭m",
+     "dir": "h",
+     "font": "ko",
+     "x": 495.69,
+     "y": 234.25,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "Fm",
+     "dir": "h",
+     "font": "ko",
+     "x": 495.69,
+     "y": 422.5,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "F",
+     "dir": "h",
+     "font": "ko",
+     "x": 495.69,
+     "y": 610.75,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "Fm",
+     "dir": "h",
+     "font": "ko",
+     "x": 425.69,
+     "y": 46.0,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "E♭m",
+     "dir": "h",
+     "font": "ko",
+     "x": 425.69,
+     "y": 234.25,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "Fm",
+     "dir": "h",
+     "font": "ko",
+     "x": 425.69,
+     "y": 610.75,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "F",
+     "dir": "h",
+     "font": "ko",
+     "x": 355.69,
+     "y": 46.0,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "Fm",
+     "dir": "h",
+     "font": "ko",
+     "x": 285.69,
+     "y": 46.0,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "B♭m",
+     "dir": "h",
+     "font": "ko",
+     "x": 285.69,
+     "y": 234.25,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "G♭",
+     "dir": "h",
+     "font": "ko",
+     "x": 285.69,
+     "y": 422.5,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "Fm",
+     "dir": "h",
+     "font": "ko",
+     "x": 285.69,
+     "y": 610.75,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "E♭m",
+     "dir": "h",
+     "font": "ko",
+     "x": 215.69,
+     "y": 46.0,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "G♭",
+     "dir": "h",
+     "font": "ko",
+     "x": 215.69,
+     "y": 234.25,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "F",
+     "dir": "h",
+     "font": "ko",
+     "x": 215.69,
+     "y": 610.75,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "B♭m",
+     "dir": "h",
+     "font": "ko",
+     "x": 145.69,
+     "y": 46.0,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "Fm",
+     "dir": "h",
+     "font": "ko",
+     "x": 145.69,
+     "y": 234.25,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "D♭",
+     "dir": "h",
+     "font": "ko",
+     "x": 75.69,
+     "y": 234.25,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    }
+   ],
+   "blocks": [
+    {
+     "gridId": 1,
+     "cols": [
+      [
+       507.5,
+       553.88
+      ],
+      [
+       437.5,
+       483.88
+      ],
+      [
+       367.5,
+       413.88
+      ],
+      [
+       297.5,
+       343.88
+      ],
+      [
+       227.5,
+       273.88
+      ],
+      [
+       157.5,
+       203.88
+      ],
+      [
+       87.5,
+       133.88
+      ],
+      [
+       17.5,
+       63.88
+      ]
+     ],
+     "rows": [
+      44.0,
+      106.75,
+      169.5,
+      232.25,
+      295.0,
+      357.75,
+      420.5,
+      483.25,
+      546.0,
+      608.75,
+      671.5,
+      734.25,
+      797.0
+     ],
+     "columnConfigs": [
+      {
+       "colIndex": 1,
+       "startRow": 1,
+       "endRow": 12
+      },
+      {
+       "colIndex": 2,
+       "startRow": 1,
+       "endRow": 12
+      },
+      {
+       "colIndex": 3,
+       "startRow": 1,
+       "endRow": 12
+      },
+      {
+       "colIndex": 4,
+       "startRow": 1,
+       "endRow": 12
+      },
+      {
+       "colIndex": 5,
+       "startRow": 1,
+       "endRow": 12
+      },
+      {
+       "colIndex": 6,
+       "startRow": 1,
+       "endRow": 12
+      },
+      {
+       "colIndex": 7,
+       "startRow": 1,
+       "endRow": 12
+      },
+      {
+       "colIndex": 8,
+       "startRow": 1,
+       "endRow": 12
+      }
+     ],
+     "measures": [
+      3,
+      6,
+      9
+     ],
+     "breaths": {
+      "1": [
+       6,
+       12
+      ],
+      "2": [
+       6,
+       12
+      ],
+      "3": [
+       6,
+       12
+      ],
+      "4": [
+       6,
+       12
+      ],
+      "5": [
+       6
+      ],
+      "6": [
+       6,
+       12
+      ],
+      "7": [
+       6,
+       12
+      ],
+      "8": [
+       6
+      ]
+     },
+     "ticks": {},
+     "cells": [
+      "汰||汰|浹||汰|無||汰|南||",
+      "林||無|南|林|ㄷ|太|||||",
+      "湳|||淋|ㅡ/ㅡИ|浹|淋|ㅡ/ㅡИ|浹|汰||",
+      "無||南|汰|無|南|林|||||",
+      "南||無|汰|||潕||湳/淋|湳||",
+      "潢|Z|汰|浹/汰|淋/湳淋|浹|汰|||||",
+      "淋|||浹||汰|太||林|南|Z|無",
+      "汰|Z|浹|汰|無|南|林|||||△"
+     ]
+    }
+   ],
+   "waves": [
+    {
+     "x": 565.7,
+     "y0": 278.3,
+     "y1": 350.4
+    },
+    {
+     "x": 565.7,
+     "y0": 653.4,
+     "y1": 764.4
+    },
+    {
+     "x": 285.7,
+     "y0": 652.4,
+     "y1": 776.1
+    },
+    {
+     "x": 145.7,
+     "y0": 270.1,
+     "y1": 342.2
+    },
+    {
+     "x": 145.7,
+     "y0": 459.0,
+     "y1": 537.4
+    }
+   ]
+  }
+ ]
+}

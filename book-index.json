@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-11-24T14:29:21Z",
+  "generated": "2026-11-25T21:12:41Z",
   "owner": "lks87454255",
   "repo": "jeongganview-asset",
   "branch": "main",
@@ -13,7 +13,7 @@
           "fileName": "강-산조-Fm.pdf",
           "path": "book/AI 음원/강-산조-Fm.pdf",
           "url": "https://d2gw5tky9d13ec.cloudfront.net/jeongganview-assets/book/AI%20%EC%9D%8C%EC%9B%90/%EA%B0%95-%EC%82%B0%EC%A1%B0-Fm.pdf",
-          "sizeBytes": 118303,
+          "sizeBytes": 149922,
           "pageCount": 2,
           "songs": [
             {
@@ -3354,11 +3354,176 @@
           ]
         }
       ]
+    },
+    {
+      "name": "조재수 대금교본",
+      "files": [
+        {
+          "name": "10월의 어느 멋진 날에-산조-D",
+          "fileName": "10월의 어느 멋진 날에-산조-D.pdf",
+          "path": "book/조재수 대금교본/10월의 어느 멋진 날에-산조-D.pdf",
+          "url": "https://d2gw5tky9d13ec.cloudfront.net/jeongganview-assets/book/%EC%A1%B0%EC%9E%AC%EC%88%98%20%EB%8C%80%EA%B8%88%EA%B5%90%EB%B3%B8/10%EC%9B%94%EC%9D%98%20%EC%96%B4%EB%8A%90%20%EB%A9%8B%EC%A7%84%20%EB%82%A0%EC%97%90-%EC%82%B0%EC%A1%B0-D.pdf",
+          "sizeBytes": 84117,
+          "pageCount": 1,
+          "songs": [
+            {
+              "title": "10월의 어느 멋진 날에",
+              "page": 1
+            }
+          ],
+          "hasSync": true,
+          "syncDurationSec": 252
+        },
+        {
+          "name": "El condor pasa-산조-Fm",
+          "fileName": "El condor pasa-산조-Fm.pdf",
+          "path": "book/조재수 대금교본/El condor pasa-산조-Fm.pdf",
+          "url": "https://d2gw5tky9d13ec.cloudfront.net/jeongganview-assets/book/%EC%A1%B0%EC%9E%AC%EC%88%98%20%EB%8C%80%EA%B8%88%EA%B5%90%EB%B3%B8/El%20condor%20pasa-%EC%82%B0%EC%A1%B0-Fm.pdf",
+          "sizeBytes": 99921,
+          "pageCount": 1,
+          "songs": [
+            {
+              "title": "El condor pasa",
+              "page": 1
+            }
+          ],
+          "hasSync": true,
+          "syncDurationSec": 199
+        },
+        {
+          "name": "고 본청-산조-Gm",
+          "fileName": "고 본청-산조-Gm.pdf",
+          "path": "book/조재수 대금교본/고 본청-산조-Gm.pdf",
+          "url": "https://d2gw5tky9d13ec.cloudfront.net/jeongganview-assets/book/%EC%A1%B0%EC%9E%AC%EC%88%98%20%EB%8C%80%EA%B8%88%EA%B5%90%EB%B3%B8/%EA%B3%A0%20%EB%B3%B8%EC%B2%AD-%EC%82%B0%EC%A1%B0-Gm.pdf",
+          "sizeBytes": 96130,
+          "pageCount": 1,
+          "songs": [
+            {
+              "title": "고 본청",
+              "page": 1
+            }
+          ],
+          "hasSync": true,
+          "syncDurationSec": 227
+        },
+        {
+          "name": "달맞이꽃-산조-Dbm",
+          "fileName": "달맞이꽃-산조-Dbm.pdf",
+          "path": "book/조재수 대금교본/달맞이꽃-산조-Dbm.pdf",
+          "url": "https://d2gw5tky9d13ec.cloudfront.net/jeongganview-assets/book/%EC%A1%B0%EC%9E%AC%EC%88%98%20%EB%8C%80%EA%B8%88%EA%B5%90%EB%B3%B8/%EB%8B%AC%EB%A7%9E%EC%9D%B4%EA%BD%83-%EC%82%B0%EC%A1%B0-Dbm.pdf",
+          "sizeBytes": 81571,
+          "pageCount": 1,
+          "songs": [
+            {
+              "title": "달맞이꽃",
+              "page": 1
+            }
+          ],
+          "hasSync": true,
+          "syncDurationSec": 172
+        },
+        {
+          "name": "바램-산조-G",
+          "fileName": "바램-산조-G.pdf",
+          "path": "book/조재수 대금교본/바램-산조-G.pdf",
+          "url": "https://d2gw5tky9d13ec.cloudfront.net/jeongganview-assets/book/%EC%A1%B0%EC%9E%AC%EC%88%98%20%EB%8C%80%EA%B8%88%EA%B5%90%EB%B3%B8/%EB%B0%94%EB%9E%A8-%EC%82%B0%EC%A1%B0-G.pdf",
+          "sizeBytes": 111173,
+          "pageCount": 2,
+          "songs": [
+            {
+              "title": "바램",
+              "page": 1
+            }
+          ],
+          "hasSync": true,
+          "syncDurationSec": 304
+        },
+        {
+          "name": "서른 즈음에-산조-Ab",
+          "fileName": "서른 즈음에-산조-Ab.pdf",
+          "path": "book/조재수 대금교본/서른 즈음에-산조-Ab.pdf",
+          "url": "https://d2gw5tky9d13ec.cloudfront.net/jeongganview-assets/book/%EC%A1%B0%EC%9E%AC%EC%88%98%20%EB%8C%80%EA%B8%88%EA%B5%90%EB%B3%B8/%EC%84%9C%EB%A5%B8%20%EC%A6%88%EC%9D%8C%EC%97%90-%EC%82%B0%EC%A1%B0-Ab.pdf",
+          "sizeBytes": 116986,
+          "pageCount": 1,
+          "songs": [
+            {
+              "title": "서른 즈음에",
+              "page": 1
+            }
+          ],
+          "hasSync": true,
+          "syncDurationSec": 280
+        },
+        {
+          "name": "인연-산조-Fm",
+          "fileName": "인연-산조-Fm.pdf",
+          "path": "book/조재수 대금교본/인연-산조-Fm.pdf",
+          "url": "https://d2gw5tky9d13ec.cloudfront.net/jeongganview-assets/book/%EC%A1%B0%EC%9E%AC%EC%88%98%20%EB%8C%80%EA%B8%88%EA%B5%90%EB%B3%B8/%EC%9D%B8%EC%97%B0-%EC%82%B0%EC%A1%B0-Fm.pdf",
+          "sizeBytes": 140254,
+          "pageCount": 2,
+          "songs": [
+            {
+              "title": "인연",
+              "page": 1
+            }
+          ],
+          "hasSync": true,
+          "syncDurationSec": 244
+        },
+        {
+          "name": "초혼-산조-Em",
+          "fileName": "초혼-산조-Em.pdf",
+          "path": "book/조재수 대금교본/초혼-산조-Em.pdf",
+          "url": "https://d2gw5tky9d13ec.cloudfront.net/jeongganview-assets/book/%EC%A1%B0%EC%9E%AC%EC%88%98%20%EB%8C%80%EA%B8%88%EA%B5%90%EB%B3%B8/%EC%B4%88%ED%98%BC-%EC%82%B0%EC%A1%B0-Em.pdf",
+          "sizeBytes": 92227,
+          "pageCount": 1,
+          "songs": [
+            {
+              "title": "초혼",
+              "page": 1
+            }
+          ],
+          "hasSync": true,
+          "syncDurationSec": 230
+        },
+        {
+          "name": "황성옛터-산조-Bbm",
+          "fileName": "황성옛터-산조-Bbm.pdf",
+          "path": "book/조재수 대금교본/황성옛터-산조-Bbm.pdf",
+          "url": "https://d2gw5tky9d13ec.cloudfront.net/jeongganview-assets/book/%EC%A1%B0%EC%9E%AC%EC%88%98%20%EB%8C%80%EA%B8%88%EA%B5%90%EB%B3%B8/%ED%99%A9%EC%84%B1%EC%98%9B%ED%84%B0-%EC%82%B0%EC%A1%B0-Bbm.pdf",
+          "sizeBytes": 81908,
+          "pageCount": 1,
+          "songs": [
+            {
+              "title": "황성옛터",
+              "page": 1
+            }
+          ],
+          "hasSync": true,
+          "syncDurationSec": 222
+        },
+        {
+          "name": "회룡포-산조-Gbm",
+          "fileName": "회룡포-산조-Gbm.pdf",
+          "path": "book/조재수 대금교본/회룡포-산조-Gbm.pdf",
+          "url": "https://d2gw5tky9d13ec.cloudfront.net/jeongganview-assets/book/%EC%A1%B0%EC%9E%AC%EC%88%98%20%EB%8C%80%EA%B8%88%EA%B5%90%EB%B3%B8/%ED%9A%8C%EB%A3%A1%ED%8F%AC-%EC%82%B0%EC%A1%B0-Gbm.pdf",
+          "sizeBytes": 107021,
+          "pageCount": 1,
+          "songs": [
+            {
+              "title": "회룡포",
+              "page": 1
+            }
+          ],
+          "hasSync": true,
+          "syncDurationSec": 211
+        }
+      ]
     }
   ],
   "adminCategories": [],
   "_total": {
-    "categories": 6,
-    "files": 224
+    "categories": 7,
+    "files": 234
   }
 }

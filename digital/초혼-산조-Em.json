@@ -1,0 +1,593 @@
+{
+ "title": "초혼-산조-Em",
+ "book": "조재수 대금교본",
+ "source_pdf": "digital/민요-빈쪽.pdf",
+ "fonts": "noto",
+ "uniform_pt": 28,
+ "note": "초혼(대금 조재수). 정간보 = 조재수 대금교본 초혼 125쪽 원본(율명·시김새는 판독 CSV, 요성 물결선·숨표 꺾쇠는 원본 쪽 그림에서). 음원 = 사용자가 준 녹음(초혼.mp3)을 정간보 음높이로 -0.93반음 옮김(녹음 = 정간보 + 1반음 -7센트). 조 Em(정간보 黃 = E♭4), 코드 진행 30곳(녹음 반주 화음 Fm 를 정간보 음높이로). scripts/make_jojaesu_cards.py",
+ "songs": [
+  {
+   "title": "초혼",
+   "page": 1,
+   "grid": 1
+  }
+ ],
+ "pages": [
+  {
+   "n": 1,
+   "kind": "jeonggan",
+   "px": [
+    595,
+    841
+   ],
+   "rect": [
+    0,
+    0,
+    595.0,
+    841.0
+   ],
+   "size": [
+    595.0,
+    841.0
+   ],
+   "janggu": [],
+   "songs": [
+    {
+     "ids": [
+      1
+     ],
+     "title": null,
+     "name": "초혼"
+    }
+   ],
+   "outline_pt": 1.1,
+   "uniform_size": true,
+   "texts": [
+    {
+     "t": "초혼",
+     "dir": "h",
+     "font": "kob",
+     "x": 297.5,
+     "y": 0,
+     "size": 18,
+     "size_pt": 18.0,
+     "align": "center",
+     "header_of": 1,
+     "dy_pt": 17.0
+    },
+    {
+     "t": "산조대금 Em",
+     "dir": "h",
+     "font": "ko",
+     "x": 572,
+     "y": 0,
+     "size": 11,
+     "size_pt": 11.0,
+     "align": "right",
+     "header_of": 1,
+     "dy_pt": 8.0
+    },
+    {
+     "t": "3/4",
+     "dir": "h",
+     "font": "ko",
+     "x": 572,
+     "y": 0,
+     "size": 11,
+     "size_pt": 11.0,
+     "align": "right",
+     "header_of": 1,
+     "dy_pt": 27.0
+    },
+    {
+     "t": "Am",
+     "dir": "h",
+     "font": "ko",
+     "x": 568.05,
+     "y": 46.0,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "Em",
+     "dir": "h",
+     "font": "ko",
+     "x": 568.05,
+     "y": 234.25,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "D",
+     "dir": "h",
+     "font": "ko",
+     "x": 512.05,
+     "y": 46.0,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "Em",
+     "dir": "h",
+     "font": "ko",
+     "x": 512.05,
+     "y": 422.5,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "G",
+     "dir": "h",
+     "font": "ko",
+     "x": 512.05,
+     "y": 610.75,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "C",
+     "dir": "h",
+     "font": "ko",
+     "x": 456.05,
+     "y": 46.0,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "G",
+     "dir": "h",
+     "font": "ko",
+     "x": 456.05,
+     "y": 234.25,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "Em",
+     "dir": "h",
+     "font": "ko",
+     "x": 400.05,
+     "y": 46.0,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "C",
+     "dir": "h",
+     "font": "ko",
+     "x": 400.05,
+     "y": 234.25,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "Em",
+     "dir": "h",
+     "font": "ko",
+     "x": 400.05,
+     "y": 422.5,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "Bm",
+     "dir": "h",
+     "font": "ko",
+     "x": 400.05,
+     "y": 610.75,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "Em",
+     "dir": "h",
+     "font": "ko",
+     "x": 344.05,
+     "y": 46.0,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "G",
+     "dir": "h",
+     "font": "ko",
+     "x": 344.05,
+     "y": 422.5,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "C",
+     "dir": "h",
+     "font": "ko",
+     "x": 344.05,
+     "y": 610.75,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "G",
+     "dir": "h",
+     "font": "ko",
+     "x": 288.05,
+     "y": 46.0,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "C",
+     "dir": "h",
+     "font": "ko",
+     "x": 288.05,
+     "y": 422.5,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "G",
+     "dir": "h",
+     "font": "ko",
+     "x": 288.05,
+     "y": 610.75,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "C",
+     "dir": "h",
+     "font": "ko",
+     "x": 232.05,
+     "y": 46.0,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "Em",
+     "dir": "h",
+     "font": "ko",
+     "x": 232.05,
+     "y": 234.25,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "D",
+     "dir": "h",
+     "font": "ko",
+     "x": 232.05,
+     "y": 422.5,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "Em",
+     "dir": "h",
+     "font": "ko",
+     "x": 232.05,
+     "y": 610.75,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "G",
+     "dir": "h",
+     "font": "ko",
+     "x": 176.05,
+     "y": 46.0,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "D",
+     "dir": "h",
+     "font": "ko",
+     "x": 176.05,
+     "y": 422.5,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "G",
+     "dir": "h",
+     "font": "ko",
+     "x": 176.05,
+     "y": 610.75,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "Am",
+     "dir": "h",
+     "font": "ko",
+     "x": 120.05,
+     "y": 46.0,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "Em",
+     "dir": "h",
+     "font": "ko",
+     "x": 120.05,
+     "y": 422.5,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "Am",
+     "dir": "h",
+     "font": "ko",
+     "x": 120.05,
+     "y": 610.75,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "C",
+     "dir": "h",
+     "font": "ko",
+     "x": 64.05,
+     "y": 46.0,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "G",
+     "dir": "h",
+     "font": "ko",
+     "x": 64.05,
+     "y": 234.25,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    },
+    {
+     "t": "Am",
+     "dir": "h",
+     "font": "ko",
+     "x": 64.05,
+     "y": 610.75,
+     "size": 8.0,
+     "size_pt": 8.0,
+     "align": "center",
+     "chord": true
+    }
+   ],
+   "blocks": [
+    {
+     "gridId": 1,
+     "cols": [
+      [
+       521.5,
+       558.6
+      ],
+      [
+       465.5,
+       502.6
+      ],
+      [
+       409.5,
+       446.6
+      ],
+      [
+       353.5,
+       390.6
+      ],
+      [
+       297.5,
+       334.6
+      ],
+      [
+       241.5,
+       278.6
+      ],
+      [
+       185.5,
+       222.6
+      ],
+      [
+       129.5,
+       166.6
+      ],
+      [
+       73.5,
+       110.6
+      ],
+      [
+       17.5,
+       54.6
+      ]
+     ],
+     "rows": [
+      44.0,
+      106.75,
+      169.5,
+      232.25,
+      295.0,
+      357.75,
+      420.5,
+      483.25,
+      546.0,
+      608.75,
+      671.5,
+      734.25,
+      797.0
+     ],
+     "columnConfigs": [
+      {
+       "colIndex": 1,
+       "startRow": 1,
+       "endRow": 12
+      },
+      {
+       "colIndex": 2,
+       "startRow": 1,
+       "endRow": 12
+      },
+      {
+       "colIndex": 3,
+       "startRow": 1,
+       "endRow": 12
+      },
+      {
+       "colIndex": 4,
+       "startRow": 1,
+       "endRow": 12
+      },
+      {
+       "colIndex": 5,
+       "startRow": 1,
+       "endRow": 12
+      },
+      {
+       "colIndex": 6,
+       "startRow": 1,
+       "endRow": 12
+      },
+      {
+       "colIndex": 7,
+       "startRow": 1,
+       "endRow": 12
+      },
+      {
+       "colIndex": 8,
+       "startRow": 1,
+       "endRow": 12
+      },
+      {
+       "colIndex": 9,
+       "startRow": 1,
+       "endRow": 12
+      },
+      {
+       "colIndex": 10,
+       "startRow": 1,
+       "endRow": 12
+      }
+     ],
+     "measures": [
+      3,
+      6,
+      9
+     ],
+     "breaths": {
+      "1": [
+       4
+      ],
+      "2": [
+       1
+      ],
+      "3": [
+       12
+      ],
+      "5": [
+       4
+      ],
+      "6": [
+       4,
+       8
+      ],
+      "8": [
+       4
+      ],
+      "9": [
+       1
+      ]
+     },
+     "ticks": {},
+     "cells": [
+      "南/潢|汰|ㅡ/汰潢|汰/㳞|ㅡ/汰|潢汰/潢|||ㅡ/潢汰|㳞|ㅡ/汰|潢汰/潢",
+      "仲/林南|林|||南/林仲|太∽||ㅡ/南|林/仲|南潢/南||",
+      "|太|ㅡ/仲|林/南|ㅡ/林|仲林/仲||||△/南|南/林|南/潢",
+      "ㅡ/潢汰|南|||ㅡ/林仲|太|ㅡ/仲|林/南|ㅡ/潢汰|南||",
+      "潢汰/㳞潢|汰||ㅡ/潢汰|潢/汰|潢南/南|||ㅡ/林仲|太|ㅡ/仲|林/南",
+      "ㅡ/林|仲林/仲|||南/潢|汰|ㅡ/汰潢|汰/㳞|ㅡ/汰|潢汰/潢||",
+      "ㅡ/潢汰|㳞|ㅡ/汰|潢汰/潢|仲/林南|林|||南/林仲|太∽||ㅡ/南",
+      "林/仲|南潢/南||||太|ㅡ/仲|林/南|ㅡ/林|仲林/仲||ㅡ/△",
+      "南/潢|汰|||㳞∼|南∼|||ㅡ/仲|林||南",
+      "仲∼|太|||ㅡ/△|||||||"
+     ]
+    }
+   ],
+   "waves": [
+    {
+     "x": 568.0,
+     "y0": 273.4,
+     "y1": 296.5
+    },
+    {
+     "x": 176.0,
+     "y0": 322.7,
+     "y1": 351.6
+    },
+    {
+     "x": 176.0,
+     "y0": 402.2,
+     "y1": 542.0
+    },
+    {
+     "x": 120.0,
+     "y0": 74.0,
+     "y1": 109.2
+    }
+   ]
+  }
+ ]
+}
