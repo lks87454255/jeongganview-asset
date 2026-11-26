@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-11-26T23:52:00Z",
+  "generated": "2026-11-26T23:54:21Z",
   "owner": "lks87454255",
   "repo": "jeongganview-asset",
   "branch": "main",
@@ -3232,6 +3232,27 @@
       ]
     },
     {
+      "name": "발표곡",
+      "files": [
+        {
+          "name": "청성곡-하진규",
+          "fileName": "청성곡-하진규.pdf",
+          "path": "book/발표곡/청성곡-하진규.pdf",
+          "url": "https://d2gw5tky9d13ec.cloudfront.net/jeongganview-assets/book/%EB%B0%9C%ED%91%9C%EA%B3%A1/%EC%B2%AD%EC%84%B1%EA%B3%A1-%ED%95%98%EC%A7%84%EA%B7%9C.pdf",
+          "sizeBytes": 176163,
+          "pageCount": 1,
+          "songs": [
+            {
+              "title": "청성곡",
+              "page": 1
+            }
+          ],
+          "hasSync": true,
+          "syncDurationSec": 350
+        }
+      ]
+    },
+    {
       "name": "산조",
       "files": [
         {
@@ -3651,7 +3672,7 @@
   ],
   "adminCategories": [],
   "_total": {
-    "categories": 7,
-    "files": 242
+    "categories": 8,
+    "files": 243
   }
 }
