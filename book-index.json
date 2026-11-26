@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-11-26T23:26:05Z",
+  "generated": "2026-11-26T23:35:04Z",
   "owner": "lks87454255",
   "repo": "jeongganview-asset",
   "branch": "main",
@@ -3443,7 +3443,7 @@
           "fileName": "바램-산조-G.pdf",
           "path": "book/조재수 대금교본/바램-산조-G.pdf",
           "url": "https://d2gw5tky9d13ec.cloudfront.net/jeongganview-assets/book/%EC%A1%B0%EC%9E%AC%EC%88%98%20%EB%8C%80%EA%B8%88%EA%B5%90%EB%B3%B8/%EB%B0%94%EB%9E%A8-%EC%82%B0%EC%A1%B0-G.pdf",
-          "sizeBytes": 111486,
+          "sizeBytes": 112282,
           "pageCount": 2,
           "songs": [
             {
@@ -3539,7 +3539,7 @@
           "fileName": "어매-산조-Cm.pdf",
           "path": "book/조재수 대금교본/어매-산조-Cm.pdf",
           "url": "https://d2gw5tky9d13ec.cloudfront.net/jeongganview-assets/book/%EC%A1%B0%EC%9E%AC%EC%88%98%20%EB%8C%80%EA%B8%88%EA%B5%90%EB%B3%B8/%EC%96%B4%EB%A7%A4-%EC%82%B0%EC%A1%B0-Cm.pdf",
-          "sizeBytes": 79614,
+          "sizeBytes": 79220,
           "pageCount": 1,
           "songs": [
             {
