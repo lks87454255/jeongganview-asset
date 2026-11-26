@@ -4,7 +4,7 @@
  "source_pdf": "digital/민요-빈쪽.pdf",
  "fonts": "noto",
  "uniform_pt": 28,
- "note": "바램(대금 조재수). 정간보 = 조재수 대금교본 바램 51, 52쪽 원본(율명·시김새는 판독 CSV, 요성 물결선·숨표 꺾쇠는 원본 쪽 그림에서). 음원 = 사용자가 준 녹음(노사연 - 바램.mp3)을 정간보 음높이로 -3.83반음 옮김(녹음 = 정간보 + 4반음 -17센트). 조 G(정간보 黃 = E♭4), 코드 진행 43곳(녹음 반주 화음 B 를 정간보 음높이로). scripts/make_jojaesu_cards.py",
+ "note": "바램(대금 조재수). 정간보 = 조재수 대금교본 바램 51, 52쪽 원본(율명·시김새는 판독 CSV, 요성 물결선·숨표 꺾쇠는 원본 쪽 그림에서). 음원 = 사용자가 준 녹음(노사연 - 바램.mp3)을 정간보 음높이로 -3.83반음 옮김(녹음 = 정간보 + 4반음 -17센트). 조 G(정간보 黃 = E♭4), 코드 진행 43곳(녹음 반주 화음 B 를 정간보 음높이로). scripts/make_jojaesu_cards.py 박자 4/4 로 고침(사용자 지시 2026-11-27: 마디 4정간, 코드는 4정간 마디마다 가장 오래 울리는 화음).",
  "songs": [
   {
    "title": "바램",
@@ -68,7 +68,7 @@
      "dy_pt": 8.0
     },
     {
-     "t": "3/4",
+     "t": "4/4",
      "dir": "h",
      "font": "ko",
      "x": 572,
@@ -95,7 +95,7 @@
      "dir": "h",
      "font": "ko",
      "x": 565.69,
-     "y": 422.5,
+     "y": 548.0,
      "size": 8.0,
      "size_pt": 8.0,
      "align": "center",
@@ -107,28 +107,6 @@
      "font": "ko",
      "x": 495.69,
      "y": 46.0,
-     "size": 8.0,
-     "size_pt": 8.0,
-     "align": "center",
-     "chord": true
-    },
-    {
-     "t": "C",
-     "dir": "h",
-     "font": "ko",
-     "x": 495.69,
-     "y": 422.5,
-     "size": 8.0,
-     "size_pt": 8.0,
-     "align": "center",
-     "chord": true
-    },
-    {
-     "t": "G",
-     "dir": "h",
-     "font": "ko",
-     "x": 495.69,
-     "y": 610.75,
      "size": 8.0,
      "size_pt": 8.0,
      "align": "center",
@@ -146,22 +124,11 @@
      "chord": true
     },
     {
-     "t": "D",
-     "dir": "h",
-     "font": "ko",
-     "x": 425.69,
-     "y": 422.5,
-     "size": 8.0,
-     "size_pt": 8.0,
-     "align": "center",
-     "chord": true
-    },
-    {
      "t": "G",
      "dir": "h",
      "font": "ko",
      "x": 425.69,
-     "y": 610.75,
+     "y": 548.0,
      "size": 8.0,
      "size_pt": 8.0,
      "align": "center",
@@ -183,7 +150,7 @@
      "dir": "h",
      "font": "ko",
      "x": 355.69,
-     "y": 610.75,
+     "y": 548.0,
      "size": 8.0,
      "size_pt": 8.0,
      "align": "center",
@@ -195,17 +162,6 @@
      "font": "ko",
      "x": 285.69,
      "y": 46.0,
-     "size": 8.0,
-     "size_pt": 8.0,
-     "align": "center",
-     "chord": true
-    },
-    {
-     "t": "G",
-     "dir": "h",
-     "font": "ko",
-     "x": 285.69,
-     "y": 422.5,
      "size": 8.0,
      "size_pt": 8.0,
      "align": "center",
@@ -216,7 +172,7 @@
      "dir": "h",
      "font": "ko",
      "x": 285.69,
-     "y": 610.75,
+     "y": 548.0,
      "size": 8.0,
      "size_pt": 8.0,
      "align": "center",
@@ -228,28 +184,6 @@
      "font": "ko",
      "x": 215.69,
      "y": 46.0,
-     "size": 8.0,
-     "size_pt": 8.0,
-     "align": "center",
-     "chord": true
-    },
-    {
-     "t": "D",
-     "dir": "h",
-     "font": "ko",
-     "x": 215.69,
-     "y": 422.5,
-     "size": 8.0,
-     "size_pt": 8.0,
-     "align": "center",
-     "chord": true
-    },
-    {
-     "t": "G",
-     "dir": "h",
-     "font": "ko",
-     "x": 215.69,
-     "y": 610.75,
      "size": 8.0,
      "size_pt": 8.0,
      "align": "center",
@@ -267,22 +201,11 @@
      "chord": true
     },
     {
-     "t": "D",
-     "dir": "h",
-     "font": "ko",
-     "x": 145.69,
-     "y": 422.5,
-     "size": 8.0,
-     "size_pt": 8.0,
-     "align": "center",
-     "chord": true
-    },
-    {
      "t": "G",
      "dir": "h",
      "font": "ko",
      "x": 145.69,
-     "y": 610.75,
+     "y": 548.0,
      "size": 8.0,
      "size_pt": 8.0,
      "align": "center",
@@ -300,22 +223,11 @@
      "chord": true
     },
     {
-     "t": "G",
-     "dir": "h",
-     "font": "ko",
-     "x": 75.69,
-     "y": 422.5,
-     "size": 8.0,
-     "size_pt": 8.0,
-     "align": "center",
-     "chord": true
-    },
-    {
      "t": "D",
      "dir": "h",
      "font": "ko",
      "x": 75.69,
-     "y": 610.75,
+     "y": 548.0,
      "size": 8.0,
      "size_pt": 8.0,
      "align": "center",
@@ -417,9 +329,8 @@
       }
      ],
      "measures": [
-      3,
-      6,
-      9
+      4,
+      8
      ],
      "breaths": {
       "1": [
@@ -499,7 +410,7 @@
      "dy_pt": 8.0
     },
     {
-     "t": "3/4",
+     "t": "4/4",
      "dir": "h",
      "font": "ko",
      "x": 572,
@@ -522,22 +433,11 @@
      "chord": true
     },
     {
-     "t": "C",
-     "dir": "h",
-     "font": "ko",
-     "x": 565.69,
-     "y": 422.5,
-     "size": 8.0,
-     "size_pt": 8.0,
-     "align": "center",
-     "chord": true
-    },
-    {
      "t": "Am",
      "dir": "h",
      "font": "ko",
      "x": 565.69,
-     "y": 610.75,
+     "y": 548.0,
      "size": 8.0,
      "size_pt": 8.0,
      "align": "center",
@@ -555,22 +455,11 @@
      "chord": true
     },
     {
-     "t": "D",
-     "dir": "h",
-     "font": "ko",
-     "x": 495.69,
-     "y": 422.5,
-     "size": 8.0,
-     "size_pt": 8.0,
-     "align": "center",
-     "chord": true
-    },
-    {
      "t": "G",
      "dir": "h",
      "font": "ko",
      "x": 495.69,
-     "y": 610.75,
+     "y": 548.0,
      "size": 8.0,
      "size_pt": 8.0,
      "align": "center",
@@ -588,22 +477,11 @@
      "chord": true
     },
     {
-     "t": "G",
-     "dir": "h",
-     "font": "ko",
-     "x": 425.69,
-     "y": 422.5,
-     "size": 8.0,
-     "size_pt": 8.0,
-     "align": "center",
-     "chord": true
-    },
-    {
      "t": "D",
      "dir": "h",
      "font": "ko",
      "x": 425.69,
-     "y": 610.75,
+     "y": 548.0,
      "size": 8.0,
      "size_pt": 8.0,
      "align": "center",
@@ -625,7 +503,7 @@
      "dir": "h",
      "font": "ko",
      "x": 355.69,
-     "y": 422.5,
+     "y": 548.0,
      "size": 8.0,
      "size_pt": 8.0,
      "align": "center",
@@ -637,39 +515,6 @@
      "font": "ko",
      "x": 285.69,
      "y": 46.0,
-     "size": 8.0,
-     "size_pt": 8.0,
-     "align": "center",
-     "chord": true
-    },
-    {
-     "t": "C",
-     "dir": "h",
-     "font": "ko",
-     "x": 285.69,
-     "y": 422.5,
-     "size": 8.0,
-     "size_pt": 8.0,
-     "align": "center",
-     "chord": true
-    },
-    {
-     "t": "G",
-     "dir": "h",
-     "font": "ko",
-     "x": 285.69,
-     "y": 610.75,
-     "size": 8.0,
-     "size_pt": 8.0,
-     "align": "center",
-     "chord": true
-    },
-    {
-     "t": "D",
-     "dir": "h",
-     "font": "ko",
-     "x": 215.69,
-     "y": 422.5,
      "size": 8.0,
      "size_pt": 8.0,
      "align": "center",
@@ -680,7 +525,7 @@
      "dir": "h",
      "font": "ko",
      "x": 215.69,
-     "y": 610.75,
+     "y": 548.0,
      "size": 8.0,
      "size_pt": 8.0,
      "align": "center",
@@ -702,7 +547,7 @@
      "dir": "h",
      "font": "ko",
      "x": 145.69,
-     "y": 234.25,
+     "y": 297.0,
      "size": 8.0,
      "size_pt": 8.0,
      "align": "center",
@@ -713,7 +558,7 @@
      "dir": "h",
      "font": "ko",
      "x": 145.69,
-     "y": 610.75,
+     "y": 548.0,
      "size": 8.0,
      "size_pt": 8.0,
      "align": "center",
@@ -735,7 +580,7 @@
      "dir": "h",
      "font": "ko",
      "x": 75.69,
-     "y": 422.5,
+     "y": 548.0,
      "size": 8.0,
      "size_pt": 8.0,
      "align": "center",
@@ -837,9 +682,8 @@
       }
      ],
      "measures": [
-      3,
-      6,
-      9
+      4,
+      8
      ],
      "breaths": {
       "1": [
