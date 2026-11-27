@@ -1,13 +1,13 @@
 {
  "version": 1,
  "pdf": "book/발표곡/청성곡-하진규.pdf",
- "note": "음원: 청성곡-하진규_v2.m4a — 하진규 연주 녹음에서 길게 끄는 음의 잔 떨림·튀는 크기만 고르게(scripts/make_cheongseong.py --smooth, 음높이·시각 그대로). 앵커 = 녹음 음높이(YIN 40ms)와 정간보 율명 차례를 구간 DP 로 맞댄 정간마다(녹음 = 악보 黃=E♭4 +0.5반음, 평균 어긋남 0.40반음, 정간 길이 벌점 구간 DP). scripts/make_cheongseong.py --sync",
+ "note": "음원: 청성곡-하진규_v4.m4a — 하진규 연주 녹음에서 280Hz 아래 바람 소리와 길게 끄는 음의 맥놀이(기본음 옆 비정수배 소리)를 빼고 잔 떨림·튀는 크기를 고르게(scripts/make_cheongseong.py --smooth, 음높이·시각 그대로). 앵커 = 녹음 음높이(YIN 40ms)와 정간보 율명 차례를 구간 DP 로 맞댄 정간마다(녹음 = 악보 黃=E♭4 +0.5반음, 평균 어긋남 0.40반음, 정간 길이 벌점 구간 DP). scripts/make_cheongseong.py --sync",
  "tracks": [
   {
-   "clipid": "asset:sync-audio/청성곡-하진규_v2.m4a",
+   "clipid": "asset:sync-audio/청성곡-하진규_v4.m4a",
    "title": "청성곡 (대금 하진규)",
-   "url": "https://d2gw5tky9d13ec.cloudfront.net/jeongganview-assets/sync-audio/%EC%B2%AD%EC%84%B1%EA%B3%A1-%ED%95%98%EC%A7%84%EA%B7%9C_v2.m4a",
-   "bytes": 5970883,
+   "url": "https://d2gw5tky9d13ec.cloudfront.net/jeongganview-assets/sync-audio/%EC%B2%AD%EC%84%B1%EA%B3%A1-%ED%95%98%EC%A7%84%EA%B7%9C_v4.m4a",
+   "bytes": 6194660,
    "durationMs": 349507,
    "from": {
     "page": 1,
