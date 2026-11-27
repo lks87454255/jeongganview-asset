@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-11-27T15:30:34Z",
+  "generated": "2026-11-27T15:51:42Z",
   "owner": "lks87454255",
   "repo": "jeongganview-asset",
   "branch": "main",
@@ -173,12 +173,16 @@
           "fileName": "여백-단소-Bbm.pdf",
           "path": "book/AI 음원/여백-단소-Bbm.pdf",
           "url": "https://d2gw5tky9d13ec.cloudfront.net/jeongganview-assets/book/AI%20%EC%9D%8C%EC%9B%90/%EC%97%AC%EB%B0%B1-%EB%8B%A8%EC%86%8C-Bbm.pdf",
-          "sizeBytes": 158078,
-          "pageCount": 1,
+          "sizeBytes": 207530,
+          "pageCount": 2,
           "songs": [
             {
               "title": "여백",
               "page": 1
+            },
+            {
+              "title": "여백",
+              "page": 2
             }
           ],
           "hasSync": true,
