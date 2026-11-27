@@ -5,58 +5,48 @@
     "1": [
       {
         "gridId": 1,
-        "cols": 10,
-        "rows": 12,
+        "cols": 8,
+        "rows": 16,
         "columnConfigs": [
           {
             "colIndex": 1,
-            "startRow": 1,
-            "endRow": 12
+            "startRow": 3,
+            "endRow": 16
           },
           {
             "colIndex": 2,
             "startRow": 1,
-            "endRow": 12
+            "endRow": 16
           },
           {
             "colIndex": 3,
             "startRow": 1,
-            "endRow": 12
+            "endRow": 16
           },
           {
             "colIndex": 4,
             "startRow": 1,
-            "endRow": 12
+            "endRow": 16
           },
           {
             "colIndex": 5,
             "startRow": 1,
-            "endRow": 12
+            "endRow": 16
           },
           {
             "colIndex": 6,
             "startRow": 1,
-            "endRow": 12
+            "endRow": 16
           },
           {
             "colIndex": 7,
             "startRow": 1,
-            "endRow": 12
+            "endRow": 16
           },
           {
             "colIndex": 8,
             "startRow": 1,
-            "endRow": 12
-          },
-          {
-            "colIndex": 9,
-            "startRow": 1,
-            "endRow": 12
-          },
-          {
-            "colIndex": 10,
-            "startRow": 1,
-            "endRow": 12
+            "endRow": 16
           }
         ],
         "x": 0.0294,
@@ -69,58 +59,48 @@
     "2": [
       {
         "gridId": 1,
-        "cols": 9,
-        "rows": 12,
+        "cols": 7,
+        "rows": 16,
         "columnConfigs": [
           {
             "colIndex": 1,
             "startRow": 1,
-            "endRow": 12
+            "endRow": 16
           },
           {
             "colIndex": 2,
             "startRow": 1,
-            "endRow": 12
+            "endRow": 16
           },
           {
             "colIndex": 3,
             "startRow": 1,
-            "endRow": 12
+            "endRow": 16
           },
           {
             "colIndex": 4,
             "startRow": 1,
-            "endRow": 12
+            "endRow": 16
           },
           {
             "colIndex": 5,
             "startRow": 1,
-            "endRow": 12
+            "endRow": 16
           },
           {
             "colIndex": 6,
             "startRow": 1,
-            "endRow": 12
+            "endRow": 16
           },
           {
             "colIndex": 7,
             "startRow": 1,
-            "endRow": 12
-          },
-          {
-            "colIndex": 8,
-            "startRow": 1,
-            "endRow": 12
-          },
-          {
-            "colIndex": 9,
-            "startRow": 1,
-            "endRow": 12
+            "endRow": 6
           }
         ],
-        "x": 0.1235,
+        "x": 0.1471,
         "y": 0.0832,
-        "width": 0.8471,
+        "width": 0.8235,
         "height": 0.8954,
         "title": "인연-산조-Fm · 인연"
       }
@@ -133,5 +113,5 @@
       "grid": 1
     }
   ],
-  "beatsPerBar": 3
+  "beatsPerBar": 4
 }
